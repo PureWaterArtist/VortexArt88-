@@ -33,7 +33,7 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 ---
 
 ## 🧬 Core Mechanics & Physics
-
+📖 *Want the full blueprint? Read the [Exhaustive Biomimetic Fertigation System Master Manual](Documentation/BIOMIMETIC_FERTIGATION_SYSTEM.md) covering fluid dynamics, electroculture, and organic nutrient cycling.*
 👉 *For advanced agricultural setups, read the full [Paramagnetic & Electroculture Integration Guide](Documentation/PARAMAGNETIC_FLUID_MANIFOLD.md).
 
 🔧 *Working with a limited budget? Build the low-cost proof-of-concept using our [Step-by-Step Garage Prototype Guide](Documentation/GARAGE_PROTOTYPE.md).*
