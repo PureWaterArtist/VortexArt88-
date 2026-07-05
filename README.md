@@ -1,5 +1,7 @@
 # VortexArt88: The Twin-Vortex Singularity Project
 
+[![Manifesto](https://shields.io)](MANIFESTO.md)
+
 ## 🚀 Project Overview
 VortexArt88 is an open-source, decentralized water purification and aeration initiative that replaces traditional chemical treatments with high-velocity biomimetic fluid dynamics. Utilizing mirror-imaged, 3D-printed golden ratio (Φ) nozzles, the system drives two counter-rotating fluid columns inside a unified figure-8 chamber. At the geometric intersection, the opposing velocity vectors cancel out to create a stable, highly aerating, visual "water singularity."
 
