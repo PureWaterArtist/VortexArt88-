@@ -36,6 +36,8 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 
 👉 *For advanced agricultural setups, read the full [Paramagnetic & Electroculture Integration Guide](Documentation/PARAMAGNETIC_FLUID_MANIFOLD.md).
 
+🔧 *Working with a limited budget? Build the low-cost proof-of-concept using our [Step-by-Step Garage Prototype Guide](Documentation/GARAGE_PROTOTYPE.md).*
+
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
 *   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
