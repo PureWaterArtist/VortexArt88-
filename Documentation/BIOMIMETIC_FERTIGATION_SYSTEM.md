@@ -107,4 +107,28 @@ As clean main-line water forces through the restricted neck of the Venturi, the 
 ### B. Macro-Scale Digestion Bioswales
 At the municipal scale, the upper terraced bioswales feed storm runoff into a central retention wetland carpeted with native floating bio-accumulators like **duckweed** (*Lemna minor*). These plants extract heavy agricultural nitrate and phosphorus runoff from the water table, converting pollution into dense green biomass. 
 
+The biomass is harvested and fed into anaerobic sub-grade digestion vault situated beneath the park mezzanine. The resulting mineral-rich liquid digestor effluent is metered directly into the main 10-inch municipal inflow lines feeding the 12-foot concrete silos. As the sludge slams into the high-velocity central Singularity Axis, the intense atmospheric oxygen shock completely de-odorizes the mixture, while mechanical cell-wall shearing neutralizes pathogens, discharging odorless, pathogen-free liquid nutrients directly to regional community farms
+ 
+🖨️ 7. Manufacturing & 3D Slicing ProtocolsAll operational fluid nozzles are published under universal .STEP and .STL formats inside the /CAD/ directory of the master repository.
+A. The Mirror-Image Compilation Rule
+ Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle file
+ :Nozzle A (Clockwise): Import the baseline file (Schauberger_Imploder_Funnel.stl) into your slicer and print exactly as-is.
+ Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer's toolbar options, and select the Mirror tool. Mirror the model strictly along the X-Axis before slicing to generate the matching opposite twin.
+ B. Slicer Parameters for Hydraulic Integrity
+ Material: PETG, Nylon, or Tough Resin (PLA is acceptable for quick bench-top testing but degrades in outdoor UV light).
+ Wall Loops / Perimeters: Minimum of 4 to 5 walls. (Crucial to prevent high pump pressure from leaking through internal layer lines).
+ Infill Density: 40% to 50% Gyroid infill for maximum structural rigidity under load.
+ Layer Height: 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
+ 
+📜 8. Licensing, Open Source Framework, and AttributionProject Leader & Original Inventor: [John Graham]
+Repository Master Registry: https://github.com
+OSHW Certification Status: Formally Submitted / Pending Review Portal Verification
+This entire hardware ecosystem and all associated documentation files are released completely un-gated to humanity for rapid, global replication under the copyleft terms of the following licenses:
+Physical Hardware Specifications: CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+Software Automation Protocols: GNU General Public License v3.0 (GPL-3.0)
+Written Manuals & Media Assets: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)
+Print it. Build it. Share it. Free the water. Energize the earth.
+
+compiled Master Biomimetic Fertigation System specifications sheet
+
 This is the Path to Life.
