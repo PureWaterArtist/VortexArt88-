@@ -111,9 +111,9 @@ The biomass is harvested and fed into anaerobic sub-grade digestion vault situat
  
 🖨️ 7. Manufacturing & 3D Slicing ProtocolsAll operational fluid nozzles are published under universal .STEP and .STL formats inside the /CAD/ directory of the master repository.
 A. The Mirror-Image Compilation Rule
- Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle file
- :Nozzle A (Clockwise): Import the baseline file (Schauberger_Imploder_Funnel.stl) into your slicer and print exactly as-is.
- Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer's toolbar options, and select the Mirror tool. Mirror the model strictly along the X-Axis before slicing to generate the matching opposite twin.
+Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle file:
+Nozzle A (Clockwise): Import the baseline file (Schauberger_Imploder_Funnel.stl) into your slicer and print exactly as-is.
+Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer's toolbar options, and select the Mirror tool. Mirror the model strictly along the X-Axis before slicing to generate the matching opposite twin.
  B. Slicer Parameters for Hydraulic Integrity
  Material: PETG, Nylon, or Tough Resin (PLA is acceptable for quick bench-top testing but degrades in outdoor UV light).
  Wall Loops / Perimeters: Minimum of 4 to 5 walls. (Crucial to prevent high pump pressure from leaking through internal layer lines).
