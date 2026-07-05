@@ -9,6 +9,29 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ---
 
+## 🖨️ 3D Printing & Mirroring Guide (How to Print the Twins)
+
+Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle. Our `/CAD/` folder contains the baseline clockwise file. You do not need a second file; you generate the twin directly inside your free 3D printing slicing software (e.g., Bambu Studio, Cura, or PrusaSlicer).
+
+### 🔄 Nozzle A: The Clockwise Engine
+1. Import `Schauberger_Imploder_Funnel.stl` into your slicer.
+2. Orient the part flat on your build plate.
+3. Print this file exactly as-is to generate the **Clockwise** vortex flow.
+
+### 🔄 Nozzle B: The Counter-Clockwise Twin (The Mirror Move)
+1. Import a second copy of `Schauberger_Imploder_Funnel.stl` into an empty workspace.
+2. Select the model, right-click (or use the left-hand toolbar), and select the **Mirror** tool.
+3. Flip/Mirror the model strictly along the **X-Axis**.
+4. Slice and print this mirrored file to generate the **Counter-Clockwise** vortex flow.
+
+### 📐 Recommended Slicer Settings for Watertight Parts:
+*   **Material:** PETG or Tough Resin (PLA is acceptable for quick bench-top testing but degrades in outdoor UV light).
+*   **Wall Loops / Perimeters:** Minimum of **4 to 5 walls**. *(Crucial to prevent high pump pressure from leaking through internal layer lines).*
+*   **Infill Density:** 40% to 50% Gyroid infill for maximum structural rigidity under load.
+*   **Layer Height:** 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
+
+---
+
 ## 🧬 Core Mechanics & Physics
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
@@ -23,6 +46,8 @@ This project is released under an open-source framework. We are actively seeking
 *   **CAD / 3D Parametric Design:** Creating scalable NPT thread standards for the nozzle attachments.
 *   **Water Quality Testing:** Developing testing protocols for measuring dissolved oxygen and turbidity reductions.
 
+Attribution:
+*Baseline nozzle geometry remixed under Creative Commons from MrThomas (Thingiverse ID: 3095579).*
 ---
 
 ## 📜 Open-Source License & Total Freedom of Use
@@ -38,4 +63,4 @@ You are explicitly encouraged to:
 The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, sell it, modify it—free the water.**
 
 
-Initial commit of project overview
+
