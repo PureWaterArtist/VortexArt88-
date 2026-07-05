@@ -23,10 +23,17 @@ This project is released under an open-source framework. We are actively seeking
 
 ---
 
-## 📜 Intellectual Property & Attribution
-**Project Leader & Original Inventor:** John Graham  
-**Contact:** [vortexart88@gmail.com]  
+## 📜 Open-Source License & Total Freedom of Use
+**Project Visionary:** [John Graham]  
 
-All derivative works, modifications, and commercial kit distributions must maintain attribution to the original design framework and remain open-source under the terms of the project's repository license.
+This project is fully open-source and intended for rapid, un-gated global replication. It is released under the **CERN Open Hardware License (Strongly Reciprocal)** or **Creative Commons Attribution-ShareAlike**. 
+
+You are explicitly encouraged to:
+*   **Copy, download, fork, and share** these files anywhere on the planet.
+*   **Modify, upscale, downscale, or completely redesign** the geometries to fit your local plumbing standards.
+*   **Build, manufacture, and commercially sell** these nozzles and kits to your local communities.
+
+The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, sell it, modify it—free the water.**
+
 
 Initial commit of project overview
