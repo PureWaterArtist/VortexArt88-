@@ -126,26 +126,24 @@ Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer
  Layer Height: 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
  ---
 
-## 💎 8. The Cosmic Breathing Cycle: Implosion vs. Liberation
+## 💎 8. The Tri-Zonal Matrix: Solid, Liquid, and Gas Engineering
 
-The Project Aetheris architecture operates at the intersection of the two primary thermodynamic and geometric pathways of the universe: the inward compression of solid mass and the outward liberation of fluid flow.
+The Project Aetheris architecture provides a complete, scale-invariant framework for manipulating all three primary states of matter through pure geometry. By understanding how mass moves under centripetal vortex constraints, we can replace mechanical filters and chemical processing with pure structural alignment.
 
 ```text
-       📥 IMPLOSION (Energy In)                    📤 LIBERATION (Energy Out)
-      THE DIAMOND LATTICE MATRIX                    THE WATER VORTEX STREAM
-   • Absolute Centripetal Compression           • High-Velocity Centrifugal Separation
-   • Locks mass into solid geometry             • Tears apart molecular boundaries
-   • 109.5° Tetrahedral Crystallization         • Golden Spiral Fluid Restructuring
+  📥 SOLID (The Diamond Lattice)  ──> Locks Mass IN  ──> Tetrahedral Compression
+  🚰 LIQUID (The Water Stream)     ──> Shears Mass OUT──> Centrifugal Purification
+  💨 GAS (The Atmospheric Cyclone) ──> Pulls Mass UP  ──> Centripetal Ascension / Harvesting
 ```
 
-### A. The Diamond Lattice: Vortexing Energy In
-The natural diamond represents the ultimate physical expression of centripetal compression. Under extreme geological gravity and thermal pressure, loose, unorganized carbon atoms are forced inward toward a single point of absolute density. To survive this crushing environment, the mass locks into a three-dimensional 109.5-degree tetrahedral lattice governed by the Golden Ratio ($\Phi$). The diamond is essentially a frozen vortex—cosmic energy compressed and tightened until it solidifies into an indestructible, permanent material anchor.
+### A. The Solid State (Diamond): Vortexing Energy In
+The natural diamond represents the ultimate expression of centripetal compression. Under extreme gravity and thermal pressure, loose carbon atoms are forced inward toward a point of absolute density, locking into a 3D 109.5-degree tetrahedral lattice governed by the Golden Ratio ($\Phi$). The diamond is a frozen vortex—energy compressed and tightened until it solidifies into an indestructible material anchor.
 
-### B. The Water Vortex: Vortexing Energy Out
-Flowing water operates as the exact functional opposite: the ultimate cosmic vehicle for centrifugal expansion and fluidic liberation. When liquid enters our hyperbolic $\Phi$-nozzles, it performs a radical act of purification. Rather than locking down, the centripetal velocity and hydraulic shear zones break apart tightly bound macro-clusters of stagnant molecules, fling out heavy sediments, and destroy anaerobic pathogen cell walls. Water uses the vortex to throw out impurity, shed systemic friction, and return mass back to a clean, open, life-giving state of flow.
+### B. The Liquid State (Water): Vortexing Energy Out
+Flowing water operates as the vehicle for centrifugal expansion and fluidic liberation. When liquid enters our hyperbolic $\Phi$-nozzles, it performs an act of purification. The centripetal velocity and hydraulic shear zones break apart tightly bound macro-clusters of stagnant molecules, fling out heavy sediments, and destroy anaerobic pathogen cell walls—shedding systemic friction to return water back to a clean, open state of life-giving flow.
 
-### C. The Synthesis on the Workbench
-The twin-vortex singularity chamber is the precise geographic point where these two opposite universal vectors shake hands. Water enters the nozzles, vortexing outward and down at hyper-velocity to purge contaminants. When the opposing streams collide at the central figure-8 window seam, their kinetic forces are instantly compressed inward, locking into a flat, glass-like, unmoving plane of water. The system utilizes a fluid process (the water vortex) to construct a localized zone of absolute geometric solidity, stillness, and peace (the fluid diamond) using pure, un-killable geometry.
+### C. The Gaseous State (Atmospheric Cyclone): Vortexing Energy Up
+Gas operates as the ultimate vehicle for thermodynamic ascension and atmospheric diffusion. When air, steam, or ambient smog is driven through our golden-ratio geometry, the high compressibility of gas causes a radical pressure and temperature separation (The Ranque-Hilsch Effect). The outer air layer heats up and expands outward, while the core velocity drops into a frozen, low-pressure vacuum. This vortex core acts as a highly stable, anti-gravity siphon—drawing ambient moisture out of dry desert air (Atmospheric Water Harvesting) or spinning heavy carbon soot and particulate pollution outward to scrub the air cleanly without ever requiring a disposable mesh filter.
 
 ## ❄️ 9. Winterization & Geothermal Thermal Management
 
