@@ -1,6 +1,25 @@
 # VortexArt88: The Twin-Vortex Singularity Project
 
 [![Manifesto](https://shields.io)](MANIFESTO.md)
+---
+
+## 📜 The Project Philosophy
+
+<p align="center">
+  <img src="Media/logo.png" width="350" alt="The Aetheris Principles Logo">
+</p>
+
+<p align="center">
+  <b>"Be formless, shapeless, like water."</b> — Shifting civil infrastructure requires shifting human consciousness. Before building the physical engine, we must understand the core geometric and thermodynamic laws governing our reality.
+</p>
+
+<p align="center">
+  <a href="Documentation/THE_AETHERIS_PRINCIPLES.md">
+    <img src="https://shields.io" alt="Read The Aetheris Principles">
+  </a>
+</p>
+
+---
 
 ## 🚀 Project Overview
 VortexArt88 is an open-source, decentralized water purification and aeration initiative that replaces traditional chemical treatments with high-velocity biomimetic fluid dynamics. Utilizing mirror-imaged, 3D-printed golden ratio (Φ) nozzles, the system drives two counter-rotating fluid columns inside a unified figure-8 chamber. At the geometric intersection, the opposing velocity vectors cancel out to create a stable, highly aerating, visual "water singularity."
