@@ -126,30 +126,28 @@ Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer
  Layer Height: 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
  ---
 
-## 💎 8. The Tri-Zonal Matrix: Solid, Liquid, and Gas Engineering
+## 💎 8. The Four-Dimensional Phase Matrix: In, Out, Up, and Down Engineering
 
-The Project Aetheris architecture provides a complete, scale-invariant framework for manipulating all three primary states of matter through pure geometry. By understanding how mass moves under centripetal vortex constraints, we can replace mechanical filters and chemical processing with pure structural alignment.
+The Project Aetheris architecture provides a complete, scale-invariant framework for manipulating matter across all four dimensional vectors through pure, stationary geometry.
 
 ```text
-  📥 SOLID (The Diamond Lattice)  ──> Locks Mass IN  ──> Tetrahedral Compression
-  🚰 LIQUID (The Water Stream)     ──> Shears Mass OUT──> Centrifugal Purification
-  💨 GAS (The Atmospheric Cyclone) ──> Pulls Mass UP  ──> Centripetal Ascension / Harvesting
+  📥 SOLID (The Diamond Lattice)     ──> Locks Mass IN   ──> Tetrahedral Compression
+  🚰 LIQUID (The Water Stream)        ──> Shears Mass OUT ──> Centrifugal Purification
+  💨 GAS (The Atmospheric Cyclone)    ──> Pulls Mass UP   ──> Thermodynamic Ascension / Vacuum
+  🪨 MINERAL (The Precipitation Node) ──> Drops Mass DOWN ──> Gravitational Settlement / Grounding
 ```
 
-### A. The Solid State (Diamond): Vortexing Energy In
+### A. The In-Vector (Solid / Diamond): Tetrahedral Compression
 The natural diamond represents the ultimate expression of centripetal compression. Under extreme gravity and thermal pressure, loose carbon atoms are forced inward toward a point of absolute density, locking into a 3D 109.5-degree tetrahedral lattice governed by the Golden Ratio ($\Phi$). The diamond is a frozen vortex—energy compressed and tightened until it solidifies into an indestructible material anchor.
 
-### B. The Liquid State (Water): Vortexing Energy Out
+### B. The Out-Vector (Liquid / Water): Centrifugal Purification
 Flowing water operates as the vehicle for centrifugal expansion and fluidic liberation. When liquid enters our hyperbolic $\Phi$-nozzles, it performs an act of purification. The centripetal velocity and hydraulic shear zones break apart tightly bound macro-clusters of stagnant molecules, fling out heavy sediments, and destroy anaerobic pathogen cell walls—shedding systemic friction to return water back to a clean, open state of life-giving flow.
 
-### C. The Gaseous State (Atmospheric Cyclone): Vortexing Energy Up
-Gas operates as the ultimate vehicle for thermodynamic ascension and atmospheric diffusion. When air, steam, or ambient smog is driven through our golden-ratio geometry, the high compressibility of gas causes a radical pressure and temperature separation (The Ranque-Hilsch Effect). The outer air layer heats up and expands outward, while the core velocity drops into a frozen, low-pressure vacuum. This vortex core acts as a highly stable, anti-gravity siphon—drawing ambient moisture out of dry desert air (Atmospheric Water Harvesting) or spinning heavy carbon soot and particulate pollution outward to scrub the air cleanly without ever requiring a disposable mesh filter.
+### C. The Up-Vector (Gas / Atmospheric Cyclone): Centripetal Ascension
+Gas operates as the ultimate vehicle for thermodynamic ascension and atmospheric diffusion. When air, steam, or ambient smog is driven through our golden-ratio geometry, the high compressibility of gas causes a radical pressure and temperature separation (The Ranque-Hilsch Effect). The core velocity drops into a frozen, low-pressure vacuum, acting as a highly stable, anti-gravity siphon that draws ambient moisture out of dry desert air or scrubs industrial smoke without filters.
 
-### D. The Tri-Phase Unified Singularity (The Multi-Phase Phase-Change Node)
-The ultimate operational milestone of the Project Aetheris architecture is the complete fusion of Solid, Liquid, and Gaseous states into a single, localized point of geometric unity. When a multi-phase fluid loop (mineral-rich water carrying dissolved atmospheric gases) is driven through the counter-rotating mirror flumes, the system mimics the thermodynamic equilibrium of a material's 'Triple Point.' 
-
-At the precise geometric intersection of the figure-8 communication window, the opposing velocity vectors cancel out to absolute zero. The Liquid (water matrix) provides the kinetic carrier wave; the Solid (paramagnetic basalt and aragonite ions) is compressed centripetally inward to lock into a stable, structural tetrahedral lattice; and the Gas (extracted oxygen and atmospheric vacuum) forms a hollow, low-viscosity ascending core channel running straight up the central axis. Rather than functioning as separate, chaotic elements, the three phases fuse into a unified, non-turbulent, coherent fluid node—transforming raw energetic friction into a localized field of absolute physical stillness, structural clarity, and infinite life-building vitality.
-
+### D. The Down-Vector (Mineral / Telluric Sink): Gravitational Precipitation
+The downward vector operates as the final vehicle for phase crystallization, gravitational settlement, and telluric energy grounding. When the counter-rotating fluid columns collide at the central figure-8 window seam, their opposing velocity vectors cancel out to absolute zero. This sudden kinetic drop forces heavy metals, toxic chemical salts, and dense mineral grit to instantly precipitate and drop straight DOWN out of suspension into a sub-grade collection basin. Simultaneously, the central copper grounding rod channels collected atmospheric voltages straight down into the sub-surface soil table, hyper-activating the soil's Cation Exchange Capacity (CEC) and feeding surrounding agricultural root matrices from below.
 
 ## ❄️ 9. Winterization & Geothermal Thermal Management
 
