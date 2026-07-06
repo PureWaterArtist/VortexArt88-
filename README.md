@@ -68,6 +68,8 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 
 🚀 *Looking for broader applications? Explore our comprehensive [Future Industrial Use Cases Roadmap](Documentation/FUTURE_USE_CASES.md) detailing microplastics filtration, desalination pre-treatment, and urban cooling adaptations.*
 
+🌌 *Looking for the absolute frontier? Explore our [Advanced Deep-Tech & Aerospace Horizons Manual](Documentation/ADVANCED_DEEP_TECH.md) to see how this scale-invariant fluid engine applies to zero-G fuel loops, microfluidic diagnostics, and sonic molecular shattering.*
+
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
 *   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
