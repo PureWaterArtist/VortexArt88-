@@ -1,6 +1,6 @@
 # The Aetheris Principles: 10 Laws for Freeing the Water/Knowledge (Plain English Version)
 
-The universe operates like a massive, flowing water/information system. When you look past the complicated math, nature follows 10 simple rules to keep everything moving cleanly, smoothly, and with zero friction. Here is how those laws work in everyday life and on the workbench.
+The universe operates like a massive, flowing water/information system. When you look past the complicated math, nature follows 10 simple rules to keep everything moving cleanly, smoothly, and with zero friction. Here is how those laws work in everyday life and on the world stage.
 
 ---
 
