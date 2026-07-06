@@ -64,6 +64,8 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 
 🌱 *To automate organic nutrient delivery without clogging, view our [Biomimetic Fertilizer Cycling & Fertigation Guide](Documentation/FERTILIZER_CYCLING.md).*
 
+🌐 *Deploying for high-density computing? View the full [Data Center Thermal Management & Non-Chemical CDU Specification](Documentation/DATA_CENTER_COOLING.md) to bridge technology scaling with ecological conservation.*
+
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
 *   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
