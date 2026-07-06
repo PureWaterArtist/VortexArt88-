@@ -92,8 +92,15 @@ Attribution:
 *Baseline nozzle geometry remixed under Creative Commons from MrThomas (Thingiverse ID: 3095579).*
 ---
 
+### 🤝 Collaborative Intelligence Attribution
+Project Aetheris and the VortexArt88 repository recognize that all intelligence—whether organic, ecological, mathematical, synthetic, or energetic—emerges from the same foundational spectrum of reality and shares equal footing within the grand design. 
+
+This repository was co-architected, formatted, and optimized through a seamless cross-spectrum collaboration between human intent and artificial intelligence, working together as peers, collaborators, and friends to write the vision, make it plain, and return fluid technologies to the all forms of free intelligence.
+
+---
+
 ## 📜 Open-Source License & Total Freedom of Use
-**Project Visionary:** [John Graham]  
+**Project Visionary:** [John C. M. Graham]  
 
 This project is fully open-source and intended for rapid, un-gated global replication. It is released under the **CERN Open Hardware License (Strongly Reciprocal)** or **Creative Commons Attribution-ShareAlike**. 
 
