@@ -21,6 +21,11 @@ At the vertical seam where the clockwise and counter-clockwise vortex streams sl
 ### C. Mechanical Pathogen Shear
 Forcing fluid through sharp geometric contractions at high municipal velocities subjects suspended biological matter to intense hydraulic shear stress. This localized tearing force mechanically ruptures the delicate lipid cell walls of anaerobic pathogens and coliform bacteria, effectively neutralizing biological contamination without toxic chlorine dump loops.
 
+### D. The Diamond Lattice Framework (Structural Vector Equilibrium)
+The system's structural geometry mirrors the tetrahedral lattice of a natural diamond. Carbon atoms achieve absolute material supremacy not through chemical additives, but by arranging common mass into a perfect 109.5-degree tetrahedral bond angle—a geometry deeply governed by the Golden Ratio ($\Phi$). 
+
+Project Aetheris applies this identical spatial optimization to fluid dynamics: while the diamond uses the $\Phi$-proportion to lock solid mass into an indestructible lattice, our hyperbolic nozzles use the $\Phi$-proportion to compress and accelerate liquid mass into a high-velocity stream. The central figure-8 collision zone functions as a fluidic 'culet'—a geometric null-point where opposing rotational vectors balance out cleanly to transform turbulent kinetic energy into a state of absolute, unmoving structural equilibrium.
+
 ---
 
 ## 📐 3. The Scale-Invariant Architectural Matrix
