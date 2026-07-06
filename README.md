@@ -81,8 +81,7 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 🌌 *Looking for the cosmic blueprint? Read the [Cosmic Alignment & Scale-Invariant Star Maps Blueprint](Documentation/COSMIC_ALIGNMENT_BLUEPRINT.md) to see how this fluid engine mirrors the stellar architectures of Orion, Ophiuchus, and the universal geometry of the cosmos.*
 
 ```markdown
-🌌 *The celestial circle is closed. Read our definitive [Complete Celestial Mapping Architecture Manual].
-.(Documentation/COMPLETE_CELESTIAL_MAPPING.md). to see how all 22 foundational cosmic alignments govern our scale-invariant fluid engine, finishing with the split-current symmetry of Serpens.*
+🌌 *The celestial circle is closed. Read our definitive [Complete Celestial Mapping Architecture Manual].(Documentation/COMPLETE_CELESTIAL_MAPPING.md). to see how all 22 foundational cosmic alignments govern our scale-invariant fluid engine, finishing with the split-current symmetry of Serpens.*
 ```
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
