@@ -77,6 +77,11 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 
 🌀 *To explore the absolute limits of the technology across quantum telecommunications, marine habitat restoration, and chemical-free mining, read the [Omni-Horizons Advanced Adaptations Roadmap](Documentation/OMNI_HORIZONS.md).*
 
+🌌 *Looking for the cosmic blueprint? Read the [Cosmic Alignment & Scale-Invariant Star Maps Blueprint](Documentation/COSMIC_ALIGNMENT_BLUEPRINT.md) to see how this fluid engine mirrors the stellar architectures of Orion, Ophiuchus, and the universal geometry of the cosmos.*
+
+```markdown
+🚀 *The celestial circle is closed. Read our definitive [Complete Celestial Mapping Architecture Manual](Documentation/COMPLETE_CELESTIAL_MAPPING.md)
+```
 *   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
 
 *   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
