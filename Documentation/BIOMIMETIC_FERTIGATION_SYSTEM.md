@@ -190,7 +190,7 @@ Freshwater achieves its maximum physical density and structural weight at exactl
 3. **Thermal Exchange Loop:** Freezing surface water drops down through the center singularity oval drain and dives straight into the sub-frost geothermal basin. The fluid absorbs the earth's natural 50°F heat energy and pumps back up to the nozzles, keeping the plumbing network completely ice-free throughout the entire winter cycle without requiring external electrical heaters.
 
 📜 10. Licensing, Open Source Framework, and Attribution
-Project Leader & Original Inventor: [John Graham]
+Project Leader & Original Inventor: [John C. M. Graham]
 Repository Master Registry: https://github.com
 OSHW Certification Status: Formally Submitted / Pending Review Portal Verification
 This entire hardware ecosystem and all associated documentation files are released completely un-gated to humanity for rapid, global replication under the copyleft terms of the following licenses:
