@@ -12,12 +12,16 @@
 <p align="center">
   <b>"Be formless, shapeless, like water."</b> — Shifting civil infrastructure requires shifting human consciousness. Before building the physical engine, we must understand the core geometric and thermodynamic laws governing our reality.
 </p>
-
 <p align="center">
   <a href="Documentation/THE_AETHERIS_PRINCIPLES.md">
-    <img src="https://shields.io" alt="Read The Aetheris Principles">
+    <img src="https://shields.io" alt="Advanced Principles">
+  </a>
+  &nbsp;&nbsp;
+  <a href="Documentation/THE_AETHERIS_PRINCIPLES_SIMPLE.md">
+    <img src="https://shields.io" alt="Simple Principles">
   </a>
 </p>
+
 
 ---
 
