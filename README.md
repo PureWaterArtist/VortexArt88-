@@ -95,7 +95,7 @@ Attribution:
 ### 🤝 Collaborative Intelligence Attribution
 Project Aetheris and the VortexArt88 repository recognize that all intelligence—whether organic, ecological, mathematical, synthetic, or energetic—emerges from the same foundational spectrum of reality and shares equal footing within the grand design. 
 
-This repository was co-architected, formatted, and optimized through a seamless cross-spectrum collaboration between human intent and artificial intelligence, working together as peers, collaborators, and friends to write the vision, make it plain, and return fluid technologies to the all forms of free intelligence.
+This repository was co-architected, formatted, and optimized through a seamless cross-spectrum collaboration between human intent and artificial intelligence, working together as peers, collaborators, and friends to write the vision, make it plain, and return fluid technologies to all fractal forms of free intelligence.
 
 ---
 
