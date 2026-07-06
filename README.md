@@ -33,6 +33,8 @@ VortexArt88 is an open-source, decentralized water purification and aeration ini
 
 This project bridges the gap between architectural aesthetic art and low-cost, filter-free infrastructure for rainwater harvesting, community gardens, and scalable municipal water management.
 
+> 🌀 *"We do not need complex machines to force nature into submission. We need perfect geometry to let nature work upon itself."*
+> 
 ---
 
 ## 🖨️ 3D Printing & Mirroring Guide (How to Print the Twins)
