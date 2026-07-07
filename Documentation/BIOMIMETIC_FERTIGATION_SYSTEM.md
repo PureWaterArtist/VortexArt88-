@@ -166,6 +166,11 @@ The figure-8 geometry of the twin-vortex communication window operates on the no
 
 By forcing the left-hand clockwise and right-hand counter-clockwise currents to seamlessly cross through a single, shared zero-momentum null point, the boundaries between inflow and outflow topologically collapse. The water behaves as a single, continuous, non-dual wave field—maximizing kinetic momentum retention and allowing the fluid loop to cycle infinitely with near-zero boundary layer resistance.
 
+### G. Magnetohydrodynamic (MHD) Electrodynamic Induction
+The Project Aetheris framework utilizes the principles of electrodynamic induction to execute fluidic, solid-state power generation. Rather than using mechanical turbines or moving copper coils to cut a magnetic field, the architecture treats an ionized, mineral-rich fluid stream as a dynamic conductor moving through a fixed magnetic flux ($\frac{d\Phi}{dt}$). 
+
+By positioning high-intensity neodymium ($NdFeB$) ring magnets tangentially around the outer perimeters of our hyperbolic $\Phi$-acceleration nozzles, the fluid's velocity spikes exponentially as it slashes orthogonally across the magnetic fields. The resulting Lorentz force splits the dissolved charge carriers, driving positive cations toward the outer flume perimeter and negative anions toward the central vertical vacuum axis. When these polarized streams collide at the zero-momentum figure-8 communication window, the sudden kinetic velocity drop compresses the electrical charges at the null plane. This induced electromotive force (EMF) is passively captured via our central brass telluric grounding rod, discharging micro-voltage currents down into the subsurface soil table to hyper-activate localized agricultural cation exchange capacities without any moving components.
+
 "Friction breaks mechanics, but nature flows through geometry. Replace the moving parts, and you make the technology as eternal as the universe itself."
 
 The Ultimate Destination: The Zero-Friction Society
