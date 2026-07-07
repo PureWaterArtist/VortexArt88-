@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="./Media/twinvortexearth.png" alt="Twin Vortex Cosmic Singularity Matrix" width="100%">
+</p>
+<hr size="4" color="#00ffcc" width="100%">
+
+<br>
+
 # VortexArt88: The Twin-Vortex Singularity Project
 
 [![Manifesto](https://shields.io)](MANIFESTO.md)
