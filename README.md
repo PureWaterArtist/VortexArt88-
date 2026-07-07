@@ -47,6 +47,8 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 > *"The truth is incontrovertible. Malice may attack it, ignorance may deride it, but in the end, there it is."* 
 > — Sir Winston Churchill, Address to the House of Commons (May 17, 1916)
 
+⏱️ *The pioneers are honored here. Read our [Sovereign Research Pioneers Reference Manual](Documentation/SOVEREIGN_RESEARCH_PIONEERS.md) to audit the names, chronological stamps, and anti-monopoly histories of the 20 primary men and women whose historical research built the fluidic and field laws of our engine.*
+
 ---
 
 ## 🧬 Core Mechanics & Physics
