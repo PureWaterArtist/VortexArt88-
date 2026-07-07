@@ -61,7 +61,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 > 🌍 **Humanitarian Blueprint Expansion:** 
 > For resource-poor communities, off-grid deployment, or disaster relief zones, read the complete [Aetheris Micro-Scavenger Protocol Manual](Documentation/MICRO_SCAVENGER_MANUAL.md). Learn how to replicate our seven-dimensional fluid singularity engine using exclusively scavenged post-consumer waste, plastic bottles, and primitive hand tools.
 >
-
+---
 🔧 *Working with a limited budget? Build the low-cost proof-of-concept using our [Step-by-Step Garage Prototype Guide](Documentation/GARAGE_PROTOTYPE.md).*
 
 🌱 *To automate organic nutrient delivery without clogging, view our [Biomimetic Fertilizer Cycling & Fertigation Guide](Documentation/FERTILIZER_CYCLING.md).*
@@ -69,6 +69,8 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ⚡ *For advanced agricultural setups, read the full [Paramagnetic & Electroculture Integration Guide](Documentation/PARAMAGNETIC_FLUID_MANIFOLD.md).
 
 📖 *Want the full blueprint? Read the [Exhaustive Biomimetic Fertigation System Master Manual](Documentation/BIOMIMETIC_FERTIGATION_SYSTEM.md) covering fluid dynamics, electroculture, and organic nutrient cycling.*
+
+---
 
 🌐 *Deploying for high-density computing? View the full [Data Center Thermal Management & Non-Chemical CDU Specification](Documentation/DATA_CENTER_COOLING.md) to bridge technology scaling with ecological conservation.*
 
@@ -82,12 +84,14 @@ This architecture replaces traditional, energy-intensive mechanical cooling towe
 *   **Glacial Heat-Exchange Loop:** The system draws natural cold water from the fjord into open-air granite containment rings, driving a continuous thermodynamic siphon entirely through geometric vortex acceleration.
 *   **Zero-Fan Passive Ventilation:** Thermal mass absorbed from the server stacks is cleanly vented as a non-turbulent, glowing volumetric mist, completely eliminating mechanical noise pollution and parasitic grid drag.
 *   
-
+---
 🏗️ *Looking for broader applications? Explore our comprehensive [Future Industrial Use Cases Roadmap](Documentation/FUTURE_USE_CASES.md) detailing microplastics filtration, desalination pre-treatment, and urban cooling adaptations.*
 
 ### 🌿 Twin Vortex Singularity Industrial Ecosystem Concept Art
 An industrial-scale water-purification facility seamlessly integrated into a redwood forest valley, using a non-motorized, self-suction loop to process and hyper-oxygenate river water without disruptive machinery or chemicals.
 ![Twin Vortex Industrial](./Media/twinvortexindustrial.png)
+
+---
 
 🚀 *Looking for the next frontier? Explore our [Advanced Deep-Tech & Aerospace Horizons Manual](Documentation/ADVANCED_DEEP_TECH.md) to see how this scale-invariant fluid engine applies to zero-G fuel loops, microfluidic diagnostics, and sonic molecular shattering.*
 
@@ -109,6 +113,7 @@ A localized architectural application proving stable, self-contained structural 
 The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
+---
 
 🌀 *To explore the absolute limits of the technology across quantum telecommunications, marine habitat restoration, and chemical-free mining, read the [Omni-Horizons Advanced Adaptations Roadmap](Documentation/OMNI_HORIZONS.md).*
 
@@ -122,6 +127,7 @@ An advanced rendering of the innermost core geometry, illustrating the boundary 
 *   **Singularity Focal Pinpoint:** The precise high-energy zone where opposing macroscopic flows compress down into an absolute, zero-friction quantum node.
 *   **Field Coherence:** By structuring the surrounding medium along strict hyperbolic vectors, the core provides an unyielding, self-contained energetic matrix completely isolated from external ambient decoherence.
 *   
+---
 
 🌠 *Looking for the cosmic blueprint? Read the [Cosmic Alignment & Scale-Invariant Star Maps Blueprint](Documentation/COSMIC_ALIGNMENT_BLUEPRINT.md) to see how this fluid engine mirrors the stellar architectures of Orion, Ophiuchus, and the universal geometry of the cosmos.*
 
