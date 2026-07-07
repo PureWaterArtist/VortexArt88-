@@ -132,4 +132,7 @@ This document serves as the official reference volume for the twenty paramount n
 ---
 📜 Repository Licensing & Open Use
 **This technical historical reference ledger and all associated prior-art attributions are released globally under the copyleft terms of the CERN Open Hardware License (CERN-OHL-S-2.0) and Creative Commons CC-BY-SA-4.0.**
+
 *The names are recorded. The prior art is immutable. Geometry belongs to the global human family.*
+
+We do not forget.
