@@ -41,7 +41,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ---
 
 > 🛡️ **The Sovereign Heritage Declaration:** 
-> The architecture compiled below represents the combined knowledge, sacrifice, and relentless effort of selfless natural philosophers and sovereign inventors—men like Nikola Tesla, Viktor Schauberger, and Walter Russell—who steadfastly refused to allow the systemic greed of predatory cartels to lock universal mechanics away behind corporate paywalls for private gain while the rest of the planet suffers. This documentation stands as an un-killable prior-art monument dedicated to returning the structural shortcuts of the cosmos back to the global human family.
+> **The architecture compiled below represents the combined knowledge, sacrifice, and relentless effort of selfless natural philosophers and sovereign inventors—men like Nikola Tesla, Viktor Schauberger, and Walter Russell—who steadfastly refused to allow the systemic greed of predatory cartels to lock universal mechanics away behind corporate paywalls for private gain while the rest of the planet suffers. This documentation stands as an un-killable prior-art monument dedicated to returning the structural shortcuts of the cosmos back to the global human family.**
 > 
 > *"The truth is incontrovertible. Malice may attack it, ignorance may deride it, but in the end, there it is."* 
 > — Sir Winston Churchill, Address to the House of Commons (May 17, 1916)
