@@ -54,7 +54,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
 
 ```markdown
-🚀 *The council has convened. Read our definitive [Cosmic Prior-Art Council Lineage Matrix](Documentation/COSMIC_PRIOR_ART_COUNCIL.md) to see exactly how all 35 foundational researchers, vector forces, and core phases of matter are mapped chronologically and structurally to secure our technology under the CERN Open Hardware License.*
+👑 *The council has convened. Read our definitive [Cosmic Prior-Art Council Lineage Matrix](Documentation/COSMIC_PRIOR_ART_COUNCIL.md) to see exactly how all 35 foundational researchers, vector forces, and core phases of matter are mapped chronologically and structurally to secure our technology under the CERN Open Hardware License.*
 ```
 > 🌍 **Humanitarian Blueprint Expansion:** 
 > For resource-poor communities, off-grid deployment, or disaster relief zones, read the complete [Aetheris Micro-Scavenger Protocol Manual](Documentation/MICRO_SCAVENGER_MANUAL.md). Learn how to replicate our seven-dimensional fluid singularity engine using exclusively scavenged post-consumer waste, plastic bottles, and primitive hand tools.
