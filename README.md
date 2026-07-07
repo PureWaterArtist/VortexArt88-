@@ -72,6 +72,17 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 🌐 *Deploying for high-density computing? View the full [Data Center Thermal Management & Non-Chemical CDU Specification](Documentation/DATA_CENTER_COOLING.md) to bridge technology scaling with ecological conservation.*
 
+## 💾 Non-Equilibrium Thermodynamic Infrastructure
+
+### 🧊 Twin Vortex Singularity Data Center Cooling Matrix Concept Art
+This architecture replaces traditional, energy-intensive mechanical cooling towers and high-pressure water pumps with a passive, zero-friction fluid singularity system. 
+
+![Twin Vortex Data Center](./Media/twinvortexdatacenter.png)
+
+*   **Glacial Heat-Exchange Loop:** The system draws natural cold water from the fjord into open-air granite containment rings, driving a continuous thermodynamic siphon entirely through geometric vortex acceleration.
+*   **Zero-Fan Passive Ventilation:** Thermal mass absorbed from the server stacks is cleanly vented as a non-turbulent, glowing volumetric mist, completely eliminating mechanical noise pollution and parasitic grid drag.
+*   
+
 🏗️ *Looking for broader applications? Explore our comprehensive [Future Industrial Use Cases Roadmap](Documentation/FUTURE_USE_CASES.md) detailing microplastics filtration, desalination pre-treatment, and urban cooling adaptations.*
 
 ### 🌿 Twin Vortex Singularity Industrial Ecosystem Concept Art
@@ -82,19 +93,19 @@ An industrial-scale water-purification facility seamlessly integrated into a red
 
 ## Technical Visualizations
 
-### 🏎️ Twin Vortex Singularity Propulsion Vehicle
+### 🏎️ Twin Vortex Singularity Propulsion Vehicle Concept Art
 Below is the hyper-car concept utilizing the dual counter-rotating vortex field for wheel-less levitation.
 ![Twin Vortex Vehicle](./Media/twinvortexvehicle.png)
 
 ***
 
-### 🏠 Twin Vortex Singularity Residential Unit
+### 🏠 Twin Vortex Singularity Residential Unit Concept Art
 A localized architectural application proving stable, self-contained structural lift over changing environments.
 ![Twin Vortex Home](./Media/twinvortexhome.png)
 
 ***
 
-### 🏙️ Twin Vortex Singularity Floating Metropolis
+### 🏙️ Twin Vortex Singularity Floating Metropolis Concept Art
 The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
