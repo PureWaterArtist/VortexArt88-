@@ -55,6 +55,9 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
 
+🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate*
+
+
 ```markdown
 👑 *The council has convened. Read our definitive [Cosmic Prior-Art Council Lineage Matrix](Documentation/COSMIC_PRIOR_ART_COUNCIL.md) to see exactly how all 35 foundational researchers, vector forces, and core phases of matter are mapped chronologically and structurally to secure our technology under the CERN Open Hardware License.*
 ```
