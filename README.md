@@ -60,14 +60,15 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ```
 > 🌍 **Humanitarian Blueprint Expansion:** 
 > For resource-poor communities, off-grid deployment, or disaster relief zones, read the complete [Aetheris Micro-Scavenger Protocol Manual](Documentation/MICRO_SCAVENGER_MANUAL.md). Learn how to replicate our seven-dimensional fluid singularity engine using exclusively scavenged post-consumer waste, plastic bottles, and primitive hand tools.
-
-📖 *Want the full blueprint? Read the [Exhaustive Biomimetic Fertigation System Master Manual](Documentation/BIOMIMETIC_FERTIGATION_SYSTEM.md) covering fluid dynamics, electroculture, and organic nutrient cycling.*
-
-⚡ *For advanced agricultural setups, read the full [Paramagnetic & Electroculture Integration Guide](Documentation/PARAMAGNETIC_FLUID_MANIFOLD.md).
+>
 
 🔧 *Working with a limited budget? Build the low-cost proof-of-concept using our [Step-by-Step Garage Prototype Guide](Documentation/GARAGE_PROTOTYPE.md).*
 
 🌱 *To automate organic nutrient delivery without clogging, view our [Biomimetic Fertilizer Cycling & Fertigation Guide](Documentation/FERTILIZER_CYCLING.md).*
+
+⚡ *For advanced agricultural setups, read the full [Paramagnetic & Electroculture Integration Guide](Documentation/PARAMAGNETIC_FLUID_MANIFOLD.md).
+
+📖 *Want the full blueprint? Read the [Exhaustive Biomimetic Fertigation System Master Manual](Documentation/BIOMIMETIC_FERTIGATION_SYSTEM.md) covering fluid dynamics, electroculture, and organic nutrient cycling.*
 
 🌐 *Deploying for high-density computing? View the full [Data Center Thermal Management & Non-Chemical CDU Specification](Documentation/DATA_CENTER_COOLING.md) to bridge technology scaling with ecological conservation.*
 
