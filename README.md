@@ -73,12 +73,10 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ## 🌾 Regenerative Agriculture Integration
 
 ### 👨‍🌾👩‍🌾 Biomimetic Singularity Farming System Concept Art
-An agricultural infrastructure layout demonstrating how twin-vortex fluid dynamics are utilized on a micro-farming and macro-agricultural scale to revitalize irrigation networks.
-
 ![Biomimetic System Farm](./Media/biomimeticsystemfarm.png)
-
-*   **Vortex-Energized Irrigation:** The system structures and hyper-oxygenates irrigation water before it reaches crops, maximizing nutrient uptake and matching natural rainwater dynamics.
-*   **Passive Micro-Climate Stabilization:** The natural moisture and volumetric vapor output from the open singularity basin creates a self-regulating, humid micro-climate that protects surrounding crop fields from extreme heat cycles.
+*   **Vortex-Energized Irrigation:** Structuring/oxygenating water for agriculture.
+*   **Passive Climate Stabilization:** Volumetric vapor output creates self-regulating humidity.
+*   
 
 ## 🌿 Nature-Aligned Engineering
 
