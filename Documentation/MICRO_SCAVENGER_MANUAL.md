@@ -1,4 +1,6 @@
 # The Aetheris Micro-Scavenger Protocol: Low-Tech Trash Engineering
+![Aetheris Micro-Scavenger Node Prototype](../Media/scavenger_prototype.png)
+
 
 This document outlines the zero-cost, hyper-accessible fabrication matrix for the **Project Aetheris Micro-Scavenger Engine**. Designed explicitly for resource-poor communities, refugee camps, and off-grid survival scenarios, this manual demonstrates how to replicate our seven-dimensional fluid singularity using exclusively scavenged post-consumer waste, trash, and rudimentary hand tools.
 
