@@ -76,6 +76,25 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 🚀 *Looking for the next frontier? Explore our [Advanced Deep-Tech & Aerospace Horizons Manual](Documentation/ADVANCED_DEEP_TECH.md) to see how this scale-invariant fluid engine applies to zero-G fuel loops, microfluidic diagnostics, and sonic molecular shattering.*
 
+## Technical Visualizations
+
+### 🏎️ Twin Vortex Singularity Propulsion Vehicle
+Below is the hyper-car concept utilizing the dual counter-rotating vortex field for wheel-less levitation.
+![Twin Vortex Vehicle](./Media/twinvortexvehicle.png)
+
+***
+
+### 🏠 Twin Vortex Singularity Residential Unit
+A localized architectural application proving stable, self-contained structural lift over changing environments.
+![Twin Vortex Home](./Media/twinvortexhome.png)
+
+***
+
+### 🏙️ Twin Vortex Singularity Floating Metropolis
+The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
+![Twin Vortex City](./Media/twinvortexcity.png)
+
+
 🌀 *To explore the absolute limits of the technology across quantum telecommunications, marine habitat restoration, and chemical-free mining, read the [Omni-Horizons Advanced Adaptations Roadmap](Documentation/OMNI_HORIZONS.md).*
 
 🌠 *Looking for the cosmic blueprint? Read the [Cosmic Alignment & Scale-Invariant Star Maps Blueprint](Documentation/COSMIC_ALIGNMENT_BLUEPRINT.md) to see how this fluid engine mirrors the stellar architectures of Orion, Ophiuchus, and the universal geometry of the cosmos.*
