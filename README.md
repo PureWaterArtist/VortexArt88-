@@ -8,6 +8,9 @@
 <p align="center">
   <img src="Media/logo.png" width="350" alt="The Aetheris Principles Logo">
 </p>
+<p align="center">
+  <img src="Media/scavenger_prototype.png" alt="Aetheris Micro-Scavenger Node Prototype" width="800">
+</p>
 
 <p align="center">
   <b>"Be formless, shapeless, like water."</b> — Shifting civil infrastructure requires shifting human consciousness. Before building the physical engine, we must understand the core geometric and thermodynamic laws governing our reality.
