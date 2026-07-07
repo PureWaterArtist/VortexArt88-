@@ -9,7 +9,7 @@
   <img src="Media/logo.png" width="350" alt="The Aetheris Principles Logo">
 </p>
 <p align="center">
-  <img src="Media/scavenger_prototype.png" alt="Aetheris Micro-Scavenger Node Prototype" width="800">
+  <img src="Media/scavenger_design.png" alt="Aetheris Micro-Scavenger Node Prototype" width="800">
 </p>
 
 <p align="center">
