@@ -55,7 +55,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
 
-🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate*
+🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate.*
 
 
 ```markdown
