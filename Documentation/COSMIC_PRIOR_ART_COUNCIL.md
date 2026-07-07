@@ -113,25 +113,32 @@ The 7 Angels represent the seven core dimensions, directional vectors, and field
 
 ### 1. The In-Vector (Solid / Compression)
 *   **Angel Hierarchy Archetype:** *Uriel (The Fire/Structure of Earth)*
-    **The Activation Vector: Operates as centripetal compression. It drives loose, chaotic mineral ions inward toward a central point of absolute density, aligning them along 109.5-degree tetrahedral paths to lock mass into stable crystallization.
-    2. The Out-Vector (Liquid / Liberation)
-    **Angel Hierarchy Archetype:** *Gabriel (The Flow of Water)*
-    **The Activation Vector: Operates as centrifugal separation and boundary-layer liberation. It drives water through the hyperbolic nozzles, utilizing extreme kinetic shear stress to break apart stagnant molecular clusters and shatter pathogen cell walls.
-    3. The Up-Vector (Gas / Ascension)
-    **Angel Hierarchy Archetype:** *Michael (The Breath of Wind / Solar Vacuum)*
-    **The Activation Vector: Operates as thermodynamic ascension. It leverages the Ranque-Hilsch effect to drop core temperatures and pull an intense, low-pressure vertical vacuum siphon that extracts moisture out of dry air or strips toxic gases out of water.
-    4. The Down-Vector (Mineral / Grounding)
-    **Angel Hierarchy Archetype:** *Jophiel (The Weight of Earth / Telluric Sink)*
-    **The Activation Vector: Operates as gravitational precipitation and electrical grounding. It triggers an immediate drop in fluid velocity at the window seam, causing heavy metals and road grit to drop straight down out of suspension while the copper rod channels static voltages down into the soil.
-    5. The Center Vector (The Null Point / Vector Equilibrium)
-    **Angel Hierarchy Archetype:** *Raphael (The Core of Balance & Healing)*
-    The Activation Vector: Operates as absolute spatial stillness. It is the zero-phase geographic center within the figure-8 window where all opposing rotational and gravitational forces pull against each other with exact equal energy, canceling chaos into a flat, glass-like sheet.
-    6. The Loop Vector (The Toroidal Circuit)
-    **Angel Hierarchy Archetype:** *Zadkiel (The Rhythm of Temporal Resonance)*
-    The Activation Vector: Operates as the temporal rhythm and feedback loop. By continuously routing water back from the drains to the input manifolds, it creates a self-sustaining kinetic flywheel effect where the fluid memorizes the geometric path and drops systemic resistance.
-    7. The Field Vector (The Conscious Observer)
-    **Angel Hierarchy Archetype:** *Chamuel (The Heart of Pure Intention)*
-    The Activation Vector: Operates as quantum collapse and coherence. It is the intentional design vector driven by the human creator. By approaching the workbench with pure, copyleft, non-destructive intent, the observer collapses the informational field into absolute coherent resonance.
+*   **The Activation Vector:** Operates as centripetal compression. It drives loose, chaotic mineral ions inward toward a central point of absolute density, aligning them along 109.5-degree tetrahedral paths to lock mass into stable crystallization.
+
+### 2. The Out-Vector (Liquid / Liberation)
+*   **Angel Hierarchy Archetype:** *Gabriel (The Flow of Water)*
+*   **The Activation Vector:** Operates as centrifugal separation and boundary-layer liberation. It drives water through the hyperbolic nozzles, utilizing extreme kinetic shear stress to break apart stagnant molecular clusters and shatter pathogen cell walls.
+
+### 3. The Up-Vector (Gas / Ascension)
+*   **Angel Hierarchy Archetype:** *Michael (The Breath of Wind / Solar Vacuum)*
+*   **The Activation Vector:** Operates as thermodynamic ascension. It leverages the Ranque-Hilsch effect to drop core temperatures and pull an intense, low-pressure vertical vacuum siphon that extracts moisture out of dry air or strips toxic gases out of water.
+
+### 4. The Down-Vector (Mineral / Grounding)
+*   **Angel Hierarchy Archetype:** *Jophiel (The Weight of Earth / Telluric Sink)*
+*   **The Activation Vector:** Operates as gravitational precipitation and electrical grounding. It triggers an immediate drop in fluid velocity at the window seam, causing heavy metals and road grit to drop straight down out of suspension while the copper rod channels static voltages down into the soil.
+
+### 5. The Center Vector (The Null Point / Vector Equilibrium)
+*   **Angel Hierarchy Archetype:** *Raphael (The Core of Balance & Healing)*
+*   **The Activation Vector:** Operates as absolute spatial stillness. It is the zero-phase geographic center within the figure-8 window where all opposing rotational and gravitational forces pull against each other with exact equal energy, canceling chaos into a flat, glass-like sheet.
+
+### 6. The Loop Vector (The Toroidal Circuit)
+*   **Angel Hierarchy Archetype:** *Zadkiel (The Rhythm of Temporal Resonance)*
+*   **The Activation Vector:** Operates as the temporal rhythm and feedback loop. By continuously routing water back from the drains to the input manifolds, it creates a self-sustaining kinetic flywheel effect where the fluid memorizes the geometric path and drops systemic resistance.
+
+### 7. The Field Vector (The Conscious Observer)
+*   **Angel Hierarchy Archetype:** *Chamuel (The Heart of Pure Intention)*
+*   **The Activation Vector:** Operates as quantum collapse and coherence. It is the intentional design vector driven by the human creator. By approaching the workbench with pure, copyleft, non-destructive intent, the observer collapses the informational field into absolute coherent resonance.*
+
 ---
 ## 🦁 PART 3: THE 4 LIVING CREATURES (The Core Phase Pillars)
 
