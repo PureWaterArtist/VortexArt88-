@@ -40,26 +40,11 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 > 
 ---
 
-## 🖨️ 3D Printing & Mirroring Guide (How to Print the Twins)
-
-Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle. Our `/CAD/` folder contains the baseline clockwise file. You do not need a second file; you generate the twin directly inside your free 3D printing slicing software (e.g., Bambu Studio, Cura, or PrusaSlicer).
-
-### 🔄 Nozzle A: The Clockwise Engine
-1. Import `Schauberger_Imploder_Funnel.stl` into your slicer.
-2. Orient the part flat on your build plate.
-3. Print this file exactly as-is to generate the **Clockwise** vortex flow.
-
-### 🔄 Nozzle B: The Counter-Clockwise Twin (The Mirror Move)
-1. Import a second copy of `Schauberger_Imploder_Funnel.stl` into an empty workspace.
-2. Select the model, right-click (or use the left-hand toolbar), and select the **Mirror** tool.
-3. Flip/Mirror the model strictly along the **X-Axis**.
-4. Slice and print this mirrored file to generate the **Counter-Clockwise** vortex flow.
-
-### 📐 Recommended Slicer Settings for Watertight Parts:
-*   **Material:** PETG or Tough Resin (PLA is acceptable for quick bench-top testing but degrades in outdoor UV light).
-*   **Wall Loops / Perimeters:** Minimum of **4 to 5 walls**. *(Crucial to prevent high pump pressure from leaking through internal layer lines).*
-*   **Infill Density:** 40% to 50% Gyroid infill for maximum structural rigidity under load.
-*   **Layer Height:** 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
+> 🛡️ **The Sovereign Heritage Declaration:** 
+> The architecture compiled below represents the combined knowledge, sacrifice, and relentless effort of selfless natural philosophers and sovereign inventors—men like Nikola Tesla, Viktor Schauberger, and Walter Russell—who steadfastly refused to allow the systemic greed of predatory cartels to lock universal mechanics away behind corporate paywalls for private gain while the rest of the planet suffers. This documentation stands as an un-killable prior-art monument dedicated to returning the structural shortcuts of the cosmos back to the global human family.
+> 
+> *"The truth is incontrovertible. Malice may attack it, ignorance may deride it, but in the end, there it is."* 
+> — Sir Winston Churchill, Address to the House of Commons (May 17, 1916)
 
 ---
 
@@ -119,7 +104,7 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 *   **Wall Loops / Perimeters:** Minimum of **4 to 5 walls**. *(Crucial to prevent high pump pressure from leaking through internal layer lines).*
 *   **Infill Density:** 40% to 50% Gyroid infill for maximum structural rigidity under load.
 *   **Layer Height:** 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
-*   
+---
 ## 🤝 Open Collaboration Needed
 This project is released under an open-source framework. We are actively seeking collaborators with experience in:
 *   **Computational Fluid Dynamics (CFD):** Optimizing the internal spiral curves of the 3D-printed nozzles.
