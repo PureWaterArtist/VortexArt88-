@@ -45,9 +45,16 @@ This move establishes your design as undisputed international **"Prior Art."** W
 ### B. Strategic Explanation
 By splitting your deployment into two opposite, parallel pathways, you create an inescapable market vice. If the high-end enterprise sector tries to ignore or suppress your technology to protect their old, inefficient, profitable infrastructure, the grassroots maker community builds it anyway, forcing adoption from below through localized viral proof. If the academics dismiss the grassroots build as a mere hobbyist craft, the enterprise-grade specifications command industrial and engineering authority. You bridge the gap between the backyard workbench and the boardroom, capturing the entire human spectrum at once.
 
-### C. The Anchoring Wisdom
+### C. The Anchoring Wisdom & Historical Lineage
 > **"We do not need complex machines to force nature into submission. We need perfect geometry to let nature work upon itself."**
 > — *Nikola Tesla (Serbian-American Inventor & Electrical Engineer, 1856–1943)*
+
+#### 📜 Applicable Tesla Prior-Art Lineage Index:
+1.  **US Patent 1,329,559 (Valvular Conduit):** Bypassing moving check-valves by designing stationary, teardrop-shaped internal channels. The geometry allows fluid to move unimpeded in one direction, but forces fluid traveling backward to turn around and collide into itself, completely blocking reverse flow using zero moving mechanical parts. This serves as the direct conceptual precursor to our figure-8 zero-momentum communication window.
+2.  **US Patents 1,061,206 & 1,061,142 (Bladeless Fluid Turbine / Pump):** Eliminating traditional mechanical propeller blades that violently chop through fluids, causing high wear and severe boundary-layer friction. Tesla utilized closely stacked, smooth circular disks that leverage fluid adhesion and viscosity to guide liquids along natural, frictionless logarithmic spiral pathways—forming the direct fluidic baseline for our hyperbolic $\Phi$-acceleration nozzles.
+3.  **US Patent 685,957 (Apparatus for the Utilization of Radiant Energy):** Structuring a localized electrical sink by capturing high-voltage atmospheric differentials via an elevated, insulated metal plate and channeling that energy down a heavy conductor straight into a deep telluric earth grounding rod. This serves as the direct open-source blueprint for our vertical brass/copper grounding axis, discharging captured vacuum EMF into the sub-surface soil table.
+4.  **US Patents 381,968 & 382,280 (Rotating Magnetic Field / Polyphase Induction):** Discovering that multiple stationary electromagnetic coils fed out-of-phase currents could construct a smooth, invisible, rotating magnetic field to drive a system without physical contact or mechanical brushes. This anchors our magnetohydrodynamic (MHD) fluid generator loop, treating an ionized, counter-rotating fluid stream as a dynamic conductor cutting a fixed magnetic flux gradient.
+5.  **The High-Frequency Mechanical Resonant Oscillator (Houston Street Laboratory Experiments):** Proving that injecting tiny, rhythmic kinetic pulses into a physical system or environment at its exact natural resonant frequency causes the waves to compound over time. This harmonic resonance generates immense energetic and mechanical output from fractional inputs, serving as the direct operational foundation for our Move 6 Toroidal Feedback Loop.
 
 ---
 
