@@ -74,7 +74,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 🏗️ *Looking for broader applications? Explore our comprehensive [Future Industrial Use Cases Roadmap](Documentation/FUTURE_USE_CASES.md) detailing microplastics filtration, desalination pre-treatment, and urban cooling adaptations.*
 
-### 🌿 Twin Vortex Singularity Industrial Ecosystem
+### 🌿 Twin Vortex Singularity Industrial Ecosystem Concept Art
 An industrial-scale water-purification facility seamlessly integrated into a redwood forest valley, using a non-motorized, self-suction loop to process and hyper-oxygenate river water without disruptive machinery or chemicals.
 ![Twin Vortex Industrial](./Media/twinvortexindustrial.png)
 
