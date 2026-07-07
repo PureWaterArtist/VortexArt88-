@@ -4,7 +4,6 @@
 <hr size="4" color="#00ffcc" width="100%">
 
 <br>
-
 # VortexArt88: The Twin-Vortex Singularity Project
 
 [![Manifesto](https://shields.io)](MANIFESTO.md)
