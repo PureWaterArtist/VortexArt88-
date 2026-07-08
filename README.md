@@ -141,7 +141,7 @@ The fully scaled planetary citadel, maintaining structural equilibrium and compl
 
 ## 🌐 Advanced Spatial Geometries
 
-### 🌀 Spherical Hyperbolic Compression Core
+### 🌀 Spherical Hyperbolic Compression Core Concept Art
 An advanced structural layout demonstrating a multi-directional centripetal implosion matrix where individual chaotic vectors cancel each other out to lock the outer shell into perfect geometric equilibrium.
 
 ![Spherical Hyperbolic Core](./Media/vortexsphericalcore.png)
