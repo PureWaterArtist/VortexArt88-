@@ -383,12 +383,54 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 *   **Wall Loops / Perimeters:** Minimum of **4 to 5 walls**. *(Crucial to prevent high pump pressure from leaking through internal layer lines).*
 *   **Infill Density:** 40% to 50% Gyroid infill for maximum structural rigidity under load.
 *   **Layer Height:** 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
+
 ---
+
 ## 🤝 Open Collaboration Needed
 This project is released under an open-source framework. We are actively seeking collaborators with experience in:
 *   **Computational Fluid Dynamics (CFD):** Optimizing the internal spiral curves of the 3D-printed nozzles.
 *   **CAD / 3D Parametric Design:** Creating scalable NPT thread standards for the nozzle attachments.
 *   **Water Quality Testing:** Developing testing protocols for measuring dissolved oxygen and turbidity reductions.
+
+## 🛠 CFD & Open Hardware Collaboration Request
+
+We are actively seeking Computational Fluid Dynamics (CFD) engineers, parametric designers, and open-source fluid dynamicists to optimize, validate, and scale the **VortexArt88 Twin-Vortex Singularity Engine**. 
+
+The current baseline files (`/CAD-Models/Schauberger_Imploder_Funnel.stl`) require rigorous hydrodynamic simulation to map the velocity profiles, shear stress distributions, and pressure drops across the intersecting geometry.
+
+### 📊 Baseline Operating Parameters (Garage Prototype V1)
+To ensure simulations reflect reproducible, low-cost physical deployment, we are grounding our initial boundaries in standard off-the-shelf hardware metrics:
+*   **Volumetric Flow Rate ($Q$):** $3.15 \times 10^{-4} \text{ m}^3/\text{s}$ to $6.31 \times 10^{-4} \text{ m}^3/\text{s}$ (~5 to 10 Gallons Per Minute / GPM).
+*   **Operating Pump Pressure ($\Delta P$):** $1.38 \times 10^5 \text{ Pa}$ to $2.76 \times 10^5 \text{ Pa}$ (~20 to 40 PSI).
+*   **Working Fluid:** Water ($\rho = 998 \text{ kg/m}^3$, $\mu = 1.002 \times 10^{-3} \text{ Pa}\cdot\text{s}$ at 20°C).
+*   **Inlet/Outlet Geometry:** Standard $1.905 \text{ cm}$ (~3/4-inch) NPT threaded attachments.
+*   **Manufacturing Method:** Fused Deposition Modeling (FDM) 3D printing utilizing PETG (assumed absolute wall roughness $\varepsilon \approx 0.05 \text{ mm}$).
+
+### 🔬 Core Simulation & Optimization Directives
+
+We need contributors to run steady-state and transient multiphase simulations (e.g., using ANSYS Fluent, OpenFOAM, or SimScale) focusing on three critical phases of the fluidic pathway:
+
+#### 1. Centrifugal Boundary Layer Dynamics & De-Gritting
+*   **Objective:** Optimize the internal logarithmic/golden-ratio ($\Phi$) spiral curvature of the nozzle to maximize tangential velocity while minimizing parasitic head loss.
+*   **Analysis:** Map the wall shear stress and centripetal particle trajectory tracking to validate the self-cleaning perimeter extraction loop for heavy sediment and microplastics.
+
+#### 2. The Intersecting Figure-8 Singularity Plane
+*   **Objective:** Model the exact geometric intersection where the Clockwise (Nozzle A) and Counter-Clockwise (Nozzle B) fluid streams collide.
+*   **Analysis:** Verify the complete neutralization of rotational kinetic energy along the central vertical plane. Quantify the localized pressure drop to confirm the induction of a steady-state passive vacuum core.
+
+#### 3. Multiphase Cavitation & Kinetic Aeration
+*   **Objective:** Analyze the atmospheric air-induction core under the generated vacuum.
+*   **Analysis:** Map the phase interaction between the incoming air and the high-shear water columns. We need to optimize bubble size distribution (targeting micro-to-nano bubble saturation) to maximize Dissolved Oxygen (DO) transfer rates.
+
+### 🤝 How to Contribute Data
+If you run a simulation, please submit a **Pull Request** including:
+1.  **Mesh Architecture:** Cell count, $y^+$ values along the nozzle walls, and verification of grid independence.
+2.  **Turbulence Model Used:** (e.g., $k-\omega$ SST or Reynolds Stress Model for high-swirl flows).
+3.  **Visualizations:** Velocity streamlines, pressure contours, and phase-fraction plots of the central singularity.
+
+All data, optimized `.step` or `.stl` geometries, and simulation reports will be permanently secured under the repository's **CERN Open Hardware License (Strongly Reciprocal)**, protecting this infrastructure for the global human family.
+
+---
 
 Attribution:
 *Baseline nozzle geometry remixed under Creative Commons from MrThomas (Thingiverse ID: 3095579).*
