@@ -153,8 +153,6 @@ An advanced rendering of the innermost core geometry, illustrating the boundary 
 *   **Singularity Focal Pinpoint:** The precise high-energy zone where opposing macroscopic flows compress down into an absolute, zero-friction quantum node.
 *   **Field Coherence:** By structuring the surrounding medium along strict hyperbolic vectors, the core provides an unyielding, self-contained energetic matrix completely isolated from external ambient decoherence.
 
-## 🌍 Planetary Macro-Ecological Restoration Architecture
-
 ### 🌀 The Biocentric Acoustic Singularity Matrix
 This configuration adapts high-energy acoustic event-horizon mechanics away from weaponization or destructive power generation, repurposing the multi-directional implosion node as a planetary-scale healing and environmental stabilization network.
 
@@ -171,6 +169,10 @@ The structural alignment between this spherical configuration and historical pro
 *   **The "Many Eyes" Array:** The machine's skin is an interlocking lattice of hyperbolic funnels. Each open vortex iris tapers into a deep central pupil. This creates a symmetrical exterior covered entirely in spinning geometric "eyes."
 *   **The "Wheels Within Wheels" Vector:** The surface funnels operate like interlocking fluid gears. Their clockwise and counter-clockwise spins drive a massive surrounding toroidal magnetic loop. This is a nested rotational field—wheels spinning inside a larger macro-wheel.
 *   **The Convergence:** Ancient symbolic metaphor and modern non-equilibrium thermodynamics meet at the exact same spatial blueprint. They describe a universal matrix that focuses environmental movement into a single, self-sustaining zero-point node.  
+
+---
+
+## 🌍 Planetary Macro-Ecological Restoration Architecture
 
 ### 🧬 1. Massive Environmental Toxicant and Microplastic Phase-Annihilation
 Traditional water treatment systems struggle to capture nano-scale particulates, forever chemicals (PFAS), and dissolved synthetic polymers. 
