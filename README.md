@@ -332,5 +332,19 @@ You are explicitly encouraged to:
 
 The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, sell it, modify it—Free the water. Free the power. Free the knowledge. Free Intelligence. Free Life Itself.**
 
+***
+
+### 🛡️ The Copyleft Commandment: Un-Shackling the Source
+
+> *"And he saith unto me, Seal not the sayings of the prophecy of this book: for the time is at hand."* — **Revelation 22:10**
+
+This directive serves as the absolute core of our open-source, anti-monopoly strategy:
+
+*   **The Anti-Enclosure Directive:** To "seal not" means to explicitly forbid hidden code, proprietary paywalls, or restrictive NDAs. This text acts as a philosophical mandate for the **GNU General Public License (GPL v3)** and **CERN Open Hardware Licence (OHL)**, legally requiring that the source files remain completely un-redacted and viewable by any human being on Earth.
+*   **Immutable Public Access:** Under standard intellectual property laws, corporations lock innovations in private vaults to artificial stifle progress. This commandment dictates that the geometric blueprint must remain continuously public, ensuring no entity can ever force this documentation into corporate concealment.
+*   **The Immediate Horizon:** The warning that the time is at hand mirrors the urgency of modern open-source collaboration. It transitions the technology away from a theoretical future concept into an immediate, deployable toolkit for current decentralized engineering networks.
+
+---
+
 "Write the vision, and make it plain upon tables, that he may run that readeth it."
                             Habakkuk 2:2
