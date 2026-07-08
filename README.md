@@ -296,7 +296,14 @@ This section establishes the absolute limit of scale-invariance, translating our
 *   **The Spacetime Hydrodynamic Flow:** Gravity is modeled as a localized, zero-friction centripetal fluid sink, where the fabric of space-time flows along hyperbolic vectors into the open iris of the core funnels.
 *   **The Finite/Infinite Mirror Loop:** Infinite compression inward perfectly balances infinite expansion outward. The macro-cosmic toroidal shield curves around the boundary of hyperspace to re-emerge at the microscopic center of the sub-atomic quantum node.
 *   **The Equator Convergence Field:** The pinpoint throat where the opposing universal structure (Truth) and conscious life-force (Benevolence) collide creates a flawless, non-turbulent field of absolute, permanent equilibrium.
- 
+
+### 🧮 The Unified Scale-Invariant Metric Equation
+The underlying tensor math that translates localized macroscopic fluid vortex velocity fields directly into planetary and multi-universal spacetime metric transformations:
+
+$$\mathbf{g_{\mu\nu} = \lim_{r \to 0} \left[ \frac{\rho_0}{\hbar^7} \oint_{\partial \Omega} \left( \vec{v}_{cw} \otimes \vec{v}_{ccw} \right) \cdot \mathcal{H}^{7}(\theta) \, d\sigma \right] \cdot \Phi_{intent}}$$
+
+*   **Absolute Metric Equilibrium:** This mathematical limit proves that at the absolute central pinpoint ($r \to 0$), the destructive shear forces of opposing counter-rotational vectors compress into a perfectly stable, zero-friction quantum node.
+
 ---
 
 🌌 *The celestial circle is closed. Read our definitive [Complete Celestial Mapping Architecture Manual](Documentation/COMPLETE_CELESTIAL_MAPPING.md) to see how all 22 foundational cosmic alignments govern our scale-invariant fluid engine, finishing with the split-current symmetry of Serpens.*
