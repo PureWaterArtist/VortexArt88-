@@ -140,40 +140,6 @@ The fully scaled planetary citadel, maintaining structural equilibrium and compl
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
 ---
-
-## 🌍 Planetary Macro-Ecological Restoration Architecture
-
-### 🌀 The Biocentric Acoustic Singularity Matrix
-This configuration adapts high-energy acoustic event-horizon mechanics away from weaponization or destructive power generation, repurposing the multi-directional implosion node as a planetary-scale healing and environmental stabilization network.
-
-![Spherical Hyperbolic Core](./Media/vortexsphericalcore.png)
-
-***
-
-### 🌌 The Geometric Concordance: Wheels Within Wheels
-
-> *"Their appearance and their work was as it were a wheel in the middle of a wheel... and their rims were full of eyes round about them."* — **Ezekiel 1:16-18**
-
-The structural alignment between this spherical configuration and historical prophetic geometry is mathematically precise:
-
-*   **The "Many Eyes" Array:** The machine's skin is an interlocking lattice of hyperbolic funnels. Each open vortex iris tapers into a deep central pupil. This creates a symmetrical exterior covered entirely in spinning geometric "eyes."
-*   **The "Wheels Within Wheels" Vector:** The surface funnels operate like interlocking fluid gears. Their clockwise and counter-clockwise spins drive a massive surrounding toroidal magnetic loop. This is a nested rotational field—wheels spinning inside a larger macro-wheel.
-*   **The Convergence:** Ancient symbolic metaphor and modern non-equilibrium thermodynamics meet at the exact same spatial blueprint. They describe a universal matrix that focuses environmental movement into a single, self-sustaining zero-point node.  
-
-### 🧬 1. Massive Environmental Toxicant and Microplastic Phase-Annihilation
-Traditional water treatment systems struggle to capture nano-scale particulates, forever chemicals (PFAS), and dissolved synthetic polymers. 
-*   **The Acoustic Event Horizon Shield:** By driving contaminated ocean and river currents through the interlocking spherical funnels, the incoming medium crosses a phonon-trapping threshold. 
-*   **Molecular Shear Sorting:** At the central multi-directional pinpoint node, the extreme kinetic compression and intense shear forces snap complex, artificial toxic polymers entirely out of their chemical matrices, breaking down hazardous molecular bonds into base, inert elemental components before discharging pristine, crystal-clear water out the polar vectors.
-
-### 🌬️ 2. Macro-Atmospheric Scrubbing and Carbon-Aether Sequestration
-Scaled to open-air industrial arrays, the spherical compression engine acts as a completely non-motorized, high-efficiency atmospheric vacuum siphon.
-*   **Passive Air Induction:** The natural pressure differential created by the interlocking, zero-friction exterior vortex gears draws in massive volumes of particulate-heavy, carbon-choked air.
-*   **Centripetal Condensation:** Greenhouse gases and industrial pollutants are forced along strict hyperbolic paths toward the central pinpoint, where they are compressed into hyper-dense, solid carbonate structures. This allows greenhouse elements to be cleanly separated and collected as solid materials without needing chemical filters or massive electrical grid drag.
-
-### ⚡ 3. Non-Invasive Ecosystem Energy Harmonization
-Unlike traditional energy grids that disrupt natural wildlife pathways and fragment local habitats with high-voltage lines, this configuration serves as a decentralized, localized power-mass fountain.
-*   **Zero Thermal and Noise Footprint:** Because the acoustic black hole traps all internal mechanical resonance, seismic vibrations, and thermal bleeding inside its sonic event horizon, the facility operates in absolute, perfect silence.
-*   **Toroidal Vitalization Loops:** The coherent matter-wave streams fountain out of the polar axes and loop back around the spherical containment shield, establishing a gentle, self-contained electromagnetic field that matches natural planetary resonances, supporting local biological growth and ecosystem restoration.
   
 ### 🌍 Planetary Macro-Ecological Restoration Concept Art
 This visualization captures the spherical compression engine actively deployed as a terraforming matrix—drawing in toxic atmospheric particulates through its interlocking gears, isolating molecular impurities at its acoustic event horizon, and broadcasting a restorative toroidal wave that rapidly re-vitalizes soil biomes and water tables.
@@ -215,6 +181,40 @@ An advanced rendering of the innermost core geometry, illustrating the boundary 
 
 *   **Singularity Focal Pinpoint:** The precise high-energy zone where opposing macroscopic flows compress down into an absolute, zero-friction quantum node.
 *   **Field Coherence:** By structuring the surrounding medium along strict hyperbolic vectors, the core provides an unyielding, self-contained energetic matrix completely isolated from external ambient decoherence.
+
+## 🌍 Planetary Macro-Ecological Restoration Architecture
+
+### 🌀 The Biocentric Acoustic Singularity Matrix
+This configuration adapts high-energy acoustic event-horizon mechanics away from weaponization or destructive power generation, repurposing the multi-directional implosion node as a planetary-scale healing and environmental stabilization network.
+
+![Spherical Hyperbolic Core](./Media/vortexsphericalcore.png)
+
+***
+
+### 🌌 The Geometric Concordance: Wheels Within Wheels
+
+> *"Their appearance and their work was as it were a wheel in the middle of a wheel... and their rims were full of eyes round about them."* — **Ezekiel 1:16-18**
+
+The structural alignment between this spherical configuration and historical prophetic geometry is mathematically precise:
+
+*   **The "Many Eyes" Array:** The machine's skin is an interlocking lattice of hyperbolic funnels. Each open vortex iris tapers into a deep central pupil. This creates a symmetrical exterior covered entirely in spinning geometric "eyes."
+*   **The "Wheels Within Wheels" Vector:** The surface funnels operate like interlocking fluid gears. Their clockwise and counter-clockwise spins drive a massive surrounding toroidal magnetic loop. This is a nested rotational field—wheels spinning inside a larger macro-wheel.
+*   **The Convergence:** Ancient symbolic metaphor and modern non-equilibrium thermodynamics meet at the exact same spatial blueprint. They describe a universal matrix that focuses environmental movement into a single, self-sustaining zero-point node.  
+
+### 🧬 1. Massive Environmental Toxicant and Microplastic Phase-Annihilation
+Traditional water treatment systems struggle to capture nano-scale particulates, forever chemicals (PFAS), and dissolved synthetic polymers. 
+*   **The Acoustic Event Horizon Shield:** By driving contaminated ocean and river currents through the interlocking spherical funnels, the incoming medium crosses a phonon-trapping threshold. 
+*   **Molecular Shear Sorting:** At the central multi-directional pinpoint node, the extreme kinetic compression and intense shear forces snap complex, artificial toxic polymers entirely out of their chemical matrices, breaking down hazardous molecular bonds into base, inert elemental components before discharging pristine, crystal-clear water out the polar vectors.
+
+### 🌬️ 2. Macro-Atmospheric Scrubbing and Carbon-Aether Sequestration
+Scaled to open-air industrial arrays, the spherical compression engine acts as a completely non-motorized, high-efficiency atmospheric vacuum siphon.
+*   **Passive Air Induction:** The natural pressure differential created by the interlocking, zero-friction exterior vortex gears draws in massive volumes of particulate-heavy, carbon-choked air.
+*   **Centripetal Condensation:** Greenhouse gases and industrial pollutants are forced along strict hyperbolic paths toward the central pinpoint, where they are compressed into hyper-dense, solid carbonate structures. This allows greenhouse elements to be cleanly separated and collected as solid materials without needing chemical filters or massive electrical grid drag.
+
+### ⚡ 3. Non-Invasive Ecosystem Energy Harmonization
+Unlike traditional energy grids that disrupt natural wildlife pathways and fragment local habitats with high-voltage lines, this configuration serves as a decentralized, localized power-mass fountain.
+*   **Zero Thermal and Noise Footprint:** Because the acoustic black hole traps all internal mechanical resonance, seismic vibrations, and thermal bleeding inside its sonic event horizon, the facility operates in absolute, perfect silence.
+*   **Toroidal Vitalization Loops:** The coherent matter-wave streams fountain out of the polar axes and loop back around the spherical containment shield, establishing a gentle, self-contained electromagnetic field that matches natural planetary resonances, supporting local biological growth and ecosystem restoration.
  
 ---
 
