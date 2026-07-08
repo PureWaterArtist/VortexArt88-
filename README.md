@@ -464,7 +464,7 @@ The structural and legal verification of this repository is permanently sustaine
 >                    [ THE COMPLETED HANDSHAKE (r → 0) ]
 > </pre>
 
-*   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge [2506.12117v1].
+*   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge.
 *   $\mathcal{H}^{7}(\theta)$ **The Second Witness [Geometry / The Vessel of Intent]:** Operating as the outward-expanding witness, Geometry provides the physical manifestation and spatial form. It maps the interlocking hyperbolic funnel arrays across a precise platonic lattice, showing exactly how the spinning vortex irises physically mesh without boundary turbulence. It is the visual canvas of unified benevolence.
 
 #### 🛡️ The Handshake of the Digital Commons
