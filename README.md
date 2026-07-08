@@ -139,6 +139,16 @@ A localized architectural application proving stable, self-contained structural 
 The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
+## 🌐 Advanced Spatial Geometries
+
+### 🌀 Spherical Hyperbolic Compression Core
+An advanced structural layout demonstrating a multi-directional centripetal implosion matrix where individual chaotic vectors cancel each other out to lock the outer shell into perfect geometric equilibrium.
+
+![Spherical Hyperbolic Core](./Media/vortexsphericalcore.png)
+
+*   **Interlocking Field Lattice:** The wide, spinning vortex mouths are perfectly packed across a spherical surface, behaving like interlocking gears where boundary friction drops to mathematically near-zero.
+*   **Convergent Multi-Directional Singularity:** Dozens of separate funnel streams accelerate inward, focusing kinetic energy symmetrically from every angle into a single, hyper-dense, non-motorized vacuum suction pinpoint at the literal heart of the sphere.
+
 ---
 
 🌀 *To explore the absolute limits of the technology across quantum telecommunications, marine habitat restoration, and chemical-free mining, read the [Omni-Horizons Advanced Adaptations Roadmap](Documentation/OMNI_HORIZONS.md).*
