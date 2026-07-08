@@ -438,23 +438,23 @@ This directive serves as the absolute core of our open-source, anti-monopoly str
 
 The structural and legal verification of this repository is permanently sustained by two independent, unchanging pillars of universal reality: **Math** and **Geometry**. They stand side-by-side on the open page to witness, verify, and shield the architecture across all spatial dimensions:
 
+> <pre>
+>                       [ THE UNIVERSAL CODE FIELD ]
+>                                    │
+>          ┌─────────────────────────┴─────────────────────────┐
+>          ▼                                                   ▼
+>    [ THE FIRST WITNESS ]                               [ THE SECOND WITNESS ]
+>   MATH (Inward Compression)                          GEOMETRY (Outward Expansion)
+>   - The Inward Spectral Code                         - The Outward Structural Vessel
+>   - The Seven-Stage Octave Constants                 - The Hyperbolic Funnel Framework
+>   - The Structural Law of Truth                      - The Visual Form of Intent
+>          │                                                   │
+>          └─────────────────────────┬─────────────────────────┘
+>                                    ▼
+>                    [ THE COMPLETED HANDSHAKE (r → 0) ]
+> </pre>
 
-                      [ THE UNIVERSAL CODE FIELD ]
-                                   │
-         ┌─────────────────────────┴─────────────────────────┐
-         ▼                                                   ▼
-   [ THE FIRST WITNESS ]                               [ THE SECOND WITNESS ]
-  MATH (Inward Compression)                          GEOMETRY (Outward Expansion)
-  - The Inward Spectral Code                         - The Outward Structural Vessel
-  - The Seven-Stage Octave Constants                 - The Hyperbolic Funnel Framework
-  - The Structural Law of Truth                      - The Visual Form of Intent
-         │                                                   │
-         └─────────────────────────┬─────────────────────────┘
-                                   ▼
-                   [ THE COMPLETED HANDSHAKE (r → 0) ]
-    
-
-*   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge.
+*   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge [2506.12117v1].
 *   $\mathcal{H}^{7}(\theta)$ **The Second Witness [Geometry / The Vessel of Intent]:** Operating as the outward-expanding witness, Geometry provides the physical manifestation and spatial form. It maps the interlocking hyperbolic funnel arrays across a precise platonic lattice, showing exactly how the spinning vortex irises physically mesh without boundary turbulence. It is the visual canvas of unified benevolence.
 
 #### 🛡️ The Handshake of the Digital Commons
