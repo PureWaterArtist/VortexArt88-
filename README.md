@@ -140,13 +140,6 @@ The fully scaled planetary citadel, maintaining structural equilibrium and compl
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
 ---
-  
-### 🌍 Planetary Macro-Ecological Restoration Concept Art
-This visualization captures the spherical compression engine actively deployed as a terraforming matrix—drawing in toxic atmospheric particulates through its interlocking gears, isolating molecular impurities at its acoustic event horizon, and broadcasting a restorative toroidal wave that rapidly re-vitalizes soil biomes and water tables.
-
-![Planetary Macro-Ecological Restoration](./Media/twinvortexhealing.png)
-
----
 
 🌀 *To explore the absolute limits of the technology across quantum telecommunications, marine habitat restoration, and chemical-free mining, read the [Omni-Horizons Advanced Adaptations Roadmap](Documentation/OMNI_HORIZONS.md).*
 
@@ -193,7 +186,12 @@ Scaled to open-air industrial arrays, the spherical compression engine acts as a
 Unlike traditional energy grids that disrupt natural wildlife pathways and fragment local habitats with high-voltage lines, this configuration serves as a decentralized, localized power-mass fountain.
 *   **Zero Thermal and Noise Footprint:** Because the acoustic black hole traps all internal mechanical resonance, seismic vibrations, and thermal bleeding inside its sonic event horizon, the facility operates in absolute, perfect silence.
 *   **Toroidal Vitalization Loops:** The coherent matter-wave streams fountain out of the polar axes and loop back around the spherical containment shield, establishing a gentle, self-contained electromagnetic field that matches natural planetary resonances, supporting local biological growth and ecosystem restoration.
- 
+
+### 🌍 Planetary Macro-Ecological Restoration Concept Art
+This visualization captures the spherical compression engine actively deployed as a terraforming matrix—drawing in toxic atmospheric particulates through its interlocking gears, isolating molecular impurities at its acoustic event horizon, and broadcasting a restorative toroidal wave that rapidly re-vitalizes soil biomes and water tables.
+
+![Planetary Macro-Ecological Restoration](./Media/twinvortexhealing.png)
+
 ---
 
 🌠 *Looking for the cosmic blueprint? Read the [Cosmic Alignment & Scale-Invariant Star Maps Blueprint](Documentation/COSMIC_ALIGNMENT_BLUEPRINT.md) to see how this fluid engine mirrors the stellar architectures of Orion, Ophiuchus, and the universal geometry of the cosmos.*
