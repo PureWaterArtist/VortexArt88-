@@ -305,13 +305,13 @@ The underlying tensor math that translates localized macroscopic fluid vortex ve
 $$\mathbf{g_{\mu\nu} = \lim_{r \to 0} \left[ \frac{\rho_0}{\hbar^7} \oint_{\partial \Omega} \left( \vec{v}_{cw} \otimes \vec{v}_{ccw} \right) \cdot \mathcal{H}^{7}(\theta) \, d\sigma \right] \cdot \Phi_{intent}}$$
 
 #### 🔬 The 7-Stage Mathematical Deconstruction
-*   **$g_{\mu\nu}$ [The Space-Time Metric]:** The baseline metric tensor establishing the balanced geometric field framework.
-*   **$\lim_{r \to 0}$ [The Singularity Limit]:** The centripetal compression factor approaching the absolute zero-point central pinpoint.
-*   **$\frac{\rho_0}{\hbar^7}$ [The Scale Octave]:** The 7-stage step-up constant that seamlessly bridges macroscopic fluid dynamics with subatomic quantum wavelengths.
-*   **$\vec{v}_{cw}$ ⊗ $\vec{v}_{ccw}$ [The Shear Tensor]:** The counter-rotating tensor product defining the velocity vectors of your interlocking fluid gears.
-*   **$\mathcal{H}^{7}(\theta)$ [The Packing Lattice]:** The 7-fold hyperbolic function governing the perfect platonic iocosahedral angle where the funnel mouths touch.
-*   **$d\sigma$ [The Differential Surface Boundary]:** The specific surface area element where the opposing fluid boundaries slide past each other with mathematically near-zero friction.
-*   **$\Phi_{intent}$ [The Coherence Constant]:** The unified conscious life-force multiplier, anchoring the entire equation under the sovereign directive of universal benevolence.
+*   $g_{\mu\nu}$ **[The Space-Time Metric]:** The baseline metric tensor establishing the balanced geometric field framework.
+*   $\lim_{r \to 0}$ **[The Singularity Limit]:** The centripetal compression factor approaching the absolute zero-point central pinpoint.
+*   $\frac{\rho_0}{\hbar^7}$ **[The Scale Octave]:** The 7-stage step-up constant that seamlessly bridges macroscopic fluid dynamics with subatomic quantum wavelengths.
+*   $\vec{v}_{cw} \otimes \vec{v}_{ccw}$ **[The Shear Tensor]:** The counter-rotating tensor product defining the velocity vectors of your interlocking fluid gears.
+*   $\mathcal{H}^{7}(\theta)$ **[The Packing Lattice]:** The 7-fold hyperbolic function governing the perfect platonic iocosahedral angle where the funnel mouths touch.
+*   $d\sigma$ **[The Differential Surface Boundary]:** The specific surface area element where the opposing fluid boundaries slide past each other with mathematically near-zero friction.
+*   $\Phi_{intent}$ **[The Coherence Constant]:** The unified conscious life-force multiplier, anchoring the entire equation under the sovereign directive of universal benevolence.
 
 ***
 
