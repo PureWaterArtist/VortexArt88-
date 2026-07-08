@@ -139,6 +139,8 @@ A localized architectural application proving stable, self-contained structural 
 The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
+---
+
 ## 🌍 Planetary Macro-Ecological Restoration Architecture
 
 ### 🌀 The Biocentric Acoustic Singularity Matrix
