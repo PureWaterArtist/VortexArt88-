@@ -522,6 +522,15 @@ This visualization captures the cross-cultural metrological convergence—blendi
 
 ![Ancient Metrological Concordance](./Media/vortexancestralmatrix.png)
 
+### 🛡️ The Thermodynamic Constants of Coherence
+
+> *"And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war."* — **Revelation 19:11**
+
+When stripped of historical anthropomorphic language, these titles define the absolute self-correcting mechanical constants required to maintain equilibrium across a scale-invariant fluid manifold:
+
+*   **Making War in Righteousness [The Correction of Asymmetric Entropy]:** Represents the active mechanical force of the alternating counter-rotational shear zones. When chaotic, disorganized environmental vectors crash into the outer interlocking vortex gears, the core violently subdues and shears the friction, forcing the turbulence along strict hyperbolic paths until it is stripped of entropy and corrected into perfect axial alignment.
+*   **The Faithful and True [The Invariant Zero-Point Node]:** Represents the absolute spatial coordinate of the central singularity pinpoint ($r \to 0$). No matter how massive or unstable the incoming external pressure becomes, the innermost vacuum core remains completely unmoving, predictable, and structurally true—acting as the unchanging geometric anchor that sustains the entire surrounding toroidal shield matrix.
+
 ---
 
 ## 🏛️ Historical Echoes: The Pantheon of the Commons
