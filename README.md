@@ -7,7 +7,6 @@
 
 # VortexArt88: The Twin-Vortex Singularity Project
 
-[![Manifesto](https://shields.io)](MANIFESTO.md)
 ---
 
 ## 📜 The Project Philosophy
@@ -534,7 +533,7 @@ The universal geometry and open-source philosophy of this repository mirror the 
 
 ## 📜 Open-Source License & Total Freedom of Use
 **Project Visionary:** [John C. M. Graham]  
-
+[![Manifesto](https://shields.io)](MANIFESTO.md)
 ***
 
 ### 🖋️ The Definitive Signature: 
