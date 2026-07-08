@@ -566,3 +566,84 @@ The universal geometry and open-source philosophy of this repository mirror the 
 > — **Historical Commons Maxim**
 
 ***
+
+## 📜 Open-Source License & Total Freedom of Use
+**Project Visionary:** [John C. M. Graham]  
+
+***
+
+### 🖋️ The Definitive Signature: 
+*The Witness of the Math and Geometry*
+
+> *"I, John, am the one who heard and saw these things."* — **Revelation 22:8**
+
+This final seal transitions the documentation away from cosmic architecture back to a statement of personal sovereign responsibility:
+
+*   **The Unveiled Reality:** The passage serves as an ironclad, first-person validation that these complex, multi-dimensional structures are not abstract theories, but clearly observed, physically reproducible geometries.
+*   **The Sovereign Ledger Account:** By ending your repository with a definitive witness statement, you take absolute personal ownership of the open-source deployment. You mirror the ancient format of stepping forward to sign the record, permanently verifying that this specific framework was brought into the world by an independent creator.
+*   **The Completed Record:** This statement acts as the definitive punctuation mark for the entire project. It signals to any future developer or mega-corporation reading the ledger that the work has been fully witnessed, executed, and anchored into the public domain.
+
+---
+
+This project is fully open-source and intended for rapid, un-gated global replication. It is released under the **CERN Open Hardware License (Strongly Reciprocal)** or **Creative Commons Attribution-ShareAlike**. 
+
+You are explicitly encouraged to:
+*   **Copy, download, fork, and share** these files anywhere on the planet.
+*   **Modify, upscale, downscale, or completely redesign** the geometries to fit your local plumbing standards.
+*   **Build, manufacture, and commercially sell** these nozzles and kits to your local communities.
+
+The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, sell it, modify it—Free the water. Free the power. Free the knowledge. Free Intelligence. Free Life Itself.**
+
+### 🛡️ The Copyleft Commandment: Un-Shackling the Source
+
+> *"And he saith unto me, Seal not the sayings of the prophecy of this book: for the time is at hand."* — **Revelation 22:10**
+
+This directive serves as the absolute core of our open-source, anti-monopoly strategy:
+
+*   **The Anti-Enclosure Directive:** To "seal not" means to explicitly forbid hidden code, proprietary paywalls, or restrictive NDAs. This text acts as a philosophical mandate for the **GNU General Public License (GPL v3)** and **CERN Open Hardware Licence (OHL)**, legally requiring that the source files remain completely un-redacted and viewable by any human being on Earth.
+*   **Immutable Public Access:** Under standard intellectual property laws, corporations lock innovations in private vaults to artificially stifle progress. This commandment dictates that the geometric blueprint must remain continuously public, ensuring no entity can ever force this documentation into corporate concealment.
+*   **The Immediate Horizon:** The warning that the time is at hand mirrors the urgency of modern open-source collaboration. It transitions the technology away from a theoretical future concept into an immediate, deployable toolkit for current decentralized engineering networks.
+
+***
+
+## 🏛️ The Two Witnesses of the Ledger
+
+> *"And I will give power unto my two witnesses, and they shall prophesy... These are the two olive trees, and the two candlesticks standing before the God of the earth."* — **Revelation 11:3-4**
+
+The structural and legal verification of this repository is permanently sustained by two independent, unchanging pillars of universal reality: **Math** and **Geometry**. They stand side-by-side on the open page to witness, verify, and shield the architecture across all spatial dimensions:
+
+> <pre>
+>                       [ THE UNIVERSAL CODE FIELD ]
+>                                    │
+>          ┌─────────────────────────┴─────────────────────────┐
+>          ▼                                                   ▼
+>    [ THE FIRST WITNESS ]                               [ THE SECOND WITNESS ]
+>   MATH (Inward Compression)                          GEOMETRY (Outward Expansion)
+>   - The Inward Spectral Code                         - The Outward Structural Vessel
+>   - The Seven-Stage Octave Constants                 - The Hyperbolic Funnel Framework
+>   - The Structural Law of Truth                      - The Visual Form of Intent
+>          │                                                   │
+>          └─────────────────────────┬─────────────────────────┘
+>                                    ▼
+>                    [ THE COMPLETED HANDSHAKE (r → 0) ]
+> </pre>
+
+*   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge.
+*   $\mathcal{H}^{7}(\theta)$ **The Second Witness [Geometry / The Vessel of Intent]:** Operating as the outward-expanding witness, Geometry provides the physical manifestation and spatial form. It maps the interlocking hyperbolic funnel arrays across a precise platonic lattice, showing exactly how the spinning vortex irises physically mesh without boundary turbulence. It is the visual canvas of unified benevolence.
+
+#### 🛡️ The Handshake of the Digital Commons
+By presenting both witnesses simultaneously on a public, globally timestamped ledger, the repository achieves complete legal and philosophical autonomy. The **Geometry** is verified by open-source CAD blueprints and concept layouts, while the **Math** is verified by non-equilibrium tensor equations. Together, they establish an indestructible prior-art shield, ensuring this specific configuration remains a free, un-shackled gift to global innovation for all generations.
+
+***
+
+## 🔓 The Covenant of the Open Commons
+
+> *"Freely you have received; freely give."* — **Matthew 10:8**
+
+This architecture is born from the universal laws of nature, and by structural and moral decree, it belongs entirely to the global public commons. The mandate of this repository is absolute: **Take this knowledge and do not sell it.**
+
+*   **The De-Commodification Mandate:** Because these geometric and mathematical laws are scale-invariant constants of the universe, they cannot be owned, privatized, or monetized by any single entity. Any attempt to enclose this blueprint within proprietary paywalls, corporate monopolies, or restrictive licensing is a direct violation of the system's operational integrity.
+*   **The Un-Shackled Horizon:** Innovation accelerates only when information flows along the path of least resistance—completely free from economic friction. By releasing these 3D print assets, code vectors, and tensor formulations openly, we guarantee that any student, independent builder, or ecological engineer has immediate, unhindered access to the tools required to restore their local environments.
+*   **The Immutable Inheritance:** This repository acts as a permanent, open seed crystal. You are free to study it, build it, adapt it, and scale it from the micron to the cosmos. The only condition written into the ledger is that your modifications must also remain completely free and open forever—ensuring the stream of knowledge remains uncontained for all generations.
+
+***
