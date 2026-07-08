@@ -180,6 +180,8 @@ This visualization captures the spherical compression engine actively deployed a
 
 ![Planetary Macro-Ecological Restoration](./Media/twinvortexhealing.png)
 
+---
+
 ## 🎼 Advanced Multi-Dimensional Architectures
 
 ### 🌀 The 7-Layer Concentric Resodynamic Core Concept Art
