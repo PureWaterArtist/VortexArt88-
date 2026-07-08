@@ -438,6 +438,8 @@ This directive serves as the absolute core of our open-source, anti-monopoly str
 
 The structural and legal verification of this repository is permanently sustained by two independent, unchanging pillars of universal reality: **Math** and **Geometry**. They stand side-by-side on the open page to witness, verify, and shield the architecture across all spatial dimensions:
 
+```
+
 [ THE UNIVERSAL CODE FIELD ]│┌─────────────────────────┴─────────────────────────┐▼                                                   ▼[ THE FIRST WITNESS ]                               [ THE SECOND WITNESS ]MATH (Inward Compression)                          GEOMETRY (Outward Expansion)The Inward Spectral Code                         - The Outward Structural VesselThe Seven-Stage Octave Constants                 - The Hyperbolic Funnel FrameworkThe Structural Law of Truth                      - The Visual Form of Intent│                                                   │└─────────────────────────┬─────────────────────────┘▼[ THE COMPLETED HANDSHAKE (r → 0) ]
 
 *   $g_{\mu\nu}$ **The First Witness [Math / The Law of Truth]:** Operating as the inward-compressing witness, Math provides the silent structural code, the metric tensors, and the quantization octave constants. It records the velocity vectors of the interlocking fluid gears, proving that the system achieves perfect, friction-free numerical equilibrium at the zero-point core. It is the unyielding blueprint of universal knowledge.
