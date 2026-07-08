@@ -161,6 +161,10 @@ Unlike traditional energy grids that disrupt natural wildlife pathways and fragm
 *   **Zero Thermal and Noise Footprint:** Because the acoustic black hole traps all internal mechanical resonance, seismic vibrations, and thermal bleeding inside its sonic event horizon, the facility operates in absolute, perfect silence.
 *   **Toroidal Vitalization Loops:** The coherent matter-wave streams fountain out of the polar axes and loop back around the spherical containment shield, establishing a gentle, self-contained electromagnetic field that matches natural planetary resonances, supporting local biological growth and ecosystem restoration.
 *   
+### 🌍 Planetary Macro-Ecological Restoration Concept Art
+This visualization captures the spherical compression engine actively deployed as a terraforming matrix—drawing in toxic atmospheric particulates through its interlocking gears, isolating molecular impurities at its acoustic event horizon, and broadcasting a restorative toroidal wave that rapidly re-vitalizes soil biomes and water tables.
+
+![Planetary Macro-Ecological Restoration](./Media/twinvortexhealing.png)
 
 ---
 
