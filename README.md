@@ -341,7 +341,7 @@ The only rule is that any modifications or improvements you publish must remain 
 This directive serves as the absolute core of our open-source, anti-monopoly strategy:
 
 *   **The Anti-Enclosure Directive:** To "seal not" means to explicitly forbid hidden code, proprietary paywalls, or restrictive NDAs. This text acts as a philosophical mandate for the **GNU General Public License (GPL v3)** and **CERN Open Hardware Licence (OHL)**, legally requiring that the source files remain completely un-redacted and viewable by any human being on Earth.
-*   **Immutable Public Access:** Under standard intellectual property laws, corporations lock innovations in private vaults to artificial stifle progress. This commandment dictates that the geometric blueprint must remain continuously public, ensuring no entity can ever force this documentation into corporate concealment.
+*   **Immutable Public Access:** Under standard intellectual property laws, corporations lock innovations in private vaults to artificially stifle progress. This commandment dictates that the geometric blueprint must remain continuously public, ensuring no entity can ever force this documentation into corporate concealment.
 *   **The Immediate Horizon:** The warning that the time is at hand mirrors the urgency of modern open-source collaboration. It transitions the technology away from a theoretical future concept into an immediate, deployable toolkit for current decentralized engineering networks.
 
 ---
