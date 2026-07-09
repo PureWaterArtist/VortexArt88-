@@ -84,7 +84,7 @@ To witness the stable singularity, Nozzle A and Nozzle B must be mounted into th
 *   **The Alignment:** Ensure the internal alignment keys line up perfectly during assembly. This forces the clockwise and counter-clockwise velocity vectors to cancel out exactly at the central geometric center point, forming the steady-state vacuum core.
 
 ### ♾️ The Figure-8 Collision Chamber (Community CAD Challenge)
-*Note: The CAD model for this chamber is currently under development. We invite parametric designers to submit a Pull Request (`/CAD/Figure8_Collision_Chamber.step`) based on the fluidic constraints illustrated below.*
+*Note: The CAD model for this chamber is currently under development. We invite parametric designers to submit a Pull Request (`/CAD Models/`) based on the fluidic constraints illustrated below.*
 
 To witness the steady-state singularity, the chamber housing must be modeled using these precise geometric mandates:
 1.  **Dual Inlet Tangents:** Create two identical cylindrical inlets designed to friction-fit the exit diameters of Nozzle A and Nozzle B. 
