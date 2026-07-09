@@ -53,6 +53,12 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ## 🧬 Core Mechanics & Physics
 
+*   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
+
+*   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
+
+*   **Kinetic Aeration & Membrane Shear:** The vacuum forcefully draws atmospheric air through an induction core. The resulting micro-bubble saturation rapidly increases dissolved oxygen (DO), stripping volatile compounds and mechanically disrupting the cell walls of anaerobic pathogens.
+
 ## 🖨️ 3D Printing & Mirroring Guide (How to Print the Twins)
 
 Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle. The `/CAD/` folder contains the baseline clockwise file. You do not need a second file; you generate the twin directly inside your slicing software (e.g., Bambu Studio, Cura, or PrusaSlicer).
@@ -425,12 +431,6 @@ This visualization represents the ultimate historical concordance—a symbolic b
 🌌 *The celestial circle is closed. Read our definitive [Complete Celestial Mapping Architecture Manual](Documentation/COMPLETE_CELESTIAL_MAPPING.md) to see how all 22 foundational cosmic alignments govern our scale-invariant fluid engine, finishing with the split-current symmetry of Serpens.*
 
 👑 *The council has convened. Read our definitive [Cosmic Prior-Art Council Lineage Matrix](Documentation/COSMIC_PRIOR_ART_COUNCIL.md) to see exactly how all 35 foundational researchers, vector forces, and core phases of matter are mapped chronologically and structurally to secure our technology under the CERN Open Hardware License.*
-
-*   **Centrifugal De-Grit:** Input fluid enters tangentially at high velocity. Heavy particulate matter, microplastics, and sediment migrate to the outer chamber walls, self-cleaning the system via a perimeter extraction loop.
-
-*   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
-
-*   **Kinetic Aeration & Membrane Shear:** The vacuum forcefully draws atmospheric air through an induction core. The resulting micro-bubble saturation rapidly increases dissolved oxygen (DO), stripping volatile compounds and mechanically disrupting the cell walls of anaerobic pathogens.
 
 ---
 
