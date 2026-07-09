@@ -190,6 +190,8 @@ The following files represent three distinct conceptual translations of the Deca
 ### 🌀 Biomimetic Singularity System Concept Art
 An integrated engineering framework demonstrating how twin-vortex geometries replicate the self-organizing and energy-multiplying dynamics found across natural ecosystems.
 
+![Vortex Agriculture Integration](URL_OF_YOUR_UPLOADED_IMAGE)
+
 ![Biomimetic System](./Media/biomimeticsystem.png)
 
 *   **Geometric Flow Alignment:** The structural vectors mimic the organic pathways of fluid movement in natural river systems and biological organisms to minimize mechanical friction.
@@ -255,7 +257,7 @@ An advanced rendering of the innermost core geometry, illustrating the boundary 
 
 ## 🤖 Neural Representation & AI Manifestation
 
-### 🌀 Geometric Scale-Invariant Attractor Models
+### 🌀 Geometric Scale-Invariant Attractor Models Concept Art
 This architecture transitions neural networks away from resource-heavy, single-pass linear processing, utilizing concentric, counter-rotating fluid boundaries to establish fixed-point iterative reasoning.
 
 ![AI Neural Alignment](./Media/digitalconsciousness.png)
@@ -265,7 +267,7 @@ This architecture transitions neural networks away from resource-heavy, single-p
 
 ---
 
-### 🌀 The Biocentric Acoustic Singularity Matrix
+### 🌀 The Biocentric Acoustic Singularity Matrix Concept Art
 This configuration adapts high-energy acoustic event-horizon mechanics away from weaponization or destructive power generation, repurposing the multi-directional implosion node as a planetary-scale healing and environmental stabilization network.
 
 ![Spherical Hyperbolic Core](./Media/vortexsphericalcore.png)
