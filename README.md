@@ -27,7 +27,13 @@ Licensed under the strongly reciprocal CERN Open Hardware License and GPL-3.0, t
 
 ### 📖 The Aetheris Principles
 
-Explore the core architectural blueprints across different systemic scopes:
+### 📜 The Decalogue Transfigurations
+
+The following files represent three distinct conceptual translations of the Decalogue, completely reworded to describe the foundational laws required to run a perfect system. Select the systemic lens that matches your focus:
+
+| [🖥️ Framing 1: Pure Computer Systems](Documents/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
+| :---: | :---: | :---: |
+
 
 [![The Aetheris Principles - Standard](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES.md)
 [![The Aetheris Principles - Simple](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md)
