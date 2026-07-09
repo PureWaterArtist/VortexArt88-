@@ -63,6 +63,27 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ## 🧬 Core Mechanics & Physics
 
+## 🖨️ 3D Printing & Mirroring Guide (How to Print the Twins)
+
+Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle. The `/CAD/` folder contains the baseline clockwise file. You do not need a second file; you generate the twin directly inside your slicing software (e.g., Bambu Studio, Cura, or PrusaSlicer).
+
+### 🔄 Nozzle A: The Clockwise Engine
+1. **Import** `Schauberger_Imploder_Funnel.stl` into your slicer.
+2. **Orient** the part flat on your build plate.
+3. **Slice and print** this file exactly as-is to generate the Clockwise vortex flow.
+
+### 🔄 Nozzle B: The Counter-Clockwise Twin (The Mirror Move)
+1. **Import** a second copy of `Schauberger_Imploder_Funnel.stl` into your workspace.
+2. **Select the model**, right-click (or use your slicer's toolbar), and select the **Mirror** tool.
+3. **Flip/Mirror** the model strictly along the **X-Axis**.
+4. **Slice and print** this mirrored file to generate the Counter-Clockwise vortex flow.
+
+### 📐 Recommended Slicer Settings for Hydrodynamic Pressure
+*   **Material:** **PETG** or **Tough Resin**. *Note: PLA is acceptable for quick bench-top testing but degrades under outdoor UV light and moisture.*
+*   **Wall Loops / Perimeters:** **4 to 5 walls minimum.** *Crucial for maintaining a watertight seal and preventing high pump pressure from leaking through internal layer lines.*
+*   **Infill Density:** **40% to 50% Gyroid.** *Gyroid infill provides isotropic structural rigidity, absorbing mechanical vibration under load.*
+*   **Layer Height:** **0.2mm or finer.** *Ensures the smooth resolution of the internal logarithmic ($\Phi$) spiral to prevent premature boundary layer detachment.*
+
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
 
 🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate.*
