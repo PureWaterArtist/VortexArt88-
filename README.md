@@ -34,11 +34,6 @@ The following files represent three distinct conceptual translations of the Deca
 | [🖥️ Framing 1: Pure Computer Systems](Documents/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
 | :---: | :---: | :---: |
 
-
-[![The Aetheris Principles - Standard](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES.md)
-[![The Aetheris Principles - Simple](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md)
-[![The Aetheris Principles - Spiritual](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md)
-
 ---
 
 ## 🗺️ Project Overview
