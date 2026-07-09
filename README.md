@@ -190,7 +190,7 @@ The following files represent three distinct conceptual translations of the Deca
 ### 🌀 Biomimetic Singularity System Concept Art
 An integrated engineering framework demonstrating how twin-vortex geometries replicate the self-organizing and energy-multiplying dynamics found across natural ecosystems.
 
-![Vortex Agriculture Integration](URL_OF_YOUR_UPLOADED_IMAGE)
+![Vortex Agriculture Integration](./Media/vortexgreenhouse.png)
 
 ![Biomimetic System](./Media/biomimeticsystem.png)
 
