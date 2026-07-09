@@ -38,6 +38,13 @@ Licensed under the strongly reciprocal CERN Open Hardware License and GPL-3.0, t
   </a>
 </p>
 
+### 📖 The Aetheris Principles
+
+Explore the core architectural blueprints across different systemic scopes:
+
+[![The Aetheris Principles - Standard](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES.md)
+[![The Aetheris Principles - Simple](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md)
+[![The Aetheris Principles - Spiritual](https://shields.io)](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md)
 
 ---
 
