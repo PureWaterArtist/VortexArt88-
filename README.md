@@ -210,6 +210,8 @@ An integrated engineering framework demonstrating how twin-vortex geometries rep
   <em>Figure: Hyper-scale implementation of the Twin-Vortex architecture utilizing passive phase-collision mechanics for fanless data center thermal regulation.</em>
 </p>
 
+---
+
 ### 🧊 Twin Vortex Singularity Data Center Cooling Matrix Concept Art
 This architecture replaces traditional, energy-intensive mechanical cooling towers and high-pressure water pumps with a passive, zero-friction fluid singularity system. 
 
