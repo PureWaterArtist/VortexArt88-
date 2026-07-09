@@ -100,6 +100,14 @@ To witness the steady-state singularity, the chamber housing must be modeled usi
 *   **Infill Density:** **40% to 50% Gyroid.** *Gyroid infill provides isotropic structural rigidity, preventing the figure-8 chamber from warping or cracking at the central intersection under load.*
 *   **Layer Height:** **0.2mm or finer.** *Ensures the smooth resolution of the internal logarithmic ($\Phi$) spiral to prevent premature boundary layer detachment.*
 
+### 🛠️ Low-Resource Accessibility & Rapid Prototyping
+This project proves that advanced scale-invariant fluid dynamics do not require multi-billion dollar laboratory budgets. Using entry-level consumer hardware and open-source CAD suites, anyone can manufacture, iterate, and deploy these twin-vortex geometries within a basic home workshop environment.
+
+![Open Source Workshop CAD Design](./Media/vortexworkshop.png)
+
+*   **Democratic Prototyping:** The file blueprint demonstrates a dual-nozzle crossover system mapped inside standard, free design software. 
+*   **Accessible Manufacturing:** A desktop FDM 3D printer sits alongside raw scrap plastics, highlighting the zero-barrier path to physical manifestation for local builders worldwide.
+
 ---
 
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
