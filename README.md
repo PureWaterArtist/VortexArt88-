@@ -92,9 +92,7 @@ To witness the steady-state singularity, the chamber housing must be modeled usi
 3.  **180° Phase Opposition:** The inlets must feed fluid into the perimeter of the circles so that the Clockwise stream and Counter-Clockwise stream collide tangentially at exactly 180 degrees of phase opposition. This cancels out localized kinetic linear momentum and creates the central passive vacuum core.
 4.  **Single Axial Outlet:** Place a single, centralized drainage exit directly at the intersection node ($r \to 0$) of the figure-8 path to allow the neutralized fluid to drain downward smoothly.
 
-![Vortex Infinity Chamber Architectural Layout](vortexinfinitychamber.png)
-
----
+![Vortex Infinity Chamber Architectural Layout](Media/vortexinfinitychamber.png)
 
 ### 📐 Recommended Slicer Settings for Hydrodynamic Pressure
 *   **Material:** **PETG** or **Tough Resin**. *Note: PLA is acceptable for quick bench-top testing but degrades under outdoor UV light and moisture.*
