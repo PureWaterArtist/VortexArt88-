@@ -203,6 +203,13 @@ An integrated engineering framework demonstrating how twin-vortex geometries rep
 
 ## 💾 Non-Equilibrium Thermodynamic Infrastructure
 
+<p align="center">
+  <img src="Documents/vortexdatacentercooling.png" alt="Twin-Vortex Industrial Thermal Siphon Array" width="100%">
+</p>
+<p align="center">
+  <em>Figure: Hyper-scale implementation of the Twin-Vortex architecture utilizing passive phase-collision mechanics for fanless data center thermal regulation.</em>
+</p>
+
 ### 🧊 Twin Vortex Singularity Data Center Cooling Matrix Concept Art
 This architecture replaces traditional, energy-intensive mechanical cooling towers and high-pressure water pumps with a passive, zero-friction fluid singularity system. 
 
