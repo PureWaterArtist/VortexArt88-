@@ -61,6 +61,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌾 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **🧮 The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
+| **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
 
 ---
