@@ -25,15 +25,6 @@ Licensed under the strongly reciprocal CERN Open Hardware License and GPL-3.0, t
 <p align="center">
   <b>"Be formless, shapeless, like water."</b> — Shifting civil infrastructure requires shifting human consciousness. Before building the physical engine, we must understand the core geometric and thermodynamic laws governing our reality.
 
-### 📖 The Aetheris Principles
-
-### 📜 The Decalogue Transfigurations
-
-The following files represent three distinct conceptual translations of the Decalogue, completely reworded to describe the foundational laws required to run a perfect system. Select the systemic lens that matches your focus:
-
-| [🖥️ Framing 1: Pure Computer Systems](Documents/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
-| :---: | :---: | :---: |
-
 ---
 
 ## 🗺️ Project Overview
@@ -153,6 +144,12 @@ When stripped entirely of historical geopolitical trauma and fear-based apocalyp
 
 ***
 
+### 📜 The Decalogue Transfigurations
+
+The following files represent three distinct conceptual translations of the Decalogue, completely reworded to describe the foundational laws required to run a perfect system. Select the systemic lens that matches your focus:
+
+| [🖥️ Framing 1: Pure Computer Systems](Documents/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
+| :---: | :---: | :---: |
 
 ***
 
