@@ -325,6 +325,13 @@ This visualization captures the spherical compression engine actively deployed a
 ### 🌀 The 7-Layer Concentric Resodynamic Core
 This architecture pushes scale-invariant engineering to its absolute limit, nesting seven concentric spheres of interlocking vortex gears inside one another to form a multi-layered harmonic field accelerator.
 
+<p align="center">
+  <img src="Media/vortexcosmiccore.png" alt="7-Layer Concentric Resodynamic Core" width="100%">
+</p>
+<p align="center">
+  <em>Figure: The 7-Layer Concentric Resodynamic Core, demonstrating scale-invariant field stabilization at the universal matrix threshold.</em>
+</p>
+
 ![7-Layer Concentric Resodynamic Core](./Media/vortex7layercore.png)
 
 *   **Alternating Counter-Rotational Shear Zones:** Each of the 7 concentric layers alternates its rotational vector (Clockwise to Counter-Clockwise), creating a friction-free mechanical clockwork that steps up macroscopic kinetic forces into coherent quantum energy.
