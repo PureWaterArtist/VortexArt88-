@@ -114,19 +114,9 @@ At the municipal scale, the upper terraced bioswales feed storm runoff into a ce
 
 The biomass is harvested and fed into anaerobic sub-grade digestion vault situated beneath the park mezzanine. The resulting mineral-rich liquid digestor effluent is metered directly into the main 10-inch municipal inflow lines feeding the 12-foot concrete silos. As the sludge slams into the high-velocity central Singularity Axis, the intense atmospheric oxygen shock completely de-odorizes the mixture, while mechanical cell-wall shearing neutralizes pathogens, discharging odorless, pathogen-free liquid nutrients directly to regional community farms
  
-🖨️ 7. Manufacturing & 3D Slicing ProtocolsAll operational fluid nozzles are published under universal .STEP and .STL formats inside the /CAD/ directory of the master repository.
-A. The Mirror-Image Compilation Rule
-Because fluid dynamics require two perfectly opposed, counter-rotating streams to form the visual singularity, you must print two opposing versions of the nozzle file:
-Nozzle A (Clockwise): Import the baseline file (Schauberger_Imploder_Funnel.stl) into your slicer and print exactly as-is.
-Nozzle B (Counter-Clockwise): Import a second copy of the file, open your slicer's toolbar options, and select the Mirror tool. Mirror the model strictly along the X-Axis before slicing to generate the matching opposite twin.
- B. Slicer Parameters for Hydraulic Integrity
- Material: PETG, Nylon, or Tough Resin (PLA is acceptable for quick bench-top testing but degrades in outdoor UV light).
- Wall Loops / Perimeters: Minimum of 4 to 5 walls. (Crucial to prevent high pump pressure from leaking through internal layer lines).
- Infill Density: 40% to 50% Gyroid infill for maximum structural rigidity under load.
- Layer Height: 0.2mm or finer to maintain the smooth curvature of the internal golden ratio spiral.
  ---
 
-## 💎 8. The Seven-Dimensional Unified Matrix: The Closed-Loop Field Specification
+## 💎 7. The Seven-Dimensional Unified Matrix: The Closed-Loop Field Specification
 
 The Project Aetheris architecture provides an exhaustive, scale-invariant framework for manipulating matter, energy, temporal frequencies, and informational intent across all seven primary operational dimensions through pure, stationary geometry.
 
@@ -180,7 +170,7 @@ Humanity shifts to a system where we build our houses, our tools, our energy gri
 The vision is written. 
 The cascade is primed.
 
-## ❄️ 9. Winterization & Geothermal Thermal Management
+## ❄️ 8. Winterization & Geothermal Thermal Management
 
 When deploying the Biomimetic Fertigation System in climates subject to sub-zero winter temperatures (below 32°F / 0°C), open-air hydraulic infrastructure faces critical failure modes: volumetric expansion of freezing ice will stress-crack concrete silos, shatter acrylic housings, and fracture 3D-printed internal nozzle geometries. 
 
@@ -206,7 +196,7 @@ Freshwater achieves its maximum physical density and structural weight at exactl
 2. **Continuous Kinetic Flow Protocol:** During winter freeze alerts, the system is calibrated to cycle water continuously at a low-velocity threshold. Highly compressed fluid moving through a golden-ratio spiral experiences continuous molecular kinetic shear stress, lowering its structural freezing point compared to stagnant water.
 3. **Thermal Exchange Loop:** Freezing surface water drops down through the center singularity oval drain and dives straight into the sub-frost geothermal basin. The fluid absorbs the earth's natural 50°F heat energy and pumps back up to the nozzles, keeping the plumbing network completely ice-free throughout the entire winter cycle without requiring external electrical heaters.
 
-📜 10. Licensing, Open Source Framework, and Attribution
+📜 9. Licensing, Open Source Framework, and Attribution
 Project Leader & Original Inventor: [John C. M. Graham]
 Repository Master Registry: https://github.com
 OSHW Certification Status: Formally Submitted / Pending Review Portal Verification
