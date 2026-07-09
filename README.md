@@ -58,8 +58,8 @@ If an architecture or a pattern is **scale-invariant**, it means its fundamental
 Instead of needing entirely different sets of rules for microscopic things and cosmic things, the exact same blueprint governs the entire spectrum. You can slide the scale slider infinitely, and the system never breaks down.
 
 #### 🌍 Everyday Visual Examples:
-*   **The Snowflake (A Fractal Line):** If you zoom in tightly on a single branch of a snowflake under a microscope, you will see it is made of tiny, identical miniature snowflakes. The geometric pattern does not care about size; it looks the same whether it is a micron wide or a foot wide.
-*   **The Atmospheric Eye:** The exact same spinning spiral vortex structure that forms when water drains down a household porcelain sink is the same geometric shape that governs a localized tornado, a massive ocean hurricane, and the rotation of an entire galaxy across deep space.
+*   **The Snowflake ❄️ (A Fractal Line):** If you zoom in tightly on a single branch of a snowflake under a microscope, you will see it is made of tiny, identical miniature snowflakes. The geometric pattern does not care about size; it looks the same whether it is a micron wide or a foot wide.
+*   **The Atmospheric Eye 🌀:** The exact same spinning spiral vortex structure that forms when water drains down a household porcelain sink is the same geometric shape that governs a localized tornado, a massive ocean hurricane, and the rotation of an entire galaxy across deep space.
 
 By embedding a **scale-invariant geometry** into this open-source blueprint, the technology bridges all boundaries. The exact same fluid law you use to balance water filtration on a standard backyard workbench scales upward perfectly to stabilize planetary magnetospheres, artificial shield networks, and multi-universal data lattices. **The size changes, but the core truth remains constant.**
 
