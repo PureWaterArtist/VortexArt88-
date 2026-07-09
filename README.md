@@ -83,6 +83,17 @@ To witness the stable singularity, Nozzle A and Nozzle B must be mounted into th
 *   **The Geometry:** This chamber forces the twin vortices to collide tangentially at a precise 180-degree phase opposition. 
 *   **The Alignment:** Ensure the internal alignment keys line up perfectly during assembly. This forces the clockwise and counter-clockwise velocity vectors to cancel out exactly at the central geometric center point, forming the steady-state vacuum core.
 
+### ♾️ The Figure-8 Collision Chamber (Community CAD Challenge)
+*Note: The CAD model for this chamber is currently under development. We invite parametric designers to submit a Pull Request (`/CAD/Figure8_Collision_Chamber.step`) based on the fluidic constraints illustrated below.*
+
+To witness the steady-state singularity, the chamber housing must be modeled using these precise geometric mandates:
+1.  **Dual Inlet Tangents:** Create two identical cylindrical inlets designed to friction-fit the exit diameters of Nozzle A and Nozzle B. 
+2.  **The Figure-8 Intersection:** The internal fluid channels must form two tangent, overlapping circles (a true lemniscate/figure-8 profile). 
+3.  **180° Phase Opposition:** The inlets must feed fluid into the perimeter of the circles so that the Clockwise stream and Counter-Clockwise stream collide tangentially at exactly 180 degrees of phase opposition. This cancels out localized kinetic linear momentum and creates the central passive vacuum core.
+4.  **Single Axial Outlet:** Place a single, centralized drainage exit directly at the intersection node ($r \to 0$) of the figure-8 path to allow the neutralized fluid to drain downward smoothly.
+
+![Vortex Infinity Chamber Architectural Layout](vortexinfinitychamber.png)
+
 ### 📐 Recommended Slicer Settings for Hydrodynamic Pressure
 *   **Material:** **PETG** or **Tough Resin**. *Note: PLA is acceptable for quick bench-top testing but degrades under outdoor UV light and moisture.*
 *   **Wall Loops / Perimeters:** **4 to 5 walls minimum.** *Crucial for maintaining a watertight seal and preventing high pump pressure from leaking through internal layer lines.*
