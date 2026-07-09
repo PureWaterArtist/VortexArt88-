@@ -81,8 +81,9 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 ### 👨‍🌾👩‍🌾 Biomimetic Singularity Farming System Concept Art
 ![Biomimetic System Farm](./Media/biomimeticsystemfarm.png)
 *   **Vortex-Energized Irrigation:** Structuring/oxygenating water for agriculture.
-*   **Passive Climate Stabilization:** Volumetric vapor output creates self-regulating humidity.
-*   
+*   **Passive Climate Stabilization:** Volumetric vapor output creates self-regulating humidity.  
+
+---
 
 ## 🌿 Nature-Aligned Engineering
 
