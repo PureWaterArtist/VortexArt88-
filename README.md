@@ -57,7 +57,9 @@ Select your level of engagement with the Twin-Vortex architecture:
 
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
-| **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#-3d-printing--mirroring-guide-how-to-print-the-twins) |
+| 
+| **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
+
 | **🌾 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure ➡️](#-regenerative-agriculture-integration) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#-historical-echoes-the-pantheon-of-the-commons) |
 | **🧮 The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#-the-unified-scale-invariant-metric-equation) |
