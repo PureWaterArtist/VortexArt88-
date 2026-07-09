@@ -78,15 +78,23 @@ Because fluid dynamics require two perfectly opposed, counter-rotating streams t
 3. **Flip/Mirror** the model strictly along the **X-Axis**.
 4. **Slice and print** this mirrored file to generate the Counter-Clockwise vortex flow.
 
+### ♾️ The Figure-8 Collision Chamber (The Mixing Housing)
+To witness the stable singularity, Nozzle A and Nozzle B must be mounted into the dual-inlet housing. 
+*   **The Geometry:** This chamber forces the twin vortices to collide tangentially at a precise 180-degree phase opposition. 
+*   **The Alignment:** Ensure the internal alignment keys line up perfectly during assembly. This forces the clockwise and counter-clockwise velocity vectors to cancel out exactly at the central geometric center point, forming the steady-state vacuum core.
+
 ### 📐 Recommended Slicer Settings for Hydrodynamic Pressure
 *   **Material:** **PETG** or **Tough Resin**. *Note: PLA is acceptable for quick bench-top testing but degrades under outdoor UV light and moisture.*
 *   **Wall Loops / Perimeters:** **4 to 5 walls minimum.** *Crucial for maintaining a watertight seal and preventing high pump pressure from leaking through internal layer lines.*
-*   **Infill Density:** **40% to 50% Gyroid.** *Gyroid infill provides isotropic structural rigidity, absorbing mechanical vibration under load.*
+*   **Infill Density:** **40% to 50% Gyroid.** *Gyroid infill provides isotropic structural rigidity, preventing the figure-8 chamber from warping or cracking at the central intersection under load.*
 *   **Layer Height:** **0.2mm or finer.** *Ensures the smooth resolution of the internal logarithmic ($\Phi$) spiral to prevent premature boundary layer detachment.*
+
+---
 
 ♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
 
 🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate.*
+
 ---
 
 > 🌍 **Humanitarian Blueprint Expansion:** 
