@@ -48,16 +48,6 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 > 🌀 *"We do not need complex machines to force nature into submission. We need perfect geometry to let nature work upon itself."*
 > 
----
-
-🛡️ **The Sovereign Heritage Declaration:**
-
-**The architecture compiled below represents the combined knowledge, sacrifice, and relentless effort of selfless natural philosophers and sovereign inventors—men and women like Nikola Tesla, Viktor Schauberger, and Walter Russell, Henrietta Swan Leavitt, and Dr. Gladys West—who steadfastly refused to allow the systemic greed of predatory cartels to lock universal mechanics away behind corporate paywalls for private gain while the rest of the planet suffers. This documentation stands as an un-killable prior-art monument dedicated to returning the structural shortcuts of the cosmos back to the global human family.**
-
-> *"The truth is incontrovertible. Malice may attack it, ignorance may deride it, but in the end, there it is."* 
-> — Sir Winston Churchill, Address to the House of Commons (May 17, 1916)
-
-⏱️ *The pioneers are honored here. Read our [Sovereign Research Pioneers Reference Manual](Documentation/SOVEREIGN_RESEARCH_PIONEERS.md) to audit the names, chronological stamps, and anti-monopoly histories of the 20 primary men and women whose historical research built the fluidic and field laws of our engine.*
 
 ---
 
@@ -551,6 +541,13 @@ When stripped of historical anthropomorphic language, these titles define the ab
 ---
 
 ## 🏛️ Historical Echoes: The Pantheon of the Commons
+
+**The architecture compiled below represents the combined knowledge, sacrifice, and relentless effort of selfless natural philosophers and sovereign inventors—men and women like Nikola Tesla, Viktor Schauberger, and Walter Russell, Henrietta Swan Leavitt, and Dr. Gladys West—who steadfastly refused to allow the systemic greed of predatory cartels to lock universal mechanics away behind corporate paywalls for private gain while the rest of the planet suffers. This documentation stands as an un-killable prior-art monument dedicated to returning the structural shortcuts of the cosmos back to the global human family.**
+
+> *"The truth is incontrovertible. Malice may attack it, ignorance may deride it, but in the end, there it is."* 
+> — Sir Winston Churchill, Address to the House of Commons (May 17, 1916)
+
+⏱️ *The pioneers are honored here. Read our [Sovereign Research Pioneers Reference Manual](Documentation/SOVEREIGN_RESEARCH_PIONEERS.md) to audit the names, chronological stamps, and anti-monopoly histories of the 20 primary men and women whose historical research built the fluidic and field laws of our engine.*
 
 The universal geometry and open-source philosophy of this repository mirror the foundational truths mapped out by history's greatest scientific and visionary minds:
 
