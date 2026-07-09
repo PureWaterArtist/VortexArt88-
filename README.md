@@ -94,6 +94,8 @@ To witness the steady-state singularity, the chamber housing must be modeled usi
 
 ![Vortex Infinity Chamber Architectural Layout](vortexinfinitychamber.png)
 
+---
+
 ### 📐 Recommended Slicer Settings for Hydrodynamic Pressure
 *   **Material:** **PETG** or **Tough Resin**. *Note: PLA is acceptable for quick bench-top testing but degrades under outdoor UV light and moisture.*
 *   **Wall Loops / Perimeters:** **4 to 5 walls minimum.** *Crucial for maintaining a watertight seal and preventing high pump pressure from leaking through internal layer lines.*
