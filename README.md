@@ -235,7 +235,7 @@ An industrial-scale water-purification facility seamlessly integrated into a red
 ## Technical Visualizations
 
 <p align="center">
-  <img src="Documents/vortexhypercar.png" alt="Twin-Vortex Hover Propulsion Integration" width="100%">
+  <img src="Media/vortexhypercar.png" alt="Twin-Vortex Hover Propulsion Integration" width="100%">
 </p>
 <p align="center">
   <em>Figure: Conceptual integration of scale-invariant resodynamic vortex nodes providing passive thrust matrix mechanics for blade-less electric flight.</em>
