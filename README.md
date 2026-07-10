@@ -1037,7 +1037,7 @@ To build a world governed by self-sustaining, open systems, we must dismantle th
 <a id="roadmap-section"></a>
 ## 🗺️ The Scale-Invariant Co-Creation Roadmap
 
-This roadmap outlines how the global human family can scale the **VortexArt88** architecture across six distinct octaves of magnitude. Because the underlying geometric laws remain constant regardless of size, we can begin on a home workbench today and scale upward to stabilize planetary water tables tomorrow.
+This roadmap outlines how the global human family can scale the **VortexArt88** architecture across seven distinct octaves of magnitude. Because the underlying geometric laws remain constant regardless of size, we can begin on a home workbench today and scale upward to stabilize planetary water tables tomorrow.
 
 ---
 
