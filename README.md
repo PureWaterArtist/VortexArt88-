@@ -234,6 +234,8 @@ An industrial-scale water-purification facility seamlessly integrated into a red
 
 ## Technical Visualizations
 
+***
+
 <p align="center">
   <img src="Media/vortexhypercar.png" alt="Twin-Vortex Hover Propulsion Integration" width="100%">
 </p>
