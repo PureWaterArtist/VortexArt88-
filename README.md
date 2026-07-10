@@ -412,6 +412,10 @@ An industrial-scale water-purification facility seamlessly integrated into a red
 Below is the hyper-car concept utilizing the dual counter-rotating vortex field for wheel-less levitation.
 ![Twin Vortex Vehicle](./Media/twinvortexvehicle.png)
 
+<p align="center">
+  <img src="Media/vortexcargotrain.png" alt="Vortex Cargo Train Concept Art">
+</p>
+
 ### 🏠 Twin Vortex Singularity Residential Unit Concept Art
 
 <p align="center">
