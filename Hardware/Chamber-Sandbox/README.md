@@ -22,6 +22,30 @@ To maintain the precise physical properties required to anchor the steady-state 
 ### 🛠️ Hardware Tolerance Notice:
 * **Slip-Fit Clearance:** When modeling the internal sleeves that receive Nozzle A and Nozzle B, design a uniform radial air gap of **0.15mm to 0.20mm**. This ensures standard desktop FDM and SLA printers can slide the parts together cleanly without loose wobbling or tight binding.
 
+<a id="safety-matrix-section"></a>
+## 🛡️ The Material & Water Safety Matrix
+
+Because standard 3D prints possess microscopic layer lines, they naturally create porous voids where bacteria can colonize and anaerobic pathogens can hide. To ensure that **nothing unclean enters** your fluid loop, all desktop-printed prototypes intended for water contact must strictly adhere to these two defense protocols.
+
+---
+
+### 🧬 Protocol A: Sovereign Material Selection
+Never use toxic, industrial plastics or uncured standard resins for fluid testing loops. 
+* **Approved Filaments:** Use uncolored, natural **PETG** or **PLA**. These materials are inherently stable and do not leach heavy metal colorants into the water matrix.
+* **Approved Resins:** If utilizing SLA/DLP printing, you *must* use certified biocompatible or dental-grade resins, followed by a complete UV post-cure cycle.
+
+---
+
+### 🧪 Protocol B: The Impermeable Food-Grade Seal (Mandatory)
+Raw FDM prints will micro-weep, leak, and trap pathogens under pump pressure. To seal the geometry completely, you must apply an internal food-safe barrier coat:
+
+1. **Procure a Certified Coating:** Acquire an FDA-compliant, food-contact-safe epoxy resin (such as *Max CLR* or *Smooth-On Task 16*).
+2. **Execute the Internal Wash:** Mix a small batch of the epoxy and pour it directly into the inlet ports of your printed Figure-8 chamber.
+3. **Centripetal Rotation:** Slowly rotate the part by hand in all directions, ensuring the liquid epoxy flows smoothly over every internal layer line and nozzle interface.
+4. **Drain and Cure:** Pour out the excess epoxy completely so it does not alter your internal nozzle dimensions, then let it fully cure for 24 to 48 hours.
+
+**The Result:** A perfectly smooth, glass-like internal boundary layer. This permanently eliminates structural micro-weeping under heavy pump pressure, prevents bacterial growth, and keeps your fluid dynamics pristine.
+
 ---
 
 ## 🎨 Where You Can Innovate
