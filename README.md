@@ -257,7 +257,7 @@ Below is the hyper-car concept utilizing the dual counter-rotating vortex field 
 ### 🏠 Twin Vortex Singularity Residential Unit Concept Art
 
 <p align="center">
-  <img src="Documents/vortexvacationhome.png" alt="Twin-Vortex Levitating Protected Vacation Villa" width="100%">
+  <img src="Media/vortexvacationhome.png" alt="Twin-Vortex Levitating Protected Vacation Villa" width="100%">
 </p>
 <p align="center">
   <em>Figure: Residential implementation of scale-invariant toroidal field matrices, providing localized structural levitation and an absolute atmospheric boundary shield for human habitation.</em>
