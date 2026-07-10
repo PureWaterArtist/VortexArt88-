@@ -224,6 +224,13 @@ This architecture replaces traditional, energy-intensive mechanical cooling towe
 
 🏗️ *Looking for broader applications? Explore our comprehensive [Future Industrial Use Cases Roadmap](Documentation/FUTURE_USE_CASES.md) detailing microplastics filtration, desalination pre-treatment, and urban cooling adaptations.*
 
+<p align="center">
+  <img src="Media/vortexfiltrationfacility.png" alt="Advanced Twin-Vortex Civic Water Facility" width="100%">
+</p>
+<p align="center">
+  <em>Figure: Municipal-scale implementation of scale-invariant vortex matrices within a bio-integrated, low-energy civic purification pavilion.</em>
+</p>
+
 ### 🌿 Twin Vortex Singularity Industrial Ecosystem Concept Art
 An industrial-scale water-purification facility seamlessly integrated into a redwood forest valley, using a non-motorized, self-suction loop to process and hyper-oxygenate river water without disruptive machinery or chemicals.
 ![Twin Vortex Industrial](./Media/twinvortexindustrial.png)
