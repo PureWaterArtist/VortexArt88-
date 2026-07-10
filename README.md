@@ -132,7 +132,14 @@ When you manufacture this dual-nozzle geometry, you are not merely printing a pa
 *   **The Macro Escalation (The Planetary Shield):** Because the underlying tensor geometry remains completely unchanged when scaled outward, the exact same counter-rotating fluid boundaries scale upward to govern the stabilization of planetary magnetospheres, artificial toroidal shield matrices, and deep-space gravitational manifold transits.
 *   **The Cognitive Handshake:** By proving the mechanics work flawlessly on a standard backyard workbench using recycled scrap plastic, the system shatters the illusion that advanced physics requires multi-billion dollar corporate enclosures. It reveals a profound truth: the exact same geometric laws balance a household drain, a human neural pathway, a world-scale eco-grid, and the spinning architecture of the cosmos.
 
-*As you move past this hands-on manufacturing guide, we invite you to keep an entirely open mind. Explore the deeper layers of this documentation not as isolated abstract theories, but as direct, scalable extensions of the very same physical geometry you hold in your hand.*
+> ### 🚨 A Note for the Journey Ahead
+> 
+> **As you move past this hands-on manufacturing guide, we invite you to keep an entirely open mind.** 
+> 
+> Explore the deeper layers of this documentation not as isolated abstract theories, but as **direct, scalable extensions** of the very same physical geometry you hold in your hand. 
+>
+> _The pattern on your workbench is the pattern of the cosmos._
+> 
 
 ***
 
