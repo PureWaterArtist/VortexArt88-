@@ -60,6 +60,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
 | **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
+| **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Ledger ➡](#ledger-framework-section) |
 | **🌾 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **🧮 The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
@@ -181,6 +182,73 @@ Before scaling our geometry into multi-ton municipal water networks, we must gro
   3. Cycle the water loop continuously for exactly 5 minutes.
   4. Sample the exit drainage fluid immediately and perform the secondary DO measurement.
 * **The Provable Truth:** The intense mechanical shear forces at the singularity interface tear the induced air columns into a dense, milky cloud of micro-and-nano bubbles. You will map a massive, rapid spike in Dissolved Oxygen toward absolute saturation, verifying chemical-free water revitalization.
+
+<a id="ledger-framework-section"></a>
+## 📊 The Open Data Ledger Framework
+
+To transform isolated workbench experiments into a unified, undeniable scientific data pool, the **VortexArt88** project utilizes a decentralized, machine-readable ledger. 
+
+Every time a builder submits an entry to the `/Documentation/Workbench-Logs/` directory, the data must include a structured `.json` data card alongside their written observations. This standardized approach allows open-source scripts to automatically parse, aggregate, and visualize our collective data—proving the geometric consistency of centripetal fluid revitalization across diverse water qualities globally.
+
+---
+
+### 🧬 The Machine-Readable Data Standard (`data-card.json`)
+
+When submitting your workbench results, you must include a file named `yourusername-data.json` inside your log folder. Copy, paste, and fill out this exact schema:
+
+```json
+{
+  "\$schema": "https://vortexart88.org",
+  "contributor": {
+    "username": "YOUR_GITHUB_USERNAME",
+    "region": "Continent/Country/State"
+  },
+  "hardware": {
+    "printer_type": "FDM_Desktop",
+    "nozzle_material": "PETG",
+    "chamber_material": "Tough_Resin",
+    "wall_loops": 5,
+    "layer_height_mm": 0.2,
+    "internal_seal": "Epoxy_Coated"
+  },
+  "protocol_1_singularity": {
+    "visual_plane_confirmed": true,
+    "flow_mechanism": "12V_Submersible_Pump",
+    "estimated_psi": 15.0
+  },
+  "protocol_2_suction": {
+    "vacuum_core_confirmed": true,
+    "suction_lift_cm": 12.5,
+    "flow_behavior": "Continuous"
+  },
+  "protocol_3_metrics": {
+    "water_source_type": "Stagnant_Rain_Barrel",
+    "water_temperature_celsius": 18.5,
+    "loop_duration_minutes": 5.0,
+    "baseline": {
+      "dissolved_oxygen_mg_l": 3.2,
+      "ph": 6.4,
+      "turbidity_visual": "Murky"
+    },
+    "post_singularity": {
+      "dissolved_oxygen_mg_l": 7.8,
+      "ph": 7.1,
+      "turbidity_visual": "Crystal_Clear"
+    }
+  }
+}
+```
+
+---
+
+### 🗺️ The Global Integration Horizon
+
+By structuring our data this way, the human family can collaboratively build:
+1. **Automated Analytics:** Python scripts within our GitHub Actions can automatically read every new JSON submission and update a live global averaging table in this README.
+2. **Ecosystem Mapping:** We can safely map localized water quality anomalies, baseline pH trends, and regional aeration efficiencies without relying on centralized corporate monitoring.
+3. **Impenetrable Prior-Art:** Storing immutable, time-stamped JSON data blocks on a public Git ledger permanently blocks any commercial entities from trying to patent or monopolize the passive kinetic aeration properties of this specific geometry.
+
+Look at the instructions inside the `/Documentation/Workbench-Logs/` folder to clone your template and submit your first data card!
 
 ---
 
