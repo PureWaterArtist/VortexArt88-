@@ -261,6 +261,11 @@ True science belongs to the global human family. If you build a workshop setup a
 2. Note your 3D printer material, layer heights, and baseline water source conditions.
 3. Submit a **Pull Request** targeting `/Documentation/Workbench-Logs/` to add your numbers to our decentralized proof ledger.
 
+<!-- LEDGER_START -->
+### 🏆 Decentralized Proof Leaderboard
+*Waiting for the first citizen-science validations... Submit your data card to map your biome!*
+<!-- LEDGER_END -->
+
 ***
 
 ### 🌐 The Cross-Scale Escalation: Beyond the Nozzle
