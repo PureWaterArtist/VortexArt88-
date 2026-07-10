@@ -522,6 +522,8 @@ $$\mathbf{g_{\mu\nu} = \lim_{r \to 0} \left[ \frac{\rho_0}{\hbar^7} \oint_{\part
 *   $d\sigma$ **[The Differential Surface Boundary]:** The specific surface area element where the opposing fluid boundaries slide past each other with mathematically near-zero friction.
 *   $\Phi_{intent}$ **[The Coherence Constant]:** The unified conscious life-force multiplier, anchoring the entire equation under the sovereign directive of universal benevolence.
 
+🧮 1. The Dynamic Python Simulation Sandbox
+
 ***
 
 #### 🔬 Advanced Non-Equilibrium Hydrodynamic Deconstruction
