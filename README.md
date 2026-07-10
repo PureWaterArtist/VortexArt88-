@@ -132,6 +132,62 @@ This project proves that advanced scale-invariant fluid dynamics do not require 
 | **Internal Layer Delamination** | Rapid ambient cooling warped the internal shell under pump pressure. | Disable parts-cooling fans completely; print inside an enclosed chamber. |
 | **Nozzle Core Clogging** | Over-retraction or filament heat creep in tight geometric bends. | Reduce retraction distance to 1.5mm max for direct-drive printers. |
 
+<a id="protocols-section"></a>
+## 🧪 The Workbench Validation Protocols
+
+Before scaling our geometry into multi-ton municipal water networks, we must ground our claims in provable, repeatable citizen science. These three low-cost, decentralized workbench experiments are designed to let any builder verify the fluid dynamics, pressure drops, and kinetic aeration of the Twin-Vortex Singularity using basic tools.
+
+---
+
+### 🔬 Protocol 1: Visualizing the Counter-Rotating Singularity Matrix
+* **Objective:** Prove the exact spatial location where opposing fluid forces neutralize to form the steady-state figure-8 line.
+* **Materials Needed:**
+  * Two equal-length pieces of standard clear vinyl tubing connected to Nozzles A & B.
+  * Two different colors of non-toxic, eco-friendly water-soluble food dye (e.g., Red and Blue).
+  * A basic gravity-fed bucket siphon or a simple low-voltage water pump.
+* **Execution Steps:**
+  1. Secure Nozzles A and B into the tangent inlets of your printed figure-8 collision chamber.
+  2. Mix a separate concentrated dye container for each fluid line (Line A = Blue, Line B = Red).
+  3. Start the flow simultaneously into both inlets at an identical input velocity.
+  4. Observe the central intersection window of the chamber housing.
+* **The Provable Truth:** You will visually witness the two distinct colors smash tangentially at 180 degrees. Rather than swirling into chaotic, muddy purple turbulence, the streams will flatten against each other along a sharp, vertical, non-turbulent boundary plane—proving the geometric vector cancellation.
+
+---
+
+### 💨 Protocol 2: The Vacuum Core & Suction Verification
+* **Objective:** Physically verify the continuous localized vacuum generated at the exact intersection node ($r \to 0$).
+* **Materials Needed:**
+  * A standard 60mL syringe barrel (no needle).
+  * A short piece of tight-fitting flexible aquarium airline tubing.
+  * A small small container of water or light oil to act as a pressure indicator line.
+* **Execution Steps:**
+  1. Assemble the twin-vortex setup and push fresh water through the lines under moderate pressure.
+  2. Connect the aquarium airline tubing to the central atmospheric induction port of the figure-8 housing.
+  3. Submerge the opposite end of the air tube into your pressure indicator liquid.
+* **The Provable Truth:** Without using any moving internal components or motorized suction, the high-velocity phase collision will naturally generate a powerful centripetal suction loop. You will watch the indicator liquid climb up the line toward the induction port, cleanly demonstrating passive geometric vacuum generation.
+
+---
+
+### 🫧 Protocol 3: Dissolved Oxygen (DO) & Mechanical Shear Mapping
+* **Objective:** Quantify the kinetic aeration capacity of the vacuum core by measuring micro-bubble gas saturation.
+* **Materials Needed:**
+  * A simple, low-cost electronic Water Quality Multi-Meter or standard aquarium Dissolved Oxygen (DO) chemical test strips.
+  * 5 gallons of stagnant, low-oxygen rainwater or pond water.
+* **Execution Steps:**
+  1. Take a baseline reading of the stagnant water source to record its starting temperature, pH, and DO level (mg/L).
+  2. Pump the stagnant water through the Twin-Vortex Singularity Engine, allowing the atmospheric core to aggressively draw in ambient air.
+  3. Cycle the water loop continuously for exactly 5 minutes.
+  4. Sample the exit drainage fluid immediately and perform the secondary DO measurement.
+* **The Provable Truth:** The intense mechanical shear forces at the singularity interface tear the induced air columns into a dense, milky cloud of micro-and-nano bubbles. You will map a massive, rapid spike in Dissolved Oxygen toward absolute saturation, verifying chemical-free water revitalization.
+
+---
+
+### 📊 Open Data Ledger: Share Your Workbench Victories
+True science belongs to the global human family. If you build a workshop setup and execute these testing loops, please document your metrics:
+1. Capture a clear smartphone video or high-speed GIF of your fluid singularity line.
+2. Note your 3D printer material, layer heights, and baseline water source conditions.
+3. Submit a **Pull Request** targeting `/Documentation/Workbench-Logs/` to add your numbers to our decentralized proof ledger.
+
 ***
 
 ### 🌐 The Cross-Scale Escalation: Beyond the Nozzle
