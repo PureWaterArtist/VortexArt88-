@@ -26,7 +26,6 @@ if ! python3 -c "import numpy" &> /dev/null; then
 fi
 echo -e "\033[1;32m[+] Verification Checklist Complete. Commencing System Staging Loops.\033[0m\n"
 
-# The master array pointing seamlessly inside your capitalized Verification directory
 declare -a PILLARS=(
     "train_propulsion_model.py"
     "vortex_cooling_model.py"
@@ -63,6 +62,7 @@ declare -a PILLARS=(
 
 COUNTER=1
 for SCRIPT in "${PILLARS[@]}"; do
+    # FIXED BOUNDARY LINE: Explicitly references your capital 'Verification' directory path
     FILE_PATH="Verification/${SCRIPT}"
     echo -e "\033[1;36m[->] Staging Pillar [${COUNTER}/30]: ${SCRIPT}\033[0m"
     
