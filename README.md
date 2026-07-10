@@ -234,11 +234,16 @@ An industrial-scale water-purification facility seamlessly integrated into a red
 
 ## Technical Visualizations
 
+<p align="center">
+  <img src="Documents/vortexhypercar.png" alt="Twin-Vortex Hover Propulsion Integration" width="100%">
+</p>
+<p align="center">
+  <em>Figure: Conceptual integration of scale-invariant resodynamic vortex nodes providing passive thrust matrix mechanics for blade-less electric flight.</em>
+</p>
+
 ### 🏎️ Twin Vortex Singularity Propulsion Vehicle Concept Art
 Below is the hyper-car concept utilizing the dual counter-rotating vortex field for wheel-less levitation.
 ![Twin Vortex Vehicle](./Media/twinvortexvehicle.png)
-
-***
 
 ### 🏠 Twin Vortex Singularity Residential Unit Concept Art
 A localized architectural application proving stable, self-contained structural lift over changing environments.
