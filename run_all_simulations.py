@@ -39,7 +39,9 @@ def run_global_staging():
         "biomedical_polarization_model.py", "plasma_waste_model.py", "macro_construction_model.py",
         "nuclear_waste_model.py", "cryogenic_recycling_model.py", "volcanic_mitigation_model.py",
         "asteroid_deflection_model.py", "tectonic_slip_stabilization_model.py", "orbital_debris_sweep_model.py",
-        "desertification_reversal_model.py", "ocean_acidification_mitigation_model.py", "planetary_sync_matrix_model.py"
+        "desertification_reversal_model.py", "ocean_acidification_mitigation_model.py", "planetary_sync_matrix_model.py", "ozone_layer_repair_model.py",
+        "nanoplastic_dissociation_model.py",
+        "surface_corrosion_shroud_model.py"
     ]
     
     with open(report_path, "w", encoding="utf-8") as log_file:
