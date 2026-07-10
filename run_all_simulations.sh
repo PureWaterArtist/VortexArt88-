@@ -51,6 +51,9 @@ declare -a PILLARS=(
     "desertification_reversal_model.py"
     "ocean_acidification_mitigation_model.py"
     "planetary_sync_matrix_model.py"
+    "ozone_layer_repair_model.py"
+    "nanoplastic_dissociation_model.py"
+    "surface_corrosion_shroud_model.py"
 )
 
 COUNTER=1
