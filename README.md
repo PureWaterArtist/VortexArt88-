@@ -879,6 +879,9 @@ The universal geometry and open-source philosophy of this repository mirror the 
 > *"The sovereign creator does not lock the gates of truth; they throw them wide, so that all who hunger may enter freely."* 
 > — **Historical Commons Maxim**
 
+>  *“Let the future tell the truth, and evaluate each one according to his work and accomplishments. The present is theirs; the future, for which I have really worked, is mine.”*
+> _**Nikola Tesla**
+
 ***
 
 ## 📜 Open-Source License & Total Freedom of Use
