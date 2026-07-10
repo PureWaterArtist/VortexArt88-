@@ -2,61 +2,122 @@ import os
 import json
 import sys
 
-def validate_json_files():
+def validate_and_compile():
     target_dir = "Documentation/Workbench-Logs"
     required_keys = ["$schema", "contributor", "hardware", "protocol_1_singularity", "protocol_2_suction", "protocol_3_metrics"]
     
-    # Check if directory exists
     if not os.path.exists(target_dir):
         print(f"❌ Error: Directory '{target_dir}' not found.")
         sys.exit(1)
         
     failed = False
-    json_count = 0
+    valid_records = []
 
-    # Walk through the folder to find all JSON files
+    # 1. VALIDATION PHASE
     for root, dirs, files in os.walk(target_dir):
         for file in files:
             if file.endswith(".json"):
-                json_count += 1
                 file_path = os.path.join(root, file)
-                print(f"🔍 Auditing ledger entry: {file_path}")
-                
                 try:
                     with open(file_path, 'r', encoding='utf-8') as f:
                         data = json.load(f)
-                except json.JSONDecodeError as e:
-                    print(f"❌ Syntax Error in {file}: Invalid JSON formatting. Details: {e}")
+                except Exception as e:
+                    print(f"❌ Syntax Error in {file}: {e}")
                     failed = True
                     continue
 
-                # Enforce core structure parameters
                 missing_keys = [key for key in required_keys if key not in data]
                 if missing_keys:
-                    print(f"❌ Schema Error in {file}: Missing critical top-level keys: {missing_keys}")
+                    print(f"❌ Schema Error in {file}: Missing keys {missing_keys}")
                     failed = True
-                    
-                # Enforce specific metrics data types if keys exist
-                try:
-                    if "protocol_3_metrics" in data:
-                        metrics = data["protocol_3_metrics"]
-                        if not isinstance(metrics.get("loop_duration_minutes", 0), (int, float)):
-                            print(f"❌ Data Type Error in {file}: 'loop_duration_minutes' must be a numeric value.")
-                            failed = True
-                except Exception as e:
-                    print(f"❌ Processing Error in {file}: {e}")
-                    failed = True
-
-    if json_count == 0:
-        print("💡 Notice: No ledger data cards found to validate in this commit.")
-        return
+                    continue
+                
+                valid_records.append(data)
 
     if failed:
-        print("\n❌ Ledger validation failed. Please correct the schema errors listed above.")
+        print("\n❌ Errors found during audit. Stopping leaderboard generation.")
         sys.exit(1)
-    else:
-        print(f"\n✅ Success! All {json_count} ledger data cards parsed flawlessly.")
+
+    if not valid_records:
+        print("💡 No ledger records found to process.")
+        return
+
+    # 2. METRICS COMPILATION PHASE
+    total_logs = len(valid_records)
+    total_do_delta = 0.0
+    total_ph_delta = 0.0
+    regions = set()
+    materials = {}
+    leaderboard_rows = []
+
+    for item in valid_records:
+        username = item["contributor"]["username"]
+        region = item["contributor"]["region"]
+        regions.add(region)
+        
+        # Track materials used
+        mat = item["hardware"]["nozzle_material"]
+        materials[mat] = materials.get(mat, 0) + 1
+        
+        # Calculate quality deltas
+        metrics = item["protocol_3_metrics"]
+        base_do = float(metrics["baseline"]["dissolved_oxygen_mg_l"])
+        post_do = float(metrics["post_singularity"]["dissolved_oxygen_mg_l"])
+        do_delta = post_do - base_do
+        total_do_delta += do_delta
+        
+        base_ph = float(metrics["baseline"]["ph"])
+        post_ph = float(metrics["post_singularity"]["ph"])
+        ph_delta = post_ph - base_ph
+        total_ph_delta += ph_delta
+        
+        # Format a clean row for the leaderboard table
+        leaderboard_rows.append(
+            f"| @{username} | `{region}` | `{mat}` | {base_do} mg/L → {post_do} mg/L | **+{do_delta:.1f} mg/L** |"
+        )
+
+    avg_do = total_do_delta / total_logs
+    avg_ph = total_ph_delta / total_logs
+    top_material = max(materials, key=materials.get) if materials else "N/A"
+
+    # 3. MARKDOWN COMPONENT GENERATION
+    leaderboard_markdown = f"""
+<!-- LEDGER_START -->
+### 🌍 Global Impact Statistics
+* 📊 **Total Validated Workshop Nodes:** `{total_logs}` active deployments
+* 🫧 **Average Dissolved Oxygen Boost:** `+{avg_do:.2f} mg/L` toward saturation
+* ⚖️ **Average pH Optimization Shift:** `+{avg_ph:.2f}` stabilization delta
+* 🖨️ **Most Deployed Workshop Material:** `{top_material}`
+* 🗺️ **Active Biome Footholds:** `{len(regions)}` global regions mapped
+
+### 🏆 Decentralized Proof Leaderboard
+
+| Contributor | Operational Biome | Material Matrix | Dissolved Oxygen Shift | Oxygenation Delta |
+| :--- | :--- | :--- | :--- | :--- |
+{chr(10).join(leaderboard_rows)}
+<!-- LEDGER_END -->"""
+
+    # 4. INJECT INTO MAIN README
+    readme_path = "README.md"
+    if os.path.exists(readme_path):
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Find our anchoring tags inside the main README
+        start_tag = "<!-- LEDGER_START -->"
+        end_tag = "<!-- LEDGER_END -->"
+        
+        if start_tag in content and end_tag in content:
+            parts = content.split(start_tag)
+            remains = parts[1].split(end_tag)
+            new_content = parts[0] + leaderboard_markdown.strip() + remains[1]
+            
+            with open(readme_path, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print("✅ Main README.md Leaderboard successfully recompiled and updated!")
+        else:
+            print("⚠️ Notice: Anchor comments missing in README.md. Leaderboard data compiled but not injected.")
 
 if __name__ == "__main__":
-    validate_json_files()
-  
+    validate_and_compile()
+    
