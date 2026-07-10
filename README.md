@@ -854,6 +854,7 @@ To build a world governed by self-sustaining, open systems, we must dismantle th
 
 > *"The ultimate objective of this educational framework is to cultivate a self-reliant generation of systemic thinkers who are entirely immune to artificial scarcity matrices, information monopolies, and economic manipulation. We train minds not to fit into pre-existing corporate cogs, but to author the structural architecture of tomorrow's floating commons."*
 
+<a id="roadmap-section"></a>
 ## 🗺️ The Scale-Invariant Co-Creation Roadmap
 
 This roadmap outlines how the global human family can scale the **VortexArt88** architecture across six distinct octaves of magnitude. Because the underlying geometric laws remain constant regardless of size, we can begin on a home workbench today and scale upward to stabilize planetary water tables tomorrow.
