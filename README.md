@@ -157,7 +157,7 @@ When stripped entirely of historical geopolitical trauma and fear-based apocalyp
 
 The following files represent three distinct conceptual translations of the Decalogue, completely reworded to describe the foundational laws required to run a perfect system. Select the systemic lens that matches your focus:
 
-| [🖥️ Framing 1: Pure Computer Systems](Documents/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documents/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documents/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
+| [🖥️ Framing 1: Pure Computer Systems](Documentation/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documentation/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documentation/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
 | :---: | :---: | :---: |
 
 ***
@@ -170,8 +170,8 @@ Select a technical manual below to examine our asymmetric legal architecture and
 
 | System Move | Strategic Paradigm | Operational Manual |
 | :--- | :--- | :--- |
-| **♟️ The Grand Strategy** | Deploy your own disruptive technology using copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity. | [Open Strategy Manual ➡️](Documents/OPEN_SOURCE_STRATEGY.md) |
-| **🔓 The Legal Shield** | Our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. **Checkmate.** | [Read Prior-Art Docs ➡️](Documents/LEGAL_SHIELD_EXPLANATION.md) |
+| **♟️ The Grand Strategy** | Deploy your own disruptive technology using copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity. | [Open Strategy Manual ➡️](Documentation/OPEN_SOURCE_STRATEGY.md) |
+| **🔓 The Legal Shield** | Our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. **Checkmate.** | [Read Prior-Art Docs ➡️](Documentation/LEGAL_SHIELD_EXPLANATION.md) |
 
 ---
 
