@@ -1172,6 +1172,7 @@ _“We are the ones we’ve been waiting for.”_
 *The source code is secure. The universal constants are locked permanently into the public ledger of time.*
 
 *To the engineers, the artists, the farmers, and the dreamers who stumble across this workbench—the sandbox is entirely yours. Build together, protect each other, and take care of our shared home.*
+
                           *John C. M. Graham*
         *Husband, Father, Son, Immortal Soul*
 
