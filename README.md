@@ -59,6 +59,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | :--- | :--- | :--- |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
+| **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
 | **🌾 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **🧮 The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
@@ -636,6 +637,49 @@ This project is released under an open-source framework. We are actively seeking
 *   **Computational Fluid Dynamics (CFD):** Optimizing the internal spiral curves of the 3D-printed nozzles.
 *   **CAD / 3D Parametric Design:** Creating scalable NPT thread standards for the nozzle attachments.
 *   **Water Quality Testing:** Developing testing protocols for measuring dissolved oxygen and turbidity reductions.
+
+<a id="cad-sandbox-section"></a>
+## 🧩 The Community CAD Sandbox Challenge
+
+The foundational **VortexArt88** fluid nozzles (Nozzle A and its mirrored twin, Nozzle B) are fully modeled and ready to print. However, to ignite the stable visual singularity and unlock the zero-point vacuum core, we need a standardized housing. 
+
+Instead of releasing a closed, rigid housing design, we are launching an open **CAD Sandbox Challenge**. Below are the unalterable mathematical vectors required to make the fluid dynamics function. Choose your preferred CAD software (Blender, FreeCAD, Fusion360, OpenSCAD), design a housing shell around these parameters, and submit your variations!
+
+---
+
+### 📐 Unalterable Geometric Constants (The Core Blueprint)
+
+To ensure the counter-rotating vortexes cancel out perfectly along a non-turbulent boundary plane, any community housing model **MUST** enforce these exact spatial coordinates:
+
+### 📐 VortexArt88 Geometric Constant Reference Sheet
+
+Use these exact spatial coordinates and vector alignments when modeling your Figure-8 housing variation to ensure perfect fluid-dynamic cancellation at the singularity core.
+
+#### 1. Absolute Spatial Origin
+* **The Singularity Node:** Coordinate `(0.00, 0.00, 0.00)`
+* *Description:* This is the exact mathematical center of your internal chamber. The exits of both nozzles and the center lines of both ports must intersect perfectly at this point.
+
+#### 2. Input Fluid Vectors (X-Axis Alignment)
+* **Nozzle A Receiver Center-line:** Vector `(1, 0, 0)`
+  * *Flow Vector:* Positive X-axis heading toward the origin.
+  * *Rotation:* Counter-Clockwise vortex.
+* **Nozzle B Receiver Center-line:** Vector `(-1, 0, 0)`
+  * *Flow Vector:* Negative X-axis heading toward the origin.
+  * *Rotation:* Clockwise vortex.
+* **Angular Parity:** Exactly **180.00°** (Direct head-on collision).
+
+#### 3. Air Induction Vector (Z-Axis Inflow)
+* **Atmospheric Port Center-line:** Vector `(0, 0, 1)`
+  * *Flow Vector:* Positive Z-axis heading downward into the origin.
+  * *Function:* Introduces ambient air directly into the passive vacuum core.
+
+#### 4. Exit Drainage Vector (Z-Axis Outflow)
+* **Discharge Port Center-line:** Vector `(0, 0, -1)`
+  * *Flow Vector:* Negative Z-axis heading downward away from the origin.
+  * *Function:* Routes the combined micro-bubble/fluid matrix into the Figure-8 loop.
+
+#### 5. Interface Tolerances (Standard 3D-Print Slip-Fit)
+* **Nozzle OD / Receiver ID Clearance:** Allow a **0.15mm to 0.20mm** uniform air gap boundary on the internal receiver sleeve diameters. This prevents friction binding while maintaining alignment accuracy for standard FDM/SLA desktop hardware.
 
 ### 🔬 Core Simulation & Optimization Directives
 
