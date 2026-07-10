@@ -190,6 +190,8 @@ To transform isolated workbench experiments into a unified, undeniable scientifi
 
 Every time a builder submits an entry to the `/Documentation/Workbench-Logs/` directory, the data must include a structured `.json` data card alongside their written observations. This standardized approach allows open-source scripts to automatically parse, aggregate, and visualize our collective data—proving the geometric consistency of centripetal fluid revitalization across diverse water qualities globally.
 
+Submit a **Pull Request** targeting `[Documentation/Workbench-Logs/](https://github.com)` to add your numbers to our decentralized proof ledger.
+
 ---
 
 ### 🧬 The Machine-Readable Data Standard (`data-card.json`)
