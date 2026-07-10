@@ -12,6 +12,11 @@ Welcome to the decentralized proof ledger. If you have successfully executed the
 
 ---
 
+### 💾 Structured Data Card Requirement
+* [ ] **Data Card Attached:** Ensure you have duplicated the `yourusername-data.json` template format, filled out your numeric metrics accurately, and included it in your submission directory alongside this file.
+
+---
+
 ### 🖨️ Hardware & Print Specifications
 * **Printer Used:** [e.g., Bambu Lab X1C / Creality Ender 3 / Prusa MK4]
 * **Nozzle & Chamber Material:** [e.g., PETG / ABS / Tough Resin]
