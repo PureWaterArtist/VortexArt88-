@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Twin Vortex Planetary Grid - Python Cross-Platform Staging Engine
+Twin Vortex Planetary Grid - Python Cross-Platform Staging Engine (30-Pillar Matrix)
 File Location: run_all_simulations.py
 """
 
@@ -25,8 +25,9 @@ def check_numpy_dependency():
             sys.exit(1)
 
 def run_global_staging():
-    """Sequentially loops and parses output limits across all 24 baseline infrastructure pipelines."""
-    simulations_dir = "simulations"
+    """Sequentially loops and parses output limits across all 30 baseline infrastructure pipelines."""
+    # Explicitly targets your exact capitalized folder path string
+    simulations_dir = "Verification"
     log_dir = "logs"
     os.makedirs(log_dir, exist_ok=True)
     report_path = os.path.join(log_dir, "global_matrix_report.log")
@@ -39,9 +40,10 @@ def run_global_staging():
         "biomedical_polarization_model.py", "plasma_waste_model.py", "macro_construction_model.py",
         "nuclear_waste_model.py", "cryogenic_recycling_model.py", "volcanic_mitigation_model.py",
         "asteroid_deflection_model.py", "tectonic_slip_stabilization_model.py", "orbital_debris_sweep_model.py",
-        "desertification_reversal_model.py", "ocean_acidification_mitigation_model.py", "planetary_sync_matrix_model.py", "ozone_layer_repair_model.py",
-        "nanoplastic_dissociation_model.py",
-        "surface_corrosion_shroud_model.py"
+        "desertification_reversal_model.py", "ocean_acidification_mitigation_model.py", "planetary_sync_matrix_model.py",
+        "time_teleportation_matrix_model.py", "ozone_layer_repair_model.py", "nanoplastic_dissociation_model.py",
+        "surface_corrosion_shroud_model.py", "glacial_anchor_stabilization_model.py", "magnetosphere_fortification_model.py",
+        "cosmic_grb_shielding_model.py"
     ]
     
     with open(report_path, "w", encoding="utf-8") as log_file:
@@ -52,7 +54,7 @@ def run_global_staging():
         
         for index, script_name in enumerate(pillars, start=1):
             script_path = os.path.join(simulations_dir, script_name)
-            print(f"[\033[1;36m->\033[0m] Staging Pillar [{index}/24]: {script_name}")
+            print(f"[\033[1;36m->\033[0m] Staging Pillar [{index}/30]: {script_name}")
             
             log_file.write(f"\n--- Pillar {index}: {script_name} Verification Data ---\n\n")
             
@@ -78,10 +80,10 @@ def run_global_staging():
         log_file.write("STAGING PHASE FINALIZED: Global system macro-coupled networks zeroed safely.\n")
         log_file.write("=" * 78 + "\n")
         
-    print(f"\n\033[1;32m[SUCCESS] Complete 24-Pillar Cross-Platform Grid executed cleanly.\033[0m")
+    print(f"\n\033[1;32m[SUCCESS] Complete 30-Pillar Cross-Platform Grid executed cleanly.\033[0m")
     print(f"\033[1;35m[->] Master evaluation logs successfully aggregated to: {report_path}\033[0m")
 
 if __name__ == "__main__":
     check_numpy_dependency()
     run_global_staging()
-  
+                    
