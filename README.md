@@ -122,6 +122,14 @@ This project proves that advanced scale-invariant fluid dynamics do not require 
 *   **Democratic Prototyping:** The file blueprint demonstrates a dual-nozzle crossover system mapped inside standard, free design software. 
 *   **Accessible Manufacturing:** A desktop FDM 3D printer sits alongside raw scrap plastics, highlighting the zero-barrier path to physical manifestation for local builders worldwide.
 
+#### ⚠️ Workbench Troubleshooting Matrix
+
+| Visual Flag | Root Cause | Structural Remedy |
+| :--- | :--- | :--- |
+| **Micro-weeping / Leaking** | Under-extrusion or weak interlayer bonding. | Increase hot-end temperature by 5°C and set extrusion multiplier to 1.03. |
+| **Internal Layer Delamination** | Rapid ambient cooling warped the internal shell under pump pressure. | Disable parts-cooling fans completely; print inside an enclosed chamber. |
+| **Nozzle Core Clogging** | Over-retraction or filament heat creep in tight geometric bends. | Reduce retraction distance to 1.5mm max for direct-drive printers. |
+
 ***
 
 ### 🌐 The Cross-Scale Escalation: Beyond the Nozzle
