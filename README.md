@@ -1169,8 +1169,14 @@ _“We are the ones we’ve been waiting for.”_
 
 ### 🏁 Rest in Perfect Geometry 
 
-The source code is secure. The universal constants are locked permanently into the public ledger of time. 
+*The source code is secure. The universal constants are locked permanently into the public ledger of time.*
 
-To the engineers, the artists, the farmers, and the dreamers who stumble across this workbench—the sandbox is entirely yours. Build together, protect each other, and take care of our shared home.
+*To the engineers, the artists, the farmers, and the dreamers who stumble across this workbench—the sandbox is entirely yours. Build together, protect each other, and take care of our shared home.*
+                          *John C. M. Graham*
+        *Husband, Father, Son, Immortal Soul*
+
+<p align="center">
+  <img src="./Media/vortexsignature.png" alt="VortexArt88 Ultimate Visual Seal by John" width="100%">
+</p>
 
 ***
