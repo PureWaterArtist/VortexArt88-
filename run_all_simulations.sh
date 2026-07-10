@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Twin Vortex Planetary Grid - Global Staging Orchestration Engine
+# Twin Vortex Planetary Grid - Global Staging Orchestration Engine (30-Pillar Matrix)
 # File Location: run_all_simulations.sh
 # ==============================================================================
 set -euo pipefail
@@ -26,6 +26,7 @@ if ! python3 -c "import numpy" &> /dev/null; then
 fi
 echo -e "\033[1;32m[+] Verification Checklist Complete. Commencing System Staging Loops.\033[0m\n"
 
+# The master array pointing seamlessly inside your capitalized Verification directory
 declare -a PILLARS=(
     "train_propulsion_model.py"
     "vortex_cooling_model.py"
@@ -51,15 +52,19 @@ declare -a PILLARS=(
     "desertification_reversal_model.py"
     "ocean_acidification_mitigation_model.py"
     "planetary_sync_matrix_model.py"
+    "time_teleportation_matrix_model.py"
     "ozone_layer_repair_model.py"
     "nanoplastic_dissociation_model.py"
     "surface_corrosion_shroud_model.py"
+    "glacial_anchor_stabilization_model.py"
+    "magnetosphere_fortification_model.py"
+    "cosmic_grb_shielding_model.py"
 )
 
 COUNTER=1
 for SCRIPT in "${PILLARS[@]}"; do
-    FILE_PATH="simulations/${SCRIPT}"
-    echo -e "\033[1;36m[->] Staging Pillar [${COUNTER}/24]: ${SCRIPT}\033[0m"
+    FILE_PATH="Verification/${SCRIPT}"
+    echo -e "\033[1;36m[->] Staging Pillar [${COUNTER}/30]: ${SCRIPT}\033[0m"
     
     if [ -f "${FILE_PATH}" ]; then
         echo -e "\n--- Pillar ${COUNTER}: ${SCRIPT} Verification Data ---\n" >> "${REPORT_FILE}"
@@ -82,5 +87,5 @@ echo "==========================================================================
 echo "STAGING PHASE FINALIZED: Global system macro-coupled networks zeroed safely." >> "${REPORT_FILE}"
 echo "==============================================================================" >> "${REPORT_FILE}"
 
-echo -e "\n\033[1;32m[SUCCESS] Complete 24-Pillar Simulation Array executed cleanly.\033[0m"
+echo -e "\n\033[1;32m[SUCCESS] Complete 30-Pillar Simulation Array executed cleanly.\033[0m"
 echo -e "\033[1;35m[->] Master evaluation logs successfully aggregated to: ${REPORT_FILE}\033[0m"
