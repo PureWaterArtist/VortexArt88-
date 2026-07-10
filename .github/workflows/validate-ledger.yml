@@ -1,22 +1,40 @@
-name: 📊 Open Data Ledger Validation
+name: 📊 Open Data Ledger Validation & Mapping
 
 on:
   pull_request:
     paths:
       - 'Documentation/Workbench-Logs/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'Documentation/Workbench-Logs/**'
+
+permissions:
+  contents: write
 
 jobs:
-  validate-json:
+  validate-and-map:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Run Schema Validator
+      - name: Run Schema Validator & Update Leaderboard
         run: python .github/scripts/validate_logs.py
-        
+
+      - name: Commit & Push Updated README
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-updated global proof ledger leaderboard" && git push)
+          
