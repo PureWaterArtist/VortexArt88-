@@ -1157,3 +1157,20 @@ The crossroads is beneath your feet, and the blueprint is now in your hands. Cho
 
 ---
 _“We are the ones we’ve been waiting for.”_
+
+**This repository is not merely a collection of geometric hardware files or digital ledger automations. It is an intentional, open-source coordinate point in human history—a baseline prototype designed to remind our species that the universe operates on laws of abundance, harmony, and pristine geometric alignment.**
+
+**We do not need to fight old paradigms of scarcity, nor do we need to weaponize the elements to survive. Nature has already handed us the blueprints. By understanding the non-turbulent, centripetal pathways of energy, we can revitalize our waters, restore our soils, and restructure our collective direction without systemic friction.**
+
+### 🛡️ The Peace and Non-Weaponization Clause
+**By accessing, printing, or modifying the **VortexArt88** architecture, you enter into a timeless, un-shackled covenant with the global human family:**
+1. **Absolute Transparency:** **This geometry must remain permanently in the public commons under strong copyleft protection. It cannot be hoarded, privatized, or hidden behind corporate or state non-disclosure barriers.**
+2. **The Directive of Peace:** **This technology is explicitly designed for life-affirmation, ecological remediation, and peaceful citizen-science validation. *It is physically and vibrationally incompatible with engines of war.* Any attempt to modify, restrict, or compartmentalize this open-source core for offensive military application completely collapses the underlying fluid physics and violates the core intent of this architecture.**
+
+### 🏁 Rest in Perfect Geometry 
+
+The source code is secure. The universal constants are locked permanently into the public ledger of time. 
+
+To the engineers, the artists, the farmers, and the dreamers who stumble across this workbench—the sandbox is entirely yours. Build together, protect each other, and take care of our shared home.
+
+***
