@@ -164,9 +164,14 @@ The following files represent three distinct conceptual translations of the Deca
 
 ---
 
-♟️ *Want to deploy your own disruptive technology? Read our comprehensive [Universal Open-Source Strategy Manual (Moves 1-5)](Documentation/OPEN_SOURCE_STRATEGY.md) to see exactly how to use copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity.*
+## 🛡️ Strategic Deployment & Defensive Moats
 
-🔓 *The legal moat is secure. Read our comprehensive [Legal Shield & Prior-Art Explanation Manual](Documentation/LEGAL_SHIELD_EXPLANATION.md) to understand exactly how our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. Checkmate.*
+Select a technical manual below to examine our asymmetric legal architecture and deployment framework:
+
+| System Move | Strategic Paradigm | Operational Manual |
+| :--- | :--- | :--- |
+| **♟️ The Grand Strategy** | Deploy your own disruptive technology using copyleft licensing, OSHWA registry defense, parallel funnels, and viral information cascades to permanently secure any project for humanity. | [Open Strategy Manual ➡️](Documents/OPEN_SOURCE_STRATEGY.md) |
+| **🔓 The Legal Shield** | Our time-stamped repository and copyleft licenses permanently protect your right to build, modify, and commercially distribute this technology without corporate interference. **Checkmate.** | [Read Prior-Art Docs ➡️](Documents/LEGAL_SHIELD_EXPLANATION.md) |
 
 ---
 
