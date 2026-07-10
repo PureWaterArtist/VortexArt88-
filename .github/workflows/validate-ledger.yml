@@ -1,0 +1,22 @@
+name: 📊 Open Data Ledger Validation
+
+on:
+  pull_request:
+    paths:
+      - 'Documentation/Workbench-Logs/**'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Schema Validator
+        run: python .github/scripts/validate_logs.py
+        
