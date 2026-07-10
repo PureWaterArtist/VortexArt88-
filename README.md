@@ -163,7 +163,7 @@ Before scaling our geometry into multi-ton municipal water networks, we must gro
 * **Materials Needed:**
   * A standard 60mL syringe barrel (no needle).
   * A short piece of tight-fitting flexible aquarium airline tubing.
-  * A small small container of water or light oil to act as a pressure indicator line.
+  * A small container of water or light oil to act as a pressure indicator line.
 * **Execution Steps:**
   1. Assemble the twin-vortex setup and push fresh water through the lines under moderate pressure.
   2. Connect the aquarium airline tubing to the central atmospheric induction port of the figure-8 housing.
