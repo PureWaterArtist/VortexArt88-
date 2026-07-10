@@ -261,6 +261,14 @@ A localized architectural application proving stable, self-contained structural 
 ***
 
 ### 🏙️ Twin Vortex Singularity Floating Metropolis Concept Art
+
+<p align="center">
+  <img src="Documents/vortexcitadel.png" alt="Twin-Vortex City-Scale Atmospheric Remediation Citadel" width="100%">
+</p>
+<p align="center">
+  <em>Figure: Macroscopic deployment of scale-invariant resodynamic matrices utilized as a closed-loop planetary healing system, transmuting atmospheric entropy into ecological order.</em>
+</p>
+
 The fully scaled planetary citadel, maintaining structural equilibrium and complete environmental immunity inside a toroidal electromagnetic shield.
 ![Twin Vortex City](./Media/twinvortexcity.png)
 
