@@ -89,6 +89,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Ledger ➡](#ledger-framework-section) |
 | **🌾 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
+| **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
 | **🧮 The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
 | **🧮 Unyielding Proofs** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
