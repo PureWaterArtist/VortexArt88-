@@ -30,6 +30,8 @@ This technology belongs to humanity.
 
 Do not ask permission from bureaucrats to clean your local rain runoff. Do not wait for a multi-million dollar city budget to fix street flooding. The files are free. The math is universal.
 
+---
+
 I built this in silence to show everyone that it is possible for a single person to show the world a better way, with nothing more than an idea and the drive to prove it can be built into reality for the benefit of all of us.
 
 I built this for the future of my family, and for the future of yours. 
@@ -46,6 +48,7 @@ In my heart I know we can do this if we work together, I am just one humble land
 
 **Free the Truth.**
 
+<p align="center">
+  <img src="./Media/vortexsignature2.png"
 
-
-
+---
