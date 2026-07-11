@@ -93,3 +93,7 @@ ACTION!*
 <p align="center">
   <img src="Media/vortexfamily.png" alt="VortexArt88 Collective Vision Framework" width="800" />
 </p>
+
+<p align="center">
+  <img src="Media/vortexspacestation.png" alt="VortexArt88 Collective Vision Framework" width="800" />
+</p>
