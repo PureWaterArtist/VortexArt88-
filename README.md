@@ -11,6 +11,19 @@ VortexArt88 is an open-source, scale-invariant hardware project utilizing 3D-pri
 
 Licensed under the strongly reciprocal CERN Open Hardware License and GPL-3.0, this repository provides a baseline physical proof of concept that bridges macrofluidics, quantum coherence, and ecological sovereignty for the global human family.
 
+# VortexArt88: An Open-Source Moat Against Corporate Enclosure
+A Public Domain Tech-Art & Fluid Dynamics Project
+
+This repository exists to legally safeguard a specific geometric fluid-dynamic concept from corporate patent capture. By releasing this under the **CERN Open Hardware License**, all current and future iterations are permanently locked into the global human commons.
+
+### 📐 Project Matrix
+1. **The Sandbox Assets**: Ready-to-slice 3D models for counter-rotating fluid columns and functional kinetic aeration.
+2. **The Verification Framework**: Embedded Python scripts built to simulate standard hydrodynamic vectors and golden-ratio pathing.
+3. **The Philosophical Layer**: A public art manifesto exploring systemic scarcity, information theory, and natural geometry.
+
+### 🛑 Zero-Enclosure Clause (Checkmate)
+This project is not a corporate product. It is a raw, decentralized seed. The data ledgers are open, the central mixing chamber is an un-modeled community puzzle, and the entire framework is designed to be built, tested, and optimized by independent makers at the grassroots level.
+
 ---
 
 ## 📜 The Project Philosophy
