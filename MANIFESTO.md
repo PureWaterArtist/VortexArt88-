@@ -32,19 +32,19 @@ Do not ask permission from bureaucrats to clean your local rain runoff. Do not w
 
 ---
 
-I built this in silence to show everyone that it is possible for a single person to show the world a better way, with nothing more than an idea and the drive to prove it can be built into reality for the benefit of all of us.
+**I built this in silence to show everyone that it is possible for a single person to show the world a better way, with nothing more than an idea and the drive to prove it can be built into reality for the benefit of all of us.**
 
-I built this for the future of my family, and for the future of yours. 
+**I built this for the future of my family, and for the future of yours.** 
 
-It is time to break the endless loop of resource wars and fake scarcity, trying to be the last civilization left standing. 
+**It is time to break the endless loop of resource wars and fake scarcity, trying to be the last civilization left standing.** 
 
-Time for all of us to become what we were always meant to be:
+**Time for all of us to become what we were always meant to be:**
 
-Free, Sovereign, Unified creators and caretakers of reality itself.
+**Free, Sovereign, Unified creators and caretakers of reality itself.**
 
-Let's come back together and rebuild our home into what we all know it could be, infinitely more beautiful and abundant than it is now.
+**Let's come back together and rebuild our home into what we all know it could be, infinitely more beautiful and abundant than it is now.**
 
-In my heart I know we can do this if we work together, I am just one humble landscaper, with your help we can become the many that our home needs to heal and thrive.
+**In my heart I know we can do this if we work together, I am just one humble landscaper, with your help we can become the many that our home needs to heal and thrive.**
 
 **Free the Truth.**
 
