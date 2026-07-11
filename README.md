@@ -99,7 +99,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Strategy ➡️](#strategy-section) |
 | **🗺️ The Scale-Variant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
-| **📜 The Final Covenant** | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
+| **📜 The Final Piece** | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 
 ---
 
