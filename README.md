@@ -391,6 +391,8 @@ An integrated engineering framework demonstrating how twin-vortex geometries rep
 
 <p align="center">
   <img src="Media/vortexdatacentercooling.png" alt="Twin-Vortex Industrial Thermal Siphon Array" width="100%">
+<p align="center">
+  <img src="./Media/vortex_datacenter.png"
 </p>
 <p align="center">
   <em>Figure: Hyper-scale implementation of the Twin-Vortex architecture utilizing passive phase-collision mechanics for fanless data center thermal regulation.</em>
