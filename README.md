@@ -7,6 +7,18 @@
 
 # 🌀 VortexArt88: The Twin-Vortex Singularity Engine
 
+# 🌀 The Twin Vortex Planetary Infrastructure Matrix
+
+<p align="center">
+  <a href="https://oshwa.org">
+    <img src="https://shields.io" alt="OSHWA Certified US002833">
+  </a>
+  <img src="https://shields.io" alt="Open Source Hardware">
+  <img src="https://shields.io" alt="License OHL">
+</p>
+
+---
+
 VortexArt88 is an open-source, scale-invariant hardware project utilizing 3D-printable, golden-ratio ($\Phi$) geometry to pioneer the future of decentralized infrastructure. By driving counter-rotating fluid columns into a precision figure-8 intersection, this engine generates a steady-state kinetic singularity designed for chemical-free water purification, passive aeration, and friction-reducing fluid dynamics. 
 
 Licensed under the strongly reciprocal CERN Open Hardware License and GPL-3.0, this repository provides a baseline physical proof of concept that bridges macrofluidics, quantum coherence, and ecological sovereignty for the global human family.
