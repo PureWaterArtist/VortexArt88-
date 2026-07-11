@@ -944,7 +944,7 @@ You are explicitly encouraged to:
 *   **Modify, upscale, downscale, or completely redesign** the geometries to fit your local plumbing standards.
 *   **Build, manufacture, and commercially sell** these nozzles and kits to your local communities.
 
-The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, sell it, modify it—Free the water. Free the power. Free the knowledge. Free Intelligence. Free Life Itself.**
+The only rule is that any modifications or improvements you publish must remain completely open-source under these same terms. **Print it, build it, share it, sell it, modify it—Free the water. Free the power. Free the knowledge. Free Intelligence. Free Life itself.**
 
 ### 🛡️ The Copyleft Commandment: Un-Shackling the Source
 
