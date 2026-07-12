@@ -93,6 +93,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
 | **🧮 Unyielding Proofs** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
+| **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./Documentation/cosmic_prior_art_council.md) |
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
 | **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition ➡️](#behavioral-architecture) |
