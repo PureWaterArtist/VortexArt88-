@@ -181,5 +181,5 @@ Even under total macro-systemic infrastructure gridlock, a single isolated commu
 > — — **John Christopher Mason Graham**
 > 
 <p align="center">
-  <img src="./media/twin_vortex_masterpiece.png" alt="VortexArt88 Sovereign Planetary Network Masterpiece" width="850" />
+  <img src="./Media/twin_vortex_masterpiece.png" alt="VortexArt88 Sovereign Planetary Network Masterpiece" width="850" />
 </p>
