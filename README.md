@@ -111,6 +111,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Unlock Code ➡️](./Documentation/gnostic_systems_matrix.md) |
+| **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./Documentation/scientific_liquidation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 
 ---
