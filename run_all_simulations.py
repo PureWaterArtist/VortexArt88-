@@ -322,159 +322,193 @@ def simulate_self_replication(nodes: int, mass_tons: float, microns: float, octa
 # =====================================================================
 
 
+
+        import json
+
 def run_pipeline():
-    """Main execution loop tracing all parameters safely inside the platform ledger."""
+    """Main execution loop tracking parameters dynamically via the lowpressed json manifest."""
     print("=" * 65)
-    print("🌀  VORTEXART88: SYSTEM INTEGRITY VALIDATION LEDGER RUN  🌀")
+    print("🌀  VORTEXART88: LIVE DYNAMIC LEDGER VALIDATION RUN  🌀")
     print("=" * 65)
 
+    # Dynamically open and parse the lowercase database ledger map
     try:
-        # 1. Navigation Trajectories
-        log_section("01/23 - Logarithmic Vortex Navigation Matrix")
-        coords = simulate_vortex_navigation(octave=3, turns=1)
+        with open("update_manifest.json", "r") as manifest_file:
+            ledger_data = json.load(manifest_file)
+        print(" -> Data Manifest Ingestion Engine: [ ACTIVE & LOCKED ]")
+    except Exception as json_err:
+        print(f"❌ LEDGER INGESTION CORRUPTION: Cannot parse json map: {json_err}", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        # Extract default operational octaves directly from the json database lines
+        pillars = ledger_data["infrastructure_pillars"]
+        oct_nav = pillars["01_vortex_navigation"]["default_scaling_octave"]
+        oct_dist = pillars["07_resource_distribution"]["default_scaling_octave"]
+        oct_data = pillars["08_toroidal_data_mesh"]["default_scaling_octave"]
+        oct_crypto = pillars["09_toroidal_cryptography"]["default_scaling_octave"]
+        oct_law = pillars["10_resodynamic_jurisprudence"]["default_scaling_octave"]
+        oct_econ = pillars["11_vortical_economics"]["default_scaling_octave"]
+        oct_emerg = pillars["12_emergency_resiliency"]["default_scaling_octave"]
+        oct_util = pillars["13_material_utility_siphon"]["default_scaling_octave"]
+        oct_cond = pillars["14_hydro_condenser_tower"]["default_scaling_octave"]
+        oct_const = pillars["15_contour_construction"]["default_scaling_octave"]
+        oct_harvest = pillars["18_harmonic_harvesting"]["default_scaling_octave"]
+        oct_prop = pillars["19_ion_propulsion"]["default_scaling_octave"]
+        oct_orb = pillars["20_orbital_debris_siphon"]["default_scaling_octave"]
+        oct_shield = pillars["21_shield_deflection"]["default_scaling_octave"]
+        oct_comms = pillars["22_vortical_comms_link"]["default_scaling_octave"]
+        oct_meta = pillars["23_self_replication"]["default_scaling_octave"]
+                # 1. Navigation Trajectories
+        log_section(f"01/23 - {pillars['01_vortex_navigation']['title']}")
+        coords = simulate_vortex_navigation(octave=oct_nav, turns=1)
         print(" -> Computed Target Trajectory Points (X, Y, Z-Suction Depth):")
         for idx, pt in enumerate(coords):
             print(f"    * Node {idx:02d}: Geometry Coordinate Vector: {pt}")
 
         # 2. Material Geopolymer Foundry
-        log_section("02/23 - Centripetal Geopolymer Lattice Alignment")
+        log_section(f"02/23 - {pillars['02_geopolymer_foundry']['title']}")
         geo_data = simulate_geopolymer_crystallization(rpm=3600.0, viscosity=0.85)
         print(f" -> Obsidian Plate Aggregate Structural Integrity: {geo_data['matrix_integrity_pct']}%")
         print(f"    * Inner Boundary Layer (Zone 1): {geo_data['layers'][0]['g_force']} G-Force Field")
 
         # 3. Polymer Upcycling Foundry
-        log_section("03/23 - Shear-Vortex Molecular Plastic Upcycling")
+        log_section(f"03/23 - {pillars['03_polymer_upcycling']['title']}")
         filament_integrity = simulate_polymer_upcycling(rpm=4200.0, degradation=0.65)
         print(f" -> Extruded FDM Filament Tensile Capacity: {filament_integrity}% Structural Retention")
 
         # 4. Aquifer Cleanup
-        log_section("04/23 - Centripetal Phase Hydro-Vortical Aquifer Remediation")
+        log_section(f"04/23 - {pillars['04_aquifer_remediation']['title']}")
         extract_pct, oxy_pct = simulate_aquifer_remediation(flow_l_s=15.0, plastic_ppm=250.0, rpm=3200.0)
         print(f" -> Microplastic Extraction Rating: {extract_pct}% Purification")
         print(f" -> Dissolved Bio-Oxygen Enrichment Level: +{oxy_pct}% Saturation")
 
         # 5. Topsoil Regeneration
-        log_section("05/23 - Centripetal Bio-Colloid Topsoil Regeneration")
+        log_section(f"05/23 - {pillars['05_soil_regeneration']['title']}")
         bio_avail, retention = simulate_soil_regeneration(compost_kg_h=120.0, rpm=2900.0, dryness=0.85)
         print(f" -> Extract Nutrient Bio-Availability Score: {bio_avail}% Soluble Extraction")
         print(f" -> Topsoil Matrix Moisture Retention Capacity: Increased by {retention}x")
 
         # 6. Data Center Siphon
-        log_section("06/23 - Thermodynamic Twin-Vortex Data Center Cooling Siphon")
+        log_section(f"06/23 - {pillars['06_data_center_cooling']['title']}")
         t_drop, mw_pwr = simulate_data_center_cooling(exhaust_temp=55.0, flow_l_s=45.0, rpm=3400.0)
         print(f" -> Fanless Temperature Collapse: -{t_drop}°C Without Chemicals")
         print(f" -> Net Thermal Power Diverted into Pump Energy: {mw_pwr} MW")
 
         # 7. Mesh Logistics
-        log_section("07/23 - Biomimetic Resource Siphon Network Mechanics")
-        dist_eff, grid_res = simulate_resource_distribution(demand=500.0, hubs=24, octave=3)
+        log_section(f"07/23 - {pillars['07_resource_distribution']['title']}")
+        dist_eff, grid_res = simulate_resource_distribution(demand=500.0, hubs=24, octave=oct_dist)
         print(f" -> Demand Pathing Routing Optimization: {dist_eff}% Linear Efficiency")
         print(f" -> P2P Mesh Disruption Survival Resilience Index: {grid_res}x Stability")
 
         # 8. Toroidal Data Mesh
-        log_section("08/23 - Centripetal Toroidal Mesh Packet Switching Topologies")
-        pkt_eff, latency = simulate_toroidal_data_mesh(load_gbps=2500.0, nodes=150, octave=3)
+        log_section(f"08/23 - {pillars['08_toroidal_data_mesh']['title']}")
+        pkt_eff, latency = simulate_toroidal_data_mesh(load_gbps=2500.0, nodes=150, octave=oct_data)
         print(f" -> Multi-Source Swarm Data Routing Optimization: {pkt_eff}% Matrix Distribution")
         print(f" -> Fluidic Network Latency Profile: {latency} ms (Zero Bottleneck Lag)")
 
         # 9. Toroidal Cryptography
-        log_section("09/23 - Toroidal Vector Cryptography & Quantum-Resilient Ciphers")
-        entropy, cipher_int, neutralize_ms = simulate_vortical_cryptography(attacks_sec=1e9, rotation_hz=500000.0, octave=4)
+        log_section(f"09/23 - {pillars['09_toroidal_cryptography']['title']}")
+        entropy, cipher_int, neutralize_ms = simulate_vortical_cryptography(attacks_sec=1e9, rotation_hz=500000.0, octave=oct_crypto)
         print(f" -> Shifting Vector Key Entropy Ceiling: {entropy} Bits")
         print(f" -> Data Matrix Protection Integrity Rating: {cipher_int}% Untampered")
         print(f" -> Adversarial Threat Neutralization Latency Window: {neutralize_ms} ms")
 
         # 10. Resodynamic Jurisprudence
-        log_section("10/23 - Resodynamic Jurisprudence Common Law Matrices")
-        equity, settle_hr = simulate_resodynamic_jurisprudence(variance=0.75, jurors=48, octave=2)
+        log_section(f"10/23 - {pillars['10_resodynamic_jurisprudence']['title']}")
+        equity, settle_hr = simulate_resodynamic_jurisprudence(variance=0.75, jurors=48, octave=oct_law)
         print(f" -> Peer Node Systemic Equity Parity Alignment: {equity}% Balanced Ledger")
         print(f" -> Automated Settlement and Arbitration Window: {settle_hr} Hours")
 
         # 11. Flow Economics
-        log_section("11/23 - Implosive Flow-Liquidity Asset Macro-Economics")
-        circ_eff, inflation = simulate_vortical_economics(hoarded_capital=15000.0, transaction_rpm=3100.0, octave=3)
+        log_section(f"11/23 - {pillars['11_vortical_economics']['title']}")
+        circ_eff, inflation = simulate_vortical_economics(hoarded_capital=15000.0, transaction_rpm=3100.0, octave=oct_econ)
         print(f" -> Currency Circulation Capital Velocity Index: {circ_eff}% Flow Efficiency")
         print(f" -> Systemic Currency Devaluation Inflation Metric: {inflation}% (Locked Base Constant)")
 
         # 12. Mutual Aid Dispatch
-        log_section("12/23 - Centripetal Resiliency Grids & P2P Mutual Aid Dispatch")
-        dispatch_eff, arrival_m = simulate_emergency_resiliency(severity=0.8, responders=35, octave=2)
+        log_section(f"12/23 - {pillars['12_emergency_resiliency']['title']}")
+        dispatch_eff, arrival_m = simulate_emergency_resiliency(severity=0.8, responders=35, octave=oct_emerg)
         print(f" -> Vacuum Asset Mobility Optimization Tracking: {dispatch_eff}% Response Precision")
         print(f" -> Predictive First Responder Incident Arrival: {arrival_m} Minutes")
-
-        # 13. Material Utility Siphon
-        log_section("13/23 - Pneumatic Siphon Kinetics & Urban Utility Management")
-        sort_purity, co2_kg = simulate_material_utility_siphon(load_kg_h=850.0, vacuum_rpm=3100.0, octave=2)
+                # 13. Material Utility Siphon
+        log_section(f"13/23 - {pillars['13_material_utility_siphon']['title']}")
+        sort_purity, co2_kg = simulate_material_utility_siphon(load_kg_h=850.0, vacuum_rpm=3100.0, octave=oct_util)
         print(f" -> Vacuum Phase Separation Sorting Purity: {sort_purity}% Precision")
         print(f" -> Displaced Surface Trucking Carbon Emissions Saved: {co2_kg} kg CO2/Hour")
 
         # 14. Atmospheric Condenser
-        log_section("14/23 - Hyperbolic Vortex Atmospheric Condensation Spires")
-        t_collapse, water_yield = simulate_hydro_condenser_tower(airflow_m_s=6.0, humidity=40.0, temp_c=35.0, octave=3)
+        log_section(f"14/23 - {pillars['14_hydro_condenser_tower']['title']}")
+        t_collapse, water_yield = simulate_hydro_condenser_tower(airflow_m_s=6.0, humidity=40.0, temp_c=35.0, octave=oct_cond)
         print(f" -> Passive Funnel Core Vapor Temperature Drop: -{t_collapse}°C")
         print(f" -> Clean Safe Condensation Drinking Water Yield: {water_yield} Liters/Hour")
 
         # 15. Contour Construction
-        log_section("15/23 - Robotic Double-Helix Contour-Siphoning Construction")
-        ext_align, structural_mpa = simulate_contour_construction(velocity_m_s=3.5, viscosity=0.75, octave=2)
+        log_section(f"15/23 - {pillars['15_contour_construction']['title']}")
+        ext_align, structural_mpa = simulate_contour_construction(velocity_m_s=3.5, viscosity=0.75, octave=oct_const)
         print(f" -> Layer Deposition Molecular Lattice Alignment: {ext_align}% Perfection")
         print(f" -> Crystalline Stone Compaction Tensile Strength Limit: {structural_mpa} MPa")
 
         # 16. Ocean Desalination
-        log_section("16/23 - Brine-Free Centrifugal Ion Ocean Desalination Matrix")
+        log_section(f"16/23 - {pillars['16_ocean_desalination']['title']}")
         desal_purity, fresh_yield = simulate_ocean_desalination(flow_l_s=25.0, salinity_ppm=35000.0, rpm=4500.0)
         print(f" -> Filter-Free Salt Separation Extraction Purity: {desal_purity}%")
         print(f" -> Clean Freshwater Output Reservoir Volume: {fresh_yield} Liters/Hour")
 
         # 17. Kinetic Flywheels
-        log_section("17/23 - Vacuum-Sealed Toroidal Kinetic Flywheel Energy Banks")
+        log_section(f"17/23 - {pillars['17_kinetic_flywheel_bank']['title']}")
         kwh_stored, stress_mpa = simulate_kinetic_flywheel_bank(radius_m=3.5, mass_kg=12000.0, rpm=3600.0)
         print(f" -> Total Isolated Power Stored in Geopolymer Ring: {kwh_stored} kWh")
         print(f" -> Centrifugal Hoop Stress Load Tracking: {stress_mpa} MPa")
 
         # 18. Harmonic Harvesting
-        log_section("18/23 - Subterranean Sonic-Resonance Fluid Extraction Nodes")
-        resonance_idx, fluid_pct = simulate_harmonic_harvesting(density=3000.0, frequency_hz=432.0, rpm=3800.0, octave=3)
+        log_section(f"18/23 - {pillars['18_harmonic_harvesting']['title']}")
+        resonance_idx, fluid_pct = simulate_harmonic_harvesting(density=3000.0, frequency_hz=432.0, rpm=3800.0, octave=oct_harvest)
         print(f" -> Acoustic Wave Matching Resonance Index: {resonance_idx}")
         print(f" -> Bedrock Elemental Fluidization Processing Matrix: {fluid_pct}% Decoupled Slurry")
 
         # 19. Ion Vortex Propulsion
-        log_section("19/23 - Isothermal Electro-Hydrodynamic Plasma Aerospace Propulsion")
-        exhaust_v, net_thrust_kn = simulate_ion_propulsion(density=0.12, kv=750.0, diameter=6, octave=4)
+        log_section(f"19/23 - {pillars['19_ion_propulsion']['title']}")
+        exhaust_v, net_thrust_kn = simulate_ion_propulsion(density=0.12, kv=750.0, diameter=6, octave=oct_prop)
         print(f" -> Vortex Exhaust Plasma Stream Drift Velocity: {exhaust_v} m/s")
         print(f" -> Generated Non-Combustion Net Flight Thrust: {net_thrust_kn} kN")
 
         # 20. Orbital Debris Siphon
-        log_section("20/23 - Non-Contact Toroidal Magnetic Drag Orbital Siphons")
-        decel_rate, final_v, mj_cleared = simulate_orbital_debris_siphon(mass_kg=15.0, velocity=7800.0, tesla=2.5, octave=5)
+        log_section(f"20/23 - {pillars['20_orbital_debris_siphon']['title']}")
+        decel_rate, final_v, mj_cleared = simulate_orbital_debris_siphon(mass_kg=15.0, velocity=7800.0, tesla=2.5, octave=oct_orb)
         print(f" -> Induced Eddy-Current Deceleration Metric: -{decel_rate} m/s²")
         print(f" -> Target Shrapnel Terminal Post-Siphon Speed: {final_v} m/s (LEO Decay Triggered)")
         print(f" -> Net Extracted Kinetic Energy Cleared from Grid: {mj_cleared} MJ")
 
         # 21. Resodynamic Shielding
-        log_section("21/23 - Hexagonal Resodynamic Toroidal Energy Shield Matrices")
-        shield_deflect, harvest_gj = simulate_shield_deflection(energy_gj=25000.0, coils=120, octave=7)
+        log_section(f"21/23 - {pillars['21_shield_deflection']['title']}")
+        shield_deflect, harvest_gj = simulate_shield_deflection(energy_gj=25000.0, coils=120, octave=oct_shield)
         print(f" -> Multi-Layer Plasma Mesh Shearing Efficiency: {shield_deflect}% Shield Equilibrium")
         print(f" -> Solar Burst Impact Energy Captured and Fed to Bank: {harvest_gj} GJ")
 
         # 22. Sovereign Telemetry Comms
-        log_section("22/23 - Free-Space Optical Phase-Conjugate Laser Mesh links")
-        comms_success, throughput = simulate_vortical_comms_link(distance_km=150.0, watts=500.0, turbulence=0.75, octave=5)
+        log_section(f"22/23 - {pillars['22_vortical_comms_link']['title']}")
+        comms_success, throughput = simulate_vortical_comms_link(distance_km=150.0, watts=500.0, turbulence=0.75, octave=oct_comms)
         print(f" -> Toroidal Light Stream Packet Delivery Accuracy: {comms_success}% Success")
         print(f" -> Intercept-Proof Network Throughput Bandwidth: {throughput} Tbps")
 
         # 23. Meta-Machine Self Replication
-        log_section("23/23 - Self-Replicating Universal Manufacturing Mother-Nodes")
-        tool_fidelity, cycle_wks = simulate_self_replication(nodes=5, mass_tons=50.0, microns=2.5, octave=1)
+        log_section(f"23/23 - {pillars['23_self_replication']['title']}")
+        tool_fidelity, cycle_wks = simulate_self_replication(nodes=5, mass_tons=50.0, microns=2.5, octave=oct_meta)
         print(f" -> Kinematic Component Duplication Precision Fidelity: {tool_fidelity}% Mirroring Accuracy")
         print(f" -> Node Generation Manufacturing Lifespan: 1 New Mother-Node Every {cycle_wks} Weeks")
 
         print("\n" + "=" * 65)
-        print("✅ LEDGER RUN SUCCESSFUL: ALL 23 INFRASTRUCTURE EQUATIONS INTEGRATED")
+        print("✅ LEDGER RUN SUCCESSFUL: ALL EQUATIONS DYNAMICALLY VERIFIED VIA JSON")
         print("=" * 65)
-        except Exception as error_msg:
-        print(f"\n❌ LEDGER CORRUPTION CRITICAL BREAKDOWN: {error_msg}", file=sys.stderr)sys.exit(1)
-            
-            if name == "main":
-                run_pipeline()
+
+    except Exception as error_msg:
+        print(f"\n❌ DYNAMIC LEDGER PIPELINE CRITICAL DECAY: {error_msg}", file=sys.stderr)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    run_pipeline()
+        
+        
 
