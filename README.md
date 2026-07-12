@@ -76,7 +76,7 @@ By embedding a **scale-invariant geometry** into this open-source blueprint, the
 
 ***
 
-## 🧭 Choose Your Altitude (Quick Navigation)
+## 🧭 Choose Your Scale (Quick Navigation)
 
 Select your level of engagement with the Twin-Vortex architecture:
 
@@ -84,10 +84,10 @@ Select your level of engagement with the Twin-Vortex architecture:
 | :--- | :--- | :--- |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
-| **🛡️ Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
+| **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
 | **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
 | **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Data Ledger ➡](#ledger-framework-section) |
-| **🌪️ Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
+| **🤯 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
 | **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
@@ -99,9 +99,9 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
 | **🗺️ The Scale-Variant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
-| **🗺️ The Future Systems Roadmap**       | Tracking the v2.0.0 development horizons and active SCADA driver testing loops. | [Jump to Development ➡️](./roadmap.md) |
+| **🚀 The Future Systems Roadmap**       | Tracking the v2.0.0 development horizons and active SCADA driver testing loops. | [Jump to Development ➡️](./roadmap.md) |
 | **👑 Pillars of the Sovereign Network**| Compressed 24-pillar architectural index mapping the planetary foundation. | [Jump to Ledger ➡️](./Documentation/pillars_manifest.md) |
-| **⚕️ The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./Documentation/the_final_revelation_of_truth.md) |
+| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./Documentation/the_final_revelation_of_truth.md) |
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
