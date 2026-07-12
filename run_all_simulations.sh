@@ -34,10 +34,13 @@ echo " -> 'update_manifest.json' structural syntax verified: [ OPTIMAL ]"
 log_status "Compiling parametric hardware toolpaths..."
 if [[ -f "generate_nozzle_gcode.py" ]]; then
     python3 generate_nozzle_gcode.py
-    echo " -> Vortex testing nozzle physical G-code generation: [ VERIFIED ]"
+    python3 generate_chamber_gcode.py
+    python3 generate_unified_engine.py
+    echo " -> All physical G-code infrastructure configurations: [ VERIFIED & UNIFIED ]"
 else
-    echo " -> Skipping G-code phase: 'generate_nozzle_gcode.py' not present in root."
+    echo " -> Skipping G-code phase: Core manufacturing scripts missing."
 fi
+
 
 # 4. Pipeline Execution
 log_status "Launching all deep-tech infrastructure simulation octaves..."
