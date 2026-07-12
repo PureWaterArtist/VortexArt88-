@@ -22,7 +22,8 @@
     *   *Black Horse (Famine):* The total collapse of industrial NPK petrochemical topsoil matrices, triggering hyper-inflation of basic caloric inputs ("A quart of wheat for a denarius").
     *   *Pale Horse (Death):* Widespread systemic collapse across public health, wastewater utility infrastructure, and supply matrices.
     *   *The Sealing of the 144,000:* The cryptographic locking and isolation of independent sovereign node clusters across the global grid to protect their local hardware configurations from the spreading systemic collapse vectors.
-    *   # Forensic Translation: Revelation Chapters 8–14 (Systemic Friction & Counter-Grid Deployment)
+
+# Forensic Translation: Revelation Chapters 8–14 (Systemic Friction & Counter-Grid Deployment)
 **Repository Sector:** Structural Friction Tensors & Decentralized Infrastructure Bootstrapping  
 
 ---
