@@ -1,6 +1,14 @@
 {
   "manifest_metadata": {
     "framework_name": "vortexart88",
+    "version": "1.0.0-alpha.1",
+    "architecture_tier": "conceptual_telemetry_simulation_and_data_mesh_mapping",
+    "engineering_disclaimer": "The mathematical equations and Python routines contained herein function strictly as scale-invariant data-stream logic gates and telemetry mocking nodes. They are designed to map the UI/UX architecture of decentralized utility grids. Real-world implementation requires empirical verification, parameter tuning for local fluid viscosities, and boundary-value integration using validated Navier-Stokes finite-volume numerical solvers (e.g., OpenFOAM, SimScale) to parse actual physical data loops."
+  }
+
+{
+  "manifest_metadata": {
+    "framework_name": "vortexart88",
     "version": "1.0.0",
     "schema_specification": "sovereign-infrastructure-map-v1",
     "verification_target": "run_all_simulations.py"
