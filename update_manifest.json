@@ -209,6 +209,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Data Inheritance Tensors"]
+    },
+        "29_gnostic_systems": {
+      "title": "Gnostic Systems Engineering & Anti-Monopoly Grid Topology Ledger",
+      "proof_document": "./documentation/gnostic_systems_matrix.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Scale-Invariant Structural Decoupling Vectors"]
     }
   }
 }
