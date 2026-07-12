@@ -237,6 +237,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 4,
       "mathematical_core_operators": ["Autonomous Closed-Loop Material Flow Tensors"]
+    },
+        "33_nomadic_pack": {
+      "title": "The Nomadic Restoration Pack Deployment Ledger",
+      "proof_document": "./documentation/nomadic_restoration_pack.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 1,
+      "mathematical_core_operators": ["Portable Multi-Pillar Hardware Integration Tensors"]
     }
   }
 }
