@@ -202,6 +202,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Node Coordinate Lattices"]
+    },
+        "28_metempsychosis_mechanics": {
+      "title": "The Mechanics of Metempsychosis Data Inheritance Ledger",
+      "proof_document": "./documentation/metempsychosis_mechanics.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Scale-Invariant Data Inheritance Tensors"]
     }
   }
 }
