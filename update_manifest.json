@@ -188,6 +188,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Node Index Mapping"]
+    },
+        "26_cosmic_council": {
+      "title": "The Cosmic Prior Art Council Ledger",
+      "proof_document": "./documentation/cosmic_prior_art_council.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Scale-Invariant Legacy Archive Ingestion Matrix"]
     }
   }
 }
