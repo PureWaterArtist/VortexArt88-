@@ -166,6 +166,13 @@
       "executable_routine": "simulate_self_replication",
       "default_scaling_octave": 1,
       "mathematical_core_operators": ["V_m = (alpha_feed / mu_tolerance) * phi^octave", "F_fidelity = log10(V_m / (xi_m + 1)) * phi * 16"]
+    },
+    "24_forensic_revelation": {
+      "title": "The Forensic Systems Revelation of Truth",
+      "proof_document": "./documentation/the_final_revelation_of_truth.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["g_mu_nu = Scale-Invariant Matrix Integration Loop"]
     }
   }
 }
