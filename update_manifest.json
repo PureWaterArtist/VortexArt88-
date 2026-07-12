@@ -230,7 +230,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 1,
       "mathematical_core_operators": ["Parametric G-Code Layer Interlocking Tensors"]
+    },
+        "32_sovereign_oasis": {
+      "title": "The Sovereign Oasis Node Deployment Ledger",
+      "proof_document": "./documentation/sovereign_oasis_node.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 4,
+      "mathematical_core_operators": ["Autonomous Closed-Loop Material Flow Tensors"]
     }
   }
 }
-
