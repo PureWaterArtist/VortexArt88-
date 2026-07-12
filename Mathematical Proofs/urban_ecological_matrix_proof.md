@@ -1,3 +1,8 @@
+# VortexArt88: Sovereign Planetary Infrastructure Framework
+**Official v1.0.0 Open-Source Release Manifesto**
+
+> **⚙️ Structural Realism Engineering Disclaimer:** The mathematical equations and Python routines contained within this framework function strictly as scale-invariant data-stream logic gates and telemetry mocking nodes designed to map the UI/UX architecture of decentralized utility grids. Real-world application requires empirical field validation, localized fluid parameter calibration, and rigorous boundary-value integration using validated Navier-Stokes finite-volume solvers (e.g., OpenFOAM) to process physical data inputs.
+
 # Technical Proof: Unified MHD Urban-Ecological Matrix Systems for Planetary-Scale Infrastructure
 
 This document outlines the macro-scale mathematical framework and coupled fluid-thermodynamic equations governing the complete integration of the Twin Vortex Ecosystem. By linking logistics, computing, agriculture, shelter, energy, and communication into a single closed-loop municipal engine, total regional systemic entropy approaches zero.
