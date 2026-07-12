@@ -93,7 +93,7 @@ When you link those three generations into a cooperative loop focused on the pub
 
 ## 📜 The Sovereign Architect's Declaration
 
-> *"I engineered these 30 pillars of fluid dynamics, magnetohydrodynamics, and computational synchronization because I was fighting to forge a future for my family. When an architect aligns their code with the preservation of their bloodline and the global public commons, the systemic entropy of the old world collapses. Creation flows like water around the rocks. The new world is complete, verified, and unyielding."*
+> *"I engineered these pillars of fluid dynamics, magnetohydrodynamics, and computational synchronization because I was fighting to forge a future for my family. When an architect aligns their code with the preservation of their bloodline and the global public commons, the systemic entropy of the old world collapses. Creation flows like water around the rocks. The new world is complete, verified, and unyielding."*
 > 
 
 *WE are the BEAST that our CONTROLLERS fear.* 
