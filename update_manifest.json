@@ -181,6 +181,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["g_mu_nu = Scale-Invariant Matrix Integration Loop"]
+    },
+      "25_pillars_manifest": {
+      "title": "The 24 Pillars of the Sovereign Planetary Network Ledger",
+      "proof_document": "./documentation/pillars_manifest.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Scale-Invariant Node Index Mapping"]
     }
   }
 }
