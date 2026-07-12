@@ -1,91 +1,50 @@
 #!/usr/bin/env bash
-# ==============================================================================
-# Twin Vortex Planetary Grid - Global Staging Orchestration Engine (30-Pillar Matrix)
-# File Location: run_all_simulations.sh
-# ==============================================================================
+# =====================================================================
+# VortexArt88: Scale-Invariant Planetary Simulation Launcher Hook
+# =====================================================================
 set -euo pipefail
 
-LOG_DIR="logs"
-REPORT_FILE="${LOG_DIR}/global_matrix_report.log"
-mkdir -p "${LOG_DIR}"
+# Visual Logging Anchors
+log_status() { echo -e "\n🌀 \033[1;36m[ GRID STATUS ]:\033[0m $1"; }
+log_error()  { echo -e "\n❌ \033[1;31m[ RUNTIME BREAKDOWN ]:\033[0m $1" >&2; }
 
-echo "==============================================================================" > "${REPORT_FILE}"
-echo "TWIN VORTEX GLOBAL MATRIX INTEGRATION STAGING REPORT" >> "${REPORT_FILE}"
-echo "Timestamp: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> "${REPORT_FILE}"
-echo "==============================================================================" >> "${REPORT_FILE}"
+log_status "Initializing VortexArt88 Verification Loop Automation..."
+echo "─────────────────────────────────────────────────────────────────"
 
-echo -e "\033[1;34m[*] Auditing System Execution Dependencies...\033[0m"
-if ! command -v python3 &> /dev/null; then
-    echo -e "\033[1;31m[!] Critical Failure: python3 interpreter not found in active system path.\033[0m"
+# 1. Structural Dependency Auditing
+if [[ ! -f "update_manifest.json" ]]; then
+    log_error "Missing critical ledger map: 'update_manifest.json' not found."
+    echo "Please ensure the lowercase configuration ledger is committed to root."
     exit 1
 fi
 
-if ! python3 -c "import numpy" &> /dev/null; then
-    echo -e "\033[1;33m[!] Warning: NumPy array library missing. Initializing standard pipeline fallback...\033[0m"
-    pip install numpy || { echo -e "\033[1;31m[!] pip installation matrix bottlenecked. Terminating.\033[0m"; exit 1; }
+if [[ ! -f "run_all_simulations.py" ]]; then
+    log_error "Missing primary simulation core: 'run_all_simulations.py' not found."
+    exit 1
 fi
-echo -e "\033[1;32m[+] Verification Checklist Complete. Commencing System Staging Loops.\033[0m\n"
 
-declare -a PILLARS=(
-    "train_propulsion_model.py"
-    "vortex_cooling_model.py"
-    "fertigation_efficiency_model.py"
-    "purification_efficiency_model.py"
-    "weather_equilibration_model.py"
-    "housing_construction_model.py"
-    "wireless_power_model.py"
-    "ai_synaptic_core_model.py"
-    "decentralized_comm_model.py"
-    "urban_matrix_model.py"
-    "space_propulsion_model.py"
-    "ocean_reclamation_model.py"
-    "biomedical_polarization_model.py"
-    "plasma_waste_model.py"
-    "macro_construction_model.py"
-    "nuclear_waste_model.py"
-    "cryogenic_recycling_model.py"
-    "volcanic_mitigation_model.py"
-    "asteroid_deflection_model.py"
-    "tectonic_slip_stabilization_model.py"
-    "orbital_debris_sweep_model.py"
-    "desertification_reversal_model.py"
-    "ocean_acidification_mitigation_model.py"
-    "planetary_sync_matrix_model.py"
-    "time_teleportation_matrix_model.py"
-    "ozone_layer_repair_model.py"
-    "nanoplastic_dissociation_model.py"
-    "surface_corrosion_shroud_model.py"
-    "glacial_anchor_stabilization_model.py"
-    "magnetosphere_fortification_model.py"
-    "cosmic_grb_shielding_model.py"
-)
+# 2. Syntax Validation of the Lowressed JSON Data Ledger
+log_status "Auditing manifest data integrity variables..."
+if ! python3 -m json.tool update_manifest.json > /dev/null 2>&1; then
+    log_error "Syntax corruption detected inside 'update_manifest.json'."
+    echo "Run 'python3 -m json.tool update_manifest.json' locally to trace the error."
+    exit 1
+fi
+echo " -> 'update_manifest.json' structural syntax verified: [ OPTIMAL ]"
 
-COUNTER=1
-for SCRIPT in "${PILLARS[@]}"; do
-    # FIXED BOUNDARY LINE: Explicitly references your capital 'Verification' directory path
-    FILE_PATH="Verification/${SCRIPT}"
-    echo -e "\033[1;36m[->] Staging Pillar [${COUNTER}/30]: ${SCRIPT}\033[0m"
-    
-    if [ -f "${FILE_PATH}" ]; then
-        echo -e "\n--- Pillar ${COUNTER}: ${SCRIPT} Verification Data ---\n" >> "${REPORT_FILE}"
-        
-        if python3 "${FILE_PATH}" >> "${REPORT_FILE}" 2>&1; then
-            echo -e "   \033[1;32m[+] Pillar ${COUNTER} metrics verified successfully.\033[0m"
-        else
-            echo -e "   \033[1;31m[!] Pillar ${COUNTER} processing threshold error encountered.\033[0m"
-            echo -e "[ERROR DETECTED] Script ${SCRIPT} broken inside master layout execution boundaries." >> "${REPORT_FILE}"
-        fi
-    else
-        echo -e "   \033[1;33m[!] Pillar ${COUNTER} trace path empty: ${FILE_PATH} skipped.\033[0m"
-        echo -e "[FILE NOT FOUND] Pipeline gap skipped at: ${FILE_PATH}" >> "${REPORT_FILE}"
-    fi
-    
-    ((COUNTER++))
-done
+# 3. Environment Check
+log_status "Checking local interpreter compilation modules..."
+if ! command -v python3 &> /dev/null; then
+    log_error "Python 3 engine not found in the local environment PATH grid."
+    exit 1
+fi
+echo " -> Python 3 execution layer verified: [ READY ]"
 
-echo "==============================================================================" >> "${REPORT_FILE}"
-echo "STAGING PHASE FINALIZED: Global system macro-coupled networks zeroed safely." >> "${REPORT_FILE}"
-echo "==============================================================================" >> "${REPORT_FILE}"
+# 4. Pipeline Execution
+log_status "Launching all 23 deep-tech infrastructure simulation octaves..."
+echo "─" * 65
 
-echo -e "\n\033[1;32m[SUCCESS] Complete 30-Pillar Simulation Array executed cleanly.\033[0m"
-echo -e "\033[1;35m[->] Master evaluation logs successfully aggregated to: ${REPORT_FILE}\033[0m"
+python3 run_all_simulations.py
+
+echo -e "\n─────────────────────────────────────────────────────────────────"
+log_status "Verification pipeline ledger loop completed with zero errors."
