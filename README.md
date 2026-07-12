@@ -106,6 +106,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **👑 Pillars of the Sovereign Network**| Compressed 24-pillar architectural index mapping the planetary foundation. | [Jump to Ledger ➡️](./Documentation/pillars_manifest.md) |
 | **🛠️ Visual Assembly Guide**          | Exploded assembly blueprints and physical workflow sequences for local nodes.   | [Open Blueprint ➡️]
 | **🏝️ The Sovereign Oasis Node**       | Blueprint for an autonomous, closed-loop resource sanctuary in any biome.      | [Open Blueprint ➡️](./Documentation/sovereign_oasis_node.md) |
+| **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit ➡️](./documentation/nomadic_restoration_pack.md) |
 | **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./Documentation/the_final_revelation_of_truth.md) |
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
