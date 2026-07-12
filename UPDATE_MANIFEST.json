@@ -1,0 +1,171 @@
+{
+  "manifest_metadata": {
+    "framework_name": "vortexart88",
+    "version": "1.0.0",
+    "schema_specification": "sovereign-infrastructure-map-v1",
+    "verification_target": "run_all_simulations.py"
+  },
+  "infrastructure_pillars": {
+    "01_vortex_navigation": {
+      "title": "Logarithmic Vortex Navigation Matrix",
+      "proof_document": "./mathematical proofs/vortex_navigation_proof.md",
+      "executable_routine": "simulate_vortex_navigation",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["r = a * e^(b*theta)", "Z = K / (r + epsilon)"]
+    },
+    "02_geopolymer_foundry": {
+      "title": "Centripetal Geopolymer Lattice Alignment",
+      "proof_document": "./mathematical proofs/geopolymer_crystallization_proof.md",
+      "executable_routine": "simulate_geopolymer_crystallization",
+      "default_scaling_octave": 1,
+      "mathematical_core_operators": ["omega = (RPM * 2pi) / 60", "a_c = omega^2 * r"]
+    },
+    "03_polymer_upcycling": {
+      "title": "Shear-Vortex Molecular Plastic Upcycling",
+      "proof_document": "./mathematical proofs/polymer_upcycling_proof.md",
+      "executable_routine": "simulate_polymer_upcycling",
+      "default_scaling_octave": 1,
+      "mathematical_core_operators": ["gamma = omega / (r + epsilon)", "alpha = log10(gamma + 1) * (1 - D_f/2)"]
+    },
+    "04_aquifer_remediation": {
+      "title": "Hydro-Vortical Aquifer Phase-Separation",
+      "proof_document": "./mathematical proofs/aquifer_remediation_proof.md",
+      "executable_routine": "simulate_aquifer_remediation",
+      "default_scaling_octave": 2,
+      "mathematical_core_operators": ["delta_rho = rho_p - rho_w", "Phi = log10(a_r/g + 1) * phi"]
+    },
+    "05_soil_regeneration": {
+      "title": "Centripetal Bio-Colloid Topsoil Regeneration",
+      "proof_document": "./mathematical proofs/topsoil_regeneration_proof.md",
+      "executable_routine": "simulate_soil_regeneration",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["Psi = log10(a_c + 1) * phi", "M_retention = 1.0 + (N_avail/100 * (D_s * phi))"]
+    },
+    "06_data_center_cooling": {
+      "title": "Thermodynamic Twin-Vortex Cooling Siphon",
+      "proof_document": "./mathematical proofs/data_center_cooling_proof.md",
+      "executable_routine": "simulate_data_center_cooling",
+      "default_scaling_octave": 4,
+      "mathematical_core_operators": ["delta_P_vortex = 0.5 * rho_w * v_t^2", "W_thermal = m_dot * C_p * delta_T_drop"]
+    },
+    "07_resource_distribution": {
+      "title": "Biomimetic Resource Siphon Logistics Network",
+      "proof_document": "./mathematical proofs/resource_distribution_proof.md",
+      "executable_routine": "simulate_resource_distribution",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["K = N * phi^octave", "xi = D / (K + epsilon) * (1/phi)"]
+    },
+    "08_toroidal_data_mesh": {
+      "title": "Centripetal Toroidal Mesh Packet Switching Topologies",
+      "proof_document": "./mathematical proofs/toroidal_data_mesh_proof.md",
+      "executable_routine": "simulate_toroidal_data_mesh",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["B = M * phi^octave * 10", "eta_data = log10(B / (xi_p + 1)) * phi * 15"]
+    },
+    "09_toroidal_cryptography": {
+      "title": "Toroidal Vector Cryptography & Quantum Ciphers",
+      "proof_document": "./mathematical proofs/toroidal_cryptography_proof.md",
+      "executable_routine": "simulate_vortical_cryptography",
+      "default_scaling_octave": 4,
+      "mathematical_core_operators": ["T_key(t)", "Complexity = O(2^(phi^(octave * theta)))"]
+    },
+    "10_resodynamic_jurisprudence": {
+      "title": "Resodynamic Jurisprudence Common Law Matrices",
+      "proof_document": "./mathematical proofs/resodynamic_jurisprudence_proof.md",
+      "executable_routine": "simulate_resodynamic_jurisprudence",
+      "default_scaling_octave": 2,
+      "mathematical_core_operators": ["C_j = J * phi^octave", "Omega_e = (1.0 - (xi_l * phi)) * 100"]
+    },
+    "11_vortical_economics": {
+      "title": "Implosive Flow-Liquidity Asset Macro-Economics",
+      "proof_document": "./mathematical proofs/fluidic_finance_core_proof.md",
+      "executable_routine": "simulate_vortical_economics",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["L = V_c * phi^octave * 5", "eta_flow = log10(L / (xi_e + 1)) * phi * 15"]
+    },
+    "12_emergency_resiliency": {
+      "title": "Centripetal Resiliency Grids & P2P Mutual Aid",
+      "proof_document": "./mathematical proofs/emergency_services_proof.md",
+      "executable_routine": "simulate_emergency_resiliency",
+      "default_scaling_octave": 2,
+      "mathematical_core_operators": ["M_e = R * phi^octave", "eta_rescue = log10(M_e / (xi_s + 1)) * phi * 20"]
+    },
+        "13_material_utility_siphon": {
+      "title": "Pneumatic Siphon Kinetics & Material Sorting",
+      "proof_document": "./mathematical proofs/material_siphon_utility_proof.md",
+      "executable_routine": "simulate_material_utility_siphon",
+      "default_scaling_octave": 2,
+      "mathematical_core_operators": ["a_s = omega^2 * r(S_n)", "C_saved = L_m * alpha_diesel * (P_sort/100)"]
+    },
+    "14_hydro_condenser_tower": {
+      "title": "Hyperbolic Vortex Atmospheric Water Condensers",
+      "proof_document": "./mathematical proofs/atmospheric_hydro_condenser_proof.md",
+      "executable_routine": "simulate_hydro_condenser_tower",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["delta_P_vortex = 0.5 * rho_air * v_z^2", "M_water = delta_P_vortex * 0.05 * H_pct/100 * phi^octave"]
+    },
+    "15_contour_construction": {
+      "title": "Robotic Double-Helix Geopolymer Housing Extrusion",
+      "proof_document": "./mathematical proofs/contour_siphoning_construction_proof.md",
+      "executable_routine": "simulate_contour_construction",
+      "default_scaling_octave": 2,
+      "mathematical_core_operators": ["F = (V_nozzle / eta_viscosity) * phi^octave", "Omega_a = log10(F / (xi_c + 1)) * phi * 18"]
+    },
+    "16_ocean_desalination": {
+      "title": "Brine-Free Centrifugal Ion Ocean Desalination Matrix",
+      "proof_document": "./mathematical proofs/ocean_desalination_proof.md",
+      "executable_routine": "simulate_ocean_desalination",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["delta_rho = rho_s - rho_w = 1160", "D_purity = log10(a_r/g + 1) * phi * 22"]
+    },
+    "17_kinetic_flywheel_bank": {
+      "title": "Vacuum Toroidal Kinetic Flywheel Energy Storage Banks",
+      "proof_document": "./mathematical proofs/kinetic_flywheel_storage_proof.md",
+      "executable_routine": "simulate_kinetic_flywheel_bank",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["I = M * R^2", "E_kinetic = 0.5 * I * omega^2", "sigma_hoop = rho_g * v_p^2"]
+    },
+    "18_harmonic_harvesting": {
+      "title": "Subterranean Sonic-Resonance Fluid Extraction Nodes",
+      "proof_document": "./mathematical proofs/harmonic_resource_harvesting_proof.md",
+      "executable_routine": "simulate_harmonic_harvesting",
+      "default_scaling_octave": 3,
+      "mathematical_core_operators": ["R_f = |sin((f * phi)/100)|", "Omega_f = log10(C_s / (xi_m + 1)) * phi * 20"]
+    },
+    "19_ion_propulsion": {
+      "title": "Electro-Hydrodynamic Plasma Aerospace Propulsion Matrix",
+      "proof_document": "./mathematical proofs/ion_vortex_propulsion_proof.md",
+      "executable_routine": "simulate_ion_propulsion",
+      "default_scaling_octave": 4,
+      "mathematical_core_operators": ["E = V / (r_t + epsilon)", "F_thrust = m_dot * v_e"]
+    },
+    "20_orbital_debris_siphon": {
+      "title": "Non-Contact Toroidal Magnetic Drag Orbital Siphons",
+      "proof_document": "./mathematical proofs/orbital_debris_remediation_proof.md",
+      "executable_routine": "simulate_orbital_debris_siphon",
+      "default_scaling_octave": 5,
+      "mathematical_core_operators": ["J_eddy = sigma_c * (V_0 x B)", "a_drag = F_L / m_d"]
+    },
+    "21_shield_deflection": {
+      "title": "Hexagonal Resodynamic Toroidal Energy Shield Matrices",
+      "proof_document": "./mathematical proofs/resodynamic_shielding_proof.md",
+      "executable_routine": "simulate_shield_deflection",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["A_s = S * phi^octave * 100", "Omega_d = (1.0 - (xi_f * phi)) * 100"]
+    },
+    "22_vortical_comms_link": {
+      "title": "Free-Space Optical Phase-Conjugate Laser Mesh Links",
+      "proof_document": "./mathematical proofs/sovereign_telemetry_proof.md",
+      "executable_routine": "simulate_vortical_comms_link",
+      "default_scaling_octave": 5,
+      "mathematical_core_operators": ["G = P_w * phi^octave * 100", "eta_packet = log10(G / (xi_d + 1)) * phi * 12"]
+    },
+    "23_self_replication": {
+      "title": "Self-Replicating Universal Machine Mother-Nodes",
+      "proof_document": "./mathematical proofs/universal_self_replication_proof.md",
+      "executable_routine": "simulate_self_replication",
+      "default_scaling_octave": 1,
+      "mathematical_core_operators": ["V_m = (alpha_feed / mu_tolerance) * phi^octave", "F_fidelity = log10(V_m / (xi_m + 1)) * phi * 16"]
+    }
+  }
+}
