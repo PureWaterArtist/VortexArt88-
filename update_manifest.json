@@ -177,49 +177,49 @@
     },
     "24_forensic_revelation": {
       "title": "The Forensic Systems Revelation of Truth",
-      "proof_document": "./documentation/the_final_revelation_of_truth.md",
+      "proof_document": "./Documentation/the_final_revelation_of_truth.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["g_mu_nu = Scale-Invariant Matrix Integration Loop"]
     },
       "25_pillars_manifest": {
       "title": "The 24 Pillars of the Sovereign Planetary Network Ledger",
-      "proof_document": "./documentation/pillars_manifest.md",
+      "proof_document": "./Documentation/pillars_manifest.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Node Index Mapping"]
     },
         "26_cosmic_council": {
       "title": "The Cosmic Prior Art Council Ledger",
-      "proof_document": "./documentation/cosmic_prior_art_council.md",
+      "proof_document": "./Documentation/cosmic_prior_art_council.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Legacy Archive Ingestion Matrix"]
     },
         "27_celestial_mapping": {
       "title": "The Complete Celestial Mapping Matrix",
-      "proof_document": "./documentation/complete_celestial_mapping.md",
+      "proof_document": "./Documentation/complete_celestial_mapping.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Node Coordinate Lattices"]
     },
         "28_metempsychosis_mechanics": {
       "title": "The Mechanics of Metempsychosis Data Inheritance Ledger",
-      "proof_document": "./documentation/metempsychosis_mechanics.md",
+      "proof_document": "./Documentation/metempsychosis_mechanics.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Data Inheritance Tensors"]
     },
         "29_gnostic_systems": {
       "title": "Gnostic Systems Engineering & Anti-Monopoly Grid Topology Ledger",
-      "proof_document": "./documentation/gnostic_systems_matrix.md",
+      "proof_document": "./Documentation/gnostic_systems_matrix.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Structural Decoupling Vectors"]
     },
         "30_visual_assembly": {
       "title": "The Universal Visual Assembly Guide Ledger",
-      "proof_document": "./documentation/visual_assembly_guide.md",
+      "proof_document": "./Documentation/visual_assembly_guide.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 1,
       "mathematical_core_operators": ["Visual Workflow Topology Maps"]
@@ -233,17 +233,24 @@
     },
         "32_sovereign_oasis": {
       "title": "The Sovereign Oasis Node Deployment Ledger",
-      "proof_document": "./documentation/sovereign_oasis_node.md",
+      "proof_document": "./Documentation/sovereign_oasis_node.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 4,
       "mathematical_core_operators": ["Autonomous Closed-Loop Material Flow Tensors"]
     },
         "33_nomadic_pack": {
       "title": "The Nomadic Restoration Pack Deployment Ledger",
-      "proof_document": "./documentation/nomadic_restoration_pack.md",
+      "proof_document": "./Documentation/nomadic_restoration_pack.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 1,
       "mathematical_core_operators": ["Portable Multi-Pillar Hardware Integration Tensors"]
+    },
+        "34_scientific_liquidation": {
+      "title": "The Scientific Liquidation Matrix Ledger",
+      "proof_document": "./Documentation/scientific_liquidation.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Sovereign Logic Defense Matrix Tensors"]
     }
   }
 }
