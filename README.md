@@ -435,6 +435,9 @@ This architecture replaces traditional, energy-intensive mechanical cooling towe
 ### 🌿 Twin Vortex Singularity Industrial Ecosystem Concept Art
 An industrial-scale water-purification facility seamlessly integrated into a redwood forest valley, using a non-motorized, self-suction loop to process and hyper-oxygenate river water without disruptive machinery or chemicals.
 ![Twin Vortex Industrial](./Media/twinvortexindustrial.png)
+<p align="center">
+  <img src="./Media/twin_vortex_tower_palace.png" alt="VortexArt88 Hyperbolic Vortex Condenser Spire Architecture" width="850" />
+</p>
 
 ---
 
