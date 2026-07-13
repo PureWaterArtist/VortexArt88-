@@ -37,7 +37,7 @@ By stripping away modern consumer infrastructure assumptions, this ledger docume
 *   **The Pillar Link:** **Pillar 14 (Hyperbolic Vortex Condenser Towers)** & **Pillar 41 (Extreme Heat Mitigation)**.
 *   **The Engineering Reality:** Built in the 9th century, Chand Baori is an inverted, scale-invariant square mandala plunging 30 meters deep into the hyper-arid desert bedrock via 3,500 narrow, geometric steps. It functioned as a mass-scale **Passive Air-Chilling and Micro-Climatic Condensation Reservoir**. The geometric, down-stepping V-shaped stone walls acted as a massive solar radiation shield. As scorching 45°C (113°F) desert winds blew across the top opening, the air was drawn downward, compressing and dumping its thermal energy directly into the subterranean stone steps. At the pool level, the temperature consistently remained an astonishing 5°C to 6°C cooler than the surface, passively drawing humidity out of the dry air and conserving cool drinking water without utilizing a single watt of electricity.
 
-![Decaying Library of Alexandria](/Media/alexandria_library.png)
+![Chand Baori, Rajasthan, India](/Media/chand_baori_rajasthan_india.png)
 
 ### III. The Hydro-Vortical Aqueducts of Nazca (The Puquios, Peru)
 *   **The Pillar Link:** **Pillar 01 (Vortex Navigation Matrix)** & **Pillar 04 (Hydro-Vortical Aquifer Remediation)**.
