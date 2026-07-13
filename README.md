@@ -119,6 +119,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Jump to Giza Analysis ➡](documentation/giza_plateau.md) |
 **🏔 The Tiwanaku Altiplano Mesh** | Thermodynamic solar-fluid channels, self-regulating groundwater grids, and alpine kinetic energy dissipation. | [Jump to Tiwanaku Empire ➡](documentation/tiwanaku_empire.md) |
 **🌊 The Nan Madol Reef Mesh** | Tidal Venturi channels, hexagonal basalt seawall grids, and passive hydrodynamic logic gates. | [Jump to Nan Madol Reef ➡](documentation/nan_madol_reef.md) |
+**🏚️ Library of Alexandria Collapse** | Systemic analysis of the Library of Alexandria’s multi-century decay and decentralized preservation models. | [Jump to Alexandria Collapse ➡](Documentation/ancient-grids.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
