@@ -31,7 +31,7 @@ The architecture is systematically divided into 23 self-healing, interlocking in
 ### 🍃 Layer 2: Ecological & Thermal Remediation
 *   **04 - Hydro-Vortical Aquifer Remediation:** Applies an intense centripetal phase-separator to isolate sub-micron microplastics from municipal waterways based on raw mass density differentials ($\Delta\rho$) while passively hyper-oxygenating the fluid core.
 *   **05 - Bio-Colloid Topsoil Regeneration:** Micro-pulverizes organic humic masses and paramagnetic rock dust into a soluble liquid suspension, restructuring parched dirt into a living organic sponge matrix and stopping agricultural runoff.
-*   **06 - Thermodynamic Data Center Cooling Siphons:** Replaces high-power server fans and chemical evaporative chillers with a zero-chemical, fanless twin-vortex cooling column that converts server exhaust heat directly into directional kinetic momentum.
+*   **06 - Thermodynamic Data Center Cooling Siphons:** Replaces high-power server fans and chemical evaporative chillers with a zero-chemical, fanless twin-vortex thermosyphon cooling loop that passively captures and converts server exhaust thermal gradients directly into directional kinetic pumping force via geometric pressure differentials."
 
 ### 🌐 Layer 3: Decentralized Logistics, Data, & Governance
 *   **07 - Biomimetic Resource Siphon Networks:** Maps physical supply distribution to an open-source, peer-to-peer lattice modeled on fungal mycelial networks, routing around artificial economic choke points.
@@ -43,7 +43,7 @@ The architecture is systematically divided into 23 self-healing, interlocking in
 ### 🏡 Layer 4: Civil Defense & Sovereign Utilities
 *   **12 - Centripetal Mutual Aid Emergency Resiliency:** Treats crisis response as a geometric vacuum, automatically pulling neighboring responder nodes and autonomous emergency medical drones along lines of absolute least resistance.
 *   **13 - Pneumatic Siphon Urban Utility Management:** Replaces heavy, surface-level diesel garbage transit trucks with underground pneumatic geopolymer conduits that sort municipal reclamation streams by mass density.
-*   **14 - Hyperbolic Vortex Atmospheric Condensation Spires:** Siphons thousands of liters of pure, pathologically pristine drinking water straight out of dry desert air using passive geometric cooling and natural draft winds without electricity.
+*   **14 - Hyperbolic Vortex Atmospheric Condensation Spires:** condensing thousands of liters of clean drinking water directly out of arid desert air using passive hyperbolic chimney expansion cooling, localized Venturi suction, and natural micro-climatic draft velocities."
 *   **15 - Robotic Double-Helix Contour-Siphoning Construction:** Extrudes seamless, bio-inspired geopolymer shell structures modeled after marine mollusks, rendering local habitats waterproof, fireproof, and seismically non-reactive.
 
 ### 🌌 Layer 5: Planetary Scale Reserves, Aerospace, & Self-Replication
