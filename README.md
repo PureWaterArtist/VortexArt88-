@@ -113,12 +113,12 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
-| **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Open Blueprint ➡️](./documentation/angkor_wat_genesis.md) |
+| **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Jump to Angkor Wat ➡️](./documentation/angkor_wat_genesis.md) |
 **🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Jump to Ancient Grids ➡](documentation/ancient-grids.md) |
 **🏟️ Ancient Roman Hydrological Axis** | Historical grid layouts, astronomical alignments, and Roman hydro-aeration networks. | [Jump to Ancient Rome ➡](documentation/roman_hydrological_axis.md) |
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Jump to Giza Analysis ➡](documentation/giza_plateau.md) |
 **🏔 The Tiwanaku Altiplano Mesh** | Thermodynamic solar-fluid channels, self-regulating groundwater grids, and alpine kinetic energy dissipation. | [Jump to Tiwanaku Empire ➡](documentation/tiwanaku_empire.md) |
-**🌊 The Nan Madol Reef Mesh** | Tidal Venturi channels, hexagonal basalt seawall grids, and passive hydrodynamic logic gates. | [Jump to Nan Madol Matrix ➡](documentation/nan_madol_reef.md) |
+**🌊 The Nan Madol Reef Mesh** | Tidal Venturi channels, hexagonal basalt seawall grids, and passive hydrodynamic logic gates. | [Jump to Nan Madol Reef ➡](documentation/nan_madol_reef.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
