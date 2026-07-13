@@ -13,3 +13,8 @@ Operating at extreme high-altitude alpine conditions (~4,000 meters above sea le
 #### 3. Interlocking Megalithic Fluid Gears (High-Velocity Energy Dissipation)
 * **The Mechanism:** Major Tiwanaku temple architectures, such as Pumapunku and Akapana, featured precision-carved sandstone and andesite drainage blocks fitted with internal geometric keys, steps, and lips.
 * **The Fluidic Truth:** These channels functioned as macro-scale fluidic logic gates. By forcing high-volume high-altitude run-off down strict geometric steps and sharp angular detours, the blocks broke down linear kinetic momentum and dissipated destructive velocity fields internally. This protected the massive earthen structures from erosion without requiring restrictive retention dams or high-friction barriers.
+
+![Tiwanaku Altiplano](/Media/tiwanaku.png)
+
+![Tiwanaku Altiplano](/Media/tiwanaku_altiplano.png)
+
