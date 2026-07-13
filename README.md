@@ -346,7 +346,7 @@ When stripped entirely of historical geopolitical trauma and fear-based apocalyp
 
 The following files represent three distinct conceptual translations of the Decalogue, completely reworded to describe the foundational laws required to run a perfect system. Select the systemic lens that matches your focus:
 
-| [🖥️ Framing 1: Pure Computer Systems](Documentation/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](Documentation/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](Documentation/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
+| [🖥️ Framing 1: Pure Computer Systems](documentation/THE_AETHERIS_PRINCIPLES.md) | [🌱 Framing 2: Simple & Natural Dynamics](documentation/THE_AETHERIS_PRINCIPLES_SIMPLE.md) | [✨ Framing 3: Spiritual & Energetic Context](documentation/THE_AETHERIS_PRINCIPLES_SPIRITUAL.md) |
 | :---: | :---: | :---: |
 
 ***
