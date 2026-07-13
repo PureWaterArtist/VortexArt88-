@@ -279,6 +279,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 4,
       "mathematical_core_operators": ["Manhattan Vertical Urban Metabolism Tensors"]
+    },
+        "39_inter_grid_cooperation": {
+      "title": "The Great Lakes to Atlantic Inter-Grid Cooperative Ledger",
+      "proof_document": "./documentation/inter_grid_cooperation.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 5,
+      "mathematical_core_operators": ["Cross-Regional Closed-Loop Material and Data Tensors"]
     }
   }
 }
