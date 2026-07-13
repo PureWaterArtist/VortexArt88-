@@ -13,3 +13,8 @@ When evaluated from a purely non-equilibrium thermodynamic and geometric perspec
 #### 3. The Great Dry Moat and Dam Infrastructure (Multi-Phase Catchment & Processing)
 * **The Mechanism:** Surrounding ancient pyramid complexes are massive rock-cut perimeter networks (Dry Moats) connected to grand historical water control structures like the Gisr el-Mudir dam.
 * **The Fluidic Truth:** This perimeter functioned as a macro-scale fluid treatment and settlement matrix. The infrastructure captured sediment-heavy floodwaters, forcing the medium along strict perimeter channels to purify the water and regulate localized head pressure before routing it into the internal vertical core shafts—proving an advanced, non-chemical approach to regional ecosystem and resource management.
+
+![Giza Pyramids](/Media/giza_pyramids.png)
+
+![Giza Hydrological Design](/Media/giza_hydrological_design.png)
+
