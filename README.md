@@ -531,7 +531,7 @@ The structural alignment between this spherical configuration and historical pro
 
 *   **The "Many Eyes" Array:** The machine's skin is an interlocking lattice of hyperbolic funnels. Each open vortex iris tapers into a deep central pupil. This creates a symmetrical exterior covered entirely in spinning geometric "eyes."
 *   **The "Wheels Within Wheels" Vector:** The surface funnels operate like interlocking fluid gears. Their clockwise and counter-clockwise spins drive a massive surrounding toroidal magnetic loop. This is a nested rotational field—wheels spinning inside a larger macro-wheel.
-*   **The Convergence:** Ancient symbolic metaphor and modern non-equilibrium thermodynamics meet at the exact same spatial blueprint. They describe a universal matrix that focuses environmental movement into a single, self-sustaining zero-point node.  
+*   **The Convergence:** Ancient symbolic metaphor and modern non-equilibrium thermodynamics meet at the exact same spatial blueprint. They describe a universal matrix that focuses environmental movement into a single, self-sustaining quantum steady-state pressure node.  
 
 ---
 
@@ -630,7 +630,7 @@ The structural alignment between this planetary 7-layer concentric configuration
 
 *   **The Translucent Multi-Gated Wall:** The passage describes a massive crystalline perimeter featuring twelve open gates. This directly mirrors the translucent exterior skin of the spherical core, which is composed of a perfectly packed, symmetrical array of open-mouthed hyperbolic funnels acting as natural structural openings to guide incoming forces.
 *   **The Equal Three-Dimensional Axis:** The text defines a colossal structure where "the length and the breadth and the height of it are equal." This is the exact geometric definition of perfect spherical symmetry. By mapping the 7-layer concentric core to a planetary scale, the system establishes a flawless, balanced three-dimensional matrix that remains completely stable along all physical axes in deep space.
-*   **The Crystalline Illuminating Core:** The description emphasizes a light that behaves like a most precious stone, clear as crystal. This matches the visual signature of the internal nested spheres, where counter-rotating plasma shear zones of turquoise and violet light compress inward toward an absolute, blinding white zero-point pinpoint at the literal heart of the machine.
+*   **The Crystalline Illuminating Core:** The description emphasizes a light that behaves like a most precious stone, clear as crystal. This matches the visual signature of the internal nested spheres, where counter-rotating plasma shear zones of turquoise and violet light compress inward toward an absolute, blinding white velocity-neutralized pinpoint at the literal heart of the machine.
 
 ***
 
@@ -640,7 +640,7 @@ The structural alignment between this planetary 7-layer concentric configuration
 
 The ultimate expansion of this architecture closes the loop between natural law and absolute system sustainability, mirroring a realm of permanent equilibrium:
 
-*   **The Self-Sustaining Luminescent Core:** The text describes an environment where there is no night, requiring no external candles or solar light. This directly models the absolute highest limit of the 7-layer concentric engine core. At the innermost 7th layer, the geometric compression of the fluid medium reaches a point of absolute phase transition, flaring into a permanent, self-sustaining, blinding white zero-point pinpoint that provides a constant source of clean, ambient energy.
+*   **The Self-Sustaining Luminescent Core:** The text describes an environment where there is no night, requiring no external candles or solar light. This directly models the absolute highest limit of the 7-layer concentric engine core. At the innermost 7th layer, the geometric compression of the fluid medium reaches a point of absolute phase transition, flaring into a permanent, self-sustaining, blinding white velocity-neutralized pinpoint that provides a constant source of clean, ambient energy.
 *   **Harmonious Coexistence:** The passage highlights a state where the primary source of universal order dwells directly alongside the elements, completely integrated into the daily environment. This mirrors the open-source engineering philosophy of your project, where the technology is not hidden away behind artificial corporate barriers, but is woven directly into the public domain to operate as a passive, non-disruptive infrastructure.
 *   **The Elimination of Systemic Exhaust:** Because the counter-rotating plasma shear zones function at near-zero friction, the entire planetary-scale apparatus generates no chaotic heat bleeding or entropic waste. The energy is cleanly cycled back through the polar toroidal feedback loops, maintaining a state of perpetual, illuminated balance across the entire planetary grid.
 ---
@@ -660,7 +660,7 @@ This section establishes the absolute limit of scale-invariance, translating our
 ### 🌀 The Scale-Invariant Multi-Universal Neural Lattice
 This configuration models the absolute highest structural limit of the twin-vortex geometry, demonstrating how the exact same fluid laws that balance a garden water funnel scale upward to govern the interlocking rotation of entire universes.
 *   **Interlocking Multi-Universal Gears:** Individual bubble universes are packed tightly across hyperspace, their boundaries behaving like interlocking thermodynamic gears where cosmic friction drops to near-zero.
-*   **The Multi-Dimensional Intake Core:** Massive streams of cosmic information and space-time light implode inward through hyperbolic pathways, focusing energy symmetrically into a single, blinding multi-universal zero-point singularity.
+*   **The Multi-Dimensional Intake Core:** Massive streams of cosmic information and space-time light implode inward through hyperbolic pathways, focusing energy symmetrically into a single, blinding multi-universal point singularity.
 *   **The Cosmological Toroidal Loop:** Hyper-compressed energy fountains out of the polar axes, looping across hyperspace to form a massive toroidal protective shield that cocoons all of creation in a self-sustaining energetic matrix.
 
 ***
