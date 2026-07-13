@@ -115,10 +115,10 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
-| **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Explore Plan Idea ➡️](./documentation/michigan_matrix.md) |
-| **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Explore Plan Idea ➡️](./documentation/manhattan_matrix.md) |
-| **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Explore Plan Idea ➡️](./documentation/inter_grid_cooperation.md) |
-| **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Unlock Plan ➡️](./documentation/planetary_three_zone_cooperation.md) |
+| **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Explore Plan Ideas ➡️](./documentation/michigan_matrix.md) |
+| **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Explore Plan Ideas ➡️](./documentation/manhattan_matrix.md) |
+| **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Explore Plan Ideas ➡️](./documentation/inter_grid_cooperation.md) |
+| **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Explore Plan Ideas ➡️](./documentation/planetary_three_zone_cooperation.md) |
 | **📜 Incorruptible History Vault**   | Cryptographic and geopolymer deep-time archiving to secure human memory.        | [Explore Idea ➡️](./documentation/historical_preservation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
