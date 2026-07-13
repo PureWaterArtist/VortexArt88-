@@ -117,6 +117,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
 | **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Unlock Plan ➡️](./documentation/michigan_matrix.md) |
 | **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Unlock Grid ➡️](./documentation/manhattan_matrix.md) |
+| **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Unlock Grid ➡️](./documentation/inter_grid_cooperation.md) |
 
 ---
 
