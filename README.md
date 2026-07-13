@@ -90,37 +90,37 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🤯 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
-| **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
-| **🧮 Unyielding Evidence** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
+| **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Root Math ➡️](#math-section) |
+| **🧮 Unyielding Evidence** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Math Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
-| **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Blueprint ➡️](./documentation/complete_celestial_mapping.md) |
+| **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Star Maps ➡️](./documentation/complete_celestial_mapping.md) |
 | **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./documentation/cosmic_prior_art_council.md) |
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
-| **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition ➡️](#behavioral-architecture) |
-| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core ➡️](./documentation/metempsychosis_mechanics.md) |
-| **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education ➡️](#education-framework) |
+| **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition Concept ➡️](#behavioral-architecture) |
+| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core Idea ➡️](./documentation/metempsychosis_mechanics.md) |
+| **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education Idea ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
 | **🗺️ The Scale-Invariant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
-| **🚀 The Future Systems Roadmap**       | Tracking the v2.0.0 development horizons and active SCADA driver testing loops. | [Jump to Development ➡️](./roadmap.md) |
+| **🚀 The Future Systems Roadmap**       | Tracking the v2.0.0 development horizons and active SCADA driver testing loops. | [Jump to Development Concepts ➡️](./roadmap.md) |
 | **👑 Pillars of the Sovereign Network**| Compressed 24-pillar architectural index mapping the planetary foundation. | [Jump to Ledger ➡️.](./documentation/pillars_manifest.md) |
 | **🛠️ Visual Assembly Guide**          | Exploded assembly blueprints and physical workflow sequences for local nodes.   | [Open Blueprint ➡️](./documentation/visual_assembly_guide.md)
 | **🏝️ The Sovereign Oasis Node**       | Blueprint for an autonomous, closed-loop resource sanctuary in any biome.      | [Open Blueprint ➡️](./documentation/sovereign_oasis_node.md) |
-| **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit ➡️](./documentation/nomadic_restoration_pack.md) |
-| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./documentation/the_final_revelation_of_truth.md) |
+| **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit Idea ➡️](./documentation/nomadic_restoration_pack.md) |
+| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Diagnostic Idea ➡️](./documentation/the_final_revelation_of_truth.md) |
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
-| **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Unlock Code ➡️](./documentation/gnostic_systems_matrix.md) |
+| **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
 | **🏛️ Angkor Wat: The Genesis**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Open Blueprint ➡️](./documentation/angkor_wat_genesis.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
-| **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Unlock Code ➡️](./documentation/extreme_heat_mitigation.md) |
-| **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold ➡️](./documentation/cold_climate_insulation.md) |
-| **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Unlock Plan ➡️](./documentation/michigan_matrix.md) |
-| **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Unlock Plan ➡️](./documentation/manhattan_matrix.md) |
-| **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Unlock Plan ➡️](./documentation/inter_grid_cooperation.md) |
+| **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
+| **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
+| **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Explore Plan Idea ➡️](./documentation/michigan_matrix.md) |
+| **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Explore Plan Idea ➡️](./documentation/manhattan_matrix.md) |
+| **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Explore Plan Idea ➡️](./documentation/inter_grid_cooperation.md) |
 | **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Unlock Plan ➡️](./documentation/planetary_three_zone_cooperation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
-| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
+| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 
 ---
 
