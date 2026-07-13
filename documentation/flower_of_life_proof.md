@@ -46,9 +46,3 @@ Because $\theta' = \theta$, the scale-transformation operator preserves angles i
 Because the equations prove that the angles \((\frac{\pi}{3})\) never distort when changing sizes, you can take a fluid simulation that works inside a micro-nozzle (millimeter scale) and use the exact same geometric code to predict fluid behavior in a large mixing chamber (meter scale). 
 
 **The math guarantees the vector lines will map identically.**
-
-![Flower of Life Scale-Invariance Proof](Media/flower_of_life_proof.png)
-
-<p align="center">
-  <img src="./Media/flower_of_life_proof.png"
-    </p>
