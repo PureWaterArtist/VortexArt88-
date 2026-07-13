@@ -116,6 +116,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
 | **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Unlock Plan ➡️](./documentation/michigan_matrix.md) |
+| **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Unlock Grid ➡️](./documentation/manhattan_matrix.md) |
 
 ---
 
