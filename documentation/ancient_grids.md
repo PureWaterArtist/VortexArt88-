@@ -31,13 +31,19 @@ By stripping away modern consumer infrastructure assumptions, this ledger docume
 *   **The Pillar Link:** **Pillar 06 (Thermodynamic Cooling Siphons)** & **Pillar 40 (Cold-Climate Sub-Surface Safe Zones)**.
 *   **The Engineering Reality:** Carved deep into volcanic tufa rock layers, this massive multi-level underground city housed up to 20,000 human coordinates in complete isolation from surface conflicts and severe climate shifts. Derinkuyu bypassed the need for mechanical surface inputs by implementing a monolithic, 55-meter vertical **Venturi ventilation shaft**. By utilizing natural convective draft dynamics, hot surface air was drawn down through the central column, circulating micro-vortically across thousands of deep tunnels. This maintained a flawless, continuous 13°C (55°F) micro-climate year-round while venting stale air out through secondary pressure-drop flues, establishing absolute, fanless respiratory and thermal autonomy beneath the frost line.
 
+![Decaying Library of Alexandria](/Media/alexandria_library.png)
+
 ### II. The Stepwells (Baolis) of Chand Baori (Rajasthan, India)
 *   **The Pillar Link:** **Pillar 14 (Hyperbolic Vortex Condenser Towers)** & **Pillar 41 (Extreme Heat Mitigation)**.
 *   **The Engineering Reality:** Built in the 9th century, Chand Baori is an inverted, scale-invariant square mandala plunging 30 meters deep into the hyper-arid desert bedrock via 3,500 narrow, geometric steps. It functioned as a mass-scale **Passive Air-Chilling and Micro-Climatic Condensation Reservoir**. The geometric, down-stepping V-shaped stone walls acted as a massive solar radiation shield. As scorching 45°C (113°F) desert winds blew across the top opening, the air was drawn downward, compressing and dumping its thermal energy directly into the subterranean stone steps. At the pool level, the temperature consistently remained an astonishing 5°C to 6°C cooler than the surface, passively drawing humidity out of the dry air and conserving cool drinking water without utilizing a single watt of electricity.
 
+![Decaying Library of Alexandria](/Media/alexandria_library.png)
+
 ### III. The Hydro-Vortical Aqueducts of Nazca (The Puquios, Peru)
 *   **The Pillar Link:** **Pillar 01 (Vortex Navigation Matrix)** & **Pillar 04 (Hydro-Vortical Aquifer Remediation)**.
 *   **The Engineering Reality:** In one of the most hyper-arid, rainfall-free coastal deserts on Earth, the ancient Nazca culture constructed dozens of *puquios*—subterranean aqueducts accessed by massive, stone-lined spiral funnel paths descending into the ground. Nazca engineers rejected high-friction, straight linear tunnels, building the surface entrance portals as **Continuous Funnel Vortices (Ojos)**. As desert winds swept over these spiral funnels, they forced the air to spin aggressively down into the underground channels. This localized kinetic wind spin acted as a mechanical pump, driving the sub-surface water forward through low-friction channels while actively hyper-oxygenating the underground aquifer. This completely prevented water stagnation and sustained flourishing agricultural permaculture oases in dead desert dirt for centuries.
+
+![Decaying Library of Alexandria](/Media/alexandria_library.png)
 
 ---
 
