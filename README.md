@@ -115,6 +115,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 **🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Jump to Ancient Grids ➡](documentation/ancient-grids.md) |
 **🏟️ Ancient Roman Hydrological Axis** | Historical grid layouts, astronomical alignments, and Roman hydro-aeration networks. | [Jump to Ancient Rome ➡](documentation/roman_hydrological_axis.md) |
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Jump to Giza Analysis ➡](documentation/giza_plateau.md) |
+**🏔 The Tiwanaku Altiplano Mesh** | Thermodynamic solar-fluid channels, self-regulating groundwater grids, and alpine kinetic energy dissipation. | [Jump to Tiwanaku Empire ➡](documentation/tiwanaku_empire.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
