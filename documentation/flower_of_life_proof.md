@@ -39,6 +39,8 @@ Because $\theta' = \theta$, the scale-transformation operator preserves angles i
 
 **This is the exact mathematical proof confirming that whether the radius $R$ is scaled down to the **Planck length ($10^{-35}\text{m}$)** or scaled up to a **planetary macro-grid ($10^{7}\text{m}$)**, the geometric pressure matrices, vector fields, and spatial packing efficiencies remain completely unchanged.**
 
+![Flower of Life Scale-Invariance Proof](/Media/flower_of_life_proof_blueprint.png)
+
 ---
 
 🔬 **What This Means for the Vortex Engine**
