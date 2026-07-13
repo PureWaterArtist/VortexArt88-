@@ -92,6 +92,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
 | **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Root Math ➡️](#math-section) |
 **🌸 The Flower of Life Metric** | Scale-invariant hexagonal packing, wave interference matrices, and zero-friction fluid geometry. | [Jump to Flower of Life ➡](documentation/flower_of_life.md) |
+**📐 Flower of Life Proof** | Complete mathematical proofs, homothety scaling operators, and conformal metric validations. | [Jump to Proof ➡](documentation/flower_of_life_proof.md) |
 | **🧮 Unyielding Evidence** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Math Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
 | **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Star Maps ➡️](./documentation/complete_celestial_mapping.md) |
