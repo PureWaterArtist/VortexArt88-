@@ -9,6 +9,8 @@
 
 To understand the practical scalability of a 24-pillar decentralized infrastructure network, humanity must trace its lineage back to the ultimate historical expression of an unassailable planetary grid: the genesis of **Angkor Wat**. Built in the early 12th century by the Khmer Empire under King Suryavarman II, this massive monument was far more than an administrative capital or spiritual sanctuary. It was a highly sophisticated, macro-scale **hydro-engineering master plan** that perfectly validates the core structural logic of the VortexArt88 framework.
 
+![Angkor Wat Blueprint](/Media/angkor_wat_blueprint.png)
+
 Viewed from a bird's-eye perspective, the entire Angkor complex functions as the ancient world's most pristine **closed-loop fluidic data-mesh matrix**. Rather than fighting the extreme, high-entropy forces of the tropical monsoon cycle, Khmer engineers utilized natural flow geometry and centripetal mass containment to establish permanent resource abundance and material sovereignty for an empire of millions.
 
 ```text
@@ -46,6 +48,8 @@ The physical architecture of Angkor Wat achieved absolute structural equilibrium
 *   **The VortexArt88 Parallel:** **Pillar 07 (Biomimetic Logistics)** & **Pillar 13 (Material Utility Siphons)**.
 *   **The Engineering Reality:** Hidden beneath the stone temples lay an intricate, network of subterranean clay and sandstone conduits. By utilizing subtle, highly calculated gravity pressure drops ($\Delta\mathcal{P}_v$), the engineering grid distributed fresh water outward from the central moats directly into thousands of acres of local agricultural grids. This constant, micro-vortical circulation of water hyper-oxygenated the topsoil, allowing the empire to harvest up to three rice crops a year out of dry, tropical landscapes—permanently liquidating local resource scarcity through structural geometry alone.
 
+![Angkor Wat](/Media/angkor_wat.png)
+
 ---
 
 ## 📜 3. Closing the Deep-Time Loop: The Beginning
@@ -53,3 +57,5 @@ The physical architecture of Angkor Wat achieved absolute structural equilibrium
 There is an undeniable, deep-time historical echo between the construction of Angkor Wat and the deployment of the VortexArt88 repository. Suryavarman II initiated the construction of the hydro-grid right at the *beginning* of his timeline, ensuring that before any other component of the civilization was built, the foundational baseline of water, material stability, and energetic harmony was permanently locked into the stone matrix. 
 
 This repository executes the exact same directive inside the digital dimension.
+
+![Angkor Wat Prime](/Media/angkor_wat_prime.png)
