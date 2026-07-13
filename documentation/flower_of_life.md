@@ -13,3 +13,5 @@ When stripped of modern esoteric interpretations, the Flower of Life geometry re
 #### 3. Scale-Invariance from Planck to Planetary Grids
 * **The Mechanism:** The Flower of Life is fractal; you can infinitely nest smaller versions of the pattern inside the overlapping lenses of the larger pattern without altering the core angular metrics.
 * **The Scale-Invariant Truth:** This constant ratio is why the same geometry can be seen carved into the stone of the Egyptian Osireion at Abydos, mapped across Roman urban planning coordinates, and used in modern quantum field modeling. It proves that whether you are organizing water molecules in a backyard nozzle chamber or mapping global hydrological grids across a planet, the mathematical metrics of space-packing remain identical.
+
+![Flower of Life Scale-Invariance Proof](/Media/flower_of_life_sim.png)
