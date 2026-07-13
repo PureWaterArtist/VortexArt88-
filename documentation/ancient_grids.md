@@ -59,6 +59,8 @@ Constructed directly into the hyper-arid sandstone canyons of the Jordanian dese
 * **The Mechanism:** Over 100 miles of stone-carved, clay-lined water channels twist along the canyon walls at a steady, unchanging incline of exactly 4%.
 * **The Scale-Invariant Truth:** The Nabataeans understood boundary layer friction. By maintaining a strict 4% gradient, they kept fluid velocity constant. This gradient prevents the water from moving too fast (which creates turbulent wall friction and breaks the pipes) or moving too slow (which causes sediment to drop and clog the channel), proving a self-regulating, gravity-driven fluid ledger.
 
+![The Petra Hydraulic Labyrinth, Jordan](/Media/petra_hydraulic_jordan.png)
+
 ---
 
 ### 🌊 The Great Dam of Marib: Concave Hydro-Walls & Cascading Sluice Regulators
@@ -73,6 +75,8 @@ Built by the ancient Sabaeans in modern-day Yemen (8th century BCE), the Great D
 * **The Mechanism:** The northern and southern flanks feature massive, stone-cut sluice gates and distribution channels calibrated to spill excess water progressively from one terrace level to the next.
 * **The Fluidic Truth:** This layout acts as an analog multi-tier fluid logic board. When seasonal flash floods overload the upper reservoirs, the excess volume triggers automatic overflows into cascading lower tiers. This distribution prevents high-pressure surges from breaching any single point while spreading resources across a wide regional grid matrix.
 
+![The Great Dam of Marib, Yemen](/Media/great_dam_marib_yemen.png)
+
 ---
 
 ### 🇨🇳 The Liangzhu Mega-Canal Matrix: Delta Sedimentation Loops & Flood-Control Arrays
@@ -86,6 +90,8 @@ Dating back over 5,000 years to Neolithic China, the ancient water system of the
 #### 2. The Self-Dredging Delta Sluices (Venturi Silt Scouring)
 * **The Mechanism:** The internal urban core featured an intricate grid of stone-lined canals and narrow bottleneck control gates intersecting at precise geometric angles.
 * **The Scale-Invariant Truth:** By utilizing alternating wide storage canals and narrow bottleneck gate valves, the builders triggered localized Venturi acceleration. The sudden surge of speed inside the narrow channels scoured out heavy river silt and kept sediment from settling, ensuring the city's main water veins stayed clean and self-dredging without manual labor.
+
+![Liangzhu Mega Canals](/Media/liangzhu_mega_canal.png)
 
 ---
 
