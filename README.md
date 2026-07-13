@@ -115,6 +115,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
+| **📦 Biomimetic Logistics Engine**    | Automated, mycelial peer-to-peer resource routing to satisfy local demands.     | [Explore Idea ➡️](./documentation/biomimetic_logistics.md) |
 | **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Explore Plan Ideas ➡️](./documentation/michigan_matrix.md) |
 | **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Explore Plan Ideas ➡️](./documentation/manhattan_matrix.md) |
 | **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Explore Plan Ideas ➡️](./documentation/inter_grid_cooperation.md) |
