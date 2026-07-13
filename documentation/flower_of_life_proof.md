@@ -49,3 +49,6 @@ Because the equations prove that the angles \((\frac{\pi}{3})\) never distort wh
 
 ![Flower of Life Scale-Invariance Proof](Media/flower_of_life_proof.png)
 
+<p align="center">
+  <img src="./Media/flower_of_life_proof.png"
+    </p>
