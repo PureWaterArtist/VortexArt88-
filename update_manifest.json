@@ -266,12 +266,19 @@
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Scale-Invariant Hydraulic Flow Tensors"]
     },
-        "36_michigan_matrix": {
+        "37_michigan_matrix": {
       "title": "The Michigan Regional Infrastructure Sovereignty Matrix",
       "proof_document": "./documentation/michigan_matrix.md",
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 4,
       "mathematical_core_operators": ["Great Lakes Regional Hydro-Industrial Tensors"]
+    },
+        "38_manhattan_matrix": {
+      "title": "The Manhattan Urban Infrastructure Sovereignty Matrix",
+      "proof_document": "./documentation/manhattan_matrix.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 4,
+      "mathematical_core_operators": ["Manhattan Vertical Urban Metabolism Tensors"]
     }
   }
 }
