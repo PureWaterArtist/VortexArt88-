@@ -251,6 +251,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Sovereign Logic Defense Matrix Tensors"]
+    },
+        "35_call_to_action": {
+      "title": "The Sovereign Covenant & Urgent Call to Action Ledger",
+      "proof_document": "./Documentation/call_to_action.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Human Collective Mobilization Vectors"]
     }
   }
 }
