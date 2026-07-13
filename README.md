@@ -112,6 +112,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
 | **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Open Blueprint ➡️](./documentation/angkor_wat_genesis.md) |
+**🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Jump to Ancient Grids ➡](Documentation/ancient-grids.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Explore Hot Ideas ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold Ideas ➡️](./documentation/cold_climate_insulation.md) |
