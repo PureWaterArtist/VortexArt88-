@@ -94,7 +94,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🧮 Unyielding Evidence** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Math Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
 | **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Star Maps ➡️](./documentation/complete_celestial_mapping.md) |
-| **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./documentation/cosmic_prior_art_council.md) |
+| **✨ The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./documentation/cosmic_prior_art_council.md) |
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
 | **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition Concept ➡️](#behavioral-architecture) |
@@ -124,7 +124,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Explore Plan Ideas ➡️](./documentation/manhattan_matrix.md) |
 | **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Explore Plan Ideas ➡️](./documentation/inter_grid_cooperation.md) |
 | **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Explore Plan Ideas ➡️](./documentation/planetary_three_zone_cooperation.md) |
-| **📜 Incorruptible History Vault**   | Cryptographic and geopolymer deep-time archiving to secure human memory.        | [Explore Idea ➡️](./documentation/historical_preservation.md) |
+| **🔏 Incorruptible History Vault**   | Cryptographic and geopolymer deep-time archiving to secure human memory.        | [Explore Idea ➡️](./documentation/historical_preservation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 | **📜 The Bitter-Sweet Scroll**        | Behavioral matrix analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
