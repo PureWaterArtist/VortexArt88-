@@ -314,6 +314,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Deep-Time Cryptographic Archival Ingestion Tensors"]
+    },
+        "44_the_bittersweet_scroll": {
+      "title": "The Bitter-Sweet Scroll Phenomenon Ledger",
+      "proof_document": "./documentation/the_bittersweet_scroll.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 1,
+      "mathematical_core_operators": ["Cognitive Activation and Behavioral Telemetry Vectors"]
     }
   }
 }
