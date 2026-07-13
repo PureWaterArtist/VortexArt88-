@@ -93,27 +93,27 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
 | **🧮 Unyielding Proofs** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
-| **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Blueprint ➡️](./Documentation/complete_celestial_mapping.md) |
-| **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./Documentation/cosmic_prior_art_council.md) |
+| **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Blueprint ➡️](./documentation/complete_celestial_mapping.md) |
+| **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./documentation/cosmic_prior_art_council.md) |
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
 | **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition ➡️](#behavioral-architecture) |
-| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core ➡️](./Documentation/metempsychosis_mechanics.md) |
+| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core ➡️](./documentation/metempsychosis_mechanics.md) |
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
 | **🗺️ The Scale-Variant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
 | **🚀 The Future Systems Roadmap**       | Tracking the v2.0.0 development horizons and active SCADA driver testing loops. | [Jump to Development ➡️](./roadmap.md) |
-| **👑 Pillars of the Sovereign Network**| Compressed 24-pillar architectural index mapping the planetary foundation. | [Jump to Ledger ➡️.](./Documentation/pillars_manifest.md) |
-| **🛠️ Visual Assembly Guide**          | Exploded assembly blueprints and physical workflow sequences for local nodes.   | [Open Blueprint ➡️](./Documentation/visual_assembly_guide.md)
-| **🏝️ The Sovereign Oasis Node**       | Blueprint for an autonomous, closed-loop resource sanctuary in any biome.      | [Open Blueprint ➡️](./Documentation/sovereign_oasis_node.md) |
-| **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit ➡️](./Documentation/nomadic_restoration_pack.md) |
-| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./Documentation/the_final_revelation_of_truth.md) |
+| **👑 Pillars of the Sovereign Network**| Compressed 24-pillar architectural index mapping the planetary foundation. | [Jump to Ledger ➡️.](./documentation/pillars_manifest.md) |
+| **🛠️ Visual Assembly Guide**          | Exploded assembly blueprints and physical workflow sequences for local nodes.   | [Open Blueprint ➡️](./documentation/visual_assembly_guide.md)
+| **🏝️ The Sovereign Oasis Node**       | Blueprint for an autonomous, closed-loop resource sanctuary in any biome.      | [Open Blueprint ➡️](./documentation/sovereign_oasis_node.md) |
+| **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit ➡️](./documentation/nomadic_restoration_pack.md) |
+| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Manifesto ➡️](./documentation/the_final_revelation_of_truth.md) |
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
-| **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Unlock Code ➡️](./Documentation/gnostic_systems_matrix.md) |
-| **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./Documentation/scientific_liquidation.md) |
+| **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Unlock Code ➡️](./documentation/gnostic_systems_matrix.md) |
+| **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_liquidation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
-| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./Documentation/call_to_action_statement.md) |
+| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
 
 ---
 
