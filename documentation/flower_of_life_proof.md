@@ -47,6 +47,5 @@ Because the equations prove that the angles \((\frac{\pi}{3})\) never distort wh
 
 **The math guarantees the vector lines will map identically.**
 
-<p align="center">
-  <img src="Media/flower_of_life_proof.png" alt="Flower of Life Scale-Invariance Proof" width="600"/>
-</p>
+![Flower of Life Scale-Invariance Proof](Media/flower_of_life_proof.png)
+
