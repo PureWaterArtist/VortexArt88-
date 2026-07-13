@@ -13,3 +13,10 @@ Constructed directly on a living coral reef matrix off the shore of Pohnpei, Nan
 #### 3. Macro Wave-Brake Geometry (Planetary Resonance Deflection)
 * **The Mechanism:** The entire seawall complex is oriented to align perfectly with dominant Pacific swell vectors, utilizing a giant curved breakwater islet (Nan Douas) as the primary intake shield.
 * **The Scale-Invariant Truth:** Nan Madol acts as a macro-scale fluidic diode. It permits the high-frequency energy of the ocean tides to enter the channel layout to drive the self-cleaning cycles, but loops and cancels out destructive, high-impact storm waves through a series of right-angle detours—proving that macro-coastal layouts can govern localized fluid kinetic vectors through pure spatial geometry.
+
+![Nan Madol Reef](/Media/nan_madol_reef.png)
+
+![Nan Madol Reef City](/Media/nan_madol_reef_city.png)
+
+
+
