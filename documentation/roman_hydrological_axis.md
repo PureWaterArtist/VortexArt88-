@@ -12,7 +12,7 @@ When stripped of historical geopolitical conquest, Roman civilization deployed a
 * **The Mechanism:** Built along steep territorial gradients, Roman engineers utilized underground vertical dropshaft cascades. Incoming water plunged down a vertical shaft directly into a wide, deeply recessed water pool at the chamber floor.
 * **The Fluidic Truth:** Modern hydraulic analysis confirms these pools acted as natural water cushions that forced plunging jet streams deep into the chamber. This process prolonged bubble residence time, creating **intense passive air-water gas transfer (aeration)** that stripped volatile compounds and destroyed anaerobic pathogens without a single chemical additive.
 
-![Dilekkemer Bridge, Patara, Turkey](/Media/dilekkemer_bridge_patara_turkey.png)
+![Delikkemer Bridge, Patara, Turkey](/Media/delikkemer_bridge_patara_turkey.png)
 
 #### 3. The Inverted Siphon Manifold (Gravity-Driven Closed-Loop Velocity)
 * **The Mechanism:** To cross massive valleys without building high-rise aqueduct bridges, the Romans mastered high-pressure, closed-loop fluid routing using inverted siphons. 
