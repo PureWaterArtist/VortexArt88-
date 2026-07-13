@@ -1,0 +1,22 @@
+{
+  "generator_protocol": "VortexArt88-FOL-Lattice",
+  "mesh_metrics": {
+    "applied_radius_mm": 1.0,
+    "grid_depth_rings": 3,
+    "total_computed_nodes": 37
+  },
+  "node_matrix": [
+    {
+      "lattice_indices":,
+      "x_coord": 0.0,
+      "y_coord": 0.0,
+      "radial_distance": 0.0
+    },
+    {
+      "lattice_indices":,
+      "x_coord": 2.0,
+      "y_coord": 0.0,
+      "radial_distance": 2.0
+    }
+  ]
+}
