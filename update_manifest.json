@@ -286,6 +286,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 5,
       "mathematical_core_operators": ["Cross-Regional Closed-Loop Material and Data Tensors"]
+    },
+        "40_planetary_cooperation": {
+      "title": "The Three-Zone Planetary Infrastructure & Cooperation Ledger",
+      "proof_document": "./documentation/planetary_three_zone_cooperation.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Global Three-Phase Closed-Loop Infrastructure Tensors"]
     }
   }
 }
