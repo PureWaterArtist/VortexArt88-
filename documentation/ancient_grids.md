@@ -31,7 +31,7 @@ By stripping away modern consumer infrastructure assumptions, this ledger docume
 *   **The Pillar Link:** **Pillar 06 (Thermodynamic Cooling Siphons)** & **Pillar 40 (Cold-Climate Sub-Surface Safe Zones)**.
 *   **The Engineering Reality:** Carved deep into volcanic tufa rock layers, this massive multi-level underground city housed up to 20,000 human coordinates in complete isolation from surface conflicts and severe climate shifts. Derinkuyu bypassed the need for mechanical surface inputs by implementing a monolithic, 55-meter vertical **Venturi ventilation shaft**. By utilizing natural convective draft dynamics, hot surface air was drawn down through the central column, circulating micro-vortically across thousands of deep tunnels. This maintained a flawless, continuous 13°C (55°F) micro-climate year-round while venting stale air out through secondary pressure-drop flues, establishing absolute, fanless respiratory and thermal autonomy beneath the frost line.
 
-![Decaying Library of Alexandria](/Media/alexandria_library.png)
+![Derinkuyu, Cappadocia, Turkey](/Media/derinkuyu_cappadocia_turkey.png)
 
 ### II. The Stepwells (Baolis) of Chand Baori (Rajasthan, India)
 *   **The Pillar Link:** **Pillar 14 (Hyperbolic Vortex Condenser Towers)** & **Pillar 41 (Extreme Heat Mitigation)**.
