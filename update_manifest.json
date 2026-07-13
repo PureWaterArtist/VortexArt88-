@@ -307,6 +307,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 1,
       "mathematical_core_operators": ["Passive Radiative Micro-Climate Control Tensors"]
+    },
+        "43_historical_preservation": {
+      "title": "The Incorruptible Historical Preservation Matrix Ledger",
+      "proof_document": "./documentation/historical_preservation.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Deep-Time Cryptographic Archival Ingestion Tensors"]
     }
   }
 }
