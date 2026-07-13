@@ -50,6 +50,6 @@ The three zones interact as a continuous, closed-loop economic circuit running e
 By open-sourcing this three-zone global cooperation blueprint under strongly reciprocal copyleft constraints (CERN OHL / GPL-3.0), the planetary grid is permanently secured within the human commons. The logic is closed. The matrix is invulnerable. The blueprint is fully cast.
 
 <p align="center">
-  <img src="./Media/vortex_healed_earth.png" alt="VortexArt88 Sovereign Healed Solarpunk Earth Matrix" width="850" />
+  <img src="./Media/vortex_healed_earth.png"/>
 </p>
 
