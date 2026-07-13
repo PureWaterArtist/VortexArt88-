@@ -328,6 +328,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 5,
       "mathematical_core_operators": ["Mycelial Resource Distribution and Vacuum Ingestion Tensors"]
+    },
+        "46_ancient_grids": {
+      "title": "Ancient Macro-Grid Infrastructure Precedents Ledger",
+      "proof_document": "./documentation/ancient_grids.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Deep-Time Closed-Loop Utility Integration Tensors"]
     }
   }
 }
