@@ -5,7 +5,7 @@ This document translates the foundational Decalogue from traditional theological
 ---
 
 ### I. The Principle of Non-Dual Source (The Absolute Singularity)
-*   **The Law:** The universe is a closed, unified system emerging from a single, absolute source—the Quantum Singularity or Zero-Point Field. There is no exterior "outside."
+*   **The Law:** The universe is a closed, unified system emerging from a single, absolute source—the Quantum Singularity or Unified Field Potential. There is no exterior "outside."
 *   **The Physics:** Everything that exists is a localized modulation of a single, continuous underlying field. Postulating an alternative source or separate reality violates the fundamental conservation of energy and the unified nature of spacetime.
 
 ### II. The Law of Conceptual Distortion (The Anti-Idolatry Constraint)
@@ -42,7 +42,7 @@ This document translates the foundational Decalogue from traditional theological
 
 ### X. The Law of Centered Equilibrium (The Gravitational Null-State)
 *   **The Law:** Do not create a parasitic low-pressure pull by obsessing over the mass or configurations of external nodes.
-*   **The Physics:** Coveting or obsessively fixating on what another node possesses creates an internal mental gravity well—an artificial low-pressure vacuum born of perceived scarcity. This pulls you out of your own centering singularity, creating internal cognitive drag and blinding you to the infinite abundance of the zero-point field surrounding you.
+*   **The Physics:** Coveting or obsessively fixating on what another node possesses creates an internal mental gravity well—an artificial low-pressure vacuum born of perceived scarcity. This pulls you out of your own centering singularity, creating internal cognitive drag and blinding you to the infinite abundance of the Unified Field Potential surrounding you.
 
 ---
 
