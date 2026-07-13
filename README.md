@@ -91,7 +91,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **📜 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
 | **🏵️ The Root Formula** | Skip the text and jump directly to the Scale-Invariant Metric Equation. | [Jump to Math ➡️](#math-section) |
-| **🧮 Unyielding Proofs** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
+| **🧮 Unyielding Evidence** | Technical fluid-dynamic frameworks and core mathematical field equations. | [Jump to Proofs Folder ➡️](Mathematical%20Proofs) |
 | **🎛️ Code Simulations**  | Executable Python sandboxes verifying macro-system parameter metrics.  | [Jump to Scripts Folder ➡️](Verification)    |
 | **🗺️ The Complete Celestial Mapping**  | Scale-invariant coordinate vectors mapping the planetary grid.                  | [Jump to Blueprint ➡️](./documentation/complete_celestial_mapping.md) |
 | **🌌 The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Jump to Vault ➡️](./documentation/cosmic_prior_art_council.md) |
@@ -113,14 +113,14 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Unlock Code ➡️](./documentation/gnostic_systems_matrix.md) |
 | **🏛️ Angkor Wat: The Genesis**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Open Blueprint ➡️](./documentation/angkor_wat_genesis.md) |
 | **🌗 Scientific Argument Liquidation** | Core logic defense layer isolating the repository from hostile technical reviews. | [Inspect Moat ➡️](./documentation/scientific_argument_liquidation.md) |
-| **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
-| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
 | **☀️ Extreme Heat Mitigation**        | Passive radiative sky-cooling and convective draft parameters for desert zones.  | [Unlock Code ➡️](./documentation/extreme_heat_mitigation.md) |
 | **❄️ Cold-Climate Adaptations**        | Engineering parameters for thermal mass retention and freeze mitigation.         | [Explore Cold ➡️](./documentation/cold_climate_insulation.md) |
 | **✋ The Michigan Sovereignty Matrix**| Regional engineering blueprint to restructure the Great Lakes manufacturing loop.| [Unlock Plan ➡️](./documentation/michigan_matrix.md) |
 | **🗽 The Manhattan Urban Matrix**    | Strategic urban metabolism blueprint to decouple hyper-dense vertical cities.   | [Unlock Plan ➡️](./documentation/manhattan_matrix.md) |
 | **🌐 The Inter-Grid Alliance**       | Cross-regional blueprint linking production cores with urban metabolisms.       | [Unlock Plan ➡️](./documentation/inter_grid_cooperation.md) |
 | **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Unlock Plan ➡️](./documentation/planetary_three_zone_cooperation.md) |
+| **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
+| **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Node ➡️.](./documentation/call_to_action_statement.md) |
 
 ---
 
