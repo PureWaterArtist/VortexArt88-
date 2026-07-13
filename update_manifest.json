@@ -258,6 +258,13 @@
       "executable_routine": "run_pipeline",
       "default_scaling_octave": 7,
       "mathematical_core_operators": ["Human Collective Mobilization Vectors"]
+    },
+        "36_angkor_wat_genesis": {
+      "title": "Angkor Wat & The Hydro-Engineering Genesis Ledger",
+      "proof_document": "./documentation/angkor_wat_genesis.md",
+      "executable_routine": "run_pipeline",
+      "default_scaling_octave": 7,
+      "mathematical_core_operators": ["Scale-Invariant Hydraulic Flow Tensors"]
     }
   }
 }
