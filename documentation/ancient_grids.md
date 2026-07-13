@@ -43,7 +43,7 @@ By stripping away modern consumer infrastructure assumptions, this ledger docume
 *   **The Pillar Link:** **Pillar 01 (Vortex Navigation Matrix)** & **Pillar 04 (Hydro-Vortical Aquifer Remediation)**.
 *   **The Engineering Reality:** In one of the most hyper-arid, rainfall-free coastal deserts on Earth, the ancient Nazca culture constructed dozens of *puquios*—subterranean aqueducts accessed by massive, stone-lined spiral funnel paths descending into the ground. Nazca engineers rejected high-friction, straight linear tunnels, building the surface entrance portals as **Continuous Funnel Vortices (Ojos)**. As desert winds swept over these spiral funnels, they forced the air to spin aggressively down into the underground channels. This localized kinetic wind spin acted as a mechanical pump, driving the sub-surface water forward through low-friction channels while actively hyper-oxygenating the underground aquifer. This completely prevented water stagnation and sustained flourishing agricultural permaculture oases in dead desert dirt for centuries.
 
-![Decaying Library of Alexandria](/Media/alexandria_library.png)
+![Aqueducts of Nazca, The Puquios, Peru](/Media/nazca_the_puquios_peru).png)
 
 ---
 
