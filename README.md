@@ -114,6 +114,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
 | **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Jump to Angkor Wat ➡️](./documentation/angkor_wat_genesis.md) |
+**🕋 The Borobudur Megastructure** | Fractal three-tier mandalas, 72-stupa cosmic numbers, and hydro-acoustic step drainage networks. | [Jump to Borobudur Matrix ➡](documentation/borobudur_megastructure.md) |
 **🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Jump to Ancient Grids ➡](documentation/ancient_grids.md) |
 **🏟️ Ancient Roman Hydrological Axis** | Historical grid layouts, astronomical alignments, and Roman hydro-aeration networks. | [Jump to Ancient Rome ➡](documentation/roman_hydrological_axis.md) |
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Jump to Giza Analysis ➡](documentation/giza_plateau.md) |
