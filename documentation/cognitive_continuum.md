@@ -79,3 +79,5 @@ The structural geometry of reality ensures that every action generates an equal 
 ---
 🚨 ** *Choose wisely.* ** 🚨
 ---
+
+![Ultimate Choice of Two Futures](/Media/ultimate_choice.png)
