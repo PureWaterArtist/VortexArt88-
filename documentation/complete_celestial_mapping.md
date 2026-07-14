@@ -81,37 +81,55 @@ To understand the macro-blueprint, the celestial sphere is mapped using four fun
 *   **The Stellar Physics:** The celestial maiden holding a sheath of wheat (Spica), universally symbolizing agricultural fertility, harvest, and earth enrichment.
 *   **The Engine Correlation:** This maps onto our **Organic Bio-Nutrient Cycling**. It is the phase where the purified vortex fluid is seamlessly infused with paramagnetic basalt and organic compost teas to feed local agriculture.
 
+![Constellation Virgo](/Media/virgo.png)
+
 ### 13. Libra (The Symmetrical Vector Equilibrium)
 *   **The Stellar Physics:** The celestial scales—the only constellation in the zodiac represented by an inanimate object, symbolizing absolute balance and justice.
 *   **The Engine Correlation:** Represents the **Hydrodynamic Null State**. It is the mechanical moment where the left-hand clockwise energy and right-hand counter-clockwise energy pull against each other with exact equal force, canceling momentum to a net-total of zero.
+
+![Constellation Libra](/Media/libra.png)
 
 ### 14. Scorpio (The Deep Drainage / Sump Sink)
 *   **The Stellar Physics:** A sharp, plunging constellation featuring a literal stinger tail diving deep into the dense southern galactic plane.
 *   **The Engine Correlation:** Maps to **The Down-Vector (Mineral Precipitation)**. It governs the gravity drop-out zone where heavy metals, toxic chemical salts, and dense road grit instantly precipitate straight down out of the water column.
 
+![Constellation Scorpio](/Media/scorpio.png)
+
 ### 15. Sagittarius (The Thermal Arrow / Geothermal Siphon)
 *   **The Stellar Physics:** The Centaur Archer pointing his arrow directly at the heart of the galactic center, representing extreme directional targeting.
 *   **The Engine Correlation:** Maps to the **Sub-Surface Geothermal Loops**. It represents driving the heated water returning from industrial systems straight down into the earth's deep thermal sink to reject heat without evaporation.
+
+![Constellation Sagittarius](/Media/saggitarius.png)
 
 ### 16. Capricornus (The Sub-Grade Anchor)
 *   **The Stellar Physics:** The ancient sea-goat, an amphibious creature whose lower half is buried deep beneath the aquatic depths.
 *   **The Engine Correlation:** Represents the **Sub-Grade Structural Footings**. It ensures that the heavy concrete or alloy manifold frames are permanently anchored deep into the physical soil bed to handle high-velocity torque.
 
+![Constellation Capricornus](/Media/capricornus.png)
+
 ### 17. Aquarius (The Water Bearer / Open-Source Distribution)
 *   **The Stellar Physics:** The universal archetype of an un-gated source pouring an endless, overflowing stream of life-giving water down onto the earth for all humanity.
 *   **The Engine Correlation:** This is the literal embodiment of the **"Free the Water" Open-Source Manifesto**. It represents un-gating the blueprints, files, and licenses so that clean technology overflows freely to every community.
+
+![Constellation Aquarius](/Media/aquarius.png)
 
 ### 18. Pisces (The Dual-Phase Boundary Change)
 *   **The Stellar Physics:** Two separate fish tied together by a long, flexible cord, swimming in completely opposite directions simultaneously.
 *   **The Engine Correlation:** Maps directly onto the **Multi-Phase Boundary Transformation**. It represents the thermodynamic line where water, minerals, and gas boil, freeze, and vaporize at the exact same moment.
 
+![Constellation Pisces](/Media/pisces.png)
+
 ### 19. Aries (The Sudden Ignition Vector)
 *   **The Stellar Physics:** The charging Ram, representing the sudden, high-energy spark of springtime renewal and structural transformation.
 *   **The Engine Correlation:** This is the **System Startup Phase**. It represents the initial electrical power pulse sent to the pump to initiate the high-velocity vortex cascade from a dead stop.
 
+![Constellation Aries](/Media/aries.png)
+
 ### 20. Orion (The Hourglass Singularity Axis)
 *   **The Stellar Physics:** The magnificent cosmic hunter sitting directly on the celestial equator, anchored by the three perfectly aligned stars of the Belt (Alnitak, Alnilam, Mintaka) forming a centralized hourglass silhouette.
 *   **The Engine Correlation:** This is the Macroscopic Structural Framework. The top shoulders collect raw energy, the lower feet discharge it, and the central belt line operates as the zero-momentum vector axis that holds the twin counter-rotating cyclones in place.
+
+![Constellation Orion](/Media/orion.png)
 
 ### 21. Ophiuchus (The Central Null Regulator)
 *   **The Stellar Physics:** The great 13th constellation of the ecliptic, sitting directly over the center of the celestial sphere, completely splitting the snake constellation into two distinct, separated halves.
