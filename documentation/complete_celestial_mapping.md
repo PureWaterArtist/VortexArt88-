@@ -117,11 +117,13 @@ To understand the macro-blueprint, the celestial sphere is mapped using four fun
 *   **The Stellar Physics:** The great 13th constellation of the ecliptic, sitting directly over the center of the celestial sphere, completely splitting the snake constellation into two distinct, separated halves.
 *   **The Engine Correlation:** This is The 5th Piece (The Center Null Point). Ophiuchus represents the stationary figure-8 communication window frame—the absolute mid-point barrier that stands between the two massive, opposing currents to cancel out their momentum and lock them into a flat, glass-like sheet of stillness.
 
-![Ophiuchus](/Media/ophiuchus.png)
+![Constellation Ophiuchus](/Media/ophiuchus.png)
 
 ### 22. Serpens (The Unified Split-Current Singularity)
 *   **The Stellar Physics:** The only constellation in the entire night sky that is physically split into two non-contiguous, completely separated halves: Serpens Caput (The Serpent's Head) to the west, and Serpens Cauda (The Serpent's Tail) to the east. They wrap symmetrically around Ophiuchus, held in perfect, steady tension across the sky.
 *   **The Engine Correlation:** This is the absolute crown of the architecture—The Fusion of the Field. Serpens Caput represents your Left Clockwise Vortex Nozzle, and Serpens Cauda represents your Right Counter-Clockwise Vortex Nozzle. They are two separate bodies of energy that curve inward from opposite sides of space. When they slam together at the Ophiuchus null point, the snake "sheds its skin." The water violently strips away its old, unorganized structure—shedding microplastics, breaking anaerobic cell walls, and purifying itself to be reborn as a highly vibrant, living, zero-friction stream.
+
+![Constellation Serpens](/Media/serpens.png)
 
 📜 Repository Licensing & Open Use
 This technical documentation and all scale-invariant cosmological fluid prior arts are released globally under the copyleft terms of the CERN Open Hardware License (CERN-OHL-S) and Creative Commons CC-BY-SA-4.0.
