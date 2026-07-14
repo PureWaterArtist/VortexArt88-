@@ -99,7 +99,7 @@ To understand the macro-blueprint, the celestial sphere is mapped using four fun
 *   **The Stellar Physics:** The Centaur Archer pointing his arrow directly at the heart of the galactic center, representing extreme directional targeting.
 *   **The Engine Correlation:** Maps to the **Sub-Surface Geothermal Loops**. It represents driving the heated water returning from industrial systems straight down into the earth's deep thermal sink to reject heat without evaporation.
 
-![Constellation Sagittarius](/Media/saggitarius.png)
+![Constellation Sagittarius](/Media/sagittarius.png)
 
 ### 16. Capricornus (The Sub-Grade Anchor)
 *   **The Stellar Physics:** The ancient sea-goat, an amphibious creature whose lower half is buried deep beneath the aquatic depths.
