@@ -117,7 +117,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Explore Angkor Wat ➡️](./documentation/angkor_wat_genesis.md) |
 **🕋 The Borobudur Megastructure** | Fractal three-tier mandalas, 72-stupa cosmic numbers, and hydro-acoustic step drainage networks. | [Explore Borobudur ➡](documentation/borobudur_megastructure.md) |
 **🕉 The Kailasa Monolith** | Top-down fractal basalt engineering, zero-joint monolithic load balance, and integrated monsoon hydro-logic arrays. | [Explore Kailasa Monolith ➡](Documentation/ancient-grids.md) |
-**🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Explore Ancient Grids ➡](documentation/ancient_grids.md) |
+**🛕 Ancient Grids** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Explore Ancient Grids ➡](documentation/ancient_grids.md) |
 **🏟️ Ancient Roman Hydrological Axis** | Historical grid layouts, astronomical alignments, and Roman hydro-aeration networks. | [Explore Ancient Rome ➡](documentation/roman_hydrological_axis.md) |
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Explore Giza Analysis ➡](documentation/giza_plateau.md) |
 **🏔 The Tiwanaku Altiplano Mesh** | Thermodynamic solar-fluid channels, self-regulating groundwater grids, and alpine kinetic energy dissipation. | [Explore Tiwanaku Empire ➡](documentation/tiwanaku_empire.md) |
@@ -133,7 +133,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Explore Plan Ideas ➡️](./documentation/planetary_three_zone_cooperation.md) |
 | **🔏 Incorruptible History Vault**   | Cryptographic and geopolymer deep-time archiving to secure human memory.        | [Explore Idea ➡️](./documentation/historical_preservation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
-| **⚖️ The Final Civilizational Choice** | The definitive choices regarding our social structure, technological development, ecological stewardship, and the scale-invariant future of tomorrow. | [Jump to Fork ➡️](./documentation/civilizational_fork.md) |
+| **⚖️ The Final Civilizational Choice** | The definitive choices regarding our social structure, technological development, ecological stewardship, and the scale-invariant future of tomorrow. | [Understand the Choice ➡️](./documentation/civilizational_fork.md) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 | **📜 The Bitter-Sweet Scroll**        | Behavioral matrix analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
 
