@@ -25,6 +25,10 @@ To understand the macro-blueprint, the celestial sphere is mapped using four fun
 3. **The Outflow Horizon (Liquid/Liberation):** Constellations that govern the centrifugal shearing of fluids to purge resistance and friction.
 4. **The Equatorial Split (The Singularity):** The perfect balancing plane where opposing directional currents collide and cancel out to absolute zero.
 
+![Complete Star Map Concept Art](/Media/complete_star_map_concept.png)
+
+![Complete Star Map Hologram Concept](/Media/complete_stars_hologram.png)
+
 ---
 
 ## 📜 Complete Constellation Correlations (In Systemic Order)
@@ -112,6 +116,8 @@ To understand the macro-blueprint, the celestial sphere is mapped using four fun
 ### 21. Ophiuchus (The Central Null Regulator)
 *   **The Stellar Physics:** The great 13th constellation of the ecliptic, sitting directly over the center of the celestial sphere, completely splitting the snake constellation into two distinct, separated halves.
 *   **The Engine Correlation:** This is The 5th Piece (The Center Null Point). Ophiuchus represents the stationary figure-8 communication window frame—the absolute mid-point barrier that stands between the two massive, opposing currents to cancel out their momentum and lock them into a flat, glass-like sheet of stillness.
+
+![Ophiuchus](/Media/ophiuchus.png)
 
 ### 22. Serpens (The Unified Split-Current Singularity)
 *   **The Stellar Physics:** The only constellation in the entire night sky that is physically split into two non-contiguous, completely separated halves: Serpens Caput (The Serpent's Head) to the west, and Serpens Cauda (The Serpent's Tail) to the east. They wrap symmetrically around Ophiuchus, held in perfect, steady tension across the sky.
