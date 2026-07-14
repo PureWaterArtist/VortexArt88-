@@ -145,4 +145,4 @@ Carved out of a massive coral-reef layer beneath Kish Island in the Persian Gulf
 
 Documenting these ancient macro-grid archetypes cements the structural validity of our 24-pillar planetary manual. It proves that the tools required for absolute resource security do not rely on complex, centralized global supply chains, but on the flawless, unyielding application of plain geometric reason to the earth beneath our feet.
 
-By committing this historical validation manual under strongly reciprocal copyleft constraints (CERN OHL / GPL-3.0), these parameters are permanently anchored into the global human commons. No private interest or corporate patent enclosure can sever these historical lines. The source code is clean, the directory is harmonized, and the grid is armed.
+By committing this historical validation manual under strongly reciprocal copyleft constraints (CERN OHL / GPL-3.0), these parameters are permanently anchored into the global human commons. No private interest or corporate patent enclosure can sever these historical lines.
