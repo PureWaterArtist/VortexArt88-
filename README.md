@@ -5,7 +5,7 @@
 
 <br>
 
-# 🌀 VortexArt88: The Twin-Vortex Singularity Engine
+# 🌀 VortexArt88: The Twin-Vortex Scale-Invariant Singularity Engine
 
 # 🌀 The Twin Vortex Planetary Infrastructure Rebuild Plan
 
