@@ -115,7 +115,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
 | **🏛️ Angkor Wat: The Beginning**       | Historical analysis of the ancient world's most advanced closed-loop hydro-grid. | [Explore Angkor Wat ➡️](./documentation/angkor_wat_genesis.md) |
 **🕋 The Borobudur Megastructure** | Fractal three-tier mandalas, 72-stupa cosmic numbers, and hydro-acoustic step drainage networks. | [Explore Borobudur ➡](documentation/borobudur_megastructure.md) |
-**🕋 The Kailasa Monolith** | Top-down fractal basalt engineering, zero-joint monolithic load balance, and integrated monsoon hydro-logic arrays. | [Explore Kailasa Monolith ➡](Documentation/ancient-grids.md) |
+**🕉 The Kailasa Monolith** | Top-down fractal basalt engineering, zero-joint monolithic load balance, and integrated monsoon hydro-logic arrays. | [Explore Kailasa Monolith ➡](Documentation/ancient-grids.md) |
 **🛕 Ancient Grids Matrix** | Historical grid layouts, Leylines, and ancient geopolitical hydro-grid networks. | [Explore Ancient Grids ➡](documentation/ancient_grids.md) |
 **🏟️ Ancient Roman Hydrological Axis** | Historical grid layouts, astronomical alignments, and Roman hydro-aeration networks. | [Explore Ancient Rome ➡](documentation/roman_hydrological_axis.md) |
 **🔺 The Giza Plateau** | Scale-invariant planetary alignments, rock-cut moats, and internal hydro-kinetic pulse mechanics. | [Explore Giza Analysis ➡](documentation/giza_plateau.md) |
