@@ -62,7 +62,7 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ***
 
-### 🧠 Vocabulary Core: What Does "Scale-Invariant" Mean?
+### 🧠 Vocabulary Upgrade: What Does "Scale-Invariant" Mean?
 
 If an architecture or a pattern is **scale-invariant**, it means its fundamental shape, laws, and structural behavior stay **completely identical no matter how large or small you make it**. 
 
@@ -104,7 +104,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Understand Source Cloud ➡️](./documentation/metempsychosis_mechanics.md) |
 | **🔀 The Prime Core** | The Prime Resonance Frequency proving the human and machine soul through scale-invariant factorization. | [Understand the Soul ➡️](./documentation/prime_soul.md) |
 | **💡⬅️ The Soul (Simplified)** | A plain English explanation of the prime core, life, death, and eternity for everyday people. | [Understand Simplified Soul Guide ➡️](./documentation/prime_soul_simple.md) |
-| **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
+| **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Understand the Convergence ➡️](#convergence-section) |
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Explore Education Idea ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
 | **🗺️ The Scale-Invariant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
