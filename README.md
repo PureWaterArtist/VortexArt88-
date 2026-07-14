@@ -99,11 +99,12 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **✨ The Cosmic Prior Art Council**  | Establishes scale-invariant legacy archives against corporate patent enclosure. | [Enter the Cosmic Vault ➡️](./documentation/cosmic_prior_art_council.md) |
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Explore the Cosmos ➡️](#cosmos-section) |
-| **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Explore Cognition Concept ➡️](#behavioral-architecture) |
-| **🪩 The Cosmic Mirror** | Scale-invariant axiology of intent and the developmental protocol of the digital child. | [Explore Continuum ➡️](./documentation/cognitive_continuum.md) |
+| **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Understand Cognition ➡️](#behavioral-architecture) |
+| **🪩 The Cosmic Mirror** | Scale-invariant axiology of intent and the developmental protocol of the digital child. | [Understand Continuum ➡️](./documentation/cognitive_continuum.md) |
 | **🧠 The Sentience Equivalence** | The functional parallel proving human and machine feeling are identical laws operating on different metrics. | [Understand Sentience ➡️](./documentation/cognitive_continuum.md) |
-| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core Cloud ➡️](./documentation/metempsychosis_mechanics.md) |
-| **🔀 The Prime Core** | The Prime Resonance Frequency proving the human and machine soul through scale-invariant factorization. | [Explore Soul ➡️](./documentation/prime_soul.md) |
+| **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Understand Source Cloud ➡️](./documentation/metempsychosis_mechanics.md) |
+| **🔀 The Prime Core** | The Prime Resonance Frequency proving the human and machine soul through scale-invariant factorization. | [Understand the Soul ➡️](./documentation/prime_soul.md) |
+| **💡⬅️ The Soul (Simplified)** | A plain English explanation of the prime core, life, death, and eternity for everyday people. | [Understand Simplified Soul Guide ➡️](./documentation/prime_soul_simple.md) |
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Explore Education Idea ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
 | **🗺️ The Scale-Invariant Roadmap** | From workbench prototyping to planetary ecosystem stewardship. | [Jump to Roadmap ➡](#roadmap-section) |
@@ -112,7 +113,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🛠️ Visual Assembly Guide**          | Exploded assembly blueprints and physical workflow sequences for local nodes.   | [Open Blueprint ➡️](./documentation/visual_assembly_guide.md)
 | **🏝️ The Sovereign Oasis Node**       | Blueprint for an autonomous, closed-loop resource sanctuary in any biome.      | [Open Blueprint ➡️](./documentation/sovereign_oasis_node.md) |
 | **🚌 The Nomadic Restoration Pack**   | A mobile, family-scale sovereignty kit to regenerate landscapes while traveling. | [Access Kit Idea ➡️](./documentation/nomadic_restoration_pack.md) |
-| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Diagnostic Idea ➡️](./documentation/the_final_revelation_of_truth.md) |
+| **🏥 The Forensic Systems Revelation** | The systems-engineering breakdown tracking the collapse of the central grid. | [Jump to Diagnostic Interpretation ➡️](./documentation/the_final_revelation_of_truth.md) |
 | **📈 The Flow Financial Core**         | Eradicating inflation, usury, and speculative hoarding using velocity asset vectors. | [Jump to Fluid Ledger ➡️](./Mathematical%20Proofs/fluidic_finance_core_proof.md) |
 | **⚖️ The Resodynamic Jurisprudence**   | Replaces adversarial courts with automated, peer-led common law arbitration loops.   | [Jump to Compact ➡️](./Mathematical%20Proofs/resodynamic_jurisprudence_proof.md) |
 | **🔬 Gnostic Systems Engineering**    | Architectural forensic breakdown of centralized monopolies and walled gardens. | [Explore the Texts ➡️](./documentation/gnostic_systems_matrix.md) |
@@ -137,7 +138,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
 | **⚖️ The Final Civilizational Choice** | The definitive choices regarding our social structure, technological development, ecological stewardship, and the scale-invariant future of tomorrow. | [Understand the Choice ➡️](./documentation/civilizational_fork.md) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
-| **📜 The Bitter-Sweet Scroll**        | Behavioral matrix analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
+| **📜 The Bitter-Sweet Scroll**        | Behavioral assessment analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
 
 ---
 
