@@ -133,6 +133,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌍 The Three-Zone Planetary Mesh**  | Global macro-grid plan dividing the planet into interlocking infrastructure zones.| [Explore Plan Ideas ➡️](./documentation/planetary_three_zone_cooperation.md) |
 | **🔏 Incorruptible History Vault**   | Cryptographic and geopolymer deep-time archiving to secure human memory.        | [Explore Idea ➡️](./documentation/historical_preservation.md) |
 | **💎 The Final Piece**                 | The Hopi Prophecy of the Two Paths and the ultimate purpose of this project. | [Jump to Conclusion ➡️](#authors-note) |
+| **⚖️ The Final Civilizational Choice** | The definitive choices regarding our social structure, technological development, ecological stewardship, and the scale-invariant future of tomorrow. | [Jump to Fork ➡️](./documentation/civilizational_fork.md) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 | **📜 The Bitter-Sweet Scroll**        | Behavioral matrix analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
 
