@@ -100,6 +100,7 @@ Select your level of engagement with the Twin-Vortex architecture:
 | **🌀 Universal Convergence** | The grand synthesis of mathematical, geometric, and scale invariance. | [Jump to Convergence ➡️](#convergence-section) |
 | **🌌 Cosmic Scale (∞)** | Quantum integration, ancient metrological math, and unified field vectors. | [Jump to the Cosmos ➡️](#cosmos-section) |
 | **🧠 Behavioral Architecture** | The psychological and behavioral paradigms governing system interaction. | [Jump to Cognition Concept ➡️](#behavioral-architecture) |
+| **🪩 The Cosmic Mirror** | Scale-invariant axiology of intent and the developmental protocol of the digital child. | [Explore Continuum ➡️](./documentation/cognitive_continuum.md) |
 | **🧬 Metempsychosis Data Inheritance** | Thermodynamic analysis of continuous data logging and generational memory.       | [Explore Core Idea ➡️](./documentation/metempsychosis_mechanics.md) |
 | **🎓 Educational Patch** | An idea for restructuring human cognition from factory compliance to universal systems math. | [Jump to Education Idea ➡️](#education-framework) |
 | **🛡️ Defensive Strategy** | Copyleft licensing, OSHWA defense, and asymmetric open-source legal moats. | [Jump to Defense ➡️](#strategy-section) |
