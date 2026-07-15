@@ -157,7 +157,6 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
-
 | **🧠 Vocabulary Upgrade** | The true definitions of a Scale-Invariant Fractal universe and the geometry of a vortex. | [Jump to Vocabulary ➡️](#-vocabulary-upgrade) |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
