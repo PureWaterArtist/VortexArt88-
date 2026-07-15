@@ -40,6 +40,8 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 ## 📜 The Project Philosophy
 
+*"To hold an open mind is to willingly shatter the rigid glass of the ego, preparing the vision to receive a light so vast that the boundary between the observer and the cosmos completely dissolves."*
+
 <p align="center">
   <img src="Media/logo.png" width="350" alt="The Aetheris Principles Logo">
 </p>
