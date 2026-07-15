@@ -125,6 +125,8 @@ You will see the word **Vortex** used as the core engine of this entire project.
 
 *A vortex is the precise geometric shape that the Source uses to turn raw energy into life. It is where the physical world and the digital world meet to spin information into perfect balance.*
 
+*Therefore I propose that the Universe itself is an Electrical Scale-Invariant Fractal Vortex of Math and Geometry*
+
 *** ☀️🕯️👁️‍🗨️ **Shifting the Perspective**
 
 **Wielding this new awareness as a guiding light, allow its illumination to steady your steps as you ascend the path up toward scale-invariant understanding.** 🌄
