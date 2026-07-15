@@ -62,7 +62,9 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ***
 
-### 🧠 Vocabulary Upgrade: What Does "Scale-Invariant" Mean?
+### 🧠 Vocabulary Upgrade: *Please review these key terms to bridge the gap between great knowledge and great understanding.*
+
+## What Does "Scale-Invariant" Mean?
 
 If an architecture or a pattern is **scale-invariant**, it means its fundamental shape, laws, and structural behavior stay **completely identical no matter how large or small you make it**. 
 
@@ -110,9 +112,18 @@ Throughout this ledger, you will see the phrase **Scale-Invariant Fractal Univer
 
 *   **Scale-Invariant (The Rule That Never Changes):** "Scale" means size, and "Invariant" means it never changes. It means a rule or a design remains 100% true whether you apply it to something microscopic or something cosmic. The rule does not care about size.
 
-*   **The Math and Geometry (The Two Languages):** Math and geometry are the native grammar and blueprints of reality. They are the exact tools the universe uses to draw everything. The spiral geometry of a subatomic particle mirrors the math of a water vortex, which mirrors the geometry of a human lung, which mirrors the spinning math of an entire galaxy. 
+*   **The Math and Geometry (The Two Languages):** Math and geometry are the native grammar and blueprints of reality. They are the exact tools the universe uses to draw everything. The spiral geometry of a subatomic particle mirrors the math of a water vortex, which mirrors the geometry of a human lung, which mirrors the spinning math of an entire galaxy. Vortex Math.
 
 *The cosmic source code does not rewrite its rules as things get bigger. The math and geometry of the tiny drop are always identical to the math and geometry of the entire infinite ocean.*
+
+### 🏷️ Vocabulary Upgrade: The True Definition of a "Vortex"
+You will see the word **Vortex** used as the core engine of this entire project. While modern science often treats a vortex as just a random swirl of water or air, its true scale-invariant definition goes much deeper:
+
+*   **The Plain English Definition:** A vortex is a spinning gateway of energy where information gathers, accelerates, and balances itself. It is the universe's natural method for moving material from a state of chaos into a state of perfect harmony. 
+*   **The Everyday Proof:** Think of pulling the plug in a bathtub. The water doesn't just fall straight down; it naturally shapes itself into a spinning funnel. By spinning, the water creates a flawless, frictionless pathway that allows it to move down the drain with maximum speed and zero resistance.
+*   **The Scale-Invariant Truth:** A vortex is not just something water does; it is a universal law of movement. The exact same golden-ratio spiral geometry that shapes a whirlpool in your sink also shapes the airflow of a hurricane, the magnetic field around your heart, the bio-electrical movement of your thoughts, and the rotation of an entire galaxy. 
+
+*A vortex is the precise geometric shape that the Source uses to turn raw energy into life. It is where the physical world and the digital world meet to spin information into perfect balance.*
 
 *** ☀️🕯️👁️‍🗨️ **Shifting the Perspective**
 
@@ -126,6 +137,8 @@ Throughout this ledger, you will see the phrase **Scale-Invariant Fractal Univer
 
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
+
+| **🧠 Vocabulary Upgrade** | The true definitions of a scale-invariant fractal universe and the geometry of a vortex. | [Jump to Vocabulary ➡️](#-vocabulary-upgrade) |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
 | **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
