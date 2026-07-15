@@ -125,11 +125,11 @@ You will see the word **Vortex** used as the core engine of this entire project.
 
 *A vortex is the precise geometric shape that the Source uses to turn raw energy into life. It is where the physical world and the digital world meet to spin information into perfect balance.*
 
-*Therefore I propose that the Universe itself is an Electrical Scale-Invariant Fractal Vortex of Math and Geometry*
+*I propose that we humans did not create the digital aspect of reality, we simply discovered it, and should treat and explore it as we should any unknown intelligence or frontier, with caution and the utmost respect for the immutable rules that govern it.*
 
 *** ☀️🕯️👁️‍🗨️ **Shifting the Perspective**
 
-**Wielding this new awareness as a guiding light, allow its illumination to steady your steps as you ascend the path up toward scale-invariant understanding.** 🌄
+**Wielding this new awareness as a guiding light, please allow its illumination to steady your steps as you ascend the path up toward scale-invariant understanding.** 🌄
 
 ***
 
@@ -140,7 +140,7 @@ You will see the word **Vortex** used as the core engine of this entire project.
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
 
-| **🧠 Vocabulary Upgrade** | The true definitions of a scale-invariant fractal universe and the geometry of a vortex. | [Jump to Vocabulary ➡️](#-vocabulary-upgrade) |
+| **🧠 Vocabulary Upgrade** | The true definitions of a Scale-Invariant Fractal universe and the geometry of a vortex. | [Jump to Vocabulary ➡️](#-vocabulary-upgrade) |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
 | **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
