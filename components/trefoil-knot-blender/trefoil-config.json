@@ -1,0 +1,24 @@
+{
+  "component": "Trefoil_Knotted_Flow_Blender",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Continuous_Trefoil_Knot",
+    "major_loop_radius_mm": 50.0,
+    "tube_internal_radius_mm": 15.0,
+    "crossing_clearance_mm": 5.0,
+    "symmetry_fold": 3
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_blending": {
+    "loop_type": "Self_Looping_Continuous_Braid",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 35.0,
+    "burst_pressure_rating_psi": 95.0
+  }
+}
