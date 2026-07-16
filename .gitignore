@@ -1,3 +1,41 @@
+# =====================================================================
+# VORTEXART88 MASTER OPEN-SOURCE GITIGNORE FILTER
+# =====================================================================
+
+# --- Python Execution & Cache Artifacts ---
+# Prevents temporary compiled Python binaries from cluttering the canvas
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Operating System Hidden Trash ---
+# Filters out local desktop display configuration databases
 .DS_Store
+.DS_Store?
+._*
+Thumbtacks.db
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Local Development Environments & IDE Profiles ---
+# Keeps personal code editor workspace metadata out of the public repo
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+
+# --- Mesh Generation Caches & Raw Diagnostics ---
+# Allows your template .json files to be tracked, but blocks accidental 
+# deep-render logs, massive heavy mesh raw exports, or scratch logs.
+*.log
+*.tmp
+*.bak
+*.gcode
