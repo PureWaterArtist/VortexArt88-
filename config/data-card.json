@@ -1,0 +1,31 @@
+{
+  "project_name": "VortexArt88",
+  "framework_version": "1.0.0",
+  "certification": {
+    "organization": "OSHWA",
+    "uid": "US002833",
+    "type": "Open Source Hardware Water Purifier"
+  },
+  "global_parameters": {
+    "phi_constant": 1.6180339887,
+    "pi_constant": 3.1415926535,
+    "default_scale_factor": 1.0,
+    "stabilization_delay_seconds": 42
+  },
+  "hardware_manufacturing_defaults": {
+    "material": "PETG_or_Tough_Resin",
+    "minimum_wall_loops": 5,
+    "infill_pattern": "Gyroid",
+    "layer_height_mm": 0.2
+  },
+  "ecosystem_profiles": {
+    "octave_1": {
+      "mode": "Workbench_Prototype",
+      "target_flow_rate_lpm": 5.0
+    },
+    "octave_2": {
+      "mode": "Community_Sandbox",
+      "target_flow_rate_lpm": 15.0
+    }
+  }
+}
