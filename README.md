@@ -74,6 +74,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/dodecahedral-flow-harmonizer` — Configures a 12-axis convergent fluid matrix utilizing a regular dodecahedron geometry to perfectly neutralize macro-turbulence through vector cancellation.
   * `/dual-braid-helical-core` — Plots a synchronous, 180-degree phase-locked double-helix matrix to seamlessly mix or stage dual channels without head-on collisions.
   * `/clifford-torus-regulator` — Maps a 3D stereographic projection of a 4D Clifford Torus to guide fluid across two orthogonal angular loops, dropping boundary-layer drag to zero.
+  * `/icosahedral-vector-harmonizer` — Configures a 20-axis convergent fluid matrix utilizing a regular icosahedron geometry to perfectly neutralize multi-directional back-pressure through polyhedral geometric cancellation.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
