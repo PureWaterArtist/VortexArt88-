@@ -49,6 +49,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/flower-of-life-mesh` — Calculates intersecting circle node matrices on the fly.
   * `/figure-eight-mixer` — Maps structural boundaries using the Lemniscate of Bernoulli.
   * `/singularity-navigation-core` — Simulates vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
+* `/manifold-distribution-plenum` — Maps anti-cavitation intake split geometry using a smooth 30° bifurcation curve.
 * **`/Media`**: Dedicated repository storage for project diagrams, renders, and visual documentation assets.
 * **`MANIFESTO.md`**: Core philosophical document detailing the creator's personal motivations, civilizational thesis, and the foundational vision behind this alternative architecture.
 * **`documentation & Supplementary Frameworks`**: Epistemological breakdowns and ancient metrology texts preserved directly in the root interface to protect cross-document historical references. 
