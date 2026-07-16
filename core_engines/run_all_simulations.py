@@ -61,7 +61,8 @@ def main():
         "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/pseudospherical-regulator/pseudosphere_engine.py",
         "components/helicoid-flow-regulator/helicoid_engine.py",
-        "components/paraboloidal-flow-regulator/paraboloid_engine.py",  # ◄── 26TH LAYER ACTIVATED!
+        "components/paraboloidal-flow-regulator/paraboloid_engine.py",
+        "components/hyperboloidal-flow-regulator/hyperboloid_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
