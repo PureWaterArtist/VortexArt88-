@@ -1,0 +1,23 @@
+{
+  "component": "End_Cap_Compression_Collars",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "collar_profile": "Threaded_Compression_Nut",
+    "internal_thread_diameter_mm": 132.0,
+    "thread_pitch_mm": 3.0,
+    "central_bore_diameter_mm": 50.0,
+    "collar_total_thickness_mm": 40.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Nylon_or_Polycarbonate",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 12,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "mechanical_limits": {
+    "max_tightening_torque_nm": 25.0,
+    "thread_profile": "ISO_Metric_Trapezoidal",
+    "axial_thrust_resistance_n": 4500.0
+  }
+}
