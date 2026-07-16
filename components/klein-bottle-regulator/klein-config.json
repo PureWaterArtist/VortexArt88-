@@ -1,0 +1,25 @@
+{
+  "component": "Klein_Bottle_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Klein_Bottle_Immersion_Surface",
+    "core_radius_r_mm": 30.0,
+    "bulb_expansion_diameter_mm": 70.0,
+    "neck_immersion_displacement_mm": 12.0,
+    "surface_type": "Non_Orientable_Manifold",
+    "coordinate_space": "Single_Sided_Chiral_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Single_Boundary_Layer_Inversion",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 105.0
+  }
+}
