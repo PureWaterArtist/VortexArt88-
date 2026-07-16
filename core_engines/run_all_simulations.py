@@ -64,6 +64,7 @@ def main():
         "components/paraboloidal-flow-regulator/paraboloid_engine.py",
         "components/hyperboloidal-flow-regulator/hyperboloid_engine.py",
         "components/hyperbolic-paraboloidal-regulator/saddle_engine.py",
+        "components/klein-bottle-regulator/klein_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
