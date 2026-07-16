@@ -64,6 +64,7 @@ def main():
         "components/manifold-distribution-plenum/plenum_vectors.py"
         "components/outer-pressure-casing/casing_vectors.py"
         "components/end-cap-collars/collar_threads.py"
+        "components/chiral-mesh-filter/chiral_engine.py"
     ]
     
     success_count = 0
