@@ -1,0 +1,22 @@
+{
+  "component": "Figure_Eight_Mixing_Chamber",
+  "version": "1.0.0-Beta",
+  "geometry": {
+    "primary_curve": "Lemniscate_of_Bernoulli",
+    "focal_length_mm": 50.0,
+    "chamber_height_mm": 75.0,
+    "collision_zone_alignment": "Absolute_Center"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Tough_Resin_or_Polycarbonate",
+    "layer_height_mm": 0.15,
+    "wall_loops_minimum": 6,
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics": {
+    "input_channels": 2,
+    "injection_angle_degrees": 45.0,
+    "vortex_rotation": "Counter_Balanced",
+    "target_operating_pressure_psi": 15.0
+  }
+}
