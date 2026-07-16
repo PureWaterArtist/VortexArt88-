@@ -66,6 +66,7 @@ def main():
         "components/end-cap-collars/collar_threads.py"
         "components/chiral-mesh-filter/chiral_engine.py"
         "components/hyper-cylindrical-plenum/hyper_engine.py"
+        "components/toroidal-helical-diffuser/diffuser_vectors.py"
     ]
     
     success_count = 0
