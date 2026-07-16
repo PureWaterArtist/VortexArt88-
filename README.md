@@ -71,6 +71,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/octachoric-hyper-plenum` — Configures a 4D tesseract manifold geometry to distribute incoming volume across an 8-cell symmetric cubic discharge array, neutralizing multi-directional back-pressure.
   * `/glome-hyper-manifold` — Configures a 4D hypersphere manifold projection to expand and distribute massive high-capacity fluid streams across nested concentric spherical boundary shells with zero directional friction.
   * `/16-cell-orthoplex-plenum` — Deploys a 4D hyper-octahedron manifold geometry to balance incoming volumetric loads along four mutually orthogonal axes, dividing mass into a symmetrical 16-way discharge array.
+  * `/24-cell-octaplex-plenum` — Deploys a unique 4D hyper-granatohedron manifold matrix to distribute extreme high-capacity fluid streams across a symmetrical 24-way octahedral discharge array via root vector balancing.
   * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial boundary vectors.
   * `/figure-eight-mixer` — Maps structural reaction boundaries using the parametric Lemniscate of Bernoulli.
   * `/singularity-navigation-core` — Simulates high-pressure vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
