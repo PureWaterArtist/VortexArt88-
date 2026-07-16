@@ -58,6 +58,7 @@ def main():
     pipeline_steps = [
         "components/manifold-distribution-plenum/plenum_vectors.py",
         "components/hyper-cylindrical-plenum/hyper_engine.py",
+        "components/octachoric-hyper-plenum/octachoric_engine.py",
         "components/transcendental-flow-regulator/run_component.py",
         "components/figure-eight-mixer/mixer_vectors.py",
         "components/singularity-navigation-core/navigation_vectors.py",
@@ -73,7 +74,6 @@ def main():
         "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/pseudospherical-regulator/pseudosphere_engine.py",
         "components/helicoid-flow-regulator/helicoid_engine.py",
-        "components/octachoric-hyper-plenum/octachoric_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/outer-pressure-casing/casing_vectors.py",
         "components/end-cap-collars/collar_threads.py",
