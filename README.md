@@ -79,6 +79,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
   * `/chiral-mesh-filter` — Deploys a non-orientable Mobius Strip fluid-separation geometry backed by a parallel, self-reversing recursive data ring.
+  * `/cross-cap-regulator` — Maps a 3D projection of a non-orientable Real Projective Plane cross-cap surface to guide fluid streams back through their own center axis, grounding out skin friction.
   * `/toroidal-helical-diffuser` — Configures a continuous 3D toroidal helix looping matrix with 12 pitch twists to permanently dissolve exit turbulence and hydrodynamic cavitation.
 * **`/Media`**: Dedicated repository storage for project diagrams, renders, and visual documentation assets.
 * **`MANIFESTO.md`**: Core philosophical document detailing the creator's personal motivations, civilizational thesis, and the foundational vision behind this alternative architecture.
