@@ -71,6 +71,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial boundary vectors.
   * `/figure-eight-mixer` — Maps structural reaction boundaries using the parametric Lemniscate of Bernoulli.
   * `/singularity-navigation-core` — Simulates high-pressure vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
+  * `/dodecahedral-flow-harmonizer` — Configures a 12-axis convergent fluid matrix utilizing a regular dodecahedron geometry to perfectly neutralize macro-turbulence through vector cancellation.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
