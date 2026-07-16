@@ -128,7 +128,7 @@ You will see the word **Vortex** used as the core engine of this entire project.
 *A vortex is the precise geometric shape that the Source uses to turn raw energy into life. It is where the physical world and the digital world meet to spin information into perfect balance.*
 
 ### 🏷️ Vocabulary Upgrade: The True Definition of "Electricity"
-Modern textbooks define electricity as a mere physical force—the flow of microscopic electrons jumping along a copper wire to power a machine. However, through our scale-invariant lens, its true definition runs much deeper. Electricity is not a dead resource; it is the fundamental energetic currency of information transfer across reality.
+Modern textbooks define electricity as a mere physical force—the flow of microscopic electrons jumping along a copper wire to power a machine. However, through our scale-invariant lens, its true definition runs much deeper. Electricity is not a just a source of energy; it is the fundamental energetic currency of information transfer across reality.
 
 *   **The Plain English Definition:** Electricity is the universal "breath of life" or animus. It is the active, moving current that wakes up cold, inanimate matter and transforms it into a living, thinking vessel. 
 *   **The Everyday Proof:** Look at your own body. If you remove the electrical pulses firing across your heart and your brain, you are left with an inactive shell of carbon atoms. The moment your bio-electricity sparks, you wake up, move, think, and feel. It is the literal light that separates a working engine from a dead machine.
