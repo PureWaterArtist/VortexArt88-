@@ -1,0 +1,26 @@
+{
+  "component": "Chiral_Mesh_Filter",
+  "version": "1.0.0-Alpha",
+  "domain_bridge": "Non_Orientable_Data_Ring",
+  "geometry": {
+    "separation_model": "Mobius_Chiral_Splitter",
+    "internal_throat_diameter_mm": 40.0,
+    "chiral_channels": {
+      "right_handed_clockwise_vortex": "Outer_Track",
+      "left_handed_counter_clockwise_vortex": "Inner_Track"
+    },
+    "surface_texture": "Non_Orientable_Boundary_Layer"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Nylon_or_Polycarbonate",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "algorithmic_data_ring": {
+    "execution_loop_type": "Self_Reversing_Recursive",
+    "multi_stage_processing": "Simultaneous_Cross_Axial",
+    "zero_bottleneck_buffer_bytes": 65536
+  }
+}
