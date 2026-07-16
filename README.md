@@ -5,7 +5,7 @@
 
 <br>
 
-# 🌀 VortexArt88: The Vortex Scale-Invariant Unified Biomimetic Fluid Engine
+# 🌀 VortexArt88: The Scale-Invariant Unified Biomimetic Fluid Vortex Engine
 
 # 🌀 The Twin Vortex Planetary Infrastructure Rebuild Plan
 
