@@ -58,7 +58,8 @@ def main():
     pipeline_steps = [
         "components/transcendental-flow-regulator/run_component.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
-        "components/figure-eight-mixer/mixer_vectors.py"
+        "components/figure-eight-mixer/mixer_vectors.py",
+        "components/singularity-navigation-core/navigation_vectors.py"  # <-- ADDED
     ]
     
     success_count = 0
