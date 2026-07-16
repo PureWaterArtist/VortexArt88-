@@ -70,6 +70,7 @@ def main():
         "components/prolate-spheroidal-chamber/spheroid_engine.py",
         "components/trefoil-knot-blender/trefoil_engine.py",
         "components/hopf-fibration-regulator/hopf_engine.py",
+        "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/octachoric-hyper-plenum/octachoric_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/outer-pressure-casing/casing_vectors.py",
