@@ -4,7 +4,7 @@ import subprocess
 
 def get_root_directory():
     """Calculates the absolute root path where this orchestrator is executed."""
-    return os.path.dirname(os.path.abspath(__file__))
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def execute_sub_module(relative_path_to_script):
     """
@@ -26,7 +26,7 @@ def execute_sub_module(relative_path_to_script):
         
     try:
         # Run using the same active Python interpreter shell instance
-        result = subprocess.run(
+        subprocess.run(
             [sys.executable, script_filename],
             cwd=target_working_directory,
             check=True,
@@ -49,7 +49,7 @@ def main():
     
     print("[*] Validating Global Ecosystem Profiles...")
     if os.path.exists(global_config_path):
-        print("[+] Standard Configuration Frame verified: /config/data-card.json loaded.")
+        print("[+] Standard Configuration Frame verified: /config/data-card.json loaded.\n")
     else:
         print("[⚠️] WARNING: Global data-card.json configuration profile missing inside /config/.")
         print("    ↳ Execution paths will fall back onto component hardware defaults.\n")
@@ -57,7 +57,8 @@ def main():
     # 2. Sequential Execution Pipeline Matrix (Modular Component Paths)
     pipeline_steps = [
         "components/transcendental-flow-regulator/run_component.py",
-        "components/flower-of-life-mesh/generate_fol_mesh.py"
+        "components/flower-of-life-mesh/generate_fol_mesh.py",
+        "components/figure-eight-mixer/mixer_vectors.py"
     ]
     
     success_count = 0
