@@ -1,0 +1,23 @@
+{
+  "component": "Outer_Pressure_Casing_Jacket",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "casing_profile": "Reinforced_Cylindrical_Sleeve",
+    "internal_chamber_diameter_mm": 110.0,
+    "outer_shell_diameter_mm": 130.0,
+    "total_assembly_length_mm": 450.0,
+    "locking_mechanism": "Threaded_End_Caps"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Nylon_or_Polycarbonate",
+    "layer_height_mm": 0.2,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 80
+  },
+  "safety_margins": {
+    "max_structural_pressure_psi": 60.0,
+    "hoop_stress_resistance": "Maximum",
+    "leak_prevention_seal": "Dual_O_Ring_Grooves"
+  }
+}
