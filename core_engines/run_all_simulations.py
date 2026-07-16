@@ -69,6 +69,7 @@ def main():
         "components/steiner-roman-regulator/roman_engine.py",
         "components/boy-surface-regulator/boy_engine.py",
         "components/schwarz-p-regulator/schwarz_engine.py",
+        "components/gyroid-flow-regulator/gyroid_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
