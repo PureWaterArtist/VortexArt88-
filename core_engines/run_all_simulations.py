@@ -59,8 +59,9 @@ def main():
         "components/transcendental-flow-regulator/run_component.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/figure-eight-mixer/mixer_vectors.py",
-        "components/singularity-navigation-core/navigation_vectors.py"  # <-- ADDED
+        "components/singularity-navigation-core/navigation_vectors.py"
         "components/singularity-navigation-core/junction_matrix.py"
+        "components/manifold-distribution-plenum/plenum_vectors.py"
     ]
     
     success_count = 0
