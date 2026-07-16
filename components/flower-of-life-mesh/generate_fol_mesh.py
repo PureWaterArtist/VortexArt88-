@@ -1,83 +1,113 @@
 import json
 import math
+import os
 
-def generate_flower_of_life_nodes(radius, grid_depth):
+def get_local_json_path():
     """
-    Generates x, y coordinates for the center points of the Flower of Life
-    using the scale-invariant A2 root triangular lattice equation.
-    
-    Equation: z = 2 * R * (n + m * e^(i * pi / 3))
+    DYNAMIC PATH ROUTING: Safely calculates the local directory path 
+    to ensure the JSON file is always found relative to this script.
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(script_dir, "fol_lattice_mesh.json")
+
+def generate_flower_of_life_vectors(scale_factor=1.0, layers=3):
+    """
+    Calculates the 3D interlocking coordinates for a Flower of Life geometric 
+    lattice node mesh based on sacred geometry invariants (overlapping circles).
     """
     nodes = []
+    node_id = 0
     
-    # Pre-calculate the components of the 60-degree Euler offset: e^(i * pi / 3)
-    # cos(pi/3) = 0.5, sin(pi/3) = sqrt(3)/2
-    euler_real = 0.5
-    euler_imag = math.sqrt(3) / 2.0
+    # Base radius definition derived from the scaling input
+    r = scale_factor * 0.5
     
-    # Track unique coordinate strings to prevent duplicate overlapping nodes
-    seen_coordinates = set()
-
-    # Iterate through the discrete step spaces defined by the integers (n, m)
-    for n in range(-grid_depth, grid_depth + 1):
-        for m in range(-grid_depth, grid_depth + 1):
+    # Layer 0: The Absolute Center Node
+    nodes.append({
+        "id": node_id,
+        "layer": 0,
+        "coordinates": (0.0, 0.0, 0.0)
+    })
+    node_id += 1
+    
+    # Generate intersecting concentric rings outwards
+    for layer in range(1, layers + 1):
+        # 6 structural points form a hexagon for each outward Ring
+        for i in range(6):
+            angle_hex = (i * 2 * math.pi) / 6
+            x_hex = layer * r * math.cos(angle_hex)
+            y_hex = layer * r * math.sin(angle_hex)
             
-            # Apply the linear combination of the triangular lattice
-            # Real component (X axis)
-            x = 2.0 * radius * (n + m * euler_real)
-            # Imaginary component (Y axis)
-            y = 2.0 * radius * (m * euler_imag)
-            
-            # Round values to eliminate floating-point micro-variances
-            x_rounded = round(x, 6)
-            y_rounded = round(y, 6)
-            coord_key = f"{x_rounded},{y_rounded}"
-            
-            if coord_key not in seen_coordinates:
-                seen_coordinates.add(coord_key)
+            # Step fill between the main hexagonal vertices to create curves
+            for step in range(layer):
+                fraction = step / layer
+                next_angle = ((i + 1) * 2 * math.pi) / 6
+                x_next = layer * r * math.cos(next_angle)
+                y_next = layer * r * math.sin(next_angle)
                 
-                # Calculate the radial distance from the absolute center (0,0)
-                # Useful for evaluating pressure gradients in fluid simulations
-                radial_distance = math.sqrt(x_rounded**2 + y_rounded**2)
+                # Interpolate linear points to form the lattice vector matrix
+                x = x_hex + fraction * (x_next - x_hex)
+                y = y_hex + fraction * (y_next - y_hex)
+                
+                # Assign a uniform depth layer profile (Z-Axis mapping)
+                z = round((layer * 0.1) * scale_factor, 4)
                 
                 nodes.append({
-                    "lattice_indices": [n, m],
-                    "x_coord": x_rounded,
-                    "y_coord": y_rounded,
-                    "radial_distance": round(radial_distance, 6)
+                    "id": node_id,
+                    "layer": layer,
+                    "coordinates": (round(x, 4), round(y, 4), z)
                 })
+                node_id += 1
                 
-    # Sort the nodes by radial distance to structure them like an expanding wave field
-    nodes.sort(key=lambda node: node["radial_distance"])
     return nodes
 
-def save_mesh_to_json(mesh_data, file_path="fol_lattice_mesh.json"):
-    """Serializes the calculated vector array into an open JSON ledger configuration."""
-    output_payload = {
-        "generator_protocol": "VortexArt88-FOL-Lattice",
-        "mesh_metrics": {
-            "applied_radius_mm": radius_parameter,
-            "grid_depth_rings": depth_parameter,
-            "total_computed_nodes": len(mesh_data)
-        },
-        "node_matrix": mesh_data
+def save_mesh_data(json_path, mesh_nodes):
+    """Saves the generated mesh matrix into the local JSON data container."""
+    payload = {
+        "component_name": "Flower_of_Life_Lattice_Mesh",
+        "total_nodes": len(mesh_nodes),
+        "node_matrix": mesh_nodes
     }
     
-    with open(file_path, "w") as json_file:
-        json.dump(output_payload, json_file, indent=2)
-    print(f"✅ Success! Generated {len(mesh_data)} scale-invariant nodes.")
-    print(f"💾 Vector ledger successfully written to: {file_path}")
+    with open(json_path, "w") as file:
+        json.dump(payload, file, indent=2)
+    print(f"[+] DATA LOGGED: {len(mesh_nodes)} vector nodes saved to '{json_path}'")
 
-# --- EXECUTION PARAMS ---
-# Scale-Invariant Test: You can change the radius to any scale (e.g., 1.0, 55.0, 0.0001)
-# The underlying angular metrics and relative layout ratios remain perfectly identical.
-radius_parameter = 1.0   # Fundamental radius (e.g., in millimeters)
-depth_parameter = 3     # Number of structural concentric rings to project outward
+def load_mesh_data(json_path):
+    """Loads and verifies the existing geometric mesh lattice."""
+    with open(json_path, "r") as file:
+        data = json.load(file)
+    print(f"[+] DATA LOADED: Successfully parsed '{json_path}'")
+    print(f"[-] Total Active Structural Nodes: {data['total_nodes']}")
+    return data
+
+def main():
+    print("=" * 60)
+    print("INITIALIZING: BIOMIMETIC FLOWER OF LIFE MESH ENGINE")
+    print("=" * 60)
+    
+    # Calculate the persistent filepath target
+    json_target_path = get_local_json_path()
+    
+    # Automated Safeguard: Build the data card if it doesn't exist
+    if not os.path.exists(json_target_path):
+        print("[!] Target data file missing. Launching coordinate compilation pipeline...")
+        computed_nodes = generate_flower_of_life_vectors(scale_factor=1.0, layers=3)
+        save_mesh_data(json_target_path, computed_nodes)
+    else:
+        print("[*] Target file found. Initializing operational memory map...")
+    
+    # Load and verify the component data integrity
+    active_mesh = load_mesh_data(json_target_path)
+    
+    # Display sample nodes to verify matrix orientation logic
+    if active_mesh["node_matrix"]:
+        sample_node = active_mesh["node_matrix"][1]
+        print(f"[-] Matrix Balance Anchor Check:")
+        print(f"    ↳ Node ID: {sample_node['id']} (Layer {sample_node['layer']})")
+        print(f"    ↳ Spatial Vectors (X, Y, Z): {sample_node['coordinates']}")
+        
+    print("=" * 60)
 
 if __name__ == "__main__":
-    # Compute the scale-invariant coordinates
-    computed_mesh = generate_flower_of_life_nodes(radius_parameter, depth_parameter)
+    main()
     
-    # Save the output file
-    save_mesh_to_json(computed_mesh)
-  
