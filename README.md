@@ -40,8 +40,22 @@ This repository exists to legally safeguard a specific geometric fluid-dynamic c
 2. **The Verification Framework**: Embedded Python scripts built to simulate standard hydrodynamic vectors and golden-ratio pathing.
 3. **The Philosophical Layer**: A public art manifesto exploring systemic scarcity, information theory, and natural geometry.
 
+<p align="center">
+  <img src="./Media/biomimetic_vortex_engine1.png" alt="Biomimetic Vortex Engine" width="100%">
+</p>
+<hr size="4" color="#00ffcc" width="100%">
+
+<br>
+
 ### 🛑 Zero-Enclosure Clause (Checkmate)
 This project is not a corporate product. It is a raw, decentralized seed. The data ledgers are open, the central mixing chamber is an un-modeled community puzzle, and the entire framework is designed to be built, tested, and optimized by independent makers at the grassroots level.
+
+<p align="center">
+  <img src="./Media/biomimetic_vortex_engine3.png" alt="Biomimetic Vortex Engine" width="100%">
+</p>
+<hr size="4" color="#00ffcc" width="100%">
+
+<br>
 
 ## 📂 Repository Architecture
 
