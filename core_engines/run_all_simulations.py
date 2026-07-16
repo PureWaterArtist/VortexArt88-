@@ -65,13 +65,14 @@ def main():
         "components/dodecahedral-flow-harmonizer/harmonizer_vectors.py",
         "components/dual-braid-helical-core/braid_vectors.py",
         "components/clifford-torus-regulator/clifford_engine.py",
-        "components/icosahedral-vector-harmonizer/harmonizer_vectors.py", # ◄── 14TH LAYER ADDED HERE
+        "components/icosahedral-vector-harmonizer/harmonizer_vectors.py",
+        "components/cross-cap-regulator/cross_cap_engine.py",
+        "components/octachoric-hyper-plenum/octachoric_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/outer-pressure-casing/casing_vectors.py",
         "components/end-cap-collars/collar_threads.py",
         "components/chiral-mesh-filter/chiral_engine.py",
         "components/toroidal-helical-diffuser/diffuser_vectors.py"
-        "components/cross-cap-regulator/cross_cap_engine.py"
     ]
     
     success_count = 0
