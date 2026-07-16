@@ -69,6 +69,7 @@ def main():
         "components/toroidal-helical-diffuser/diffuser_vectors.py"
         "components/dodecahedral-flow-harmonizer/harmonizer_vectors.py"
         "components/dual-braid-helical-core/braid_vectors.py"
+        "components/clifford-torus-regulator/clifford_engine.py"
     ]
     
     success_count = 0
