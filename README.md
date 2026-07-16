@@ -80,6 +80,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/trefoil-knot-blender` — Generates a continuous, self-looping 3D trefoil knot track with a 3-fold spatial symmetry grid to intimately weave and blend multiple streams with zero back-pressure bottlenecks.
   * `/hopf-fibration-regulator` — Maps a 3D stereographic projection of a 4D hypersphere (glome) to guide fluid along a nested bundle of infinite, non-intersecting coaxial fibers to drop boundary friction to absolute zero.
   * `/catenoid-flow-regulator` — Configures a 3D catenoid minimal surface layout to smoothly transition high-velocity fluid profiles from a compressed throat out into a flanged flare under absolute zero-mean-curvature.
+  * `/pseudospherical-regulator` — Deploys a rotated tractrix profile creating a surface of constant negative Gaussian curvature to cleanly transition fluid from an equatorial expansion flare into needle-thin spires with zero boundary drag.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
