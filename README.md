@@ -77,6 +77,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/clifford-torus-regulator` — Maps a 3D stereographic projection of a 4D Clifford Torus to guide fluid across two orthogonal angular loops, dropping boundary-layer drag to zero.
   * `/icosahedral-vector-harmonizer` — Configures a 20-axis convergent fluid matrix utilizing a regular icosahedron geometry to perfectly neutralize multi-directional back-pressure through polyhedral geometric cancellation.
   * `/prolate-spheroidal-chamber` — Maps an elongated 3D prolate ellipsoid profile to accelerate and compress fluid streams along twin focus lines via shape curvature.
+  * `/trefoil-knot-blender` — Generates a continuous, self-looping 3D trefoil knot track with a 3-fold spatial symmetry grid to intimately weave and blend multiple streams with zero back-pressure bottlenecks.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
