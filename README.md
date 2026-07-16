@@ -88,6 +88,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/paraboloidal-flow-regulator` — Configures a 3D circular paraboloid surface profile to smoothly reflect, condense, and accelerate fluid layers inward toward a centralized hyper-concentrated discharge channel.
   * `/hyperboloidal-flow-regulator` — Configures a 3D doubly ruled hyperboloid of one sheet to smoothly guide intersecting, slanted velocity vectors past each other through a tight central throat with zero physical cross-channel shear friction.
   * `/hyperbolic-paraboloidal-regulator` — Maps a 3D doubly ruled hyperbolic paraboloid saddle layout to concurrently guide independent velocity fields upward and downward across a perfect minimax balance point with zero cross-channel shear drag.
+  * `/klein-bottle-regulator` — Deploys a non-orientable 3D Klein Bottle immersion profile to route counter-flowing fluid loops past each other on a single, continuous boundary layer with zero chiral cross-shear torque.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
