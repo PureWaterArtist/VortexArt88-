@@ -74,6 +74,7 @@ def main():
         "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/pseudospherical-regulator/pseudosphere_engine.py",
         "components/helicoid-flow-regulator/helicoid_engine.py",
+        "components/24-cell-octaplex-plenum/octaplex_engine.py",
         "components/16-cell-orthoplex-plenum/orthoplex_engine.py",
         "components/glome-hyper-manifold/glome_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
