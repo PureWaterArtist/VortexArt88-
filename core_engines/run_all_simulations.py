@@ -74,6 +74,7 @@ def main():
         "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/pseudospherical-regulator/pseudosphere_engine.py",
         "components/helicoid-flow-regulator/helicoid_engine.py",
+        "components/glome-hyper-manifold/glome_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/outer-pressure-casing/casing_vectors.py",
         "components/end-cap-collars/collar_threads.py",
