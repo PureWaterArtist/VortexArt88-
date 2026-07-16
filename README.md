@@ -36,6 +36,20 @@ This repository exists to legally safeguard a specific geometric fluid-dynamic c
 ### 🛑 Zero-Enclosure Clause (Checkmate)
 This project is not a corporate product. It is a raw, decentralized seed. The data ledgers are open, the central mixing chamber is an un-modeled community puzzle, and the entire framework is designed to be built, tested, and optimized by independent makers at the grassroots level.
 
+## 📂 Repository Architecture
+
+This ecosystem is split into isolated, production-ready directories to maintain separation of concerns between theoretical frameworks and mathematical execution models:
+
+* **`/config`**: Houses global settings matrices, configuration tokens, and data standards.
+  * `data-card.json` — The master dictionary profile for global variables.
+* **`/core_engines`**: Contains heavy computational orchestration pipelines.
+  * `run_all_simulations.py` — The automated main orchestrator script.
+* **`/components`**: Self-contained geometric, biomimetic, and fluid-dynamic modules.
+  * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial vectors.
+  * `/flower-of-life-mesh` — Calculates intersecting circle node matrices on the fly.
+* **`/documentation`**: Conceptual, epistemological, and ancient metrology texts are preserved directly in the root interface to protect cross-document historical references.
+* **`/Media`**: Dedicated repository storage for project diagrams, renders, and visual documentation assets.
+
 ---
 
 ## 📜 The Project Philosophy
