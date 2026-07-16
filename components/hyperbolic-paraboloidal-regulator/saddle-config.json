@@ -1,0 +1,26 @@
+{
+  "component": "Hyperbolic_Paraboloidal_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Hyperbolic_Paraboloid_Saddle_Surface",
+    "parabola_a_scale_mm": 35.0,
+    "parabola_b_scale_mm": 35.0,
+    "spatial_limit_x_mm": 50.0,
+    "spatial_limit_y_mm": 50.0,
+    "surface_type": "Doubly_Ruled_Saddle_Quadric",
+    "coordinate_space": "Minimax_Saddle_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Doubly_Ruled_Cross_Shear_Equalization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 110.0
+  }
+}
