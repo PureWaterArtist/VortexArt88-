@@ -1,0 +1,24 @@
+{
+  "component": "Octachoric_Hyper_Volume_Plenum",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "projection_model": "4D_Octachoric_Tesseract_Manifold",
+    "main_intake_diameter_mm": 64.0,
+    "hyper_axis_w_scale": 1.618034,
+    "spatial_output_cells": 8,
+    "sub_port_diameter_mm": 16.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "hyper_dimensional_fluidics": {
+    "flow_distribution_symmetry": "8_Cell_Cubic_Symmetry",
+    "shear_neutralization": "True",
+    "max_calculated_flow_rate_lpm": 160.0,
+    "burst_pressure_rating_psi": 100.0
+  }
+}
