@@ -63,6 +63,7 @@ def main():
         "components/singularity-navigation-core/junction_matrix.py"
         "components/manifold-distribution-plenum/plenum_vectors.py"
         "components/outer-pressure-casing/casing_vectors.py"
+        "components/end-cap-collars/collar_threads.py"
     ]
     
     success_count = 0
