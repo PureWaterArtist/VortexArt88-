@@ -1,0 +1,24 @@
+{
+  "component": "Toroidal_Helical_Flow_Diffuser",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "Three_Dimensional_Torus_Helix",
+    "major_ring_radius_r1_mm": 60.0,
+    "minor_tube_radius_r2_mm": 20.0,
+    "helical_pitch_loops": 12,
+    "cavitation_neutralization": "True"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_ASA",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "kinetic_equilibrium": {
+    "flow_loop_type": "Self_Looping_Continuous",
+    "vortex_rotation_coupling": "Synchronous",
+    "max_operating_pressure_psi": 50.0,
+    "burst_pressure_rating_psi": 90.0
+  }
+}
