@@ -7,6 +7,13 @@
 
 # 🌀 VortexArt88: The Scale-Invariant Unified Biomimetic Fluid Vortex Engine
 
+<p align="center">
+  <img src="./Media/biomimetic_vortex_engine3.png" alt="Biomimetic Vortex Engine" width="100%">
+</p>
+<hr size="4" color="#00ffcc" width="100%">
+
+<br>
+
 # 🌀 The Twin Vortex Planetary Infrastructure Rebuild Plan
 
 <p align="center">
