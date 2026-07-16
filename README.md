@@ -85,6 +85,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/catenoid-flow-regulator` — Configures a 3D catenoid minimal surface layout to smoothly transition high-velocity fluid profiles from a compressed throat out into a flanged flare under absolute zero-mean-curvature.
   * `/pseudospherical-regulator` — Deploys a rotated tractrix profile creating a surface of constant negative Gaussian curvature to cleanly transition fluid from an equatorial expansion flare into needle-thin spires with zero boundary drag.
   * `/helicoid-flow-regulator` — Configures an infinite 3D minimal surface screw path where fluid smoothly tracks parallel horizontal coordinate lines as it spirals around a shared vertical axis, neutralizing cross-channel shear friction.
+  * `/paraboloidal-flow-regulator` — Configures a 3D circular paraboloid surface profile to smoothly reflect, condense, and accelerate fluid layers inward toward a centralized hyper-concentrated discharge channel.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
