@@ -1,0 +1,25 @@
+{
+  "component": "Boy_Surface_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Boy_Surface_Immersion",
+    "radial_scale_a_mm": 45.0,
+    "rotational_symmetry_degree": 3,
+    "whitney_branch_points_count": 0,
+    "surface_type": "Smooth_Non_Orientable_Projective_Plane",
+    "coordinate_space": "Three_Fold_Rotational_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Three_Fold_Shear_Equalization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 115.0
+  }
+}
