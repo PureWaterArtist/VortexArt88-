@@ -1,0 +1,22 @@
+{
+  "component": "Singularity_Navigation_Core",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "vertex_junction_model": "Truncated_Icosahedron_Node",
+    "throat_diameter_mm": 25.0,
+    "compression_ratio": "1.618_to_1",
+    "exhaust_dispersion": "Hexagonal_Array"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_PETG_or_Polycarbonate",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "hydrodynamic_limits": {
+    "max_vortex_velocity_ms": 42.0,
+    "shear_neutralization_method": "Counter_Phase_Resonance",
+    "target_operating_pressure_psi": 30.0
+  }
+}
