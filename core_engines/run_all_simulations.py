@@ -60,6 +60,7 @@ def main():
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/figure-eight-mixer/mixer_vectors.py",
         "components/singularity-navigation-core/navigation_vectors.py"  # <-- ADDED
+        "components/singularity-navigation-core/junction_matrix.py"
     ]
     
     success_count = 0
