@@ -1,0 +1,24 @@
+{
+  "component": "Dodecahedral_Flow_Harmonizer",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "polyhedron_type": "Regular_Dodecahedron_12_Faces",
+    "scale_parameter_a_mm": 35.0,
+    "dihedral_angle_degrees": 116.57,
+    "internal_pentagon_angle_degrees": 108.0,
+    "convergence_alignment": "Absolute_Center"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PETG",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_stabilization": {
+    "input_vectors_count": 12,
+    "vortex_convergence": "Counter_Balanced_Symmetry",
+    "target_operating_pressure_psi": 25.0,
+    "burst_pressure_rating_psi": 80.0
+  }
+}
