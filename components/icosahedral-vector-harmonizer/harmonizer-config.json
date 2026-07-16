@@ -1,0 +1,24 @@
+{
+  "component": "Icosahedral_Vector_Harmonizer",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "polyhedron_type": "Regular_Icosahedron_20_Faces",
+    "scale_parameter_a_mm": 40.0,
+    "dihedral_angle_degrees": 138.19,
+    "internal_triangle_angle_degrees": 60.0,
+    "convergence_alignment": "Absolute_Center"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_ASA",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_stabilization": {
+    "input_vectors_count": 20,
+    "vortex_convergence": "Polyhedral_Symmetric_Cancelation",
+    "target_operating_pressure_psi": 30.0,
+    "burst_pressure_rating_psi": 90.0
+  }
+}
