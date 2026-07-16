@@ -1,0 +1,25 @@
+{
+  "component": "Hyperboloidal_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Hyperboloid_Of_One_Sheet",
+    "throat_radius_a_mm": 25.0,
+    "asymptotic_scale_c_mm": 40.0,
+    "total_axial_length_z_mm": 120.0,
+    "surface_type": "Doubly_Ruled_Quadric",
+    "coordinate_space": "Asymptotic_Slant_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Doubly_Ruled_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 105.0
+  }
+}
