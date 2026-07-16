@@ -1,0 +1,24 @@
+{
+  "component": "Cross_Cap_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Projected_Cross_Cap_Surface",
+    "internal_throat_diameter_mm": 50.0,
+    "self_intersection_line_mm": 25.0,
+    "surface_profile": "Non_Orientable_Manifold",
+    "coordinate_space": "Self_Intersecting_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_stabilization": {
+    "flow_loop_type": "Self_Intersecting_Continuous",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 35.0,
+    "burst_pressure_rating_psi": 95.0
+  }
+}
