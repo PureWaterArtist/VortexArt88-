@@ -67,6 +67,7 @@ def main():
         "components/clifford-torus-regulator/clifford_engine.py",
         "components/icosahedral-vector-harmonizer/harmonizer_vectors.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
+        "components/prolate-spheroidal-chamber/spheroid_engine.py",
         "components/octachoric-hyper-plenum/octachoric_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/outer-pressure-casing/casing_vectors.py",
