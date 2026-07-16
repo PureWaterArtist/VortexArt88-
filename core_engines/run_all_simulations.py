@@ -56,20 +56,21 @@ def main():
 
     # 2. Sequential Execution Pipeline Matrix (Modular Component Paths)
     pipeline_steps = [
+        "components/manifold-distribution-plenum/plenum_vectors.py",
+        "components/hyper-cylindrical-plenum/hyper_engine.py",
         "components/transcendental-flow-regulator/run_component.py",
-        "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/figure-eight-mixer/mixer_vectors.py",
-        "components/singularity-navigation-core/navigation_vectors.py"
-        "components/singularity-navigation-core/junction_matrix.py"
-        "components/manifold-distribution-plenum/plenum_vectors.py"
-        "components/outer-pressure-casing/casing_vectors.py"
-        "components/end-cap-collars/collar_threads.py"
-        "components/chiral-mesh-filter/chiral_engine.py"
-        "components/hyper-cylindrical-plenum/hyper_engine.py"
+        "components/singularity-navigation-core/navigation_vectors.py",
+        "components/singularity-navigation-core/junction_matrix.py",
+        "components/dodecahedral-flow-harmonizer/harmonizer_vectors.py",
+        "components/dual-braid-helical-core/braid_vectors.py",
+        "components/clifford-torus-regulator/clifford_engine.py",
+        "components/icosahedral-vector-harmonizer/harmonizer_vectors.py", # ◄── 14TH LAYER ADDED HERE
+        "components/flower-of-life-mesh/generate_fol_mesh.py",
+        "components/outer-pressure-casing/casing_vectors.py",
+        "components/end-cap-collars/collar_threads.py",
+        "components/chiral-mesh-filter/chiral_engine.py",
         "components/toroidal-helical-diffuser/diffuser_vectors.py"
-        "components/dodecahedral-flow-harmonizer/harmonizer_vectors.py"
-        "components/dual-braid-helical-core/braid_vectors.py"
-        "components/clifford-torus-regulator/clifford_engine.py"
     ]
     
     success_count = 0
