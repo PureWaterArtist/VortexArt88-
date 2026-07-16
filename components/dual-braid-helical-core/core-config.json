@@ -1,0 +1,25 @@
+{
+  "component": "Dual_Braid_Helical_Mixing_Core",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "Synchronous_Interlocking_Double_Helix",
+    "core_diameter_mm": 30.0,
+    "outer_envelope_diameter_mm": 54.0,
+    "strand_channel_diameter_mm": 12.0,
+    "helical_pitch_mm": 50.0,
+    "total_axial_length_mm": 150.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Nylon_or_Polycarbonate",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics": {
+    "intertwined_channels_count": 2,
+    "flow_coupling": "Counter_Balanced_Parallel",
+    "max_operating_pressure_psi": 40.0,
+    "burst_pressure_rating_psi": 85.0
+  }
+}
