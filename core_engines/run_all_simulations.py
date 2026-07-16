@@ -2,63 +2,51 @@ import os
 import sys
 import subprocess
 
-def get_root_directory():
-    """Calculates the absolute root path where this orchestrator is executed."""
-    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-def execute_sub_module(relative_path_to_script):
-    """
-    Safely executes a sub-module script via a controlled subprocess pipeline,
-    passing the system executable down to maintain environment continuity.
-    """
-    root_dir = get_root_directory()
-    absolute_script_path = os.path.join(root_dir, relative_path_to_script)
+def run_simulation_script(script_path):
+    """Executes a sub-module python script and returns the status code."""
+    script_dir = os.path.dirname(script_path)
+    script_name = os.path.basename(script_path)
     
-    # Isolate the targeted directory to allow local file references (.json files) to resolve
-    target_working_directory = os.path.dirname(absolute_script_path)
-    script_filename = os.path.basename(absolute_script_path)
+    # Calculate path relative to project root
+    current_dir = os.getcwd()
+    absolute_script_dir = os.path.abspath(os.path.join(current_dir, script_dir))
     
-    print(f"[*] Dispatching Sub-Pipeline: {relative_path_to_script}")
+    print(f"\n[🔄] RUNNING PIPELINE STAGE: {script_name}")
+    print(f"    ↳ Path: {script_dir}/")
     
-    if not os.path.exists(absolute_script_path):
-        print(f"[❌] CRITICAL ERROR: Target execution script missing at: {absolute_script_path}")
+    if not os.path.exists(os.path.join(absolute_script_dir, script_name)):
+        print(f"[❌] ERROR: Target script file missing. Checked path: {script_dir}/{script_name}")
         return False
         
     try:
-        # Run using the same active Python interpreter shell instance
-        subprocess.run(
-            [sys.executable, script_filename],
-            cwd=target_working_directory,
-            check=True,
-            text=True
+        # Run script in its localized directory environment
+        result = subprocess.run(
+            [sys.executable, script_name],
+            cwd=absolute_script_dir,
+            capture_output=True,
+            text=True,
+            check=True
         )
-        print(f"[✅] STEP COMPLETE: {script_filename} executed successfully.\n")
+        print(result.stdout)
         return True
-    except subprocess.CalledProcessError as err:
-        print(f"[❌] EXECUTION CRASH: Subprocess {script_filename} exited with code {err.returncode}\n")
+    except subprocess.CalledProcessError as e:
+        print(f"[❌] PIPELINE STAGE CRASHED: {script_name}")
+        print(e.output)
         return False
 
 def main():
-    print("=" * 60)
-    print("VORTEXART88: MASTER UNIFIED SIMULATION ORCHESTRATOR")
-    print("=" * 60)
+    print("=" * 70)
+    print("🛸 VORTEXART88 MASTER RUNNER: UNIFIED 26-STAGE DIGITAL TWIN SIMULATION")
+    print("=" * 70)
     
-    # 1. Verify Global Data Profile Context First
-    root_path = get_root_directory()
-    global_config_path = os.path.join(root_path, "config", "data-card.json")
-    
-    print("[*] Validating Global Ecosystem Profiles...")
-    if os.path.exists(global_config_path):
-        print("[+] Standard Configuration Frame verified: /config/data-card.json loaded.\n")
-    else:
-        print("[⚠️] WARNING: Global data-card.json configuration profile missing inside /config/.")
-        print("    ↳ Execution paths will fall back onto component hardware defaults.\n")
-
     # 2. Sequential Execution Pipeline Matrix (Modular Component Paths)
     pipeline_steps = [
         "components/manifold-distribution-plenum/plenum_vectors.py",
         "components/hyper-cylindrical-plenum/hyper_engine.py",
         "components/octachoric-hyper-plenum/octachoric_engine.py",
+        "components/glome-hyper-manifold/glome_engine.py",
+        "components/16-cell-orthoplex-plenum/orthoplex_engine.py",
+        "components/24-cell-octaplex-plenum/octaplex_engine.py",
         "components/transcendental-flow-regulator/run_component.py",
         "components/figure-eight-mixer/mixer_vectors.py",
         "components/singularity-navigation-core/navigation_vectors.py",
@@ -67,17 +55,15 @@ def main():
         "components/dual-braid-helical-core/braid_vectors.py",
         "components/clifford-torus-regulator/clifford_engine.py",
         "components/icosahedral-vector-harmonizer/harmonizer_vectors.py",
-        "components/cross-cap-regulator/cross_cap_engine.py",
         "components/prolate-spheroidal-chamber/spheroid_engine.py",
         "components/trefoil-knot-blender/trefoil_engine.py",
         "components/hopf-fibration-regulator/hopf_engine.py",
         "components/catenoid-flow-regulator/catenoid_engine.py",
         "components/pseudospherical-regulator/pseudosphere_engine.py",
         "components/helicoid-flow-regulator/helicoid_engine.py",
-        "components/24-cell-octaplex-plenum/octaplex_engine.py",
-        "components/16-cell-orthoplex-plenum/orthoplex_engine.py",
-        "components/glome-hyper-manifold/glome_engine.py",
+        "components/paraboloidal-flow-regulator/paraboloid_engine.py",  # ◄── 26TH LAYER ACTIVATED!
         "components/flower-of-life-mesh/generate_fol_mesh.py",
+        "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
         "components/end-cap-collars/collar_threads.py",
         "components/chiral-mesh-filter/chiral_engine.py",
@@ -85,22 +71,19 @@ def main():
     ]
     
     success_count = 0
-    for step in pipeline_steps:
-        if execute_sub_module(step):
-            success_count += 1
-            
-    # 3. Final Execution Diagnostics Summary
-    print("=" * 60)
-    print("SIMULATION ENGINE EXECUTION SUMMARY")
-    print("=" * 60)
-    print(f"[-] Total Pipeline Modules Dispatched: {len(pipeline_steps)}")
-    print(f"[-] Total Modules Completed Cleanly:  {success_count}")
+    total_stages = len(pipeline_steps)
     
-    if success_count == len(pipeline_steps):
-        print("[🎉] STATUS COMPLETE: Unified simulation canvas fully built without errors.")
-    else:
-        print("[⚠️] STATUS UNRESOLVED: One or more architectural layers failed to initialize.")
-    print("=" * 60)
+    for step in pipeline_steps:
+        if run_simulation_script(step):
+            success_count += 1
+        else:
+            print("[⚠️] Pipeline execution interrupted due to stage structural imbalance.")
+            sys.exit(1)
+            
+    print("=" * 70)
+    print(f"🎉 PIPELINE COMPILED COMPLETELY: {success_count}/{total_stages} STAGES MATRIX PASSED")
+    print("= SUCCESS: All multi-axial geometric modules mapped flawlessly. =")
+    print("=" * 70)
 
 if __name__ == "__main__":
     main()
