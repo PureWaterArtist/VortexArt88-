@@ -68,6 +68,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
 * **`/components`**: Self-contained geometric, biomimetic, and fluid-dynamic modules.
   * `/manifold-distribution-plenum` — Maps anti-cavitation intake split geometry using a smooth 30° bifurcation curve.
   * `/hyper-cylindrical-plenum` — Deploys a 4D hyper-cylindrical extrusion geometry scaled by the Golden Ratio ($\Phi$) to achieve a frictionless 4-way balanced split.
+  * `/octachoric-hyper-plenum` — Configures a 4D tesseract manifold geometry to distribute incoming volume across an 8-cell symmetric cubic discharge array, neutralizing multi-directional back-pressure.
   * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial boundary vectors.
   * `/figure-eight-mixer` — Maps structural reaction boundaries using the parametric Lemniscate of Bernoulli.
   * `/singularity-navigation-core` — Simulates high-pressure vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
