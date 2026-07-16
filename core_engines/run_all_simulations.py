@@ -67,6 +67,7 @@ def main():
         "components/chiral-mesh-filter/chiral_engine.py"
         "components/hyper-cylindrical-plenum/hyper_engine.py"
         "components/toroidal-helical-diffuser/diffuser_vectors.py"
+        "components/dodecahedral-flow-harmonizer/harmonizer_vectors.py"
     ]
     
     success_count = 0
