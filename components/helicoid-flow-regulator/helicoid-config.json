@@ -1,0 +1,25 @@
+{
+  "component": "Helicoid_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Helicoid_Minimal_Surface",
+    "central_axis_radius_mm": 10.0,
+    "outer_radial_extent_mm": 45.0,
+    "helical_pitch_p_mm": 40.0,
+    "total_axial_length_z_mm": 120.0,
+    "coordinate_space": "Screw_Axis_Minimal_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_induction": {
+    "flow_path_alignment": "Zero_Mean_Curvature_Helical_Induction",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 40.0,
+    "burst_pressure_rating_psi": 100.0
+  }
+}
