@@ -66,17 +66,18 @@ This ecosystem is split into isolated, production-ready directories to maintain 
 * **`/core_engines`**: Contains heavy computational orchestration pipelines.
   * `run_all_simulations.py` — The automated main orchestrator script.
 * **`/components`**: Self-contained geometric, biomimetic, and fluid-dynamic modules.
-  * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial vectors.
-  * `/flower-of-life-mesh` — Calculates intersecting circle node matrices on the fly.
-  * `/figure-eight-mixer` — Maps structural boundaries using the Lemniscate of Bernoulli.
-  * `/singularity-navigation-core` — Simulates vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
-* `/manifold-distribution-plenum` — Maps anti-cavitation intake split geometry using a smooth 30° bifurcation curve.
-* `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
-* `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
-* `/chiral-mesh-filter` — Deploys a non-orientable Mobius Strip fluid-separation geometry backed by a parallel, self-reversing recursive data ring.
+  * `/manifold-distribution-plenum` — Maps anti-cavitation intake split geometry using a smooth 30° bifurcation curve.
+  * `/hyper-cylindrical-plenum` — Deploys a 4D hyper-cylindrical extrusion geometry scaled by the Golden Ratio ($\Phi$) to achieve a frictionless 4-way balanced split.
+  * `/transcendental-flow-regulator` — Generates counter-rotating $\pi/\Phi$ spatial boundary vectors.
+  * `/figure-eight-mixer` — Maps structural reaction boundaries using the parametric Lemniscate of Bernoulli.
+  * `/singularity-navigation-core` — Simulates high-pressure vertex bottlenecks using a 60-node Truncated Icosahedron matrix.
+  * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
+  * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
+  * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
+  * `/chiral-mesh-filter` — Deploys a non-orientable Mobius Strip fluid-separation geometry backed by a parallel, self-reversing recursive data ring.
 * **`/Media`**: Dedicated repository storage for project diagrams, renders, and visual documentation assets.
 * **`MANIFESTO.md`**: Core philosophical document detailing the creator's personal motivations, civilizational thesis, and the foundational vision behind this alternative architecture.
-* **`documentation & Supplementary Frameworks`**: Epistemological breakdowns and ancient metrology texts preserved directly in the root interface to protect cross-document historical references. 
+* **`Docs & Supplementary Frameworks`**: Epistemological breakdowns and ancient metrology texts preserved directly in the root interface to protect cross-document historical references.
 
 ---
 
