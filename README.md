@@ -91,6 +91,7 @@ This ecosystem is split into isolated, production-ready directories to maintain 
   * `/klein-bottle-regulator` — Deploys a non-orientable 3D Klein Bottle immersion profile to route counter-flowing fluid loops past each other on a single, continuous boundary layer with zero chiral cross-shear torque.
   * `/cross-cap-flow-regulator` — Deploys a non-orientable 3D cross-cap immersion profile mapping a real projective plane surface to guide incoming velocity fields back through their own center axis, completely erasing multi-directional cross-shear.
   * `/steiner-roman-regulator` — Deploys a non-orientable 3D Steiner Roman surface immersion profile to branch high-capacity velocity tracks across three mutually perpendicular intersection lines meeting at a centralized triple point, neutralizing multi-directional collision shear.
+  * `/boy-surface-regulator` — Deploys a smooth, pinch-point-free non-orientable 3D Boy surface immersion profile with 3-fold rotational symmetry to map three interlocking, overlapping velocity tracks through a center triple point with absolute zero multi-directional rotational shear friction.
   * `/flower-of-life-mesh` — Calculates interlocking circle node grids to stabilize and structure output pressure.
   * `/outer-pressure-casing` — Maps a 450mm reinforced cylindrical jacket with integrated dual O-ring gasket tracks to withstand hoop stress.
   * `/end-cap-collars` — Generates a 3D helical spiral path with a heavy 3mm thread pitch to provide absolute axial compression locking.
