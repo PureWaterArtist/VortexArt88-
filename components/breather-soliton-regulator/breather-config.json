@@ -1,0 +1,25 @@
+{
+  "component": "Breather_Soliton_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "soliton_model": "Time_Periodic_Oscillating_Sine_Gordon_Breather",
+    "chamber_length_L_mm": 130.0,
+    "oscillation_frequency_omega": 0.65,
+    "envelope_decay_factor": 1.25,
+    "surface_alignment": "Time_Periodic_Phase_Modulation_Grid",
+    "coordinate_space": "Oscillating_Soliton_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Respiratory_Phase_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
