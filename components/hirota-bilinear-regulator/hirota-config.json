@@ -1,0 +1,26 @@
+{
+  "component": "Hirota_Bilinear_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "algebraic_model": "Quadratic_Hirota_Bilinear_Operator_Surface",
+    "chamber_length_L_mm": 180.0,
+    "soliton_interaction_order": 2,
+    "wave_wavenumber_k1": 1.25,
+    "wave_wavenumber_k2": 0.85,
+    "surface_alignment": "Log_Determinant_Gauge_Tracking_Grid",
+    "coordinate_space": "Conformal_Hirota_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Bilinear_Operator_Gauge_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 125.0
+  }
+}
