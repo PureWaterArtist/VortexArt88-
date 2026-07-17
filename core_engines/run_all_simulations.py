@@ -87,6 +87,7 @@ def main():
         "components/peregrine-soliton-regulator/peregrine_engine.py",
         "components/kuznetsov-ma-soliton-regulator/kuznetsov_ma_engine.py",
         "components/e8-hyper-manifold/e8_manifold_engine.py",
+        "components/kp-resonant-regulator/kp_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
