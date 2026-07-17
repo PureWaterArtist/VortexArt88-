@@ -1,7 +1,7 @@
 {
   "module_id": "ARVT-01",
   "module_name": "Intake_Header_Cardioid_Siphon_Splitter",
-  "version": "1.1.0-Optimized",
+  "version": "1.4.0-Expanded_Harvest",
   "geometry_parameters": {
     "intake_funnel_max_diameter_mm": 150.0,
     "funnel_exit_throat_diameter_mm": 50.8,
