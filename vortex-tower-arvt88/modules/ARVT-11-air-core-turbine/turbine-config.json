@@ -1,0 +1,24 @@
+{
+  "module_id": "ARVT-11",
+  "module_name": "Air_Core_Kinetic_Turbine_Array",
+  "version": "1.7.0-Air_Core_Harvest",
+  "turbine_geometry": {
+    "turbine_style": "Suspended_Twisted_Savonius_Array",
+    "impeller_stages_count": 3,
+    "impeller_outer_diameter_mm": 12.5,
+    "blade_helical_twist_deg": 30.0,
+    "internal_shaft_clearance_mm": 3.0
+  },
+  "aerodynamic_envelope": {
+    "expected_air_velocity_m_s": 15.5,
+    "generator_coupling_type": "Top_Suspended_Magnetic_Levitation",
+    "target_three_phase_ac_voltage": 12.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Ultra_Lightweight_Carbon_Fiber_PLA",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 3,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 15
+  }
+}
