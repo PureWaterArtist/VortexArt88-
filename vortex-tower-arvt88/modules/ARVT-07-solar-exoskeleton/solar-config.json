@@ -1,0 +1,24 @@
+{
+  "module_id": "ARVT-07",
+  "module_name": "Photovoltaic_Exoskeleton_Chassis",
+  "version": "1.4.0-Expanded_Harvest",
+  "structural_parameters": {
+    "exoskeleton_height_mm": 1000.0,
+    "hinge_clamp_segments_count": 3,
+    "internal_grip_diameter_mm": 80.0,
+    "panel_mounting_clearance_mm": 2.5
+  },
+  "photovoltaic_interface": {
+    "panel_type": "Flexible_Monocrystalline",
+    "peak_wattage_rating": 150.0,
+    "target_operating_voltage_vdc": 18.2,
+    "chassis_orientation_alignment": "Omnidirectional_360_Sleeve"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "PETG_or_UV_Stabilized_ASA",
+    "layer_height_mm": 0.20,
+    "perimeter_wall_loops": 4,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 30
+  }
+}
