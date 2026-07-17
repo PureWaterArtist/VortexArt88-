@@ -1,0 +1,27 @@
+{
+  "module_id": "ARVT-04",
+  "module_name": "Core_Junction_Twin_Vortex_Nozzles",
+  "version": "1.0.0-Alpha",
+  "geometry_parameters": {
+    "nozzle_a_orientation": "Clockwise_CW",
+    "nozzle_b_orientation": "Counter_Clockwise_CCW",
+    "logarithmic_spiral_factor_a": 20.0,
+    "logarithmic_spiral_factor_b": 0.12,
+    "chamber_internal_height_mm": 190.0,
+    "seal_o_ring_diameter_mm": 25.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Hardened_PEEK_or_CF_PC",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "operational_envelope": {
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 125.0,
+    "shear_zone_cancellation_active": "True",
+    "cold_cavitation_purification": "True"
+  }
+}
+
