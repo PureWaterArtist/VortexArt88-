@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Tower",
   "project_id": "ARVT-88",
-  "version": "1.5.0-Networked_Mesh",
+  "version": "1.6.0-Cosmic_Harmonic",
   "global_dimensions": {
     "tower_total_height_h_mm": 3000.0,
     "shaft_input_diameter_mm": 50.8,
@@ -40,16 +40,15 @@
     "tangential_bypass_grooves_count": 2,
     "aerodynamic_amplification_coefficient": 1.41
   },
+  "planetary_force_alignment": {
+    "coriolis_hemisphere_tracking": "True",
+    "telluric_ground_bonding": "True",
+    "schumann_valve_resonance_hz": 7.83
+  },
   "cosmic_harmonic_feedback": {
     "fibonacci_chamber_contour_phi": 1.618,
     "coaxial_thermal_viscosity_reclamation": "True",
     "target_viscosity_reduction_pct": 12.5
-  },
-  "dynamic_tuning_matrix": {
-    "ambient_temperature_c": 20.0,
-    "input_flow_rate_lps": 2.2,
-    "adaptive_geometry_feedback": "True",
-    "target_cavitation_index": 0.35
   },
   "mesh_network_grid_matrix": {
     "mesh_topology_type": "Decentralized_Ad_Hoc_Peer_To_Peer",
