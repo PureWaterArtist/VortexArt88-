@@ -1,0 +1,25 @@
+{
+  "module_id": "ARVT-01",
+  "module_name": "Intake_Header_Cardioid_Siphon_Splitter",
+  "version": "1.0.0-Alpha",
+  "geometry_parameters": {
+    "intake_funnel_max_diameter_mm": 150.0,
+    "funnel_exit_throat_diameter_mm": 50.8,
+    "splitter_asymmetric_loop_count": 2,
+    "split_channel_exit_diameter_mm": 35.9,
+    "cardioid_curvature_factor": 1.414
+  },
+  "manufacturing_profile": {
+    "recommended_material": "PETG_or_High_Tough_Resin",
+    "layer_height_mm": 0.16,
+    "perimeter_wall_loops": 6,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 40
+  },
+  "operational_envelope": {
+    "flow_regime": "Atmospheric_Siphon_Laminar_Vortex",
+    "maximum_input_volumetric_rate_lps": 2.5,
+    "back_pressure_coefficient_target": 0.0
+  }
+}
+
