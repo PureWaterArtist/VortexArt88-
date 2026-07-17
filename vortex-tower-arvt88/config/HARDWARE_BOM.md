@@ -38,6 +38,8 @@ These elements populate the advanced harvesting modules (ARVT-03, 07, 08, 09, an
 
 ---
 
+---
+
 ## 📡 3. Ad-Hoc Mesh Telemetry & Edge Communications
 These processing and radio frequency modules populate the **ARVT-06 Sensor Node**, transforming the tower into an autonomous, swarming, long-range wireless tracking transmitter.
 
@@ -54,7 +56,21 @@ These processing and radio frequency modules populate the **ARVT-06 Sensor Node*
 
 ---
 
-## ⚡ 4. Solid-State Combiner Board Circuit Components
+## 💨 4. Air-Core Kinetic Turbine Hardware Sourcing
+These mechanical and electrical elements populate the **ARVT-11 Air-Core Kinetic Turbine Array**, allowing the platform to safely capture extra electricity from the internal vortex tornado downdraft without altering water path boundaries.
+
+*   **Magnetic Levitation (Maglev) Micro-Generator [Qty: 1]**
+    *   *Specification:* Three-Phase Alternating Current (AC) Permanent Magnet Alternator, Low-Start Torque Core (<0.02 Nm), Rated Output: 12V DC / 10W at high RPM.
+*   **Hybrid Ceramic Radial Ball Bearings [Qty: 2]**
+    *   *Specification:* Inner Diameter: 3.175mm (1/8" shaft standard), Outer Diameter: 9.525mm, Material: Si3N4 Silicon Nitride Ceramic Balls paired with Stainless Steel Cages. Completely oil-free and low-friction for effortless startup under low aerodynamic drafts.
+*   **Precision Stainless Steel Drive Shaft [Qty: 1]**
+    *   *Specification:* Grade 316 Stainless Steel Ground Rod, Diameter: 3.175mm (1/8"), Length: 450mm. Serves as the central hanging spin axis suspending the printed Savonius impellers down the hollow air-core center.
+*   **KBP307 In-Line Bridge Rectifier Modules [Qty: 2]**
+    *   *Specification:* 4-Pin SIP Package, Forward Current: 3A, Peak Reverse Voltage: 1000V. Solder-mounted inside the combiner box to flip three-phase AC turbine current into clean DC before joining the central bus.
+
+---
+
+## ⚡ 5. Solid-State Combiner Board Circuit Components
 These components populate the **Unified Power Combiner Box**, protecting lower-voltage edge electronics while conditioning variable multi-source inputs down into a stable 18.5V DC charging line.
 
 *   **1N5822 Schottky Barrier Rectifier Diodes [Qty: 6]**
@@ -78,7 +94,7 @@ These components populate the **Unified Power Combiner Box**, protecting lower-v
 
 ---
 
-## 🔄 5. Hydro-Mechanical Plumbing & Sealing Hardware
+## 🔄 6. Hydro-Mechanical Plumbing & Sealing Hardware
 These mechanical components seal the water columns tight against leaks while supporting the gravity return loop feed tracks.
 
 *   **Heavy-Wall Clear Acrylic Tube [Qty: 1]**
@@ -98,7 +114,7 @@ These mechanical components seal the water columns tight against leaks while sup
 
 ---
 
-## 🧵 6. Wiring, Adhesives & Board Consumables
+## 🧵 7. Wiring, Adhesives & Board Consumables
 These supplementary assembly assets establish raw wire continuity and secure components against structural shock.
 
 *   **Solid-Core Copper Hookup Wire [Qty: 15 Meters]**
@@ -108,5 +124,4 @@ These supplementary assembly assets establish raw wire continuity and secure com
 *   **Rosin-Core Lead-Free Solder [Qty: 1 Spool]**
     *   *Specification:* Composition: 99.3% Tin / 0.7% Copper, Wire Diameter: 0.8mm, integrated flux core.
 *   **Nylon PCB Standoffs & Screws Set [Qty: 1 Set]**
-    *   *Specification:* Non-Conductive Nylon-66, Thread Size: M3, assorted lengths (6mm, 10mm, 15mm) to mount the FR-4 board inside the box.
-    *   
+    *   *Specification:* Non-Conductive Nylon-66, Thread Size: M3, assorted lengths (6mm, 10mm, 15mm) to mount the FR-4 board inside the box. 
