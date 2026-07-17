@@ -32,7 +32,7 @@ Project ARVT-88 is designed to function as an open-source, harmonizing technolog
 ```text
 vortex-tower-arvt88/
 ├── README.md                      # This file (Master System Blueprint)
-├── arvt-master-orchestrator.py    # Global 10-node adaptive self-tuning engine
+├── arvt-master-orchestrator.py    # Global 11-node adaptive self-tuning engine
 ├── config/
 │   ├── master-telemetry.json      # Inter-component global data tracking card
 │   ├── hardware-bom.json          # Machine-readable ultimate parts database
@@ -50,8 +50,10 @@ vortex-tower-arvt88/
     ├── ARVT-07-solar-exoskeleton/ # 360° Photovoltaic Armor Casing
     ├── ARVT-08-piezo-stack/       # Hydro-Acoustic PZT Strain Transducers
     ├── ARVT-09-magnetic-induction/# Oscillatory Faraday Winding Bobbins
-    └── ARVT-10-electrostatic-collector/ # Kelvin Siphon Ionization Needles
+    ├── ARVT-10-electrostatic-collector/ # Kelvin Siphon Ionization Needles
+    └── ARVT-11-air-core-turbine/  # Air-Core Kinetic Tornado Harvester
 ```
+
 ---
 
 ## 🧮 Theoretical & Applied Physics Foundations
