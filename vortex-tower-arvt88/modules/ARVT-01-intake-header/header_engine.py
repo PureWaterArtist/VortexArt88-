@@ -20,18 +20,14 @@ def generate_optimized_cardioid_vectors(max_dia, throat_dia, transition_offset, 
     for step in range(resolution):
         theta = (step * 2.0 * math.pi) / resolution
         scale_factor = (step / resolution)
-        current_z = -(scale_factor * 120.0) # Funnel height drop remains 120mm
+        current_z = -(scale_factor * 120.0)
         
-        # Pure Cardioid parametric layout modulated for the exit blend
         cardioid_mod = 1.0 - math.cos(theta)
-        
-        # Compound radius calculation mapping a smooth transition curve
         radius = r_min + (r_max - r_min) * (1.0 - scale_factor) * (0.5 + 0.5 * cardioid_mod)
         
         x = radius * math.cos(theta)
         y = radius * math.sin(theta)
         
-        # Segment tracking accounting for the pre-acceleration interface zone
         if scale_factor < 0.15:
             zone = "Atmospheric_Vortex_Catchment_Rim"
         elif scale_factor > 0.85:
@@ -75,11 +71,9 @@ def main():
     print(f"[*] Evaluating solid-state zero back-pressure channel paths...")
     
     header_mesh = generate_optimized_cardioid_vectors(max_dia, throat_dia, trans_offset)
+    audit_sample = header_mesh[int(len(header_mesh) * 0.90)]
     
-    audit_index = int(len(header_mesh) * 0.90)
-    audit_sample = header_mesh[audit_index]
-    
-    print("\n[+] SUCCESS: Optimized Intake Cardioid Splitter matrix compiled.")
+    print("\n[+] SUCCESS: Intake Cardioid Splitter matrix compiled.")
     print(f"[-] Total coordinated structural steps logged: {len(header_mesh)}")
     print(f"[-] ARVT-01 Optimized Node Balance Audit:")
     print(f"    ↳ Active Hydraulic Zone:   {audit_sample['hydraulic_zone']}")
