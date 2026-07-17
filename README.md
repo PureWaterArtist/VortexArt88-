@@ -255,6 +255,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
 | **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
 | **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
+| **🗼 Project ARVT-88** | Complete solid-state gravity fluid engine and 11-stage advanced energy harvesting mesh network layout. | [Explore the Tower ➡](./vortex-tower-arvt88) |
 | **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Data Ledger ➡](#ledger-framework-section) |
 | **🤯 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📚 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
