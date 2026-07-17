@@ -1,0 +1,24 @@
+{
+  "module_id": "ARVT-08",
+  "module_name": "Piezoelectric_Hydro_Acoustic_Stack",
+  "version": "1.4.0-Expanded_Harvest",
+  "piezo_geometry": {
+    "piezo_ceramic_material": "PZT_Lead_Zirconate_Titanate",
+    "stack_rings_count": 4,
+    "ring_outer_diameter_mm": 65.0,
+    "ring_inner_diameter_mm": 51.5,
+    "ring_thickness_z_mm": 5.0
+  },
+  "harvesting_limits": {
+    "expected_peak_voltage_pulse_v": 120.0,
+    "clamping_rectifier_circuit_required": "True",
+    "mechanical_strain_threshold_psi": 1200.0
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_CF_PC",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 12,
+    "infill_type": "Concentric",
+    "infill_density_percent": 100
+  }
+}
