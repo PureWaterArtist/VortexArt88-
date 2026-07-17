@@ -78,6 +78,7 @@ def main():
         "components/bryant-kusner-regulator/bryant_kusner_engine.py",
         "components/riemann-surface-regulator/riemann_engine.py",
         "components/120-cell-hyper-manifold/hyper_manifold_engine.py",
+        "components/600-cell-hyper-manifold/hyper_icosahedral_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
