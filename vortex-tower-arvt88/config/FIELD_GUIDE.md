@@ -1,0 +1,49 @@
+# Project ARVT-88: Field Operational & Calibration Manual
+### Standard Operating Protocols for Planetary Caretakers and Mobile Doctors
+
+This guide serves as the definitive deployment, calibration, and troubleshooting standard for the **Aetheris Resodynamic Vortex Tower (Project ARVT-88)**. Follow these sequential steps to ensure absolute harmonic fluid equilibrium, maximize solid-state energy capture, and maintain structural system health.
+
+---
+
+## 🏗️ 1. Site Selection & Structural Deployment
+
+Before anchoring the tower, verify the environmental conditions to work in total harmony with the laws of the universe:
+
+*   **Gravitational Fall Drop:** Ensure the site can comfortably support a vertical 3-meter framing envelope. The structure must be positioned 100% plumb using a spirit level along all four **M6 Structural Tie-Rods**. Any vertical tilt introduces asymmetry that will cause the falling vortex core to wobble and scrape against internal bore walls.
+*   **Solar Alignment:** Position the **ARVT-07 Solar Exoskeleton** and the **ARVT-05 Glass Thermosyphon Sleeve** facing directly True South (in the Northern Hemisphere) or True North (in the Southern Hemisphere) to maximize daily solar thermal convective updrafts.
+*   **Intake Head Buffer:** Mount the open atmospheric header tank at least 300mm above the **ARVT-01 Funnel Rim**. This preserves a stable head pressure, allowing the water column to naturally draw itself into a hollow air-core siphon without spilling.
+
+---
+
+## 📐 2. Fluidic Calibration & Venturi Swirl Alignment
+
+To achieve flawless pathogen destruction via cold boiling, you must tune the system's velocity parameters into the optimal resodynamic sweet spot:
+
+1.  **Viscosity Temperature Check:** Connect your smartphone or field terminal to the **ARVT-06 Telemetry Node** via LoRa/Bluetooth. Read the ambient temperature metrics.
+2.  **Volumetric Flow Optimization:** Turn your source feed valve slowly until the telemetric output reads a fluid velocity of exactly **2.2 Liters per second (L/s)**. 
+3.  **Acoustic Verification:** Monitor the raw sound frequencies coming from the **ARVT-04 Figure-8 Chamber** microphones.
+    *   *If the audio signal reads between 20kHz and 25kHz:* The system has successfully matched the **Venturi Pre-Cavitation Threshold**. Pure geometric cold boiling is active, destroying pathogens with zero chemicals.
+    *   *If the audio signal drifts above 28.5kHz:* Immediately throttle the input feed valve down by a quarter-turn. Frequencies this high indicate destructive cavitation, which will pitting and erode the internal PEEK nozzle walls.
+
+---
+
+## 🧲 3. Electrodynamic Circuit Checkouts
+
+Before connecting the combiner box terminals directly to your 12V/24V battery bank, run this multi-meter diagnostic protocol to protect your edge electronics:
+
+*   **MHD Channel Isolation Check:** Set your multimeter to DC Voltage. Measure across the individual **Graphite Helical Electrode Pairs** inside the **ARVT-03 Power Sleeve**. Each pair should output a matching voltage gradient. If one channel reads zero, check the **Silver Conductive Epoxy** bond at the graphite core.
+*   **Piezo Voltage Clamping Check:** Measure the output pins of the **DB107 Full-Wave Bridge Rectifier** on Channel 3. Ensure the **LM2596 Buck Regulator** dial is locked down so that rapid water hammer spikes are clamped cleanly at **18.5V DC**, preventing voltage surges from reaching the central bus.
+*   **Static Grid Insulation Audit:** Visually inspect the **ARVT-10 Polypropylene Housing** surrounding the ionization needles. The plastic must remain dry and clean. If dust or moisture maps an arc track across the casing, high-voltage static charges (up to 30kV) will short out into the chassis, resetting the nearby microcontroller log loops.
+
+---
+
+## 🚨 4. Field Troubleshooting & Corrective Maintenance
+
+When operating in remote watersheds, use this solid-state matrix to resolve common resodynamic flow drifts without using external tools:
+
+| Symptom / Fault | True Physical Intent | Corrective Field Action Protocol |
+| :--- | :--- | :--- |
+| **Hollow Vortex Air-Core Collapses** | Fluid hitting a dimensional lip or back-pressure bottleneck. | Check the boundary seals. Ensure the **ARVT-01 Exit Throat** matches the **ARVT-02 Tapered Input** down to the millimeter with zero overlapping O-ring pinches. |
+| **MHD Electrical Power Yield Drops** | Helical ionic current path drifting away from graphite contacts. | Water temperature has dropped, raising kinematic viscosity. Access `master-telemetry.json` and verify that `adaptive_geometry_feedback` is set to `True` to trigger automatic computational tracking adjustments. |
+| **Hydraulic Ram Stops Thumping** | The 350g counterweight valve is fouled by sediment or out of balance. | Open the lower purge ball valve on the **ARVT-05 Sediment Trap** for 5 seconds to flush accumulated grit. Squeeze a drop of silicone grease onto the valve swing-gate hinge pin. |
+| **Telemetry Node Loses LoRa Sync** | High-voltage static from the ionization grid arcing into digital circuits. | Clean the **ARVT-10 Polypropylene Spacer Grid**. Ensure the isolated non-conductive ground rails are completely separated from the common chassis grounding tie-rods. |
