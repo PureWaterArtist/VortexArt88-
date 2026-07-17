@@ -1,17 +1,21 @@
 {
   "module_id": "ARVT-06",
   "module_name": "Telemetry_Automation_Sensor_Node",
-  "version": "1.2.0-Adaptive",
+  "version": "1.4.0-Expanded_Harvest",
   "hardware_pinouts": {
     "mhd_voltage_analog_pin": "A0",
     "inline_flow_rate_digital_pin": "GPIO_4",
     "acoustic_cavitation_mic_pin": "A1",
-    "soil_conductivity_probe_pin": "A2"
+    "soil_conductivity_probe_pin": "A2",
+    "piezo_harvest_analog_pin": "A3",
+    "electrostatic_grid_analog_pin": "A4"
   },
   "sensor_calibration": {
     "voltage_multiplier_coefficient": 12.4,
     "flow_pulses_per_liter": 450,
-    "soil_salinity_baseline_ec": 1.2
+    "soil_salinity_baseline_ec": 1.2,
+    "piezo_strain_multiplier": 45.2,
+    "static_kv_multiplier": 9.1
   },
   "safety_frequency_thresholds_hz": {
     "safe_purification_resonance_min": 20000.0,
