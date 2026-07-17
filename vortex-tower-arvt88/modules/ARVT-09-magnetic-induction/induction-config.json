@@ -1,0 +1,25 @@
+{
+  "module_id": "ARVT-09",
+  "module_name": "Secondary_Magnetic_Induction_Coils",
+  "version": "1.4.0-Expanded_Harvest",
+  "induction_geometry": {
+    "induction_coil_starts": 6,
+    "wire_gauge_awg": 24,
+    "turns_per_coil_count": 500,
+    "coil_outer_diameter_mm": 82.5,
+    "coil_inner_diameter_mm": 76.5,
+    "coil_height_z_mm": 22.0
+  },
+  "harvesting_limits": {
+    "expected_flux_oscillation_frequency_hz": 120.0,
+    "target_dielectric_insulation_volt": 600.0,
+    "secondary_ac_power_harvesting": "True"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Non_Conductive_Nylon_12_or_PETG",
+    "layer_height_mm": 0.20,
+    "perimeter_wall_loops": 5,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 40
+  }
+}
