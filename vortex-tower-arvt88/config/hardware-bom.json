@@ -1,38 +1,38 @@
 {
-  "component_id": "ARVT-88-BOM",
-  "name": "Project ARVT-88 Hardware Bill of Materials",
-  "version": "1.2.0-Adaptive",
-  "structural_fasteners": [
+  "component_id": "ARVT-88-BOM-ULTIMATE",
+  "name": "Project ARVT-88 Ultimate Hardware Bill of Materials",
+  "version": "1.4.0-Absolute_Harmonic",
+  "structural_fasteners_and_chassis": [
     {
       "item": "M6 Threaded Structural Tie-Rods",
-      "specification": "Stainless Steel (Grade 304 or 316), Length: 1000mm, Thread Pitch: 1.0mm",
-      "purpose": "Clamps the stacked 3D-printed tower modules together under high tension",
+      "specification": "Stainless Steel (Grade 316 Marine), Length: 1000mm, Thread Pitch: 1.0mm",
+      "purpose": "Clamps the stacked 3D-printed tower modules together under high continuous tension",
       "quantity": 4
     },
     {
       "item": "M6 Hex Coupling Nuts",
-      "specification": "Stainless Steel, Thread Pitch: 1.0mm",
-      "purpose": "Joins the 1000mm tie-rods together vertically to span the 3-meter tower height",
+      "specification": "Stainless Steel (Grade 316), Length: 30mm, Internal Thread: M6x1.0",
+      "purpose": "Joins the 1000mm tie-rods together vertically to span the full 3-meter tower height",
       "quantity": 8
     },
     {
       "item": "M6 Nylon-Insert Locknuts",
-      "specification": "Stainless Steel hex locking nuts",
+      "specification": "Stainless Steel hex locking nuts with high-vibration nylon collar inserts",
       "purpose": "Secures tie-rod ends against high-frequency cavitation micro-vibrations",
       "quantity": 8
     },
     {
       "item": "M6 Heavy-Duty Flat Washers",
-      "specification": "Stainless Steel, Oversized Outer Diameter (OD)",
-      "purpose": "Distributes clamping torque evenly across printed plastic mounting ears",
+      "specification": "Stainless Steel, Oversized Mudguard/Fender Style Outer Diameter",
+      "purpose": "Distributes heavy clamping torque evenly across printed plastic mounting ears",
       "quantity": 16
     }
   ],
-  "electrodynamic_harvesting": [
+  "electrodynamic_and_advanced_harvesting": [
     {
       "item": "N52 Neodymium Ring Magnets",
       "specification": "Grade N52 Rare-Earth, OD: 76.2mm, ID: 51.5mm, Thickness: 25.4mm, Axial Magnetization",
-      "purpose": "Generates the continuous dense magnetic flux crossing the fluid track",
+      "purpose": "Generates the continuous dense magnetic flux crossing the fluid track inside ARVT-03",
       "quantity": 6
     },
     {
@@ -42,60 +42,160 @@
       "quantity": 6
     },
     {
-      "item": "Solid-Core Copper Hookup Wire",
-      "specification": "Gauge: 14 AWG, High-Temperature Flexible Silicone Insulation",
-      "purpose": "Connects double-helical graphite terminals to the power distribution box",
-      "quantity_meters": 15.0
+      "item": "Flexible Monocrystalline Solar Panels",
+      "specification": "Waterproof ETFE Coating, Dimensions: 1050mm x 140mm, Nominal Output: 50W each (Total 150W)",
+      "purpose": "Populates the ARVT-07 exoskeleton framework to harvest ambient environmental light waves",
+      "quantity": 3
     },
     {
-      "item": "Silver Conductive Epoxy",
-      "specification": "Two-part high-conductivity structural adhesive",
-      "purpose": "Bonds copper wires securely to the raw graphite electrode cores",
-      "quantity_tubes": 1
+      "item": "PZT-5H Lead Zirconate Titanate Ceramic Rings",
+      "specification": "Piezoelectric Element, OD: 65.0mm, ID: 51.5mm, Thickness: 5.0mm, Silver Electroded Faces",
+      "purpose": "Intercepts and converts raw water hammer kinetic stress pulses inside ARVT-08 into AC energy",
+      "quantity": 4
+    },
+    {
+      "item": "Enamelled Copper Magnet Wire",
+      "specification": "Gauge: 24 AWG, Polyurethane-Polyamide Insulation Layer (Heavy Build, 155°C Thermal Rating)",
+      "purpose": "Wounds onto ARVT-09 spools to form the secondary 500-turn Faraday induction coils",
+      "quantity_kg": 1.5
+    },
+    {
+      "item": "Stainless Steel Concentric Mesh Grid",
+      "specification": "Grade 316 Woven Wire Mesh, Wire Diameter: 0.8mm, Mesh Aperture Size: 2.0mm",
+      "purpose": "Sits inside ARVT-10 over the intake funnel to collect atmospheric air-vortex static potentials",
+      "quantity_sheets": 1
+    },
+    {
+      "item": "Insulated Stainless Steel Ionization Needles",
+      "specification": "Solid Grade 316 Stainless Steel, Length: 35mm, Needle Sharpness Radius: <0.05mm",
+      "purpose": "Bleeds electrostatic potential fields safely out of the hollow low-pressure air core",
+      "quantity": 8
     }
   ],
-  "fluidic_return_and_seals": [
+  "solid_state_combiner_board_circuit": [
+    {
+      "item": "1N5822 Schottky Barrier Rectifier Diodes",
+      "specification": "Forward Current: 3A, Repetitive Reverse Voltage: 40V, Low Forward Voltage Drop (<0.5V)",
+      "purpose": "Prevents reverse current from bleeding back into the graphite electrodes when flow drifts",
+      "quantity": 6
+    },
+    {
+      "item": "1N4007 Blocking Diodes",
+      "specification": "Forward Current: 1A, Peak Reverse Voltage: 1000V",
+      "purpose": "Prevents the battery bank from discharging backward through the solar panels at night",
+      "quantity": 2
+    },
+    {
+      "item": "DB107 Full-Wave Bridge Rectifiers",
+      "specification": "Glass Passivated, Forward Current: 1A, Maximum Reverse Voltage: 1000V, DIP-4 Package",
+      "purpose": "Flushes high-voltage alternating current piezoelectric vibration pulses into raw DC",
+      "quantity": 4
+    },
+    {
+      "item": "LM2596 Step-Down Buck DC-DC Regulator Modules",
+      "specification": "Input Range: 4V-40V, Output Adjustable Range: 1.23V-37V, Continuous Current: 2A",
+      "purpose": "Calibrates variable high-voltage inputs down to a stable 18.5V DC charging threshold",
+      "quantity": 5
+    },
+    {
+      "item": "1.5KE30CA Bidirectional TVS Diodes",
+      "specification": "Transient Voltage Suppression, Breakdown Voltage: 30V, Peak Pulse Power: 1500W",
+      "purpose": "Passively clamps explosive environmental voltage surges if atmospheric static strikes the tower",
+      "quantity": 2
+    },
+    {
+      "item": "10-Megohm High-Voltage Resistors",
+      "specification": "Metal Glaze Film, Power Rating: 2W, Maximum Operating Voltage: 3500V, Resistance: 10MΩ",
+      "purpose": "Safely slows down and dampens the atmospheric electrostatic grid discharge rate",
+      "quantity": 2
+    },
+    {
+      "item": "100nF High-Voltage Metal Film Capacitors",
+      "specification": "Polypropylene Film Dielectric, Capacitance: 0.1uF, Rated Voltage: 1000V DC",
+      "purpose": "Acts as an electrostatic energy sponge, catching raw grid charges before regulation",
+      "quantity": 2
+    },
+    {
+      "item": "2200uF Electrolytic Smoothing Capacitors",
+      "specification": "Capacitance: 2200uF, Rated Voltage: 63V, Low-ESR, Radial Leads, 105°C Endurance Rating",
+      "purpose": "Filters high-frequency voltage ripples caused by hydraulic turbulence crossing the magnet rings",
+      "quantity": 2
+    },
+    {
+      "item": "Double-Sided Fiberglass Perfboard",
+      "specification": "Material: FR-4 Flame Retardant, Dimensions: 100mm x 150mm, Pre-Drilled Tinned Holes",
+      "purpose": "Provides the structural base for hand-soldering the combiner circuit tracks",
+      "quantity": 1
+    }
+  ],
+  "fluidic_return_and_plumbing_seals": [
     {
       "item": "Heavy-Wall Clear Acrylic Tube",
-      "specification": "Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm",
-      "purpose": "Serves as the high-strength window for the Figure-8 Collision Chamber",
+      "specification": "Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm, Length: 250mm",
+      "purpose": "Serves as the high-strength visual window for the ARVT-04 Figure-8 Collision Chamber",
       "quantity": 1
     },
     {
       "item": "Rigid Matte-Black Copper Pipe",
-      "specification": "Type K (Thick Wall), Outer Diameter (OD): 12.7mm (1/2\")",
-      "purpose": "Forms the solar-absorbent vertical conduit for the upward thermosyphon lift",
+      "specification": "Type K (Thick Wall Structural Plumbing), Outer Diameter (OD): 12.7mm (1/2\")",
+      "purpose": "Forms the solar-absorbent vertical return conduit for the upward thermosyphon lift",
       "quantity_meters": 3.0
     },
     {
       "item": "Clear Borosilicate Glass Sleeve",
-      "specification": "Inner Diameter (ID): 25.4mm (1\"), Length: 1000mm sections",
-      "purpose": "Encases copper return pipe to create an insulation envelope for solar lift",
+      "specification": "Inner Diameter (ID): 25.4mm (1\"), Wall Thickness: 2.0mm, Length: 1000mm sections",
+      "purpose": "Encases copper return pipe to create an insulation greenhouse vacuum envelope for solar lift",
       "quantity": 3
     },
     {
       "item": "Weighted Brass Hydraulic Ram Waste Valve",
-      "specification": "Size: 1\" NPT Thread, Swing-check design with integrated 350g counterweight",
-      "purpose": "Snaps shut violently when flow velocity peaks to trigger water hammer spikes",
+      "specification": "Size: 1\" NPT Thread Female, Swing-check mechanism with a calibrated 350g counterweight",
+      "purpose": "Snaps shut violently when flow velocity peaks to trigger the water hammer return spike",
       "quantity": 1
     },
     {
       "item": "EPDM Rubber O-Rings",
-      "specification": "Inside Diameter (ID): 25mm, Cross-Section Thickness: 3.5mm, Durometer: 70A",
-      "purpose": "Creates a pressurized, fluid-tight seal at all inter-module grid junctions",
+      "specification": "Inside Diameter (ID): 25mm, Cross-Section Thickness: 3.5mm, Hardness Durometer: 70A",
+      "purpose": "Creates a pressurized, fluid-tight compression seal at all inter-module grid junctions",
       "quantity": 12
     },
     {
-      "item": "Premium Teflon Pipe Thread Tape",
-      "specification": "High-Density pure PTFE, Width: 1/2\"",
-      "purpose": "Seals NPT threaded connections between valves and printed blocks",
+      "item": "High-Density Teflon PTFE Pipe Tape",
+      "specification": "Premium Industrial Density, Width: 1/2\", Thickness: 0.1mm",
+      "purpose": "Seals NPT threaded metal connections between the ram valves and printed plenum blocks",
       "quantity_rolls": 2
     },
     {
       "item": "NSF-61 Food-Safe Silicone Grease",
-      "specification": "Pure Silicone Lubricant, Waterproof",
-      "purpose": "Lubricates EPDM O-rings to prevent pinching during final column assembly",
+      "specification": "Pure Polydimethylsiloxane Compound, Waterproof, NSF-61 Drinking Water Certified",
+      "purpose": "Lubricates EPDM O-rings to prevent pinching or friction tearing during final column assembly",
       "quantity_tubes": 1
+    }
+  ],
+  "wiring_and_consumables": [
+    {
+      "item": "Solid-Core Copper Hookup Wire",
+      "specification": "Gauge: 14 AWG, Flexible, High-Temperature/High-Dielectric Silicone Insulation Layer",
+      "purpose": "Routes consolidated current paths from the electrodes and solar frames to the board",
+      "quantity_meters": 15.0
+    },
+    {
+      "item": "Silver Conductive Epoxy",
+      "specification": "Two-part high-conductivity structural adhesive, Electrical Resistivity: <0.001 ohm-cm",
+      "purpose": "Bonds insulated copper hookup leads securely to the raw graphite electrode rods",
+      "quantity_tubes": 1
+    },
+    {
+      "item": "Rosin-Core Lead-Free Solder",
+      "specification": "Composition: 99.3% Tin / 0.7% Copper, Diameter: 0.8mm, integrated flux core",
+      "purpose": "Secures electrical connections on the FR-4 combiner board under high-vibration boundaries",
+      "quantity_spools": 1
+    },
+    {
+      "item": "Nylon PCB Standoffs & Screws Set",
+      "specification": "Thread Size: M3, Assorted Lengths (6mm, 10mm, 15mm), Non-Conductive Nylon-66",
+      "purpose": "Mounts the circuit board securely inside the non-conductive box, preventing short tracks",
+      "quantity_sets": 1
     }
   ]
 }
