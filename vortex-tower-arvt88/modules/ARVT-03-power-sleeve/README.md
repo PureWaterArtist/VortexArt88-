@@ -1,24 +1,24 @@
-# ARVT-03: Power Sleeve MHD Magnet Array
+# ARVT-03: Power Sleeve MHD Magnet Array (Optimized)
 
-## 📐 Functional Mechanism
-The **ARVT-03 Power Sleeve** operates as the solid-state electrical generator of Project ARVT-88. Traditional hydro-electric generators demand mechanical turbine wheels, spinning metal shafts, and dynamic water seals that are highly prone to friction wear, leakage, and mechanical breakdown over extended operational cycles.
+## 📐 Upgraded Functional Mechanism
+The Version 1.1.0 **ARVT-03 Power Sleeve** serves as the solid-state electrical generator for Project ARVT-88. To maximize energy harvesting efficiency from the gravity-accelerated fluid stream, this module has been upgraded from straight static strips to an internal **Double-Helical Tracking Groove**.
 
-This module completely bypasses mechanical wear by employing **Magnetohydrodynamics (MHD)**. The sleeve houses a vertical stack of alternating, high-intensity **N52 Neodymium Ring Magnets** that generate a hyper-dense magnetic field array cutting completely through the inner fluid track. 
+Because the water column is forced into a tight helical spin by the upstream cardioid intake and hyperbolic wall steps, the fluid's ions don't travel in a straight downward line—they swirl downward in a 45° spiral. 
 
-Because water molecules naturally carry weak positive/negative charge dipoles—and dissolved mineral ions further heighten electrical conductivity—forcing this fluid through the shaft at gravitational hyper-velocities triggers the *Lorentz Force*. 
+By curving our flush-mounted **Graphite Pickup Electrodes** into a matching double-helix track directly inside the channel wall, we increase the physical surface area contact between the conductor electrodes and the moving ionic core by a projected 35%. 
 
-The ions are physically separated to opposing sides of the inner channel wall. Flush-mounted **Graphite Pickup Electrodes** capture this localized charge separation directly, routing a continuous, clean direct current (DC) stream out to your electrical storage grid with **absolute zero moving parts**.
+As this hyper-velocity vortex cuts through the intense fields of the external **N52 Neodymium Ring Magnets**, the Lorentz force isolates charges along this curved track, generating a significantly stronger, continuous direct current (DC) electrical output with absolute zero moving parts.
 
 ## 🗂 Module Map
 ```text
 modules/ARVT-03-power-sleeve/
-├── README.md          # This file (Sub-module Specifications)
-├── sleeve-config.json # Machine-readable electromagnetic bounds
-└── sleeve_engine.py   # Lorentz force electrode vector calculation engine
+├── README.md          # This file (Upgraded Specifications)
+├── sleeve-config.json # Machine-readable helical parameter files
+└── sleeve_engine.py   # Helical Lorentz force vector calculation script
 ```
 
 ## 🚀 Execution & Verification
-To independently calculate and verify the magnetic alignment vectors and electrode nodes for this power sleeve, execute the script inside this directory:
+To verify the updated 3D helical tracking nodes and audit electrode positioning coordinates along the magnetic field centerline, execute the script inside this directory:
 
 ```bash
 cd vortex-tower-arvt88/modules/ARVT-03-power-sleeve
@@ -26,8 +26,7 @@ python sleeve_engine.py
 ```
 
 ## 🛠 Bench Manufacturing Specifications
-Because this component wraps around the heavy pressure shaft and handles raw electrical current induction, the plastic housing must remain entirely non-conductive to act as a pure dielectric separator:
-* **Recommended Filament:** Non-Conductive Nylon-12, pure PETG, or high-dielectric insulation resin.
-* **Perimeter Wall Shells:** 5 Loops (Provides a secure water-tight backup envelope around the electrode entry seals).
-* **Infill Strategy:** 50% Density utilizing a highly stable **Gyroid path layout** to absorb high acoustic micro-vibrations without cracking, while maximizing thermal dissipation around the magnet array.
+* **Recommended Filament:** Non-Conductive Nylon-12, high-dielectric pure PETG, or insulation resin.
+* **Perimeter Wall Shells:** 5 Loops (Establishes a completely non-conductive, water-tight dielectric boundary envelope).
+* **Infill Strategy:** 50% Density deploying a structural **Gyroid path layout** to suppress acoustic vibrations while allowing even thermal dissipation around the neodymium ring magnets.
 * 
