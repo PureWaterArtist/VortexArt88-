@@ -1,18 +1,18 @@
-# ARVT-04: Core Junction Twin Vortex Nozzles (Aerodynamic Optimization)
+# ARVT-04: Core Junction Twin Vortex Nozzles (Absolute Harmonic)
 
 ## 📐 Upgraded Functional Mechanism
-The Version 1.2.0 **ARVT-04 Core Junction** acts as the definitive purification heart of Project ARVT-88. To maximize pathogen destruction and optimize the fluid's kinetic spin, this module integrates dual **Tangential Bypass Aerodynamic Grooves** alongside the geometric Venturi constriction rings.
+The Version 1.4.0 **ARVT-04 Core Junction** acts as the definitive purification and energetic processing heart of Project ARVT-88. To maximize pathogen destruction and optimize structural fluid activation, this module integrates dual **Tangential Bypass Aerodynamic Grooves** alongside an exact **Fibonacci Golden Section contoured chamber layout** (Φ ≈ 1.618).
 
-As the compressed fluid columns enter Nozzle A (Clockwise) and Nozzle B (Counter-Clockwise), the majority of the volume follows the primary logarithmic spiral path. However, a calibrated secondary stream is automatically diverted into parallel tangential channels wrapping the exterior nozzle wall. 
+Nozzle A shapes its fluid column into a tight, clockwise logarithmic spiral; Nozzle B mirrors this layout into an intense counter-clockwise twist. As these streams arrive at their exit tips, a secondary stream is automatically diverted into parallel tangential channels wrapping the exterior nozzle wall, triggering a massive rotational velocity spike (1.41× amplification factor). 
 
-This secondary stream acts as a high-velocity fluidic injector, slamming back into the primary throat at a precise tangent right before the exit tip. This aerodynamic amplification interaction triggers a massive rotational velocity spike (1.41× amplification factor), forcing the internal pressure down to absolute zero with unprecedented stability. 
+Simultaneously, the internal bore diameters aggressively constrict down to a tight 8.5mm Venturi threshold, dropping static pressure below the water's natural cold vapor threshold (0.44 PSI) to pre-evaporate the fluid sheets before impact. 
 
-The resulting face-to-face collision inside the clear **Figure-8 Chamber** produces an exceptionally dense, high-frequency 3D cloud of acoustic cold-boiling resonance, maximizing purification boundaries using only solid-state geometric constraints.
+When the face-to-face counter-rotating sheets meet inside the clear **Figure-8 Collision Chamber**, they transform the narrow 2D fluid shear plane into an expansive 3D cloud of acoustic cold-boiling resonance. As the water shears and drops, the interior chamber walls contour tightly inward following the Fibonacci reduction matrix, neatly capturing residual exit spray and folding it smoothly back into a secondary downward vortex with zero kinetic splashback or back-pressure.
 
 ## 🗂 Module Map
 ```text
 modules/ARVT-04-core-junction/
-├── README.md            # This file (Aerodynamic Specifications)
+├── README.md            # This file (Absolute Harmonic Specifications)
 ├── junction-config.json # Machine-readable fluidic amplifier parameters
 └── junction_engine.py   # Tangential-boosted vector calculation script
 ```
@@ -26,7 +26,7 @@ python junction_engine.py
 ```
 
 ## 🛠 Bench Manufacturing Specifications
-* **Recommended Filament:** Hardened PEEK or Carbon Fiber Polycarbonate (CF-PC).
-* **Perimeter Wall Shells:** 10 Loops (Mandatory to contain the high localized shear pressures inside the tangential channels).
-* **Infill Strategy:** 100% Solid Infusion deploying a high-density **Gyroid path layout** to absorb extreme micro-acoustic vibration harmonics.
+* **Recommended Filament:** Hardened PEEK, Carbon Fiber Polycarbonate (CF-PC), or glass-reinforced tough composites.
+* **Perimeter Wall Shells:** 10 Loops (Mandatory to provide structural mass to handle intense cavitation micro-pitting fatigue).
+* **Infill Strategy:** 100% Solid Infusion deploying a high-density **Gyroid path layout** to absorb high acoustic micro-vibration harmonics without cracking structural outer boundaries.
 * 
