@@ -1,7 +1,7 @@
 {
   "module_id": "ARVT-02",
   "module_name": "Acceleration_Shaft_Micro_Tesla_Liner",
-  "version": "1.1.0-Optimized",
+  "version": "1.2.0-Adaptive",
   "geometry_parameters": {
     "shaft_segment_length_mm": 500.0,
     "internal_bore_input_diameter_mm": 50.8,
