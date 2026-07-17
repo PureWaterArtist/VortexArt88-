@@ -1,0 +1,25 @@
+{
+  "component": "120_Cell_Hyper_Dodecahedral_Manifold",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "polytope_model": "4D_Regular_120_Cell_Polychora_Projection",
+    "hyper_cell_circumradius_R_mm": 80.0,
+    "total_dodecahedral_sub_cells": 120,
+    "interlocking_pentagonal_faces": 720,
+    "scale_factor_golden_ratio": 1.618034,
+    "coordinate_space": "4D_Orthogonal_Polychoric_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_distribution": {
+    "flow_path_alignment": "Polychoric_Radial_Junction_Diffusion",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
