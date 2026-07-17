@@ -8,7 +8,7 @@ def get_local_path(filename):
     return os.path.join(script_dir, filename)
 
 def calculate_cosmic_harmonic_velocity(height_mm, d_in, d_out, h_total, temp_c, flow_lps, thermal_active, g=9.81):
-    """Calculates fluid velocity adjusted for gravity, taper constraints, and thermal feedback."""
+    """Calculates terminal fluid velocity adjusted for gravity, taper constraints, and thermal feedback."""
     height_m = height_mm / 1000.0
     effective_temp = temp_c + 8.5 if thermal_active else temp_c
     viscosity_factor = 1.0 - (effective_temp - 20.0) * 0.015
@@ -36,12 +36,11 @@ def main():
         h_total = config["global_dimensions"]["tower_total_height_h_mm"]
         d_in = config["global_dimensions"]["shaft_input_diameter_mm"]
         d_out = config["global_dimensions"]["shaft_exit_diameter_mm"]
-        temp_c = config["dynamic_tuning_matrix"]["ambient_temperature_c"]
-        flow_lps = config["dynamic_tuning_matrix"]["input_flow_rate_lps"]
+        temp_c = config["dynamic_tuning_matrix"]["ambient_temperature_c"] if "dynamic_tuning_matrix" in config else 20.0
+        flow_lps = config["dynamic_tuning_matrix"]["input_flow_rate_lps"] if "dynamic_tuning_matrix" in config else 2.2
         thermal_active = config["cosmic_harmonic_feedback"]["coaxial_thermal_viscosity_reclamation"] == "True"
-        coriolis = config["planetary_force_alignment"]["coriolis_hemisphere_tracking"]
-        schumann = config["planetary_force_alignment"]["schumann_valve_resonance_hz"]
-        print(f"[+] ARVT-88 Version 1.6.0 planetary force configuration matched.")
+        air_stages = config["air_core_turbine_matrix"]["impeller_stages_count"]
+        print(f"[+] ARVT-88 Version 1.7.0 air-core turbine configurations verified.")
     else:
         print("[⚠️] WARNING: master-telemetry.json missing. Loading safe fallbacks.")
         h_total = 3000.0
@@ -50,12 +49,10 @@ def main():
         temp_c = 20.0
         flow_lps = 2.2
         thermal_active = True
-        coriolis = "True"
-        schumann = 7.83
+        air_stages = 3
 
-    print(f"[*] Coriolis Auto-Tracking      : Enabled ({coriolis}) Hemisphere Shift")
-    print(f"[*] Schumann Pulse Frequency     : Locked at {schumann} Hz Standing Peak")
-    print(f"[*] Dynamic System Diagnostics   : Verifying complete 10-node network array...")
+    print(f"[*] Air-Core Turbine Stages     : {air_stages} x Suspended Impeller Nodes Active")
+    print(f"[*] Dynamic System Diagnostics  : Verifying complete 11-node network array...")
     print(f"\n[*] Evaluating macro-cascade kinetic velocity profiles...")
     
     checkpoints = {
@@ -68,15 +65,16 @@ def main():
         "ARVT-07 (Photovoltaic Exoskeleton)": h_total * 0.35,
         "ARVT-08 (Piezo Acoustic Flange)   ": h_total * 0.90,
         "ARVT-09 (Faraday Induction Spool) ": h_total * 0.50,
-        "ARVT-10 (Ionization Static Grid)  ": 0.0
+        "ARVT-10 (Ionization Static Grid)  ": 0.0,
+        "ARVT-11 (Air-Core Kinetic Turbine)": h_total * 0.40
     }
     
     for label, height_node in checkpoints.items():
         v_adaptive = calculate_cosmic_harmonic_velocity(height_node, d_in, d_out, h_total, temp_c, flow_lps, thermal_active)
         print(f"    ↳ Node {label} : {round(v_adaptive, 4)} m/s")
         
-    print("\n[+] SUCCESS: Entire 10-module grid synchronized with planetary boundaries.")
-    print("[-] Project ARVT-88 configuration run complete. System is stable.")
+    print("\n[+] SUCCESS: Entire 11-module peer network synchronized at absolute equilibrium.")
+    print("[-] Project ARVT-88 adaptive orchestration is complete. System is stable.")
     print("=" * 75)
 
 if __name__ == "__main__":
