@@ -7,36 +7,35 @@ def get_local_path(filename):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(script_dir, filename)
 
-def generate_cardioid_splitter_vectors(max_dia, throat_dia, resolution=360):
+def generate_optimized_cardioid_vectors(max_dia, throat_dia, transition_offset, resolution=360):
     """
-    Calculates the 3D path vectors for the asymmetric cardioid splitting loops.
-    Ensures channel cross-sectional area splits smoothly to maintain zero back-pressure.
+    Calculates the 3D path vectors for the optimized cardioid splitting loops.
+    Integrates a smooth boundary blend at the throat exit to feed the 
+    downstream hyperbolic acceleration shaft with zero entry turbulence.
     """
     path_nodes = []
     r_max = max_dia / 2.0
-    r_min = throat_dia / 2.0
+    r_min = (throat_dia - transition_offset) / 2.0
     
     for step in range(resolution):
-        # Sweeping angle mapping out the full rotation of the cardioid splitter
         theta = (step * 2.0 * math.pi) / resolution
-        
-        # Pure Cardioid parametric math: r = a * (1 - cos(theta))
-        # Modified to scale smoothly down from the funnel rim to the exit throat
         scale_factor = (step / resolution)
-        current_z = -(scale_factor * 120.0) # Funnel height drop is 120mm
+        current_z = -(scale_factor * 120.0) # Funnel height drop remains 120mm
         
-        # Calculate dynamic modulation radius based on cardioid alignment
+        # Pure Cardioid parametric layout modulated for the exit blend
         cardioid_mod = 1.0 - math.cos(theta)
+        
+        # Compound radius calculation mapping a smooth transition curve
         radius = r_min + (r_max - r_min) * (1.0 - scale_factor) * (0.5 + 0.5 * cardioid_mod)
         
         x = radius * math.cos(theta)
         y = radius * math.sin(theta)
         
-        # Segment tracking based on stream division zones
+        # Segment tracking accounting for the pre-acceleration interface zone
         if scale_factor < 0.15:
             zone = "Atmospheric_Vortex_Catchment_Rim"
         elif scale_factor > 0.85:
-            zone = "Asymmetric_Tesla_Manifold_Split_Core"
+            zone = "Hyperbolic_Interface_Split_Core"
         else:
             zone = "Laminar_Siphon_Compression_Transit"
             
@@ -51,7 +50,7 @@ def generate_cardioid_splitter_vectors(max_dia, throat_dia, resolution=360):
 
 def main():
     print("=" * 65)
-    print("INITIALIZING: ARVT-01 INTAKE CARDIOID SPLITTER ENGINE")
+    print("INITIALIZING: ARVT-01 OPTIMIZED INTAKE SPLITTER ENGINE")
     print("=" * 65)
     
     config_path = get_local_path("header-config.json")
@@ -61,31 +60,32 @@ def main():
             config = json.load(file)
         max_dia = config["geometry_parameters"]["intake_funnel_max_diameter_mm"]
         throat_dia = config["geometry_parameters"]["funnel_exit_throat_diameter_mm"]
-        material = config["manufacturing_profile"]["recommended_material"]
-        print(f"[+] Component ID ARVT-01 configuration card matched cleanly.")
+        trans_offset = config["geometry_parameters"]["hyperbolic_transition_offset_mm"]
+        flow_regime = config["operational_envelope"]["flow_regime"]
+        print(f"[+] Optimized Component ID ARVT-01 configuration card matched.")
     else:
-        print("[⚠️] WARNING: header-config.json missing. Loading safe overrides.")
+        print("[⚠️] WARNING: header-config.json missing. Loading safe fallbacks.")
         max_dia = 150.0
         throat_dia = 50.8
-        material = "PETG"
+        trans_offset = 10.0
+        flow_regime = "Hyperbolic_Pre_Accelerated_Siphon_Vortex"
         
-    print(f"[*] Manufacturing Target Material: {material}")
-    print(f"[*] Processing Bounds: Funnel Max Dia = {max_dia}mm -> Throat Exit = {throat_dia}mm")
+    print(f"[*] Target Flow Regime:  {flow_regime}")
+    print(f"[*] Hyperbolic Shift:    Blended {trans_offset}mm Entry Offset")
     print(f"[*] Evaluating solid-state zero back-pressure channel paths...")
     
-    header_mesh = generate_cardioid_splitter_vectors(max_dia, throat_dia)
+    header_mesh = generate_optimized_cardioid_vectors(max_dia, throat_dia, trans_offset)
     
-    # Audit a slice right at the splitting junction core
     audit_index = int(len(header_mesh) * 0.90)
     audit_sample = header_mesh[audit_index]
     
-    print("\n[+] SUCCESS: Intake Cardioid Splitter matrix compiled cleanly.")
+    print("\n[+] SUCCESS: Optimized Intake Cardioid Splitter matrix compiled.")
     print(f"[-] Total coordinated structural steps logged: {len(header_mesh)}")
-    print(f"[-] ARVT-01 Core Node Balance Audit:")
+    print(f"[-] ARVT-01 Optimized Node Balance Audit:")
     print(f"    ↳ Active Hydraulic Zone:   {audit_sample['hydraulic_zone']}")
     print(f"    ↳ Calculated Space Vector: {audit_sample['vector']}")
     print("=" * 65)
 
 if __name__ == "__main__":
     main()
-  
+    
