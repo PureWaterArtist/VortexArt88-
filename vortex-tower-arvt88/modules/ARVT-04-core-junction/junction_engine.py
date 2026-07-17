@@ -21,25 +21,19 @@ def generate_aerodynamic_nozzle_vectors(spiral_a, spiral_b, chamber_height, vent
         z_axis = (progress * chamber_height) - (chamber_height / 2.0)
         theta = (step * 2.0 * math.pi) / resolution
         
-        # Base logarithmic contraction spiral curve path: r = a * e^(-b * theta)
         log_radius = spiral_a * math.exp(-spiral_b * theta)
         
-        # Inject the aerodynamic bypass amplification near the nozzle tips
         if progress > 0.75:
             tip_factor = (progress - 0.75) / 0.25
-            # Tangential velocity multiplier spikes the constriction rate
             radius_modulation = log_radius - (log_radius - (venturi_throat_radius / amp_coeff)) * math.sin(tip_factor * (math.pi / 2.0))
         else:
             radius_modulation = log_radius
             
-        # Clamp radius bounds to preserve physical wall casing parameters
         radius_modulation = max(venturi_throat_radius / amp_coeff, min(spiral_a, radius_modulation))
         
-        # Nozzle A (Clockwise vector tracking with tangential phase shift)
         xa = radius_modulation * math.cos(theta * amp_coeff)
         ya = radius_modulation * math.sin(theta * amp_coeff)
         
-        # Nozzle B (Counter-Clockwise mirrored vector tracking with tangential phase shift)
         xb = radius_modulation * math.cos(-theta * amp_coeff)
         yb = radius_modulation * math.sin(-theta * amp_coeff)
         
@@ -94,7 +88,6 @@ def main():
     print(f"[*] Compiling enhanced fluidic-amplifier logarithmic paths...")
     
     junction_mesh = generate_aerodynamic_nozzle_vectors(spiral_a, spiral_b, chamber_height, v_throat, amp_coeff)
-    
     audit_sample = junction_mesh[int(len(junction_mesh) * 0.85)]
     
     print("\n[+] SUCCESS: Aerodynamic Core Junction twin vortex matrix compiled cleanly.")
