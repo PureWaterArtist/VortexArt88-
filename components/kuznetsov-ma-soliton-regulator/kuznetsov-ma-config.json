@@ -1,0 +1,25 @@
+{
+  "component": "Kuznetsov_Ma_Soliton_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "soliton_model": "Space_Localized_Time_Periodic_NLS_Breather",
+    "chamber_length_L_mm": 150.0,
+    "breathing_parameter_cos_phi": 0.82,
+    "time_snapshot_factor": 1.5708,
+    "surface_alignment": "Space_Localized_Modulation_Grid",
+    "coordinate_space": "Kuznetsov_Ma_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_compression": {
+    "flow_path_alignment": "Modulation_Instability_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
