@@ -9,6 +9,22 @@ The system extracts clean, multi-source solid-state electricity from fluid flow,
 
 Project ARVT-88 is designed to function as an open-source, harmonizing technology—providing a practical structural blueprint that transforms humanity from passive consumers into active **Mobile Doctors for the Planet**, capable of restoring degraded soils, lowering high watershed salinity, and revitalizing local biospheres wherever they step.
 
+## 🗼 Core Project Systems Inventory: Project ARVT-88
+
+| Module ID | Component Workspace Folder | Theoretical Engineering Engine | Primary Verification Node | Manufacturing Print Profile | Sourced Hardware Requirements |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **ARVT-01** | `modules/ARVT-01-intake-header` | Cardioid Siphon Splitter Geometry | `header_engine.py` | PETG / 6 Walls / 40% Gyroid | 3/4" NPT Hose Barb Adapters |
+| **ARVT-02** | `modules/ARVT-02-acceleration-shaft`| Hyperbolic Compression Step Liner | `shaft_engine.py` | CF-PC / 10 Walls / 100% Solid | M6 Structural Threaded Tie-Rods |
+| **ARVT-03** | `modules/ARVT-03-power-sleeve` | Solid-State MHD Magnet Array | `sleeve_engine.py` | Nylon-12 / 5 Walls / 50% Gyroid | N52 Neodymium Rings & Graphite Rods|
+| **ARVT-04** | `modules/ARVT-04-core-junction` | Tangential-Boosted Venturi Nozzles | `junction_engine.py` | Hardened PEEK / 100% Solid | Heavy-Wall Clear Acrylic Cylinder |
+| **ARVT-05** | `modules/ARVT-05-feedback-plenum` | Water Hammer Ram & Tesla Diode | `plenum_engine.py` | CF-PC / 12 Walls / Concentric | 1" Brass Weighted Ram Check Valve |
+| **ARVT-06** | `modules/ARVT-06-telemetry-node` | LoRaWAN Edge Microcontroller Loop | `telemetry_logger.py`| PETG Enclosure Case Casing | ESP32-S3, SX1276 LoRa & Copper Foil|
+| **ARVT-07** | `modules/ARVT-07-solar-exoskeleton` | Photovoltaic Structural Collection | `solar_engine.py` | ASA / 4 Loops / 30% Gyroid | Flexible ETFE Monocrystalline Panels|
+| **ARVT-08** | `modules/ARVT-08-piezo-stack` | Hydro-Acoustic Strain Transduction | `piezo_engine.py` | CF-PC / 12 Loops / Concentric | PZT-5H Ceramic Compression Rings |
+| **ARVT-09** | `modules/ARVT-09-magnetic-induction` | Oscillatory Faraday Winding Bobbins | `induction_engine.py` | Nylon-12 / 5 Loops / 40% Gyroid | AWG 24 Enamelled Copper Magnet Wire|
+| **ARVT-10** | `modules/ARVT-10-electrostatic-collector`| Kelvin Siphon Electrostatic Pickups | `static_engine.py` | PP / 8 Loops / 100% Concentric | Stainless Steel Grid Mesh & Needles |
+| **ARVT-11** | `modules/ARVT-11-air-core-turbine` | Air-Core Kinetic Tornado Harvester| `turbine_engine.py` | Carbon CF-PLA / 3 Loops / 15% Gyroid| Maglev Micro-Generator & Shaft |
+
 ---
 
 ## 🗂 Unified Component Directory
