@@ -1,0 +1,24 @@
+{
+  "component": "Schwarz_D_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Schwarz_Diamond_Periodic_Minimal_Surface",
+    "unit_cell_length_L_mm": 64.0,
+    "tetrahedral_channel_radius_mm": 21.0,
+    "surface_alignment": "Zero_Mean_Curvature_Face_Centered_Grid",
+    "coordinate_space": "Tetrahedral_Fcc_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_distribution": {
+    "flow_path_alignment": "Tetrahedral_Labyrinth_Diffusion",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 115.0
+  }
+}
