@@ -1,0 +1,25 @@
+{
+  "component": "Lax_Pair_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "compatibility_model": "Isospectral_Zero_Curvature_Operator_Matrix",
+    "chamber_length_L_mm": 170.0,
+    "spectral_eigenvalue_lambda": 1.414214,
+    "operator_matrix_dimension": 2,
+    "surface_alignment": "Constant_Eigenvalue_Tracking_Grid",
+    "coordinate_space": "Conformal_Lax_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Isospectral_Compatibility_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 125.0
+  }
+}
