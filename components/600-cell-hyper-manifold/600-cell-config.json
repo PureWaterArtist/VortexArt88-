@@ -1,0 +1,25 @@
+{
+  "component": "600_Cell_Hyper_Icosahedral_Manifold",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "polytope_model": "4D_Regular_600_Cell_Polychora_Projection",
+    "hyper_cell_circumradius_R_mm": 85.0,
+    "total_tetrahedral_sub_cells": 600,
+    "interlocking_triangular_faces": 1200,
+    "scale_factor_golden_ratio": 1.618034,
+    "coordinate_space": "4D_Orthogonal_Polychoric_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_distribution": {
+    "flow_path_alignment": "Polychoric_Angular_Phase_Diffusion",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
