@@ -1,0 +1,25 @@
+{
+  "component": "Bryant_Kusner_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Bryant_Kusner_Rational_Boy_Surface_Immersion",
+    "complex_inversion_scale_a_mm": 50.0,
+    "polynomial_order_numerator": 4,
+    "polynomial_order_denominator": 6,
+    "surface_type": "Rational_Algebraic_Projective_Plane",
+    "coordinate_space": "Fractional_Polynomial_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Rational_Algebraic_Shear_Cancellation",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 115.0
+  }
+}
