@@ -1,0 +1,23 @@
+{
+  "module_id": "ARVT-10",
+  "module_name": "Atmospheric_Electrostatic_Collector",
+  "version": "1.4.0-Expanded_Harvest",
+  "collector_geometry": {
+    "grid_ring_diameter_mm": 140.0,
+    "concentric_mesh_rings": 3,
+    "pickup_needle_points_count": 8,
+    "insulation_gap_clearance_mm": 15.0
+  },
+  "electrostatic_envelope": {
+    "expected_charge_type": "High_Voltage_Static_DC",
+    "maximum_dielectric_breakdown_kv": 30.0,
+    "capacitor_bank_coupling_required": "True"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Pure_High_Insulation_Polypropylene",
+    "layer_height_mm": 0.20,
+    "perimeter_wall_loops": 8,
+    "infill_type": "Concentric",
+    "infill_density_percent": 100
+  }
+}
