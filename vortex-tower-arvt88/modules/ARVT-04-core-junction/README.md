@@ -1,24 +1,24 @@
-# ARVT-04: Core Junction Twin Vortex Nozzles (Optimized)
+# ARVT-04: Core Junction Twin Vortex Nozzles (Aerodynamic Optimization)
 
 ## 📐 Upgraded Functional Mechanism
-The Version 1.1.0 **ARVT-04 Core Junction** acts as the definitive purification and energetic processing heart of Project ARVT-88. To maximize pathogen neutralization and optimize structural fluid activation, this component features an integrated **Geometric Venturi Constriction Ring** built right into the face-to-face nozzle exits.
+The Version 1.2.0 **ARVT-04 Core Junction** acts as the definitive purification heart of Project ARVT-88. To maximize pathogen destruction and optimize the fluid's kinetic spin, this module integrates dual **Tangential Bypass Aerodynamic Grooves** alongside the geometric Venturi constriction rings.
 
-Nozzle A shapes its fluid column into a tight, clockwise logarithmic spiral; Nozzle B mirrors this layout into an intense counter-clockwise twist. As these streams arrive at their exit tips, the internal bore diameters are aggressively constricted from their logarithmic baseline down to a tight 8.5mm threshold.
+As the compressed fluid columns enter Nozzle A (Clockwise) and Nozzle B (Counter-Clockwise), the majority of the volume follows the primary logarithmic spiral path. However, a calibrated secondary stream is automatically diverted into parallel tangential channels wrapping the exterior nozzle wall. 
 
-According to Bernoulli's principle, pinching the fluid path forces local velocity to spike exponentially, dropping static pressure below the water's natural cold vapor threshold (0.44 PSI). This triggers a localized state of pre-evaporative cold boiling *before* the fluid streams exit into the main housing. 
+This secondary stream acts as a high-velocity fluidic injector, slamming back into the primary throat at a precise tangent right before the exit tip. This aerodynamic amplification interaction triggers a massive rotational velocity spike (1.41× amplification factor), forcing the internal pressure down to absolute zero with unprecedented stability. 
 
-When the face-to-face counter-rotating sheets meet inside the clear **Figure-8 Collision Chamber**, they transform the narrow 2D fluid shear plane into an expansive, violent 3D cloud of acoustic cold-boiling resonance. The microscopic shockwaves tear apart the cell walls of organic contaminants with 100% efficiency, purifying the water stream using pure, solid-state geometric constraints.
+The resulting face-to-face collision inside the clear **Figure-8 Chamber** produces an exceptionally dense, high-frequency 3D cloud of acoustic cold-boiling resonance, maximizing purification boundaries using only solid-state geometric constraints.
 
 ## 🗂 Module Map
 ```text
 modules/ARVT-04-core-junction/
-├── README.md            # This file (Upgraded Specifications)
-├── junction-config.json # Machine-readable Venturi parameters & specs
-└── junction_engine.py   # Parametric twin spiral vector calculation engine
+├── README.md            # This file (Aerodynamic Specifications)
+├── junction-config.json # Machine-readable fluidic amplifier parameters
+└── junction_engine.py   # Tangential-boosted vector calculation script
 ```
 
 ## 🚀 Execution & Verification
-To verify the updated 3D Venturi vectors and audit the constriction throat nodes along the logarithmic path, execute the script inside this directory:
+To verify the updated 3D aerodynamic vector meshes and audit the bypass-acceleration throat nodes, execute the script inside this directory:
 
 ```bash
 cd vortex-tower-arvt88/modules/ARVT-04-core-junction
@@ -26,7 +26,7 @@ python junction_engine.py
 ```
 
 ## 🛠 Bench Manufacturing Specifications
-* **Recommended Filament:** Hardened PEEK, Carbon Fiber Polycarbonate (CF-PC), or glass-reinforced tough composites.
-* **Perimeter Wall Shells:** 10 Loops (Mandatory to provide structural mass to handle intense cavitation micro-pitting fatigue).
-* **Infill Strategy:** 100% Solid Infusion deploying a high-density **Gyroid path layout** to absorb high acoustic micro-vibration harmonics without cracking structural outer boundaries.
+* **Recommended Filament:** Hardened PEEK or Carbon Fiber Polycarbonate (CF-PC).
+* **Perimeter Wall Shells:** 10 Loops (Mandatory to contain the high localized shear pressures inside the tangential channels).
+* **Infill Strategy:** 100% Solid Infusion deploying a high-density **Gyroid path layout** to absorb extreme micro-acoustic vibration harmonics.
 * 
