@@ -1,0 +1,25 @@
+{
+  "component": "Grand_Antiprism_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "polytope_model": "4D_Anomalous_Grand_Antiprism_Projection",
+    "hyper_cell_circumradius_R_mm": 90.0,
+    "pentagonal_antiprism_cells": 20,
+    "tetrahedral_cells": 300,
+    "interlocking_face_junctions": 700,
+    "coordinate_space": "4D_Non_Wythoffian_Chiral_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Chiral_Ring_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
