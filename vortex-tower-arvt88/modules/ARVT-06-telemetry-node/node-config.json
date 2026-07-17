@@ -1,0 +1,26 @@
+{
+  "module_id": "ARVT-06",
+  "module_name": "Telemetry_Automation_Sensor_Node",
+  "version": "1.2.0-Adaptive",
+  "hardware_pinouts": {
+    "mhd_voltage_analog_pin": "A0",
+    "inline_flow_rate_digital_pin": "GPIO_4",
+    "acoustic_cavitation_mic_pin": "A1",
+    "soil_conductivity_probe_pin": "A2"
+  },
+  "sensor_calibration": {
+    "voltage_multiplier_coefficient": 12.4,
+    "flow_pulses_per_liter": 450,
+    "soil_salinity_baseline_ec": 1.2
+  },
+  "safety_frequency_thresholds_hz": {
+    "safe_purification_resonance_min": 20000.0,
+    "safe_purification_resonance_max": 25000.0,
+    "destructive_cavitation_alarm_threshold": 28500.0
+  },
+  "broadcast_profiles": {
+    "lorawan_active": "True",
+    "data_sync_interval_seconds": 10.0,
+    "beacon_range_miles_target": 5.0
+  }
+}
