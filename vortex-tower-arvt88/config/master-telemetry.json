@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Tower",
   "project_id": "ARVT-88",
-  "version": "1.2.0-Adaptive",
+  "version": "1.3.0-Absolute_Harmonic",
   "global_dimensions": {
     "tower_total_height_h_mm": 3000.0,
     "shaft_input_diameter_mm": 50.8,
@@ -22,12 +22,20 @@
     "ring_magnets_count": 6,
     "estimated_magnetic_flux_gauss": 14800.0,
     "electrode_geometry": "Double_Helical_Track",
-    "electrode_material": "Flush_Mount_Graphite"
+    "electrode_material": "Flush_Mount_Graphite",
+    "lenz_law_regenerative_damping": "True"
   },
   "purification_enhancements": {
     "venturi_throat_diameter_mm": 8.5,
     "pre_cavitation_threshold_psi": 0.44,
-    "venturi_compression_geometry": "Convergent_Divergent_Cone"
+    "venturi_compression_geometry": "Convergent_Divergent_Cone",
+    "tangential_bypass_grooves_count": 2,
+    "aerodynamic_amplification_coefficient": 1.41
+  },
+  "cosmic_harmonic_feedback": {
+    "fibonacci_chamber_contour_phi": 1.618,
+    "coaxial_thermal_viscosity_reclamation": "True",
+    "target_viscosity_reduction_pct": 12.5
   },
   "dynamic_tuning_matrix": {
     "ambient_temperature_c": 20.0,
