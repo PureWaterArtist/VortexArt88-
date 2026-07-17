@@ -1,0 +1,25 @@
+{
+  "component": "Sato_Grassmannian_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "universal_model": "Infinite_Dimensional_Sato_Grassmannian_Manifold",
+    "chamber_length_L_mm": 190.0,
+    "tau_function_order": 1,
+    "plucker_relation_invariants": 2,
+    "surface_alignment": "Tau_Function_Log_Determinant_Grid",
+    "coordinate_space": "Universal_Integrable_Hierarchy_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Infinite_Dimensional_Universal_Shear_Cancellation",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 125.0
+  }
+}
