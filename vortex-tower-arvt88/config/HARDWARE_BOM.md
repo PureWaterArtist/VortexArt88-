@@ -1,6 +1,6 @@
-# ARVT-88 Ultimate Hardware Sourcing Manual
+# ARVT-88 Ultimate Hardware Sourcing Manual (Mesh Networked)
 
-This comprehensive ledger catalogs all standard industrial hardware required to assemble the **Aetheris Resodynamic Vortex Tower (Project ARVT-88)** outside of raw 3D printing filaments. These physical components must be procured matching or exceeding the exact structural, electrical, and thermal parameters below to handle continuous water hammer spikes up to $180\text{ PSI}$ and securely combine multi-source electrical fields.
+This comprehensive ledger catalogs all standard industrial hardware required to assemble the **Aetheris Resodynamic Vortex Tower (Project ARVT-88)** outside of raw 3D printing filaments. These physical components must be procured matching or exceeding the exact structural, electrical, and thermal parameters below to handle continuous water hammer spikes up to $180\text{ PSI}$, securely combine multi-source electrical fields, and broadcast ad-hoc telemetry.
 
 ---
 
@@ -18,7 +18,7 @@ These components form the rigid skeleton of the tower. They lock the stacked 3D-
 
 ---
 
-## 🧲 2. Advanced Multi-Layer Harvesting Sourced Materials
+## 🧲 2. Advanced Multi-Layer Sourced Harvesting Materials
 These elements populate the advanced harvesting modules (ARVT-03, 07, 08, 09, and 10), allowing the fluid tower to isolate and capture energy from light waves, magnetic lines of flux, kinetic vibrations, and core atmospheric static potentials.
 
 *   **N52 Neodymium Ring Magnets [Qty: 6]**
@@ -38,21 +38,37 @@ These elements populate the advanced harvesting modules (ARVT-03, 07, 08, 09, an
 
 ---
 
-## ⚡ 3. Solid-State Combiner Board Circuit Components
-These components populate the **Unified Power Combiner Board**, protecting lower-voltage circuits while conditioning variable multi-source inputs down into a stable 18.5V DC charging line.
+## 📡 3. Ad-Hoc Mesh Telemetry & Edge Communications
+These processing and radio frequency modules populate the **ARVT-06 Sensor Node**, transforming the tower into an autonomous, swarming, long-range wireless tracking transmitter.
+
+*   **ESP32-S3 Low-Power Microcontroller Board [Qty: 1]**
+    *   *Specification:* Dual-Core 32-bit Xtensa LX7 processor, integrated Wi-Fi/BLE, 8MB Flash memory, extended industrial thermal operating profile.
+*   **SX1276 LoRa Transceiver RF Module [Qty: 1]**
+    *   *Specification:* Sub-GHz SPI Interface matching localized unlicensed frequency standards (915MHz), high sensitivity threshold down to -148dBm.
+*   **High-Gain LoRa Whip Antenna [Qty: 1]**
+    *   *Specification:* Omnidirectional 915MHz center tuning, Gain: 5dBi, Connector: SMA-Male, encased in weatherproof marine glassfiber.
+*   **Shielded RF Pigtail Extension Cable [Qty: 1]**
+    *   *Specification:* 50-Ohm RG178 Coaxial wire, length: 150mm, IPEX/u.FL to SMA-Female Bulkhead with integrated rubber moisture-sealing washer.
+*   **Adhesive Copper Isolation Foil [Qty: 1 Roll]**
+    *   *Specification:* 0.05mm thickness, Conductive Acrylic Adhesive backing, width: 50mm, utilized to construct internal Faraday noise shielding around the digital board.
+
+---
+
+## ⚡ 4. Solid-State Combiner Board Circuit Components
+These components populate the **Unified Power Combiner Box**, protecting lower-voltage edge electronics while conditioning variable multi-source inputs down into a stable 18.5V DC charging line.
 
 *   **1N5822 Schottky Barrier Rectifier Diodes [Qty: 6]**
     *   *Specification:* Forward Current: 3A, Reverse Voltage: 40V, Low Forward Voltage Drop ($<0.5\text{V}$) to isolate individual graphite electrode pairs.
 *   **1N4007 Blocking Diodes [Qty: 2]**
-    *   *Specification:* Forward Current: 1A, Peak Reverse Voltage: 1000V.
+    *   *Specification:* Forward Current: 1A, Peak Reverse Voltage: 1000V to isolate the night-time photovoltaic boundary tracks.
 *   **DB107 Full-Wave Bridge Rectifiers [Qty: 4]**
-    *   *Specification:* Glass Passivated DIP-4 Package, Rated for 1A / 1000V to rectify AC piezoelectric pulses.
+    *   *Specification:* Glass Passivated DIP-4 Package, Rated for 1A / 1000V to clean AC piezoelectric vibration pulses into raw DC.
 *   **LM2596 Step-Down Buck DC-DC Regulator Modules [Qty: 5]**
-    *   *Specification:* Adjustable Output Range: 1.23V-37V with on-board precision multi-turn potentiometers.
+    *   *Specification:* Input Range: 4V-40V, adjustable output standard via on-board precision multi-turn potentiometers.
 *   **1.5KE30CA Bidirectional TVS Diodes [Qty: 2]**
-    *   *Specification:* Transient Voltage Suppression, Breakdown Voltage: 30V, Peak Pulse Power Absorption: 1500W.
+    *   *Specification:* Transient Voltage Suppression, Breakdown Voltage: 30V, Peak Pulse Power Absorption Capacity: 1500W.
 *   **10-Megohm High-Voltage Resistors [Qty: 2]**
-    *   *Specification:* Metal Glaze Film, Power Rating: 2W, Max Operating Insulation Threshold: 3500V, Resistance: 10MΩ.
+    *   *Specification:* Metal Glaze Film, Power Rating: 2W, Max Insulation Threshold: 3500V, Resistance: 10MΩ to safely slow electrostatic ionization discharge.
 *   **100nF High-Voltage Metal Film Capacitors [Qty: 2]**
     *   *Specification:* Polypropylene Film Dielectric, Capacitance: 0.1uF, Rated Working Voltage: 1000V DC.
 *   **2200uF Electrolytic Smoothing Capacitors [Qty: 2]**
@@ -62,13 +78,13 @@ These components populate the **Unified Power Combiner Board**, protecting lower
 
 ---
 
-## 🔄 4. Hydro-Mechanical Plumbing & Sealing Hardware
+## 🔄 5. Hydro-Mechanical Plumbing & Sealing Hardware
 These mechanical components seal the water columns tight against leaks while supporting the gravity return loop feed tracks.
 
 *   **Heavy-Wall Clear Acrylic Tube [Qty: 1]**
-    *   *Specification:* Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm, Length: 250mm long cylinder.
+    *   *Specification:* Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm, Length: 250mm long cylinder window.
 *   **Rigid Matte-Black Copper Pipe [Qty: 3 Meters]**
-    *   *Specification:* Type K Thick-Wall structural plumbing standard, OD: 12.7mm (1/2").
+    *   *Specification:* Type K Thick-Wall structural plumbing standard, Outer Diameter (OD): 12.7mm (1/2").
 *   **Clear Borosilicate Glass Sleeve [Qty: 3]**
     *   *Specification:* ID: 25.4mm (1"), Wall Thickness: 2.0mm, Length: 1000mm industrial line segments.
 *   **Weighted Brass Hydraulic Ram Waste Valve [Qty: 1]**
@@ -82,15 +98,15 @@ These mechanical components seal the water columns tight against leaks while sup
 
 ---
 
-## 🧵 5. Wiring, Adhesives & Consumables
-These supplementary assembly assets establish raw wire continuity and secure components against workbench structural shock.
+## 🧵 6. Wiring, Adhesives & Board Consumables
+These supplementary assembly assets establish raw wire continuity and secure components against structural shock.
 
 *   **Solid-Core Copper Hookup Wire [Qty: 15 Meters]**
-    *   *Specification:* 14 AWG, featuring high-flexibility, high-dielectric silicone outer insulation.
+    *   *Specification:* 14 AWG, featuring high-flexibility, high-dielectric silicone outer insulation layers.
 *   **Silver Conductive Epoxy [Qty: 1 Tube]**
-    *   *Specification:* Two-part high-conductivity structural adhesive, Electrical Resistivity: $<0.001\text{ ohm-cm}$ to bond wires to graphite cores.
+    *   *Specification:* Two-part high-conductivity structural adhesive, Electrical Resistivity: $<0.001\text{ ohm-cm}$ to bond wires to graphite electrode cores.
 *   **Rosin-Core Lead-Free Solder [Qty: 1 Spool]**
     *   *Specification:* Composition: 99.3% Tin / 0.7% Copper, Wire Diameter: 0.8mm, integrated flux core.
 *   **Nylon PCB Standoffs & Screws Set [Qty: 1 Set]**
-    *   *Specification:* Non-Conductive Nylon-66, Thread Size: M3, assorted lengths (6mm, 10mm, 15mm) to mount the FR-4 board securely inside the box.
+    *   *Specification:* Non-Conductive Nylon-66, Thread Size: M3, assorted lengths (6mm, 10mm, 15mm) to mount the FR-4 board inside the box.
     *   
