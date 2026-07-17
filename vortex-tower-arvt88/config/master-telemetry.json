@@ -1,1 +1,26 @@
+{
+  "project_name": "Aetheris_Resodynamic_Vortex_Tower",
+  "project_id": "ARVT-88",
+  "version": "1.0.0-Alpha",
+  "global_dimensions": {
+    "tower_total_height_h_mm": 3000.0,
+    "main_shaft_diameter_d_mm": 50.8,
+    "target_operating_pressure_psi": 45.0,
+    "fluid_density_kg_m3": 1000.0,
+    "gravity_acceleration_m_s2": 9.81
+  },
+  "feedback_loop_parameters": {
+    "mass_flow_distribution_ratio": "4:1",
+    "return_pipe_diameter_mm": 12.7,
+    "tesla_valve_stages": 4,
+    "return_pipe_material": "Matte_Black_Copper",
+    "solar_convective_sleeve": "True"
+  },
+  "electromagnetic_parameters": {
+    "magnet_grade": "N52_Neodymium",
+    "ring_magnets_count": 6,
+    "estimated_magnetic_flux_gauss": 14800.0,
+    "electrode_material": "Flush_Mount_Graphite"
+  }
+}
 
