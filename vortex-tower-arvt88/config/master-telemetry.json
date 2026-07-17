@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Tower",
   "project_id": "ARVT-88",
-  "version": "1.1.0-Optimized",
+  "version": "1.2.0-Adaptive",
   "global_dimensions": {
     "tower_total_height_h_mm": 3000.0,
     "shaft_input_diameter_mm": 50.8,
@@ -26,6 +26,13 @@
   },
   "purification_enhancements": {
     "venturi_throat_diameter_mm": 8.5,
-    "pre_cavitation_threshold_psi": 0.44
+    "pre_cavitation_threshold_psi": 0.44,
+    "venturi_compression_geometry": "Convergent_Divergent_Cone"
+  },
+  "dynamic_tuning_matrix": {
+    "ambient_temperature_c": 20.0,
+    "input_flow_rate_lps": 2.2,
+    "adaptive_geometry_feedback": "True",
+    "target_cavitation_index": 0.35
   }
 }
