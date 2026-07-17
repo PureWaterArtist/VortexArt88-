@@ -1,7 +1,7 @@
 {
   "module_id": "ARVT-04",
   "module_name": "Core_Junction_Twin_Vortex_Nozzles",
-  "version": "1.1.0-Optimized",
+  "version": "1.2.0-Adaptive",
   "geometry_parameters": {
     "nozzle_a_orientation": "Clockwise_CW",
     "nozzle_b_orientation": "Counter_Clockwise_CCW",
@@ -13,7 +13,9 @@
   "purification_enhancements": {
     "venturi_throat_diameter_mm": 8.5,
     "pre_cavitation_threshold_psi": 0.44,
-    "venturi_compression_geometry": "Convergent_Divergent_Cone"
+    "venturi_compression_geometry": "Convergent_Divergent_Cone",
+    "tangential_bypass_grooves_count": 2,
+    "aerodynamic_amplification_coefficient": 1.41
   },
   "manufacturing_profile": {
     "recommended_material": "Hardened_PEEK_or_CF_PC",
