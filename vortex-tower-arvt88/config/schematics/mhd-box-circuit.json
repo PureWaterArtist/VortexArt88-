@@ -1,0 +1,44 @@
+{
+  "schematic_id": "ARVT-MHD-01",
+  "name": "MHD Power Distribution Box Board Schematic",
+  "version": "1.2.0-Adaptive",
+  "electrical_envelope": {
+    "expected_input_type": "Variable_Direct_Current_VDC",
+    "maximum_input_threshold_voltage": 60.0,
+    "target_output_charging_voltage": 14.4,
+    "clamping_suppression_active": "True"
+  },
+  "bill_of_materials": [
+    {
+      "component_ref": "D1_through_D6",
+      "name": "Schottky Barrier Rectifier Diodes",
+      "specification": "1N5822 (40V / 3A), Ultra-Low Forward Voltage Drop (< 0.5V)",
+      "purpose": "Prevents reverse current from bleeding back into the graphite electrodes when water flow slows"
+    },
+    {
+      "component_ref": "C1_and_C2",
+      "name": "Electrolytic Smoothing Capacitors",
+      "specification": "2200uF / 63V, High-Temperature Radial Low-ESR",
+      "purpose": "Filters out high-frequency voltage ripples caused by hydraulic turbulence crossing the magnet rings"
+    },
+    {
+      "component_ref": "TVS1",
+      "name": "Transient Voltage Suppression Diode",
+      "specification": "1.5KE30CA (Bidirectional, 30V Clamping)",
+      "purpose": "Absorbs explosive voltage surges if a high-energy atmospheric static charge strikes the vortex"
+    },
+    {
+      "component_ref": "REG1",
+      "name": "Buck-Boost DC-DC Regulator Node",
+      "specification": "Step-Down/Step-Up Converter Module (Input: 4V-40V, Output: Adjustable to 14.4V)",
+      "purpose": "Stabilizes variable input voltage to a constant bulk-charge profile for the battery bank"
+    }
+  ],
+  "node_wiring_topology": {
+    "input_stage": "Graphite_Electrode_Pairs_1_2_3_Connect_To_Anodes_D1_D2_D3",
+    "rectification_stage": "Cathodes_D1_D2_D3_Tie_To_Common_Positive_Rail_Alpha",
+    "filtering_stage": "Common_Positive_Rail_Alpha_Feeds_Capacitor_C1_Positive_Terminal",
+    "suppression_stage": "TVS1_Placed_Directly_In_Parallel_Across_C1_Terminals",
+    "regulation_stage": "C1_Output_Feeds_REG1_Input_Terminals_REG1_Output_Terminals_Route_To_Battery_Terminals"
+  }
+}
