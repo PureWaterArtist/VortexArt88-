@@ -1,0 +1,25 @@
+{
+  "component": "Barth_Sextic_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Barth_Sextic_Algebraic_Surface_Immersion",
+    "polynomial_degree": 6,
+    "isolated_singularity_nodes": 65,
+    "global_scale_factor_mm": 40.0,
+    "scale_factor_golden_ratio": 1.618034,
+    "coordinate_space": "Icosahedral_Symmetry_Planes"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Singularity_Phase_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
