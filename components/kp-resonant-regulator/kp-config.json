@@ -1,0 +1,25 @@
+{
+  "component": "KP_Resonant_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "soliton_model": "Two_Dimensional_Kadomtsev_Petviashvili_Webfont",
+    "chamber_length_L_mm": 160.0,
+    "line_intersection_angle_deg": 60.0,
+    "amplitude_scaling_factor": 2.5,
+    "surface_alignment": "Intersecting_Line_Resonance_Grid",
+    "coordinate_space": "Conformal_KP_Web_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Multi_Axial_Resonant_Shear_Cancellation",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 125.0
+  }
+}
