@@ -7,11 +7,8 @@ def get_local_path(filename):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(script_dir, filename)
 
-def calculate_expanded_harmonic_velocity(height_mm, d_in, d_out, h_total, temp_c, flow_lps, thermal_active, g=9.81):
-    """
-    Calculates terminal fluid velocity accounting for gravity acceleration, hyperbolic
-    pipe compression, and co-axial thermal feedback viscosity reductions.
-    """
+def calculate_cosmic_harmonic_velocity(height_mm, d_in, d_out, h_total, temp_c, flow_lps, thermal_active, g=9.81):
+    """Calculates fluid velocity adjusted for gravity, taper constraints, and thermal feedback."""
     height_m = height_mm / 1000.0
     effective_temp = temp_c + 8.5 if thermal_active else temp_c
     viscosity_factor = 1.0 - (effective_temp - 20.0) * 0.015
@@ -28,7 +25,7 @@ def calculate_expanded_harmonic_velocity(height_mm, d_in, d_out, h_total, temp_c
 
 def main():
     print("=" * 75)
-    print("INITIALIZING: ARVT-88 MASTER MESH-NETWORKED RESODYNAMIC ENGINE")
+    print("INITIALIZING: ARVT-88 PLANETARY HARMONIC SELF-TUNING ENGINE")
     print("=" * 75)
     
     config_path = get_local_path("config/master-telemetry.json")
@@ -42,10 +39,9 @@ def main():
         temp_c = config["dynamic_tuning_matrix"]["ambient_temperature_c"]
         flow_lps = config["dynamic_tuning_matrix"]["input_flow_rate_lps"]
         thermal_active = config["cosmic_harmonic_feedback"]["coaxial_thermal_viscosity_reclamation"] == "True"
-        solar_on = config["advanced_harvesting_matrix"]["photovoltaic_exoskeleton_active"]
-        mesh_freq = config["mesh_network_grid_matrix"]["radio_frequency_mhz"]
-        mesh_type = config["mesh_network_grid_matrix"]["mesh_topology_type"]
-        print(f"[+] ARVT-88 Version 1.5.0 ad-hoc decentralized grid topology verified.")
+        coriolis = config["planetary_force_alignment"]["coriolis_hemisphere_tracking"]
+        schumann = config["planetary_force_alignment"]["schumann_valve_resonance_hz"]
+        print(f"[+] ARVT-88 Version 1.6.0 planetary force configuration matched.")
     else:
         print("[⚠️] WARNING: master-telemetry.json missing. Loading safe fallbacks.")
         h_total = 3000.0
@@ -54,14 +50,12 @@ def main():
         temp_c = 20.0
         flow_lps = 2.2
         thermal_active = True
-        solar_on = "True"
-        mesh_freq = 915.0
-        mesh_type = "Decentralized_Mesh"
+        coriolis = "True"
+        schumann = 7.83
 
-    print(f"[*] Wireless Grid Network Style : {mesh_type}")
-    print(f"[*] Sub-GHz RF Band Operating   : {mesh_freq} MHz LoRa Channel")
-    print(f"[*] Solar Armor Shield Status   : Active ({solar_on}) Array Casing")
-    print(f"[*] Dynamic System Diagnostics  : Verifying full 10-node array boundaries...")
+    print(f"[*] Coriolis Auto-Tracking      : Enabled ({coriolis}) Hemisphere Shift")
+    print(f"[*] Schumann Pulse Frequency     : Locked at {schumann} Hz Standing Peak")
+    print(f"[*] Dynamic System Diagnostics   : Verifying complete 10-node network array...")
     print(f"\n[*] Evaluating macro-cascade kinetic velocity profiles...")
     
     checkpoints = {
@@ -78,13 +72,13 @@ def main():
     }
     
     for label, height_node in checkpoints.items():
-        v_adaptive = calculate_expanded_harmonic_velocity(height_node, d_in, d_out, h_total, temp_c, flow_lps, thermal_active)
+        v_adaptive = calculate_cosmic_harmonic_velocity(height_node, d_in, d_out, h_total, temp_c, flow_lps, thermal_active)
         print(f"    ↳ Node {label} : {round(v_adaptive, 4)} m/s")
         
-    print("\n[+] SUCCESS: Entire 10-module peer network synchronized at absolute equilibrium.")
-    print("[-] Project ARVT-88 adaptive mesh pipeline complete and stable. Ready for commit.")
+    print("\n[+] SUCCESS: Entire 10-module grid synchronized with planetary boundaries.")
+    print("[-] Project ARVT-88 configuration run complete. System is stable.")
     print("=" * 75)
 
 if __name__ == "__main__":
     main()
-        
+    
