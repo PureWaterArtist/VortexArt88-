@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Tower",
   "project_id": "ARVT-88",
-  "version": "1.4.0-Expanded_Harvest",
+  "version": "1.5.0-Networked_Mesh",
   "global_dimensions": {
     "tower_total_height_h_mm": 3000.0,
     "shaft_input_diameter_mm": 50.8,
@@ -50,5 +50,13 @@
     "input_flow_rate_lps": 2.2,
     "adaptive_geometry_feedback": "True",
     "target_cavitation_index": 0.35
+  },
+  "mesh_network_grid_matrix": {
+    "mesh_topology_type": "Decentralized_Ad_Hoc_Peer_To_Peer",
+    "radio_frequency_mhz": 915.0,
+    "mesh_max_hop_limit": 7,
+    "broadcast_power_dbm": 20.0,
+    "swarm_sync_interval_seconds": 30.0,
+    "packet_encryption": "AES_128_Resodynamic_Key"
   }
 }
