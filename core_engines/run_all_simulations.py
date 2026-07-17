@@ -82,6 +82,7 @@ def main():
         "components/grand-antiprism-regulator/antiprism_engine.py",
         "components/barth-sextic-regulator/barth_engine.py",
         "components/sine-gordon-soliton-regulator/soliton_engine.py",
+        "components/kdv-cnoidal-regulator/cnoidal_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
