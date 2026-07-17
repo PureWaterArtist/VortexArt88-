@@ -1,7 +1,7 @@
 {
-  "component_id": "ARVT-88-BOM-ULTIMATE",
+  "component_id": "ARVT-88-BOM-ULTIMATE-V15",
   "name": "Project ARVT-88 Ultimate Hardware Bill of Materials",
-  "version": "1.4.0-Absolute_Harmonic",
+  "version": "1.5.0-Networked_Mesh",
   "structural_fasteners_and_chassis": [
     {
       "item": "M6 Threaded Structural Tie-Rods",
@@ -56,7 +56,7 @@
     {
       "item": "Enamelled Copper Magnet Wire",
       "specification": "Gauge: 24 AWG, Polyurethane-Polyamide Insulation Layer (Heavy Build, 155°C Thermal Rating)",
-      "purpose": "Wounds onto ARVT-09 spools to form the secondary 500-turn Faraday induction coils",
+      "purpose": "Wound onto ARVT-09 spools to form the secondary 500-turn Faraday induction coils",
       "quantity_kg": 1.5
     },
     {
@@ -72,7 +72,39 @@
       "quantity": 8
     }
   ],
-  "solid_state_combiner_board_circuit": [
+  "mesh_telemetry_and_communications": [
+    {
+      "item": "ESP32-S3 Low-Power Microcontroller Board",
+      "specification": "Dual-Core 32-bit Xtensa LX7, Integrated Wi-Fi/BLE, 8MB Flash, Extended Temp Profile",
+      "purpose": "Acts as the central edge-computing intelligence node inside the ARVT-06 tracking case",
+      "quantity": 1
+    },
+    {
+      "item": "SX1276 LoRa Transceiver RF Module",
+      "specification": "Operating Frequency: 915MHz, Sub-GHz SPI Interface, High Sensitivity down to -148dBm",
+      "purpose": "Drives long-range ad-hoc peer-to-peer data broadcasts across neighboring towers",
+      "quantity": 1
+    },
+    {
+      "item": "High-Gain LoRa Whip Antenna",
+      "specification": "Frequency: 915MHz omnidirectional, Gain: 5dBi, Connector Type: SMA-Male, Weatherproof Glassfiber",
+      "purpose": "Broadcasts data frames up to a 5-mile local radius completely off-the-grid",
+      "quantity": 1
+    },
+    {
+      "item": "Shielded RF Pigtail Extension Cable",
+      "specification": "RG178 Coaxial, Impedance: 50-Ohm, Length: 150mm, IPEX/u.FL to SMA-Female Bulkhead",
+      "purpose": "Routes the RF signal cleanly through the non-conductive enclosure box wall with zero signal bleed",
+      "quantity": 1
+    },
+    {
+      "item": "Adhesive Copper Isolation Foil",
+      "specification": "Thickness: 0.05mm, Conductive Acrylic Adhesive Backing, Width: 50mm",
+      "purpose": "Forms the Faraday isolation cage frame surrounding the microcontroller to suppress magnetic noise",
+      "quantity_rolls": 1
+    }
+  ],
+  "solid_state_combiner_circuit_and_seals": [
     {
       "item": "1N5822 Schottky Barrier Rectifier Diodes",
       "specification": "Forward Current: 3A, Repetitive Reverse Voltage: 40V, Low Forward Voltage Drop (<0.5V)",
@@ -126,9 +158,7 @@
       "specification": "Material: FR-4 Flame Retardant, Dimensions: 100mm x 150mm, Pre-Drilled Tinned Holes",
       "purpose": "Provides the structural base for hand-soldering the combiner circuit tracks",
       "quantity": 1
-    }
-  ],
-  "fluidic_return_and_plumbing_seals": [
+    },
     {
       "item": "Heavy-Wall Clear Acrylic Tube",
       "specification": "Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm, Length: 250mm",
@@ -170,9 +200,7 @@
       "specification": "Pure Polydimethylsiloxane Compound, Waterproof, NSF-61 Drinking Water Certified",
       "purpose": "Lubricates EPDM O-rings to prevent pinching or friction tearing during final column assembly",
       "quantity_tubes": 1
-    }
-  ],
-  "wiring_and_consumables": [
+    },
     {
       "item": "Solid-Core Copper Hookup Wire",
       "specification": "Gauge: 14 AWG, Flexible, High-Temperature/High-Dielectric Silicone Insulation Layer",
@@ -199,3 +227,5 @@
     }
   ]
 }
+
+      
