@@ -1,0 +1,25 @@
+{
+  "component": "Peregrine_Soliton_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "soliton_model": "Rational_Non_Linear_Schrodinger_Rogue_Wavefront",
+    "chamber_length_L_mm": 140.0,
+    "peak_amplitude_multiplier": 3.0,
+    "rational_order": 1,
+    "surface_alignment": "Rational_Polynomial_Compression_Grid",
+    "coordinate_space": "Conformal_Rogue_Singularity_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Rational_Singularity_Shear_Cancellation",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 120.0
+  }
+}
