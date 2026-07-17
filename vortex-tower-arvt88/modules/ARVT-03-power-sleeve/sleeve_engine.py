@@ -7,36 +7,39 @@ def get_local_path(filename):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(script_dir, filename)
 
-def generate_mhd_field_nodes(magnet_count, ring_thickness, start_z=0.0, resolution=360):
+def generate_optimized_mhd_mesh(magnet_count, ring_thickness, pitch_angle, start_z=0.0, resolution=360):
     """
     Calculates the 3D positioning nodes for the external magnet cavities
-    and corresponding internal graphite pickup electrodes.
-    Aligns vectors perfectly perpendicular to the falling helical velocity field.
+    and the upgraded internal double-helical graphite pickup electrodes.
+    Coils the electrode coordinates to match the helical spiral of the fluid.
     """
     sleeve_nodes = []
+    pitch_rad = math.radians(pitch_angle)
     
-    # Electrode angular positions placed exactly 180 degrees apart (Symmetrical Slices)
-    electrode_angles = [0.0, math.pi]
+    # Calculate vertical pitch distance required for one full 360 rotation
+    # Using 50.8mm bore mapping reference:
+    pitch_length_z = math.pi * 50.8 * math.tan(pitch_rad)
     
     for magnet_idx in range(magnet_count):
-        # Calculate vertical span for each magnet ring node
         z_start = start_z - (magnet_idx * ring_thickness)
         z_mid = z_start - (ring_thickness / 2.0)
-        
-        # Determine magnetic pole alternating sequence (+1 = North, -1 = South)
         polarity = 1 if (magnet_idx % 2 == 0) else -1
         
         for step in range(resolution):
             theta = (step * 2.0 * math.pi) / resolution
             
-            # Identify if this coordinate vector aligns with a pickup electrode terminal
-            is_electrode = False
-            for e_angle in electrode_angles:
-                if abs(theta - e_angle) < (2.0 * math.pi / resolution):
-                    is_electrode = True
+            # Double helix uses two starts offset by 180 degrees (Pi radians)
+            helix_angle_1 = (abs(z_mid) / pitch_length_z) * 2.0 * math.pi
+            helix_angle_2 = helix_angle_1 + math.pi
+            
+            is_helix_electrode = False
+            for h_angle in [helix_angle_1, helix_angle_2]:
+                wrapped_h_angle = h_angle % (2.0 * math.pi)
+                if abs(theta - wrapped_h_angle) < (2.0 * math.pi / 45.0): # 8-degree tolerance band
+                    is_helix_electrode = True
                     
-            if is_electrode:
-                node_type = "MHD_Graphite_Electrode_Terminal"
+            if is_helix_electrode:
+                node_type = "MHD_Double_Helical_Graphite_Electrode"
             else:
                 node_type = f"N52_Magnetic_Field_Node_{'North' if polarity > 0 else 'South'}"
                 
@@ -55,7 +58,7 @@ def generate_mhd_field_nodes(magnet_count, ring_thickness, start_z=0.0, resoluti
 
 def main():
     print("=" * 65)
-    print("INITIALIZING: ARVT-03 POWER SLEEVE MHD FIELD ENGINE")
+    print("INITIALIZING: ARVT-03 OPTIMIZED SLEEVE FIELD ENGINE")
     print("=" * 65)
     
     config_path = get_local_path("sleeve-config.json")
@@ -65,32 +68,32 @@ def main():
             config = json.load(file)
         magnet_count = config["electromagnetic_parameters"]["ring_magnets_count"]
         ring_thickness = config["electromagnetic_parameters"]["ring_thickness_z_mm"]
-        flux_gauss = config["electromagnetic_parameters"]["estimated_magnetic_flux_gauss"]
-        e_material = config["harvesting_interface"]["electrode_material"]
-        print("[+] Component ID ARVT-03 configuration card matched cleanly.")
+        e_geom = config["harvesting_interface"]["electrode_geometry"]
+        pitch_angle = config["harvesting_interface"]["helical_pitch_angle_deg"]
+        print("[+] Optimized Component ID ARVT-03 configuration card matched.")
     else:
-        print("[⚠️] WARNING: sleeve-config.json missing. Loading safe overrides.")
+        print("[⚠️] WARNING: sleeve-config.json missing. Loading safe fallbacks.")
         magnet_count = 6
         ring_thickness = 25.4
-        flux_gauss = 14800.0
-        e_material = "Graphite"
+        e_geom = "Double_Helical_Track"
+        pitch_angle = 45.0
         
-    print(f"[*] Target Electromagnetic Flux: {flux_gauss} Gauss ({magnet_count}x N52 Units)")
-    print(f"[*] Interface Electrodes Standard: {e_material} Symmetrical Terminals")
-    print(f"[*] Compiling solid-state Lorentz force vector mapping fields...")
+    print(f"[*] Electrode Interface Style:  {e_geom}")
+    print(f"[*] Helical Pitch Tracking:     {pitch_angle}° Alignment Matrix")
+    print(f"[*] Compiling coiled Lorentz force pickup vectors...")
     
-    sleeve_mesh = generate_mhd_field_nodes(magnet_count, ring_thickness)
+    sleeve_mesh = generate_optimized_mhd_mesh(magnet_count, ring_thickness, pitch_angle)
     
-    # Audit an electrode node point right at the center of the first induction stage
-    audit_sample = [n for n in sleeve_mesh if n["node_classification"] == "MHD_Graphite_Electrode_Terminal"][0]
+    # Audit an electrode node point running along the continuous double-helix track
+    audit_sample = [n for n in sleeve_mesh if n["node_classification"] == "MHD_Double_Helical_Graphite_Electrode"][0]
     
-    print("\n[+] SUCCESS: MHD Power Sleeve magnetic matrix compiled cleanly.")
+    print("\n[+] SUCCESS: Upgraded MHD Power Sleeve matrix compiled cleanly.")
     print(f"[-] Total coordinated structural steps logged: {len(sleeve_mesh)}")
-    print(f"[-] ARVT-03 Core Node Balance Audit:")
+    print(f"[-] ARVT-03 Optimized Node Balance Audit:")
     print(f"    ↳ Active Node Target:       {audit_sample['node_classification']}")
     print(f"    ↳ Target Field Centerline:  {audit_sample['telemetry']['center_line_z_mm']} mm")
     print("=" * 65)
 
 if __name__ == "__main__":
     main()
-  
+                
