@@ -1,7 +1,7 @@
 {
   "module_id": "ARVT-03",
   "module_name": "Power_Sleeve_MHD_Magnet_Array",
-  "version": "1.0.0-Alpha",
+  "version": "1.1.0-Optimized",
   "electromagnetic_parameters": {
     "magnet_grade": "N52_Neodymium",
     "ring_magnets_count": 6,
@@ -11,8 +11,9 @@
     "estimated_magnetic_flux_gauss": 14800.0
   },
   "harvesting_interface": {
+    "electrode_geometry": "Double_Helical_Track",
     "electrode_material": "Flush_Mount_Graphite",
-    "electrode_spacing_deg": 180.0,
+    "helical_pitch_mm_per_turn": 50.0,
     "pickup_pairs_count": 3,
     "target_dielectric_isolation_psi": 100.0
   },
@@ -24,4 +25,3 @@
     "infill_density_percent": 50
   }
 }
-
