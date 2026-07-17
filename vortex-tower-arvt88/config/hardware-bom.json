@@ -1,0 +1,101 @@
+{
+  "component_id": "ARVT-88-BOM",
+  "name": "Project ARVT-88 Hardware Bill of Materials",
+  "version": "1.2.0-Adaptive",
+  "structural_fasteners": [
+    {
+      "item": "M6 Threaded Structural Tie-Rods",
+      "specification": "Stainless Steel (Grade 304 or 316), Length: 1000mm, Thread Pitch: 1.0mm",
+      "purpose": "Clamps the stacked 3D-printed tower modules together under high tension",
+      "quantity": 4
+    },
+    {
+      "item": "M6 Hex Coupling Nuts",
+      "specification": "Stainless Steel, Thread Pitch: 1.0mm",
+      "purpose": "Joins the 1000mm tie-rods together vertically to span the 3-meter tower height",
+      "quantity": 8
+    },
+    {
+      "item": "M6 Nylon-Insert Locknuts",
+      "specification": "Stainless Steel hex locking nuts",
+      "purpose": "Secures tie-rod ends against high-frequency cavitation micro-vibrations",
+      "quantity": 8
+    },
+    {
+      "item": "M6 Heavy-Duty Flat Washers",
+      "specification": "Stainless Steel, Oversized Outer Diameter (OD)",
+      "purpose": "Distributes clamping torque evenly across printed plastic mounting ears",
+      "quantity": 16
+    }
+  ],
+  "electrodynamic_harvesting": [
+    {
+      "item": "N52 Neodymium Ring Magnets",
+      "specification": "Grade N52 Rare-Earth, OD: 76.2mm, ID: 51.5mm, Thickness: 25.4mm, Axial Magnetization",
+      "purpose": "Generates the continuous dense magnetic flux crossing the fluid track",
+      "quantity": 6
+    },
+    {
+      "item": "High-Purity Graphite Rods",
+      "specification": "Diameter: 6.35mm (1/4\"), Length: 50mm, Grade: High-Density Isostatic",
+      "purpose": "Machined down to act as flush-mount, corrosion-resistant pickup electrodes",
+      "quantity": 6
+    },
+    {
+      "item": "Solid-Core Copper Hookup Wire",
+      "specification": "Gauge: 14 AWG, High-Temperature Flexible Silicone Insulation",
+      "purpose": "Connects double-helical graphite terminals to the power distribution box",
+      "quantity_meters": 15.0
+    },
+    {
+      "item": "Silver Conductive Epoxy",
+      "specification": "Two-part high-conductivity structural adhesive",
+      "purpose": "Bonds copper wires securely to the raw graphite electrode cores",
+      "quantity_tubes": 1
+    }
+  ],
+  "fluidic_return_and_seals": [
+    {
+      "item": "Heavy-Wall Clear Acrylic Tube",
+      "specification": "Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm",
+      "purpose": "Serves as the high-strength window for the Figure-8 Collision Chamber",
+      "quantity": 1
+    },
+    {
+      "item": "Rigid Matte-Black Copper Pipe",
+      "specification": "Type K (Thick Wall), Outer Diameter (OD): 12.7mm (1/2\")",
+      "purpose": "Forms the solar-absorbent vertical conduit for the upward thermosyphon lift",
+      "quantity_meters": 3.0
+    },
+    {
+      "item": "Clear Borosilicate Glass Sleeve",
+      "specification": "Inner Diameter (ID): 25.4mm (1\"), Length: 1000mm sections",
+      "purpose": "Encases copper return pipe to create an insulation envelope for solar lift",
+      "quantity": 3
+    },
+    {
+      "item": "Weighted Brass Hydraulic Ram Waste Valve",
+      "specification": "Size: 1\" NPT Thread, Swing-check design with integrated 350g counterweight",
+      "purpose": "Snaps shut violently when flow velocity peaks to trigger water hammer spikes",
+      "quantity": 1
+    },
+    {
+      "item": "EPDM Rubber O-Rings",
+      "specification": "Inside Diameter (ID): 25mm, Cross-Section Thickness: 3.5mm, Durometer: 70A",
+      "purpose": "Creates a pressurized, fluid-tight seal at all inter-module grid junctions",
+      "quantity": 12
+    },
+    {
+      "item": "Premium Teflon Pipe Thread Tape",
+      "specification": "High-Density pure PTFE, Width: 1/2\"",
+      "purpose": "Seals NPT threaded connections between valves and printed blocks",
+      "quantity_rolls": 2
+    },
+    {
+      "item": "NSF-61 Food-Safe Silicone Grease",
+      "specification": "Pure Silicone Lubricant, Waterproof",
+      "purpose": "Lubricates EPDM O-rings to prevent pinching during final column assembly",
+      "quantity_tubes": 1
+    }
+  ]
+}
