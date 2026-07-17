@@ -1,0 +1,27 @@
+{
+  "component": "Riemann_Surface_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "complex_function_model": "w_equals_sqrt_z",
+    "sheets_count": 2,
+    "sheet_stacking_offset_mm": 20.0,
+    "branch_point_x_mm": 0.0,
+    "branch_point_y_mm": 0.0,
+    "branch_cut_alignment_degrees": 180.0,
+    "surface_type": "Multi_Sheet_Complex_Riemann_Manifold",
+    "coordinate_space": "Branch_Cut_Phase_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Multi_Sheet_Phase_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 115.0
+  }
+}
