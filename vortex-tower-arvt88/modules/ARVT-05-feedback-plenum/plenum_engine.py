@@ -84,7 +84,7 @@ def main():
     
     plenum_mesh = generate_tesla_diode_vectors(stages, width, angle)
     
-    # Audit a node inside one of the critical reverse-blocking loops
+    # Audit a node located right at a critical reverse flow pocket
     audit_sample = [n for n in plenum_mesh if n["structural_phase"] == "Tesla_Diode_Reverse_Flow_Blocking_Pocket"][0]
     
     print("\n[+] SUCCESS: Feedback Plenum hydromechanical matrix compiled cleanly.")
@@ -96,4 +96,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-          
+    
