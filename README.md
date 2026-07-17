@@ -57,6 +57,8 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 <br>
 
+### [🗼 Project ARVT-88: Aetheris Resodynamic Vortex Tower](./vortex-tower-arvt88) - Complete solid-state gravity fluid engine and 11-stage advanced energy harvesting mesh network layout.
+
 ## 📂 Repository Architecture
 
 This ecosystem is split into isolated, production-ready directories to maintain separation of concerns between theoretical frameworks and mathematical execution models:
