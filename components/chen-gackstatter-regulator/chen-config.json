@@ -1,0 +1,25 @@
+{
+  "component": "Chen_Gackstatter_Flow_Regulator",
+  "version": "1.0.0-Alpha",
+  "geometry": {
+    "manifold_model": "3D_Chen_Gackstatter_Embedded_Minimal_Surface",
+    "core_catenoid_radius_mm": 24.0,
+    "handlebody_toroidal_loops": 2,
+    "handlebody_displacement_mm": 15.0,
+    "surface_topology": "Genus_Two_With_One_End",
+    "coordinate_space": "Embedded_Handlebody_Symmetry"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Carbon_Fiber_Polycarbonate_or_PEEK",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Gyroid",
+    "infill_density_percent": 100
+  },
+  "fluidic_transition": {
+    "flow_path_alignment": "Genus_Two_Shear_Neutralization",
+    "shear_neutralization": "True",
+    "target_operating_pressure_psi": 45.0,
+    "burst_pressure_rating_psi": 115.0
+  }
+}
