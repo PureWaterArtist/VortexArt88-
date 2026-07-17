@@ -1,16 +1,18 @@
-# ARVT-01: Intake Header Cardioid Siphon Splitter (Optimized)
+# ARVT-01: Intake Header Cardioid Siphon Splitter (Version 1.6.0)
 
 ## 📐 Upgraded Functional Mechanism
-The Version 1.1.0 **ARVT-01 Intake Header** acts as the high-efficiency atmospheric entry gate for Project ARVT-88. To support the master system upgrade—which transitions the main downflow track into a continuously accelerating hyperbolic column—this module's internal channels have been mathematically adjusted at the throat exit.
+The Version 1.6.0 **ARVT-01 Intake Header** acts as the high-efficiency atmospheric entry gate for Project ARVT-88. To work in total harmony with the planet's geodynamic laws, this module includes an integrated **Coriolis Hemisphere Alignment Protocol**.
 
-As fluid enters the broad open funnel, it wraps along the perimeter walls to form a stable, hollow air-core vertical siphon vortex. Right at the exit terminal, the stream passes through an asymmetric Tesla manifold splitter with an integrated **Hyperbolic Transition Offset**. 
+As water cascades into the open funnel, the Earth's natural rotation exerts a perpendicular force (the Coriolis Effect) on the fluid column. To prevent this force from introducing unwanted fluid asymmetry or breaking our hollow air-core siphon, the header's installation is dynamically linked to the node's GPS location:
+* **Northern Hemisphere Deployment:** Mount Nozzle A in the primary track to drive a natural clockwise spiral.
+* **Southern Hemisphere Deployment:** Mirror the orientation to align with a counter-clockwise planetary spin.
 
-By reducing the exit boundary smoothly to blend with the downstream shaft taper, the fluid passes from the open header into the closed tube with **absolute zero entry friction or edge-lip turbulence**. This ensures the vortex sheets remain structurally coherent, maximizing the initial velocity profile right before it hits the micro-Tesla boundary steps.
+By yielding to the planet's localized angular momentum, the fluid transitions from the open header into the closed tube with absolute zero entry friction, keeping the vortex sheets structurally coherent before they hit the micro-Tesla wall steps.
 
 ## 🗂 Module Map
 ```text
 modules/ARVT-01-intake-header/
-├── README.md          # This file (Upgraded Specifications)
+├── README.md          # This file (Planetary Specifications)
 ├── header-config.json # Machine-readable pre-accelerated parameters
 └── header_engine.py   # Blended vector path calculation script
 ```
