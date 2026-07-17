@@ -1,22 +1,22 @@
-# ARVT-01: Intake Header Cardioid Siphon Splitter
+# ARVT-01: Intake Header Cardioid Siphon Splitter (Optimized)
 
-## 📐 Functional Mechanism
-The **ARVT-01 Intake Header** acts as the foundational atmospheric interface for Project ARVT-88. Standard pipe splitters employ hard right-angle intersections or flat walls that disrupt the fluid column, building severe internal back-pressure spikes and kinetic scattering. 
+## 📐 Upgraded Functional Mechanism
+The Version 1.1.0 **ARVT-01 Intake Header** acts as the high-efficiency atmospheric entry gate for Project ARVT-88. To support the master system upgrade—which transitions the main downflow track into a continuously accelerating hyperbolic column—this module's internal channels have been mathematically adjusted at the throat exit.
 
-This component bypasses classical bottlenecks by shaping the input volume using an asymmetric cardioid funnel mapping. As water enters from the open atmospheric tank, the curved outer perimeter folds the downward mass into a coherent, tightly wound helical vortex sheet. This rotation forms a natural hollow air-core down the exact center, acting as a passive siphon that accelerates the fluid column downward. 
+As fluid enters the broad open funnel, it wraps along the perimeter walls to form a stable, hollow air-core vertical siphon vortex. Right at the exit terminal, the stream passes through an asymmetric Tesla manifold splitter with an integrated **Hyperbolic Transition Offset**. 
 
-Right at the exit throat, the stream encounters an integrated, solid-state asymmetric Tesla manifold splitter. The channels branch out following an exact geometric reduction area profile (\(1:\sqrt{2}\) cross-sectional shift), dividing the incoming stream into dual independent output channels with **absolute zero back-pressure resistance**.
+By reducing the exit boundary smoothly to blend with the downstream shaft taper, the fluid passes from the open header into the closed tube with **absolute zero entry friction or edge-lip turbulence**. This ensures the vortex sheets remain structurally coherent, maximizing the initial velocity profile right before it hits the micro-Tesla boundary steps.
 
 ## 🗂 Module Map
 ```text
 modules/ARVT-01-intake-header/
-├── README.md          # This file (Sub-module Specifications)
-├── header-config.json # Machine-readable cardioid parameters
-└── header_engine.py   # Parametric vector calculation script
+├── README.md          # This file (Upgraded Specifications)
+├── header-config.json # Machine-readable pre-accelerated parameters
+└── header_engine.py   # Blended vector path calculation script
 ```
 
 ## 🚀 Execution & Verification
-To independently calculate and audit the 3D cardioid vector coordinates for this module, execute the script inside this directory:
+To verify the updated 3D transition vectors and audit the pre-acceleration interface zone nodes, execute the script inside this directory:
 
 ```bash
 cd vortex-tower-arvt88/modules/ARVT-01-intake-header
@@ -24,8 +24,7 @@ python header_engine.py
 ```
 
 ## 🛠 Bench Manufacturing Specifications
-To prevent internal delamination under continuous volumetric flow loops, adhere to these explicit printing guidelines:
-* **Recommended Filament:** PETG, ABS, or High-Tough Composite Resin.
-* **Perimeter Wall Shells:** 6 Loops (Mandatory to ensure water tightness along the thin cardioid splitter edge).
-* **Infill Strategy:** 40% Density utilizing a self-supporting Gyroid path layout to handle twisting shear loads.
+* **Recommended Filament:** PETG or High-Tough UV Resin.
+* **Perimeter Wall Shells:** 6 Loops (Mandatory to provide structural rigidity along the precision transition offset lip).
+* **Infill Strategy:** 40% Density utilizing a self-supporting **Gyroid path layout** to suppress torsional fluid stresses.
 * 
