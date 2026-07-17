@@ -1,13 +1,14 @@
 {
   "module_id": "ARVT-02",
   "module_name": "Acceleration_Shaft_Micro_Tesla_Liner",
-  "version": "1.0.0-Alpha",
+  "version": "1.1.0-Optimized",
   "geometry_parameters": {
     "shaft_segment_length_mm": 500.0,
-    "internal_bore_diameter_mm": 50.8,
+    "internal_bore_input_diameter_mm": 50.8,
+    "internal_bore_exit_diameter_mm": 38.1,
     "tesla_step_height_mm": 1.2,
     "tesla_step_relief_angle_deg": 15.0,
-    "steps_per_millimeter": 0.05
+    "profile_geometry": "Hyperbolic_Compression_Taper"
   },
   "manufacturing_profile": {
     "recommended_material": "Carbon_Fiber_Polycarbonate_CF_PC",
@@ -18,8 +19,7 @@
   },
   "operational_envelope": {
     "maximum_boundary_shear_target_psi": 0.0,
-    "calculated_terminal_velocity_m_s": 7.67,
+    "compounding_velocity_gain_pct": 28.5,
     "hydrodynamic_decoupling_active": "True"
   }
 }
-
