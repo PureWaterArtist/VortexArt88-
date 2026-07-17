@@ -15,9 +15,6 @@ def generate_optimized_mhd_mesh(magnet_count, ring_thickness, pitch_angle, start
     """
     sleeve_nodes = []
     pitch_rad = math.radians(pitch_angle)
-    
-    # Calculate vertical pitch distance required for one full 360 rotation
-    # Using 50.8mm bore mapping reference:
     pitch_length_z = math.pi * 50.8 * math.tan(pitch_rad)
     
     for magnet_idx in range(magnet_count):
@@ -28,14 +25,13 @@ def generate_optimized_mhd_mesh(magnet_count, ring_thickness, pitch_angle, start
         for step in range(resolution):
             theta = (step * 2.0 * math.pi) / resolution
             
-            # Double helix uses two starts offset by 180 degrees (Pi radians)
             helix_angle_1 = (abs(z_mid) / pitch_length_z) * 2.0 * math.pi
             helix_angle_2 = helix_angle_1 + math.pi
             
             is_helix_electrode = False
             for h_angle in [helix_angle_1, helix_angle_2]:
                 wrapped_h_angle = h_angle % (2.0 * math.pi)
-                if abs(theta - wrapped_h_angle) < (2.0 * math.pi / 45.0): # 8-degree tolerance band
+                if abs(theta - wrapped_h_angle) < (2.0 * math.pi / 45.0):
                     is_helix_electrode = True
                     
             if is_helix_electrode:
@@ -83,8 +79,6 @@ def main():
     print(f"[*] Compiling coiled Lorentz force pickup vectors...")
     
     sleeve_mesh = generate_optimized_mhd_mesh(magnet_count, ring_thickness, pitch_angle)
-    
-    # Audit an electrode node point running along the continuous double-helix track
     audit_sample = [n for n in sleeve_mesh if n["node_classification"] == "MHD_Double_Helical_Graphite_Electrode"][0]
     
     print("\n[+] SUCCESS: Upgraded MHD Power Sleeve matrix compiled cleanly.")
@@ -96,4 +90,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-                
+    
