@@ -84,6 +84,7 @@ def main():
         "components/sine-gordon-soliton-regulator/soliton_engine.py",
         "components/kdv-cnoidal-regulator/cnoidal_engine.py",
         "components/breather-soliton-regulator/breather_engine.py",
+        "components/peregrine-soliton-regulator/peregrine_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
