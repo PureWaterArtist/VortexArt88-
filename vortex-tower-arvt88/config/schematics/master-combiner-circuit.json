@@ -1,0 +1,32 @@
+{
+  "schematic_id": "ARVT-COMB-01",
+  "name": "Unified Multi-Harvesting Power Combiner Board Schematic",
+  "version": "1.4.0-Expanded_Harvest",
+  "input_channels_matrix": {
+    "channel_1_mhd": {
+      "source_module": "ARVT-03",
+      "signal_type": "Variable_Low_Voltage_DC",
+      "conditioning_topology": "Schottky_Diode_Isolator_With_Low_ESR_Smoothing_Capacitor"
+    },
+    "channel_2_solar": {
+      "source_module": "ARVT-07",
+      "signal_type": "Steady_Medium_Voltage_DC",
+      "conditioning_topology": "Blocking_Diode_To_Common_High_Side_Charging_Bus"
+    },
+    "channel_3_piezo": {
+      "source_module": "ARVT-08",
+      "signal_type": "High_Voltage_Spike_AC",
+      "conditioning_topology": "Fast_Recovery_Full_Bridge_Rectifier_With_Buck_Downstep_Regulator"
+    },
+    "channel_4_electrostatic": {
+      "source_module": "ARVT-10",
+      "signal_type": "Ultra_High_Voltage_Static_DC",
+      "conditioning_topology": "High_Impedance_Bleeder_Resistor_To_Metal_Film_Capacitor_Storage_Bank"
+    }
+  },
+  "safety_clamping": {
+    "overvoltage_protection_active": "True",
+    "common_ground_bus_bonded": "True",
+    "target_combiner_output_bus_vdc": 18.5
+  }
+}
