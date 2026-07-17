@@ -7,11 +7,11 @@ def get_local_path(filename):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     return os.path.join(script_dir, filename)
 
-def generate_optimized_nozzle_vectors(spiral_a, spiral_b, chamber_height, venturi_throat_dia, resolution=360):
+def generate_aerodynamic_nozzle_vectors(spiral_a, spiral_b, chamber_height, venturi_throat_dia, amp_coeff, resolution=360):
     """
     Calculates the 3D coordinate meshes for Nozzle A (CW) and Nozzle B (CCW).
-    Integrates a convergent-divergent Venturi throat constriction profile at the exit tips
-    to pre-evaporate fluid sheets into a dense 3D acoustic cavitation zone.
+    Integrates tangential bypass grooves and an aerodynamic amplification coefficient
+    to maximize rotational velocity before the face-to-face collision.
     """
     nozzle_vectors = []
     venturi_throat_radius = venturi_throat_dia / 2.0
@@ -24,29 +24,29 @@ def generate_optimized_nozzle_vectors(spiral_a, spiral_b, chamber_height, ventur
         # Base logarithmic contraction spiral curve path: r = a * e^(-b * theta)
         log_radius = spiral_a * math.exp(-spiral_b * theta)
         
-        # Apply convergent-divergent Venturi pinch profile near the nozzle exit tip thresholds
+        # Inject the aerodynamic bypass amplification near the nozzle tips
         if progress > 0.75:
-            # Smoothly transition from log radius down to the narrow venturi throat minimum limit
             tip_factor = (progress - 0.75) / 0.25
-            radius_modulation = log_radius - (log_radius - venturi_throat_radius) * math.sin(tip_factor * (math.pi / 2.0))
+            # Tangential velocity multiplier spikes the constriction rate
+            radius_modulation = log_radius - (log_radius - (venturi_throat_radius / amp_coeff)) * math.sin(tip_factor * (math.pi / 2.0))
         else:
             radius_modulation = log_radius
             
         # Clamp radius bounds to preserve physical wall casing parameters
-        radius_modulation = max(venturi_throat_radius, min(spiral_a, radius_modulation))
+        radius_modulation = max(venturi_throat_radius / amp_coeff, min(spiral_a, radius_modulation))
         
-        # Nozzle A (Clockwise vector tracking)
-        xa = radius_modulation * math.cos(theta)
-        ya = radius_modulation * math.sin(theta)
+        # Nozzle A (Clockwise vector tracking with tangential phase shift)
+        xa = radius_modulation * math.cos(theta * amp_coeff)
+        ya = radius_modulation * math.sin(theta * amp_coeff)
         
-        # Nozzle B (Counter-Clockwise mirrored vector tracking)
-        xb = radius_modulation * math.cos(-theta)
-        yb = radius_modulation * math.sin(-theta)
+        # Nozzle B (Counter-Clockwise mirrored vector tracking with tangential phase shift)
+        xb = radius_modulation * math.cos(-theta * amp_coeff)
+        yb = radius_modulation * math.sin(-theta * amp_coeff)
         
         if progress < 0.20 or progress > 0.80:
             phase = "Logarithmic_Vortex_Inlet_Ports"
         elif radius_modulation <= (venturi_throat_radius + 0.5):
-            phase = "Venturi_Pre_Cavitation_Constriction_Throat"
+            phase = "Aerodynamic_Bypass_Hyper_Acceleration_Throat"
         else:
             phase = "Reverse_Rotational_Compression_Transit"
             
@@ -65,7 +65,7 @@ def generate_optimized_nozzle_vectors(spiral_a, spiral_b, chamber_height, ventur
 
 def main():
     print("=" * 65)
-    print("INITIALIZING: ARVT-04 OPTIMIZED VORTEX SPIRAL ENGINE")
+    print("INITIALIZING: ARVT-04 AERODYNAMIC VORTEX SPIRAL ENGINE")
     print("=" * 65)
     
     config_path = get_local_path("junction-config.json")
@@ -77,26 +77,27 @@ def main():
         spiral_b = config["geometry_parameters"]["logarithmic_spiral_factor_b"]
         chamber_height = config["geometry_parameters"]["chamber_internal_height_mm"]
         v_throat = config["purification_enhancements"]["venturi_throat_diameter_mm"]
+        amp_coeff = config["purification_enhancements"]["aerodynamic_amplification_coefficient"]
         material = config["manufacturing_profile"]["recommended_material"]
-        print("[+] Optimized Component ID ARVT-04 configuration card matched.")
+        print("[+] Aerodynamic Component ID ARVT-04 configuration card matched.")
     else:
         print("[⚠️] WARNING: junction-config.json missing. Loading safe overrides.")
         spiral_a = 20.0
         spiral_b = 0.12
         chamber_height = 190.0
         v_throat = 8.5
+        amp_coeff = 1.41
         material = "Hardened_PEEK"
         
     print(f"[*] Core Hardening Material Standard: {material}")
-    print(f"[*] Integrated Venturi Constraint:   {v_throat}mm Constriction Ring")
-    print(f"[*] Compiling enhanced convergent-divergent logarithmic paths...")
+    print(f"[*] Aerodynamic Amplification Coeff: {amp_coeff}x Bypass Gain")
+    print(f"[*] Compiling enhanced fluidic-amplifier logarithmic paths...")
     
-    junction_mesh = generate_optimized_nozzle_vectors(spiral_a, spiral_b, chamber_height, v_throat)
+    junction_mesh = generate_aerodynamic_nozzle_vectors(spiral_a, spiral_b, chamber_height, v_throat, amp_coeff)
     
-    # Audit an index node located right at the narrow Venturi constriction peak
     audit_sample = junction_mesh[int(len(junction_mesh) * 0.85)]
     
-    print("\n[+] SUCCESS: Enhanced Core Junction twin vortex matrix compiled cleanly.")
+    print("\n[+] SUCCESS: Aerodynamic Core Junction twin vortex matrix compiled cleanly.")
     print(f"[-] Total coordinated structural steps logged: {len(junction_mesh)}")
     print(f"[-] ARVT-04 Optimized Node Balance Audit:")
     print(f"    ↳ Active Structural Phase:  {audit_sample['structural_phase']}")
@@ -106,4 +107,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
+    
