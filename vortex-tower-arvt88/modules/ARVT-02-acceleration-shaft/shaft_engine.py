@@ -17,21 +17,16 @@ def generate_hyperbolic_tesla_mesh(segment_len, d_in, d_out, step_height, relief
     angle_rad = math.radians(relief_angle)
     step_pitch_z = step_height / math.tan(angle_rad)
     
-    # Process slices vertically down the length of the shaft segment
-    vertical_slices = int(segment_len / 2.0) # 2mm vertical step slices
+    vertical_slices = int(segment_len / 2.0)
     
     for slice_idx in range(vertical_slices):
         z_pos = -(slice_idx * (segment_len / vertical_slices))
         progress = abs(z_pos) / segment_len
         
-        # Calculate the dynamic baseline radius for this slice using a hyperbolic taper
         current_base_dia = d_in - (d_in - d_out) * progress
         current_base_radius = current_base_dia / 2.0
         
-        # Determine the current localized position inside the repeating Tesla step profile
         z_offset_in_pitch = abs(z_pos) % step_pitch_z
-        
-        # Linear sawtooth ramp added to the changing hyperbolic baseline radius
         dynamic_radius = current_base_radius + (step_height * (z_offset_in_pitch / step_pitch_z))
         
         for step in range(resolution):
@@ -40,7 +35,6 @@ def generate_hyperbolic_tesla_mesh(segment_len, d_in, d_out, step_height, relief
             x = dynamic_radius * math.cos(theta)
             y = dynamic_radius * math.sin(theta)
             
-            # Identify active phase based on step drop-off geometry thresholds
             if z_offset_in_pitch > (step_pitch_z * 0.95):
                 phase = "Hyperbolic_Tesla_Vortex_Detachment_Tip"
             else:
@@ -83,13 +77,11 @@ def main():
     print(f"[*] Engraving micro-Tesla steps along the compression path gradient...")
     
     shaft_mesh = generate_hyperbolic_tesla_mesh(segment_len, d_in, d_out, step_height, relief_angle)
-    
-    # Audit a midpoint node tracking the boundary roller layer
     audit_sample = shaft_mesh[len(shaft_mesh) // 2]
     
     print("\n[+] SUCCESS: Hyperbolic Acceleration Shaft matrix compiled cleanly.")
     print(f"[-] Total coordinated structural steps logged: {len(shaft_mesh)}")
-    print(f"[-] ARVT-02 Optimized Node Balance Audit:")
+    print(f"[-] ARVT-02 Core Node Balance Audit:")
     print(f"    ↳ Active Structural Phase:  {audit_sample['structural_phase']}")
     print(f"    ↳ Cartesian Mesh Node:      {audit_sample['vector']}")
     print("=" * 65)
