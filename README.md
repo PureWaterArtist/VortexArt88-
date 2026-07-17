@@ -185,9 +185,10 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
 | **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
 | **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
+| **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Data Ledger ➡](#ledger-framework-section) |
 | **🗼 Project ARVT-88** | Complete solid-state gravity fluid engine and 11-stage advanced energy harvesting mesh network layout. | [Explore the Tower ➡](./vortex-tower-arvt88) |
 | **📦 ARVT-88 Components** | The master folder housing all 11 physical resodynamic hardware gates and vector script modules. | [Jump to Components ➡](./vortex-tower-arvt88/modules) |
-| **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Data Ledger ➡](#ledger-framework-section) |
+| **📦 Siphon Components** | An exhaustive 56-node geometric matrix cataloging what every fluid regulator does and specifying exactly what the python simulation scripts are used to verify. | [Jump to Components Library ➡](./components/COMPONENTS_MANIFEST.md) |
 | **🤯 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📚 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
 | **⚙️ OSHWA Registry** | Official Open Source Hardware Association Certification: **UID US002833** | [Verify Registry ➡️](https://oshwa.org) |
@@ -252,6 +253,16 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 *   **The Singularity Interface:** The clockwise and counter-clockwise vortex streams collide along a central vertical plane, neutralizing rotational momentum and generating a continuous localized vacuum.
 
 *   **Kinetic Aeration & Membrane Shear:** The vacuum forcefully draws atmospheric air through an induction core. The resulting micro-bubble saturation rapidly increases dissolved oxygen (DO), stripping volatile compounds and mechanically disrupting the cell walls of anaerobic pathogens.
+
+---
+
+- **/components** : Self-contained geometric, biomimetic, and fluid-dynamic tensor modules.
+
+| Scale-Invariant Core | Mathematical & Simulation Focus | Master Library Index Route |
+| :--- | :--- | :--- |
+| **📦 56-Node Matrix** | Exhaustive array of geometric regulators, 4D hyper-manifolds, minimal surfaces, and non-linear soliton wave equations. Every folder holds a local `.json` config and a Python script used to simulate and verify zero-friction streamlines. | [Examine the Full Components Manifest ➡](./components/COMPONENTS_MANIFEST.md) |
+
+---
 
 <a id="3d-printing-section"></a>
 ## 🖨 3D Printing & Mirroring Guide: How to Print "The Twins"
