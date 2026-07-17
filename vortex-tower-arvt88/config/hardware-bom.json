@@ -160,6 +160,12 @@
       "quantity": 1
     },
     {
+      "item": "KBP307 In-Line Bridge Rectifier Modules",
+      "specification": "Forward Current: 3A, Peak Reverse Voltage: 1000V, 4-Pin SIP Package",
+      "purpose": "Converts the three-phase AC power output from the top-mounted air turbine generator into clean DC before routing it to the combiner bus",
+      "quantity": 2
+    },
+    {
       "item": "Heavy-Wall Clear Acrylic Tube",
       "specification": "Outer Diameter (OD): 60mm, Inner Diameter (ID): 50.8mm, Wall Thickness: 4.6mm, Length: 250mm",
       "purpose": "Serves as the high-strength visual window for the ARVT-04 Figure-8 Collision Chamber",
