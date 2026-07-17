@@ -1,0 +1,25 @@
+{
+  "module_id": "ARVT-05",
+  "module_name": "Feedback_Plenum_Ram_Spike_Tesla_Diode",
+  "version": "1.0.0-Alpha",
+  "feedback_geometry": {
+    "hydraulic_ram_waste_valve_mass_g": 350.0,
+    "tesla_diode_stages_count": 4,
+    "tesla_valve_internal_width_mm": 12.7,
+    "tesla_loop_return_angle_deg": 34.0,
+    "mass_flow_delivery_ratio_target": "4:1"
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Concentric_Carbon_Fiber_Polycarbonate_CF_PC",
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 12,
+    "infill_type": "Concentric",
+    "infill_density_percent": 100
+  },
+  "operational_envelope": {
+    "calculated_water_hammer_pressure_psi": 180.0,
+    "sediment_trap_retention_volume_ml": 500.0,
+    "solar_thermosyphon_lift_assist": "True"
+  }
+}
+
