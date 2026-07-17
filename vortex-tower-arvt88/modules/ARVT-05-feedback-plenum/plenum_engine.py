@@ -18,26 +18,20 @@ def generate_tesla_diode_vectors(stages, channel_width, loop_angle, resolution=3
     stage_length = channel_width * 3.5
     
     for stage_idx in range(stages):
-        # Establish the vertical baseline offset for each individual valve stage
         z_base = -(stage_idx * stage_length)
         
         for step in range(int(resolution / stages)):
             progress = step / (resolution / stages)
             current_z = z_base - (progress * stage_length)
-            
-            # Parametric angle sweep mapping the internal channel boundaries
             theta = (step * 2.0 * math.pi) / (resolution / stages)
             
-            # Formulate the forward channel boundaries
             xf_left = -(channel_width / 2.0)
             xf_right = (channel_width / 2.0)
             
-            # Formulate the backward-curving Tesla loop geometry (The blocking gate)
             loop_radius = channel_width * 1.2
             xl = loop_radius * math.sin(theta) + (channel_width * 0.7)
             yl = loop_radius * (1.0 - math.cos(theta)) * math.tan(angle_rad)
             
-            # Segment tracking to isolate the forward track from the blocking pockets
             if progress > 0.40 and progress < 0.80:
                 phase = "Tesla_Diode_Reverse_Flow_Blocking_Pocket"
                 vector_coord = (round(xl, 4), round(yl, 4), round(current_z, 4))
@@ -83,9 +77,7 @@ def main():
     print(f"[*] Compiling {stages}-Stage Valvular Conduit loops at {angle}° returns...")
     
     plenum_mesh = generate_tesla_diode_vectors(stages, width, angle)
-    
-    # Audit a node located right at a critical reverse flow pocket
-    audit_sample = [n for n in plenum_mesh if n["structural_phase"] == "Tesla_Diode_Reverse_Flow_Blocking_Pocket"][0]
+    audit_sample = [n for n in plenum_mesh if n["structural_phase"] == "Tesla_Diode_Reverse_Flow_Blocking_Pocket"]
     
     print("\n[+] SUCCESS: Feedback Plenum hydromechanical matrix compiled cleanly.")
     print(f"[-] Total coordinated structural steps logged: {len(plenum_mesh)}")
