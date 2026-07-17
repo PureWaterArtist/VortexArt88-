@@ -90,6 +90,7 @@ def main():
         "components/kp-resonant-regulator/kp_engine.py",
         "components/lax-pair-regulator/lax_pair_engine.py",
         "components/hirota-bilinear-regulator/hirota_bilinear_engine.py",
+        "components/sato-grassmannian-regulator/sato_engine.py",
         "components/flower-of-life-mesh/generate_fol_mesh.py",
         "components/cross-cap-regulator/cross_cap_engine.py",
         "components/outer-pressure-casing/casing_vectors.py",
