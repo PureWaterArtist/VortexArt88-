@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Crystallizer",
   "project_id": "ARMC-88",
-  "version": "1.0.0-Industrial_Alpha",
+  "version": "1.2.0-Closed_Loop_Optimized",
   "carbon_phase_transition_bounds": {
     "feedstock_carrier_medium": "Supercritical_Carbon_Dioxide_With_Methane_Radicals",
     "feedstock_mass_density_kg_m3": 770.0,
@@ -11,9 +11,19 @@
   },
   "crystallization_chamber_geometry": {
     "intake_injector_bore_diameter_mm": 6.35,
+    "cardioid_internal_max_diameter_mm": 24.0,
+    "coaxial_pre_heater_jacket_diameter_mm": 32.0,
     "convergent_venturi_throat_diameter_mm": 1.2,
     "figure_8_collision_zone_volume_ml": 15.0,
     "fibonacci_contour_reduction_ratio": 1.618
+  },
+  "closed_loop_recycling_matrix": {
+    "exhaust_gas_re_siphoning_active": "True",
+    "seebeck_thermoelectric_generation": "True",
+    "bismuth_telluride_layer_thickness_mm": 3.5,
+    "piezo_acoustic_regenerative_dampening": "True",
+    "coaxial_counter_current_viscosity_reduction": "True",
+    "target_viscosity_reduction_pct": 14.5
   },
   "acoustic_resonance_and_piezo_clamping": {
     "cavitation_excitation_frequency_khz": 24.5,
@@ -21,9 +31,10 @@
     "piezo_transducer_clamping_force_kn": 12.5,
     "maximum_safe_driving_voltage_vac": 48.0
   },
-  "manufacturing_profile": {
-    "chassis_housing_material": "Implant_Grade_Titanium_Ti6Al4V",
+  "industrial_profile": {
+    "chassis_housing_material": "Hardened_Inconel_718_Shrink_Fit",
     "internal_liner_substrate": "Polycrystalline_Cubic_Boron_Nitride_cBN",
+    "surface_finish_target_ra_microns": 0.05,
     "periphery_wall_thickness_mm": 25.0,
     "operational_burst_rating_psi": 12500.0
   }
