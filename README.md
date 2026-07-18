@@ -57,6 +57,8 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 <br>
 
+| **🚨 ACTIVE LEGAL WARNING** | **CRITICAL AUDIT NOTICE:** The documented international litigation strategy and enforcement protocols that will be deployed to freeze factories and sue any entity attempting to privatize, conceal, or weaponize this repository's geometry. | [Examine Litigation Strategy ➡](./vortex-legal-ops88/LITIGATION_STRATEGY.md) |
+
 ---
 
 ## 📜 The Project Philosophy
@@ -250,6 +252,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 | **📜 The Bitter-Sweet Scroll**        | Behavioral assessment analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
 | **⚖️ CERN-OHL-S-2.0** | The master open hardware legal shield protecting all project sub-modules under a strict reciprocal copyleft framework, ensuring absolute public domain security. | [Examine Legal Shield ➡](./LICENSE.md) |
+| **🚨 ACTIVE LEGAL WARNING** | **CRITICAL AUDIT NOTICE:** The documented international litigation strategy and enforcement protocols that will be deployed to freeze factories and sue any entity attempting to privatize, conceal, or weaponize this repository's geometry. | [Examine Litigation Strategy ➡](./vortex-legal-ops88/LITIGATION_STRATEGY.md) |
 
 ---
 
