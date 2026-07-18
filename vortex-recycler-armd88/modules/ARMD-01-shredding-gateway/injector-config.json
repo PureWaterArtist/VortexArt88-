@@ -1,0 +1,31 @@
+{
+  "module_id": "ARMD-01",
+  "module_name": "Shredding_Gateway_Cardioid_Vortex_Intake",
+  "version": "1.0.0-Industrial_Alpha",
+  "geometry_parameters": {
+    "intake_plenum_inner_diameter_mm": 300.0,
+    "cardioid_internal_max_diameter_mm": 450.0,
+    "coaxial_pre_heater_jacket_diameter_mm": 520.0,
+    "exit_throat_interface_diameter_mm": 50.8,
+    "cardioid_curvature_factor_phi": 1.618
+  },
+  "closed_loop_recycling_interface": {
+    "exhaust_steam_re_siphoning_inlet_active": "True",
+    "coaxial_pre_heater_jacket_active": "True",
+    "target_structural_softening_temperature_c": 180.0,
+    "latent_heat_transfer_coefficient_w_m2k": 2200.0
+  },
+  "industrial_profile": {
+    "recommended_material": "Hardened_Inconel_718_Superalloy",
+    "surface_roughness_target_ra_microns": 0.2,
+    "layer_height_mm": 0.15,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics_envelope": {
+    "primary_medium": "Super-Heated_High_Pressure_Vortex_Steam",
+    "target_operating_pressure_psi": 3500.0,
+    "target_disintegration_velocity_m_s": 85.0,
+    "slurry_operating_mass_density_kg_m3": 1150.0
+  }
+}
