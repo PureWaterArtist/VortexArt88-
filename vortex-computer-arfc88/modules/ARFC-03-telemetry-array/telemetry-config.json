@@ -1,0 +1,23 @@
+{
+  "module_id": "ARFC-03",
+  "module_name": "Opto_Isolated_Infrared_Telemetry_Array",
+  "version": "1.1.0-Closed_Loop_Optimized",
+  "optical_sensor_parameters": {
+    "state_tracking_sensor_type": "Infrared_Emitter_Phototransistor_Pair",
+    "infrared_wavelength_nm": 940.0,
+    "emitter_forward_current_ma": 20.0,
+    "phototransistor_collector_emitter_voltage_v": 5.0
+  },
+  "signal_propagation_envelope": {
+    "maximum_propagation_delay_us": 1.5,
+    "opto_isolation_voltage_rating_vrms": 2500.0,
+    "logic_high_output_threshold_vdc": 3.3,
+    "logic_low_output_threshold_vdc": 0.0
+  },
+  "industrial_profile": {
+    "recommended_housing_casing": "Hardened_Cast_Aluminum",
+    "wafer_window_material": "Optical_Grade_Monocrystalline_Quartz",
+    "surface_finish_target_ra_microns": 0.02,
+    "hermetic_seal_method": "Laser_Diffusion_Bonding"
+  }
+}
