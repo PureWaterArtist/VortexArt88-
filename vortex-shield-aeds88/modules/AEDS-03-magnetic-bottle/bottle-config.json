@@ -1,0 +1,25 @@
+{
+  "module_id": "AEDS-03",
+  "module_name": "Magnetic_Bottle_MHD_Confinement_Sleeve",
+  "version": "1.1.0-Impact_Recycling_Optimized",
+  "magnetic_containment": {
+    "magnet_configuration": "High_Intensity_Coaxial_N52_Sleeve",
+    "ring_magnets_count": 6,
+    "peak_magnetic_flux_tesla": 0.65,
+    "magnetic_bore_gap_mm": 50.8,
+    "calculated_lorentz_confinement_g_force": 120.0
+  },
+  "venturi_shock_siphoning": {
+    "axial_vacuum_collar_active": "True",
+    "asymmetric_venturi_throat_diameter_mm": 25.4,
+    "pneumatic_siphoning_efficiency_pct": 94.5,
+    "solid_state_backflow_suppression": "True"
+  },
+  "industrial_profile": {
+    "recommended_material": "Hardened_Inconel_718_Superalloy",
+    "internal_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "surface_roughness_target_ra_microns": 0.02,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  }
+}
