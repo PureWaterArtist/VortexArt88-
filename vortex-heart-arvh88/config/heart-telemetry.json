@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Heart",
   "project_id": "ARVH-88",
-  "version": "1.0.0-Medical_Alpha",
+  "version": "1.1.0-Tesla_Schauberger_Optimized",
   "biological_fluid_bounds": {
     "fluid_type": "Human_Whole_Blood",
     "fluid_density_kg_m3": 1060.0,
@@ -14,6 +14,17 @@
     "atrial_inlet_inner_diameter_mm": 22.0,
     "aortic_outlet_inner_diameter_mm": 20.0,
     "maximum_operating_pressure_mmhg": 160.0
+  },
+  "schauberger_vortex_mechanics": {
+    "centripetal_suction_grooves_active": "True",
+    "egg_profile_eccentricity_ratio": 1.33,
+    "diamagnetic_wall_stabilization": "True",
+    "projected_power_reduction_pct": 22.0
+  },
+  "tesla_valvular_rectification": {
+    "outflow_tesla_valve_stages": 4,
+    "teardrop_loop_return_angle_deg": 34.0,
+    "valveless_backflow_efficiency_pct": 98.4
   },
   "biomedical_electromagnetic_propulsion": {
     "magnet_configuration": "Miniature_N52_Coaxial_Sleeve",
