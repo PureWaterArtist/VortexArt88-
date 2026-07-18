@@ -1,0 +1,31 @@
+{
+  "module_id": "ARMD-03",
+  "module_name": "MHD_Cyclonic_Mass_Classifier_Sleeve",
+  "version": "1.0.0-Industrial_Alpha",
+  "electromagnetic_parameters": {
+    "magnet_configuration": "High_Intensity_Coaxial_N52_Sleeve",
+    "ring_magnets_count": 6,
+    "peak_magnetic_flux_tesla": 0.65,
+    "magnetic_bore_gap_mm": 50.8
+  },
+  "sorting_kinematics": {
+    "electrode_geometry": "Double_Helical_Track",
+    "electrode_material": "Biocompatible_Glassy_Carbon",
+    "helical_pitch_angle_deg": 45.0,
+    "target_centrifugal_separation_g_force": 120.0,
+    "trajectory_split_channels_count": 3
+  },
+  "closed_loop_piezo_regeneration": {
+    "piezo_acoustic_recovery_active": "True",
+    "substrate_material": "PVDF_Polyvinylidene_Fluoride_Film_Stack",
+    "target_noise_dampening_coefficient_db": 42.0,
+    "dielectric_isolation_breakdown_v": 1000.0
+  },
+  "industrial_profile": {
+    "recommended_material": "Hardened_Inconel_718_Superalloy",
+    "internal_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "surface_roughness_target_ra_microns": 0.05,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  }
+}
