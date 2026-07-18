@@ -1,0 +1,39 @@
+{
+  "project_name": "Aetheris_Resodynamic_Fluidic_Computer",
+  "project_id": "ARFC-88",
+  "version": "1.0.0-Computational_Alpha",
+  "micro_fluidic_logic_bounds": {
+    "computational_fluid_medium": "Dry_Nitrogen_Gas_or_Deionized_Water",
+    "operating_fluid_density_kg_m3": 1.16,
+    "kinematic_viscosity_cst_at_20c": 15.5,
+    "target_power_jet_velocity_m_s": 32.5,
+    "coanda_wall_attachment_reynolds_number": 2100.0
+  },
+  "boolean_switching_geometry": {
+    "power_jet_nozzle_width_mm": 0.5,
+    "control_inlet_nozzle_width_mm": 0.15,
+    "coanda_curved_surface_angle_deg": 12.5,
+    "figure_8_and_gate_volume_microliters": 25.0,
+    "splitter_island_distance_multiplier_phi": 1.618
+  },
+  "opto_electronic_telemetry_interface": {
+    "state_tracking_sensor_type": "Infrared_Emitter_Phototransistor_Pair",
+    "infrared_wavelength_nm": 940.0,
+    "opto_isolation_voltage_rating_vrms": 2500.0,
+    "maximum_signal_propagation_delay_us": 1.5,
+    "logic_high_threshold_vdc": 3.3
+  },
+  "energy_recycling_and_thermal_jacket": {
+    "piezo_acoustic_noise_recovery": "True",
+    "bismuth_telluride_seebeck_layer": "True",
+    "target_vibration_dampening_coefficient_db": 34.0,
+    "harvested_quiescent_power_mw": 5.2
+  },
+  "fabrication_profile": {
+    "substrate_wafer_material": "Optical_Grade_Monocrystalline_Quartz_or_PEEK",
+    "channel_etch_depth_microns": 250.0,
+    "surface_roughness_target_ra_microns": 0.02,
+    "hermetic_seal_method": "Laser_Diffusion_Bonding",
+    "operational_burst_rating_psi": 2500.0
+  }
+}
