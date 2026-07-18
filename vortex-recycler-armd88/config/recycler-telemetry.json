@@ -1,0 +1,37 @@
+{
+  "project_name": "Aetheris_Resodynamic_Maelstrom_Disintegrator",
+  "project_id": "ARMD-88",
+  "version": "1.0.0-Industrial_Alpha",
+  "solid_waste_dissociation_bounds": {
+    "primary_fluidic_medium": "Super-Heated_High_Pressure_Vortex_Steam",
+    "maximum_input_particle_size_mm": 150.0,
+    "slurry_operating_mass_density_kg_m3": 1150.0,
+    "target_disintegration_velocity_m_s": 85.0,
+    "critical_cavitation_shear_stress_mpa": 12.5
+  },
+  "maelstrom_chamber_geometry": {
+    "intake_plenum_inner_diameter_mm": 300.0,
+    "hyperbolic_shaft_exit_diameter_mm": 50.8,
+    "figure_8_cavitation_core_volume_liters": 5.0,
+    "fibonacci_contour_reduction_ratio": 1.618
+  },
+  "mhd_mass_classification_matrix": {
+    "sorting_sleeve_length_mm": 600.0,
+    "coaxial_n52_magnetic_flux_tesla": 0.65,
+    "sorting_helical_pitch_angle_deg": 45.0,
+    "target_centrifugal_separation_g_force": 120.0,
+    "trajectory_split_channels_count": 3
+  },
+  "closed_loop_recovery_and_pre_heating": {
+    "exhaust_steam_re_siphoning_active": "True",
+    "axial_vacuum_collar_efficiency_pct": 94.5,
+    "coaxial_counter_current_pre_heater": "True",
+    "seebeck_waste_heat_recovery": "True"
+  },
+  "industrial_profile": {
+    "chassis_housing_material": "Hardened_Inconel_718_Superalloy",
+    "internal_bore_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "operational_pressure_rating_psi": 3500.0,
+    "ultimate_burst_safety_psi": 8750.0
+  }
+}
