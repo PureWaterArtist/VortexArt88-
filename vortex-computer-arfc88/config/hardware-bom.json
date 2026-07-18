@@ -1,0 +1,59 @@
+{
+  "component_id": "ARFC-88-BOM-COMPUTER-ULTIMATE",
+  "name": "Project ARFC-88 Fluidic Computer Wafer Bill of Materials",
+  "version": "1.1.0-Closed_Loop_Optimized",
+  "computational_substrates_and_wafer_optics": [
+    {
+      "item": "Optical-Grade Monocrystalline Quartz Wafers",
+      "specification": "Diameter: 100mm, Thickness: 500 microns, Double-Side Polished, Z-Cut orientation, Surface Roughness Ra < 0.02 microns",
+      "purpose": "Primary raw substrate for deep-reactive ion etching (DRIE) the logic channels of the ARFC-01 switch and ARFC-02 conjunction gates",
+      "quantity": 2
+    },
+    {
+      "item": "Medical-Grade PEEK Optima Polymer Billets",
+      "specification": "Certified ISO 10993 Long-Term Bio-Inert Matrix, Extruded Sheet, Thickness: 10mm",
+      "purpose": "Precision CNC micro-machined to form the secondary non-conductive dielectric manifold backing plates and manifold interfaces",
+      "quantity_kg": 0.5
+    }
+  ],
+  "opto_electronic_telemetry_and_switching_silicon": [
+    {
+      "item": "High-Speed 940nm Infrared Emitting Diodes (LEDs)",
+      "specification": "Peak Wavelength: 940nm, Forward Current: 20mA, Radiant Intensity: 15mW/sr, Sub-miniature T-3/4 SMD Package",
+      "purpose": "Populates the high-side transmitter array inside the ARFC-03 housing to project optical logic tracking beams across the quartz channels",
+      "quantity": 8
+    },
+    {
+      "item": "High-Sensitivity NPN Silicon Phototransistors",
+      "specification": "Collector-Emitter Voltage: 30V, Collector Current: 50mA, Rise/Fall Time: 1.5 microseconds, Matching SMD Package",
+      "purpose": "Populates the low-side receiver array to translate the broken optical beam profiles into 3.3V DC digital logic changes",
+      "quantity": 8
+    },
+    {
+      "item": "Broadcom HCPL-4504 High-Speed Optocoupler ICs",
+      "specification": "Isolation Voltage: 2500V RMS, Common Mode Rejection: 15kV/microsecond, SOT-8 SMD Package",
+      "purpose": "Provides complete opto-isolation buffering on the telemetry output lines to safeguard upstream tracking microcontrollers",
+      "quantity": 4
+    }
+  ],
+  "solid_state_harvesting_and_hermetic_sealants": [
+    {
+      "item": "Bismuth Telluride (Bi2Te3) Seebeck Thermoelectric Micro-Pellets",
+      "specification": "P-type and N-type Semiconductor Elements, Dimension: 1mm x 1mm x 1mm, Gold-Plated Copper Contacts",
+      "purpose": "Arrayed concentrically along the outer protective housing boundaries to drive the 5.2 mW thermal flywheel loop",
+      "quantity_pairs": 16
+    },
+    {
+      "item": "Piezoelectric PVDF High-Polymer Metallized Film Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, High-Temperature Metallized Contact Pads",
+      "purpose": "Constructs the secondary acoustic noise recovery and dampening ring behind the monocrystalline quartz logic wafer layer",
+      "quantity_sheets": 2
+    },
+    {
+      "item": "High-Temperature Polyimide Structural Bonding Resin",
+      "specification": "Dielectric Strength: 250 kV/mm, Maximum Continuous Operating Temperature: 400C, Gas-Tight Hermetic Fluid Seal",
+      "purpose": "Applied via cleanroom screen-printing to establish a leak-free bounding seal between the quartz wafer and the PEEK manifold plate",
+      "quantity_tubes": 1
+    }
+  ]
+}
