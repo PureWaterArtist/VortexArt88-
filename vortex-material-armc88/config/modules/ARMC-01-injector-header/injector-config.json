@@ -1,7 +1,7 @@
 {
   "module_id": "ARMC-01",
   "module_name": "Injector_Header_Cardioid_Supercritical_Fluid_Splitter",
-  "version": "1.1.0-Thermal_Shield_Optimized",
+  "version": "1.2.0-Closed_Loop_Recycling",
   "geometry_parameters": {
     "feedstock_input_bore_diameter_mm": 6.35,
     "cardioid_internal_max_diameter_mm": 24.0,
@@ -15,11 +15,17 @@
     "thermal_isolation_coefficient_w_mk": 0.14,
     "solid_state_backflow_suppression": "True"
   },
+  "coaxial_thermal_siphon_recycling": {
+    "exhaust_re_siphoning_inlet_active": "True",
+    "coaxial_pre_heater_jacket_diameter_mm": 32.0,
+    "target_viscosity_reduction_pct": 14.5,
+    "asymmetric_venturi_merging_jets": 1
+  },
   "industrial_profile": {
     "recommended_material": "Implant_Grade_Titanium_Ti6Al4V_or_Inconel_718",
     "surface_roughness_target_ra_microns": 0.1,
     "layer_height_mm": 0.12,
-    "perimeter_wall_loops": 8,
+    "perimeter_wall_loops": 10,
     "infill_density_percent": 100
   },
   "fluid_dynamics_envelope": {
