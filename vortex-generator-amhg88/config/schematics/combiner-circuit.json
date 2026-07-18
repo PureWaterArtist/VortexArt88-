@@ -1,0 +1,43 @@
+{
+  "schematic_id": "AMHG-COMB-ELEC-01",
+  "name": "Atmospheric Generator High-Voltage Isolation and Energy Combiner Board",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "electrical_envelope": {
+    "channel_1_static_input_vdc": 75000.0,
+    "channel_2_seebeck_input_vdc": 48.0,
+    "channel_3_piezo_input_vac": 250.0,
+    "stabilized_output_bus_vdc": 400.0,
+    "dielectric_isolation_barrier_v": 5000.0
+  },
+  "circuit_bill_of_materials": [
+    {
+      "component_ref": "U1_THRU_U4",
+      "name": "High-Voltage Isolated Flyback Step-Down Switching Converters",
+      "specification": "Custom High-Ratio Solid-State Step Down, Input up to 100kV DC, Isolated Output set to 400V DC",
+      "purpose": "Bleeds and tethers the raw 75,000V DC atmospheric static charge coming from the AMHG-01 induction core down into the stable 400V DC grid rail"
+    },
+    {
+      "component_ref": "BR1_THRU_BR8",
+      "name": "Ultra-High Voltage Glass Passivated Bridge Rectifiers",
+      "specification": "HD06-T (600V / 1A), Fast Recovery, Micro-SMD Package",
+      "purpose": "Flips the massive high-frequency 24.5 kHz acoustic hum and atmospheric percussive vibration waves from the 8 PVDF loops into clean DC current"
+    },
+    {
+      "component_ref": "BOOST1",
+      "name": "Synchronous High-Efficiency Step-Up Boost Converter Module",
+      "specification": "Custom 48V to 400V DC Boost, Continuous 2A capacity, Interlocking Gate Driver",
+      "purpose": "Steps up the high-current thermal energy collected by the 128 Seebeck pairs to meet the 400V common grid bus threshold"
+    },
+    {
+      "component_ref": "MOV1_THRU_MOV4",
+      "name": "Metal Oxide Varistors (Surge Protectors)",
+      "specification": "V20E420P (420V AC / 560V DC), Peak Surge Current 10,000A, Heavy Duty Radial Disc",
+      "purpose": "Passively clamps transient voltage spikes on the 400V grid bus if lightning strikes or atmospheric overpressure events bypass the induction gates"
+    }
+  ],
+  "wiring_topology": {
+    "static_channel_routing": "75kV_Static_Leads_Pass_Through_U1-U4_Flyback_Isolation_Transformers_To_Step_Down_To_400V_DC_Grid_Rail",
+    "thermal_channel_routing": "Seebeck_Copper_Bus_Bars_Feed_BOOST1_Step_Up_Module_To_Elevate_Voltage_To_400V_DC_Grid_Rail",
+    "acoustic_channel_routing": "PVDF_Acoustic_Leads_Feed_BR1-BR8_Rectifiers_Output_Filters_Directly_Into_400V_DC_Grid_Rail_Through_TVS_Clamps"
+  }
+}
