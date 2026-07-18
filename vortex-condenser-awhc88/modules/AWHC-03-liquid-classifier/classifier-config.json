@@ -1,0 +1,30 @@
+{
+  "module_id": "AWHC-03",
+  "module_name": "Liquid_Classifier_Cyclonic_Separation_Manifold",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "separation_kinematics": {
+    "separation_geometry": "Fibonacci_Logarithmic_Spiral_Manifold",
+    "chamber_max_diameter_mm": 50.8,
+    "target_centrifugal_separation_g_force": 65.0,
+    "liquid_extraction_lip_clearance_mm": 1.5,
+    "trajectory_split_channels_count": 2
+  },
+  "closed_loop_exhaust_re_siphoning": {
+    "cold_air_exhaust_re_siphoning_active": "True",
+    "axial_vacuum_collar_efficiency_pct": 94.5,
+    "backflow_suppression_valve": "Valveless_Geometric_Trap"
+  },
+  "closed_loop_piezo_regeneration": {
+    "piezo_acoustic_recovery_active": "True",
+    "substrate_material": "PVDF_Polyvinylidene_Fluoride_Film_Stack",
+    "target_noise_dampening_coefficient_db": 34.0,
+    "dielectric_isolation_breakdown_v": 1000.0
+  },
+  "industrial_profile": {
+    "recommended_material": "Medical_Grade_PEEK_Optima_Polymer",
+    "internal_liner_substrate": "Titanium_Alloy_Ti6Al4V_Grade_23",
+    "surface_roughness_target_ra_microns": 0.05,
+    "perimeter_wall_loops": 10,
+    "infill_density_percent": 100
+  }
+}
