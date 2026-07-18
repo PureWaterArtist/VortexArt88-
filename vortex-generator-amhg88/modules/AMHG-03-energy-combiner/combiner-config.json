@@ -1,0 +1,30 @@
+{
+  "module_id": "AMHG-03",
+  "module_name": "Energy_Combiner_Multi_Harvesting_Manifold",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "electrical_collection_parameters": {
+    "ion_static_input_threshold_vdc": 75000.0,
+    "dielectric_isolation_barrier_v": 5000.0,
+    "bus_bar_material": "99.99_Pure_Oxygen_Free_Electronic_Copper",
+    "maximum_continuous_power_handling_kw": 25.0
+  },
+  "solid_state_piezo_harvesting": {
+    "piezo_acoustic_recovery_active": "True",
+    "substrate_material": "PVDF_Polyvinylidene_Fluoride_Film_Stack",
+    "target_noise_dampening_coefficient_db": 42.0,
+    "resonance_harvesting_frequency_khz": 24.5
+  },
+  "thermoelectric_seebeck_matrix": {
+    "seebeck_generation_active": "True",
+    "bismuth_telluride_pairs_count": 128,
+    "target_operating_temperature_delta_c": 180.0,
+    "projected_thermal_conversion_efficiency_pct": 14.5
+  },
+  "industrial_profile": {
+    "recommended_outer_shell_material": "Hardened_Inconel_718_Superalloy",
+    "internal_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "surface_roughness_target_ra_microns": 0.02,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  }
+}
