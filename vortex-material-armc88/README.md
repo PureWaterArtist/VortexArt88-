@@ -13,7 +13,7 @@ To maintain absolute structural and mathematical fidelity before executing expen
 
 | 🔬 Holographic 3D CAD Blueprint Schematic | 🩺 Cleanroom Workbench Assembly & Calibration |
 | :---: | :---: |
-| ![ARMC-88 CAD Blueprint](./Media/armc88-design.png) | ![ARMC-88 Cleanroom Testing](./Media/armc88-model.png) |
+| ![ARMC-88 CAD Blueprint](./media/armc88-design.png) | ![ARMC-88 Cleanroom Testing](./media/armc88-model.png) |
 | **Figure A:** Internal micro-Tesla steps, cardioid splitters, and Figure-8 counter-rotational cores. | **Figure B:** Full system undergoing 7,500 PSI hydrostatic validation checks inside an ISO Class 5 cleanroom. |
 
 ---
@@ -24,7 +24,7 @@ To maintain absolute structural and mathematical fidelity before executing expen
 vortex-material-armc88/
 ├── README.md                      # This file (Master Industrial Index Blueprint)
 ├── arvt-master-orchestrator.py    # Standalone 3-node velocity tracking calculator engine
-├── Media/                         # High-fidelity visual reference rendering assets
+├── media/                         # High-fidelity visual reference rendering assets
 │   ├── README.md                  # Media metadata and layout guideline manual
 │   ├── armc88-design.png          # Holographic 3D CAD blueprint schematic
 │   ├── armc88-model.png           # Cleanroom workbench assembly calibration
@@ -68,10 +68,10 @@ To achieve maximum thermodynamic balance, Project ARMC-88 captures and recycles 
 
 ---
 
-### 📊 Closed-Loop Resodynamic Flow Comparison
+## 📊 Closed-Loop Resodynamic Flow Comparison
 The fluid-dynamic grid below maps the stark structural contrast between traditional high-fatigue, open-loop multi-anvil brute-force diamond presses and the self-sustaining, zero-waste resodynamic loop of the ARMC-88 system:
 
-![ARMC-88 Industrial Superiority Comparison](./Media/armc88-compare.png)
+![ARMC-88 Industrial Superiority Comparison](./media/armc88-compare.png)
 
 ---
 
