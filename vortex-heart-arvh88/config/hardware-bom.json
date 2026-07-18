@@ -1,0 +1,83 @@
+{
+  "component_id": "ARVH-88-BOM-MEDICAL-ULTIMATE",
+  "name": "Project ARVH-88 Total Artificial Heart Hardware Bill of Materials",
+  "version": "1.1.0-Tesla_Schauberger_Optimized",
+  "implant_grade_metallurgy_and_substrates": [
+    {
+      "item": "Ti6Al4V ELI Grade 23 Titanium Powder",
+      "specification": "Extra Low Interstitial Alloy, Spherical Powder 15-45 microns, ASTM F136 Standard",
+      "purpose": "Primary raw material for Direct Metal Laser Sintering (DMLS) of the ARVH-03 Ventricle Core",
+      "quantity_kg": 1.0
+    },
+    {
+      "item": "Medical-Grade PEEK Optima Polymer Filament",
+      "specification": "Certified ISO 10993 Long-Term Blood Contact, Diameter: 1.75mm",
+      "purpose": "Primary raw material for micro-extruding the non-conductive dielectric ARVH-02 sleeve",
+      "quantity_spools": 1
+    },
+    {
+      "item": "High-Purity Vitreous Glassy Carbon Rods",
+      "specification": "Diameter: 3.0mm, Length: 100mm, High Density, Zero Porosity, Glassy Smooth Finish",
+      "purpose": "Micro-machined to form the flush-mount, non-thrombogenic double-helical propulsion electrode tracks",
+      "quantity": 4
+    },
+    {
+      "item": "High-Purity Copper Electroplating Solution",
+      "specification": "99.999% Pure Acid Copper Bath, Semiconductor/Electronic Grade",
+      "purpose": "Applies the 5-micron diamagnetic stabilization boundary beneath the blood-contact coating",
+      "quantity_liters": 0.5
+    }
+  ],
+  "electrodynamic_and_piezo_harvesting_hardware": [
+    {
+      "item": "Miniature N52 Neodymium Ring Sectors",
+      "specification": "Grade N52 Rare-Earth, Specialized Coaxial Segment, Axial Magnetization, 0.45 Tesla Peak Flux",
+      "purpose": "Provides the cross-field magnetic induction lines wrapping the ARVH-02 propulsion sleeve",
+      "quantity": 4
+    },
+    {
+      "item": "Piezoelectric PVDF Film Stack Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, Vacuum-Deposited Silver Electrodes",
+      "purpose": "Populates the outer energy-harvesting muscular jacket layers to translate thoracic pulse strains",
+      "quantity_sheets": 5
+    },
+    {
+      "item": "TLV75533P LDO Voltage Regulators",
+      "specification": "Fixed 3.3V Output, 500mA Continuous Capacity, Ultra-Low Quiescent Current, SOT-23 Package",
+      "purpose": "Clamps propulsion battery loops to a strict maximum ceiling to completely neutralize tissue heating",
+      "quantity": 2
+    },
+    {
+      "item": "HD01-T Sub-Miniature Bridge Rectifiers",
+      "specification": "SMD Mini-DIP Package, Forward Current: 1A, Peak Repetitive Reverse Voltage: 1000V",
+      "purpose": "Flips variable high-voltage alternating current muscle compression pulses into raw harvesting DC",
+      "quantity": 2
+    },
+    {
+      "item": "PESD3V3L1BA Bidirectional TVS Clamps",
+      "specification": "Breakdown Voltage: 3.3V, Ultra-Low Cap (<1pF), SOD-323 Package",
+      "purpose": "Absorbs and short-circuits microscopic fluidic static charges along the blood tracks",
+      "quantity": 4
+    }
+  ],
+  "surgical_consumables_and_seals": [
+    {
+      "item": "Medical-Grade EPDM Rubber Cord",
+      "specification": "Concentric Dual O-Ring Profile, Cross-Section: 1.5mm, Hardness Durometer: 70A, USP Class VI",
+      "purpose": "Establishes a permanent hermetic pressure seal boundary at inter-chamber chassis split-lines",
+      "quantity_meters": 1.0
+    },
+    {
+      "item": "Paralene-C Dimer Pellets",
+      "specification": "High-Purity Poly(chloro-p-xylylene), USP Class VI Biocompatible Dielectric Insulation",
+      "purpose": "Deposited via vacuum chamber to create the seamless 50-micron uniform blood-contact isolation barrier",
+      "quantity_grams": 100.0
+    },
+    {
+      "item": "Medical-Grade Platinum-Cured Silicone Adhesive",
+      "specification": "NuSil MED-1000 Standard, Translucent, High-Tensile Structural Bond, USP Class VI",
+      "purpose": "Hermetically seals external electronic wiring outlets exiting the titanium enclosure case",
+      "quantity_tubes": 1
+    }
+  ]
+}
