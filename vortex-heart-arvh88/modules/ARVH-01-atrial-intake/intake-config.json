@@ -1,0 +1,24 @@
+{
+  "module_id": "ARVH-01",
+  "module_name": "Atrial_Intake_Cardioid_Valveless_Rectifier",
+  "version": "1.0.0-Medical_Alpha",
+  "geometry_parameters": {
+    "atrial_inlet_diameter_mm": 22.0,
+    "cardioid_throat_constriction_mm": 14.5,
+    "tesla_diode_blocking_loops_count": 2,
+    "asymmetric_return_angle_deg": 45.0,
+    "cardioid_curvature_factor_phi": 1.618
+  },
+  "biocompatibility_profile": {
+    "recommended_material": "Medical_Grade_PEEK_or_Titanium_Ti6Al4V",
+    "surface_roughness_target_ra_microns": 0.05,
+    "layer_height_mm": 0.08,
+    "perimeter_wall_loops": 8,
+    "infill_density_percent": 100
+  },
+  "hemodynamic_envelope": {
+    "peak_forward_flow_rate_lpm": 5.5,
+    "maximum_allowable_shear_stress_pa": 150.0,
+    "backflow_leakage_coefficient_target": 0.02
+  }
+}
