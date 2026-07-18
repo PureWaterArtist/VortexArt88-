@@ -1,5 +1,7 @@
 # Aetheris Resodynamic Vortex Tower (Project ARVT-88)
 
+![Vortex Resodynamic Tower Architectural Layout](Media/avrt88design.png)
+
 ## 🗼 System Manifest & Core Philosophy
 The **Aetheris Resodynamic Vortex Tower (Project ARVT-88)** is a completely decentralized, solid-state, gravity-driven fluid-induction and multi-layer kinetic energy harvesting matrix. While traditional fluid mechanics relies on brute-force mechanical pumps, external fossil fuels, and linear piping layouts that create heavy back-pressure and turbulent bottlenecks, Project ARVT-88 yields entirely to the geometry of nature. 
 
@@ -8,6 +10,8 @@ By aligning the architecture vertically, the system harnesses the continuous gra
 The system extracts clean, multi-source solid-state electricity from fluid flow, light waves, physical thumping, and atmospheric friction, while concurrently outputting revitalized, hyper-oxygenated, and chemically fixed vital water. 
 
 Project ARVT-88 is designed to function as an open-source, harmonizing technology—providing a practical structural blueprint that transforms humanity from passive consumers into active **Mobile Doctors for the Planet**, capable of restoring degraded soils, lowering high watershed salinity, and revitalizing local biospheres wherever they step.
+
+![Vortex Resodynamic Tower Prototype Layout](Media/avrt88proto.png)
 
 ## 🗼 Core Project Systems Inventory: Project ARVT-88
 
