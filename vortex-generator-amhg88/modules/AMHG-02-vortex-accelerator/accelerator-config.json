@@ -1,0 +1,31 @@
+{
+  "module_id": "AMHG-02",
+  "module_name": "Vortex_Accelerator_Hyperbolic_Contraction_Throat",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "geometry_parameters": {
+    "intake_interface_diameter_mm": 150.0,
+    "vortex_throat_diameter_mm": 50.8,
+    "chamber_total_height_mm": 180.0,
+    "fibonacci_contour_phi": 1.618,
+    "sawtooth_step_depth_microns": 250.0
+  },
+  "kinetic_acceleration_envelope": {
+    "target_operating_fluid": "Ambient_Atmospheric_Air",
+    "target_internal_vortex_velocity_m_s": 85.0,
+    "operating_vacuum_drop_psi": 12.5,
+    "boundary_layer_reynolds_number": 2100.0
+  },
+  "closed_loop_thermal_viscosity_reclamation": {
+    "exhaust_steam_re_routing_active": "True",
+    "coaxial_pre_heater_jacket_active": "True",
+    "target_viscosity_reduction_pct": 14.5,
+    "latent_heat_transfer_coefficient_w_m2k": 1850.0
+  },
+  "industrial_profile": {
+    "recommended_outer_shell_material": "Hardened_Inconel_718_Superalloy",
+    "internal_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "surface_roughness_target_ra_microns": 0.02,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  }
+}
