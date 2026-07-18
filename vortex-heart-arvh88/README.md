@@ -6,7 +6,7 @@ The **Aetheris Resodynamic Vortex Heart (Project ARVH-88)** is an open-source, v
 ### 📊 Architectural Fluid-Dynamic Comparison
 The graphic below demonstrates the stark contrast between traditional mechanical pump failure modes and the frictionless, valveless geometric flow pathways of the ARVH-88 system:
 
-![ARVH-88 Design Comparison](./Media/arhv88-compare.png)
+![ARVH-88 Design Comparison](../Media/arhv88-compare.png)
 
 Project ARVH-88 replaces mechanical components with **Scale-Invariant Resodynamic Geometry**. By shifting the internal chamber architecture into specialized non-Abelian fluidic tracks, human whole blood is shaped into a continuous, self-propelling helical vortex cascade. The system maintains a healthy physiological pulse and blood velocity without crushing or smashing fragile red blood cells, introducing a new era of frictionless, valveless cardiovascular propulsion.
 
