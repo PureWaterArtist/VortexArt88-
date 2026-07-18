@@ -57,7 +57,7 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 <br>
 
-| **🚨 ACTIVE LEGAL WARNING** | **CRITICAL AUDIT NOTICE:** The documented international litigation strategy and enforcement protocols that will be deployed to freeze factories and sue any entity attempting to privatize, conceal, or weaponize this repository's geometry. | [Examine Litigation Strategy ➡](./vortex-legal-ops88/LITIGATION_STRATEGY.md) |
+ **🚨 ACTIVE LEGAL WARNING** | *The documented international litigation strategy and enforcement protocols that will be deployed to freeze factories and sue any entity attempting to privatize, conceal, or weaponize this repository's geometry.* | [Examine Litigation Strategy ➡](./vortex-legal-ops88/LITIGATION_STRATEGY.md) 
 
 ---
 
