@@ -1,0 +1,25 @@
+{
+  "module_id": "ARMC-01",
+  "module_name": "Injector_Header_Cardioid_Supercritical_Fluid_Splitter",
+  "version": "1.0.0-Industrial_Alpha",
+  "geometry_parameters": {
+    "feedstock_input_bore_diameter_mm": 6.35,
+    "cardioid_internal_max_diameter_mm": 24.0,
+    "asymmetric_loop_split_count": 2,
+    "exit_throat_interface_diameter_mm": 4.5,
+    "cardioid_curvature_factor_phi": 1.618
+  },
+  "industrial_profile": {
+    "recommended_material": "Implant_Grade_Titanium_Ti6Al4V_or_Inconel_718",
+    "surface_roughness_target_ra_microns": 0.1,
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 8,
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics_envelope": {
+    "feedstock_mass_density_kg_m3": 770.0,
+    "target_operating_pressure_psi": 5000.0,
+    "maximum_input_volumetric_rate_lpm": 1.25,
+    "back_pressure_coefficient_target": 0.0
+  }
+}
