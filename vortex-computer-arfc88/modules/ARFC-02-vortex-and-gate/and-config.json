@@ -1,0 +1,24 @@
+{
+  "module_id": "ARFC-02",
+  "module_name": "Vortex_Collision_Conjunction_And_Gate",
+  "version": "1.0.0-Computational_Alpha",
+  "geometry_parameters": {
+    "figure_8_and_gate_volume_microliters": 25.0,
+    "input_channel_width_mm": 0.35,
+    "conjunction_exit_throat_width_mm": 0.25,
+    "fibonacci_contour_phi": 1.618
+  },
+  "conjunction_dynamics_envelope": {
+    "target_operating_fluid": "Dry_Nitrogen_Gas",
+    "peak_operating_pressure_psi": 45.0,
+    "critical_conjunction_velocity_m_s": 32.5,
+    "standing_wave_stabilization": "Active"
+  },
+  "fabrication_profile": {
+    "recommended_wafer_substrate": "Optical_Grade_Monocrystalline_Quartz",
+    "channel_etch_depth_microns": 250.0,
+    "surface_roughness_target_ra_microns": 0.02,
+    "perimeter_wall_loops": 6,
+    "infill_density_percent": 100
+  }
+}
