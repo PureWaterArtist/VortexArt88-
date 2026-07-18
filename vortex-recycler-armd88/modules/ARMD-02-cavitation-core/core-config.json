@@ -1,0 +1,30 @@
+{
+  "module_id": "ARMD-02",
+  "module_name": "Cavitation_Core_De_Polymerizer_Chassis",
+  "version": "1.0.0-Industrial_Alpha",
+  "geometry_parameters": {
+    "collision_chamber_volume_liters": 5.0,
+    "figure_8_intersection_angle_deg": 180.0,
+    "chamber_total_height_mm": 180.0,
+    "fibonacci_contour_phi": 1.618
+  },
+  "cavitation_energy_envelope": {
+    "transient_implosion_shear_stress_mpa": 12.5,
+    "localized_plasma_spark_temperature_c": 2000.0,
+    "operating_pressure_ceiling_psi": 3500.0,
+    "thrombosis_stagnation_prevention": "True"
+  },
+  "closed_loop_seebeck_harvesting": {
+    "seebeck_generation_active": "True",
+    "bismuth_telluride_pellets_count": 64,
+    "bismuth_telluride_layer_thickness_mm": 5.0,
+    "projected_thermal_conversion_efficiency_pct": 11.8
+  },
+  "industrial_profile": {
+    "recommended_material": "Hardened_Inconel_718_Superalloy",
+    "internal_liner_substrate": "Silicon_Nitride_Ceramic_Si3N4",
+    "surface_roughness_target_ra_microns": 0.05,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  }
+}
