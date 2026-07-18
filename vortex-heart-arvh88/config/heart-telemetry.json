@@ -1,0 +1,30 @@
+{
+  "project_name": "Aetheris_Resodynamic_Vortex_Heart",
+  "project_id": "ARVH-88",
+  "version": "1.0.0-Medical_Alpha",
+  "biological_fluid_bounds": {
+    "fluid_type": "Human_Whole_Blood",
+    "fluid_density_kg_m3": 1060.0,
+    "kinematic_viscosity_cst_at_37c": 4.0,
+    "maximum_allowable_shear_stress_pa": 150.0,
+    "critical_hemolysis_velocity_limit_m_s": 2.5
+  },
+  "thoracic_geometric_constraints": {
+    "total_heart_volume_displacement_ml": 450.0,
+    "atrial_inlet_inner_diameter_mm": 22.0,
+    "aortic_outlet_inner_diameter_mm": 20.0,
+    "maximum_operating_pressure_mmhg": 160.0
+  },
+  "biomedical_electromagnetic_propulsion": {
+    "magnet_configuration": "Miniature_N52_Coaxial_Sleeve",
+    "peak_magnetic_flux_tesla": 0.45,
+    "electrode_geometry": "Micro_Double_Helical_Track",
+    "propulsion_pulse_frequency_bpm": 72.0,
+    "maximum_safe_driving_voltage_vdc": 3.3
+  },
+  "piezo_muscular_harvesting": {
+    "substrate_material": "PVDF_Polyvinylidene_Fluoride_Film_Stack",
+    "biocompatible_encapsulation": "Medical_Grade_Titanium_Ti6Al4V",
+    "target_energy_flywheel_generation_mw": 15.0
+  }
+}
