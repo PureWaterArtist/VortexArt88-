@@ -1,7 +1,7 @@
 {
   "project_name": "Aetheris_Resodynamic_Vortex_Crystallizer",
   "project_id": "ARMC-88",
-  "version": "1.2.0-Closed_Loop_Optimized",
+  "version": "1.3.0-Absolute_Airtight",
   "carbon_phase_transition_bounds": {
     "feedstock_carrier_medium": "Supercritical_Carbon_Dioxide_With_Methane_Radicals",
     "feedstock_mass_density_kg_m3": 770.0,
@@ -19,6 +19,8 @@
   },
   "closed_loop_recycling_matrix": {
     "exhaust_gas_re_siphoning_active": "True",
+    "return_jacket_minimum_backpressure_psi": 1200.0,
+    "inline_amorphous_soot_mesh_filtration": "True",
     "seebeck_thermoelectric_generation": "True",
     "bismuth_telluride_layer_thickness_mm": 3.5,
     "piezo_acoustic_regenerative_dampening": "True",
@@ -29,6 +31,7 @@
     "cavitation_excitation_frequency_khz": 24.5,
     "schumann_harmonic_multiplier_hz": 78.3,
     "piezo_transducer_clamping_force_kn": 12.5,
+    "opto_isolated_differential_data_shield": "True",
     "maximum_safe_driving_voltage_vac": 48.0
   },
   "industrial_profile": {
