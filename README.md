@@ -191,6 +191,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **🫀 Project ARVH-88** | Valveless, core-propelled biomimetic Total Artificial Heart (TAH) utilizing solid-state MHD propulsion, Schauberger centripetal suction, and 4-stage inline Tesla valvular out-rectifiers. | [Explore the Heart ➡](./vortex-heart-arvh88) |
 | **🗼 Project ARVT-88** | Complete solid-state gravity fluid engine and 11-stage advanced energy harvesting mesh network layout. | [Explore the Tower ➡](./vortex-tower-arvt88) |
 | **📦 ARVT-88 Components** | The master folder housing all 11 physical resodynamic hardware gates and vector script modules. | [Jump to Components ➡](./vortex-tower-arvt88/modules) |
+| **💻 Project ARFC-88** | Solid-state, valveless fluidic computing network utilizing Coanda-effect wall-attachment and Figure-8 collision singularities to execute pure Boolean logic with absolute 100% EMP immunity. | [Enter the Computer ➡](./vortex-computer-arfc88) |
 | **📦 Siphon Components** | An exhaustive 56-node geometric matrix cataloging what every fluid regulator does and specifying exactly what the python simulation scripts are used to verify. | [Jump to Components Library ➡](./components/COMPONENTS_MANIFEST.md) |
 | **🤯 Stratosphere (10,000m)** | Regenerative farming, industrial data centers, and ecosystem cooling. | [Jump to Infrastructure Ideas ➡️](#infrastructure-section) |
 | **📚 Historical Horizon** | Tesla, Schauberger, and the anti-monopoly lineage of the public commons. | [Jump to History ➡️](#history-section) |
