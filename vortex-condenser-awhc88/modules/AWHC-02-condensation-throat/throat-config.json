@@ -1,0 +1,30 @@
+{
+  "module_id": "AWHC-02",
+  "module_name": "Condensation_Throat_Hyperbolic_Venturi_Core",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "geometry_parameters": {
+    "venturi_throat_diameter_mm": 12.0,
+    "chamber_total_height_mm": 120.0,
+    "fibonacci_contour_phi": 1.618,
+    "titanium_liner_thickness_mm": 1.0
+  },
+  "dew_point_thermal_envelope": {
+    "active_thermoelectric_cooling": "True",
+    "target_dew_point_temperature_c": 4.0,
+    "operating_pressure_drop_psi": 8.5,
+    "thrombosis_stagnation_prevention": "True"
+  },
+  "closed_loop_latent_heat_recovery": {
+    "latent_heat_reclamation_active": "True",
+    "seebeck_regeneration_enabled": "True",
+    "bismuth_telluride_pairs_count": 32,
+    "projected_thermal_conversion_efficiency_pct": 14.5
+  },
+  "industrial_profile": {
+    "recommended_material": "Medical_Grade_PEEK_Optima_Polymer",
+    "internal_liner_substrate": "Titanium_Alloy_Ti6Al4V_Grade_23",
+    "surface_roughness_target_ra_microns": 0.05,
+    "perimeter_wall_loops": 10,
+    "infill_density_percent": 100
+  }
+}
