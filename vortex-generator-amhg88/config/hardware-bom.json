@@ -1,0 +1,59 @@
+{
+  "component_id": "AMHG-88-BOM-GENERATOR-ULTIMATE",
+  "name": "Project AMHG-88 Multi-Harvesting Generator Industrial Bill of Materials",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "structural_containment_and_heavy_metallurgy": [
+    {
+      "item": "Inconel 718 Spherical Superalloy Powder",
+      "specification": "Particle Size: 15-45 microns, Vacuum Induction Melted, ASTM F3055 Standard",
+      "purpose": "Primary metal substrate for Direct Metal Laser Sintering (DMLS) of the high-strength AMHG-01 convective solar intake mouth and AMHG-02 accelerator casing",
+      "quantity_kg": 42.5
+    },
+    {
+      "item": "Silicon Nitride (Si3N4) Ceramic Isolation Sleeves",
+      "specification": "Gas-Pressure Sintered (GPSS) Solid Blank Sleeve, High Density, Dielectric Breakdown Strength > 25 kV/mm, ASTM C1161 Standard",
+      "purpose": "Provides the ultra-hard, non-conductive internal blast shield lining to entirely isolate the 75,000V DC static fields from grounding against the chassis",
+      "quantity": 3
+    }
+  ],
+  "multi_source_electrical_harvesting_and_bus_bars": [
+    {
+      "item": "Oxygen-Free Electronic (OFE) Copper Bus-Bars",
+      "specification": "99.99% Pure High-Conductivity Copper, Heavy Gauge, Thickness: 2.0mm, Dead-Soft Temper Standard",
+      "purpose": "Forms the primary high-voltage positive and negative collection grids within the AMHG-03 manifold to safely channel drawn atmospheric currents",
+      "quantity_meters": 4.5
+    },
+    {
+      "item": "Bismuth Telluride (Bi2Te3) Thermoelectric Semiconductor Pellets",
+      "specification": "P-type and N-type Elements, Doped for High-Temperature Differential Performance up to 400C, Gold-Plated Copper Contacts",
+      "purpose": "Populates the concentric outer shell of the AMHG-03 combiner core to drive the 128-pair thermal flywheel loop",
+      "quantity_pairs": 128
+    },
+    {
+      "item": "Piezoelectric PVDF High-Polymer Metallized Film Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, High-Temperature Metallized Aluminum Contact Pads",
+      "purpose": "Constructs the secondary acoustic noise recovery and shockwave strain loops behind the internal ceramic liners to provide 42 dB dampening",
+      "quantity_sheets": 8
+    }
+  ],
+  "extreme_pressure_hydraulic_seals_and_micro_filters": [
+    {
+      "item": "Silver-Plated Inconel 718 Hollow Metal O-Rings",
+      "specification": "Self-Energizing Profile, Outer Diameter: 150.0mm, Section Cross-Thickness: 3.2mm",
+      "purpose": "Establishes a permanent gas-tight metallic compression seal at the primary inter-module superalloy flange splits",
+      "quantity": 3
+    },
+    {
+      "item": "High-Purity Fluorosilicone O-Rings",
+      "specification": "Durometer Hardness: 80A, Certified Operating Temperature Range: -60C to 200C",
+      "purpose": "Provides flexible, air-tight secondary backup sealing bounds inside the outer coaxial counter-current pre-heating jackets",
+      "quantity": 6
+    },
+    {
+      "item": "Sintered Inconel 718 Mesh Micron Filters",
+      "specification": "Porosity: 5 microns, High-Temperature Diffusion-Bonded Matrix Discs",
+      "purpose": "Positioned inside the AMHG-01 air intake plenum entrance mouth to completely trap micro-dust and sand particles before fluid acceleration",
+      "quantity": 4
+    }
+  ]
+}
