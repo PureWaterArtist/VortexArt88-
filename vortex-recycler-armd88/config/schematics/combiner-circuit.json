@@ -1,0 +1,41 @@
+{
+  "schematic_id": "ARMD-COMB-ELEC-01",
+  "name": "Maelstrom Recycler Seebeck Thermal and PVDF Acoustic Power Combiner Board",
+  "version": "1.0.0-Industrial_Alpha",
+  "electrical_envelope": {
+    "channel_1_seebeck_input": "Low_Voltage_High_Current_Direct_Current_DC",
+    "channel_2_piezo_input": "High_Voltage_Low_Current_Alternating_Current_AC",
+    "maximum_clamped_output_bus_vdc": 24.0,
+    "dielectric_isolation_barrier_v": 1000.0
+  },
+  "circuit_bill_of_materials": [
+    {
+      "component_ref": "D1_THRU_D8",
+      "name": "High-Current Schottky Barrier Rectifier Diodes",
+      "specification": "MBR1545CT (45V / 15A), Low Forward Voltage Drop (<0.55V), TO-220 Package",
+      "purpose": "Isolates parallel Bismuth Telluride Seebeck thermal strings to prevent reverse power bleeding if local cavitation core temperatures fluctuate"
+    },
+    {
+      "component_ref": "BR1",
+      "name": "High-Frequency Glass Passivated Bridge Rectifier",
+      "specification": "DF1510S (1000V / 1.5A), Surface Mount SMD Package",
+      "purpose": "Flips the intense high-voltage acoustic noise vibration pulses from the PVDF layers into raw DC"
+    },
+    {
+      "component_ref": "BUCK1",
+      "name": "Synchronous High-Voltage Step-Down Buck Converter Module",
+      "specification": "LM5008A (Input up to 95V, Adjustable Output set to 24V DC, 350mA capacity)",
+      "purpose": "Steps down the rectified high-voltage acoustic pulses into the common 24V charging bus threshold"
+    },
+    {
+      "component_ref": "TVS1",
+      "name": "Heavy-Duty Bidirectional Transient Voltage Suppressor",
+      "specification": "5KP24CA (5000W Peak Pulse Power, Clamping Voltage: 24V)",
+      "purpose": "Passively blocks explosive voltage surges across the central rail if a severe fluidic shockwave triggers an acoustic peak"
+    }
+  ],
+  "wiring_topology": {
+    "thermal_channel_routing": "Seebeck_Copper_Bus_Bars_Pass_Through_MBR1545CT_Diodes_To_Join_Common_24V_High_Side_Rail",
+    "acoustic_channel_routing": "PVDF_Acoustic_Leads_Feed_DF1510S_Bridge_Rectifier_Output_Passes_Through_LM5008A_Buck_Regulator_Before_Merging_With_24V_High_Side_Rail"
+  }
+}
