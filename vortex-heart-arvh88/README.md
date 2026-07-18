@@ -3,6 +3,11 @@
 ## 🫀 System Manifest & Biomedical Philosophy
 The **Aetheris Resodynamic Vortex Heart (Project ARVH-88)** is an open-source, valveless, solid-state Total Artificial Heart (TAH) framework designed to work in total harmony with the laws of biomimetic fluid dynamics. Traditional artificial hearts rely on high-friction mechanical pistons, spinning impeller pump wheels, and artificial membranes driven by external pneumatic lines. These mechanical moving parts introduce severe medical failure modes: blood cell destruction (hemolysis) caused by mechanical shear stress, static blood stagnation zones that trigger lethal clots (thrombosis), and material mechanical fatigue that limits the implant's operational lifespan.
 
+### 📊 Architectural Fluid-Dynamic Comparison
+The graphic below demonstrates the stark contrast between traditional mechanical pump failure modes and the frictionless, valveless geometric flow pathways of the ARVH-88 system:
+
+![ARVH-88 Design Comparison](./Media/arhv88-compare.png)
+
 Project ARVH-88 replaces mechanical components with **Scale-Invariant Resodynamic Geometry**. By shifting the internal chamber architecture into specialized non-Abelian fluidic tracks, human whole blood is shaped into a continuous, self-propelling helical vortex cascade. The system maintains a healthy physiological pulse and blood velocity without crushing or smashing fragile red blood cells, introducing a new era of frictionless, valveless cardiovascular propulsion.
 
 ## 📐 Technical 3D Design & Anatomical Modeling
