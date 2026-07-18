@@ -1,0 +1,59 @@
+{
+  "component_id": "AWHC-88-BOM-CONDENSER-ULTIMATE",
+  "name": "Project AWHC-88 Atmospheric Condenser Industrial Bill of Materials",
+  "version": "1.0.0-Infrastructure_Alpha",
+  "structural_containment_and_heavy_metallurgy": [
+    {
+      "item": "Medical-Grade PEEK Optima Polymer Billets",
+      "specification": "Certified ISO 10993 Long-Term Bio-Inert Matrix, Extruded Sheet stock, High Thermal Insulation Boundary",
+      "purpose": "Primary raw substrate for CNC micro-machining and printing the external AWHC-01 intake chassis and AWHC-02 insulating shell to block desert heat",
+      "quantity_kg": 8.5
+    },
+    {
+      "item": "Implant-Grade Titanium Alloy Powder (Ti6Al4V ELI Grade 23)",
+      "specification": "Extra Low Interstitial, Gas Atomized Spherical Powder, ASTM F136 Standard",
+      "purpose": "Raw metal substrate used to DMLS print the internal 1mm fluid tracks and the fine-gauge water extraction lips within the AWHC-03 classifier",
+      "quantity_kg": 4.0
+    }
+  ],
+  "thermodynamic_and_solid_state_energy_recovery": [
+    {
+      "item": "Bismuth Telluride (Bi2Te3) Peltier Cooling Pellets",
+      "specification": "P-type and N-type Semiconductor Elements, High-Density Doping for Sharp Localized Temperature Depression down to 0C",
+      "purpose": "Populates the concentric inner sleeve of the AWHC-02 condensation throat to drive the active 4.0C dew-point chill line",
+      "quantity_pairs": 32
+    },
+    {
+      "item": "Piezoelectric PVDF High-Polymer Metallized Film Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, High-Temperature Metallized Aluminum Contact Pads",
+      "purpose": "Constructs the secondary acoustic noise recovery and structural vibration dampening rings behind the internal titanium liners",
+      "quantity_sheets": 4
+    },
+    {
+      "item": "Oxygen-Free Electronic (OFE) Copper Bus-Bars",
+      "specification": "99.99% Pure High-Conductivity Copper, Thickness: 0.5mm, Dead-Soft Temper Standard",
+      "purpose": "Forms the positive and negative current collection tracks for balancing Peltier inputs and harvesting Seebeck micro-currents",
+      "quantity_meters": 1.5
+    }
+  ],
+  "hermetic_hydraulic_seals_and_micro_filters": [
+    {
+      "item": "Silver-Plated Inconel 718 Hollow Metal O-Rings",
+      "specification": "Self-Energizing Profile, Outer Diameter: 80.0mm, Section Cross-Thickness: 1.8mm",
+      "purpose": "Establishes a permanent gas-tight metallic compression seal at the primary inter-module titanium flange splits",
+      "quantity": 3
+    },
+    {
+      "item": "High-Purity Fluorosilicone O-Rings",
+      "specification": "Durometer Hardness: 80A, Certified Operating Temperature Range: -60C to 200C",
+      "purpose": "Provides flexible, air-tight secondary backup sealing bounds inside the outer coaxial counter-current pre-cooling jackets",
+      "quantity": 6
+    },
+    {
+      "item": "Sintered Titanium Mesh Micron Filters",
+      "specification": "Porosity: 2 microns, Food-Grade Certified, High-Temperature Diffusion-Bonded Matrix Discs",
+      "purpose": "Positioned inside the AWHC-01 air intake plenum entrance mouth to completely trap micro-dust and sand particles before fluid compression",
+      "quantity": 2
+    }
+  ]
+}
