@@ -1,0 +1,23 @@
+{
+  "module_id": "ARMC-03",
+  "module_name": "Crystallization_Core_Cavitation_Matrix",
+  "version": "1.0.0-Industrial_Alpha",
+  "geometry_parameters": {
+    "collision_chamber_volume_ml": 15.0,
+    "figure_8_intersection_angle_deg": 180.0,
+    "substrate_collection_plate_diameter_mm": 20.0,
+    "fibonacci_contour_phi": 1.618
+  },
+  "cavitation_energy_envelope": {
+    "transient_implosion_pressure_target_gpa": 5.5,
+    "localized_plasma_spark_temperature_c": 2000.0,
+    "piezo_acoustic_clamping_frequency_khz": 24.5,
+    "harmonic_stabilizer_pulse_hz": 78.3
+  },
+  "industrial_profile": {
+    "liner_shield_material": "Polycrystalline_Cubic_Boron_Nitride_cBN",
+    "outer_retaining_rings": "Hardened_Inconel_718_Shrink_Fit",
+    "surface_finish_target_ra_microns": 0.05,
+    "chassis_pre_load_force_kn": 12.5
+  }
+}
