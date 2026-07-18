@@ -1,0 +1,25 @@
+{
+  "module_id": "ARVH-03",
+  "module_name": "Ventricle_Core_Counter_Rotational_Collision_Chassis",
+  "version": "1.0.0-Medical_Alpha",
+  "geometry_parameters": {
+    "ventricle_internal_volume_ml": 75.0,
+    "logarithmic_spiral_factor_phi": 1.618,
+    "venturi_exit_throat_diameter_mm": 8.0,
+    "chamber_total_height_mm": 45.0,
+    "seal_gasket_profile": "Concentric_Dual_O_Ring"
+  },
+  "biocompatibility_profile": {
+    "recommended_material": "Implant_Grade_Titanium_Ti6Al4V_or_PEEK",
+    "surface_roughness_target_ra_microns": 0.05,
+    "layer_height_mm": 0.08,
+    "perimeter_wall_loops": 10,
+    "infill_density_percent": 100
+  },
+  "hemodynamic_envelope": {
+    "target_operating_systolic_mmhg": 120.0,
+    "maximum_burst_pressure_rating_psi": 120.0,
+    "plasma_suspension_resonance_hz": 7.83,
+    "thrombosis_prevention_active": "True"
+  }
+}
