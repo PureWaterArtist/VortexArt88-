@@ -1,0 +1,29 @@
+{
+  "module_id": "ARVH-02",
+  "module_name": "MHD_Propulsion_Bio_Induction_Ring",
+  "version": "1.0.0-Medical_Alpha",
+  "electromagnetic_parameters": {
+    "magnet_configuration": "Miniature_N52_Coaxial_Sleeve",
+    "ring_magnets_count": 4,
+    "peak_magnetic_flux_tesla": 0.45,
+    "magnetic_gap_width_mm": 24.5
+  },
+  "harvesting_interface": {
+    "electrode_geometry": "Micro_Double_Helical_Track",
+    "electrode_material": "Biocompatible_Glassy_Carbon",
+    "helical_pitch_angle_deg": 35.0,
+    "maximum_safe_driving_voltage_vdc": 3.3
+  },
+  "manufacturing_profile": {
+    "recommended_material": "Medical_Grade_PEEK_Polymers",
+    "layer_height_mm": 0.10,
+    "perimeter_wall_loops": 6,
+    "infill_type": "Concentric",
+    "infill_density_percent": 100
+  },
+  "thermal_safety_envelope": {
+    "maximum_allowable_current_ma": 250.0,
+    "maximum_permissible_temperature_rise_c": 0.5,
+    "dielectric_isolation_breakdown_v": 500.0
+  }
+}
