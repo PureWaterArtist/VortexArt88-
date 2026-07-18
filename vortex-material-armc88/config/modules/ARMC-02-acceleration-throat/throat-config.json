@@ -1,0 +1,32 @@
+{
+  "module_id": "ARMC-02",
+  "module_name": "Acceleration_Throat_Micro_Tesla_Recycling_Liner",
+  "version": "1.1.0-Closed_Loop_Harvest",
+  "geometry_parameters": {
+    "throat_segment_length_mm": 200.0,
+    "internal_bore_input_diameter_mm": 4.5,
+    "internal_bore_exit_diameter_mm": 1.2,
+    "tesla_sawtooth_step_height_mm": 0.15,
+    "tesla_step_relief_angle_deg": 12.0,
+    "profile_geometry": "Hyperbolic_Compression_Taper"
+  },
+  "energy_recycling_matrix": {
+    "exhaust_gas_re_siphoning_active": "True",
+    "seebeck_thermoelectric_generation": "True",
+    "bi2te3_layer_thickness_mm": 3.5,
+    "piezo_acoustic_regenerative_dampening": "True",
+    "coaxial_counter_current_viscosity_reduction": "True"
+  },
+  "industrial_profile": {
+    "recommended_material": "Polycrystalline_Cubic_Boron_Nitride_cBN_Liner",
+    "layer_height_mm": 0.04,
+    "perimeter_wall_loops": 10,
+    "infill_type": "Concentric",
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics_envelope": {
+    "target_lattice_stacking_velocity_m_s": 42.5,
+    "compounding_velocity_gain_pct": 375.0,
+    "hydrodynamic_decoupling_active": "True"
+  }
+}
