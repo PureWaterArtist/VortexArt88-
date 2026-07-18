@@ -1,30 +1,28 @@
-# ARMC-01: Hyper-Velocity Cardioid Feed Injectors (Thermal Optimization)
+# ARMC-01: Hyper-Velocity Cardioid Feed Injectors (Closed-Loop Update)
 
 ## 📐 Upgraded Functional Mechanism
-The Version 1.1.0 **ARMC-01 Injector Header** acts as the high-pressure entry portal for the resodynamic vortex crystallizer. To maximize operational safety and protect upstream delivery lines from extreme thermal back-pressure, this module integrates an in-line **Solid-State Thermal Heat Shield & Swirl Brake Grid** directly inside the base exit throat.
+The Version 1.2.0 **ARMC-01 Injector Header** acts as the high-pressure entry portal for the resodynamic vortex crystallizer. To maximize thermal efficiency and close the loop on material consumption, this module has been upgraded to feature an integrated **Coaxial Thermal-Siphon Pre-Heater Chamber** directly linked to the downstream `ARMC-02` re-siphoning circuits.
 
-As the feedstock carrier medium—composed of supercritical carbon dioxide (sCO₂) mixed with methane radicals—is pumped into the module at 5,000 PSI, it flows down the primary cardioid splitting contours smoothly. However, right before exiting the module to enter the downstep acceleration shaft, the fluid transitions through a static grid of 6 internal, **45-degree Helical Swirl Brake Vanes**.
+### 🌡️ Thermal Viscosity Reclamation (Thermodynamic Loop)
+When hot, expanded exhaust gases are vacuum-extracted by the downstream throat, they are routed back up into an **isolated outer jacket sleeve** (32.0mm diameter) wrapping the main cardioid splitting channels. 
 
-### Solid-State Backflow Suppression
-During standard forward operation, the low-viscosity supercritical fluid glides past the smooth, angled side of these vanes with zero resistance. However, if a massive fluidic rebound or explosive cavitation pulse travels *backward* from the downstream collision core, the reverse pressure wave slams into the opposite, curved face of the vanes. 
+The intense heat from the recycled exhaust transfers directly through the titanium walls into the incoming cold raw feedstock line. This pre-heating lowers the feedstock's kinematic viscosity by a targeted 14.5%, allowing the carbon-rich ribbons to slide down into the acceleration throat faster and with significantly less initial pumping power.
 
-The fluid is instantly forced into a sharp, tight reverse spiral. The backward-traveling mass collides directly with its own incoming volume, geometrically locking the channel and checking the backflow spike entirely without a single mechanical moving flap or check valve.
+### ♻️ Phase-Stabilized Re-Injection (Material Loop)
+As the hot exhaust gas dumps its heat into the cold incoming line, it experiences rapid cooling, condensing back into a high-density supercritical state within the jacket walls. 
 
-### Thermal Break Protection
-Because the downstream core spikes locally to 2000°C during transient cavitation, heat naturally tries to bleed upward via thermal conduction. The swirl brake vanes act as a physical **thermal break**. 
-
-By fracturing the boundary layer fluid streams into separate, isolated channels, the grid effectively stops convective heat transfer from bleeding back into the cold feedstock line, completely preventing the methane radicals from pre-detonating before they hit the face-to-face collision matrix.
+This recycled fluid is then pulled smoothly through an **asymmetric venturi merging jet nozzle** positioned right at the center of the splitter core. It merges seamlessly back into the primary carbon stream with zero back-pressure, creating a **100% closed material loop** that entirely eliminates feedstock gas waste.
 
 ## 🗂 Module Map
 ```text
 modules/ARMC-01-injector-header/
-├── README.md            # This file (Thermal Specifications)
-├── injector-config.json # Machine-readable high-pressure boundary parameters
-└── injector_engine.py   # Swirl-brake boosted vector calculation script
+├── README.md            # This file (Closed-Loop Specifications)
+├── injector-config.json # Machine-readable high-pressure recycling parameters
+└── injector_engine.py   # Concentric pre-heater jacket vector calculation script
 ```
 
 ## 🚀 Execution & Verification
-To verify the updated 3D fluid deflector vector meshes and audit the thermal break grid throat nodes, execute the script inside this directory:
+To verify the updated 3D coaxial pre-heater jacket vectors and audit the re-injection nodes, execute the verification script inside this directory:
 
 ```bash
 cd vortex-material-armc88/modules/ARMC-01-injector-header
@@ -32,7 +30,6 @@ python injector_engine.py
 ```
 
 ## 🛠️ Industrial Manufacturing Specifications
-*   **Recommended Material:** CNC-machined **Inconel 718** or **Titanium Ti6Al4V Grade 23**.
-*   **Perimeter Wall Shells:** 8 Loops minimum (Mandatory to provide enough mass thickness to contain the high localized shear pressures inside the swirl brake channels).
-*   **Infill Strategy:** 100% Solid Infusion deploying a high-density **Concentric layout** to absorb high-frequency reverse hydraulic shocks without fracturing internal vane welds.
+*   **Perimeter Wall Loops:** 10 loops minimum (Mandatory to provide a strong structural wall partition between the raw 5,000 PSI feedstock channel and the outer concentric recycled gas jacket).
+*   **Infill Strategy:** 100% Solid Infusion deploying a high-density **Concentric layout** to ensure uninhibited thermal conduction across the inner cardioid channels.
 *   
