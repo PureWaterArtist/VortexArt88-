@@ -37,4 +37,8 @@ These advanced metal-to-metal and chemical-resistant barriers lock the inter-mod
     *   *Specification:* Durometer Hardness: 80A, certified operating temperature range: -60°C to 200°C. Demonstrates high chemical resistance to supercritical $\text{sCO}_2$ fluid degradation inside the outer coaxial thermal-siphon pre-heater jackets.
 *   **Nickel-Graphite Conductive Sealant Compound [Qty: 1 Tube]**
     *   *Specification:* High-Temperature Electrically Conductive Paste, operating limit threshold up to $800^\circ\text{C}$, structural bonding grade to damp mechanical noise tracking.
-    *   
+*   **Sintered Inconel 718 Mesh Micron Filter [Qty: 2]**
+    *   *Specification:* Porosity: 5 microns, high-temperature diffusion-bonded matrix discs. Positioned squarely inside the **ARMC-02 re-siphoning collar entry throats** to intercept and trap black carbon soot flakes before they can enter the return lines.
+*   **High-Speed Optocoupler Isolator Chips [Qty: 4]**
+    *   *Specification:* Broadcom HCPL-4504 Standard, Isolation Voltage Rating: 2500V RMS, high common-mode rejection. Solder-mounted to the telemetry inputs to completely shield logging loops from piezo voltage arcs.
+ 
