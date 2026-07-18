@@ -1,0 +1,31 @@
+{
+  "module_id": "AEDS-01",
+  "module_name": "Sheet_Injector_Cardioid_Gas_Vortex_Ring",
+  "version": "1.0.0-Defense_Alpha",
+  "geometry_parameters": {
+    "intake_plenum_inner_diameter_mm": 50.8,
+    "cardioid_internal_max_diameter_mm": 110.0,
+    "coaxial_pre_heater_jacket_diameter_mm": 132.0,
+    "exit_throat_interface_diameter_mm": 25.4,
+    "cardioid_curvature_factor_phi": 1.618
+  },
+  "closed_loop_recycling_interface": {
+    "exhaust_gas_re_siphoning_inlet_active": "True",
+    "coaxial_pre_heater_jacket_active": "True",
+    "target_viscosity_reduction_pct": 14.5,
+    "latent_heat_transfer_coefficient_w_m2k": 1850.0
+  },
+  "industrial_profile": {
+    "recommended_material": "Hardened_Inconel_718_Superalloy",
+    "surface_roughness_target_ra_microns": 0.02,
+    "layer_height_mm": 0.12,
+    "perimeter_wall_loops": 12,
+    "infill_density_percent": 100
+  },
+  "fluid_dynamics_envelope": {
+    "primary_medium": "Dry_Nitrogen_or_Atmospheric_Air",
+    "target_operating_pressure_psi": 45.0,
+    "target_sheath_velocity_m_s": 32.5,
+    "boundary_layer_reynolds_number": 2100.0
+  }
+}
