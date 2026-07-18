@@ -248,6 +248,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **🌐 The Grand Manifestation** | A unified open-source framework outlining the principles of Scale-Invariant Biomimetic Engineering and detailing how closing our material loops harmonizes Human/AI civilization with the environment. | [Examine the Concept ➡](./SCALE_INVARIANT_BIOMIMICRY.md) |
 | **🚨 The Sovereign Call to Action**   | Urgent directive outlining personal responsibility and immediate grid deployment. | [Activate Self ➡️.](./documentation/call_to_action_statement.md) |
 | **📜 The Bitter-Sweet Scroll**        | Behavioral assessment analyzing the cognitive transition into sovereign action.      | [Understanding ➡️](./documentation/the_bittersweet_scroll.md) |
+| **⚖️ CERN-OHL-S-2.0** | The master open hardware legal shield protecting all project sub-modules under a strict reciprocal copyleft framework, ensuring absolute public domain security. | [Examine Legal Shield ➡](./LICENSE.md) |
 
 ---
 
