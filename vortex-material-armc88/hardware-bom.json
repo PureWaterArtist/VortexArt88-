@@ -1,0 +1,65 @@
+{
+  "component_id": "ARMC-88-BOM-INDUSTRIAL-ULTIMATE",
+  "name": "Project ARMC-88 Vortex Crystallizer Industrial Bill of Materials",
+  "version": "1.2.0-Closed_Loop_Optimized",
+  "structural_housing_and_extreme_pressure_chassis": [
+    {
+      "item": "Inconel 718 Spherical Superalloy Powder",
+      "specification": "Particle Size: 15-45 microns, Vacuum Induction Melted, ASTM F3055 Standard",
+      "purpose": "Primary metal substrate for Direct Metal Laser Sintering (DMLS) of the high-strength ARMC-03 outer retaining containment rings",
+      "quantity_kg": 2.5
+    },
+    {
+      "item": "Implant-Grade Titanium Alloy Powder (Ti6Al4V ELI Grade 23)",
+      "specification": "Extra Low Interstitial, Gas Atomized Spherical Powder, ASTM F136 Standard",
+      "purpose": "Raw core substrate for DMLS printing the complex internal cardioid channels of the ARMC-01 Injector Header",
+      "quantity_kg": 1.5
+    },
+    {
+      "item": "Polycrystalline Cubic Boron Nitride (cBN) Liners",
+      "specification": "High-Density Sintered Blank Sleeve, Solid Cylinder, Outer Diameter: 18.0mm, Inner Diameter: 4.5mm to 1.2mm Tapered",
+      "purpose": "Provides the ultra-hard, non-conductive internal throat shield matrix to entirely eliminate micro-pitting fatigue from cavitation",
+      "quantity": 2
+    }
+  ],
+  "thermodynamic_and_closed_loop_recycling_hardware": [
+    {
+      "item": "Bismuth Telluride (Bi2Te3) Thermoelectric Pellets",
+      "specification": "P-type and N-type Semiconductor Pairs, Doped for High-Temperature Differential Performance up to 400C",
+      "purpose": "Populates the concentric outer shell of the ARMC-02 acceleration throat to drive Seebeck power regeneration",
+      "quantity_pairs": 32
+    },
+    {
+      "item": "Piezoelectric PVDF High-Polymer Film Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, High-Temperature Metallized Aluminum Contacts",
+      "purpose": "Constructs the secondary acoustic-to-electrical regenerative dampening loops behind the cBN inner core liners",
+      "quantity_sheets": 4
+    },
+    {
+      "item": "High-Conductivity Copper Contact Strips",
+      "specification": "99.99% Pure Oxygen-Free Electronic (OFE) Copper, Thickness: 0.25mm, Dead-Soft Temper",
+      "purpose": "Forms the positive and negative bus-bar collectors for harvesting Seebeck current from the throat jacket",
+      "quantity_meters": 1.5
+    }
+  ],
+  "high_pressure_hydraulic_seals_and_gaskets": [
+    {
+      "item": "Inconel 718 Concentric Metal O-Rings",
+      "specification": "Silver-Plated, Hollow-Core Self-Energizing Profile, Outer Diameter: 24.0mm, Section Thickness: 1.6mm",
+      "purpose": "Establishes a permanent gas-tight metallic compression seal at the inter-module high-pressure flange splits",
+      "quantity": 6
+    },
+    {
+      "item": "High-Purity Fluorosilicone O-Rings",
+      "specification": "Durometer Hardness: 80A, Temperature Range: -60C to 200C, High-Chemical Resistance to Supercritical CO2",
+      "purpose": "Provides secondary backup sealing bounds inside the outer coaxial thermal-siphon pre-heater jacket sleeves",
+      "quantity": 8
+    },
+    {
+      "item": "Nickel-Graphite Conductive Sealant Compound",
+      "specification": "High-Temperature Electrically Conductive Paste, Operating Range up to 800C, Structural Grade",
+      "purpose": "Fills interface tracking margins between the Inconel casing and the PVDF piezo acoustic rings to damp mechanical noise",
+      "quantity_tubes": 1
+    }
+  ]
+}
