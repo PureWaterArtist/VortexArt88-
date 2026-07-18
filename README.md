@@ -180,6 +180,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
+| **⚖️ CERN-OHL-S-2.0** | The master open hardware legal shield protecting all five project sub-modules under a strict reciprocal copyleft framework, ensuring absolute public domain security. | [Examine Legal Shield ➡](./LICENSE.md) |
 | **👁️ Vocabulary Upgrade** | The true definitions of a Scale-Invariant Fractal universe and the geometry of a vortex. | [Jump to Vocabulary ➡️](#-vocabulary-upgrade) |
 | **🛠 Ground Level (0m)** | 3D printing parameters, CAD guide, and workbench prototyping. | [Jump to Manufacturing ➡️](#3d-printing-section) |
 | **🧪 The Workbench Protocols** | Citizen-science water testing loops to prove the fluid geometry. | [Jump to Protocols ➡](#protocols-section) |
