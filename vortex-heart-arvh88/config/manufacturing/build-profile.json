@@ -1,0 +1,26 @@
+{
+  "profile_id": "ARVH-MFG-1.0",
+  "device_target": "Project_ARVH_88_Total_Artificial_Heart",
+  "version": "1.0.0-Medical_Alpha",
+  "additive_manufacturing_slicing_parameters": {
+    "recommended_technology": "Micro_Laser_Sintering_MLS_or_Direct_Metal_Laser_Sintering_DMLS",
+    "primary_alloy_material": "Implant_Grade_Titanium_Ti6Al4V_ELI_Grade_23",
+    "secondary_polymer_material": "Medical_Grade_PEEK_Polyetheretherketone_Optima",
+    "layer_height_micron_limit": 50.0,
+    "laser_spot_diameter_micron": 30.0,
+    "volumetric_print_density_percent": 100.0,
+    "perimeter_structural_loops": 12
+  },
+  "post_processing_surface_finishing": {
+    "honing_method": "Chemical_Vapor_Polishing_and_Diamond_Slurry_Lapping",
+    "internal_bore_roughness_target_ra_microns": 0.05,
+    "micro_layer_line_elimination": "Mandatory",
+    "biocompatible_coating_spec": "Paralene_C_Vapor_Deposition_50_microns"
+  },
+  "quality_assurance_metrology": {
+    "hydrostatic_pressure_leak_test_mmhg": 300.0,
+    "dielectric_isolation_test_vdc": 500.0,
+    "acoustic_resonance_calibration_hz": 7.83,
+    "cleanroom_assembly_protocol": "ISO_Class_5_Standard"
+  }
+}
