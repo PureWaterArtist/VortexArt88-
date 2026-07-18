@@ -186,6 +186,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 | **💧 Water Safety Matrix** | Crucial rules for food-safe printing and sealing protocols. | [Jump to Safety ➡](./Hardware/Chamber-Sandbox/README.md#safety-matrix-section) |
 | **🧩 The CAD Sandbox Challenge** | Help model the missing Figure-8 collision chamber. | [Jump to Challenge ➡](#cad-sandbox-section) |
 | **📊 The Open Data Ledger** | Decentralized, machine-readable citizen science database. | [Jump to Data Ledger ➡](#ledger-framework-section) |
+| **💎 Project ARMC-88** | Solid-state, fluid-dynamic vortex crystallizer platform utilizing transient cavitation implosions to force graphite-to-diamond crystal lattice transitions. | [Enter the Crystallizer ➡](./vortex-material-armc88) |
 | **🫀 Project ARVH-88** | Valveless, core-propelled biomimetic Total Artificial Heart (TAH) utilizing solid-state MHD propulsion, Schauberger centripetal suction, and 4-stage inline Tesla valvular out-rectifiers. | [Explore the Heart ➡](./vortex-heart-arvh88) |
 | **🗼 Project ARVT-88** | Complete solid-state gravity fluid engine and 11-stage advanced energy harvesting mesh network layout. | [Explore the Tower ➡](./vortex-tower-arvt88) |
 | **📦 ARVT-88 Components** | The master folder housing all 11 physical resodynamic hardware gates and vector script modules. | [Jump to Components ➡](./vortex-tower-arvt88/modules) |
