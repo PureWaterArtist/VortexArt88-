@@ -1,0 +1,65 @@
+{
+  "component_id": "ARMD-88-BOM-RECYCLER-ULTIMATE",
+  "name": "Project ARMD-88 Maelstrom Disintegrator Industrial Bill of Materials",
+  "version": "1.0.0-Industrial_Alpha",
+  "structural_containment_and_heavy_metallurgy": [
+    {
+      "item": "Inconel 718 Spherical Superalloy Powder",
+      "specification": "Particle Size: 15-45 microns, Vacuum Induction Melted, ASTM F3055 Standard",
+      "purpose": "Primary metal substrate for Direct Metal Laser Sintering (DMLS) of the high-strength ARMD-01 cardioid injector chassis and ARMD-02 outer casing",
+      "quantity_kg": 14.5
+    },
+    {
+      "item": "Silicon Nitride (Si3N4) Ceramic Liners",
+      "specification": "Gas-Pressure Sintered (GPSS) Solid Blank Sleeve, High Density, Zero Porosity, ASTM C1161 Standard",
+      "purpose": "Provides the ultra-hard, non-conductive internal blast shield lining to entirely eliminate micro-pitting erosion and wall friction",
+      "quantity": 3
+    },
+    {
+      "item": "Implant-Grade Titanium Alloy Powder (Ti6Al4V ELI Grade 23)",
+      "specification": "Extra Low Interstitial, Gas Atomized Spherical Powder, ASTM F136 Standard",
+      "purpose": "Raw metal substrate used to DMLS print the fine-gauge trajectory split sorting channels within the ARMD-03 exit manifold",
+      "quantity_kg": 4.5
+    }
+  ],
+  "thermodynamic_and_closed_loop_energy_recovery": [
+    {
+      "item": "Bismuth Telluride (Bi2Te3) Thermoelectric Pellets",
+      "specification": "P-type and N-type Semiconductor Pairs, Doped for High-Temperature Differential Performance up to 400C",
+      "purpose": "Populates the concentric outer shell of the ARMD-02 cavitation core to drive Seebeck power regeneration",
+      "quantity_pairs": 64
+    },
+    {
+      "item": "Piezoelectric PVDF High-Polymer Film Sheets",
+      "specification": "Thickness: 28 microns, Poling Strain Vector d33: 33 pC/N, High-Temperature Metallized Aluminum Contacts",
+      "purpose": "Constructs the secondary acoustic noise recovery rings behind the internal Silicon Nitride ceramic liners",
+      "quantity_sheets": 6
+    },
+    {
+      "item": "Oxygen-Free Electronic (OFE) Copper Bus-Bars",
+      "specification": "99.99% Pure High-Conductivity Copper, Thickness: 0.5mm, Dead-Soft Temper",
+      "purpose": "Forms the positive and negative bus-bar collectors for harvesting Seebeck current from the core jacket",
+      "quantity_meters": 2.0
+    }
+  ],
+  "extreme_pressure_hydraulic_seals_and_filters": [
+    {
+      "item": "Silver-Plated Inconel 718 Hollow metal O-Rings",
+      "specification": "Self-Energizing Profile, Outer Diameter: 110.0mm, Section Cross-Thickness: 2.4mm",
+      "purpose": "Establishes a permanent gas-tight metallic compression seal at the primary inter-module flange splits",
+      "quantity": 4
+    },
+    {
+      "item": "High-Purity Fluorosilicone O-Rings",
+      "specification": "Durometer Hardness: 80A, Temperature Range: -60C to 200C, Resistant to Volatile Outgassing",
+      "purpose": "Provides secondary backup sealing bounds inside the outer coaxial thermal-siphon pre-heater jackets",
+      "quantity": 8
+    },
+    {
+      "item": "Sintered Inconel 718 Mesh Micron Filters",
+      "specification": "Porosity: 5 microns, High-Temperature Diffusion-Bonded Matrix Discs",
+      "purpose": "Positioned inside the re-siphoning collar entry throats to trap volatile carbon soot and dust before it enters the return tracks",
+      "quantity": 2
+    }
+  ]
+}
