@@ -1,0 +1,25 @@
+{
+  "module_id": "ARFC-01",
+  "module_name": "Bi_Stable_Coanda_Effect_Logic_Register",
+  "version": "1.0.0-Computational_Alpha",
+  "geometry_parameters": {
+    "power_jet_nozzle_width_mm": 0.5,
+    "control_inlet_nozzle_width_mm": 0.15,
+    "coanda_curved_wall_angle_deg": 12.5,
+    "interaction_region_length_mm": 3.5,
+    "splitter_island_offset_phi": 1.618
+  },
+  "switching_dynamics_envelope": {
+    "target_operating_fluid": "Dry_Nitrogen_Gas",
+    "optimal_input_pressure_psi": 45.0,
+    "minimum_switching_velocity_m_s": 32.5,
+    "state_attachment_reynolds_number": 2100.0
+  },
+  "fabrication_profile": {
+    "recommended_wafer_substrate": "Optical_Grade_Monocrystalline_Quartz",
+    "channel_etch_depth_microns": 250.0,
+    "surface_roughness_target_ra_microns": 0.02,
+    "perimeter_wall_loops": 6,
+    "infill_density_percent": 100
+  }
+}
