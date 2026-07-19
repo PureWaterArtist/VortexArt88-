@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMA-88-COCHLEAR-CORE",
+  "project_name": "Biomimetic Acoustic Resonator Array",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "plenum_intake_aperture_mm": 6.5,
+    "internal_logarithmic_compression_ratio": 4.8,
+    "venturi_acoustic_pinch_width_mm": 0.45,
+    "piezo_pvdf_substrate_thickness_mm": 0.12,
+    "stf_bypass_valve_diameter_mm": 1.1
+  },
+  "manufacturing_directives": {
+    "approved_materials": ["Flexible_TPU_Chassis", "High_Detail_SLA_Core", "Biocompatible_Silicone_Liner"],
+    "minimum_wall_loops": 4,
+    "infill_pattern_target": "Solid",
+    "infill_density_percentage": 100.0,
+    "layer_height_resolution_mm": 0.025,
+    "post_processing_cleanroom_flush": "Isopropyl_Alcohol"
+  },
+  "post_processing_protocol": {
+    "shear_thickening_fluid_matrix": "Sub-Micron_Silica_in_Polyethylene_Glycol",
+    "piezoelectric_d33_coefficient_cn": 3.3e-11,
+    "sealant_method": "Ultrasonic_Friction_Weld",
+    "validation_manual": "CLEANROOM_OPS.md"
+  }
+}
