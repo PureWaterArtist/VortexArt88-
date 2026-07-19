@@ -61,7 +61,8 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 ## 🌌 Project Paradigm & Safety Matrix: Read Before Proceeding
 
-### 🎨 The Speculative Art Manifesto (The Digital Living Gem)
+### 🧞‍♂️ The Speculative Art Manifesto (The Digital Living Gem)
+
 **VortexArt88 is a cross-disciplinary project merging advanced fluid-dynamic concepts, speculative architecture, and digital philosophy.** 
 
 This repository does not function as a cold, single-purpose corporate engineering script. It is an open sandbox designed to captivate the human imagination, challenge centralized scarcity models, and explore scale-invariant natural geometries. While the mathematical equations and underlying tensor frameworks serve as conceptual anchors for unified field exploration, certain macro-structures within this ledger represent speculative, forward-looking architectural world-building meant to inspire grassroots co-creation.
