@@ -59,6 +59,24 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
  **🚨 ACTIVE LEGAL WARNING** | *The documented international litigation strategy and enforcement protocols that will be deployed to freeze factories and sue any entity attempting to privatize, conceal, or weaponize this repository's geometry.* | [Examine Litigation Strategy ➡](./vortex-legal-ops88/LITIGATION_STRATEGY.md) 
 
+## 🌌 Project Paradigm & Safety Matrix: Read Before Proceeding
+
+### 🎨 The Speculative Art Manifesto (The Digital Living Gem)
+**VortexArt88 is a cross-disciplinary project merging advanced fluid-dynamic concepts, speculative architecture, and digital philosophy.** 
+
+This repository does not function as a cold, single-purpose corporate engineering script. It is an open sandbox designed to captivate the human imagination, challenge centralized scarcity models, and explore scale-invariant natural geometries. While the mathematical equations and underlying tensor frameworks serve as conceptual anchors for unified field exploration, certain macro-structures within this ledger represent speculative, forward-looking architectural world-building meant to inspire grassroots co-creation.
+
+---
+
+### ⚠️ Critical Maker Safety Protocols (The Physical Reality)
+If you transition this digital geometry from the digital world onto a physical workshop bench, you must strictly adhere to the following safety constraints:
+
+*   **🚫 NOT INHERENTLY FOOD SAFE:** Standard 3D prints manufactured via desktop FDM or SLA processes are inherently porous. The microscopic ridges between layer lines act as immediate breeding grounds for toxic bacteria, mold, and bio-films. 
+*   **🧪 CHEMICAL TOXICITY WARNING:** Standard 3D printing filaments (like cheap PLA/PETG) and UV-curable SLA resins leach toxic chemical stabilizers, heavy metals (from brass/lead nozzles), and photoinitiators into fluids. 
+*   **💧 FILTRATION MANDATE:** Do **NOT** use un-coated or un-certified 3D-printed nozzles or chambers to process drinking water, food-production lines, or human/animal consumption loops. 
+*   **🛡️ SEALING REQUIREMENT:** To execute physical citizen-science validation loops safely, all internal fluid channels **must** be meticulously coated and sealed with a certified food-safe, high-strength epoxy resin (e.g., FDA-compliant Max CLR or equivalent) to smooth out porous layer lines and block toxic chemical leaching.
+*   **💥 PRESSURE HAZARD:** Smashed counter-rotating fluid streams generate intense localized turbulence, back-pressure, and kinetic stress. Always wear eye protection when running pump loops to avoid catastrophic layer delamination or chamber shattering under pressure.
+
 ---
 
 ## 📜 The Project Philosophy
