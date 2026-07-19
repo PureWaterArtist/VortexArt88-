@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
   "module_layer": "suit-head",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "metrology_constants": {
     "head_inner_clearance_width_mm": 165.0,
     "head_inner_clearance_length_mm": 210.0,
@@ -14,12 +14,16 @@
     "front_optics_viewport_height_mm": 75.0,
     "armo_lens_flange_seat_depth_mm": 2.5,
     "transverse_jaw_detent_bore_mm": 8.0,
-    "faraday_tongue_groove_tolerance_mm": 0.08
+    "faraday_tongue_groove_tolerance_mm": 0.08,
+    "biomimetic_liner_thickness_mm": 14.0,
+    "thermal_conduit_bore_diameter_mm": 2.4
   },
-  "shielding_metrics": {
+  "shielding_and_kinetic_metrics": {
     "emp_attenuation_target_db": 120.0,
     "graphene_interleave_mesh_pitch_um": 50.0,
-    "static_wick_discharge_rating_kv": 75.0
+    "static_wick_discharge_rating_kv": 75.0,
+    "maximum_g_force_damping_capacity_g": 15.0,
+    "thermal_dissipation_coefficient_w_mk": 4.2
   },
   "component_sourcing_ledger": [
     {
@@ -35,10 +39,10 @@
       "sourcing_origin": "Commercial Off-The-Shelf (COTS) Marine Hardware"
     },
     {
-      "part_name": "Non-Newtonian Acoustic Damping Fluid Matrix",
-      "quantity": "15mL",
-      "specification": "Colloidal Silica Nanoparticles in PEG-400 Medium",
-      "sourcing_origin": "vortex-audio-arma88/config/HARDWARE_BOM.md"
+      "part_name": "Removable Biomimetic Energy-Absorbing Liner Substrate",
+      "quantity": 1,
+      "specification": "Variable Density 30A Durometer Flexible TPU Matrix",
+      "sourcing_origin": "suit-head/head-chassis.scad (BiomimeticSpongeLiner Module)"
     }
   ]
 }
