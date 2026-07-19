@@ -81,3 +81,41 @@ difference() {
 
 // Visual Indicator: Showcase the split seam layout route for the fabricator
 %FaradayInterlockingSeam();
+// --- BIOMIMETIC KINETIC & THERMAL LINER ARRAY SUBSYSTEM ---
+// Mimics woodpecker endocranial sponge structures and desert ant thermal conduits
+
+liner_thickness = 14.0; // Thickness of the compliant, energy-absorbing liner layer (mm)
+
+module BiomimeticSpongeLiner() {
+    // 3D printed out of variable durometer flexible TPU to damp high G-force acceleration
+    difference() {
+        // Outer layer contours exactly to the internal skull cavity bounds
+        resize([head_width_inner - 0.2, head_length_inner - 0.2, helmet_height - 12.2])
+            cylinder(h=1, r=10, center=true);
+            
+        // Inner clearance envelope facing the pilot's padded head sock
+        resize([head_width_inner - (liner_thickness*2), head_length_inner - (liner_thickness*2), helmet_height - 12 - liner_thickness])
+            cylinder(h=1, r=10, center=true);
+            
+        // Passive micro-fluidic thermal cooling channels (Sahara Ant template)
+        for (y = [-head_length_inner/2 : 12 : head_length_inner/2]) {
+            translate([0, y, 0])
+                rotate([90, 0, 0])
+                    cylinder(h=3.5, r=1.2, center=true);
+        }
+    }
+}
+
+module LinerSnapRetentionAnchors() {
+    // Cylindrical push-pin tabs to mechanically lock the liner into the shell without glue
+    for (i = [0 : 90 : 270]) {
+        rotate([0, 0, i])
+            translate([(head_width_inner/2) - 2, 0, 0])
+                cylinder(h=8, r=3.0, center=true);
+    }
+}
+
+// NOTE FOR FABRICATOR: Print this independent block out of elastic, variable-density 
+// flexible filament to secure full multi-axial shock and thermal management.
+// To view or render the liner isolated, uncomment the line below:
+// BiomimeticSpongeLiner();
