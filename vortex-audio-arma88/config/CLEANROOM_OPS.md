@@ -21,6 +21,10 @@ This operational standard governs the verification protocols, post-print process
 
 ## 🩺 3. Acoustic Resonance & Blast Shielding Verification
 
+![ARMA-88 Workbench Manifold Mannequin Validation Test Loop](../media/arma88-workbench-test.png)
+
+![ARMA-88 Non-Newtonian Decibel Blast Shield Fluid Simulation Chart](../media/arma88-cfd-simulation.png)
+
 *   **Log-Spiral Geometric Gain Test:** Mount the finished device onto an artificial ear mannequin canal testing jig connected to an acoustic decibel meter. Feed a continuous low-amplitude ($45.0\text{ dB}$) white noise loop into the plenum intake. Confirm the internal output register measures a passive geometric magnification spike of at least $+13.5\text{ dB}$ without secondary distortion.
 *   **Non-Newtonian Blast Protection Check:** Fire a rapid, high-velocity percussive acoustic pulse ($110.0\text{ dB}$ simulation) directly into the intake array. Monitor the internal microphone tracking register. The bypass loop fluid must instantly lock solid, demonstrating an immediate structural attenuation drop down below the safe operational threshold.
 *   **Piezo-Kinetic Lever Performance Sweep:** Apply mechanical pressure cycles to the external flexible canal wall panels to simulate jaw displacement metrics ($15.0\text{ N}$ force profile). Verify that the strain transfers cleanly down the carbon-fiber pin, confirming the structural bone-conduction drive pathway is active.
