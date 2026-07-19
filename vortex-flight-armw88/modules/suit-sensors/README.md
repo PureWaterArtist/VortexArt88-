@@ -1,5 +1,7 @@
 # Project ARMW-88: Solid-State Fluidic Sensor Suite (Module: suit-sensors)
 
+![Project ARMW-88 Sensors Vector Schematic Blueprint](./media/armw88-sensors-logic.svg)
+
 ## 💎 System Manifest & Fluidic Logic Philosophy
 
 The **Solid-State Fluidic Sensor Suite Module (Project ARMW-Sensors)** is the un-jammable computational core, telemetry tracking engine, and life-critical flight safety terminal of the **Project ARMW-88 Flight Armor Platform**. It is engineered to sit securely within the protective rear cavity of the torso backplate spine, constantly auditing pilot flight parameters without a single digital microchip. To achieve absolute immunity to Electromagnetic Pulses (EMP), high-voltage lightning strikes, and electronic warfare jamming arrays, this module completely discards copper wiring, silicon logic chips, micro-diode displays, and chemical battery packs. The entire computing block is manufactured as a solid-state, high-density matrix of sub-millimeter fluidic pathways, gas-dynamic vortex streams, and pneumatic switching walls that use raw, incoming atmospheric pressure to calculate real-time flight telemetry.
