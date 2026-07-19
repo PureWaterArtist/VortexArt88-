@@ -10,7 +10,10 @@ vortex-harvester-awhc88/config/schematics/
 ├── README.md               # This file (Schematics Directory Blueprint Index)
 └── harvest-core.scad       # Parametric OpenSCAD 3D solid fluid engine file
 ```
+
 ## 🧬 Spatial Geometry & Aerodynamic Fluid Trajectories
+
+![AWHC-88 Carbon-Fiber Polycarbonate Material Cutaway Profile](../../media/awhc88-material-profile.png)
 
 The solid geometry rendered by this module is meticulously mapped to enforce high-velocity spiral acceleration and pressure drops through localized micro-Venturi gaps:
 
