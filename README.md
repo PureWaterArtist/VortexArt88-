@@ -102,7 +102,11 @@ If you transition this digital geometry from the digital world onto a physical w
 *   **🛡️ SEALING REQUIREMENT:** To execute physical citizen-science validation loops safely, all internal fluid channels **must** be meticulously coated and sealed with a certified food-safe, high-strength epoxy resin (e.g., FDA-compliant Max CLR or equivalent) to smooth out porous layer lines and block toxic chemical leaching.
 *   **💥 PRESSURE HAZARD:** Smashed counter-rotating fluid streams generate intense localized turbulence, back-pressure, and kinetic stress. Always wear eye protection when running pump loops to avoid catastrophic layer delamination or chamber shattering under pressure.
 
-☄️ [Jump straight to the Repository Map & Quick Start Navigation](#repository-map)
+<div align="center">
+  <a href="#repository-map">
+    <img src="https://shields.io☄️%20LAUNCH%20REPOSITOR_MAP-QUICK%20START%20🚀-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Jump to Map">
+  </a>
+</div>
 
 ---
 
