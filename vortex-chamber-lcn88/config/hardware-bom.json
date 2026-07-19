@@ -1,1 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LCN-88-HOUSING",
+  "project_name": "Lemniscate Collision Node",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "spatial_origin_target": [0.00, 0.00, 0.00],
+    "nozzle_interface_clearance_mm": 0.18,
+    "internal_chamber_radius_mm": 22.0,
+    "focal_distance_x_axis_mm": 18.5,
+    "induction_drain_bore_mm": 12.0
+  },
+  "manufacturing_directives": {
+    "approved_materials": ["PETG", "PC-CF", "Tough_Resin"],
+    "minimum_wall_loops": 5,
+    "infill_pattern_target": "Gyroid",
+    "infill_density_percentage": 45.0,
+    "layer_height_resolution_mm": 0.16,
+    "parts_cooling_fan_percentage": 15.0
+  },
+  "post_processing_protocol": {
+    "sealant_type": "Food_Safe_Marine_Epoxy",
+    "cure_duration_hours": 24.0,
+    "decontamination_manual": "CLEANROOM_OPS.md"
+  }
+}
 
