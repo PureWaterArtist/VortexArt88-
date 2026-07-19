@@ -32,7 +32,12 @@ Standard extraction or high-stress emergency egress must be achievable entirely 
 Because this helmet is 100% solid-state and non-electronic, operational parameters are controlled entirely via physical inputs:
 
 1.  **Passive Hyperspectral Mapping:** The metalens visor tracks ambient light fields passively. The pilot does not turn "on" night vision. To filter out high-intensity daytime glint or isolate polarized wind-shear vectors, rotate the mechanical visor bezel dial $45^\circ$ clockwise to shift the sub-wavelength nano-pillar phase matrix.
+
 2.  **Acoustic Signal Prioritization:** The temporal waveguides run on continuous passive physics. No volume buttons exist. To focus tracking on low-amplitude vocal ranges while cutting out high-velocity wind noise, toggle the slider gate on the ear cups forward to mechanically restrict the primary air intake aperture.
+
+3.  **Active Chameleon Camouflage Manipulation:** The stealth skin works on non-electronic mechanochemical physics. The suit does not use computer displays or digital sensors. To manually tune your external reflection profile to match an environmental change (e.g., transitioning from high-altitude blue sky to low-altitude green canopy):
+    *   **To Expand Lattice (Shift to longer wavelengths - Yellow/Red):** Press and roll your finger forward on the secondary pneumatic dial located behind the left ear cup. This forces micro-fluidic pressure outward, widening the hydrogel gaps.
+    *   **To Compress Lattice (Shift to shorter wavelengths - Blue/Green):** Rotate the dial backward to draw pressure off the outer grid, letting the elastic matrix naturally spring back to its default tightly packed baseline state.
 
 ---
 
