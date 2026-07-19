@@ -1,5 +1,7 @@
 # Biomimetic Acoustic Resonator Array (Project ARMA-88)
 
+![Project ARMA-88 Vector Schematic Blueprint](./media/arma88-vector-schematic.png)
+
 ## 💎 System Manifest & Acoustic Resodynamic Philosophy
 
 The **Biomimetic Acoustic Resonator Array (Project ARMA-88)** is an open-source, ultra-compact, wearable in-ear auditory interface designed to enhance and clarify the human acoustic spectrum without electronic amplification. Modern hearing aids rely heavily on fragile digital microphones, battery-dependent processing chips, and micro-speakers that compress sound artificially, distort spatial orientation, and fail under electromagnetic pulses or moisture exposure. Project ARMA-88 replaces all active electronic dependencies with non-equilibrium fluid resodynamics, scale-invariant logarithmic waveguides, and mechanical energy-recycling structures to achieve a completely self-sustained audio processing node.
