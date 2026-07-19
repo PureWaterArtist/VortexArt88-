@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AWHC-88-CONDENSER-CORE",
+  "project_name": "Atmospheric Water Harvester Condenser",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "plenum_intake_outer_diameter_mm": 120.0,
+    "internal_cardioid_pitch_angle_deg": 38.2,
+    "venturi_throat_pinch_width_mm": 3.5,
+    "internal_condenser_core_radius_mm": 45.0,
+    "manifold_drainage_bore_mm": 15.0
+  },
+  "manufacturing_directives": {
+    "approved_materials": ["PC-CF", "PETG", "Copper_Infused_PLA"],
+    "minimum_wall_loops": 6,
+    "infill_pattern_target": "Gyroid",
+    "infill_density_percentage": 40.0,
+    "layer_height_resolution_mm": 0.14,
+    "parts_cooling_fan_percentage": 10.0
+  },
+  "post_processing_protocol": {
+    "internal_sealant_type": "Food_Safe_Waterproof_Polyurethane",
+    "mesh_core_material": "99_Percent_Pure_Oxygen_Free_Copper",
+    "cure_duration_hours": 24.0,
+    "validation_manual": "CLEANROOM_OPS.md"
+  }
+}
