@@ -12,6 +12,11 @@ This operational standard governs the verification protocols, post-processing st
 ---
 
 ## 🧲 2. Hermetic Vacuum Sealing & Gate Parity Calibration
+
+![ARMW-88 Fluid Computer Vacuum Leak Testing Rig Photo](../media/armw88-sensors-logic-test.png)
+
+![ARMW-88 Active High-Speed Jet Deflection Fluid Logic Simulation Chart](../media/armw88-sensors-doppler-sim.png)
+
 *   **Airtight Interlayer Leakage Check:** Clamp the open face of the printed logic matrix against an optical-grade transparent cover plate using a high-purity clear epoxy dip or ultrasonic weld line. Apply a vacuum pull of $-80\text{ kPa}$ across all tracks. The block must hold pressure with less than 1% decay over 10 minutes, confirming 100% airtight path containment.
 *   **Threat Logic Switching Audit:** Connect a calibrated acoustic generator to the Doppler collector horns. Sweep incoming sound frequencies between $1200\text{ Hz}$ and $22000\text{ Hz}$ to simulate a rapidly closing vector. Verify that the fluidic monostable switching elements trip cleanly and redirect core air pressure into the $2.0\text{ mm}$ kinesthetic feedback ports within $15.0\text{ ms}$.
 *   **Altimetry Bias Needle Adjustment:** Pipe a low-pressure static air differential loop into the base altimetry reference gates. Calibrate the mechanical brass bias needle until the internal logic lines achieve a clean zero-balance state at your local sea-level baseline weight.
