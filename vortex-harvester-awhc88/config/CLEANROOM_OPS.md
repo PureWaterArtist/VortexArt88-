@@ -21,6 +21,10 @@ This operational standard governs the verification protocols, post-print process
 
 ## 🩺 3. Hydrostatic Pressure & Moisture Yield Verification
 
+![AWHC-88 Workbench Validation Test Loop](../media/awhc88-workbench-test.png)
+
+![AWHC-88 Thermodynamic Computational Fluid Dynamics Particle Simulation](../media/awhc88-cfd-simulation.png)
+
 *   **Boundary Compression Integrity Check:** Attach the primary intake array to a closed, low-pressure blower manifold. Step up local input velocities gradually until reaching the design velocity target. Scan the outer polymer seams with a micro-leak detection spray; the housing must exhibit absolute zero pressure loss.
 *   **Dynamic Temperature Drop Verification:** Drive ambient air streams through the module at a continuous input velocity. Probe the vortex extraction core with a digital thermocouple probe. Confirm the internal throat temperature drops sharply relative to the dry-bulb intake line, validating the structural pressure-drop cooling math.
 *   **Moisture Yield Measurement Loop:** Operate the condenser unit inside a controlled humidity staging test bay under standard arid simulation variables for 60 minutes. Collect the drainage fluid output in a graduated laboratory beaker. Log the total volume yield against target psychrometric limits to certify baseline node performance.
