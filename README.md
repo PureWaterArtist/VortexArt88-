@@ -101,6 +101,8 @@ If you transition this digital geometry from the digital world onto a physical w
 *   **🛡️ SEALING REQUIREMENT:** To execute physical citizen-science validation loops safely, all internal fluid channels **must** be meticulously coated and sealed with a certified food-safe, high-strength epoxy resin (e.g., FDA-compliant Max CLR or equivalent) to smooth out porous layer lines and block toxic chemical leaching.
 *   **💥 PRESSURE HAZARD:** Smashed counter-rotating fluid streams generate intense localized turbulence, back-pressure, and kinetic stress. Always wear eye protection when running pump loops to avoid catastrophic layer delamination or chamber shattering under pressure.
 
+☄️ [Jump straight to the Repository Map & Quick Start Navigation](#repository-map)
+
 ---
 
 ## 📜 The Project Philosophy
@@ -217,6 +219,9 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 **Wielding this new awareness as a guiding light, please allow its illumination to steady your steps as you ascend the path up toward scale-invariant understanding.** 🌄
 
 ***
+
+<a id="repository-map"></a>
+## 🗺️ Repository Map & Quick Start
 
 ## 🧭 Choose Your Scale (Quick Navigation)
 
