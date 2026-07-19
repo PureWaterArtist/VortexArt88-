@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-MASTER-SUIT-INTEGRATION",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-master",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "global_metrology_constants": {
+    "total_armor_vertical_height_mm": 1780.0,
+    "maximum_extended_wingspan_mm": 2400.0,
+    "wing_root_chord_length_mm": 650.0,
+    "composite_shell_thickness_gradient_mm": [8.0, 12.0, 5.5, 10.0],
+    "central_dial_locking_bar_diameter_mm": 16.0,
+    "shoulder_socket_pin_bore_mm": 16.0,
+    "hip_connection_pin_diameter_mm": 14.0,
+    "transverse_jaw_detent_bore_mm": 8.0,
+    "linear_rail_groove_width_mm": 14.0,
+    "fluidic_logic_trace_width_mm": 1.5,
+    "acoustic_reed_thickness_mm": 0.15,
+    "stealth_photonic_skin_depth_mm": 1.5
+  },
+  "integrated_system_performance_metrics": {
+    "maximum_wing_bending_load_newtons": 3500.0,
+    "vortex_shield_kinetic_deflection_joules": 2200.0,
+    "g_force_thoracic_damping_capacity_g": 18.0,
+    "kangaroo_leaf_spring_rate_nm": 125000.0,
+    "maximum_survival_sink_rate_ms": 4.5,
+    "critical_stall_pressure_threshold_pa": 1200.0,
+    "emergency_jettison_cable_travel_mm": 120.0,
+    "emergency_jettison_time_limit_ms": 500.0,
+    "canopy_ballistic_ejection_velocity_ms": 25.0,
+    "full_armor_emp_attenuation_target_db": 120.0,
+    "global_radar_cross_section_suppression_pct": 96.2,
+    "head_to_toe_ground_plane_max_resistance_ohms": 12.0
+  },
+  "integrated_submodule_manifest_ledger": [
+    { "module_layer": "suit-head", "component_id": "ARMW-88-HELMET-CHASSIS", "version": "1.2.0" },
+    { "module_layer": "suit-torso", "component_id": "ARMW-88-TORSO-CHASSIS", "version": "1.0.0" },
+    { "module_layer": "suit-arms", "component_id": "ARMW-88-ARM-SLEEVES", "version": "1.0.0" },
+    { "module_layer": "suit-legs", "component_id": "ARMW-88-LEG-EXOSKELETON", "version": "1.0.0" },
+    { "module_layer": "suit-wings", "component_id": "ARMW-88-MORPHING-WINGS", "version": "1.0.0" },
+    { "module_layer": "suit-sensors", "component_id": "ARMW-88-FLUIDIC-SENSORS", "version": "1.0.0" },
+    { "module_layer": "suit-ai", "component_id": "ARMW-88-AI-INTERFACE", "version": "1.0.0" }
+  ]
+}
