@@ -1,0 +1,37 @@
+# Project ARMO-88 Parametric Schematics & Spatial Framework Index
+
+This directory houses the foundational parametric three-dimensional solid engine code for the **Biomimicry Optoelectronic Resonator Array (Project ARMO-88)** chassis. It serves as the mathematical blueprint layer responsible for turning programmatic variable constraints into watertight, machine-sliceable CAD geometry.
+
+---
+
+## 📂 Internal Directory Manifest
+
+```
+vortex-optics-armo88/config/schematics/
+├── README.md               # This file (Schematics Directory Blueprint Index)
+└── lens-matrix.scad        # Parametric OpenSCAD 3D solid frame chassis file
+```
+
+## 🧬 Spatial Geometry & Sub-Wavelength Wavefront Propagation
+
+The solid geometry rendered by this module is meticulously mapped to secure and support flat-optics sub-wavelength nano-pillar matrices while integrating adaptive micro-fluidic focusing loops:
+
+    [ Ambient Photons ] ──► [ Dielectric Metalens Layer ] ──► [ Phase Delay Filtering ]
+                                                                        │
+                                                             (Wavefront Structuring)
+                                                                        ▼
+    [ Human Retinal Focus ] ◄── [ Coandă Capillary Rings ] ◄── [ Quantum Dot Upconversion ]
+
+
+1.  **Rigid Chassis Frame Geometry:** The chassis framework uses structural carbon-fiber geometries to maintain sub-micron alignment across the optics block, neutralizing frame flex under mechanical loads.
+
+2.  **Adaptive Capillary Channels:** Built-in dual-concentric capillary paths house the liquid gallium alloy. This lets the user adjust the focal zoom smoothly from macro to telephoto targets using simple, pneumatic pressure shifts on the frame temple arms.
+
+## 🛠 CAD Compilation & Rendering Directives
+
+To compile and inspect the 3D frame chassis without relying on restrictive, closed-source CAD packages, adhere to the following workflow:
+
+*   **Compiler Medium:** Download and execute the open-source solid modeler **OpenSCAD** (Version 2021.01 or later).
+*   **Asset Ingestion:** Load `lens-matrix.scad` directly into the compiler dashboard workspace.
+*   **Resolution Tuning:** The rendering variable `$fn` is pre-set to `120` to ensure ultra-smooth arc interpolation for the curved circular lens mounts. For quick rendering drafts, you may adjust this locally to `30`.
+*   **Export Pipeline:** Execute a complete mathematical render (`F6`), followed by an STL export (`F7`) to generate the polygon mesh required by your slicer software.
