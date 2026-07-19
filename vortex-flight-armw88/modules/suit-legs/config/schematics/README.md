@@ -13,6 +13,8 @@ This directory houses the foundational parametric three-dimensional solid engine
 
 ## 🛠 CAD Compilation & Rendering Directives
 
+![ARMW-88 Legs Multi-Layer Armor and Leaf Spring Material Cutaway Profile](../../../media/armw88-legs-cutaway.png)
+
 To compile and inspect the 3D leg framework and kinetic landing loops without relying on restrictive, closed-source CAD packages, adhere to the following workflow:
 
 *   **Compiler Medium:** Download and execute the open-source solid modeler **OpenSCAD** (Version 2021.01 or later).
