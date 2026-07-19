@@ -21,6 +21,10 @@ This operational standard governs the verification protocols, post-print process
 
 ## 🩺 3. Optical Phase Delay & Passive Upconversion Verification
 
+![ARMO-88 Workbench Validation Test Loop](../media/armo88-workbench-test.png)
+
+![ARMO-88 Computational Wavefront Particle Simulation](../media/armo88-cfd-simulation.png)
+
 *   **Wavefront Distortion Alignment Check:** Mount the finished optics block onto an optical breadboard testing jig. Pass a calibration laser beam through the sub-wavelength nano-pillar array. Monitor the resultant output field on a beam profiling grid; the wave front must maintain uniform phase delay alignment without secondary aberrations.
 *   **Passive Upconversion Energy Test:** Drive an invisible near-infrared ($980\text{ nm}$) test laser beam directly through the input lens layer in a dark staging room. Check the exit side of the quantum dotwell array with an optical spectrometer. Confirm that the invisible light mass successfully cascades up into a visible green light emission ($555\text{ nm}$), validating the non-driven upconversion math.
 *   **Focal Zooming Performance Sweep:** Apply mechanical pressure vectors to the pneumatic temple pads on the frame chassis. Observe the liquid-metal capillary boundaries under zoom tracking. Verify that the fluidic displacement successfully adjusts the variable mechanical zoom focus smoothly from macro to telephoto targets.
