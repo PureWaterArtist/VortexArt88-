@@ -101,3 +101,57 @@ difference() {
 
 // Visual Indicator: Maps the lateral clamshell mating split line for the developer
 %rotate([0, 90, 0]) ClamshellHingedSplitLine();
+// --- BIOMIMETIC TORSO SECOND-SKIN CUSHION & PASSIVE STEALTH MATRIX ---
+// Mimics pelagic cetacean pressure-shielding layers and chameleon iridophores
+
+torso_liner_thickness = 18.0;     // Depth of the internal rib-cage kinetic/thermal liner (mm)
+torso_stealth_skin_depth = 1.5;   // Thickness of outer active mechanochemical stealth shell (mm)
+
+module BiomimeticTorsoLiner() {
+    // Variable-density 30A flexible elastomer to damp high-G impact forces 
+    // Embedded with Sahara ant-style capillary lines for passive heat pumping
+    difference() {
+        // Outer layout conforms tightly to internal armor boundaries
+        resize([torso_width_inner - 0.5, torso_depth_inner - 0.5, torso_height - 16.5])
+            cylinder(h=1, r=10, center=true);
+            
+        // Inner profile seating the pilot's protective compression garment
+        resize([torso_width_inner - (torso_liner_thickness*2), torso_depth_inner - (torso_liner_thickness*2), torso_height - 16 - torso_liner_thickness])
+            cylinder(h=1, r=10, center=true);
+            
+        // Passive breathing-expansion pneumatic loop cutouts
+        for (z = [-torso_height/3 : 25 : torso_height/3]) {
+            translate([0, 0, z])
+                rotate_extrude(angle=360)
+                    translate([torso_width_inner/2.4, 0, 0])
+                        circle(r=3.0);
+        }
+    }
+}
+
+module TorsoActiveChameleonSkin() {
+    // External mechanochemical macro-groove structure to encapsulate guanine crystal matrices
+    // Connected to breathing pneumatic tracks to shift reflected visual/IR profiles
+    difference() {
+        // Expansion envelope bounding the exterior armored shell
+        resize([torso_width_inner + (armor_thickness*2) + torso_stealth_skin_depth, torso_depth_inner + (armor_thickness*2) + torso_stealth_skin_depth, torso_height + 4])
+            cylinder(h=1, r=10, center=true);
+            
+        // Inward interface seating flat against primary CF-PC armor faces
+        resize([torso_width_inner + (armor_thickness*2), torso_depth_inner + (armor_thickness*2), torso_height])
+            cylinder(h=1, r=10, center=true);
+            
+        // Micro-etched hydrogel channel rows (1.5mm depth) for multi-spectral crypsis
+        for (angle = [0 : 3 : 360]) {
+            rotate([0, 0, angle])
+                translate([(torso_width_inner/2) + armor_thickness, 0, 0])
+                    cube([3.0, 0.60, torso_height + 20], center=true);
+        }
+    }
+}
+
+// NOTE FOR FABRICATOR: Print the liner array using low-durometer skin-safe TPU.
+// The active camouflage shell is filled with 130nm guanine nanocrystals inside hydrogel.
+// To isolate and inspect these sub-components in your CAD panel, uncomment below:
+// BiomimeticTorsoLiner();
+// TorsoActiveChameleonSkin();
