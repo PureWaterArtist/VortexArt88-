@@ -1,5 +1,7 @@
 # Atmospheric Water Harvester Condenser (Project AWHC-88)
 
+![Project AWHC-88 Vector Schematic Blueprint](./media/awhc88-vector-schematic.png)
+
 ## 💎 System Manifest & Thermodynamic Philosophy
 
 The **Atmospheric Water Harvester Condenser (Project AWHC-88)** is an open-source, solid-state, blade-free moisture extraction platform designed to provide a continuous source of pure drinking water from ambient atmospheric humidity—even in hyper-arid desert environments ($<15\%$ RH). Standard modern water generation systems rely heavily on energy-intensive mechanical compressor loops, toxic chemical refrigerant phases, and moving fan blades that inevitably experience mechanical wear and failure. Project AWHC-88 replaces all active moving parts with non-equilibrium, scale-invariant fluid mechanics and geometric pressure-drop dynamics.
