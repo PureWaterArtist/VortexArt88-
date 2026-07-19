@@ -24,3 +24,11 @@ This operational standard governs the verification protocols, post-processing st
 ## 🩺 3. Functional Deployment & Locking Pin Check
 *   **Jawline Quick-Release Audit:** Slide the 8mm stainless steel detent pins through the lower base rim channels. The springs must click closed with authority and resist pull-out forces up to $800\text{ Newtons}$. The pilot must be able to actuate both buttons simultaneously to release the helmet framework in under 2 seconds during emergency field ingress/egress.
 *   **Visor Sealing Verification:** Install the ARMO-88 metalens into the viewport retention well and lock down the retention clips. Flush the perimeter with high-velocity air streams; there must be absolute zero pressure leaks crossing into the interior skull cavity.
+
+---
+
+## 🛡️ 4. Multispectral Stealth & Active Camouflage Spectral Quality Audit
+
+*   **Photonic Lattice Pitch Inspection:** Place the coated shell matrix under a laser scanning microscope. Verify that the calm-state guanine nanocrystals maintain a baseline spatial layout of $130\text{ nm}$ ($\pm 5\text{ nm}$). Uneven crystal distributions will cause localized color bleeding and break background matching.
+*   **Mechanochemical Pressure Tuning Check:** Connect a manual pneumatic test syringe to the active template line. Apply a low-pressure pulse ($15\text{ kPa}$). The micro-groove hydrogel skin must expand uniformly, widening the crystal lattice gaps to shift the external skin color cleanly from native green into warning orange/red bands. Releasing pressure must instantly return the lattice to its default base green state.
+*   **Near-Infrared Reflectance Suppression Test:** Scan the helmet under an infrared thermal camera array. The deeper disorganized crystal layer must fully diffuse internal metabolic heat profiles, suppressing thermal spikes below ambient room benchmarks to maintain absolute signature cryptis.
