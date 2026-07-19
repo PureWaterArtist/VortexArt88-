@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-FLUIDIC-SENSORS",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-sensors",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "logic_channel_trace_width_mm": 1.5,
+    "logic_channel_groove_depth_mm": 2.2,
+    "doppler_resonant_horn_inlet_diameter_mm": 32.0,
+    "ground_pitot_tube_bore_mm": 4.5,
+    "kinesthetic_cuff_bladder_port_mm": 2.0,
+    "critical_stall_threshold_pa": 1200.0,
+    "threat_switching_pressure_threshold_pa": 1800.0,
+    "pneumatic_altimetry_operating_range_m": "0.0-15.0"
+  },
+  "gas_dynamic_and_stealth_metrics": {
+    "maximum_intake_operating_pressure_kpa": 65.0,
+    "coanda_boundary_layer_adhesion_factor_mu": 0.96,
+    "acoustic_doppler_frequency_tracking_hz": "1200.0-22000.0",
+    "kinesthetic_feedback_actuation_time_ms": 15.0,
+    "emp_attenuation_core_target_db": 120.0,
+    "radar_cross_section_suppression_percentage": 97.0
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Resonator Horn Acoustic Doppler Threat Collectors",
+      "quantity": 2,
+      "specification": "Molded Parabolic High-Gain Resonant Horn Funnel",
+      "sourcing_origin": "suit-sensors/config/schematics/fluidic-computer.scad (DopplerHornCollectors)"
+    },
+    {
+      "part_name": "High-Detail SLA UV Engineering Photopolymer Resin",
+      "quantity": "1.5kg",
+      "specification": "Rigid Clear Formulations with Tensile Modulus > 2.8 GPa",
+      "sourcing_origin": "Commercial Slicing/Printing Material Stock"
+    },
+    {
+      "part_name": "Pneumatic Altimetry Flexible Ground Pitot Lines",
+      "quantity": 2,
+      "specification": "4.5mm Bore Ultra-Lightweight Fluorosilicone Corrugated Tube",
+      "sourcing_origin": "vortex-flight-armw88/modules/suit-legs/config/HARDWARE_BOM.md"
+    }
+  ]
+}
