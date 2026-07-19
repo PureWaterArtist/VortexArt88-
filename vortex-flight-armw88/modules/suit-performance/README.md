@@ -2,6 +2,10 @@
 
 ## 💎 System Manifest & Aero-Performance Philosophy
 
+# Aerodynamic Performance Vectors & Flight Boundaries (Module: suit-performance)
+
+![Project ARMW-88 Aerodynamic Flight Envelope Polar Curve Diagram](./media/armw88-performance-envelope.svg)
+
 The **Aerodynamic Performance Vectors Module (Project ARMW-Performance)** serves as the localized validation matrix, numerical flight boundary log, and empirical performance reference index for the fully integrated **Project ARMW-88 Tactical Flight Armor System**. To preserve absolute immunity to Electromagnetic Pulses (EMP) and grid dropouts, this module establishes a fully non-electronic, mechanical reference standard for calculating aircraft drag polar parameters, glide ratios, lift gradients, and terminal descent curves. By matching the high-aspect configuration of the **Wandering Albatross** to the rigid structural constraints of the carbon-fiber polyethyl-carbonate chassis, this module documents the flight boundaries within which the pilot operates.
 
 The performance layer bridges the raw geometry code of the wing spars with empirical fluid-dynamic formulas. It provides field technicians with exact curves mapping the Lift-to-Drag ratio ($L/D$) against variations in the wing sweep angle, controlled manually via the forearm guide rails. By checking these data charts under cleanroom staging arrays, engineers can verify the precise cruise boundaries, sink velocity parameters, and aerodynamic stall margins ($1200\text{ Pa}$ critical dynamic pressure limit) required to safely execute long-range passive gliding descents over active terrain grids.
