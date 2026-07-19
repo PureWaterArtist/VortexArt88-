@@ -20,6 +20,10 @@ This operational standard governs the verification protocols, post-processing st
 
 ## 🩺 3. High-Impact Drop-Tower & Structural Load Testing
 
+![ARMW-88 Drop-Tower Testing Rig High Shutter Speed Compression Photo](../media/armw88-legs-drop-test.png)
+
+![ARMW-88 Active Chameleon Camouflage Heel-Twist Expansion Chart](../media/armw88-legs-camouflage-sim.png)
+
 *   **Kangaroo-Tendon Kinetic Drop Test:** Mount the completed lower leg exoskeleton framework into a high-impact drop-tower testing rig weighted to a \(100\text{ kg}\) dummy payload profile. Release the assembly from a vertical fall height calibrated to simulate a sudden \(4.5\text{ m/s}\) sink rate touchdown. The multi-layered carbon fiber leaf-spring loops must compress smoothly, completely absorbing the high-percussive \(860.0\text{ Joules}\) ground force vector without micro-cracking.
 *   **Skeletal Torso Load Routing Check:** Connect a series of dynamic load-cell sensors along the upper hip connection interfaces during the drop-tower test. Confirm that the kinetic shock wave is cleanly routed and dissipated outward across the torso harness frames, ensuring zero percussive load spikes bleed inward to the inner pilot leg lining.
 *   **Hip Interface Pin Pull Test:** Apply a severe multi-axial pulling force line up to \(3000\text{ Newtons}\) directly to the \(14.0\text{ mm}\) Inox 316L stainless steel quick-release detent pins. The locking assembly must sustain the load with absolute zero physical distortion or retention groove wear.
