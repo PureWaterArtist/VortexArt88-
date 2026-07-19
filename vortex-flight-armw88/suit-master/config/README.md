@@ -10,6 +10,7 @@ This directory serves as the centralized configuration registry and hardware par
 *   **`hardware-bom.json`:** Machine-readable global control properties card, system-wide G-damping limits, and full armor node maps.
 *   **`HARDWARE_BOM.md`:** Human-readable master procurement ledger manual covering raw stocks, hydrogels, and full-suite COTS hardware parts.
 *   **`CLEANROOM_OPS.md`:** Full-suit post-processing, system-wide Faraday cage grounding continuity loops, and multi-module pressure calibration QA protocols.
+*   **`resodynamic-patches.md`:** [ADDED] Engineering parameters governing Coandă thrust multipliers, pulsed shield oscillators, and wing boundary-layer vacuum suction loops.
 
 ---
 
