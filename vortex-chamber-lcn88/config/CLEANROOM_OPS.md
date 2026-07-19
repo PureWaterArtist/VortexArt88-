@@ -23,6 +23,7 @@ This operational standard governs the verification protocols, post-print process
 
 ![LCN-88 Workbench Hydrostatic Pressure Verification Loop](../../media/lcn88-workbench-test.png)
 
+
 ![LCN-88 Computational Fluid Dynamics Particle Simulation](../../media/lcn88-cfd-simulation.png)
 
 
