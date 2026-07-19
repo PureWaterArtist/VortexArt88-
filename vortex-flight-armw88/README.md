@@ -43,6 +43,9 @@ To guarantee pilot survivability across rough-field terrain insertion envelopes,
 > Project ARMW-88 is strictly licensed under the terms of the **Sovereign Open-Hardware Ethical Covenant**. This architecture is engineered exclusively for human kinetic defense, eco-system monitoring, and planetary civilization healing. **WEAPONIZATION, WARFARE DEPLOYMENT, FORCED LABOR INTEGRATION, OR AUTOMATED DRONE-WARFARE EXPLOITATION CONSTITUTES A SEVERE LEGAL BREACH AND CONTRACT TERMINATION.** To view the binding legal terms, punitive damage structures, and full litigation strategy parameters, read the master file:
 > 🔗 **[ROOT SYSTEM LICENSE COVENANT (`/LICENSE_COVENANT.md`)](LICENSE_COVENANT.md)**
 
+> 🚨 **FABRICATION WARRANTY DISCLAIMER:** ALL DESIGNS ARE PROVIDED 'AS-IS' WITHOUT PHYSICAL WARRANTIES. FABRICATION RUNS ARE EXECUTED ENTIRELY AT THE BUILDER'S OWN LIABILITY AND RISK. SECTION 5 OF THE ROOT COVENANT MANDATES TOTAL INDEMNITY REGARDING ALL DOWNSTREAM FLIGHT INJURIES, PRINT FLAWS, OR CHASSIS COMPRESSION ACCIDENTS.
+> 
+
 ---
 
 ## 🗂 Unified Flight Component Directory
