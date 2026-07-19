@@ -1,5 +1,7 @@
 # Project ARMW-88: Wearable Leg & Landing Gear Chassis (Module: suit-legs)
 
+![Project ARMW-88 Legs Vector Schematic Blueprint](./media/armw88-legs-schematic.png)
+
 ## 💎 System Manifest & Kinetic Deceleration Philosophy
 
 The **Wearable Leg & Landing Gear Chassis Module (Project ARMW-Legs)** is the primary ground interface, structural decelerator, and lower impact protection system of the **Project ARMW-88 Flight Armor Platform**. It is engineered to fully encase the pilot's lower limbs in a rigid lower exoskeleton that integrates a passive, high-efficiency mechanical landing array. To achieve absolute immunity to Electromagnetic Pulses (EMP), high-voltage atmospheric surges, or deliberate jamming, this assembly discards electronic shock absorbers, hydraulic pumps, or digital sensor triggers. Instead, it relies on scale-invariant structural geometry, multi-layered carbon fiber leaf springs, and passive kinetic energy transfer. The lower leg blocks mount directly into the base of the torso using dual hip quick-release detent plates and Inox 316L stainless steel pins, providing a highly reliable connection that can be detached in seconds.
