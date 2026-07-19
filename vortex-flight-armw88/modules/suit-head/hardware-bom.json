@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-HELMET-CHASSIS",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-head",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "head_inner_clearance_width_mm": 165.0,
+    "head_inner_clearance_length_mm": 210.0,
+    "helmet_total_vertical_height_mm": 240.0,
+    "composite_faraday_shell_thickness_mm": 8.0,
+    "front_optics_viewport_width_mm": 140.0,
+    "front_optics_viewport_height_mm": 75.0,
+    "armo_lens_flange_seat_depth_mm": 2.5,
+    "transverse_jaw_detent_bore_mm": 8.0,
+    "faraday_tongue_groove_tolerance_mm": 0.08
+  },
+  "shielding_metrics": {
+    "emp_attenuation_target_db": 120.0,
+    "graphene_interleave_mesh_pitch_um": 50.0,
+    "static_wick_discharge_rating_kv": 75.0
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "ARMO-88 Flat Dielectric Metalens Assembly",
+      "quantity": 1,
+      "sourcing_origin": "vortex-optics-armo88/config/schematics/lens-matrix.scad",
+      "interface_method": "Hinged Step Flange Flaps"
+    },
+    {
+      "part_name": "Inox 316L Stainless Steel Jaw Detent Locking Pins",
+      "quantity": 2,
+      "specification": "8mm Diameter x 45mm Length Quick-Release Pin",
+      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Marine Hardware"
+    },
+    {
+      "part_name": "Non-Newtonian Acoustic Damping Fluid Matrix",
+      "quantity": "15mL",
+      "specification": "Colloidal Silica Nanoparticles in PEG-400 Medium",
+      "sourcing_origin": "vortex-audio-arma88/config/HARDWARE_BOM.md"
+    }
+  ]
+}
