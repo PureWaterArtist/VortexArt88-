@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-MORPHING-WINGS",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-wings",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "maximum_extended_wingspan_mm": 2400.0,
+    "wing_root_chord_length_mm": 650.0,
+    "jettison_cable_pull_travel_mm": 120.0,
+    "emergency_jettison_time_limit_ms": 500.0,
+    "canopy_pneumatic_trigger_pressure_kpa": 45.0,
+    "wingtip_slotted_vortextip_count": 4,
+    "central_spine_block_wall_thickness_mm": 12.0,
+    "triboelectric_mesh_layer_depth_mm": 1.0
+  },
+  "kinetic_and_safety_metrics": {
+    "maximum_wing_spar_bending_load_newtons": 3500.0,
+    "emergency_jettison_shear_force_newtons": 800.0,
+    "canopy_ballistic_ejection_velocity_ms": 25.0,
+    "triboelectric_voltage_peak_potential_v": 450.0,
+    "emp_attenuation_chassis_target_db": 120.0,
+    "radar_cross_section_absorption_percentage": 94.5
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Mechanical Emergency Jettison Stainless Tension Cable",
+      "quantity": 1,
+      "specification": "Inox 316L Marine Grade 4mm Bowden Tension Line",
+      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Marine Hardware"
+    },
+    {
+      "part_name": "High-Elasticity Pre-Preg Carbon Fiber Ribbon Strands",
+      "quantity": "2.5kg",
+      "specification": "Aerospace Grade 3K Carbon Towed Continuous Filament",
+      "sourcing_origin": "suit-wings/config/schematics/wing-joints.scad"
+    },
+    {
+      "part_name": "Ultra-Lightweight Ripstop Kevlar Parachute Matrix Canvas",
+      "quantity": "4.5 square meters",
+      "specification": "Military-Grade Nomex/Kevlar Low-Porosity Flight Mesh",
+      "sourcing_origin": "vortex-flight-armw88/modules/safety-canopy.scad"
+    }
+  ]
+}
