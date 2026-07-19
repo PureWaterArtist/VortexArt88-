@@ -6,6 +6,16 @@ The **Morphing Aero-Resonator Wing Matrix (Project ARMW-88)** is an open-source,
 
 To guarantee pilot survivability across rough-field terrain insertion envelopes, the platform completely discards the need for electronic safety deployments. Ground deceleration is governed by an integrated **Biomimetic Kangaroo-Tendon Landing Exoskeleton** built directly into the lower legs. This system absorbs massive vertical percussive impact forces by transferring energy into a high-elasticity carbon-fiber leaf-spring loop. Continuous pilot vitals and flight dynamics are monitored via a solid-state, non-electronic **Fluidic Sensor Suite**. This suite runs compressed ram-air through microscopic internal logic tracks to compute altitude, velocity, and pitch angle. If a critical spin or low-altitude stall threshold is tripped, the fluid computer redirects the primary pressure vector to activate a fully passive, **Pneumatic Ballistic Emergency Canopy**. This action automatically fires a backup drag matrix using the pilot’s own high-velocity ram-pressure, creating a completely failsafe, self-sustained survival loop.
 
+---
+
+## 📜 Sovereign Ethical Governance & Restrictive Use Mandate
+
+> ⚠️ **CRITICAL LEGAL NOTICE FOR ALL FABRICATORS:** 
+> Project ARMW-88 is strictly licensed under the terms of the **Sovereign Open-Hardware Ethical Covenant**. This architecture is engineered exclusively for human kinetic defense, eco-system monitoring, and planetary civilization healing. **WEAPONIZATION, WARFARE DEPLOYMENT, FORCED LABOR INTEGRATION, OR AUTOMATED DRONE-WARFARE EXPLOITATION CONSTITUTES A SEVERE LEGAL BREACH AND CONTRACT TERMINATION.** To view the binding legal terms, punitive damage structures, and full litigation strategy parameters, read the master file:
+> 🔗 **[ROOT SYSTEM LICENSE COVENANT (`/LICENSE_COVENANT.md`)](LICENSE_COVENANT.md)**
+
+---
+
 ## 🗂 Unified Flight Component Directory
 ```
 vortex-flight-armw88/
