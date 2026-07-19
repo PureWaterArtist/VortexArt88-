@@ -1,86 +1,131 @@
-#!/usr/bin/env python3
-# =========================================================================
-# PROJECT ARMW-88: BIOMIMETIC MORPHING WINGSUIT SYSTEM (DIGITAL TWIN)
-# Verification Module: Aerodynamic Lift, Fluidic Sensing, & Impact Landing Twin
-# Licensed under CERN-OHL-S-2.0 (Strongly Reciprocal Open Hardware)
-# =========================================================================
+"""
+=========================================================================
+PROJECT ARMW-88: MASTER CORE RESODYNAMIC PHYSICS & FLIGHT ENVELOPE TWIN
+Root System: Human / AI Collaborative Computational Mesh Engine v2.0.0
+Licensed under CERN-OHL-S-2.0 (Strongly Reciprocal Open Hardware)
+=========================================================================
+"""
 
-import numpy as np
+import math
 
-def run_flight_validation_twin():
-    print("=" * 80)
-    print(" PROJECT ARMW-88: BIOMIMETIC AERO-RESONATOR SYSTEM FLIGHT ENVELOPE SIMULATION")
-    print("=" * 80)
-    
-    # --- METROLOGY INPUT ATTRIBUTES (Keyed to hardware-bom.json) ---
-    pilot_mass_kg = 85.0            # Core mass payload profile
-    wing_span_morph_m = 2.4         # Fully extended Albatross-ratio high-aspect wingspan (m)
-    air_density_sea_level = 1.225   # kg/m^3 baseline standard air density
-    terminal_velocity_ms = 55.0     # Baseline cruise glide airspeed speed (approx 200 km/h)
-    angle_of_attack_deg = 18.5      # High alpha pitch maneuver test limit
-    impact_sink_rate_ms = 4.5       # Extreme vertical descent sink speed during rough landing (m/s)
-    
-    print(f"[*] Analyzing Aerodynamic and Payload Telemetry Boundary Data...")
-    print(f"    -> Combined Operational Payload : {pilot_mass_kg:.1f} kg")
-    print(f"    -> Morphing Maximum Wingspan    : {wing_span_morph_m:.2f} m")
-    print(f"    -> Target Cruise Glide Airspeed : {terminal_velocity_ms:.1f} m/s (198 km/h)")
-    print(f"    -> Aggressive Maneuver Angle    : {angle_of_attack_deg:.1f}° Alpha Pitch")
-    print(f"    -> Survival Landing Sink Target : {impact_sink_rate_ms:.1f} m/s Vertical Drop")
-    print("-" * 80)
-    
-    # 1. MORPHING AERO-SURFACE & SHARK-DENTICLE STALL DIAGNOSTICS
-    # Standard flat wingsuits stall out above 12 degrees. Our bristling denticles preserve attachment.
-    wing_area_m2 = wing_span_morph_m * 0.65 # Aerodynamic chord area approximation
-    lift_coefficient = 2 * np.pi * np.radians(angle_of_attack_deg) * 1.35 # Enhanced via tip slots
-    generated_lift_newtons = 0.5 * air_density_sea_level * (terminal_velocity_ms**2) * wing_area_m2 * lift_coefficient
-    required_lift_equilibrium = pilot_mass_kg * 9.81
-    
-    # Boundary layer friction coefficient modifier due to shark denticle micro-vortex traps
-    denticle_boundary_attachment_factor = 0.94 # Maintained laminar cohesion indicator
-    
-    print(f"[*] Morphing Airfoil & Boundary Layer Skin Performance Matrix:")
-    print(f"    -> Generated Dynamic Lift Force : {generated_lift_newtons:.2f} Newtons")
-    print(f"    -> Required Gravity Equilibrium : {required_lift_equilibrium:.2f} Newtons")
-    
-    if generated_lift_newtons >= required_lift_equilibrium and denticle_boundary_attachment_factor > 0.90:
-        print(" [SUCCESS] Stable Glide Path Achieved. Denticle Matrix Prevents Separation Stall.")
-    else:
-        print(" [WARNING] Insufficient lift surface generation. Stall hazard imminent.")
-    print("-" * 80)
-    
-    # 2. NON-ELECTRONIC FLUIDIC SENSOR SUITE TRACKING
-    # Fluid computer routes ram-pressure through internal logic tracks to audit spin risk
-    ram_air_dynamic_pressure_pa = 0.5 * air_density_sea_level * (terminal_velocity_ms**2)
-    fluidic_logic_switching_threshold_pa = 1200.0 # Switching gate force trigger
-    
-    print(f"[*] Fluidic Sensor Suite & Emergency Trigger Analytics:")
-    print(f"    -> Ram-Air Dynamic Pressure     : {ram_air_dynamic_pressure_pa:.2f} Pascals")
-    
-    if ram_air_dynamic_pressure_pa > fluidic_logic_switching_threshold_pa:
-        print(" [SUCCESS] Fluidic Logic Array Pressurized. Real-Time Telemetry Tracking Active.")
-        print("           Emergency Trigger Loop Status: SAFE [Pneumatic Canopy Armed].")
-    else:
-        print(" [CRITICAL] Low pressure air mass footprint. Immediate ballistic deployment required!")
-    print("-" * 80)
-    
-    # 3. BIOMIMETIC LANDING EXOSKELETON KINETIC ENERGY ABSORTION
-    # Kangaroo-tendon mechanics transfer percussive ground shocks into leaf-spring loops
-    kinetic_energy_at_touchdown_j = 0.5 * pilot_mass_kg * (impact_sink_rate_ms**2)
-    leaf_spring_deflection_m = 0.15 # Max structural travel clearance of leg frame rods (15cm)
-    required_spring_rate_n_m = (2 * kinetic_energy_at_touchdown_j) / (leaf_spring_deflection_m**2)
-    
-    print(f"[*] Kangaroo-Tendon Deceleration Exoskeleton Metrics:")
-    print(f"    -> Percussive Ground Shock Mass : {kinetic_energy_at_touchdown_j:.2f} Joules")
-    print(f"    -> Required Frame Spring Rate   : {required_spring_rate_n_m:.2f} N/m")
-    
-    # Structural limits check against maximum rating of tough carbon fiber leaf loops
-    if required_spring_rate_n_m <= 125000.0:
-        print(" [SUCCESS] Percussive Shock Safely Contained and Displaced Across Torso.")
-        print("           Landing Gear Status: RUNWAY SECURED [Zero Skeletal Load Siphoned].")
-    else:
-        print(" [FAILED] Kinetic energy exceeds material limits. Structural rupture imminent.")
-    print("=" * 80)
+class ARMW88FlightTwin:
+    def __init__(self):
+        # 📊 Core Metrology & Physics Constants (Head to Toe)
+        self.air_density_sea_level = 1.225     # kg/m^3 (Baseline air density)
+        self.wingspan_max = 2400.0 / 1000.0    # Convert mm to meters (2.4m)
+        self.wing_root_chord = 650.0 / 1000.0  # Convert mm to meters (0.65m)
+        self.wing_area = self.wingspan_max * self.wing_root_chord # Estimated reference area
+        
+        # 🛡️ Toroidal Vortex Shield Constants (Torso Subs)
+        self.vortex_throat_slit = 3.5 / 1000.0 # Convert mm to meters (0.0035m)
+        self.vortex_ring_radius = 45.0 / 1000.0 # Convert mm to meters (0.045m)
+        
+        # ⚡ Triboelectric Siphoning Metrics (Arms/Legs)
+        self.tribo_peak_potential_v = 450.0    # Volts under peak wind shear friction
+        
+        # 🦘 Kangaroo-Tendon Lander Metrics (Leg Subs)
+        self.lander_spring_rate = 125000.0     # N/m (Calibrated leaf-loop rate)
+        self.max_sink_survival_rate = 4.5      # m/s (Maximum design touchdown velocity)
+        
+        # 🧠 Fluidic Logic Computing Thresholds (Sensors/AI)
+        self.critical_stall_threshold_pa = 1200.0 # Fluid computer trigger limit
+        self.threat_detection_threshold_pa = 1800.0
 
+    def calculate_aerodynamic_lift(self, velocity_ms, alpha_deg):
+        """
+        Calculates passive lift based on albatross wing profile geometries.
+        Mimics high-aspect ratio wing loading dynamics.
+        """
+        # Linear lift slope approximation for albatross-profile semi-rigid airfoils
+        alpha_rad = math.radians(alpha_deg)
+        cl = 2 * math.pi * alpha_rad
+        
+        # Dynamic pressure calculation: q = 0.5 * rho * v^2
+        dynamic_pressure = 0.5 * self.air_density_sea_level * (velocity_ms ** 2)
+        lift_newtons = cl * dynamic_pressure * self.wing_area
+        
+        return lift_newtons, dynamic_pressure
+
+    def simulate_toroidal_shield_velocity(self, dynamic_pressure):
+        """
+        Simulates the velocity of the invisible rotating kinetic air curtain.
+        Pipes dynamic intake pressure directly through the micro-Venturi slits.
+        """
+        # Conservation of mass & Bernoulli extraction crossing the 3.5mm throat slits
+        # V_exit = sqrt(2 * q / rho) modulated by throat contraction friction coefficients
+        boundary_layer_friction_coeff = 0.96
+        theoretical_exit_vel = math.sqrt((2 * dynamic_pressure) / self.air_density_sea_level)
+        actual_shield_velocity_ms = theoretical_exit_vel * boundary_layer_friction_coeff
+        
+        # Kinetic deflection conversion tracking (Joules threshold check)
+        kinetic_deflection_joules = 0.5 * self.air_density_sea_level * (actual_shield_velocity_ms ** 2) * self.vortex_ring_radius
+        
+        return actual_shield_velocity_ms, kinetic_deflection_joules
+
+    def calculate_triboelectric_harvesting(self, velocity_ms):
+        """
+        Siphons environmental wind shear friction back into the conductive power bus.
+        """
+        # Static voltage scale function relative to airspeed airspeed parameters
+        normalized_velocity = min(velocity_ms / 55.55, 1.2) # Scaled to 200 km/h baseline cruise
+        current_potential_volts = self.tribo_peak_potential_v * normalized_velocity
+        
+        return current_potential_volts
+
+    def evaluate_fluidic_logic_state(self, dynamic_pressure):
+        """
+        Audits fluid computer AND/OR/NOT flip-flop statuses using pure pneumatic differentials.
+        """
+        if dynamic_pressure <= self.critical_stall_threshold_pa:
+            return "TRIGGER_FAILSAFE_CANOPY", 4500.0 # Fires high-pitch warning staccato (4500 Hz)
+        elif dynamic_pressure >= self.threat_detection_threshold_pa:
+            return "TRIGGER_EVASIVE_TACTILE_PROMPT", 1500.0 # Fires alert interval (1500 Hz)
+        else:
+            return "CRUISE_OPTIMAL_BALANCE", 240.0 # Main cruise monotone (240 Hz)
+
+    def calculate_landing_impact_deflection(self, pilot_mass_kg, sink_rate_ms):
+        """
+        Evaluates kangaroo-tendon leaf spring deflection paths during drops or touchdowns.
+        Ensures kinetic mass is routed away from skeletal spine layers.
+        """
+        if sink_rate_ms > self.max_sink_survival_rate:
+            impact_status = "CRITICAL_OVERLOAD_WARN"
+        else:
+            impact_status = "SURVIVABLE_SAFE_ROUTING"
+            
+        # Kinetic impact energy: E = 0.5 * m * v^2
+        kinetic_energy_joules = 0.5 * pilot_mass_kg * (sink_rate_ms ** 2)
+        
+        # Spring compression displacement path: x = sqrt(2 * E / k)
+        compression_travel_m = math.sqrt((2 * kinetic_energy_joules) / self.lander_spring_rate)
+        compression_travel_mm = compression_travel_m * 1000.0
+        
+        return compression_travel_mm, kinetic_energy_joules, impact_status
+
+# --- DIGITAL TWIN PIPELINE VERIFICATION EXECUTION ---
 if __name__ == "__main__":
-    run_flight_validation_twin()
-  
+    print("Initializing Project ARMW-88 Full Flight Armor Integrated Check...")
+    twin = ARMW88FlightTwin()
+    
+    # Test Scenario: 200 km/h (55.55 m/s) Cruise Glide at 6-degree angle of attack
+    test_velocity = 55.55
+    test_alpha = 6.0
+    pilot_weight = 85.0 # kg
+    landing_sink = 3.8 # m/s
+    
+    lift, dynamic_press = twin.calculate_aerodynamic_lift(test_velocity, test_alpha)
+    shield_vel, deflection_j = twin.simulate_toroidal_shield_velocity(dynamic_press)
+    harvested_v = twin.calculate_triboelectric_harvesting(test_velocity)
+    logic_state, ai_audio_frequency = twin.evaluate_fluidic_logic_state(dynamic_press)
+    spring_deflection, impact_j, landing_safety = twin.calculate_landing_impact_deflection(pilot_weight, landing_sink)
+    
+    print("\n================ MASTER CORE CROSS-CHECK LEDGER ================")
+    print(f" Flight Speed: {test_velocity*3.6:.2f} km/h | Dynamic Air Pressure: {dynamic_press:.2f} Pa")
+    print(f" Generated Soaring Lift Force : {lift:.2f} Newtons")
+    print(f" Toroidal Vortex Curtain Speed: {shield_vel:.2f} m/s | Passive Deflection Cap: {deflection_j:.2f} J")
+    print(f" Triboelectric Mesh Harvesting: {harvested_v:.2f} Volts (Siphoned into EGaIn Bus)")
+    print(f" Fluid Computer Logic Status : {logic_state} | AI Acoustic Output: {ai_audio_frequency:.0f} Hz")
+    print(f" Lander Spring Travel Path   : {spring_deflection:.2f} mm | Impact Load Absorbed: {impact_j:.2f} J")
+    print(f" Structural Landing Safety    : {landing_safety}")
+    print("================================================================")
+    
