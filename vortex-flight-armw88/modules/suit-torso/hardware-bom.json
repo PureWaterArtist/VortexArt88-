@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-TORSO-CHASSIS",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-torso",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "torso_inner_rib_clearance_width_mm": 340.0,
+    "torso_inner_clearance_depth_mm": 260.0,
+    "torso_total_vertical_length_mm": 580.0,
+    "composite_armor_thickness_mm": 12.0,
+    "collarbone_vortex_ring_radius_mm": 45.0,
+    "vortex_shield_pinch_slit_mm": 3.5,
+    "rear_squid_intake_diameter_mm": 95.0,
+    "shoulder_socket_pin_bore_mm": 16.0,
+    "central_chest_lock_dial_radius_mm": 35.0,
+    "biomimetic_torso_liner_thickness_mm": 18.0,
+    "stealth_photonic_skin_depth_mm": 1.5
+  },
+  "defensive_and_energy_metrics": {
+    "vortex_shield_kinetic_deflection_rating_joules": 2200.0,
+    "vortex_shield_operating_pressure_kpa": 45.0,
+    "emp_attenuation_chassis_target_db": 120.0,
+    "g_force_thoracic_damping_capacity_g": 18.0,
+    "radar_cross_section_suppression_percentage": 96.2,
+    "near_infrared_thermal_diffusion_db": -40.0
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Central Interlocking Dial Mechanical Link-Bar Core",
+      "quantity": 1,
+      "specification": "Inox 316L Stainless Steel Triple-Lobe Engagement Plate",
+      "sourcing_origin": "suit-torso/torso-clamshell.scad (CentralChestLockingDialRegistry)"
+    },
+    {
+      "part_name": "Shoulder Socket Arm Quick-Release Connecting Rods",
+      "quantity": 2,
+      "specification": "16mm Diameter x 85mm Length Hardened Steel Detent Bar",
+      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Heavy Duty Industrial Hardware"
+    },
+    {
+      "part_name": "Active Torso Photonic Chameleon Stealth Coating Matrix",
+      "quantity": "90mL",
+      "specification": "130nm Guanine Photonic Nanocrystals in Elastomeric Hydrogel",
+      "sourcing_origin": "suit-torso/torso-clamshell.scad (TorsoActiveChameleonSkin Module)"
+    }
+  ]
+}
