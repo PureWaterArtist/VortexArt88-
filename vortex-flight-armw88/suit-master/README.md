@@ -13,6 +13,14 @@ When all components are locked together across the cleanroom assembly line, they
 
 ---
 
+## ⚖️ Full-Platform Restrictive Legal Framework
+
+> 🚫 **CIVILIZATIONAL EXPLOITATION BOUNDARY PROHIBITION:**
+> As the central structural hub coordinating all seven standalone flight nodes, the fully assembled suit is strictly bound to the **Project ARMW-88 Ethical Covenant**. Slicing, fabricating, or assembling this multi-module envelope for warfare or drone-force enslavement automatically triggers international civil litigation and asset seizure.
+> 🔗 **[READ FULL LITIGATION DEPLOYMENT AND COMPLIANCE SPECIFICATIONS (`/LICENSE_COVENANT.md`)](../../LICENSE_COVENANT.md)**
+
+---
+
 ## 🗂 Master Suit Symmetrical Directory Map
 ```
 vortex-flight-armw88/modules/suit-master/
