@@ -1,0 +1,9 @@
+Component_ID,Category,Part_Name,Specification,Quantity,Primary_Purpose,Safety_Notes
+BOM-01,Plumbing,Clear Vinyl Tubing,1/2-inch ID (Inside Diameter),10 feet,Connects pump output to printed Nozzle inlets,Ensure flexible rating matches pump output pressure
+BOM-02,Plumbing,Y-Splitter Fitting,1/2-inch Barb (Brass or Stainless Steel),1,Splits a single pump stream into two equal lines,Avoid cheap plastic to prevent splitting under pressure
+BOM-03,Hardware,Hose Clamps,Stainless Steel Worm-Gear (1/2-inch size),6,Secures vinyl tubing to barbs and 3D printed ports,Tighten firmly to avoid accidental high-pressure spray
+BOM-04,Seals,Nitrile O-Rings,40mm ID x 2mm Thickness,2,Creates watertight barrier inside the housing sleeves,Double-check fit inside modeled CAD grooves
+BOM-05,Fasteners,Hex Machine Screws & Nuts,M4 x 20mm (Stainless Steel),4,Clamps the upper and lower housing shells together,Do not over-torque into plastic threads
+BOM-06,Safety,Food-Safe Epoxy Coating,FDA-Compliant / Non-Toxic Liquid Epoxy,1 kit,Seals raw 3D printed channels against bacterial growth,MUST cure completely for 72 hours before running water
+BOM-07,Fluid Mechanics,Submersible Water Pump,12V DC / 400 GPH (Gallons Per Hour) / Adjustable Flow,1,Provides steady input velocity to drive the twin vortices,Never run dry; always plug into a GFCI-protected outlet
+BOM-08,Metrology,Electronic DO Meter,Handheld Dissolved Oxygen Tester (Digital),1,Quantifies baseline vs. post-singularity oxygenation,Calibrate with distilled water before running Protocol 3
