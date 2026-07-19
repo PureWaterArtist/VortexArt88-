@@ -6,6 +6,35 @@ The **Morphing Aero-Resonator Wing Matrix (Project ARMW-88)** is an open-source,
 
 To guarantee pilot survivability across rough-field terrain insertion envelopes, the platform completely discards the need for electronic safety deployments. Ground deceleration is governed by an integrated **Biomimetic Kangaroo-Tendon Landing Exoskeleton** built directly into the lower legs. This system absorbs massive vertical percussive impact forces by transferring energy into a high-elasticity carbon-fiber leaf-spring loop. Continuous pilot vitals and flight dynamics are monitored via a solid-state, non-electronic **Fluidic Sensor Suite**. This suite runs compressed ram-air through microscopic internal logic tracks to compute altitude, velocity, and pitch angle. If a critical spin or low-altitude stall threshold is tripped, the fluid computer redirects the primary pressure vector to activate a fully passive, **Pneumatic Ballistic Emergency Canopy**. This action automatically fires a backup drag matrix using the pilot’s own high-velocity ram-pressure, creating a completely failsafe, self-sustained survival loop.
 
+### 🧬 Full Platform Mechanical Architecture & Kinetic Links
+
+```text
+                     🪖 HEAD CELL [ suit-head ]
+             Faraday Shell (8.0mm) + Passive Metalens Visor
+                                │
+                                ▼
+                    🦺 CHEST CORE [ suit-torso ]
+          Interlocking Clamshell + Toroidal Kinetic Shield
+         (Siphons Ram-Air via Rear 95mm Squid Induction Ports)
+                                │
+         ┌──────────────────────┼──────────────────────┐
+         ▼                      ▼                      ▼
+🦾 ARM SLEEVES [ suit-arms ] 🧠 FLUID COMPUTER [ suit-sensors ] 🦅 MORPHING WINGS [ suit-wings ]
+ Forearm Sliding Tracks      1.5mm Micro-Logic Tracks    Albatross 2400mm Aspect
+ Triboelectric FEP Mesh      Doppler Acoustic Radar     0.5s Emergency Jettison
+         │                      │                      │
+         └──────────────────────┼──────────────────────┘
+                                ▼
+                    🧠 COGNITIVE LINK [ suit-ai ]
+               Beryllium Copper Resonant Harmonic Reeds
+             (Translates Sensor Output to 240Hz-4500Hz Tones)
+                                │
+                                ▼
+                     🦘 LANDER MATRIX [ suit-legs ]
+           Kangaroo-Tendon Leaf Springs (125,000 N/m)
+          Routes Percussive Drop Shock (860J) Around Spine
+```
+
 ---
 
 ## 📜 Sovereign Ethical Governance & Restrictive Use Mandate
