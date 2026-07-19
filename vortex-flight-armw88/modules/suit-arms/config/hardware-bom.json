@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-ARM-SLEEVES",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-arms",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "forearm_sleeve_inner_diameter_mm": 95.0,
+    "bicep_cuff_inner_diameter_mm": 125.0,
+    "arm_chassis_total_length_mm": 420.0,
+    "linear_rail_groove_width_mm": 14.0,
+    "linear_rail_groove_depth_mm": 10.0,
+    "shoulder_connection_pin_diameter_mm": 16.0,
+    "elbow_flexible_bellows_thickness_mm": 3.0,
+    "triboelectric_mesh_layer_depth_mm": 1.0,
+    "stealth_photonic_skin_depth_mm": 1.5
+  },
+  "kinetic_and_harvesting_metrics": {
+    "maximum_linear_shear_load_newtons": 3500.0,
+    "rail_sliding_friction_coefficient_mu": 0.08,
+    "triboelectric_voltage_peak_potential_v": 450.0,
+    "conductive_fluid_bus_operating_viscosity_cps": 12.5,
+    "emp_attenuation_sleeve_target_db": 120.0,
+    "radar_cross_section_absorption_percentage": 95.0
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Hardened Steel Shoulder Quick-Release Connector Rods",
+      "quantity": 2,
+      "specification": "16mm Diameter x 85mm Length Hardened Steel Detent Pin",
+      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Industrial Hardware"
+    },
+    {
+      "part_name": "Triboelectric Fluoropolymer Mesh Sheeting",
+      "quantity": "0.5 square meters",
+      "specification": "Micro-grooved Fluorinated Ethylene Propylene (FEP) Mesh",
+      "sourcing_origin": "suit-arms/HARDWARE_BOM.md (Section 3)"
+    },
+    {
+      "part_name": "Conductive Liquid Gallium Alloy Vehicle Bus Medium",
+      "quantity": "30mL",
+      "specification": "Eutectic Gallium-Indium (EGaIn) High-Conductivity Alloy",
+      "sourcing_origin": "vortex-optics-armo88/config/HARDWARE_BOM.md"
+    }
+  ]
+}
