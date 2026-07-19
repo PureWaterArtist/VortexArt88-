@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-AERO-FRAME",
+  "project_name": "Morphing Aero-Resonator Wing Matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "maximum_extended_wingspan_mm": 2400.0,
+    "airfoil_root_chord_length_mm": 650.0,
+    "shark_denticle_scale_height_um": 280.0,
+    "cardioid_jet_induction_diameter_mm": 95.0,
+    "fluidic_sensor_trace_width_mm": 1.5,
+    "landing_gear_clearance_travel_mm": 150.0
+  },
+  "manufacturing_directives": {
+    "approved_materials": ["Aerospace_PC-CF", "Continuous_Carbon_Fiber", "Flexible_TPU_95A"],
+    "minimum_wall_loops": 6,
+    "infill_pattern_target": "Gyroid",
+    "infill_density_percentage": 50.0,
+    "layer_height_resolution_mm": 0.14,
+    "interlayer_temperature_target_c": 275.0
+  },
+  "post_processing_protocol": {
+    "exoskeleton_joint_lubricant": "Dry_Graphite_Micro_Powder",
+    "fluidic_sensor_sealant_type": "High_Detail_Epoxy_Dip",
+    "impact_absorber_tendon_type": "High_Elasticity_Carbon_Leaf_Loop",
+    "validation_manual": "CLEANROOM_OPS.md"
+  }
+}
