@@ -131,7 +131,8 @@ This project bridges the gap between architectural aesthetic art and low-cost, f
 
 ***
 
-### 🧠 Vocabulary Upgrade: *Please review these key terms to bridge the gap between true knowledge and true understanding.*
+### 🧠 Vocabulary Upgrade:
+*Please review these key terms to bridge the gap between true knowledge and true understanding.*
 
 ## What Does "Scale-Invariant" Mean?
 
