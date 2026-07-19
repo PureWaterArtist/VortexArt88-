@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-PERFORMANCE-VECTORS",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-performance",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "aerodynamic_performance_constants": {
+    "wingspan_reference_length_mm": 2400.0,
+    "wing_root_chord_length_mm": 650.0,
+    "total_wing_surface_area_m2": 1.56,
+    "maximum_soaring_glide_ratio": 27.4,
+    "standard_cruise_glide_ratio": 22.8,
+    "tactical_dive_sweep_glide_ratio": 15.0,
+    "optimal_angle_of_attack_deg": 6.0,
+    "linear_lift_slope_cl_per_rad": 6.283
+  },
+  "flight_velocity_safety_bounds": {
+    "optimal_cruise_velocity_kmh": 200.0,
+    "maximum_structural_dive_velocity_kmh": 280.0,
+    "critical_stall_airspeed_limit_kmh": 158.0,
+    "stall_dynamic_pressure_head_pa": 1200.0,
+    "maximum_load_dynamic_pressure_head_pa": 3705.0,
+    "peak_allowable_wing_bending_load_newtons": 3500.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "calibration_standard": "ISO 2533 Aerospace Standard Atmosphere Model",
+      "reference_density_kg_m3": 1.225,
+      "sourcing_origin": "Root Flight Calculations Layer"
+    },
+    {
+      "part_name": "Integrated Structural Flight Envelope Physics Twin",
+      "specification": "Python 3 Runtime Script Validation Engine",
+      "sourcing_origin": "vortex-flight-armw88/armw88-flight-twin.py"
+    }
+  ]
+}
