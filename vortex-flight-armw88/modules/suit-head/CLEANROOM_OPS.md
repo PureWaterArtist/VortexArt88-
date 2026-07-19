@@ -10,9 +10,14 @@ This operational standard governs the verification protocols, post-processing st
 
 ---
 
-## 🧲 2. Faraday Ground Continuity & Acoustic Fluid Calibration
+## 🧲 2.a. Faraday Ground Continuity & Acoustic Fluid Calibration
 *   **Electrical Conductivity Test:** Set a digital multimeter to measure resistance (Ohms). Place the test probes across opposite sides of the closed helmet shell. The carbon-fiber graphene substrate must register a continuous electrical path with resistance under $10\text{ \Omega}$ across all axes. If any spot registers an open circuit, patch the interior face with a high-purity conductive graphite spray coating.
 *   **Temporal Ear Cup Assembly:** Inject 15mL of calibrated colloidal silica non-Newtonian damping fluid into the built-in temporal acoustic channels. Seal the injection port with an ultra-thin fluorosilicone gasket. This step ensures that external engine whine and aerodynamic noise are passively deadened while ambient vocal frequencies remain clear.
+
+## 🌀 2.b Removable Biomimetic Liner Integration & Density Check
+*   **Variable-Density Void Audit:** Scan the 3D-printed 30A durometer flexible TPU liner under backlit profile checkers. Verify that the interior porous micro-cavities (Woodpecker skull matrix template) are completely open and elastic. Any localized fusing of the voids will cause rigid hotspots, compromising high G-force kinetic absorption limits.
+*   **Thermal Vent Pass-Through Test:** Flush compressed air through the horizontal $2.4\text{ mm}$ thermal conduits. Air must flow freely without boundary blockages, confirming that the Sahara ant-style passive heat pump venting layer will properly extract metabolic head heat out through the rear exhaust vents.
+*   **Snap Retention Fit Check:** Align the four push-pin tabs into the main helmet chassis receptor slots. Press firmly until seated flush. The liner must lock flat with zero interior shifting or bunching, maintaining an absolute uniform $14.0\text{ mm}$ safety zone around the pilot's brow line.
 
 ---
 
