@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMO-88-LENS-MATRICES",
+  "project_name": "Biomimicry Optoelectronic Resonator Array",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "dielectric_metalens_diameter_mm": 52.0,
+    "nanopillar_height_target_nm": 600.0,
+    "minimum_nanopillar_width_nm": 180.0,
+    "coanda_capillary_fluid_width_mm": 1.2,
+    "substrate_plate_thickness_mm": 2.5
+  },
+  "manufacturing_directives": {
+    "approved_materials": ["Silicon_Nitride_Si3N4", "Tough_Resin_SLA", "PC-CF_Frame"],
+    "minimum_wall_loops": 4,
+    "infill_pattern_target": "Solid",
+    "infill_density_percentage": 100.0,
+    "layer_height_resolution_mm": 0.02,
+    "post_cure_uv_exposure_minutes": 45.0
+  },
+  "post_processing_protocol": {
+    "fluidic_medium_type": "Liquid_Gallium_Alloy_EGaIn",
+    "quantum_well_doping_agent": "Zinc_Sulfide_Copper_Doped_ZnS_Cu",
+    "sealant_method": "Laser_Micro_Weld_Seam",
+    "validation_manual": "CLEANROOM_OPS.md"
+  }
+}
