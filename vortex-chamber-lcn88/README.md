@@ -1,5 +1,7 @@
 # Lemniscate Collision Node Chamber (Project LCN-88)
 
+![Project LCN-88 Engineering Specification and Prototype](./media/lcn88-prototype-validation.png)
+
 ## 💎 System Manifest & Fluid Dynamic Philosophy
 
 The **Lemniscate Collision Node (Project LCN-88)** is an open-source, solid-state fluidic collision housing designed to interface directly with the twin-vortex nozzle assemblies of the master **VortexArt88** matrix. Traditional water filtration systems force mediums through restrictive, high-wear physical membranes or toxic biochemical additive trails. Project LCN-88 replaces all chemical dependencies with perfect, velocity-neutralizing vector cancellations.
