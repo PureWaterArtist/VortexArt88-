@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-AI-INTERFACE",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-ai",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "acoustic_reed_thickness_mm": 0.15,
+    "acoustic_reed_clearance_gap_mm": 0.05,
+    "state_memory_shuttle_travel_mm": 1.8,
+    "feedback_port_bore_diameter_mm": 2.0,
+    "calm_cruise_harmonic_pitch_hz": 240.0,
+    "threat_warning_interval_low_hz": 1200.0,
+    "threat_warning_interval_high_hz": 1800.0,
+    "critical_stall_staccato_pitch_hz": 4500.0,
+    "terrain_proximity_slur_start_hz": 880.0,
+    "terrain_proximity_slur_end_hz": 440.0
+  },
+  "acoustic_and_state_metrics": {
+    "maximum_reed_oscillation_amplitude_mm": 0.35,
+    "reed_tensile_modulus_target_gpa": 135.0,
+    "state_memory_switching_pressure_pa": 450.0,
+    "kinesthetic_cuff_inflation_latency_ms": 15.0,
+    "emp_attenuation_housing_target_db": 120.0,
+    "acoustic_isolation_coefficient_db": 30.0
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Beryllium Copper C17200 Acoustic Reed Ribbon Strip Stock",
+      "quantity": 5,
+      "specification": "0.15mm Thickness Ultra-Flat Spring Alloy Strips",
+      "sourcing_origin": "suit-ai/config/HARDWARE_BOM.md (Section 1)"
+    },
+    {
+      "part_name": "Mechanochemical State-Memory Micro-Shuttle Valves",
+      "quantity": 4,
+      "specification": "Precision Machined Low-Friction Delrin Slide Pistons",
+      "sourcing_origin": "Commercial Precision Micro-Valving Stock"
+    },
+    {
+      "part_name": "Acoustic Tuning Cleanroom Resonance Pitch Pipes",
+      "quantity": 1,
+      "specification": "Calibrated Mechanical Reference Oscillator Matrix",
+      "sourcing_origin": "Cleanroom Calibration Testing Tool Suite"
+    }
+  ]
+}
