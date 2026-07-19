@@ -13,13 +13,18 @@ vortex-chamber-lcn88/config/
 ├── HARDWARE_BOM.md           # Human-readable workbench procurement ledger manual
 ├── CLEANROOM_OPS.md          # Cleanroom post-processing and bench validation protocols
 └── schematics/
-└── chamber-profile.scad  # Parametric OpenSCAD 3D solid fluid engine file
+    └── chamber-profile.scad  # Parametric OpenSCAD 3D solid fluid engine file
 
 ## 📊 Structural Schema Architecture & Interlink Map
 
 To maintain strict scale-invariant data parity across the entire ecosystem, the files within this matrix are bound by a rigid, cross-referenced validation chain:
 
-[ hardware-bom.json ]  ──► (Feeds Attributes) ──►  [ chamber-profile.scad ]│                                                  │(Enforces Schema)                                  (Generates Geometry)▼                                                  ▼[ HARDWARE_BOM.md ]   ──► (Governs Testing)  ──►  [ CLEANROOM_OPS.md ]
+    [ hardware-bom.json ]  ──► (Feeds Attributes) ──►  [ chamber-profile.scad ]
+             │                                                  │
+     (Enforces Schema)                                  (Generates Geometry)
+             ▼                                                  ▼
+     [ HARDWARE_BOM.md ]   ──► (Governs Testing)  ──►  [ CLEANROOM_OPS.md ]
+     
 
 1.  **Metrology Control Center (`hardware-bom.json`):** Holds the raw numerical variables (such as tolerances, radiuses, and infill parameters). This JSON structure can be fed directly into custom Python testing environments or distributed ledgers to automate quality audits.
 2.  2.  **Physical Acquisition Ledger (`HARDWARE_BOM.md`):** Translates the raw numeric keys from the JSON card into standard commercial terms and dimensions for field mechanics sourcing raw polymer mass or clamping fittings.
