@@ -14,6 +14,8 @@ vortex-audio-arma88/config/schematics/
 
 ## 🧬 Spatial Geometry & Acoustic Fluid Wave Propagation
 
+![ARMA-88 Flexible TPU and SLA Resin Core Material Cutaway Profile](../../media/arma88-material-profile.png)
+
 The solid geometry rendered by this module is meticulously mapped to secure and support the multi-layer in-ear array assembly. It integrates sub-millimeter log-spiral waveguides alongside micro-fluidic bypass dampening tracks:
 
     [ Ambient Sound Waves ] ──► [ Log-Cardioid Plenum Intake ] ──► [ Spiral Micro-Channels ]
