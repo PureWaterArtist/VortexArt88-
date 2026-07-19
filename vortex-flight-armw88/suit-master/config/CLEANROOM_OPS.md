@@ -5,6 +5,9 @@ This operational standard governs the system-wide verification protocols, final 
 ---
 
 ## 🧲 1. Head-to-Toe Faraday Ground Continuity Matrix Check
+
+![ARMW-88 Full Armor Ground Continuity Multi-Multimeter Test Bench](../media/armw88-master-ground-test.png)
+
 *   **System-Wide Ground Sweep:** Set a calibrated digital multimeter to measure resistance (Ohms). Place the primary test probe flat against the upper crest of the helmet cell. Run the secondary probe down the exterior carbon-fiber armor panels, auditing the vertices of the torso plates, forearm tracks, thigh guards, and wing root boxes.
 *   **Resistance Threshold Limit:** The graphene-infused carbon-fiber polycarbonate shell matrix must demonstrate continuous electrical grounding with an unbroken path resistance under $12.0\text{ \Omega}$ across all axes. If any localized interface registers an open circuit, dismantle the junction flange and clean away surface contaminants or oxidation layers; if resistance remains high, coat the interior joint seams with a high-purity conductive graphite spray.
 *   **Static Wick Discharge Audit:** Verify that the trailing static-wick filaments positioned along the extreme tips of the albatross wing spars maintain perfect mechanical connectivity to the main wing spar ground lines.
@@ -12,6 +15,9 @@ This operational standard governs the system-wide verification protocols, final 
 ---
 
 ## 🩺 2. Multi-Module Pressure, Altimetry & Logic Calibration
+
+![ARMW-88 Integrated Active Full-Body Camouflage Wavelength Simulation Chart](../media/armw88-master-camouflage-sim.png)
+
 *   **Fluidic Power Bus Leak Check:** Pipe a steady nitrogen test vector ($40\text{ kPa}$) into the primary fluidic loop connections. Map the inter-module conduit junctions crossing the torso-to-arm seams and torso-to-leg interfaces. The conductive liquid gallium alloy ($EGaIn$) loops must sustain pressure with absolute zero fluid weeping, verifying that the micro-bore fluorosilicone thread gaskets are fully seated.
 *   **Acoustic Threat Detection Gateway Verification:** Fire a high-frequency sound sweep ($1200\text{ Hz}$ to $1800\text{ Hz}$) directly into the parabolic Doppler radar collector horns. Verify that the monolithic fluidic computer block forcefully routes a localized pneumatic pulse down to the kinesthetic sleeve bladders within $15.0\text{ ms}$, confirming un-jammable threat feedback responsiveness.
 *   **Pneumatic Altimetry Ground Loop Audit:** Connect a low-pressure calibration pump to the boot-mounted ground pitot tubes. Cycle pressure to simulate terrain proximity changes between $0.0\text{ m}$ and $15.0\text{ m}$ elevation. Verify that the internal torso logic gates smoothly alter states to shift the visor display optical lens focus based on local air density registers.
