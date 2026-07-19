@@ -46,3 +46,14 @@ To ensure the helmet maintains its impact ratings and complete Faraday grid cont
 | **Visor Step Flange** | Check for particulate accumulation or micro-cracks along the ARMO-88 lens retention clips. | Flush tracks with compressed air; verify that the lens substrate seats flat with zero physical wobble. |
 | **Locking Pin Springs** | Test the compression resistance and return speed of the 8mm stainless jawline detent pins. | Flush the internal cylinder with dry graphite micro-powder. Never use petroleum lubricants. |
 | **Acoustic Waveguides** | Inspect the temporal loop channels for fluid weeping or internal micro-gasket decay. | Torque the fluorosilicone seals to 0.5 N-m; replace fluid mass if internal air pockets are visible. |
+
+---
+
+## 🧼 5. Biomimetic Liner Maintenance, Extraction & Wash Protocol
+
+Because the integrated $14.0\text{ mm}$ second-skin liner rests in direct contact with the pilot’s primary head garment, it accumulates continuous moisture and skin oils that can obstruct the passive micro-thermal vents:
+
+1.  **Extract the Substrate:** Ensure the helmet clamshell is open and unpinned. Reach into the internal cavity, pinch the lower neck collar rim of the flexible TPU liner, and pull inward toward the center axis to disengage the four lock pins from the shell.
+2.  **Inspect Thermal Vent Lines:** Hold the elastic liner up to a direct cleanroom light array. Verify that all horizontal $2.4\text{ mm}$ cooling channels are completely free of organic grit, lint, or particulate blockages.
+3.  **Chemical Wash Ingestion:** Submerge the flexible TPU liner in a 10% solution of isopropyl alcohol or medical-grade skin-safe enzymatic cleaner. Agitate gently by hand for 5 minutes. Do not use high-temperature autoclaves or harsh petroleum solvents, as they will cause the 30A elastomeric structures to prematurely warp or degrade.
+4.  **Dry and Reseat Matrix:** Allow the liner to air-dry completely inside a dust-free staging chamber for a minimum of 2 hours. Align the push-pin tabs with the receptor ports of the carbon-fiber Faraday shell and snap firmly back into place.
