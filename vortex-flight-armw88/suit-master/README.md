@@ -13,6 +13,25 @@ When all components are locked together across the cleanroom assembly line, they
 
 ---
 
+## 🎯 Project Flight Armor Quick Navigation Dashboard
+
+Select a terminal coordinate below to instantly jump to a specific sub-module manifest, operational handbook, or machine configuration layer within the decentralized flight stack:
+
+| 🦾 Module Layer | 📋 Manifest & Specs | 🦺 User Ingress/Egress Guide | 📐 3D CAD Blueprint Core |
+| :--- | :--- | :--- | :--- |
+| **👑 Full Platform** | 🔗 **[Master Suit Overview](modules/suit-master/README.md)** | 🔗 **[Full Assembly Guide](modules/suit-master/ASSEMBLY_MANUAL.md)** | 🔗 **[Global Physics Twin Script](armw88-flight-twin.py)** |
+| **🪖 Helmet Cell** | 🔗 **[Head Module Specs](modules/suit-head/README.md)** | 🔗 **[Helmet Operations](modules/suit-head/OPERATION_MANUAL.md)** | 🔗 **[Helmet CAD Schematic](modules/suit-head/config/schematics/head-chassis.scad)** |
+| **🦺 Chest Core** | 🔗 **[Torso Module Specs](modules/suit-torso/README.md)** | 🔗 **[Torso Operations](modules/suit-torso/OPERATION_MANUAL.md)** | 🔗 **[Torso CAD Schematic](modules/suit-torso/config/schematics/torso-clamshell.scad)** |
+| **🦾 Forearm Sleeves** | 🔗 **[Arms Module Specs](modules/suit-arms/README.md)** | 🔗 **[Arms Operations](modules/suit-arms/OPERATION_MANUAL.md)** | 🔗 **[Arms CAD Schematic](modules/suit-arms/config/schematics/arm-sleeves.scad)** |
+| **🦘 Landing Lander** | 🔗 **[Legs Module Specs](modules/suit-legs/README.md)** | 🔗 **[Legs Operations](modules/suit-legs/OPERATION_MANUAL.md)** | 🔗 **[Legs CAD Schematic](modules/suit-legs/config/schematics/leg-exoskeleton.scad)** |
+| **🦅 Morphing Wings** | 🔗 **[Wings Module Specs](modules/suit-wings/README.md)** | 🔗 **[Wings Operations](modules/suit-wings/OPERATION_MANUAL.md)** | 🔗 **[Wings CAD Schematic](modules/suit-wings/config/schematics/wing-joints.scad)** |
+| **🌪 Air Computer** | 🔗 **[Sensors Module Specs](modules/suit-sensors/README.md)** | 🔗 **[Sensors Operations](modules/suit-sensors/OPERATION_MANUAL.md)** | 🔗 **[Fluidic Computer CAD](modules/suit-sensors/config/schematics/fluidic-computer.scad)** |
+| **🧠 AI Collaborator** | 🔗 **[AI Interface Specs](modules/suit-ai/README.md)** | 🔗 **[AI Audio Code Matrix](modules/suit-ai/OPERATION_MANUAL.md)** | 🔗 **[Acoustic Data Vault](modules/suit-ai/config/README.md)** |
+| **📊 Aero Boundaries** | 🔗 **[Performance Specs](modules/suit-performance/README.md)** | 🔗 **[Flight Envelope Logs](modules/suit-performance/FLIGHT_ENVELOPE.md)** | 🔗 **[Wind-Tunnel Metrics](modules/suit-performance/config/README.md)** |
+| **⚖️ Sovereign Law** | 🔗 **[Ethical License](LICENSE_COVENANT.md)** | 🔗 **[Indemnity Clauses](LICENSE_COVENANT.md#-section-5-absolute-disclaimer-of-liability-fabrication-indemnity--risk-assumption)** | 🔗 **[Visual Blueprint Maps](modules/suit-master/media/README.md)** |
+
+---
+
 ## ⚖️ Full-Platform Restrictive Legal Framework
 
 > 🚫 **CIVILIZATIONAL EXPLOITATION BOUNDARY PROHIBITION:**
