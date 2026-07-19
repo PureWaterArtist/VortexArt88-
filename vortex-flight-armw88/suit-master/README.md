@@ -41,3 +41,10 @@ Because the complete armor suite binds the pilot into a high-load, sub-sonic kin
 *   **Interlock Pin Specification:** All connection points must utilize high-strength, marine-grade Inox 316L stainless steel detent pins or hardened steel industrial locking bars. Subgrade alloy fasteners or soft metals are strictly prohibited.
 *   **Airtight Fluid Boundary Seals:** All micro-fluidic power bus loops and pneumatic altimetry line connections crossing between different modules (e.g., torso-to-arm seams) must be secured using micro-bore fluorosilicone thread gaskets torqued to exact engineering specifications to prevent line weeping.
 *   **Faraday Ground Verification:** Before clearing the integrated suit for active field flight, a complete multi-axial electrical resistance sweep must be run across the fully assembled shell to verify that the ground plane remains below the critical \(12\text{ \Omega}\) benchmark from head to toe.
+
+---
+
+## ⚠️ Master Assembly Indemnity & Risk Waiver
+
+> 🛑 **CRITICAL ASSEMBLY COMPLIANCE RULE:** Integrating all seven component nodes into a single wearable flight suite scales operational kinetic stresses up to extreme thresholds. Slicing structural spars or driving detent pins outside the exact metrology constants mapped in `hardware-bom.json` will cause structural failures. Pursuant to **Section 5 of the License Covenant**, the authors and collaborators remain completely absolved of all legal liability regarding builder accidents, material delamination, or field touchdown injuries.
+> 
