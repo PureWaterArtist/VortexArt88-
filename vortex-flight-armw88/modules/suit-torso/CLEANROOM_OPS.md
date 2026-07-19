@@ -20,6 +20,10 @@ This operational standard governs the verification protocols, post-processing st
 
 ## 🩺 3. Resodynamic Vortex Shield & Structural Load Testing
 
+![ARMW-88 Aerodynamic Test Jig Kinetic Shield Projections](../media/armw88-torso-shield-test.png)
+
+![ARMW-88 Active Chameleon Camouflage Breathing Expansion Hydrogel Chart](../media/armw88-torso-camouflage-sim.png)
+
 *   **Vortex Shield Pressure Wave Check:** Mount the closed torso assembly onto a cleanroom aerodynamic test jig. Pipe compressed air lines into the twin $95\text{ mm}$ rear squid ram-air induction ports, ramping pressure up to a continuous $45.0\text{ kPa}$. Using a pitot-static tube grid array, verify that a tight, cohesive toroidal kinetic air curtain projects upward and outward from the collarbone slits, demonstrating a uniform dynamic velocity profile across the shielding zone.
 *   **Acoustic / Percussive Impact Blast Damping:** Fire an explosive percussive pressure front ($2200\text{ Joules}$ kinetic shockwave simulation) at the active vortex shield boundary. The rotating air barrier must fluidly deflect the kinetic mass outward, tracking less than 5% force leakage down into the inner pilot chest lining cavity.
 *   **Shoulder Socket Structural Torsion Test:** Clamp the torso framework securely to a heavy-duty structural test bench. Apply a vertical mechanical load line up to $3500\text{ Newtons}$ directly to the $16.0\text{ mm}$ hardened arm socket pins. The carbon-fiber composite wing retention frame must experience absolute zero audible delamination or macro-flexing.
