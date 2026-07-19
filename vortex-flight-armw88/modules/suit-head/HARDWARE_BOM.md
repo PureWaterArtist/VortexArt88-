@@ -22,11 +22,20 @@ This document governs the physical procurement specifications for the **Project 
 
 ---
 
-## 🐚 3. Removable Biomimetic Energy-Absorbing Liner Stock
+## 🐚 3.a. Removable Biomimetic Energy-Absorbing Liner Stock
 
 *   **Primary Elastic Medium:** 1.0kg Spool of 30A to 40A Durometer Flexible Thermoplastic Polyurethane (TPU) or skin-safe elastomeric co-polymer filament.
 *   **Material Matrix Properties:** Must possess high multi-axial energy-damping coefficients to maximize kinetic impact absorption limits under extreme multi-axis acceleration.
 *   **System Function:** Forms the removable $14.0\text{ mm}$ inner second-skin cushion, mimicking woodpecker endocranial sponge voids and desert ant thermal venting layouts to manage high G-forces and extract metabolic head heat passively.
+
+---
+
+## 🌪️ 3.b Active Chameleon Camouflage & Multispectral Stealth Stock
+
+*   **Primary Photonic Medium:** 45mL Solution of Synthesized High-Purity Guanine Photonic Nanocrystals (Strict structural baseline sizing: $130\text{ nm}$ lattice diameter).
+*   **Suspension Base Vehicle:** Highly Elastic, Index-Matched Biocompatible Polyurethane Hydrogel Matrix.
+*   **Radar Damping Compound:** Microscopic carbon-nanotube (CNT) filler particles integrated into the base primer.
+*   **System Function:** Fills the 1.2mm external micro-etched outer grid channels. By expanding or compressing the hydrogel thickness via pneumatic pressure inputs, the crystal lattice spacing is manually tuned across the entire visible spectrum (shifting wavelengths to match backgrounds) while the deeper disorganized crystal layer passively suppresses and diffuses near-infrared thermal and radar cross-section reflections.
 
 ---
 
