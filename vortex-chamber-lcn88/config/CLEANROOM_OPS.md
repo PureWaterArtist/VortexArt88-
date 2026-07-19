@@ -22,9 +22,9 @@ This operational standard governs the verification protocols, post-print process
 ## 🩺 3. Hydrostatic Pressure & Vacuum Bench Validation
 
 
-![LCN-88 Workbench Hydrostatic Pressure Verification Loop](../../media/lcn88-workbench-test.png)
+![LCN-88 Workbench Hydrostatic Pressure Verification Loop](./media/lcn88-workbench-test.png)
 
-![LCN-88 Computational Fluid Dynamics Particle Simulation](../../media/lcn88-cfd-simulation.png)
+![LCN-88 Computational Fluid Dynamics Particle Simulation](./media/lcn88-cfd-simulation.png)
 
 
 *   **Structural Leak Diagnostics:** Clamp the horizontal input channels to a low-pressure water loop. Gradually increase the feed rate until internal pressures stabilize. Monitor the outer casing for 5 minutes. The structural wall perimeters must show absolute zero micro-weeping.
