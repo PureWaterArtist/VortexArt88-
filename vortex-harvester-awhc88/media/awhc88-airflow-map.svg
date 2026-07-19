@@ -1,0 +1,77 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Deep Space Telemetry Base Layer Grid -->
+  <rect width="800" height="600" fill="#090d16" />
+  <g stroke="#1e293b" stroke-width="1" opacity="0.3">
+    <path d="M 0,100 L 800,100 M 0,200 L 800,200 M 0,300 L 800,300 M 0,400 L 800,400 M 0,500 L 800,500" />
+    <path d="M 100,0 L 100,600 M 200,0 L 200,600 M 300,0 L 300,600 M 400,0 L 400,600 M 500,0 L 500,600 M 600,0 L 600,600 M 700,0 L 700,600" />
+  </g>
+
+  <!-- Central Condenser Main Body Cylinder Outlines -->
+  <circle cx="400" cy="300" r="140" fill="#0f172a" stroke="#0284c7" stroke-width="4" />
+  <circle cx="400" cy="300" r="100" fill="#020617" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" />
+
+  <!-- Multi-Tier Cardioid Outer Intake Guides -->
+  <path d="M 180,100 Q 400,20 620,100 A 260,260 0 0,1 660,300 A 260,260 0 0,1 400,560 A 260,260 0 0,1 140,300 A 260,260 0 0,1 180,100 Z" fill="none" stroke="#00f2ff" stroke-width="3" opacity="0.4" />
+
+  <!-- High-Velocity Micro-Venturi Radial Slots (3.5mm Pinch Channels) -->
+  <g stroke="#38bdf8" stroke-width="3">
+    <line x1="400" y1="160" x2="400" y2="200" />
+    <line x1="400" y1="400" x2="400" y2="440" />
+    <line x1="260" y1="300" x2="300" y2="300" />
+    <line x1="500" y1="300" x2="540" y2="300" />
+    <line x1="301" y1="201" x2="329" y2="229" />
+    <line x1="471" y1="371" x2="499" y2="399" />
+    <line x1="301" y1="399" x2="329" y2="371" />
+    <line x1="471" y1="229" x2="499" y2="201" />
+  </g>
+
+  <!-- Copper Condenser Fin Slot Indicators -->
+  <g stroke="#f97316" stroke-width="4" opacity="0.8">
+    <line x1="400" y1="210" x2="400" y2="245" />
+    <line x1="400" y1="355" x2="400" y2="390" />
+    <line x1="310" y1="300" x2="345" y2="300" />
+    <line x1="455" y1="300" x2="490" y2="300" />
+  </g>
+
+  <!-- Aerodynamic Inflow Trajectory Paths (Warm Ambient Air Spiral Vectors) -->
+  <path d="M 120,200 Q 200,80 380,165" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,2" marker-end="url(#arrow-red)" />
+  <path d="M 680,400 Q 600,520 420,435" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,2" marker-end="url(#arrow-red)" />
+
+  <!-- Core Expansion Extraction Trajectories (Rapid Pressure Crash Cool Air Vectors) -->
+  <path d="M 380,165 A 120,120 0 0,1 490,260" fill="none" stroke="#3b82f6" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <path d="M 420,435 A 120,120 0 0,1 310,340" fill="none" stroke="#3b82f6" stroke-width="4" marker-end="url(#arrow-blue)" />
+
+  <!-- Dew-Point Phase Transition Singularity Core (Central Drainage Zone) -->
+  <circle cx="400" cy="300" r="25" fill="#22c55e" opacity="0.2" />
+  <circle cx="400" cy="300" r="10" fill="#22c55e" />
+  <!-- Harvested Moisture Extracted Droplet Arrays -->
+  <circle cx="395" cy="295" r="2" fill="#60a5fa" />
+  <circle cx="405" cy="293" r="1.5" fill="#60a5fa" />
+  <circle cx="402" cy="306" r="2" fill="#60a5fa" />
+
+  <!-- Metrology Alignment Crosshairs -->
+  <line x1="400" y1="40" x2="400" y2="560" stroke="#334155" stroke-width="1" stroke-dasharray="6,6" />
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#334155" stroke-width="1" stroke-dasharray="6,6" />
+
+  <!-- Technical Telemetry Text Annotations -->
+  <text x="400" y="35" fill="#00f2ff" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">CARDIOID PLENUM INTAKE LAYER BOUNDARY (Ø 120.0mm)</text>
+  <text x="75" y="180" fill="#ef4444" font-family="monospace" font-size="13" font-weight="bold">AMBIENT DESERT INLET VECTOR (V₁: 12.0 m/s)</text>
+  <text x="725" y="425" fill="#ef4444" font-family="monospace" font-size="13" text-anchor="end" font-weight="bold">THERMAL DRY AIR MASS INPUT (RH &lt; 15%)</text>
+  <text x="560" y="180" fill="#3b82f6" font-family="monospace" font-size="12" font-weight="bold">MICRO-VENTURI SLOTS (3.5mm PINCH)</text>
+  <text x="560" y="198" fill="#3b82f6" font-family="monospace" font-size="12" font-weight="bold">PRESSURE CRASH ZONE (CORE ACCELERATION)</text>
+  <text x="240" y="270" fill="#f97316" font-family="monospace" font-size="12" text-anchor="end" font-weight="bold">PURE COPPER-MESH FINS</text>
+  <text x="240" y="285" fill="#f97316" font-family="monospace" font-size="12" text-anchor="end" font-weight="bold">(DEW-POINT PHASE CHANGE)</text>
+  <text x="400" y="340" fill="#22c55e" font-family="monospace" font-size="13" text-anchor="middle" font-weight="bold">CENTRAL DISCHARGE MANIFOLD (Ø 15.0mm)</text>
+  <text x="400" y="585" fill="#64748b" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT AWHC-88 // FLOW PATTERN VECTOR LEDGER v1.0.0</text>
+
+  <!-- Marker Arrow Definitions Profile -->
+  <defs>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ef4444" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3b82f6" />
+    </marker>
+  </defs>
+</svg>
+    
