@@ -20,7 +20,12 @@ This operational standard governs the verification protocols, post-print process
 ---
 
 ## 🩺 3. Hydrostatic Pressure & Vacuum Bench Validation
+
+![LCN-88 Workbench Hydrostatic Pressure Verification Loop](../../media/lcn88-workbench-test.png)
+
+![LCN-88 Computational Fluid Dynamics Particle Simulation](../../media/lcn88-cfd-simulation.png)
+
 *   **Structural Leak Diagnostics:** Clamp the horizontal input channels to a low-pressure water loop. Gradually increase the feed rate until internal pressures stabilize. Monitor the outer casing for 5 minutes. The structural wall perimeters must show absolute zero micro-weeping.
 *   **Vector Cancellation Validation:** Run identical flow vectors simultaneously from Nozzle A and Nozzle B into the printed chamber. Observe the exit stream. The output must drain through the lower port smoothly, demonstrating that rotational kinetic momentum is successfully neutralized.
 *   **Suction Lift Metrics Check:** Affix a flexible transparent line to the upper Z-axis induction channel. Submerge the tail end into a separate testing beaker of water. Check that centripetal suction smoothly lifts the fluid column up the track, physically validating the passive geometric vacuum drop.
-*   
+   
