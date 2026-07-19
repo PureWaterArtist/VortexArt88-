@@ -26,6 +26,12 @@ The solid geometry rendered by this module is meticulously mapped to enforce a z
 
 2.  **180° Vector Cancellation:** By forcing the inputs to collide at exactly 180 degrees of phase opposition, linear kinetic momentum drops cleanly to zero, collapsing the fluid mass into a stable vertical boundary plane.
 
+## ⚛️ Spatial Vector Geometry & Internal Kinematics
+
+![LCN-88 Internal Vector Projection Blueprint](../../media/lcn88-vector-blueprint.png)
+
+![LCN-88 Polycarbonate Casing Material Properties](../../media/lcn88-material-render.png)
+
 ## 🛠 CAD Compilation & Rendering Directives
 
 To compile and inspect the 3D model engine without relying on restrictive, closed-source CAD packages, adhere to the following workflow:
