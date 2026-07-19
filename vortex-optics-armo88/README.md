@@ -1,5 +1,7 @@
 # Biomimicry Optoelectronic Resonator Array (Project ARMO-88)
 
+![Project ARMO-88 Vector Schematic Blueprint](./media/armo88-vector-schematic.png)
+
 ## 💎 System Manifest & Quantum Optical Philosophy
 
 The **Biomimicry Optoelectronic Resonator Array (Project ARMO-88)** is an open-source, wearable, solid-state optical interface designed to expand the human visual field across hyperspectral domains—including thermal infrared, ultraviolet, and polarized light wavefronts. Modern advanced tactical optics and night-vision gear rely heavily on active digital micro-displays, power-hungry thermal sensors, and high-voltage image intensifier tubes that emit detectable thermal signatures, run out of battery power, and fail under electromagnetic interference. Project ARMO-88 bypasses electronic vulnerabilities entirely, using sub-wavelength structural metamaterials, non-equilibrium quantum upconversion mechanics, and biological wave-guides to achieve passive, un-driven hyperspectral awareness.
