@@ -66,6 +66,30 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 This repository does not function as a cold, single-purpose corporate engineering script. It is an open sandbox designed to captivate the human imagination, challenge centralized scarcity models, and explore scale-invariant natural geometries. While the mathematical equations and underlying tensor frameworks serve as conceptual anchors for unified field exploration, certain macro-structures within this ledger represent speculative, forward-looking architectural world-building meant to inspire grassroots co-creation.
 
+## 🗺️ Repository Map & Quick Start
+
+To explore the intersection of our speculative framework and real-world physical validation, navigate directly to your domain of choice using the structure below:
+
+```text
+VortexArt88/
+├── 🌌 README.md               <-- Main Vision & Speculative Art Manifesto
+└── 🛠️ Hardware-MVP/           <-- Physical Verification & Engineering Commons
+    ├── README.md             <-- Structural Layout & Parametric Constraints
+    ├── bill_of_materials.csv <-- Component Procurement Sheet (Pumps, Seals)
+    ├── verify_singularity.py <-- Python Data-Logging Metric Calculator
+    └── CAD-Source/           <-- Optimized Solid-State Reference Meshes
+```
+
+### ⚡ Citizen-Science Workbench Setup (3-Step Fast Track)
+
+1. **Review Geometric Constraints:** Navigate to `/Hardware-MVP/README.md` to analyze the absolute vector coordinates and $180^\circ$ phase-opposition node metrics before modeling.
+2. **Procure Safe Materials:** Open `/Hardware-MVP/bill_of_materials.csv` to source certified food-safe epoxies and appropriate mechanical couplings to eliminate safety hazards.
+3. **Execute Data Validation:** Ensure you have Python 3 installed, clone this ledger to your workbench terminal, and boot up the metric calculator:
+   ```bash
+   cd Hardware-MVP
+   python3 verify_singularity.py
+   ```
+
 ---
 
 ### ⚠️ Critical Maker Safety Protocols (The Physical Reality)
