@@ -7,6 +7,8 @@ It acts as the digital data vault bridging physical cleanroom part procurement, 
 
 ## 📂 Internal Directory Manifest
 
+```
+
 vortex-chamber-lcn88/config/
 ├── README.md                 # This file (Configuration Directory Blueprint Index)
 ├── hardware-bom.json         # Machine-readable metrology properties and print variables
@@ -14,6 +16,8 @@ vortex-chamber-lcn88/config/
 ├── CLEANROOM_OPS.md          # Cleanroom post-processing and bench validation protocols
 └── schematics/
     └── chamber-profile.scad  # Parametric OpenSCAD 3D solid fluid engine file
+    
+```
 
 ## 📊 Structural Schema Architecture & Interlink Map
 
