@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-LEG-EXOSKELETON",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-legs",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "metrology_constants": {
+    "thigh_guard_inner_diameter_mm": 180.0,
+    "shin_sleeve_inner_diameter_mm": 110.0,
+    "leg_chassis_total_vertical_length_mm": 760.0,
+    "composite_armor_thickness_mm": 10.0,
+    "kangaroo_leaf_spring_thickness_mm": 12.0,
+    "landing_gear_clearance_travel_mm": 150.0,
+    "hip_connection_pin_diameter_mm": 14.0,
+    "triboelectric_mesh_layer_depth_mm": 1.0,
+    "stealth_photonic_skin_depth_mm": 1.5
+  },
+  "kinetic_and_harvesting_metrics": {
+    "maximum_survival_sink_rate_ms": 4.5,
+    "operational_spring_rate_target_nm": 125000.0,
+    "maximum_percussive_energy_absorption_joules": 860.0,
+    "triboelectric_voltage_peak_potential_v": 450.0,
+    "conductive_fluid_bus_operating_viscosity_cps": 12.5,
+    "emp_attenuation_chassis_target_db": 120.0,
+    "radar_cross_section_suppression_percentage": 95.5
+  },
+  "component_sourcing_ledger": [
+    {
+      "part_name": "Inox 316L Stainless Steel Hip Quick-Release Detent Pins",
+      "quantity": 2,
+      "specification": "14mm Diameter x 65mm Length Quick-Release Locking Pin",
+      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Marine Hardware"
+    },
+    {
+      "part_name": "Multi-Layered High-Elasticity Carbon-Fiber Leaf Bands",
+      "quantity": 2,
+      "specification": "Custom Molded Pre-Preg Epoxy Carbon Ribbon Strands",
+      "sourcing_origin": "suit-legs/config/schematics/leg-exoskeleton.scad (KangarooTendonLeafSprings)"
+    },
+    {
+      "part_name": "Active Leg Photonic Chameleon Stealth Coating Matrix",
+      "quantity": "65mL",
+      "specification": "130nm Guanine Photonic Nanocrystals in Elastomeric Hydrogel",
+      "sourcing_origin": "suit-legs/config/schematics/leg-exoskeleton.scad"
+    }
+  ]
+}
