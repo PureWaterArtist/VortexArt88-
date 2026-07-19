@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
   "module_layer": "suit-head",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "metrology_constants": {
     "head_inner_clearance_width_mm": 165.0,
     "head_inner_clearance_length_mm": 210.0,
@@ -16,33 +16,36 @@
     "transverse_jaw_detent_bore_mm": 8.0,
     "faraday_tongue_groove_tolerance_mm": 0.08,
     "biomimetic_liner_thickness_mm": 14.0,
-    "thermal_conduit_bore_diameter_mm": 2.4
+    "thermal_conduit_bore_diameter_mm": 2.4,
+    "photonic_stealth_skin_depth_mm": 1.2,
+    "guanine_nanocrystal_base_pitch_um": 0.13
   },
-  "shielding_and_kinetic_metrics": {
+  "shielding_stealth_and_kinetic_metrics": {
     "emp_attenuation_target_db": 120.0,
     "graphene_interleave_mesh_pitch_um": 50.0,
     "static_wick_discharge_rating_kv": 75.0,
     "maximum_g_force_damping_capacity_g": 15.0,
-    "thermal_dissipation_coefficient_w_mk": 4.2
+    "thermal_dissipation_coefficient_w_mk": 4.2,
+    "radar_cross_section_absorption_percentage": 94.5,
+    "visible_spectrum_tunability_range_nm": "400.0-700.0",
+    "near_infrared_reflectance_suppression_db": -35.0
   },
   "component_sourcing_ledger": [
     {
       "part_name": "ARMO-88 Flat Dielectric Metalens Assembly",
       "quantity": 1,
-      "sourcing_origin": "vortex-optics-armo88/config/schematics/lens-matrix.scad",
-      "interface_method": "Hinged Step Flange Flaps"
+      "sourcing_origin": "vortex-optics-armo88/config/schematics/lens-matrix.scad"
     },
     {
       "part_name": "Inox 316L Stainless Steel Jaw Detent Locking Pins",
       "quantity": 2,
-      "specification": "8mm Diameter x 45mm Length Quick-Release Pin",
-      "sourcing_origin": "Commercial Off-The-Shelf (COTS) Marine Hardware"
+      "specification": "8mm Diameter x 45mm Length Quick-Release Pin"
     },
     {
-      "part_name": "Removable Biomimetic Energy-Absorbing Liner Substrate",
-      "quantity": 1,
-      "specification": "Variable Density 30A Durometer Flexible TPU Matrix",
-      "sourcing_origin": "suit-head/head-chassis.scad (BiomimeticSpongeLiner Module)"
+      "part_name": "Active Photonic Chameleon Camouflage Coating Matrix",
+      "quantity": "45mL",
+      "specification": "130nm Guanine Photonic Nanocrystals suspended in Elastic Hydrogel",
+      "sourcing_origin": "suit-head/head-chassis.scad (ActiveChameleonSkin Module)"
     }
   ]
 }
