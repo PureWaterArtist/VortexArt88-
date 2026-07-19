@@ -5,12 +5,16 @@ This directory houses the foundational parametric three-dimensional solid engine
 ---
 
 ## 📂 Internal Directory Manifest
+
 ```
 vortex-optics-armo88/config/schematics/
 ├── README.md               # This file (Schematics Directory Blueprint Index)
 └── lens-matrix.scad        # Parametric OpenSCAD 3D solid frame chassis file
 ```
+
 ## 🧬 Spatial Geometry & Sub-Wavelength Wavefront Propagation
+
+![ARMO-88 Carbon-Fiber Polycarbonate Frame Chassis Material Cutaway Profile](../../media/armo88-material-profile.png)
 
 The solid geometry rendered by this module is meticulously mapped to secure and support flat-optics sub-wavelength nano-pillar matrices while integrating adaptive micro-fluidic focusing loops:
 
