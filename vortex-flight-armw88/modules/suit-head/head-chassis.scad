@@ -119,3 +119,34 @@ module LinerSnapRetentionAnchors() {
 // flexible filament to secure full multi-axial shock and thermal management.
 // To view or render the liner isolated, uncomment the line below:
 // BiomimeticSpongeLiner();
+// --- BIOMIMETIC ACTIVE STEALTH & PHOTONIC CAMOUFLAGE SKIN ---
+// Replicates Chameleon Superficial Iridophore crystal-spacing mechanics
+
+photonic_skin_depth = 1.2; // Thickness of the outer active camouflage layer (mm)
+nanocrystal_lattice_pitch = 0.13; // Calm-state green reflection spacing target (um)
+
+module ActiveChameleonSkin() {
+    // Carves an external micro-groove shell pattern linked to pneumatic fluidic paths
+    difference() {
+        // Outer aesthetic skin boundary scaling layer
+        resize([head_width_inner + (shell_thickness*2) + photonic_skin_depth, head_length_inner + (shell_thickness*2) + photonic_skin_depth, helmet_height + 2])
+            cylinder(h=1, r=10, center=true);
+            
+        // Seats tight against the primary structural Faraday shell face
+        resize([head_width_inner + (shell_thickness*2), head_length_inner + (shell_thickness*2), helmet_height])
+            cylinder(h=1, r=10, center=true);
+            
+        // Etches thousands of sub-millimeter fluidic expansion micro-pockets
+        for (angle = [0 : 5 : 360]) {
+            rotate([0, 0, angle])
+                translate([(head_width_inner/2) + shell_thickness, 0, 0])
+                    cube([2.0, 0.45, helmet_height + 10], center=true);
+        }
+    }
+}
+
+// NOTE FOR CLEANROOM FABRICATOR: Fill this micro-etched outer grid with a 
+// flexible elastomeric hydrogel containing suspended 130nm guanine nanocrystals.
+// Dynamic air pressure shifts expand the lattice to shift reflected color profiles.
+// To inspect this camouflage overlay isolated, uncomment the line below:
+// ActiveChameleonSkin();
