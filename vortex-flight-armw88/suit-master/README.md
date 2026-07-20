@@ -56,6 +56,7 @@ Select a terminal coordinate below to instantly jump to a specific sub-module ma
 | **📊 Aero Boundaries** | 🔗 **[Performance Specs](modules/suit-performance/README.md)** | 🔗 **[Flight Envelope Logs](modules/suit-performance/FLIGHT_ENVELOPE.md)** | 🔗 **[Wind-Tunnel Metrics](modules/suit-performance/config/README.md)** |
 | **⚖️ Sovereign Law** | 🔗 **[Ethical License](LICENSE_COVENANT.md)** | 🔗 **[Indemnity Clauses](LICENSE_COVENANT.md#-section-5-absolute-disclaimer-of-liability-fabrication-indemnity--risk-assumption)** | 🔗 **[Visual Blueprint Maps](modules/suit-master/media/README.md)** |
 | **🖨 Prototyping**    | 🔗 **[Prototyping Specs](modules/suit-prototyping/README.md)** | 🔗 **[14-Day Production Logs](modules/suit-prototyping/config/FABRICATION_TIMELINE.md)** | 🔗 **[Printer Run Cards](modules/suit-prototyping/config/hardware-bom.json)** |
+| **📋 Procedures**    | 🔗 **[Procedures Specs](modules/suit-procedures/README.md)** | 🔗 **[Mission Checklists](modules/suit-procedures/config/MISSION_CHECKLISTS.md)** | 🔗 **[Phase Control Cards](modules/suit-procedures/config/hardware-bom.json)** |
 
 ---
 
