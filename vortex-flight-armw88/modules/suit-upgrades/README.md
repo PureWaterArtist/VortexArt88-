@@ -6,6 +6,10 @@ The **Community Upgrades & Open-Source Mod Matrix Module (Project ARMW-Upgrades)
 
 This directory serves as an authorized repository for community-submitted "hardware patches." These mods allow independent fabricators to optimize their flight envelopes for specific high-threat, rough-field, or ecological healing environments. All submissions are legally bound by the root **`LICENSE_COVENANT.md`** to ensure that no upgrade alters the platform's strictly defensive, civilizational identity.
 
+# Community Upgrades & Open-Source Mod Matrix (Module: suit-upgrades)
+
+![Project ARMW-88 Community Modification Fluidic Core Overclock Vector Blueprint](./media/armw88-upgrades-flow.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
