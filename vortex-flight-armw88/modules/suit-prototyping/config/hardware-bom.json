@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-PROTOTYPING-MANIFEST",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-prototyping",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "prototyping_labor_and_time_metrics": {
+    "total_fabrication_sprint_duration_days": 14.0,
+    "crew_size_requirement_parallel": 2,
+    "sla_resin_print_layer_resolution_mm": 0.025,
+    "sla_resin_post_cure_temperature_c": 60.0,
+    "fdm_carbon_shell_perimeter_loops": 10,
+    "fdm_carbon_shell_gyroid_infill_pct": 50.0,
+    "hermetic_seal_vacuum_pull_kpa": -80.0,
+    "fluid_bus_charging_pressure_test_kpa": 40.0,
+    "emergency_canopy_ejection_velocity_ms": 25.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "machine_type": "High-Precision SLA UV Photopolymer 3D Printer Suite",
+      "quantity": 2,
+      "specification": "Stereolithography Engine with Z-axis accuracy < 5 microns"
+    },
+    {
+      "machine_type": "Industrial Continuous Carbon Fiber FDM Printer Deck",
+      "quantity": 2,
+      "specification": "Dual-extrusion matrix with carbon fiber composite towing"
+    },
+    {
+      "machine_type": "Sub-Sonic Wind Tunnel Dynamic Testing Sting Balance",
+      "quantity": 1,
+      "specification": "Multi-axial strain sensor stand with smoke vector injectors"
+    }
+  ]
+}
