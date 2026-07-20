@@ -2,6 +2,10 @@
 
 This directory serves as the centralized repository for all visual staging assets, holographic printing renders, cleanroom workbench assembly photography, and empirical drop-test or wind-tunnel scheduling charts for the **Rapid Prototyping Manifest Module (Module: suit-prototyping)**.
 
+# Rapid Prototyping Manifest & Fabrication Staging (Module: suit-prototyping)
+
+![Project ARMW-88 Cleanroom Prototyping 14-Day Gantt Schedule Chart](./media/armw88-prototyping-flow.svg)
+
 ---
 
 ## 📂 Internal Directory Manifest
