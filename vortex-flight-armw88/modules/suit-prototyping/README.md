@@ -9,14 +9,14 @@ The complexity of the system is embedded entirely within the raw **spatial geome
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
-
+```
 vortex-flight-armw88/modules/suit-prototyping/
 ├── README.md                 # This file (Prototyping Manifest Index Manual)
 └── config/
     ├── README.md             # Symmetrical configuration directory reference index
     ├── hardware-bom.json     # Machine-readable printer profiles, resin settings, & labor metrics
     └── FABRICATION_TIMELINE.md # Detailed 14-day production phases & workbench QA protocols
-
+```
 ---
 
 ## 🖨 Prototyping Deployment Directives
