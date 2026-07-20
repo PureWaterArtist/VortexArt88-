@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-COMMUNITY-UPGRADES",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-upgrades",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "community_modification_constants": {
+    "borosilicon_needle_helical_pitch_mm": 12.0,
+    "plasma_drag_reduction_percentage_target": 15.0,
+    "overclocked_fluidic_trace_width_mm": 0.8,
+    "overclocked_sleeve_actuation_latency_ms": 6.0,
+    "peristaltic_polyurethane_tube_bore_mm": 1.5,
+    "reforestation_pod_trigger_altitude_m": 5.0,
+    "reforestation_pod_pneumatic_trigger_pa": 1600.0,
+    "custom_acoustic_scale_profile": "MINOR_PENTATONIC"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "mod_developer_tier": "Decentralized Open-Source Hardware Collective",
+      "compliance_license": "LICENSE_COVENANT.md (Strict Non-Weaponization Mandate)"
+    },
+    {
+      "simulation_hook": "vortex-flight-armw88/armw88-flight-twin.py",
+      "runtime_verification": "Python 3 Core Runtime Engine"
+    }
+  ]
+}
