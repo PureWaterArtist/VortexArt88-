@@ -6,6 +6,25 @@ The **Morphing Aero-Resonator Wing Matrix (Project ARMW-88)** is an open-source,
 
 To guarantee pilot survivability across rough-field terrain insertion envelopes, the platform completely discards the need for electronic safety deployments. Ground deceleration is governed by an integrated **Biomimetic Kangaroo-Tendon Landing Exoskeleton** built directly into the lower legs. This system absorbs massive vertical percussive impact forces by transferring energy into a high-elasticity carbon-fiber leaf-spring loop. Continuous pilot vitals and flight dynamics are monitored via a solid-state, non-electronic **Fluidic Sensor Suite**. This suite runs compressed ram-air through microscopic internal logic tracks to compute altitude, velocity, and pitch angle. If a critical spin or low-altitude stall threshold is tripped, the fluid computer redirects the primary pressure vector to activate a fully passive, **Pneumatic Ballistic Emergency Canopy**. This action automatically fires a backup drag matrix using the pilot’s own high-velocity ram-pressure, creating a completely failsafe, self-sustained survival loop.
 
+---
+
+## 🎨 Project ARMW-88 Integrated Visual Showroom
+
+Explore the verified architectural renderings and cleanroom laboratory validation captures for the fully assembled tactical flight armor:
+
+### 🏛️ The Cleanroom Reveal & Camouflage Calibration
+*   **[Factory Standard Assembly Configuration](./media/armw88-reveal-native.png)**
+*   **[Active Chameleon Hydrogel Skin Tracking](./media/armw88-reveal-camo.png)**
+
+### 🦅 Aerodynamic Maneuver & Envelope Verification
+*   **[High-G Canyon Sweep Flight Trajectory](./media/armw88-maneuver-flight.png)**
+
+### 🛫 The Sovereign Aerospace Air Show Exhibit
+*   **[Standard Multi-Module Wing Profiles](./media/armw88-exhibit-standard.png)**
+*   **[Custom Environment Tactical Paint Schemes](./media/armw88-exhibit-variant.png)**
+
+---
+
 ### 🧬 Full Platform Mechanical Architecture & Kinetic Links
 
 ```text
