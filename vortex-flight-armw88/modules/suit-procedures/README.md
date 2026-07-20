@@ -14,14 +14,17 @@ Review the verified multi-stage trajectory pathing, in-flight boundary layer suc
 
 ### 📐 Mission Phase Pathing & Fluid Velocity Grids
 *   ![Holographic Launch, Cruise, and Touchdown Trajectory Profile Map](./media/armw88-procedures-schematic.png)
+
 *   ![Torso Log-Spiral Cardioid Tunnel Airflow Acceleration Cutaway](./media/armw88-procedures-cutaway.png)
 
 ### 🔬 Cleanroom-to-Field Staging & Tactical Flight Telemetry
 *   ![High-Shutter Speed Gravitational Decline Drop-Launch Profile](./media/armw88-procedures-launch-drop.png)
+
 *   ![Active In-Flight Kinesthetic Cuff Bladder Actuation Response Check](./media/armw88-procedures-evasion-track.png)
 
 ### 🦿 Resonant Pulsed Shield Shocks & Superhero Touchdowns
 *   ![High-Frequency 2400 Hz Pulsed Acoustic Cushion Discharging Pre-Impact](./media/armw88-procedures-pulsed-shield.png)
+
 *   ![Three-Point Superhero Landing Structural Core Stomp Absorption Area](./media/armw88-procedures-stomp-landing.png)
 
 ---
