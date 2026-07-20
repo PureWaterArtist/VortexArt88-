@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "ARMW-88-PROCEDURES-CHECKLIST",
+  "parent_system": "PROJECT-ARMW-88-FLIGHT-ARMOR",
+  "module_layer": "suit-procedures",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "mission_phase_boundary_constants": {
+    "initial_drop_launch_decline_deg": -35.0,
+    "propulsion_coanda_mass_induction_factor": 10.0,
+    "optimal_cruise_glide_aoa_deg": 6.0,
+    "aerodynamic_suction_inflated_cl_max": 1.12,
+    "kinesthetic_cuff_inflation_latency_ms": 15.0,
+    "pulsed_shield_resonance_frequency_hz": 2400.0,
+    "shield_curtain_pre_impact_window_seconds": 0.2,
+    "landing_gear_clearance_travel_mm": 150.0,
+    "maximum_touchdown_percussive_load_joules": 860.0,
+    "ground_equilibrium_tone_shift_hz": [880.0, 440.0]
+  },
+  "validation_sourcing_ledger": [
+    {
+      "manual_reference": "Project ARMW-88 General Ingress, Egress, & Operation Core Manuals",
+      "module_links": ["suit-head", "suit-torso", "suit-arms", "suit-legs", "suit-wings", "suit-sensors", "suit-ai"]
+    },
+    {
+      "validation_engine": "vortex-flight-armw88/armw88-flight-twin.py",
+      "runtime_verification": "Python 3 Physics Verification Model"
+    }
+  ]
+}
