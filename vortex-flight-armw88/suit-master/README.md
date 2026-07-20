@@ -57,6 +57,7 @@ Select a terminal coordinate below to instantly jump to a specific sub-module ma
 | **⚖️ Sovereign Law** | 🔗 **[Ethical License](LICENSE_COVENANT.md)** | 🔗 **[Indemnity Clauses](LICENSE_COVENANT.md#-section-5-absolute-disclaimer-of-liability-fabrication-indemnity--risk-assumption)** | 🔗 **[Visual Blueprint Maps](modules/suit-master/media/README.md)** |
 | **🖨 Prototyping**    | 🔗 **[Prototyping Specs](modules/suit-prototyping/README.md)** | 🔗 **[14-Day Production Logs](modules/suit-prototyping/config/FABRICATION_TIMELINE.md)** | 🔗 **[Printer Run Cards](modules/suit-prototyping/config/hardware-bom.json)** |
 | **📋 Procedures**    | 🔗 **[Procedures Specs](modules/suit-procedures/README.md)** | 🔗 **[Mission Checklists](modules/suit-procedures/config/MISSION_CHECKLISTS.md)** | 🔗 **[Phase Control Cards](modules/suit-procedures/config/hardware-bom.json)** |
+| **⚡ Upgrades**       | 🔗 **[Upgrades Specs](modules/suit-upgrades/README.md)** | 🔗 **[Community Mods Log](modules/suit-upgrades/config/COMMUNITY_MODS.md)** | 🔗 **[Mod Control Cards](modules/suit-upgrades/config/hardware-bom.json)** |
 
 ---
 
