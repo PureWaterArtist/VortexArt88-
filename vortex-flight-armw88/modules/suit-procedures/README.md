@@ -22,7 +22,7 @@ Review the verified multi-stage trajectory pathing, in-flight boundary layer suc
 
 *   ![Active In-Flight Kinesthetic Cuff Bladder Actuation Response Check](./media/armw88-procedures-evasion-track.png)
 
-### 🦿 Resonant Pulsed Shield Shocks & Superhero Touchdowns
+### 🦿 Resonant Pulsed Shield Shocks & Kinetic Touchdowns
 *   ![High-Frequency 2400 Hz Pulsed Acoustic Cushion Discharging Pre-Impact](./media/armw88-procedures-pulsed-shield.png)
 
 *   ![Three-Point Superhero Landing Structural Core Stomp Absorption Area](./media/armw88-procedures-stomp-landing.png)
