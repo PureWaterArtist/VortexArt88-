@@ -6,6 +6,30 @@ The **Community Upgrades & Open-Source Mod Matrix Module (Project ARMW-Upgrades)
 
 This directory serves as an authorized repository for community-submitted "hardware patches." These mods allow independent fabricators to optimize their flight envelopes for specific high-threat, rough-field, or ecological healing environments. All submissions are legally bound by the root **`LICENSE_COVENANT.md`** to ensure that no upgrade alters the platform's strictly defensive, civilizational identity.
 
+---
+
+## 🎨 Community Modification & Overclock Visual Showroom
+
+Review the verified community-submitted logic track overclocking, plasma-wedge corona discharge wave fields, and centripetal reforestation pod integration diagrams:
+
+### 📐 Mod Component Flowcharts & Overclocked Logic Paths
+*   ![Holographic Fluid Computer Core Overclock Tracking Blueprint](./media/armw88-upgrades-schematic.png)
+
+*   ![Compressed 0.8mm Micro-Channel Logic Track Resinous Cutaway](./media/armw88-upgrades-cutaway.png)
+
+### 🔬 Post-Processing & Corona Discharge Laboratory Proofs
+*   ![Tesla-Wick Boro-Silicon Corona Discharge Plasma Wedge Blast](./media/armw88-upgrades-tesla-wick.png)
+
+*   ![Jawline Helical Reed Vocoder Helmet Interface Integration Area](./media/armw88-upgrades-vocoder.png)
+
+### 🦿 Ecological Healing & Peristaltic Thermal Loops
+*   ![Low-Altitude Centripetal Pneumatic Seed-Bomb Drop Validation Log](./media/armw88-upgrades-seed-bomb.png)
+
+*   ![Bio-Purge Peristaltic 1.5mm Polyurethane Thermal Loop Matrix](./media/armw88-upgrades-bio-purge.png)
+
+---
+
+
 # Community Upgrades & Open-Source Mod Matrix (Module: suit-upgrades)
 
 ![Project ARMW-88 Community Modification Fluidic Core Overclock Vector Blueprint](./media/armw88-upgrades-flow.svg)
