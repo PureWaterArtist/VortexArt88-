@@ -31,4 +31,4 @@ Because the calculations within this directory govern the physical safety margin
 *   **Aerodynamic Surface Testing Area:** Baseline lift coefficients ($C_L$) assume a clean, unified wing geometry matching the max extended wingspan parameter of exactly $2400.0\text{ mm}$ and a root chord length of $650.0\text{ mm}$.
 *   **Fluid Target Conditions:** All reference calculations are mapped to standard atmospheric sea-level air density ($\rho = 1.225\text{ kg/m}^3$) and an optimal cruising angle of attack ($\alpha = 6.0^\circ$).
 *   **Layer Slicing Target Resolution:** Data tables are scale-invariant, allowing the root `armw88-flight-twin.py` simulation matrix to pull variables cleanly without tracking errors.
-*   
+
