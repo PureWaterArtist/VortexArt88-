@@ -6,6 +6,26 @@ The **Flight Phase Procedures Module (Project ARMW-Procedures)** maps the chrono
 
 This document serves as the master gateway coordinating your three primary flight operational thresholds. It provides pilot and ground crew with step-by-step directives ensuring that the centripetal Coandă propulsion channels, the 2400 Hz pulsed shield loops, and the kangaroo-tendon leaf spring decelerators engage in perfect synchronicity with raw physics constraints.
 
+---
+
+## 🎨 Flight Phase Operational Visual Showroom
+
+Review the verified multi-stage trajectory pathing, in-flight boundary layer suction simulations, and three-point superhero landing force-dissipation diagrams:
+
+### 📐 Mission Phase Pathing & Fluid Velocity Grids
+*   ![Holographic Launch, Cruise, and Touchdown Trajectory Profile Map](./media/armw88-procedures-schematic.png)
+*   ![Torso Log-Spiral Cardioid Tunnel Airflow Acceleration Cutaway](./media/armw88-procedures-cutaway.png)
+
+### 🔬 Cleanroom-to-Field Staging & Tactical Flight Telemetry
+*   ![High-Shutter Speed Gravitational Decline Drop-Launch Profile](./media/armw88-procedures-launch-drop.png)
+*   ![Active In-Flight Kinesthetic Cuff Bladder Actuation Response Check](./media/armw88-procedures-evasion-track.png)
+
+### 🦿 Resonant Pulsed Shield Shocks & Superhero Touchdowns
+*   ![High-Frequency 2400 Hz Pulsed Acoustic Cushion Discharging Pre-Impact](./media/armw88-procedures-pulsed-shield.png)
+*   ![Three-Point Superhero Landing Structural Core Stomp Absorption Area](./media/armw88-procedures-stomp-landing.png)
+
+---
+
 # Flight Phase Procedures & Operational Checklists (Module: suit-procedures)
 
 ![Project ARMW-88 Integrated Mission Phase Transition Vector Blueprint](./media/armw88-procedures-flow.svg)
