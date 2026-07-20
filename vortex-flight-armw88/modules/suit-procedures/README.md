@@ -6,6 +6,10 @@ The **Flight Phase Procedures Module (Project ARMW-Procedures)** maps the chrono
 
 This document serves as the master gateway coordinating your three primary flight operational thresholds. It provides pilot and ground crew with step-by-step directives ensuring that the centripetal Coandă propulsion channels, the 2400 Hz pulsed shield loops, and the kangaroo-tendon leaf spring decelerators engage in perfect synchronicity with raw physics constraints.
 
+# Flight Phase Procedures & Operational Checklists (Module: suit-procedures)
+
+![Project ARMW-88 Integrated Mission Phase Transition Vector Blueprint](./media/armw88-procedures-flow.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
