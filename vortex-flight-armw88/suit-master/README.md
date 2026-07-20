@@ -26,7 +26,6 @@ Review the verified master engineering layouts, structural grounding validation 
 
 ---
 
-
 When all components are locked together across the cleanroom assembly line, they establish a continuous, multi-layered defensive and flight actuation network:
 1.  **Continuous Faraday Cage Grounding:** The graphene-infused carbon-fiber polycarbonate outer shell forms an unbroken electromagnetic shield. High-voltage surge spikes glide across the helmet and chest plates, traveling down the arm and leg frames to dump harmlessly out of the trailing static-wick filaments at the wingtips.
 2.  **Harmonized Energy-Recycling Systems:** Wind shear friction traveling across the wings and limbs at 200 km/h acts as a continuous energy harvester via the **Triboelectric Fluoropolymer Mesh**, siphoning a stable $450\text{V}$ static potential down high-conductivity liquid metal alloy power lines to drive internal mechanical dampeners and joint lock-valves.
@@ -56,6 +55,7 @@ Select a terminal coordinate below to instantly jump to a specific sub-module ma
 | **🧠 AI Collaborator** | 🔗 **[AI Interface Specs](modules/suit-ai/README.md)** | 🔗 **[AI Audio Code Matrix](modules/suit-ai/OPERATION_MANUAL.md)** | 🔗 **[Acoustic Data Vault](modules/suit-ai/config/README.md)** |
 | **📊 Aero Boundaries** | 🔗 **[Performance Specs](modules/suit-performance/README.md)** | 🔗 **[Flight Envelope Logs](modules/suit-performance/FLIGHT_ENVELOPE.md)** | 🔗 **[Wind-Tunnel Metrics](modules/suit-performance/config/README.md)** |
 | **⚖️ Sovereign Law** | 🔗 **[Ethical License](LICENSE_COVENANT.md)** | 🔗 **[Indemnity Clauses](LICENSE_COVENANT.md#-section-5-absolute-disclaimer-of-liability-fabrication-indemnity--risk-assumption)** | 🔗 **[Visual Blueprint Maps](modules/suit-master/media/README.md)** |
+| **🖨 Prototyping**    | 🔗 **[Prototyping Specs](modules/suit-prototyping/README.md)** | 🔗 **[14-Day Production Logs](modules/suit-prototyping/config/FABRICATION_TIMELINE.md)** | 🔗 **[Printer Run Cards](modules/suit-prototyping/config/hardware-bom.json)** |
 
 ---
 
