@@ -13,15 +13,15 @@ To guarantee pilot survivability across rough-field terrain insertion envelopes,
 Explore the verified architectural renderings and cleanroom laboratory validation captures for the fully assembled tactical flight armor:
 
 ### 🏛️ The Cleanroom Reveal & Camouflage Calibration
-*   **[Factory Standard Assembly Configuration](./media/armw88-reveal-native.png)**
-*   **[Active Chameleon Hydrogel Skin Tracking](./media/armw88-reveal-camo.png)**
+*   **[Factory Standard Assembly Configuration](../media/armw88-reveal-native.png)**
+*   **[Active Chameleon Hydrogel Skin Tracking](../media/armw88-reveal-camo.png)**
 
 ### 🦅 Aerodynamic Maneuver & Envelope Verification
-*   **[High-G Canyon Sweep Flight Trajectory](./media/armw88-maneuver-flight.png)**
+*   **[High-G Canyon Sweep Flight Trajectory](../media/armw88-maneuver-flight.png)**
 
 ### 🛫 The Sovereign Aerospace Air Show Exhibit
-*   **[Standard Multi-Module Wing Profiles](./media/armw88-exhibit-standard.png)**
-*   **[Custom Environment Tactical Paint Schemes](./media/armw88-exhibit-variant.png)**
+*   **[Standard Multi-Module Wing Profiles](../media/armw88-exhibit-standard.png)**
+*   **[Custom Environment Tactical Paint Schemes](../media/armw88-exhibit-variant.png)**
 
 ---
 
