@@ -1,0 +1,68 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Cleanroom Dark Bench Modding Chart Grid Base -->
+  <rect width="800" height="600" fill="#010204" />
+  <g stroke="#060b17" stroke-width="1" opacity="0.65">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550" />
+    <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
+  </g>
+
+  <!-- COMMUNITY MODIFICATION GRAPHICS & OVERCLOCK COUPLING RUN -->
+
+  <!-- 1. TESLA-WICK PLASMA WEDGE LAYER ( suit-wings Mod ) -->
+  <path d="M 50,150 L 250,150 L 230,190 L 70,190 Z" fill="none" stroke="#4b5563" stroke-width="3" />
+  <!-- Boro-Silicon Needle Helical Strands -->
+  <path d="M 50,150 Q 100,130 150,150 T 250,150" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="4,2" />
+  <!-- Corona Discharge Wavefronts ( 15% Parasite Drag Reduction ) -->
+  <g fill="none" stroke="#c084fc" opacity="0.75" stroke-width="1.5">
+    <path d="M 40,130 A 30,30 0 0,1 40,170" />
+    <path d="M 25,120 A 50,50 0 0,1 25,180" stroke-width="2" />
+  </g>
+
+  <!-- 2. FLUID COMPUTER MICRO-VORTEX OVERCLOCK ( suit-sensors Mod ) -->
+  <rect x="360" y="80" width="100" height="130" fill="#082f49" stroke="#0284c7" stroke-width="2.5" rx="4" opacity="0.85" />
+  <!-- Compressed Logic Tracks ( 0.8mm Width Matrix Channels ) -->
+  <path d="M 410,210 L 410,140" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <circle cx="410" cy="140" r="4" fill="#00f2ff" /> <!-- Micro-Vortex Choke Ring -->
+  <path d="M 410,140 Q 380,110 380,90" fill="none" stroke="#34d399" stroke-width="1.5" />
+  <path d="M 410,140 Q 440,110 440,90" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,1" />
+
+  <!-- 3. CENTRIPETAL REFORESTATION SEED-BOMB SYSTEM ( suit-legs Mod ) -->
+  <rect x="180" y="380" width="120" height="100" fill="none" stroke="#10b981" stroke-width="3" rx="6" />
+  <!-- Rotary Barrel Drum Chambers -->
+  <circle cx="215" cy="430" r="16" fill="#020617" stroke="#10b981" stroke-width="1.5" />
+  <circle cx="265" cy="430" r="16" fill="#020617" stroke="#10b981" stroke-width="1.5" />
+  <!-- Secondary Pneumatic Altimetry Trigger Line Input ( 4.5mm Branch ) -->
+  <path d="M 240,380 L 240,320 Q 240,280 360,200" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,4" opacity="0.65" />
+  <!-- Expelled Soil-Embedded Seed Payloads Vector -->
+  <path d="M 240,480 L 240,530" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="5,2" marker-end="url(#arrow-green)" />
+
+  <!-- 4. BIO-PURGE PERISTALTIC COOLING MESH CIRCUITS -->
+  <path d="M 520,380 L 640,380 L 620,500 L 540,500 Z" fill="none" stroke="#4b5563" stroke-width="2" />
+  <!-- Micro-Bore Polyurethane Tubing Woven Flow Lines ( 1.5mm Bore ) -->
+  <path d="M 530,390 C 560,410 560,440 530,460 C 500,480 590,480 610,490" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.7" />
+
+  <!-- TECHNICAL SYSTEM LABELS & MOD OVERLAY TRANSLATIONS -->
+  <line x1="50" y1="150" x2="120" y2="40" stroke="#475569" stroke-width="1" />
+  <text x="130" y="35" fill="#a855f7" font-family="monospace" font-size="12" font-weight="bold">TESLA-WICK NEEDLES (Ø 12.0mm PITCH)</text>
+  <text x="130" y="48" fill="#a855f7" font-family="monospace" font-size="10">PASSIVE PLASMA WEDGE DRAG DROP: 15%</text>
+
+  <line x1="410" y1="140" x2="540" y2="120" stroke="#475569" stroke-width="1" />
+  <text x="550" y="115" fill="#00f2ff" font-family="monospace" font-size="12" font-weight="bold">MICRO-VORTEX CHOKE LOOP (0.8mm)</text>
+  <text x="550" y="128" fill="#00f2ff" font-family="monospace" font-size="10">ACTUATION LATENCY DROP: 15.0ms ──► 6.0ms</text>
+
+  <line x1="240" y1="450" x2="120" y2="490" stroke="#475569" stroke-width="1" />
+  <text x="110" y="495" fill="#10b981" font-family="monospace" font-size="12" text-anchor="end" font-weight="bold">ROTARY SEED DRUM (ALT TRIGGER: 5.0m)</text>
+
+  <line x1="570" y1="440" x2="680" y2="440" stroke="#475569" stroke-width="1" />
+  <text x="690" y="444" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold">BIO-PURGE COOLING MESH (1.5mm BORE)</text>
+
+  <!-- Title & Foot Stamp Frame Matrix -->
+  <text x="400" y="585" fill="#475569" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT ARMW-88 // MODULE SUIT-UPGRADES COMMUNITY MOD BLUEPRINT v1.0.0</text>
+
+  <defs>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#10b981" />
+    </marker>
+  </defs>
+</svg>
+    
