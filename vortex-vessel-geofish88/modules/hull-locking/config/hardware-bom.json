@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-HULL-LOCKING-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "hull-locking",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "over_center_latch_mechanical_specs": {
+    "material_composition": "Marine-Grade 316 Stainless Steel",
+    "latch_type": "Adjustable Over-Center Draw Latch",
+    "total_latch_points_count": 8,
+    "rated_drawing_tension_newtons": 450.0,
+    "ultimate_tensile_breaking_strength_n": 4200.0,
+    "fastener_mounting_hardware": "M4.0 Pan-Head Rivets",
+    "fastener_torque_limit_nm": 3.8
+  },
+  "perimeter_gasket_material_specs": {
+    "gasket_profile_shape": "Hollow D-Profile Bulb Seal",
+    "base_compound_matrix": "Ethylene Propylene Diene Monomer (EPDM)",
+    "durometer_hardness_shore_a": 45.0,
+    "nominal_uncompressed_diameter_mm": 4.0,
+    "nominal_compressed_target_thickness_mm": 2.6,
+    "required_compression_ratio_pct": 35.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_hardware_registry": "vortex-vessel-geofish88/config/global-vessel-card.json",
+      "parameter_parity_check": "MATCHED"
+    }
+  ]
+}
