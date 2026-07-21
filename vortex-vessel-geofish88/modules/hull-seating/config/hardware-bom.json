@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-HULL-SEATING-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "hull-seating",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "bulkhead_seat_structural_specs": {
+    "material_composition": "High-Density Polyethylene (HDPE) Structural Foam",
+    "seating_type": "Transverse Locking Structural Bulkhead",
+    "maximum_vertical_static_load_kg": 225.0,
+    "nominal_seat_width_mm": 912.0,
+    "nominal_seat_height_mm": 350.0,
+    "interlocking_rail_material": "Glass-Reinforced Nylon 66",
+    "locking_mechanism": "Dual Spring-Loaded Polymeric Detent Tabs"
+  },
+  "accessory_utility_track_specs": {
+    "track_profile_standard": "Universal Marine 1/2-Inch T-Slot",
+    "base_material_matrix": "Anodized 6061-T6 Aluminum Alloy",
+    "total_track_length_mm": 600.0,
+    "mounting_method": "Co-Extruded Polyolefin Mechanical Fusion Welds",
+    "maximum_point_pullout_load_newtons": 1800.0,
+    "maximum_dynamic_torque_nm": 45.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "payload_verification_clearance": "VERIFIED"
+    }
+  ]
+}
