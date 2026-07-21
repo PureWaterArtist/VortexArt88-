@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-VESSEL-PROCEDURES-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "vessel-procedures",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "field_deployment_force_and_torque_bounds": {
+    "initial_manual_pull_expansion_force_newtons": 120.0,
+    "required_over_center_latch_clamp_force_n": 450.0,
+    "gasket_nominal_compressed_clearance_mm": 2.6,
+    "structural_bulkhead_seat_vertical_torque_nm": 6.5,
+    "accessory_t_bolt_maximum_hand_torque_nm": 2.5,
+    "post_mission_inward_collapse_force_newtons": 80.0,
+    "maximum_safe_setup_time_seconds": 30.0
+  },
+  "operational_phase_mapping_ledger": [
+    {
+      "phase_id": "PHASE_01_EXPANSION_TRACK",
+      "verification_target": "Simultaneous mountain-valley fold articulation"
+    },
+    {
+      "phase_id": "PHASE_02_COMPRESSION_LOCK",
+      "verification_target": "35% uniform EPDM gasket squeeze"
+    },
+    {
+      "phase_id": "PHASE_03_RE_FOLD_STOWAGE",
+      "verification_target": "Trunk clearance footprint match"
+    }
+  ],
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine_file": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "kinematic_compliance_check": "PASS"
+    }
+  ]
+}
