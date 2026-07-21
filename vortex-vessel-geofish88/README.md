@@ -37,6 +37,7 @@ Review the verified architectural blueprints, kinematic transform simulations, a
 | **🌊 Hydrodynamics** | 🔗 [Hydro Performance Specs](modules/hull-hydro/README.md) | 🔗 [Buoyancy Curve Data](modules/hull-hydro/config/DISPLACEMENT_LOGS.md) | 🔗 [Drag Run Cards](modules/hull-hydro/config/hardware-bom.json) |
 | **📋 Procedures** | 🔗 [Operation Manuals](modules/vessel-procedures/README.md) | 🔗 [Unpack & Fold Checklists](modules/vessel-procedures/config/MISSION_CHECKLISTS.md) | 🔗 [Phase Run Cards](modules/vessel-procedures/config/hardware-bom.json) |
 | **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/vessel-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/vessel-prototyping/config/FABRICATION_TIMELINE.md) | 🔗 [CNC Run Cards](modules/vessel-prototyping/config/hardware-bom.json) |
+| **⚡ Upgrades**       | 🔗 [Rigging Vault Specs](modules/vessel-upgrades/README.md) | 🔗 [Community Fishing Mods](modules/vessel-upgrades/config/FISHING_MODS.md) | 🔗 [Mod Control Cards](modules/vessel-upgrades/config/hardware-bom.json) |
 
 ---
 
