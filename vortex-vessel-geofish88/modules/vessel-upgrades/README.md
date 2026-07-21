@@ -20,3 +20,17 @@ vortex-vessel-geofish88/modules/vessel-upgrades/
     ├── hardware-bom.json     # Machine-readable parameters for anchor drops, outriggers, and rod torque
     └── FISHING_MODS.md       # Detailed technical logs mapping the four primary community upgrades
     
+---
+
+## 🎨 Community Rigging & Custom Upgrades Visual Showroom
+
+Review the verified stabilizing outrigger layouts, zero-piercing transom anchor clamps, and solar charging tracks:
+
+### 📐 Rigging Layouts & Mechanical Modification Trajectories
+*   ![Project GEO-FISH-v88 Stabilization Outriggers and Transom Anchor Vector Blueprint](./media/geofish88-upgrades-rig.svg)
+*   ![Human-Readable Authorized Open-Source Fishing Mods and Rail Load Limits](./config/FISHING_MODS.md)
+
+### 🔬 Machine-Readable Mod Parameter Run Cards
+*   ![Outrigger Clearance and Transom Clamp Hardware Specification Cards](./config/hardware-bom.json)
+
+---
