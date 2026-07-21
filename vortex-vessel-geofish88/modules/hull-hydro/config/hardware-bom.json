@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-HULL-HYDRO-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "hull-hydro",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "hydrodynamic_surface_coefficients": {
+    "parasitic_skin_friction_drag_coefficient_cd": 0.032,
+    "volumetric_hull_block_form_factor": 0.78,
+    "maximum_prismatic_efficiency_index": 0.84,
+    "optimal_hull_speed_knots_ceiling": 4.2,
+    "wetted_surface_area_max_sq_meters": 1.85,
+    "transverse_metacentric_height_gm_meters": 0.42
+  },
+  "displacement_boundary_safety_limits": {
+    "absolute_swamping_mass_ceiling_kg": 295.21,
+    "minimum_safe_freeboard_margin_cm": 5.0,
+    "maximum_allowable_hull_trim_angle_deg": 3.5,
+    "fresh_water_buoyancy_density_reference_kg_m3": 1000.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "digital_twin_file_link": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "displacement_volume_m3_target": 0.455
+    }
+  ]
+}
