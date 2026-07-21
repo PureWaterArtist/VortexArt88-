@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-VESSEL-PROTOTYPING-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "vessel-prototyping",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "rapid_manufacturing_sprint_metrics": {
+    "total_production_duration_days": 4.0,
+    "crew_size_requirement_parallel": 2,
+    "cnc_spindle_speed_target_rpm": 14000.0,
+    "cnc_feed_rate_target_mm_min": 3200.0,
+    "score_depth_nominal_dimension_mm": 2.2,
+    "remaining_live_hinge_thickness_mm": 1.8,
+    "fastener_torque_threshold_nm": 3.8,
+    "joint_seal_vacuum_pull_kpa": -20.0,
+    "maximum_allowable_5min_decay_kpa": 0.05
+  },
+  "machinery_sourcing_allocation_ledger": [
+    {
+      "tool_type": "3-Axis Industrial CNC Router Table",
+      "quantity": 1,
+      "specification": "Vacuum-grid downforce bed with minimum travel window 3000mm x 1500mm"
+    },
+    {
+      "tool_type": "Handheld Plastic Extrusion Weld Gun",
+      "quantity": 1,
+      "specification": "Temperature-stabilized polyolefin filler wire feeding nozzle"
+    },
+    {
+      "tool_type": "Hydrostatic Water Displacement Test Tank",
+      "quantity": 1,
+      "specification": "Calibrated depth line sensors with multi-axial point weights"
+    }
+  ]
+}
