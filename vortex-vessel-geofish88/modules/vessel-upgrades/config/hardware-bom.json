@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-VESSEL-UPGRADES-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "vessel-upgrades",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "community_rigging_modification_constants": {
+    "outrigger_wing_extension_length_mm": 750.0,
+    "stabilized_metacentric_height_gm_meters": 0.88,
+    "transom_anchor_maximum_mass_kg": 3.5,
+    "solar_bench_thin_film_rating_watts": 60.0,
+    "rod_holder_tower_tilt_angle_deg": 45.0,
+    "maximum_rail_pullout_torque_moment_nm": 45.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine_file": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "torque_limit_compliance": "PASS"
+    }
+  ]
+}
