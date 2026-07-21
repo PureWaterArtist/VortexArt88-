@@ -6,6 +6,10 @@ The **Origami Hull Layout & Crease Architecture Module (Project GEO-FISH-Origami
 
 By engraving a highly precise, non-Euclidean **Miura-ori tessellation tessellation grid** directly onto the sheet, the flat material transforms into a predictable kinetic structure. This layout ensures that applying tension to the front and rear corner grab-handles forces every mountain fold and valley fold to swing open simultaneously. This action effortlessly transitions the boat from its stowed car trunk configuration into an $8.5\text{-foot}$ rigid fishing hull with zero independent loose parts.
 
+# Origami Hull Layout & Crease Architecture (Module: hull-origami)
+
+![Project GEO-FISH-v88 Flat Polypropylene Sheet CNC Scoring Vector Blueprint](./media/geofish88-origami-pattern.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
