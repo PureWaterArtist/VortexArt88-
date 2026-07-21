@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-VESSEL-SPECS-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "vessel-specs",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "master_physical_metrics_registry": {
+    "stowed_length_inches": 32.2,
+    "stowed_width_inches": 24.1,
+    "stowed_thickness_inches": 8.0,
+    "dry_hull_mass_kg": 13.11,
+    "deployed_length_feet": 8.5,
+    "deployed_beam_width_inches": 39.37,
+    "vessel_depth_inches": 12.2,
+    "max_displacement_volume_m3": 0.455,
+    "max_payload_mass_capacity_kg": 295.21,
+    "standard_operating_draft_cm": 5.58,
+    "safe_freeboard_margin_cm": 25.55,
+    "gasket_nominal_thickness_mm": 2.6
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_script_link": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "global_hardware_card": "vortex-vessel-geofish88/config/global-vessel-card.json",
+      "data_drift_status": "ZERO_ERROR_CODES"
+    }
+  ]
+}
