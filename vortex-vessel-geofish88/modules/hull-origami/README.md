@@ -21,3 +21,17 @@ vortex-vessel-geofish88/modules/hull-origami/
     └── crease-matrix.md      # Human-readable node coordinate offsets and fold sector angles
 ```
     
+---
+
+## 🎨 Origami Hull Architecture Visual Showroom
+
+Review the verified flat-sheet scoring templates, cross-referenced Cartesian node coordinate markers, and live-hinge groove profiles:
+
+### 📐 Structural Scoring Blueprints & Vector Layouts
+*   ![Flat Production Scoring Template and Crease Coordinate Map](./media/geofish88-origami-pattern.svg)
+*   ![Human-Readable Cartesian Node Matrix and Fold Angle Limits](./config/crease-matrix.md)
+
+### 🔬 Machine-Readable CNC Automation Run Cards
+*   ![CNC Router Tooling Profiles and Spindle Speed Parameter Cards](./config/hardware-bom.json)
+
+---
