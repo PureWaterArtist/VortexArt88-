@@ -9,7 +9,7 @@ This file serves as the definitive reference manual for your buddy and any fabri
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
-
+```
 vortex-vessel-geofish88/modules/vessel-specs/
 ├── README.md                 # This file (Specifications Index Manual)
 ├── media/                    # Local folder holding visual sizing footprints
@@ -19,7 +19,7 @@ vortex-vessel-geofish88/modules/vessel-specs/
     ├── README.md             # Symmetrical configuration directory reference index
     ├── hardware-bom.json     # Machine-readable hardware run cards tracking precise physical fields
     └── HARDWARE_SPEC_LEDGER.md # Human-readable dimensional ledger tracking all payload constants
-    
+```    
 ---
 
 ## 🎨 Master Metrology & Dimensional Visual Showroom
