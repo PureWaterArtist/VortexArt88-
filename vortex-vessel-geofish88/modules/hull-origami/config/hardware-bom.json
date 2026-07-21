@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "GEO-FISH-88-HULL-ORIGAMI-BOM",
+  "parent_system": "PROJECT-GEO-FISH-v88-VESSEL",
+  "module_layer": "hull-origami",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "cnc_router_tooling_and_slicing_specs": {
+    "raw_sheet_stock_material": "High-Density Copolymer Polypropylene (HDPE-PP)",
+    "sheet_dimensions_length_mm": 2850.0,
+    "sheet_dimensions_width_mm": 1250.0,
+    "nominal_sheet_thickness_mm": 4.0,
+    "cnc_v_groove_cutter_angle_degrees": 90.0,
+    "score_depth_tolerance_mm": 2.2,
+    "remaining_hinge_web_thickness_mm": 1.8,
+    "spindle_speed_rpm": 14000.0,
+    "feed_rate_mm_min": 3200.0
+  },
+  "live_hinge_elastomer_properties": {
+    "co_extrusion_compound": "Thermoplastic Vulcanizate (TPV-Polyolefin)",
+    "durometer_shore_d": 40.0,
+    "minimum_bend_radius_mm": 0.5,
+    "certified_fatigue_cycles_limit": 50000.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "validation_script": "vortex-vessel-geofish88/geofish88-geometry-twin.py",
+      "expected_unfolded_length_parity": "TRUE"
+    }
+  ]
+}
