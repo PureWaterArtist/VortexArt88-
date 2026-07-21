@@ -38,6 +38,7 @@ Review the verified architectural blueprints, kinematic transform simulations, a
 | **📋 Procedures** | 🔗 [Operation Manuals](modules/vessel-procedures/README.md) | 🔗 [Unpack & Fold Checklists](modules/vessel-procedures/config/MISSION_CHECKLISTS.md) | 🔗 [Phase Run Cards](modules/vessel-procedures/config/hardware-bom.json) |
 | **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/vessel-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/vessel-prototyping/config/FABRICATION_TIMELINE.md) | 🔗 [CNC Run Cards](modules/vessel-prototyping/config/hardware-bom.json) |
 | **⚡ Upgrades**       | 🔗 [Rigging Vault Specs](modules/vessel-upgrades/README.md) | 🔗 [Community Fishing Mods](modules/vessel-upgrades/config/FISHING_MODS.md) | 🔗 [Mod Control Cards](modules/vessel-upgrades/config/hardware-bom.json) |
+| **📏 Metrology**      | 🔗 [Master Metrology Specs](modules/vessel-specs/README.md) | 🔗 [Dimensional Ledgers](modules/vessel-specs/config/HARDWARE_SPEC_LEDGER.md) | 🔗 [Spec Control Cards](modules/vessel-specs/config/hardware-bom.json) |
 
 ---
 
