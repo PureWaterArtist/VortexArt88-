@@ -6,6 +6,10 @@ The **Bulkhead Seating & Accessory Utility Tracks Module (Project GEO-FISH-Seati
 
 Once the copolymer hull is pulled open, the user slides a pre-molded, high-density polyethylene ($HDPE$) structural bulkhead seat assembly straight down into vertical interlocking polymer rails welded directly to the floor. Sliding the seat into its terminal seat-track position blocks the inward folding vector of the valley joints, transforming the craft into a rigid structural assembly that can handle up to $225.0\text{ kg}$ of direct vertical weight. Flanking this compartment are co-extruded aluminum accessory gear tracks designed to mount modular field gear securely using universal T-bolts.
 
+# Bulkhead Seating & Accessory Utility Tracks (Module: hull-seating)
+
+![Project GEO-FISH-v88 Transverse Bulkhead Structural Locking Seat Vector Blueprint](./media/geofish88-seating-tracks.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
