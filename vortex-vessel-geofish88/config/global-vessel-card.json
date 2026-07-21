@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vortexart88.org",
+  "vessel_id": "GEO-FISH-88-MASTER-HARDWARE-CARD",
+  "system_layer": "root-configuration-registry",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "global_material_physics_constants": {
+    "fresh_water_density_kg_m3": 1000.0,
+    "copolymer_polypropylene_density_kg_m3": 920.0,
+    "hardshell_panel_thickness_mm": 4.0,
+    "uv_stabilizer_active_compound_depth_pct": 3.0,
+    "live_hinge_minimum_fatigue_cycles": 50000.0
+  },
+  "deployed_hull_geometry_limits": {
+    "total_flat_material_length_meters": 2.85,
+    "total_flat_material_width_meters": 1.25,
+    "num_longitudinal_fold_segments": 6,
+    "num_lateral_fold_segments": 4,
+    "hydrodynamic_hull_form_reduction_factor": 0.78,
+    "minimum_locked_displacement_volume_m3": 0.455,
+    "maximum_buoyant_payload_ceiling_kg": 295.21
+  },
+  "stowed_trunk_box_footprint_inches": {
+    "length": 32.2,
+    "width": 24.1,
+    "thickness": 8.0
+  },
+  "perimeter_epdm_seal_constants": {
+    "gasket_durometer_shore_a": 45.0,
+    "target_compression_rate_pct": 35.0,
+    "mechanical_over_center_latch_force_newtons": 450.0
+  }
+}
