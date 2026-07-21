@@ -24,3 +24,17 @@ vortex-vessel-geofish88/modules/hull-seating/
     ├── hardware-bom.json     # Machine-readable seat dimensions, slide tracks, and load ceilings
     └── TRACK_ALIGNMENT.md    # Human-readable checklist for rail seating and accessory mounting
     
+---
+
+## 🎨 Seating & Utility Track Validation Visual Showroom
+
+Review the verified transverse structural bulkheads, spring-loaded detent locking configurations, and aluminum accessory track layouts:
+
+### 📐 Internal Framework Layouts & Load Trajectories
+*   ![Project GEO-FISH-v88 Transverse Bulkhead Structural Locking Seat Vector Blueprint](./media/geofish88-seating-tracks.svg)
+*   ![Human-Readable Tracking Rail Alignment and Accessory Torque Limits](./config/TRACK_ALIGNMENT.md)
+
+### 🔬 Machine-Readable Seating & Track Parameter Cards
+*   ![HDPE Foam Seat Profile and T-Slot Rail Hardware Run Cards](./config/hardware-bom.json)
+
+---
