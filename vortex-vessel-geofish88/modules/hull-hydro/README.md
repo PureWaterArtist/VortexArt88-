@@ -6,6 +6,10 @@ The **Hydrodynamic Analytics & Displacement Curves Module (Project GEO-FISH-Hydr
 
 When the hull transitions to its 100% open state, the integrated valley folds lock at exact angles to form continuous under-hull water channels. These channels act as **Shallow Tracking Chines** [v1] that trap and direct the water column beneath the boat, ensuring tracking stability in crosswinds and minimizing parasitic wetted surface drag ($C_d$). This database certifies that under a full combined cargo load of $115.0\text{ kg}$, the hull displaces water predictably, preserving a safe gunwale freeboard clearance line well above hazardous swamping boundaries.
 
+# Hydrodynamic Analytics & Displacement Curves (Module: hull-hydro)
+
+![Project GEO-FISH-v88 Transverse Hull Hydrostatic Waterline Stability Vector Blueprint](./media/geofish88-hydro-stability.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,17 @@ vortex-vessel-geofish88/modules/hull-hydro/
     ├── hardware-bom.json     # Machine-readable drag coefficients, block factors, and trim limits
     └── DISPLACEMENT_LOGS.md  # Human-readable buoyancy curves and waterline draft metrics
     
+---
+
+## 🎨 Hydrodynamic Stability Validation Visual Showroom
+
+Review the verified freshwater draft depths, metacentric roll limits, and parasitic skin friction coefficients:
+
+### 📐 Waterline Layouts & Volumetric Displacement Trajectories
+*   ![Project GEO-FISH-v88 Transverse Hull Hydrostatic Waterline Stability Vector Blueprint](./media/geofish88-hydro-stability.svg)
+*   ![Human-Readable Buoyancy Displacement Logs and Metacentric Safety Boundaries](./config/DISPLACEMENT_LOGS.md)
+
+### 🔬 Machine-Readable Fluidic & Drag Parameter Cards
+*   ![Hydrodynamic Surface Coefficients and Drag Hardware Run Cards](./config/hardware-bom.json)
+
+---
