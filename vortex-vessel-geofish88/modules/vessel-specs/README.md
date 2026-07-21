@@ -20,3 +20,17 @@ vortex-vessel-geofish88/modules/vessel-specs/
     ├── hardware-bom.json     # Machine-readable hardware run cards tracking precise physical fields
     └── HARDWARE_SPEC_LEDGER.md # Human-readable dimensional ledger tracking all payload constants
     
+---
+
+## 🎨 Master Metrology & Dimensional Visual Showroom
+
+Review the verified stowed briefcase metrics, expanded operational hull profiles, and fresh water load curves:
+
+### 📐 Mechanical Layouts & Sizing Footprint Trajectories
+*   ![Project GEO-FISH-v88 Stowed Briefcase and Expanded Hull Sizing Vector Blueprint](./media/geofish88-specs-dimensions.svg)
+*   ![Human-Readable Physical Dimension Ledgers and Weight Thresholds](./config/HARDWARE_SPEC_LEDGER.md)
+
+### 🔬 Machine-Readable Master Dimension Parameter Cards
+*   ![Master Metrology Metrics and Sizing Verification Hardware Cards](./config/hardware-bom.json)
+
+---
