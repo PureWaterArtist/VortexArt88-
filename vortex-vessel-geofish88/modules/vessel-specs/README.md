@@ -24,7 +24,10 @@ vortex-vessel-geofish88/modules/vessel-specs/
 
 ## 🎨 Master Metrology & Dimensional Visual Showroom
 
-Review the verified stowed briefcase metrics, expanded operational hull profiles, and fresh water load curves:
+Review the automated kinematic transformation loop simulation, stowed briefcase footprints, and fresh water load curves:
+
+### 🎞️ Live Kinetic Transformation Simulation
+*   ![Project GEO-FISH-v88 Automated Briefcase to Full Boat Transformation Simulation Loop](./media/geofish88-transform-loop.svg)
 
 ### 📐 Mechanical Layouts & Sizing Footprint Trajectories
 *   ![Project GEO-FISH-v88 Stowed Briefcase and Expanded Hull Sizing Vector Blueprint](./media/geofish88-specs-dimensions.svg)
@@ -34,3 +37,4 @@ Review the verified stowed briefcase metrics, expanded operational hull profiles
 *   ![Master Metrology Metrics and Sizing Verification Hardware Cards](./config/hardware-bom.json)
 
 ---
+
