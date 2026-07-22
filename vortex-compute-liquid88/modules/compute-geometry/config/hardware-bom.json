@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-GEOMETRY-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-geometry",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "micro_machining_and_sla_printing_specs": {
+    "substrate_base_material": "High-Stiffness High-Transparency Photopolymer Resin",
+    "block_envelope_length_mm": 50.0,
+    "block_envelope_width_mm": 60.0,
+    "block_envelope_depth_mm": 12.0,
+    "laser_spot_diameter_microns": 25.0,
+    "nominal_groove_depth_mm": 2.2,
+    "standard_channel_width_mm": 1.5,
+    "overclock_channel_width_mm": 0.8,
+    "surface_roughness_target_ra_microns": 0.05
+  },
+  "fluidic_logic_gate_performance_benchmarks": {
+    "bistable_switch_type": "Coanda-Wall-Adhesion-Nozzle",
+    "maximum_operating_pressure_pa": 4500.0,
+    "minimum_droplet_volume_microliters": 1.25,
+    "gate_isolation_ratio_decibels": 42.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "validation_script": "vortex-compute-liquid88/master-resonance-twin.py",
+      "expected_channel_overclock_parity": "TRUE"
+    }
+  ]
+}
