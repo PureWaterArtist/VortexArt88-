@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-PROTOTYPING-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-prototyping",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "rapid_manufacturing_sprint_metrics": {
+    "total_production_duration_days": 4.0,
+    "crew_size_requirement_parallel": 2,
+    "sla_z_axis_layer_resolution_mm": 0.025,
+    "sla_laser_spot_diameter_microns": 25.0,
+    "sla_thermal_post_cure_temp_c": 60.0,
+    "gold_pad_vapor_deposition_depth_angstroms": 1500.0,
+    "cytop_insulation_layer_thickness_microns": 1.2,
+    "bi2te3_thermopile_thickness_microns": 250.0,
+    "pvdf_piezoelectric_ribbon_thickness_microns": 110.0,
+    "joint_seal_vacuum_decay_test_kpa": -20.0,
+    "maximum_5min_allowable_decay_kpa": 0.05
+  },
+  "machinery_sourcing_allocation_ledger": [
+    {
+      "tool_type": "High-Precision Industrial SLA Stereolithography 3D Printer Suite",
+      "quantity": 1,
+      "specification": "Ultraviolet print engine with dynamic Z-axis stepping down to 5 microns"
+    },
+    {
+      "tool_type": "Physical Vapor Deposition Vacuum Sputtering Chamber",
+      "quantity": 1,
+      "specification": "Magnetron-sputter metallization unit with atomic film depth monitoring"
+    },
+    {
+      "tool_type": "Electrohydrodynamic Spin-Coating & Thermal Baking Deck",
+      "quantity": 1,
+      "specification": "Programmable spin rate coater with sub-micron thin film uniform deposition"
+    }
+  ],
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine_file": "vortex-compute-liquid88/master-resonance-twin.py",
+      "prototyping_compliance_check": "PASS"
+    }
+  ]
+}
