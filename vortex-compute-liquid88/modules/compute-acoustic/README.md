@@ -6,6 +6,10 @@ The **Acoustic Excitation & Levitation Arrays Module (Project LIQUID-Acoustic)**
 
 This directory establishes the mechanical blueprint for an un-jammable acoustic system. By embedding sub-miniature, high-durability piezoelectric transducers flanking the logic tracks and vibrating them at a sharp harmonic pinpoint of exactly $2400.0\text{ Hz}$, the core establishes localized acoustic standing waves. The resulting nodes create an invisible, high-frequency physical pressure cushion that hovers the liquid metal stream directly off the track wall boundaries. This erases fluid contact friction by **95%**, allowing the liquid metal droplets to slide and switch logic states at near-electronic speeds with zero mechanical pumping wear.
 
+# Acoustic Excitation & Levitation Arrays (Module: compute-acoustic)
+
+![Project LIQUID-RESONANCE-v88 Transverse Hull Hydrostatic Waterline Stability Vector Blueprint](./media/liquid88-acoustic-resonance.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,18 @@ vortex-compute-liquid88/modules/compute-acoustic/
     ├── hardware-bom.json     # Machine-readable transducer metrics, resonance margins, and power loads
     └── RESONANCE.md          # Human-readable acoustic calibration logs and standing wave node profiles
 ```    
+
+---
+
+## 🎨 Acoustic Stability Validation Visual Showroom
+
+Review the verified freshwater draft depths, metacentric roll limits, and parasitic skin friction coefficients:
+
+### 📐 Waterline Layouts & Volumetric Displacement Trajectories
+*   ![Project LIQUID-RESONANCE-v88 Transverse Hull Hydrostatic Waterline Stability Vector Blueprint](./media/liquid88-acoustic-resonance.svg)
+*   ![Human-Readable Buoyancy Displacement Logs and Metacentric Safety Boundaries](./config/RESONANCE.md)
+
+### 🔬 Machine-Readable Fluidic & Drag Parameter Cards
+*   ![Hydrodynamic Surface Coefficients and Drag Hardware Run Cards](./config/hardware-bom.json)
+
+---
