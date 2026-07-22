@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-PROCEDURES-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-procedures",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "system_boot_timing_and_voltage_bounds": {
+    "initial_dielectric_test_bias_v": 1.5,
+    "minimum_dielectric_isolation_m_ohms": 100.0,
+    "acoustic_stabilization_delay_ms": 250.0,
+    "standard_logic_trigger_voltage_v": 5.0,
+    "overclock_drive_voltage_v": 12.0,
+    "maximum_allowable_core_temp_c": 65.0,
+    "energy_recycling_combined_efficiency_target_pct": 18.5
+  },
+  "operational_phase_sequencing_ledger": [
+    {
+      "phase_id": "PHASE_01_FLUIDIC_WETTING",
+      "verification_target": "Native hydrophobic contact angle stability at 140 degrees"
+    },
+    {
+      "phase_id": "PHASE_02_ACOUSTIC_SYNC_LOCK",
+      "verification_target": "2400 Hz phase-locked standing wave levitation"
+    },
+    {
+      "phase_id": "PHASE_03_RESONANT_OVERCLOCK",
+      "verification_target": "Frictionless 3.48ms gate latency with closed-loop power siphon"
+    }
+  ],
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine_file": "vortex-compute-liquid88/master-resonance-twin.py",
+      "kinematic_compliance_check": "PASS"
+    }
+  ]
+}
