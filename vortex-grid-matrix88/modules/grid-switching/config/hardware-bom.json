@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-SWITCHING-BOM",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "grid-switching",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "fluidic_curie_switch_specifications": {
+    "substrate_housing_material": "UV-Stabilized Photopolymer Block",
+    "nominal_channel_carve_depth_mm": 2.2,
+    "bistable_nozzle_angle_degrees": 30.0,
+    "native_surface_tension_n_m": 0.624,
+    "maximum_operating_temperature_c": 65.0
+  },
+  "thermomagnetic_and_friction_recycling": {
+    "permanent_magnet_array_grade": "NdFeB N52 Permanent Magnet",
+    "thin_film_thermopile_material": "Bismuth-Telluride (Bi2Te3 Film)",
+    "piezoelectric_ribbon_material": "Polyvinylidene Fluoride (PVDF)",
+    "minimum_energy_recovery_efficiency_pct": 16.5,
+    "self_healing_pulse_reset_ms": 1.5
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_grid_registry": "vortex-grid-matrix88/config/global-grid-card.json",
+      "switching_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
