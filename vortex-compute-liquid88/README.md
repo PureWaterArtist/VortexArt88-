@@ -42,6 +42,7 @@ Review the verified internal logic templates, electrohydrodynamic simulation swe
 | **🌪️ Kinetic Siphon** | 🔗 [Acoustic Kinetic Specs](modules/compute-kinetic/README.md) | 🔗 [Piezoelectric Voltage Logs](modules/compute-kinetic/config/KINETIC.md) | 🔗 [Venturi Run Cards](modules/compute-kinetic/config/hardware-bom.json) |
 | **📋 Procedures** | 🔗 [Operation Manuals](modules/compute-procedures/README.md) | 🔗 [Boot & Overclock Checklists](modules/compute-procedures/config/CHECKLISTS.md) | 🔗 [Phase Run Cards](modules/compute-procedures/config/hardware-bom.json) |
 | **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/compute-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/compute-prototyping/config/TIMELINE.md) | 🔗 [SLA/CNC Run Cards](modules/compute-prototyping/config/hardware-bom.json) |
+| **🧪 Regeneration**  | 🔗 [Immortal Core Specs](modules/compute-regeneration/README.md) | 🔗 [Electrochemical Logs](modules/compute-regeneration/config/REGENERATION_LOGS.md) | 🔗 [Regen Control Cards](modules/compute-regeneration/config/hardware-bom.json) |
 
 ---
 
