@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vortexart88.org",
+  "system_id": "RESONANT-INFRASTRUCTURE-MASTER-CARD",
+  "system_layer": "root-grid-configuration-registry",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "planetary_electrostatic_constants": {
+    "fair_weather_vertical_potential_v_m": 100.0,
+    "earth_surface_conductivity_s_m": 1.0e-3,
+    "ionospheric_boundary_layer_height_km": 60.0,
+    "schumann_resonance_fundamental_hz": 7.83
+  },
+  "terrestrial_surface_wave_transmission_specs": {
+    "carrier_wave_frequency_khz": 12.5,
+    "targeted_wireless_transmission_efficiency_pct": 94.0,
+    "maximum_node_to_node_hop_distance_km": 15.0,
+    "surface_wave_ground_attenuation_db_km": 0.012
+  },
+  "liquid_metal_vortex_oscillator_constants": {
+    "e_ga_in_mass_density_kg_m3": 6250.0,
+    "e_ga_in_viscosity_pa_s": 0.0024,
+    "helical_cavity_radius_meters": 0.35,
+    "acoustic_levitation_frequency_hz": 2400.0,
+    "zinc_anode_thickness_mm": 1.5
+  },
+  "grid_structural_performance_benchmarks": {
+    "minimum_lifecycle_duration_years": 500.0,
+    "emp_immunity_ratio_decibels": 140.0,
+    "galvanic_regeneration_potential_v": 0.23,
+    "maximum_allowable_core_heat_c": 65.0
+  }
+}
