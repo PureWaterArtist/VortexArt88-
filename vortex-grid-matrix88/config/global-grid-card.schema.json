@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org",
+  "title": "Project RESONANT INFRASTRUCTURE: Global Master Parameter Grid Schema",
+  "type": "OBJECT",
+  "required": [
+    "system_id",
+    "system_layer",
+    "licensing",
+    "version",
+    "planetary_electrostatic_constants",
+    "terrestrial_surface_wave_transmission_specs",
+    "liquid_metal_vortex_oscillator_constants",
+    "grid_structural_performance_benchmarks"
+  ],
+  "properties": {
+    "system_id": { "type": "STRING" },
+    "system_layer": { "type": "STRING" },
+    "licensing": { "type": "STRING", "enum": ["CERN-OHL-S-2.0"] },
+    "version": { "type": "STRING" },
+    "planetary_electrostatic_constants": {
+      "type": "OBJECT",
+      "required": ["fair_weather_vertical_potential_v_m", "earth_surface_conductivity_s_m", "ionospheric_boundary_layer_height_km", "schumann_resonance_fundamental_hz"]
+    },
+    "terrestrial_surface_wave_transmission_specs": {
+      "type": "OBJECT",
+      "required": ["carrier_wave_frequency_khz", "targeted_wireless_transmission_efficiency_pct", "maximum_node_to_node_hop_distance_km", "surface_wave_ground_attenuation_db_km"]
+    },
+    "liquid_metal_vortex_oscillator_constants": {
+      "type": "OBJECT",
+      "required": ["e_ga_in_mass_density_kg_m3", "e_ga_in_viscosity_pa_s", "helical_cavity_radius_meters", "acoustic_levitation_frequency_hz", "zinc_anode_thickness_mm"]
+    },
+    "grid_structural_performance_benchmarks": {
+      "type": "OBJECT",
+      "required": ["minimum_lifecycle_duration_years", "emp_immunity_ratio_decibels", "galvanic_regeneration_potential_v", "maximum_allowable_core_heat_c"]
+    }
+  }
+}
