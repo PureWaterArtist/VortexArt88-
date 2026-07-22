@@ -6,6 +6,10 @@ The **Terrestrial Surface-Wave Transmission Module (Project RESONANT-Transmissio
 
 Instead, the network implements **Near-Field Terrestrial Surface-Wave Coupling**. Every regional node utilizes a liquid metal vortex oscillator to inject a highly stable, low-frequency electromagnetic wave ($f = 12.5\text{ kHz}$) directly into the Earth's surface layer, matching native ground conductivity parameters ($1.0 \times 10^{-3}\text{ S/m}$). The energy travels along the ground plane between fractal nodes spaced at exact $15\text{ km}$ intervals. This method achieves a flawless **94% transmission efficiency floor** that remains completely unaffected by storm damage, extreme wind loads, or high-intensity electromagnetic jamming.
 
+# Terrestrial Surface-Wave Transmission (Module: grid-transmission)
+
+![Project RESONANT INFRASTRUCTURE Terrestrial Near-Field Ground Wave Coupling Propagation Blueprint](./media/grid88-transmission-waves.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -21,3 +25,19 @@ vortex-grid-matrix88/modules/grid-transmission/
     ├── BOM_LEDGER.md         # Human-readable procurement registry tracking transmitter materials
     └── WAVES.md              # Human-readable ground attenuation logs and carrier frequency tuning checklists
 ```    
+
+---
+
+## 🎨 Terrestrial Transmission Validation Visual Showroom
+
+Review the verified 12.5 kHz ground wave propagation lines, copper earth anchors, and coaxial beryllium-copper magnetic fringe recycling loops:
+
+### 📐 Wave Propagation Blueprints & Vector Layouts
+*   ![Project RESONANT INFRASTRUCTURE Terrestrial Near-Field Ground Wave Coupling Propagation Blueprint](./media/grid88-transmission-waves.svg)
+*   ![Human-Readable Symmetrical Component Procurement Sourcing Ledger Sheets](./config/BOM_LEDGER.md)
+
+### 🔬 Machine-Readable Frequency Calibration Run Cards
+*   ![Transmitter Coil Sizing and Ground Attenuation Performance Parameter Cards](./config/hardware-bom.json)
+*   ![Human-Readable Carrier Frequency Calibration Tuning and Loss Logs](./config/WAVES.md)
+
+---
