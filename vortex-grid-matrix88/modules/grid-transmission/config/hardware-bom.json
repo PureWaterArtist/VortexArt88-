@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-TRANSMISSION-BOM",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "grid-transmission",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "terrestrial_surface_wave_specifications": {
+    "carrier_wave_frequency_khz": 12.5,
+    "nominal_ground_conductivity_s_m": 0.001,
+    "ground_signal_decay_db_km": 0.012,
+    "symmetrical_node_hop_distance_km": 15.0,
+    "wireless_transmission_efficiency_target_pct": 94.0
+  },
+  "inductive_magnetic_recycling_specifications": {
+    "auxiliary_capture_loop_material": "Beryllium-Copper (CuBe Alloy Matrix)",
+    "total_fringe_capture_overwraps": 4,
+    "resonance_tank_capacitor_dielectric": "Solid-State Aluminum Oxide",
+    "minimum_fringe_recovery_efficiency_pct": 14.5,
+    "emp_isolation_suppression_ratio_db": 140.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_grid_registry": "vortex-grid-matrix88/config/global-grid-card.json",
+      "transmission_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
