@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-ACOUSTIC-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-acoustic",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "acoustic_transducer_specifications": {
+    "transducer_element_material": "Lead Zirconate Titanate (PZT-5H Sub-Miniature)",
+    "total_excitation_nodes_count": 12,
+    "resonant_frequency_target_hz": 2400.0,
+    "maximum_viscosity_drop_pct": 95.0,
+    "allowable_frequency_drift_hz": 0.1,
+    "power_consumption_per_node_mw": 8.5
+  },
+  "acoustic_wave_boundary_physics": {
+    "medium_acoustic_velocity_m_s": 2450.0,
+    "half_wavelength_dimension_mm": 12.5,
+    "wave_generation_mode": "Continuous Standing Wave Levitation",
+    "structural_acoustic_isolation_db": 35.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_compute_registry": "vortex-compute-liquid88/config/global-compute-card.json",
+      "acoustic_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
