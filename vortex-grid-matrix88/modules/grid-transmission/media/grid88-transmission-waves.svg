@@ -1,0 +1,76 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Cleanroom Dark Bench Transmission Wave Grid Base -->
+  <rect width="800" height="600" fill="#010204" />
+  <g stroke="#040916" stroke-width="1" opacity="0.65">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550" />
+    <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
+  </g>
+
+  <!-- EARTH GROUND PLANE AXIS CONDUCTOR LINE (1.0e-3 S/m standard) -->
+  <rect x="0" y="440" width="800" height="160" fill="#0c1020" stroke="#1e293b" stroke-width="2" />
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#334155" stroke-width="3" />
+
+  <!-- TRANSMITTER NODE 01 FRAME (Left Side Base Profile) -->
+  <g fill="#1e293b" stroke="#475569" stroke-width="2">
+    <path d="M 120,240 L 160,240 L 180,440 L 100,440 Z" />
+    <!-- Electrolytic Copper Earth Ground Coupling Anchors -->
+    <rect x="110" y="440" width="15" height="60" fill="#b45309" stroke="#d97706" />
+    <rect x="155" y="440" width="15" height="60" fill="#b45309" stroke="#d97706" />
+  </g>
+
+  <!-- TRANSMITTER NODE 02 FRAME (Right Side Base Profile) -->
+  <g fill="#1e293b" stroke="#475569" stroke-width="2">
+    <path d="M 640,240 L 680,240 L 700,440 L 620,440 Z" />
+    <!-- Electrolytic Copper Earth Ground Coupling Anchors -->
+    <rect x="630" y="440" width="15" height="60" fill="#b45309" stroke="#d97706" />
+    <rect x="675" y="440" width="15" height="60" fill="#b45309" stroke="#d97706" />
+  </g>
+
+  <!-- 12.5 kHz NEAR-FIELD TERRESTRIAL SURFACE-WAVE PROPAGATION -->
+  <!-- Low attenuation ground wave ripples showing 95.94% efficiency over 15km -->
+  <g fill="none" stroke="#f59e0b" stroke-width="3" opacity="0.85">
+    <path d="M 180,440 C 220,380 260,380 300,440 C 340,500 380,500 420,440 C 460,380 500,380 540,440 C 580,500 600,470 620,440" />
+    <path d="M 180,440 C 220,480 260,480 300,440 C 340,380 380,380 420,440 C 460,480 500,480 540,440 C 580,380 600,410 620,440" stroke="#d97706" stroke-width="1.5" opacity="0.5" />
+  </g>
+
+  <!-- COAXIAL BERYLLIUM-COPPER MAGNETIC FRINGE RECYCLING LOOPS -->
+  <!-- Capturing non-coupled stray fields and re-injecting into core tank -->
+  <g fill="none" stroke="#a855f7" stroke-width="2">
+    <!-- Left Node Over-Wraps -->
+    <path d="M 80,300 C 60,340 70,420 100,440" stroke-dasharray="4,2" />
+    <path d="M 200,300 C 220,340 210,420 180,440" />
+    <!-- Right Node Over-Wraps -->
+    <path d="M 600,300 C 580,340 590,420 620,440" stroke-dasharray="4,2" />
+    <path d="M 720,300 C 740,340 730,420 700,440" />
+  </g>
+  <path d="M 220,350 Q 250,300 210,270" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+  <path d="M 580,350 Q 550,300 590,270" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-green)" />
+
+  <!-- DYNAMIC TELEMETRY SPECS READOUT MARKS LABELS -->
+  <text x="400" y="85" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">CARRIER FREQUENCY LOCK: 12.5 kHz (±0.05 kHz)</text>
+  <text x="400" y="105" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">WIRELESS COUPLING EFFICIENCY FLOOR: 95.94%</text>
+  <text x="400" y="130" fill="#64748b" font-family="monospace" font-size="10" text-anchor="middle">Symmetrical Node-to-Node Hop Trajectory Scale: 15.0 Kilometers</text>
+
+  <text x="140" y="225" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">TRANSMITTER NODE A</text>
+  <text x="660" y="225" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">RESONATOR NODE B</text>
+  
+  <text x="400" y="475" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">NEAR-FIELD SURFACE GROUND WAVE PLANE</text>
+  <text x="140" y="525" fill="#d97706" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">COPPER ANCHORS (1.0e-3 S/m)</text>
+  <text x="660" y="525" fill="#d97706" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">COPPER ANCHORS (1.0e-3 S/m)</text>
+
+  <text x="250" y="325" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold">FRINGE HARVEST: +14.5%</text>
+  <text x="550" y="325" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end">FRINGE HARVEST: +14.5%</text>
+
+  <text x="400" y="565" fill="#64748b" font-family="monospace" font-size="10" text-anchor="middle">Ground Signal Attenuation Index: 0.012 dB/km // Total Mesh Decibel Path Loss: 0.18 dB</text>
+  <text x="400" y="580" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">Beryllium-Copper Coaxial Overwraps: 4 Loops // EMP Suppression Isolation Limit: 140.0 dB</text>
+
+  <!-- Title Frame Matrix Footer -->
+  <text x="400" y="15" fill="#475569" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT RESONANT INFRASTRUCTURE // MODULE GRID-TRANSMISSION PROPAGATION v1.0.0</text>
+
+  <defs>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#34d399" />
+    </marker>
+  </defs>
+</svg>
+    
