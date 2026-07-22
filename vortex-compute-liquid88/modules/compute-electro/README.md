@@ -24,3 +24,17 @@ vortex-compute-liquid88/modules/compute-electro/
     ├── hardware-bom.json     # Machine-readable insulation layer metrics, pad counts, and dielectric limits
     └── VOLTAGE.md            # Human-readable voltage trigger thresholds and contact angle shift logs
 ```    
+---
+
+## 🎨 Electrohydrodynamic Actuation Visual Showroom
+
+Review the verified gold control pads, fluoropolymer Cytop thin-film insulating configurations, and Lippmann-Young boundary layer profiles:
+
+### 📐 Electrostatic Base Layouts & Contact Angle Trajectories
+*   ![Project LIQUID-RESONANCE-v88 Electrowetting on Dielectric EWOD Contact Angle Step Blueprint](./media/liquid88-electro-actuation.svg)
+*   ![Human-Readable Voltage Trigger Thresholds and Lippmann-Young Attenuation Matrices](./config/VOLTAGE.md)
+
+### 🔬 Machine-Readable Pad & Insulator Parameter Cards
+*   ![Vapor-Deposited Gold Pads and Dielectric Strength Hardware Run Cards](./config/hardware-bom.json)
+
+---
