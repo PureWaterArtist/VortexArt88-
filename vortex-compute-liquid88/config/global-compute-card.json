@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vortexart88.org",
+  "system_id": "LIQUID-88-MASTER-HARDWARE-CARD",
+  "system_layer": "root-configuration-registry",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "liquid_metal_physics_constants": {
+    "e_ga_in_density_kg_m3": 6250.0,
+    "e_ga_in_raw_viscosity_pa_s": 0.0024,
+    "native_surface_tension_n_m": 0.624,
+    "electrical_conductivity_s_m": 3.4e6,
+    "thermal_conductivity_w_m_k": 26.6
+  },
+  "micro_fluidic_channel_dimensions_meters": {
+    "standard_channel_width": 0.0015,
+    "overclock_channel_width": 0.0008,
+    "logic_track_length": 0.0125,
+    "insulator_barrier_thickness": 1.2e-6,
+    "dielectric_constant_relative": 4.5
+  },
+  "acoustic_resonance_target_limits": {
+    "target_frequency_hz": 2400.0,
+    "maximum_viscosity_reduction_pct": 95.0,
+    "standing_wave_node_tolerance_hz": 0.1
+  },
+  "closed_loop_energy_recovery_index": {
+    "minimum_combined_efficiency_target_pct": 18.5,
+    "seebeck_thermopile_material": "Bismuth-Telluride (Bi2Te3)",
+    "piezoelectric_ribbon_material": "Polyvinylidene Fluoride (PVDF)",
+    "max_allowable_joule_heat_c": 65.0
+  }
+}
