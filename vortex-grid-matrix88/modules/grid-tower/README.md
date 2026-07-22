@@ -6,6 +6,10 @@ The **Vertical Ion-Capture Towers Module (Project RESONANT-Tower)** houses the g
 
 Instead, the structure relies entirely on **Symmetrical Aerodynamic Geometry**. When incoming wind currents strike the tower facade, they are passively channeled into an array of internal, tapering Venturi intake tracks. These tracks compress and accelerate the air mass, forcing it into a high-velocity spiral down a central **Double-Helical Vortex Cavity**. This accelerated vortex column continuously spins the circulating EGaIn liquid metal alloy, establishing the primary self-sustaining magnetic flux loops. Simultaneously, the vertical tower axis acts as a giant static capacitor array, passively gathering ambient fair-weather electrostatic gradient current ($100.0\text{ V/m}$) straight out of the atmosphere without a single moving part.
 
+# Vertical Ion-Capture Towers (Module: grid-tower)
+
+![Project RESONANT INFRASTRUCTURE Vertical Framework Cross-Section Vector Blueprint](./media/grid88-tower-frame.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,19 @@ vortex-grid-matrix88/modules/grid-tower/
     ├── hardware-bom.json     # Machine-readable tower envelope measurements, Venturi widths, and weight loads
     └── TOWERS.md             # Human-readable aerodynamic wind scaling matrices and ion-capture thresholds
 ```    
+
+---
+
+## 🎨 Vertical Tower Validation Visual Showroom
+
+Review the verified 24.5-meter structural frames, Venturi compression lines, and boundary energy-recycling matrices:
+
+### 📐 Aerodynamic Layouts & Fluid-Vortex Trajectories
+*   ![Project RESONANT INFRASTRUCTURE Vertical Framework Cross-Section Vector Blueprint](./media/grid88-tower-frame.svg)
+*   ![Human-Readable Sourcing and Component Procurement Symmetrical Ledgers](./config/BOM_LEDGER.md)
+
+### 🔬 Machine-Readable Material & Sizing Run Cards
+*   ![Micro-SLA Printing Settings and Venturi Geometry Hardware Run Cards](./config/hardware-bom.json)
+*   ![Human-Readable Vertical Potential Accumulation Logs and Velocity Sweeps](./config/TOWERS.md)
+
+---
