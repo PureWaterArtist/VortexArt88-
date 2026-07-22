@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-TOWER-BOM",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "grid-tower",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "tower_structural_and_venturi_geometries": {
+    "tower_height_profile_meters": 24.5,
+    "base_envelope_diameter_meters": 3.5,
+    "intake_ports_count_symmetrical": 6,
+    "venturi_compression_ratio_limit": 5.0,
+    "helical_cavity_radius_meters": 0.35,
+    "internal_groove_depth_mm": 45.0,
+    "substrate_material_matrix": "High-Stiffness Tough UV-Stabilized Photopolymer"
+  },
+  "boundary_energy_recycling_specifications": {
+    "thermoelectric_matrix_material": "Bismuth-Telluride (Bi2Te3 Thin-Film)",
+    "piezoelectric_matrix_material": "Polyvinylidene Fluoride (PVDF Ribbons)",
+    "thermocouple_junction_pairs_count": 96,
+    "piezoelectric_harvesting_strips_count": 32,
+    "minimum_tower_boundary_recovery_efficiency_pct": 8.5
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_grid_registry": "vortex-grid-matrix88/config/global-grid-card.json",
+      "tower_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
