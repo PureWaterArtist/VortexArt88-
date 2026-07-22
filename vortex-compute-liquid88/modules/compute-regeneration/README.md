@@ -6,6 +6,10 @@ The **Self-Cleaning Closed-Loop Regeneration Module (Project LIQUID-Regeneration
 
 By embedding a sacrificial **Zinc ($Zn$) Galvanic Cell Matrix** into the base fluid reservoirs, the core establishes a permanent electrochemical purification zone. Simultaneously, the interior track walls are lined with a micro-thin coating of **Barium Titanate ($BaTiO_3$)**. This layer interacts with the core's native 2400 Hz acoustic standing waves to execute continuous, solid-state **Piezo-Catalytic Scrubbing**. The physical acoustic hum of the computer generates localized electrical fields that actively break apart gallium oxide bonds, cracking the oxide skin back into a pristine, slick liquid metal state with zero material degradation or chemical neutralization over time.
 
+# Self-Cleaning Closed-Loop Regeneration (Module: compute-regeneration)
+
+![Project LIQUID-RESONANCE-v88 Self-Cleaning Closed-Loop Galvanic Piezo-Catalytic Vector Blueprint](./media/liquid88-regeneration-loop.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,18 @@ vortex-compute-liquid88/modules/compute-regeneration/
     ├── hardware-bom.json     # Machine-readable galvanic potentials, BaTiO3 depths, and capillary widths
     └── REGENERATION_LOGS.md  # Human-readable electrochemical balances and acoustic scrubbing checklists
 ```    
+
+---
+
+## 🎨 Closed-Loop Regeneration Showroom Dashboard
+
+Review the verified sacrificial zinc anodes, barium titanate piezo-catalytic walls, and capillary phase-separation nozzle profiles:
+
+### 📐 Substrate Purification Layouts & Chemical Reduction Trajectories
+*   ![Project LIQUID-RESONANCE-v88 Self-Cleaning Closed-Loop Galvanic Piezo-Catalytic Vector Blueprint](./media/liquid88-regeneration-loop.svg)
+*   ![Human-Readable Electrochemical Galvanic Protection Matrices and Acoustic Scrubbing Logs](./config/REGENERATION_LOGS.md)
+
+### 🔬 Machine-Readable Anode & Piezo-Catalytic Nano-Film Run Cards
+*   ![Sacrificial Anode Thickness and BaTiO3 Nano-Film Deposition Hardware Control Cards](./config/hardware-bom.json)
+
+---
