@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-REGENERATION-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-regeneration",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "galvanic_cell_protection_specs": {
+    "sacrificial_anode_element": "High-Purity Zinc (Zn Alloy Strip)",
+    "net_electrochemical_potential_v": 0.23,
+    "anode_thickness_mm": 1.5,
+    "oxide_reduction_efficiency_pct": 100.0,
+    "calculated_anode_depletion_lifespan_years": 500.0
+  },
+  "piezo_catalytic_scrubbing_specs": {
+    "piezo_catalytic_wall_coating": "Barium Titanate (BaTiO3 Nano-Film)",
+    "layer_deposition_thickness_microns": 15.0,
+    "required_excitation_frequency_hz": 2400.0,
+    "oxide_dissolution_latency_ms": 0.12,
+    "surface_wetting_capillary_width_mm": 0.05
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_compute_registry": "vortex-compute-liquid88/config/global-compute-card.json",
+      "regeneration_parity_check": "MATCHED"
+    }
+  ]
+}
