@@ -8,6 +8,10 @@ By replacing the standard solid block with a **Phononic Crystal Matrix**—a pre
 
 Simultaneously, the EGaIn liquid metal is infused with ferromagnetic nanoparticles, creating a closed-loop **Thermomagnetic Curie Siphon**. Localized computing heat strips the metal of its magnetism at active junctions, allowing the cooler liquid metal down the line to be drawn forward by permanent magnet arrays. This achieves an automated, self-powered computational cycle driven entirely by the laws of thermodynamic conservation.
 
+# Advanced Phononic & Thermomagnetic Metamaterials (Module: compute-metamaterials)
+
+![Project LIQUID-RESONANCE-v88 Phononic Crystal Sound-Wedge and Curie Siphon Loop Vector Blueprint](./media/liquid88-metamaterial-resonance.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -22,3 +26,18 @@ vortex-compute-liquid88/modules/compute-metamaterials/
     ├── hardware-bom.json     # Machine-readable phononic bandgaps, particle diameters, and magnetic targets
     └── REFINEMENTS.md        # Human-readable Curie temperature thresholds and acoustic reflection logs
 ```    
+
+---
+
+## 🎨 Metamaterial Refinement Showroom Dashboard
+
+Review the verified square-periodic phononic crystal arrays, self-pumping Curie thermomagnetic siphons, and anti-oxidation catalytic fluid boundary layers:
+
+### 📐 Substrate Lattice Blueprints & Fluidic Force Trajectories
+*   ![Project LIQUID-RESONANCE-v88 Phononic Crystal Sound-Wedge and Curie Siphon Loop Vector Blueprint](./media/liquid88-metamaterial-resonance.svg)
+*   ![Human-Readable Curie Siphon Flow Velocity Logs and Phononic Bandgap Refinements](./config/REFINEMENTS.md)
+
+### 🔬 Machine-Readable Crystal Grid & Nanoparticle Parameter Cards
+*   ![SmCo Nanoparticle Concentration and Phononic Lattice Hardware Run Cards](./config/hardware-bom.json)
+
+---
