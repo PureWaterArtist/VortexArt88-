@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-PROTECTION-BOM",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "grid-protection",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "electrochemical_galvanic_specifications": {
+    "sacrificial_anode_element": "High-Purity Zinc (Zn Alloy Strip)",
+    "net_reduction_potential_v": 0.23,
+    "anode_plate_thickness_mm": 1.5,
+    "oxide_reduction_efficiency_pct": 100.0,
+    "calculated_anode_lifespan_years": 500.0
+  },
+  "high_intensity_emp_and_piezo_catalytic_specs": {
+    "substrate_shielding_matrix": "UV-Stabilized Tough Photopolymer",
+    "emp_suppression_attenuation_db": 140.0,
+    "piezo_catalytic_film_material": "Barium Titanate (BaTiO3 Nano-Film)",
+    "layer_deposition_thickness_microns": 15.0,
+    "oxide_dissolution_latency_ms": 0.12,
+    "porous_capillary_wick_width_mm": 0.05
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_grid_registry": "vortex-grid-matrix88/config/global-grid-card.json",
+      "protection_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
