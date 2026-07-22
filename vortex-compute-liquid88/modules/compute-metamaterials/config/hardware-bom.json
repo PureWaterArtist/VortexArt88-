@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-METAMATERIALS-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-metamaterials",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "thermomagnetic_nanoparticle_specifications": {
+    "magnetic_nanoparticle_compound": "Samarium-Cobalt (SmCo-Coated Matrix)",
+    "average_particle_diameter_nanometers": 15.0,
+    "volume_fraction_concentration_pct": 4.5,
+    "curie_temperature_threshold_c": 720.0,
+    "permanent_magnet_array_material": "Neodymium-Iron-Boron (NdFeB N52)",
+    "maximum_self_pumping_velocity_ms": 3.82
+  },
+  "phononic_crystal_lattice_specifications": {
+    "lattice_geometry_type": "Square Periodic Array Cylindrical Voids",
+    "lattice_constant_spacing_mm": 4.25,
+    "void_radius_dimension_mm": 1.85,
+    "targeted_stopband_frequency_hz": 2400.0,
+    "acoustic_energy_concentration_multiplier": 5.2,
+    "attenuation_depth_index_db": 54.0
+  },
+  "zero_friction_catalytic_chemical_buffer": {
+    "chemical_composition_fluid": "Mild Organic Hydrochloric Buffer",
+    "boundary_layer_thickness_mm": 0.05,
+    "oxide_dissolution_latency_ms": 0.12,
+    "operational_lifespan_target_years": 200.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_compute_registry": "vortex-compute-liquid88/config/global-compute-card.json",
+      "metamaterial_parity_check": "MATCHED"
+    }
+  ]
+}
