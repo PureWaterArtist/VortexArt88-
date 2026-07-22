@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "LIQUID-88-COMPUTE-THERMAL-BOM",
+  "parent_system": "PROJECT-LIQUID-RESONANCE-v88-CORE",
+  "module_layer": "compute-thermal",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "seebeck_thermopile_specifications": {
+    "thermoelectric_material_matrix": "Bismuth-Telluride (Bi2Te3 Thin-Film)",
+    "total_thermocouple_junction_pairs": 48,
+    "layer_deposition_thickness_microns": 250.0,
+    "seebeck_coefficient_microvolts_k": 200.0,
+    "maximum_operating_temperature_c": 65.0,
+    "nominal_voltage_recovered_mv": 160.0
+  },
+  "thermal_conductivity_infrastructure": {
+    "polymeric_substrate_k_w_m_k": 0.25,
+    "e_ga_in_thermal_conductivity_w_m_k": 26.6,
+    "insulation_thermal_barrier_thickness_mm": 0.5,
+    "target_conversion_efficiency_pct": 6.5
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_compute_registry": "vortex-compute-liquid88/config/global-compute-card.json",
+      "thermal_efficiency_parity_check": "MATCHED"
+    }
+  ]
+}
