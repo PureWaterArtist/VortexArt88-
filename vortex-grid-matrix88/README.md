@@ -35,10 +35,13 @@ Review the verified global mesh layouts, terrestrial surface-wave propagation ve
 ---
 
 ## 🧭 Quick Navigation Dashboard Matrix
+---
 
-| **🌍 Infrastructure Layers** | 🔗 **Blueprint Specification Modules** | 🔗 **Checklists & Production Logs** | 🔗 **Machine-Readable Run Cards** |
+## 🧭 Quick Navigation Dashboard Matrix
+
+| **🌍 Infrastructure Layers** | 🔗 **Blueprint Specification Modules** | 🔗 **Checklists & Production Logs** | 🔗 **Machine-Readable Run Cards / Engine Scripts** |
 | :--- | :--- | :--- | :--- |
-| **📁 Root Hub** | 📑 `README.md` (This File) | 📜 `LICENSE_COVENANT.md` | 🐍 `master-grid-twin.py` |
+| **📁 Root Hub** | 📑 `README.md` (This File) | 📜 `LICENSE_COVENANT.md` | 🐍 [`master-grid-twin.py`](./master-grid-twin.py) <br> 🐍 [`verify-repo-parity.py`](./verify-repo-parity.py) <br> 🐍 [`config/final-gravity-check.py`](./config/final-gravity-check.py) <br> 🐍 [`config/telluric-booster-twin.py`](./config/telluric-booster-twin.py) |
 | **📐 Tower Geometry** | 🔗 [Tower Framework Specs](modules/grid-tower/README.md) | 🔗 [Vortex Node Layouts](modules/grid-tower/config/TOWERS.md) | 🔗 [Machining Run Cards](modules/grid-tower/config/hardware-bom.json) |
 | **📡 Wave Transmission** | 🔗 [Wireless Coupling Specs](modules/grid-transmission/README.md) | 🔗 [12.5 kHz Tuning Metrics](modules/grid-transmission/config/WAVES.md) | 🔗 [Resonator Run Cards](modules/grid-transmission/config/hardware-bom.json) |
 | **🎛️ Fluidic Switching** | 🔗 [Core Load Balancing Specs](modules/grid-switching/README.md) | 🔗 [Curie-Switch Checklists](modules/grid-switching/config/SWITCHES.md) | 🔗 [Liquid Bus Run Cards](modules/grid-switching/config/hardware-bom.json) |
