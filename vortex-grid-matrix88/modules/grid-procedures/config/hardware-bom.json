@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-PROCEDURES-BOM",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "grid-procedures",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "operational_phase_timing_and_voltage_bounds": {
+    "initial_dielectric_test_bias_v": 1.5,
+    "minimum_dielectric_isolation_m_ohms": 100.0,
+    "acoustic_stabilization_delay_ms": 250.0,
+    "target_carrier_frequency_khz": 12.5,
+    "standard_logic_trigger_voltage_v": 5.0,
+    "overclock_drive_voltage_v": 12.0,
+    "maximum_allowable_core_temp_c": 65.0,
+    "energy_recycling_combined_efficiency_target_pct": 18.5
+  },
+  "operational_phase_sequencing_ledger": [
+    {
+      "phase_id": "PHASE_01_FLUIDIC_WETTING",
+      "verification_target": "Native hydrophobic contact angle stability at 140 degrees and 2400 Hz acoustic lock"
+    },
+    {
+      "phase_id": "PHASE_02_TERRESTRIAL_SYNC_LOCK",
+      "verification_target": "12.5 kHz phase-locked ground wave coupling with 94.0% efficiency minimum"
+    },
+    {
+      "phase_id": "PHASE_03_FLUIDIC_LOAD_BALANCING",
+      "verification_target": "Automatic 3.82 m/s self-steering detour with closed-loop power siphon"
+    }
+  ],
+  "validation_sourcing_ledger": [
+    {
+      "root_twin_engine_file": "vortex-grid-matrix88/master-grid-twin.py",
+      "procedures_compliance_check": "PASS"
+    }
+  ]
+}
