@@ -17,16 +17,16 @@ Instead, this infrastructure treats the Earth's surface layer as a natural condu
 Review the verified global mesh layouts, terrestrial surface-wave propagation vectors, and solid-state tower geometry cross-sections:
 
 ### 📐 Global Mesh Layouts & Fractal Node Spacings
-*   ![Planetary Symmetrical Tower Node Layout and 15km Hop Grid Matrix](../media/grid88-master-schematic.png)
-*   ![Decentralized Symmetrical Mesh Paths and Autonomous Routing Trees](../media/grid88-mesh-transform.png)
+*   ![Planetary Symmetrical Tower Node Layout and 15km Hop Grid Matrix](./media/grid88-master-schematic.png)
+*   ![Decentralized Symmetrical Mesh Paths and Autonomous Routing Trees](./media/grid88-mesh-transform.png)
 
 ### 📡 Terrestrial Wave Propagations & Impedance Verifications
-*   ![Near-Field Ground Surface-Wave Coupling and 12.5 kHz Propagation Lines](../media/grid88-wave-resonance.png)
-*   ![Earth Surface Conductivity Grids and Ground Attenuation Curves](../media/grid88-ground-voltage.png)
+*   ![Near-Field Ground Surface-Wave Coupling and 12.5 kHz Propagation Lines](./media/grid88-wave-resonance.png)
+*   ![Earth Surface Conductivity Grids and Ground Attenuation Curves](./media/grid88-ground-voltage.png)
 
 ### ⚡ Ion-Capture Tower Cross-Sections & Fluidic Switch Arrays
-*   ![Double-Helical Helix Cavity Profiles and Venturi Inversion Channels](../media/grid88-tower-thermal.png)
-*   ![Fluidic Liquid-Metal Core Load Balancing and Curie-Switch Routing Gates](../media/grid88-switch-kinetic.png)
+*   ![Double-Helical Helix Cavity Profiles and Venturi Inversion Channels](./media/grid88-tower-thermal.png)
+*   ![Fluidic Liquid-Metal Core Load Balancing and Curie-Switch Routing Gates](./media/grid88-switch-kinetic.png)
 
 | **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/grid-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/grid-prototyping/config/TIMELINE.md) | 🔗 [SLA/CNC Run Cards](modules/grid-prototyping/config/hardware-bom.json) |
 
