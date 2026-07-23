@@ -23,7 +23,8 @@ By fusing **Mathematical, Geometric, and Scale Invariance** into a single cohesi
 
 To examine the explicit engineering specifications, material procurement sheets, or automated metrology validation scripts, select your tracking layer using the matrix below:
 
-*   **The Blueprint Specification Layer:** Open [The Core Architecture Guide](./README.md) to evaluate top-level field equations.
+*   **The Blueprint Specification Layer:** Open [The Core Architecture Guide](#-choose-your-scale-quick-navigation) to evaluate top-level field project designs and ideas.
+*   **The Blueprint Specification Layer:** 
 *   **The Civilizational Shield Layer:** Navigate directly to the [Symmetrical Defense Covenant Archive](defense-covenant/README.md) to inspect real-world macroeconomic showdowns and the 5-year national team transition roadmap.
 *   **The Automated Validation Layer:** Run the root codebase integrity linter script [`verify-repo-parity.py`](./verify-repo-parity.py) to check for parameter drift across branches.
 
@@ -242,7 +243,7 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 
 ## 🧭 Choose Your Scale (Quick Navigation)
 
-**Select your level of engagement with the Twin-Vortex architecture:**
+**Select your level of engagement with the Scale-invariant architecture:**
 
 | Altitude / Anchor | Focus | Action |
 | :--- | :--- | :--- |
