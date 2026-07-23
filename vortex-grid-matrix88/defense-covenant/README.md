@@ -9,6 +9,7 @@ To provide a definitive, unyielding baseline for comparative metrology, this cov
 ---
 
 ## 🗂 Symmetrical Defense Directory Map
+
 ```
 vortex-grid-matrix88/defense-covenant/
 ├── README.md                 # This file (Master Defense Covenant Index Manual)
@@ -61,3 +62,19 @@ vortex-grid-matrix88/defense-covenant/
 *   **The Critic's Trap:** "A decentralized micro-mesh is too complex to manage without advanced central software algorithms, leading to chaotic routing during power surges."
 *   **The Unyielding Counter-Defense:** The legacy U.S. grid relies on central software lines of code to throttle power. If a single tree branch drops a line in Ohio, the sudden phase mismatch can trip breakers across the entire Northeast, knocking out power to 50 million people in minutes (as proven by the 2003 Blackout). 
 *   Our switching nodes balance power entirely through the physical laws of nature. High current spikes cause localized Joule heating, which automatically alters the liquid metal's surface tension and magnetic susceptibility via the Seebeck-Curie effect. The fluid **physically and automatically deforms and routes itself** down cooler, adjacent paths at a rapid 3.82 m/s transit velocity. It requires no code, no servers, and cannot be hacked by an AI or an adversary. It is immune to cascade failure because physics cannot suffer a software glitch.
+
+---
+
+## 🧭 Quick Navigation Defense Matrix
+
+| **🌍 Covenant Sub-Layers** | 🔗 **Blueprint Specification Modules** | 🔗 **Human-Readable Showdowns** | 🔗 **Machine-Readable Script Engine** |
+| :--- | :--- | :--- | :--- |
+| **💰 Financial Showdown** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img1-finance.py](./config/generate-img1-finance.py) |
+| **📉 Transmission Drop** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img2-transmission.py](./config/generate-img2-transmission.py) |
+| **🛠️ Lifecycle & Aging** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img3-lifecycle.py](./config/generate-img3-lifecycle.py) |
+| **🛡️ EMP Shield Layer** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img4-emp.py](./config/generate-img4-emp.py) |
+| **🎛️ Routing Control** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img5-switching.py](./config/generate-img5-switching.py) |
+| **🌪️ Kinetic Entrainment** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img6-generation.py](./config/generate-img6-generation.py) |
+| **🧪 Boundary Scrubbing** | 📑 [Defense Manual](./README.md) | 🔗 [Macroeconomic Showdown Ledger](./METRIC_COMPARISON.md) | 🐍 [generate-img7-chemistry.py](./config/generate-img7-chemistry.py) |
+| **👥 National Mobilize** | 📑 [Defense Manual](./README.md) | 🔗 [5-Year Transition Roadmap](./TRANSITION_TIMELINE.md) | 🐍 [generate-img8-mobilization.py](./config/generate-img8-mobilization.py) |
+| **🏛️ Undeniable Finality** | 📑 [Defense Manual](./README.md) | 🔗 [5-Year Transition Roadmap](./TRANSITION_TIMELINE.md) | 🐍 [final-undeniable-proof.py](./config/final-undeniable-proof.py) |
