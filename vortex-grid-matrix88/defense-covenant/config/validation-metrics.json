@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "RESONANT-GRID-DEFENSE-METRICS",
+  "parent_system": "PROJECT-RESONANT-INFRASTRUCTURE-v88-CORE",
+  "module_layer": "defense-covenant",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "united_states_legacy_grid_vulnerabilities": {
+    "total_estimated_rebuild_capital_trillion_usd": 4.8,
+    "annual_parasitic_transmission_loss_pct_range": [5.0, 7.0],
+    "calculated_annual_wasted_energy_billion_kwh": 246.0,
+    "annual_line_drop_financial_waste_billion_usd": 27.06,
+    "average_power_transformer_age_years": 40.0,
+    "emp_and_lightning_surge_protection_db": 0.0,
+    "software_cascade_blackout_susceptibility": "HIGH"
+  },
+  "resonant_infrastructure_performance_parity": {
+    "carrier_wave_frequency_khz": 12.5,
+    "maximum_path_decay_pct": 4.06,
+    "node_to_node_hop_distance_km": 15.0,
+    "ground_signal_attenuation_db_km": 0.012,
+    "net_wireless_transmission_efficiency_pct": 95.94,
+    "estimated_system_lifecycle_duration_years": 500.0,
+    "absolute_emp_spectrum_isolation_db": 140.0,
+    "cascade_failure_immunity_ratio_pct": 100.0,
+    "automated_curie_switch_transit_velocity_ms": 3.82
+  },
+  "national_team_transition_deployment_metrics": {
+    "unified_mandate_execution_duration_years": 5.0,
+    "patchwork_corporate_execution_duration_years": 30.0,
+    "required_symmetrical_resonator_towers": 25750,
+    "required_solid_state_fluidic_switching_hubs": 12500,
+    "total_liquid_metal_egain_pool_million_liters": 3.6,
+    "projected_investment_payback_gate_years": 7.2,
+    "ten_year_reclaimed_national_wealth_trillion_usd": 1.2
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_grid_registry": "vortex-grid-matrix88/config/global-grid-card.json",
+      "macro_defense_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
