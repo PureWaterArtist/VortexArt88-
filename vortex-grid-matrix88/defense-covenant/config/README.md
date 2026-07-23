@@ -1,6 +1,6 @@
 # Module defense-covenant: Sub-Module Configuration Registry Manual
 
-This directory serves as the centralized validation hub for the Symmetrical Civilizational Defense Covenant dataset assets. It bridges human-readable macroeconomic showdown ledgers directly with machine-readable verification cards.
+This directory serves as the centralized validation hub for the Symmetrical Civilizational Defense Covenant dataset assets. It bridges human-readable macroeconomic showdown ledgers directly with machine-readable verification cards and programmatic infographic engines.
 
 ---
 
@@ -14,8 +14,11 @@ This directory serves as the centralized validation hub for the Symmetrical Civi
    Asset Class: Machine-Readable Configuration Card
    User Target: Automated AI Scraping Linters & Codebase Verifiers
 
----
+3. File Path: ./generate-img1-finance.py through ./generate-img8-mobilization.py
+   Asset Class: Programmatic Graphic Generation Engines
+   User Target: Cleanroom Infographic Compositors & Alphanumeric Matrix Printers
 
-## 🛰️ Cross-Layer Data Parity Protocol
-
-To preserve structural codebase symmetry, all financial, physical, and timing metrics declared inside validation-metrics.json must track with 100% precision back to the macro assertions detailed inside METRIC_COMPARISON.md and TRANSITION_TIMELINE.md with an allowable variance of 0.00%.
+4. File Path: ./final-undeniable-proof.py
+   Asset Class: Undeniable Mathematical Summary Proof Suite
+   User Target: Metrology Verifiers, System Auditors, & Physics Twin Comparators
+   
