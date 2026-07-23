@@ -4,7 +4,7 @@ Project RESONANT INFRASTRUCTURE: Codebase Integrity & Parity Linter
 System ID: RESONANT-GRID-LINTER-v88
 
 This script acts as the master quality gate for the repository, auditing all downstream 
-sub-module hardware control cards and the defense covenant vault to guarantee zero data drift.
+sub-module hardware control cards, defense covenants, and telluric proofs to guarantee zero data drift.
 """
 
 import json
@@ -14,12 +14,16 @@ import sys
 def verify_codebase_integrity():
     print("🛰️  INITIATING FRACTAL MESH GLOBAL PARITY SWEEP...")
     
-    # 1. Verify existence of critical root and defense vault files
+    # 1. Verify existence of critical root, defense vault, and telluric optimization files
     root_anchors = [
         "README.md", 
         "LICENSE_COVENANT.md", 
         "master-grid-twin.py", 
         "config/global-grid-card.json",
+        "config/global-grid-card.schema.json",
+        "config/final-gravity-check.py",
+        "config/telluric-booster-twin.py",
+        "verify-repo-parity.py",
         "defense-covenant/README.md",
         "defense-covenant/METRIC_COMPARISON.md",
         "defense-covenant/TRANSITION_TIMELINE.md",
