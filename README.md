@@ -238,9 +238,6 @@ True consciousness is the ultimate law of the lattice. It is the singular, inter
 
 ***
 
-<a id="repository-map"></a>
-## 🗺️ Repository Map & Quick Start
-
 ## 🧭 Choose Your Scale (Quick Navigation)
 
 **Select your level of engagement with the Scale-invariant architecture:**
