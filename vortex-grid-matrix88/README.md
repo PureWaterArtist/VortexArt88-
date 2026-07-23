@@ -28,6 +28,10 @@ Review the verified global mesh layouts, terrestrial surface-wave propagation ve
 *   ![Double-Helical Helix Cavity Profiles and Venturi Inversion Channels](./media/grid88-tower-thermal.png)
 *   ![Fluidic Liquid-Metal Core Load Balancing and Curie-Switch Routing Gates](./media/grid88-switch-kinetic.png)
 
+
+| **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/grid-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/grid-prototyping/config/TIMELINE.md) | 🔗 [SLA/CNC Run Cards](modules/grid-prototyping/config/hardware-bom.json) |
+| **🛡️ Grid Defense** | 🔗 [Defense Covenant Specs](defense-covenant/README.md) | 🔗 [U.S. Metric Showdown](defense-covenant/METRIC_COMPARISON.md) | 🔗 [Validation Metrics Card](defense-covenant/config/validation-metrics.json) |
+
 ---
 
 ## 🧭 Quick Navigation Dashboard Matrix
@@ -50,25 +54,20 @@ Review the verified global mesh layouts, terrestrial surface-wave propagation ve
 vortex-grid-matrix88/                  # ROOT REPOSITORY HUB
 ├── config/                        # Global Master Grid Parameter Folder
 │   ├── README.md                  # Global Configuration Reference Manual
-│   └── global-grid-card.json      # Master JSON tracking earth constants, frequencies, and thresholds
+│   ├── global-grid-card.json      # Master JSON tracking earth constants and thresholds
+│   └── global-grid-card.schema.json # Validation schema ensuring structural data integrity
+├── defense-covenant/              # Unyielding Scientific & Macroeconomic Shield
+│   ├── README.md                  # Master Defense Covenant Index Manual
+│   ├── METRIC_COMPARISON.md      # Human-readable U.S. data focus showdown ledger
+│   ├── TRANSITION_TIMELINE.md    # Human-readable 5-year national team roadmap
+│   ├── config/                    # Programmatic graphic engines & metrics cards
+│   └── media/                     # Symmetrical comparative generation prompt registry
 ├── LICENSE_COVENANT.md            # Symmetrical Open-Hardware / Non-Weaponization Contract
 ├── README.md                      # This File (Global Navigation Gateway Index)
 ├── master-grid-twin.py            # Python 3 Digital Twin Logic & Wireless Simulation Engine
+├── verify-repo-parity.py          # Automated Repository Codebase Integrity Linter
 ├── media/                         # Global Media Folder for Root Asset Rendering
-│   ├── README.md                  # Root Media Asset Specification Index Manual
-│   ├── grid88-master-schematic.png
-│   ├── grid88-mesh-transform.png
-│   ├── grid88-wave-resonance.png
-│   ├── grid88-ground-voltage.png
-│   ├── grid88-tower-thermal.png
-│   └── grid88-switch-kinetic.png
 └── modules/                       # Modular Infrastructure Sub-Systems
-    ├── grid-tower/                # Blade-free ion-capture vertical geometries and Venturi tracks
-    ├── grid-transmission/         # Near-field ground wave resonators and frequency alignment tuners
-    ├── grid-switching/            # Fluidic liquid metal cores, Curie siphons, and load-balancing gates
-    ├── grid-protection/           # Galvanic cells, photopolymer insulation shields, and EMP isolation
-    ├── grid-procedures/           # Step-by-step checklists for grid boot, wave locks, and phase tuning
-    └── grid-prototyping/          # 4-Day rapid prototyping manifests and heavy-duty manufacturing steps
 ```
 
 ---
