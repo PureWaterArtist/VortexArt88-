@@ -28,13 +28,10 @@ Review the verified global mesh layouts, terrestrial surface-wave propagation ve
 *   ![Double-Helical Helix Cavity Profiles and Venturi Inversion Channels](./media/grid88-tower-thermal.png)
 *   ![Fluidic Liquid-Metal Core Load Balancing and Curie-Switch Routing Gates](./media/grid88-switch-kinetic.png)
 
-
 | **🖨 Prototyping** | 🔗 [Prototyping Staging Specs](modules/grid-prototyping/README.md) | 🔗 [4-Day Production Run Logs](modules/grid-prototyping/config/TIMELINE.md) | 🔗 [SLA/CNC Run Cards](modules/grid-prototyping/config/hardware-bom.json) |
+
 | **🛡️ Grid Defense** | 🔗 [Defense Covenant Specs](defense-covenant/README.md) | 🔗 [U.S. Metric Showdown](defense-covenant/METRIC_COMPARISON.md) | 🔗 [Validation Metrics Card](defense-covenant/config/validation-metrics.json) |
 
----
-
-## 🧭 Quick Navigation Dashboard Matrix
 ---
 
 ## 🧭 Quick Navigation Dashboard Matrix
@@ -58,19 +55,101 @@ vortex-grid-matrix88/                  # ROOT REPOSITORY HUB
 ├── config/                        # Global Master Grid Parameter Folder
 │   ├── README.md                  # Global Configuration Reference Manual
 │   ├── global-grid-card.json      # Master JSON tracking earth constants and thresholds
-│   └── global-grid-card.schema.json # Validation schema ensuring structural data integrity
+│   ├── global-grid-card.schema.json # Validation schema ensuring structural data integrity
+│   ├── audit-metrology.py         # Precision Numerical Verification Suite
+│   ├── final-gravity-check.py     # 95.94% Wave Propagation Precision Linter
+│   └── telluric-booster-twin.py   # Active Crustal Geoelectric Pumping Proof
 ├── defense-covenant/              # Unyielding Scientific & Macroeconomic Shield
 │   ├── README.md                  # Master Defense Covenant Index Manual
 │   ├── METRIC_COMPARISON.md      # Human-readable U.S. data focus showdown ledger
 │   ├── TRANSITION_TIMELINE.md    # Human-readable 5-year national team roadmap
 │   ├── config/                    # Programmatic graphic engines & metrics cards
-│   └── media/                     # Symmetrical comparative generation prompt registry
+│   │   ├── README.md              # Symmetrical configuration index manual
+│   │   ├── validation-metrics.json # Machine-readable metrics card tracking U.S. parameters
+│   │   ├── generate-img1-finance.py      # Infographic 1 Generation Engine (Expenditure comparison)
+│   │   ├── generate-img2-transmission.py # Infographic 2 Generation Engine (Line loss metrics)
+│   │   ├── generate-img3-lifecycle.py    # Infographic 3 Generation Engine (Depreciation cycles)
+│   │   ├── generate-img4-emp.py          # Infographic 4 Generation Engine (140 dB shock shielding)
+│   │   ├── generate-img5-switching.py    # Infographic 5 Generation Engine (Seebeck-Curie detours)
+│   │   ├── generate-img6-generation.py   # Infographic 6 Generation Engine (Venturi air compression)
+│   │   ├── generate-img7-chemistry.py    # Infographic 7 Generation Engine (Piezo-catalytic sonolysis)
+│   │   └── generate-img8-mobilization.py # Infographic 8 Generation Engine (Unified 5-year cutover)
+│   └── media/                     # Visual Showroom Gateway & Camera Protocol Manual
+│       ├── README.md              # Visual Showroom Gateway Index Manual
+│       └── VISUAL_SHOWDOWN.md     # Symmetrical comparative generation prompt keys registry
 ├── LICENSE_COVENANT.md            # Symmetrical Open-Hardware / Non-Weaponization Contract
-├── README.md                      # This File (Global Navigation Gateway Index)
+├── README.md                      # Primary Root Navigation Gateway Index & Showroom
 ├── master-grid-twin.py            # Python 3 Digital Twin Logic & Wireless Simulation Engine
-├── verify-repo-parity.py          # Automated Repository Codebase Integrity Linter
+├── verify-repo-parity.py          # Automated Global Codebase Integrity Linter
 ├── media/                         # Global Media Folder for Root Asset Rendering
+│   ├── README.md                  # Root Media Asset Specification Index Manual
+│   ├── grid88-master-schematic.png
+│   ├── grid88-mesh-transform.png
+│   ├── grid88-wave-resonance.png
+│   ├── grid88-ground-voltage.png
+│   ├── grid88-tower-thermal.png
+│   └── grid88-switch-kinetic.png
 └── modules/                       # Modular Infrastructure Sub-Systems
+    ├── grid-tower/                # Blade-free ion-capture vertical geometries and Venturi tracks
+    │   ├── README.md              # Tower Module Index Manual
+    │   ├── config/                # Symmetrical dynamic wind scaling databases and logs
+    │   │   ├── README.md          # Sub-module configuration registry manual
+    │   │   ├── hardware-bom.json  # Machine-readable tower specifications run card
+    │   │   ├── BOM_LEDGER.md      # Human-readable component procurement ledger sheet
+    │   │   └── TOWERS.md          # Human-readable dynamic wind scaling database log
+    │   └── media/                 # Local folder holding uncompressed vector graphics
+    │       ├── README.md          # Tower media directory reference index manual
+    │       └── grid88-tower-frame.svg # Native vector blueprint showing helical cross-sections
+    ├── grid-transmission/         # Near-field ground wave resonators and frequency alignment tuners
+    │   ├── README.md              # Transmission Module Index Manual
+    │   ├── config/                # Carrier frequency calibration tuning and loss logs
+    │   │   ├── README.md          # Sub-module configuration registry manual
+    │   │   ├── hardware-bom.json  # Machine-readable transmitter specifications run card
+    │   │   ├── BOM_LEDGER.md      # Human-readable transmitter procurement ledger sheet
+    │   │   └── WAVES.md           # Human-readable frequency calibration tuning logs
+    │   └── media/                 # Local folder holding wave propagation layouts
+    │       ├── README.md          # Transmission media directory reference index manual
+    │       └── grid88-transmission-waves.svg # Native vector blueprint showing ground ripples
+    ├── grid-switching/            # Fluidic liquid metal cores, Curie siphons, and load-balancing gates
+    │   ├── README.md              # Switching Module Index Manual
+    │   ├── config/                # Seebeck-Curie fluidic load-balancing calculations and logs
+    │   │   ├── README.md          # Sub-module configuration registry manual
+    │   │   ├── hardware-bom.json  # Machine-readable switching specifications run card
+    │   │   ├── BOM_LEDGER.md      # Human-readable switching procurement ledger sheet
+    │   │   └── SWITCHES.md        # Human-readable load-balancing thermodynamic logs
+    │   └── media/                 # Local folder holding visual core balancing profiles
+    │       ├── README.md          # Switching media directory reference index manual
+    │       └── grid88-switching-cores.svg # Native vector blueprint showing bistable nozzles
+    ├── grid-protection/           # Galvanic cells, photopolymer insulation shields, and EMP isolation
+    │   ├── README.md              # Protection Module Index Manual
+    │   ├── config/                # Electrochemical galvanic protection potentials and EMP logs
+    │   │   ├── README.md          # Sub-module configuration registry manual
+    │   │   ├── hardware-bom.json  # Machine-readable protection specifications run card
+    │   │   ├── BOM_LEDGER.md      # Human-readable protection procurement ledger sheet
+    │   │   └── PROTECTION.md      # Human-readable electrochemical galvanic balances log
+    │   └── media/                 # Local folder holding visual insulation and isolation blueprints
+    │       ├── README.md          # Protection media directory reference index manual
+    │       └── grid88-protection-shield.svg # Native vector blueprint showing galvanic cells
+    ├── grid-procedures/           # Step-by-step checklists for grid boot, wave locks, and phase tuning
+    │   ├── README.md              # Procedures Module Index Manual
+    │   ├── config/                # Field diagnostic sourcing ledgers and phase-mapping cards
+    │   │   ├── README.md          # Sub-module configuration registry manual
+    │   │   ├── hardware-bom.json  # Machine-readable phase sequencing control run card
+    │   │   ├── BOM_LEDGER.md      # Human-readable instrumentation procurement ledger sheet
+    │   │   └── CHECKLISTS.md      # Human-readable field deployment checklists manual
+    │   └── media/                 # Local folder holding visual deployment sequencing charts
+    │       ├── README.md          # Procedures media directory reference index manual
+    │       └── grid88-procedures-sequencing.svg # Native vector blueprint showing boot phases
+    └── grid-prototyping/          # 4-Day rapid prototyping manifests and heavy-duty manufacturing steps
+        ├── README.md              # Prototyping Module Index Manual
+        ├── config/                # Micro-SLA laser profiles and vacuum decay staging cards
+        │   ├── README.md          # Sub-module configuration registry manual
+        │   ├── hardware-bom.json  # Machine-readable manufacturing control run card
+        │   ├── BOM_LEDGER.md      # Human-readable fabrication equipment procurement sheet
+        │   └── TIMELINE.md        # Human-readable 4-day cleanroom manufacturing timeline logs
+        └── media/                 # Local folder holding rapid production timeline charts
+            ├── README.md          # Prototyping media directory reference index manual
+            └── grid88-prototyping-schedule.svg # Native vector blueprint showing Gantt schedule
 ```
 
 ---
