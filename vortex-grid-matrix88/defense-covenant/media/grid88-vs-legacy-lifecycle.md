@@ -1,0 +1,3 @@
+🛠️ Prompt 3: The Capital Depreciation & Lifecycle Showdown
+
+A close-up, side-by-side macro hardware comparison. LEFT SIDE: An aging, oil-cooled traditional silicon utility transformer, its metal housing heavily rusted and cracked, leaking dark cooling fluid, with an overlaid text flag reading 'Average Asset Age: 40 Years // $100+ Billion Decadal Replacement Cost'. RIGHT SIDE: A flawless, solid-state Project RESONANT INFRASTRUCTURE switching block cast in tough, transparent photopolymer resin, showing internal channels filled with reflective silver EGaIn liquid metal alloy flowing smoothly with zero wear or component fatigue, labeled 'Solid-State Fluidic Core // 500+ Year Active Operational Lifespan'. Crisp industrial cleanroom focus, hyper-detailed, 8k --ar 16:9
