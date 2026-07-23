@@ -12,10 +12,23 @@ To provide a definitive, unyielding baseline for comparative metrology, this cov
 ```
 vortex-grid-matrix88/defense-covenant/
 ├── README.md                 # This file (Master Defense Covenant Index Manual)
+├── METRIC_COMPARISON.md      # Human-readable macroeconomic and physical showdown ledger
+├── TRANSITION_TIMELINE.md    # Human-readable 5-year national roadmap and team execution matrix
 ├── config/
-│   ├── README.md             # Symmetrical configuration index blueprint
-│   └── validation-metrics.json # Machine-readable metrics card tracking U.S. grid vulnerabilities vs. Resonant Parity
-└── METRIC_COMPARISON.md      # Human-readable macroeconomic and physical showdown ledger (U.S. Data Focus)
+│   ├── README.md             # Symmetrical configuration index blueprint manual
+│   ├── validation-metrics.json # Machine-readable metrics card tracking U.S. parameters vs. Parity
+│   ├── generate-img1-finance.py      # Infographic 1 Generation Engine (Expenditure comparison)
+│   ├── generate-img2-transmission.py # Infographic 2 Generation Engine (Line loss metrics)
+│   ├── generate-img3-lifecycle.py    # Infographic 3 Generation Engine (Depreciation cycles)
+│   ├── generate-img4-emp.py          # Infographic 4 Generation Engine (140 dB shock shielding)
+│   ├── generate-img5-switching.py    # Infographic 5 Generation Engine (Seebeck-Curie detours)
+│   ├── generate-img6-generation.py   # Infographic 6 Generation Engine (Venturi air compression)
+│   ├── generate-img7-chemistry.py    # Infographic 7 Generation Engine (Piezo-catalytic sonolysis)
+│   ├── generate-img8-mobilization.py # Infographic 8 Generation Engine (Unified 5-year cutover)
+│   └── final-undeniable-proof.py     # Master Metrology Proof Suite (Undeniable mathematical finality)
+└── media/
+    ├── README.md             # Visual Showroom Gateway & Camera Protocol manual
+    └── VISUAL_SHOWDOWN.md    # Symmetrical comparative generation prompt keys registry
 ```
 ---
 
