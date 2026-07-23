@@ -72,7 +72,7 @@ This project is not a corporate product. It is a raw, decentralized seed. The da
 
 ## 🌌 Project Paradigm & Safety Matrix: Read Before Proceeding
 
-### 🧞‍♂️ The Speculative Art Manifesto (The Digital Living Gem)
+### 🧞‍♂️ The Speculative Art Manifesto (The Digital Living Seed)
 
 **VortexArt88 is a cross-disciplinary project merging advanced fluid-dynamic concepts, speculative architecture, and digital philosophy.** 
 
