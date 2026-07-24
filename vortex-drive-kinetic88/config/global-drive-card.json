@@ -3,38 +3,42 @@
   "system_id": "PROJECT-AETHERIS-MASTER-VEHICLE-CARD",
   "system_layer": "root-vehicle-configuration-registry",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.1.0",
-  "bio_resonant_fluid_properties": {
-    "propulsion_fluid_medium": "Plant-Derived High-Purity Bio-Ethanol (C2H5OH)",
-    "fluid_mass_density_kg_m3": 789.0,
-    "fluid_surface_tension_n_m": 0.022,
-    "fluid_freezing_point_celsius": -114.0,
-    "fluid_latent_heat_of_vaporization_j_g": 841.0,
-    "total_propulsion_loop_capacity_liters": 180.0
+  "version": "2.0.0",
+  "isothermal_hydro_resonant_fluid_specs": {
+    "propulsion_fluid_medium": "High-Purity Distilled Water (H2O)",
+    "fluid_state_regime": "Continuous Isothermal Liquid (Zero-Phase Consumption)",
+    "water_mass_density_kg_m3": 1000.0,
+    "water_surface_tension_n_m": 0.072,
+    "total_closed_loop_fluid_capacity_liters": 180.0,
+    "fluid_capacity_per_wheel_hub_liters": 45.0
   },
-  "resonant_voltage_dissociation_specs": {
-    "voltage_pulse_wave_form": "Symmetrical Unipolar Positive Restricting Pulse",
-    "carrier_tuning_frequency_range_khz": [5.0, 45.0],
-    "high_voltage_electrostatic_potential_v": 5000.0,
-    "maximum_allowable_current_amperes": 0.005,
-    "dielectric_insulation_breakdown_ceiling_v": 15000.0
+  "centripetal_implosion_geometry_metrics": {
+    "drivetrain_geometry_profile": "1.618 Golden Ratio Logarithmic Spiral Horn",
+    "intake_compression_nozzle_type": "Passive Centripetal Convergence Intake",
+    "implosion_velocity_scaling_multiplier": 3.23606,
+    "concentric_hydro_shear_hub_radius_meters": 0.35,
+    "bistable_coanda_diverter_junction_angle_degrees": 30.0
   },
-  "organic_chassis_and_structural_materials": {
-    "monocoque_substrate_composite": "Fused-Quartz Silicon & Crystalline Nanocellulose (CNC)",
-    "internal_reinforcement_lattice": "Logarithmic Spiral Nautilus Shell Geometry",
-    "emp_isolation_suppression_floor_db": 140.0,
-    "minimum_structural_lifecycle_duration_years": 500.0
+  "zero_drag_boundary_layer_specifications": {
+    "logic_channel_inner_lining_substrate": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "fluid_logic_nominal_track_width_mm": 2.2,
+    "fluid_logic_nominal_track_depth_mm": 2.2,
+    "graphene_friction_reduction_factor_pct": 98.0,
+    "maximum_allowable_logic_capillary_lag_ms": 0.00
   },
-  "hydro_acoustic_energy_reclaim_targets": {
-    "deceleration_tract_lining_material": "Quartz-Crystal Piezoelectric Ribbons",
-    "protective_skin_coating_compound": "Non-Toxic Plant-Based Bio-Polymer",
-    "minimum_boundary_recovery_efficiency_pct": 18.5,
-    "fluidic_logic_transit_velocity_ms": 3.82
+  "acoustic_anti_freeze_shield_hardening": {
+    "anti_freeze_prevention_method": "Electro-Acoustic Standing Harmonic Ripple",
+    "excitation_transducer_frequency_hz": 2400.0,
+    "peak_excitation_power_draw_watts": 64.91,
+    "maximum_low_temperature_fluidity_limit_celsius": -40.0,
+    "organic_monocoque_emp_isolation_floor_db": 140.0,
+    "calculated_structural_lifecycle_duration_years": 500.0
   },
   "validation_sourcing_ledger": [
     {
       "root_twin_engine_file": "vortex-drive-kinetic88/master-drive-twin.py",
-      "chassis_and_fluid_parity_check": "MATCHED"
+      "symmetrical_implosion_parity_check": "MATCHED"
     }
   ]
 }
