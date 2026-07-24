@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """
-Project AETHERIS: Closed-Loop Hydro-Resodynamic Digital Twin Engine
+Project AETHERIS: Closed-Loop Bio-Resodynamic Digital Twin Engine
 System ID: AETHERIS-HYDRO-TWIN-v88
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
-This digital twin calculates the pure water closed-loop fluid mechanics,
+This digital twin calculates the bio-ethanol closed-loop fluid mechanics,
 140 dB EMP isolation boundaries, and hydro-acoustic energy recovery floors
 for an infinite-lifespan, zero-consumption vehicle architecture.
 """
 
 import math
 
-class AetherisHydroTwin:
+class AetherisBioTwin:
     def __init__(self):
         # 🪐 PLANETARY ENVIRONMENTAL BASES
         self.AIR_DENSITY_KG_M3 = 1.225          # Standard atmospheric air density at sea level
-        self.WATER_DENSITY_KG_M3 = 1000.0       # Pure H2O mass density (Zero consumption baseline)
-        self.PROPULSION_LOOP_LITERS = 180.0     # Total closed-loop water volume
+        self.ETHANOL_DENSITY_KG_M3 = 789.0       # Plant-derived Bio-Ethanol density (C2H5OH)
+        self.PROPULSION_LOOP_LITERS = 180.0     # Total closed-loop fluid volume
         
         # 📐 GEOMETRIC & PROPULSION SPECIFICATIONS
         self.HELICAL_RADIUS_METERS = 0.35       # Internal turning track radius profile
@@ -30,9 +30,9 @@ class AetherisHydroTwin:
         # ♻️ CLOSED-LOOP RECLAIM BOUNDARY TARGETS
         self.TARGET_RECLAIM_EFFICIENCY_PCT = 18.5 # Quartz-crystal piezo ribbon recovery floor
 
-    def calculate_hydro_dynamics(self, ground_velocity_kmh: float, deceleration_request_pct: float):
+    def calculate_bio_dynamics(self, ground_velocity_kmh: float, deceleration_request_pct: float):
         """
-        Calculates incoming Venturi fluid velocities, closed-loop water vortex RPM,
+        Calculates incoming Venturi fluid velocities, closed-loop fluid vortex RPM,
         aerodynamic friction loads, and hydro-acoustic braking energy recovery.
         """
         # Constrain speed and deceleration metrics to real-world boundaries
@@ -44,17 +44,17 @@ class AetherisHydroTwin:
         venturi_compression_ratio = 5.0
         internal_venturi_air_speed = speed_ms * venturi_compression_ratio
         
-        # Calculate water vortex angular speed inside the concentric wheel flywheels
+        # Calculate fluid vortex angular speed inside the concentric flywheels
         fluid_angular_velocity_rad_s = internal_venturi_air_speed / self.HELICAL_RADIUS_METERS
         fluid_vortex_rpm = (fluid_angular_velocity_rad_s * 60.0) / (2 * math.pi)
         
-        # 2. CLOSED-LOOP HYDRO-ACOUSTIC ENERGY RECLAIM (Braking and Skin Drag)
+        # 2. CLOSED-LOOP RECLAIM (Braking and Skin Drag)
         # Calculate aerodynamic drag resistance force acting along the nanocellulose skin
         drag_force_newtons = 0.5 * self.AIR_DENSITY_KG_M3 * (speed_ms ** 2) * self.CHASSIS_DRAG_COEFFICIENT * self.CHASSIS_FRONTAL_AREA_M2
         aerodynamic_drag_watts = drag_force_newtons * speed_ms
         
         # Fluidic inversion counter-vortex braking power calculation
-        kinetic_braking_watts = (decel_pct / 100.0) * 15000.0 * speed_ms # Scaled hydro braking index
+        kinetic_braking_watts = (decel_pct / 100.0) * 15000.0 * speed_ms # Scaled fluid braking index
         total_available_mechanical_watts = aerodynamic_drag_watts + kinetic_braking_watts
         
         # Reclaimed auxiliary power based on the mandatory 18.5% quartz piezoelectric ribbon floor
@@ -65,7 +65,7 @@ class AetherisHydroTwin:
         # Localized fluid transit velocities and autonomous load balancing status
         fluid_transit_velocity_ms = 3.82 * (1.0 + (decel_pct / 200.0))
         
-        grid_status = "HYDRO_EQUILIBRIUM_STEADY"
+        grid_status = "FLUIDIC_EQUILIBRIUM_STEADY"
         if decel_pct >= 75.0:
             grid_status = "CRITICAL_HYDRAULIC_INVERSION_ACTIVE"
         elif decel_pct >= 15.0:
@@ -73,7 +73,7 @@ class AetherisHydroTwin:
             
         return {
             "venturi_air_speed_ms": round(internal_venturi_air_speed, 2),
-            "water_vortex_rpm": round(fluid_vortex_rpm, 2),
+            "fluid_vortex_rpm": round(fluid_vortex_rpm, 2),
             "aerodynamic_drag_power_kw": round(aerodynamic_drag_watts / 1000.0, 3),
             "reclaimed_boundary_power_kw": round(reclaimed_power_watts / 1000.0, 2),
             "reclaimed_feedback_voltage_v": round(reclaimed_auxiliary_voltage_v, 2),
@@ -84,14 +84,14 @@ class AetherisHydroTwin:
 
     def execute_metrology_verification_sweep(self):
         print("=========================================================================")
-        print("💧 PROJECT AETHERIS: CLOSED-LOOP HYDRO-PROPULSION TWIN")
+        print("💧 PROJECT AETHERIS: CLOSED-LOOP BIO-PROPULSION TWIN")
         print("=========================================================================\n")
         
         # SWEEP 1: STANDARD HIGHWAY CRUISE OVER ROADWAYS (100 km/h, 0% Decel)
-        cruise = self.calculate_hydro_dynamics(ground_velocity_kmh=100.0, deceleration_request_pct=0.0)
+        cruise = self.calculate_bio_dynamics(ground_velocity_kmh=100.0, deceleration_request_pct=0.0)
         print("🍃 SWEEP [01/03]: AMBIENT HIGHWAY CRUISE VELOCITY PARAMETERS:")
         print(f"  * Accelerated Venturi Internal Speed : {cruise['venturi_air_speed_ms']} m/s")
-        print(f"  * Closed-Loop Water Vortex Speed     : {cruise['water_vortex_rpm']} RPM")
+        print(f"  * Closed-Loop Bio-Fluid Vortex Speed : {cruise['fluid_vortex_rpm']} RPM")
         print(f"  * Aerodynamic Drag Power Resistance  : {cruise['aerodynamic_drag_power_kw']} kW")
         print(f"  * Quartz Piezo Reclaimed Power       : {cruise['reclaimed_boundary_power_kw']} kW")
         print(f"  * Low-Voltage Control Rail Feedback  : {cruise['reclaimed_feedback_voltage_v']} Volts DC")
@@ -99,29 +99,29 @@ class AetherisHydroTwin:
         print(f"  * Active EM Shielding Attenuation   : {cruise['emp_shielding_status_db']} dB")
         print(f"  * Core Handling Operational Code     : {cruise['grid_operational_code']}\n")
 
-        # SWEEP 2: MODERATE HYDRO-JET DEFLECTION STEERING (60 km/h, 30% Corner Decel)
-        corner = self.calculate_hydro_dynamics(ground_velocity_kmh=60.0, deceleration_request_pct=30.0)
+        # SWEEP 2: MODERATE JET DEFLECTION STEERING (60 km/h, 30% Corner Decel)
+        corner = self.calculate_bio_dynamics(ground_velocity_kmh=60.0, deceleration_request_pct=30.0)
         print("🌪️  SWEEP [02/03]: REGIONAL DISTRICT JET-DEFLECTION HANDLING:")
-        print(f"  * Closed-Loop Water Vortex Speed     : {corner['water_vortex_rpm']} RPM")
+        print(f"  * Closed-Loop Bio-Fluid Vortex Speed : {corner['fluid_vortex_rpm']} RPM")
         print(f"  * Quartz Piezo Reclaimed Power       : {corner['reclaimed_boundary_power_kw']} kW")
         print(f"  * Low-Voltage Control Rail Feedback  : {corner['reclaimed_feedback_voltage_v']} Volts DC")
         print(f"  * Geometric Fluidic Logic Transit   : {corner['fluidic_logic_speed_ms']} m/s")
         print(f"  * Core Handling Operational Code     : {corner['grid_operational_code']}\n")
 
         # SWEEP 3: CRITICAL EMERGENCE REVERSION STOPPING (120 km/h, 90% Emergency Decel)
-        emergency = self.calculate_hydro_dynamics(ground_velocity_kmh=120.0, deceleration_request_pct=90.0)
+        emergency = self.calculate_bio_dynamics(ground_velocity_kmh=120.0, deceleration_request_pct=90.0)
         print("⚡ SWEEP [03/03]: EMERGENCY HYDRAULIC COUNTER-VORTEX PROTOCOL:")
         print(f"  * Accelerated Venturi Internal Speed : {emergency['venturi_air_speed_ms']} m/s")
-        print(f"  * Closed-Loop Water Vortex Speed     : {emergency['water_vortex_rpm']} RPM")
+        print(f"  * Closed-Loop Bio-Fluid Vortex Speed : {emergency['fluid_vortex_rpm']} RPM")
         print(f"  * Quartz Piezo Reclaimed Power       : {emergency['reclaimed_boundary_power_kw']} kW")
         print(f"  * Low-Voltage Control Rail Feedback  : {emergency['reclaimed_feedback_voltage_v']} Volts DC")
         print(f"  * Geometric Fluidic Logic Transit   : {emergency['fluidic_logic_speed_ms']} m/s")
         print(f"  * Core Handling Operational Code     : {emergency['grid_operational_code']}")
         print("\n=========================================================================")
-        print("✅ WATER VOLUMES 100% BALANCED // ZERO FUEL CONSUMPTION CONSTRAINTS VERIFIED")
+        print("   BIO-FLUID VOLUMES 100% BALANCED // ZERO LOCKOUT OR CAAVITATION RISKS")
         print("=========================================================================")
 
 if __name__ == "__main__":
-    hydro_engine = AetherisHydroTwin()
-    hydro_engine.execute_metrology_verification_sweep()
+    bio_engine = AetherisHydroTwin() if 'AetherisHydroTwin' in globals() else AetherisBioTwin()
+    bio_engine.execute_metrology_verification_sweep()
     
