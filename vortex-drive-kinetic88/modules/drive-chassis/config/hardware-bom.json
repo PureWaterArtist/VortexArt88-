@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-AETHERIS-VEHICLE-v88-CORE",
   "module_layer": "drive-chassis",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "monocoque_material_and_lattice_specifications": {
     "fused_quartz_silicon_volume_pct": 45.0,
     "crystalline_nanocellulose_volume_pct": 55.0,
@@ -12,6 +12,13 @@
     "internal_cylinder_void_radius_mm": 1.85,
     "kinetic_impact_energy_dissipation_pct": 92.0,
     "calculated_structural_lifespan_years": 500.0
+  },
+  "acoustic_anti_freeze_system_specs": {
+    "anti_freeze_method": "Electro-Acoustic Standing Harmonic Ripple",
+    "transducer_node_count": 12,
+    "excitation_frequency_hz": 2400.0,
+    "maximum_sub_zero_power_draw_watts": 64.91,
+    "minimum_temperature_fluidity_limit_celsius": -40.0
   },
   "bio_photonic_solar_and_piezo_reclaim_metrics": {
     "outer_skin_solar_film_type": "Perovskite-Chlorophyll Thin-Film Array",
