@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vortexart88.org",
+  "system_id": "PROJECT-REPULSINE-2P-CARD",
+  "system_layer": "implosion-vehicle-configuration-registry",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "thermodynamic_implosion_specs": {
+    "propulsion_working_medium": "Ambient Atmospheric Air Mass",
+    "fluid_flow_regime": "Continuous Isothermal Centripetal Vortex (Laminar)",
+    "critical_density_collapse_temperature_celsius": 4.0,
+    "vortex_ignition_velocity_rpm": 12500.0,
+    "nominal_mass_density_at_four_c_kg_m3": 1.27,
+    "maximum_operating_vacuum_pressure_kpa": -101.3
+  },
+  "centripetal_plate_geometries": {
+    "drivetrain_geometry_profile": "1.618 Golden Ratio Logarithmic Spiral Horn",
+    "disc_configuration_type": "Counter-Rotating Wavy Corrugated Spin-Discs",
+    "disc_surface_profile": "Symmetrical Concentric Ridges and Grooves",
+    "implosion_velocity_scaling_multiplier": 3.23606,
+    "primary_spin_disc_radius_meters": 0.22,
+    "bistable_coanda_vector_skirt_angle_degrees": 30.0
+  },
+  "zero_drag_boundary_layer_specifications": {
+    "disc_groove_inner_lining_substrate": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "fluid_logic_nominal_track_width_mm": 2.2,
+    "fluid_logic_nominal_track_depth_mm": 2.2,
+    "graphene_friction_reduction_factor_pct": 98.0,
+    "maximum_allowable_logic_capillary_lag_ms": 0.00
+  },
+  "acoustic_anti_freeze_and_drag_suppression": {
+    "anti_freeze_prevention_method": "Electro-Acoustic Standing Harmonic Ripple",
+    "excitation_transducer_frequency_hz": 2400.0,
+    "calculated_sub_zero_power_draw_watts": 42.50,
+    "maximum_low_temperature_fluidity_limit_celsius": -40.0,
+    "organic_monocoque_emp_isolation_floor_db": 140.0,
+    "calculated_structural_lifecycle_duration_years": 500.0
+  },
+  "compact_aircraft_spatial_configuration": {
+    "passenger_occupancy_capacity": 2,
+    "integrated_cargo_volume_capacity_liters": 150.0,
+    "overall_aircraft_length_mm": 3200.0,
+    "overall_aircraft_width_mm": 1800.0,
+    "total_operational_aircraft_curb_mass_kg": 500.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_repulsine_twin_engine_file": "vortex-repulsine-kinetic88/master-repulsine-twin.py",
+      "symmetrical_implosion_parity_check": "MATCHED"
+    }
+  ]
+}
