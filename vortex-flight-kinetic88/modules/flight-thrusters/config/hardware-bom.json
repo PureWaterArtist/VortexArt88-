@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-FLIGHT-THRUSTERS-BOM",
+  "parent_system": "PROJECT-AETHERIS-AVIATION-2P-CORE",
+  "module_layer": "flight-thrusters",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "toroidal_propulsion_and_plenum_geometries": {
+    "total_closed_loop_water_capacity_liters": 80.0,
+    "water_capacity_per_lift_ring_liters": 40.0,
+    "concentric_toroidal_rings_count": 2,
+    "rotation_regime": "Symmetrical Counter-Rotating Core",
+    "dorsal_ventral_intake_plenums_count": 2,
+    "plenum_volumetric_compression_ratio": 5.0,
+    "toroidal_thruster_ring_radius_meters": 0.22,
+    "drivetrain_geometry_profile": "1.618 Golden Ratio Logarithmic Spiral Horn",
+    "fluid_track_nominal_width_mm": 2.2,
+    "fluid_track_nominal_depth_mm": 2.2
+  },
+  "graphene_wall_lining_and_insulation_specs": {
+    "internal_channel_lining_material": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "friction_reduction_factor_pct": 98.0,
+    "fluoropolymer_dielectric_insulation_depth_microns": 1.2,
+    "gold_actuation_tracks_depth_angstroms": 1500.0
+  },
+  "ground_effect_static_initiation_specifications": {
+    "graphene_ultracapacitor_discharge_voltage_v": 5000.0,
+    "maximum_ignition_current_amperes": 0.005,
+    "heating_grid_material_composition": "Platinum-Titanium Micro-Grids",
+    "volumetric_phase_expansion_ratio": 1600.0,
+    "steam_re_condensation_latency_ms": 2.0,
+    "vibrational_anti_freeze_frequency_hz": 2400.0,
+    "calculated_anti_freeze_power_draw_watts": 42.50
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_flight_registry": "vortex-flight-kinetic88/config/global-flight-card.json",
+      "thruster_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
