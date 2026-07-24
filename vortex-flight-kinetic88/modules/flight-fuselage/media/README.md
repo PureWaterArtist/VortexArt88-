@@ -8,6 +8,7 @@ This directory serves as the centralized repository for all visual fuselage asse
 
 *   **`README.md`:** This file (Fuselage Media Blueprint Index Manual).
 *   **`grid88-flight-fuselage.svg`:** Native vector schematic blueprint mapping the 2-passenger compact cabin cell, 150L integrated cargo deck, biomimetic logarithmic nautilus lattice channels, and perovskite-chlorophyll solar skin distribution layers.
+*   **`generate-blueprint.py`:** Standalone Python 3 asset script that programmatically compiles, verifies, and draws the uncompressed XML vector blueprint layout from scratch.
 
 ---
 
