@@ -6,6 +6,10 @@ The **Hydro-Kinetic Propulsion Module (Project Aetheris-Core)** houses the geome
 
 Instead, the propulsion architecture relies entirely on **Symmetrical Hydraulic Geometry**. When the vehicle crosses its static initiation threshold, incoming atmospheric air mass is scooped into a front multi-axial array of six tapering **Venturi Ram Intake Ports** calibrated to a strict **5:1 volumetric compression ratio**. This channels compressed, high-velocity air jets directly into internal **Double-Helical Vortex Cavities** wrapped in the wheel-hub frames. The accelerated air stream continuously strikes the circulating 180-liter distilled water loop, spinning it into a high-speed, self-sustaining vortex column. This spinning water mass couples natively to the wheel rims via zero-contact hydraulic shear forces, driving the vehicle forward entirely on natural fluid mass momentum.
 
+# Hydro-Kinetic Propulsion Loops & Venturi Channels (Module: drive-core)
+
+![Project AETHERIS Concentric Water Flywheel & Venturi Intake Shroud Blueprint](./media/grid88-drive-core.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,18 @@ vortex-drive-kinetic88/modules/drive-core/
     ├── hardware-bom.json     # Machine-readable fluid volumes, channel depths, and nozzle angles
     └── DRIVE_LOGS.md         # Human-readable aerodynamic wind scaling matrices and torque thresholds
  ```   
+
+---
+
+## 🎨 Hydro-Kinetic Propulsion Visual Showroom
+
+Review the verified concentric fluidic flywheels, 5:1 ratio Venturi ram intake channels, and flash-thermal initiation grid parameters:
+
+### 📐 Mechanical Layouts & Venturi Flow Paths
+*   ![Project AETHERIS Concentric Water Flywheel & Venturi Intake Shroud Blueprint](./media/grid88-drive-core.svg)
+
+### 🔬 Machine-Readable Tool Slicing & Calibration Run Cards
+*   ![Machine-Readable Platinum Heating Grids and Vacuum Pressure Run Cards](./config/hardware-bom.json)
+*   ![Human-Readable Symmetrical Torque Initiation Steps and Water Velocity Curves](./config/DRIVE_LOGS.md)
+
+---
