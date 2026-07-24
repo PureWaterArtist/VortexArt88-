@@ -4,9 +4,10 @@
   "parent_system": "PROJECT-AETHERIS-VEHICLE-v88-CORE",
   "module_layer": "drive-reclaim",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "hydro_acoustic_deceleration_specifications": {
     "deceleration_valve_type": "Geometric Fluidic Diverter Valve",
+    "drivetrain_geometry_profile": "1.618 Golden Ratio Logarithmic Spiral Horn",
     "maximum_hydraulic_braking_surge_kpa": 120.0,
     "quartz_piezo_ribbon_thickness_microns": 250.0,
     "crystal_deformation_response_latency_ms": 0.5,
