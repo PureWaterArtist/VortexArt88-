@@ -8,6 +8,10 @@ The **Geometric Fluidic Logic AI Copilot Module (Project Repulsine-Computer)** h
 
 This directory details a completely un-hackable, hardware-driven computation core. The copilot core consists of a solid, multi-axially etched block of high-purity Fused-Quartz Silicon located beneath the central cockpit dashboard. This processor completely rejects electricity and binary code, using continuous **Acoustic Carrier Wave Modulation** running through 2.2mm liquid water tracking lines lined with hydrophobic CVD Graphene. Sensor data from external Venturi ports natively shift internal wave phases, forcing the liquid water to detour itself down the path of least resistance at a rapid $3.82\text{ m/s}$ transit speed. The copilot automatically calculates flight stabilization adjustments and modulates the output nozzles of the Coandă vector skirts within a strict $\leq 1.5\text{ ms}$ latency window, securing an absolute 140 dB EMP isolation floor.
 
+# Project REPULSINE: 48-Junction Fused-Quartz Acoustic Computer (Module: fluidic-copilot)
+
+![Project REPULSINE 48-Junction Fused-Quartz Microfluidic Logic AI Copilot Core Blueprint](./media/grid88-fluidic-computer.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
