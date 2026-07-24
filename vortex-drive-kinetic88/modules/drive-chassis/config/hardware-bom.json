@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-DRIVE-CHASSIS-BOM",
+  "parent_system": "PROJECT-AETHERIS-VEHICLE-v88-CORE",
+  "module_layer": "drive-chassis",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "monocoque_material_and_lattice_specifications": {
+    "fused_quartz_silicon_volume_pct": 45.0,
+    "crystalline_nanocellulose_volume_pct": 55.0,
+    "logarithmic_lattice_constant_mm": 4.25,
+    "internal_cylinder_void_radius_mm": 1.85,
+    "kinetic_impact_energy_dissipation_pct": 92.0,
+    "calculated_structural_lifespan_years": 500.0
+  },
+  "bio_photonic_solar_and_piezo_reclaim_metrics": {
+    "outer_skin_solar_film_type": "Perovskite-Chlorophyll Thin-Film Array",
+    "peak_radiant_solar_yield_w_m2": 220.0,
+    "floor_carpet_energy_harvester": "Flexible PVDF Ribbon Matrix",
+    "minimum_piezo_energy_recovery_pct": 18.5,
+    "graphene_ultracapacitor_storage_capacity_wh": 1200.0
+  },
+  "family_cell_and_environmental_isolation_specs": {
+    "passenger_occupancy_capacity": 5,
+    "rear_cargo_volume_capacity_liters": 450.0,
+    "emp_attenuation_suppression_floor_db": 140.0,
+    "air_filter_substrate_medium": "Porous Ceramic Nanocellulose Matrix",
+    "ventilation_air_separation_channels": 2
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_drive_registry": "vortex-drive-kinetic88/config/global-drive-card.json",
+      "chassis_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
