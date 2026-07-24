@@ -1,0 +1,66 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Cleanroom Dark Bench Chassis Shield Grid Base -->
+  <rect width="800" height="600" fill="#010204" />
+  <g stroke="#050a15" stroke-width="1" opacity="0.65">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550" />
+    <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
+  </g>
+
+  <!-- MULTI-AXIAL NON-METALLIC MONOCOQUE HULL (45% Fused-Quartz / 55% Crystalline Nanocellulose) -->
+  <path d="M 120,440 L 80,360 L 140,160 L 600,160 L 720,340 L 680,440 Z" fill="#0f172a" stroke="#475569" stroke-width="3.5" stroke-linejoin="round" />
+
+  <!-- LOGARITHMIC SPIRAL LATTICE SHOCK ABSORPTION GRID (Lattice Const: 4.25mm) -->
+  <!-- Nautilus-shell internal structure catching 92% of traffic impact forces -->
+  <g fill="none" stroke="#1e293b" stroke-width="1.5">
+    <path d="M 140,160 C 200,200 250,220 300,160 C 350,100 450,200 500,160" />
+    <path d="M 80,360 C 140,320 200,380 260,340 C 320,300 450,400 520,340" />
+    <path d="M 120,440 C 180,400 240,460 300,420 C 360,380 480,450 560,420" />
+    <!-- Symmetrical micro-void alignment markers -->
+    <circle cx="160" cy="180" r="1.85" fill="#334155" />
+    <circle cx="240" cy="200" r="1.85" fill="#334155" />
+    <circle cx="320" cy="190" r="1.85" fill="#334155" />
+    <circle cx="480" cy="180" r="1.85" fill="#334155" />
+  </g>
+
+  <!-- 5-PASSENGER OCCUPANCY CELL BOUNDARIES -->
+  <!-- Front Row Seating Node Area (2 People) -->
+  <rect x="220" y="240" width="120" height="110" fill="none" stroke="#38bdf8" stroke-width="2" rx="4" opacity="0.85" />
+  <circle cx="255" cy="295" r="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="305" cy="295" r="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+
+  <!-- Rear Row Seating Node Area (3 People) -->
+  <rect x="360" y="240" width="140" height="110" fill="none" stroke="#38bdf8" stroke-width="2" rx="4" opacity="0.85" />
+  <circle cx="390" cy="295" r="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="430" cy="295" r="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+  <circle cx="470" cy="295" r="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+
+  <!-- INTEGRATED REAR CARGO CELL BAY STRATUM (450 Liters Capacity Volume) -->
+  <rect x="520" y="220" width="130" height="140" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="4,2" rx="2" />
+  <path d="M 540,250 L 630,330 M 630,250 L 540,330" stroke="#78350f" stroke-width="1.5" opacity="0.4" />
+
+  <!-- PIEZOELECTRIC PRESSURE FEEDBACK FLOORING CARPETS -->
+  <line x1="200" y1="380" x2="660" y2="380" stroke="#a855f7" stroke-width="3" />
+  
+  <!-- OUTER BIO-PHOTONIC SOLAR SKIN OVERLAY (Perovskite-Chlorophyll 220W/m²) -->
+  <path d="M 135,150 H 605" stroke="#34d399" stroke-width="4" fill="none" opacity="0.9" />
+
+  <!-- HIGH-INTENSITY ELECTROMAGNETIC PULSE BLOCKING FIELD SHIELD (140 dB FLOOR) -->
+  <path d="M 40,240 C 20,300 20,360 40,420" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.4" />
+  <path d="M 740,240 C 760,300 760,360 740,420" fill="none" stroke="#ef4444" stroke-width="2" opacity="0.4" />
+
+  <!-- METROLOGICAL DATA LABELS OVERLAYS -->
+  <text x="400" y="70" fill="#ef4444" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">NON-METALLIC FAMILY ISOLATION SHIELD (140 dB EMP SPECTRUM CEILING)</text>
+  <text x="280" y="225" fill="#38bdf8" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">FRONT ROW (2 SEATS)</text>
+  <text x="430" y="225" fill="#38bdf8" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">REAR ROW (3 SEATS)</text>
+  <text x="585" y="210" fill="#f59e0b" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">CARGO BAY: 450L</text>
+  
+  <text x="400" y="415" fill="#a855f7" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">PIEZO PRESSURE HARVEST CARPETS (η ≥ 18.5%)</text>
+  <text x="370" y="135" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold" text-anchor="end">SOLAR SKIN CAPTURE: 220 W/m²</text>
+  
+  <text x="400" y="485" fill="#00f2ff" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">LOGARITHMIC SPIRAL LATTICE SHOCK ABSORPTION RATIO: 92% REJECTION</text>
+  <text x="400" y="545" fill="#64748b" font-family="monospace" font-size="10" text-anchor="middle">Composite Configuration: 45% Fused-Quartz / 55% CNC Matrix // Structural Lifespan: 500+ Years</text>
+  <text x="400" y="560" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">Passive Air Purifier: Ceramic Nanocellulose Block // Integrated Venturi Ventilation Channels: 2 Loops</text>
+
+  <!-- Footer Matrix Title Stamp -->
+  <text x="400" y="585" fill="#475569" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT AETHERIS // MODULE DRIVE-CHASSIS STRUCTURE v1.0.0</text>
+</svg>
