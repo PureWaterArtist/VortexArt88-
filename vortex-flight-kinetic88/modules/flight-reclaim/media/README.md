@@ -8,6 +8,7 @@ This directory serves as the centralized repository for all visual energy-recove
 
 *   **`README.md`:** This file (Reclaim Media Blueprint Index Manual).
 *   **`grid88-flight-reclaim.svg`:** Native vector schematic blueprint mapping the geometric fluidic diverter valves, 120 kPa hydraulic surge zones, and 250-micron quartz-crystal piezoelectric ribbons.
+*   **`generate-blueprint.py`:** Standalone Python 3 asset script that programmatically compiles, verifies, and draws the uncompressed XML vector blueprint layout from scratch.
 
 ---
 
