@@ -1,6 +1,7 @@
 # 🛡️ Plain-English Guide: How the Nanocellulose Chassis Protects Your Family
+**Configuration:** Version 2.0.0 // Plain-Language Revision
 
-This document breaks down the advanced material science and closed-loop recycling networks built into the Project Aetheris monocoque frame, explaining how it keeps a family of 5 safe, dry, and powered without using industrial metal sheets.
+This document breaks down the advanced material science, acoustic freezing protection, and closed-loop recycling networks built into the Project Aetheris monocoque frame, explaining how it keeps a family of 5 safe, dry, and powered without using industrial metal sheets.
 
 ---
 
@@ -14,7 +15,17 @@ Project Aetheris replaces exposed metal bodies with a single, un-killable monoco
 
 ---
 
-## 🛰️ 2. Total Environmental & Electromagnetic Security
+## ❄️ 2. The Acoustic Anti-Freeze: Defeating Winter Without Chemicals
+
+Because our vehicle uses pure distilled water as its closed-loop power fluid, standard winter weather introduces a dangerous trap: frozen water expands by 9% and will rip open standard lines. Adding toxic chemical anti-freeze completely violates our promise of a clean, healthy car.
+
+**Project AETHERIS permanently solves the winter freezing flaw by using sound waves to shake the water molecules apart.**
+
+When you park the car outside on a freezing sub-zero winter night down to -40°C, the car automatically switches on a tiny, low-power vibration. Graphene floor capacitors feed a small electrical ripple into acoustic speakers built directly into the frame. This creates a permanent **2,400 Hz standing sound wave** that hums continuously through the water channels. This constant, high-frequency kinetic shaking physically prevents the water molecules from locking together into solid ice crystals. The water stays perfectly liquid and moving, using only a tiny 64-watt electrical load that will not drain your power reserves.
+
+---
+
+## 🛰️ 3. Total Environmental & Electromagnetic Security
 
 By ensuring the entire structure is completely non-metallic, the vehicle acts as an absolute protective barrier for your family:
 
@@ -23,7 +34,7 @@ By ensuring the entire structure is completely non-metallic, the vehicle acts as
 
 ---
 
-## ☀️ 3. Smart Solar Skins & Human Motion Harvesting
+## ☀️ 4. Smart Solar Skins & Human Motion Harvesting
 
 Every surface of the car is continuously working to harvest, recycle, and conserve energy with zero waste:
 
