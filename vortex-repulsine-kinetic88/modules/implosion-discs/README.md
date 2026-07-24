@@ -8,6 +8,10 @@ This directory details the unyielding blueprints for the primary core lift plate
 
 By lining the entire corrugated surface area with an atomic layer of hydrophobic **CVD Graphene**, boundary-layer drag is reduced by 98%. When the discs cross the critical **12,500 RPM ignition velocity**, incoming air currents are drawn centripetally into hyper-velocity, self-wrapping vortex threads. The localized core air temperature drops cleanly down to water's maximum density sweet spot of exactly **4°C**, causing a rapid thermodynamic volume collapse (implosion). This tears open a severe **-101.3 kPa partial vacuum field** directly over the central vertical axis, allowing ambient high-pressure atmospheric air beneath the hull to lift the 500 kg airframe into stable flight.
 
+# Counter-Rotating Wavy Corrugated Discs (Module: implosion-discs)
+
+![Project REPULSINE 1:1.618 Golden Ratio Logarithmic Spiral Centripetal Corrugated Lift Plates Blueprint](./media/grid88-implosion-discs.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -24,3 +28,19 @@ vortex-repulsine-kinetic88/modules/implosion-discs/
     ├── DISCS.md              # Human-readable thermodynamic calculations, RPM logs, and torque boundaries
     └── DISCS_EXPLAINER.md    # Plain-English Wavy Implosion Discs Explainer
 ```    
+
+---
+
+## 🎨 Implosion Stacking Plates Visual Showroom
+
+Review the programmatically verified 1:1.618 golden spiral wavy corrugations, central vacuum delta fields, and super-slip graphene perimeters:
+
+### 📐 Mechanical Layouts & Vector Flow Fields
+*   ![Project REPULSINE 1:1.618 Golden Ratio Logarithmic Spiral Centripetal Corrugated Lift Plates Blueprint](./media/grid88-implosion-discs.svg)
+*   ![Plain-English Guide: How the Wavy Corrugated Discs Create Flight](./config/DISCS_EXPLAINER.md)
+
+### 🔬 Machine-Readable Material Composition Run Cards
+*   ![Counter-Rotating Radius Specs and CVD Graphene Friction Reduction Hardware Cards](./config/hardware-bom.json)
+*   ![Human-Readable Logarithmic Velocity Scaling and 4.0C Thermodynamic RPM Logs](./config/DISCS.md)
+
+---
