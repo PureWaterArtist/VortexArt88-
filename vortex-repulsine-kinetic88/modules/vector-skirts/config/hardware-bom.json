@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-FLIGHT-VECTOR-BOM",
+  "parent_system": "PROJECT-AETHERIS-AVIATION-2P-CORE",
+  "module_layer": "flight-vector",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "geometric_fluidic_logic_specifications": {
+    "logic_substrate_material": "UV-Stabilized Tough Photopolymer",
+    "internal_channel_lining": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "bistable_jet_deflection_angle_degrees": 30.0,
+    "nominal_logic_track_width_mm": 2.2,
+    "nominal_logic_track_depth_mm": 2.2,
+    "fluid_logic_transit_velocity_ms": 3.82,
+    "maximum_allowable_capillary_lag_ms": 0.00,
+    "hydraulic_response_latency_ms": 1.5,
+    "cascade_failure_immunity_pct": 100.0
+  },
+  "3_axis_torque_vectoring_metrics": {
+    "control_valve_type": "Zero-Contact Mechanical Micro-Nozzle Array",
+    "stability_balancing_method": "Passive Pressure-Drop Detour Routing",
+    "maximum_operating_hydraulic_pressure_kpa": 120.0,
+    "low_voltage_pad_trigger_v": 5.0,
+    "overclock_drive_voltage_v": 12.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_flight_registry": "vortex-flight-kinetic88/config/global-flight-card.json",
+      "vector_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
