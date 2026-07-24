@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-DRIVE-CONTROL-BOM",
+  "parent_system": "PROJECT-AETHERIS-VEHICLE-v88-CORE",
+  "module_layer": "drive-control",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "geometric_fluidic_logic_specifications": {
+    "logic_substrate_material": "UV-Stabilized Tough Photopolymer",
+    "bistable_jet_deflection_angle_degrees": 30.0,
+    "nominal_logic_track_width_mm": 2.2,
+    "fluid_logic_transit_velocity_ms": 3.82,
+    "hydraulic_response_latency_ms": 1.5,
+    "cascade_failure_immunity_pct": 100.0
+  },
+  "stability_and_torque_vectoring_metrics": {
+    "control_valve_type": "Zero-Contact Mechanical Micro-Nozzle Array",
+    "traction_balancing_method": "Passive Pressure-Drop Detour Routing",
+    "maximum_operating_hydraulic_pressure_kpa": 120.0,
+    "low_voltage_pad_trigger_v": 5.0,
+    "overclock_drive_voltage_v": 12.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_drive_registry": "vortex-drive-kinetic88/config/global-drive-card.json",
+      "control_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
