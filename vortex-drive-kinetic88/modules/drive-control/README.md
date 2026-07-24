@@ -6,6 +6,10 @@ The **Geometric Fluidic Logic Steering Module (Project Aetheris-Control)** house
 
 This directory establishes the blueprints for a completely un-hackable, hardware-driven vehicle stability loop. Steering inputs physically angle a micro-nozzle at the central fluid junction, altering the volumetric water pressure split between the left and right wheel housings. Utilizing the natural physics of the **Coandă Effect and Bistable Jet Deflection**, if a single wheel hits an icy patch or loose gravel, the sudden drop in hydraulic resistance automatically forces the primary fluid stream to detour down the high-traction tracks of the adjacent wheels at a rapid **3.82 m/s transit velocity**. The handling balances itself instantly without a single line of software code, a single electronic microchip, or digital wires.
 
+# Geometric Fluidic Logic Steering (Module: drive-control)
+
+![Project AETHERIS 30-Degree Bistable Jet Coandă Deflection Fluidic Logic Steering Blueprint](./media/grid88-drive-control.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -20,3 +24,18 @@ vortex-drive-kinetic88/modules/drive-control/
     ├── hardware-bom.json     # Machine-readable switching angles, logic track widths, and valve boundaries
     └── LOGIC.md              # Human-readable fluidic logic calculations, transit logs, and plain-English guides
 ```
+
+---
+
+## 🎨 Geometric Fluidic Logic Control Visual Showroom
+
+Review the verified 30-degree bistable jet Coandă deflection micro-channels, micro-nozzle valves, and passive traction-balancing detour tracks:
+
+### 📐 Logic Flowcharts & Vector Layouts
+*   ![Project AETHERIS 30-Degree Bistable Jet Coandă Deflection Fluidic Logic Steering Blueprint](./media/grid88-drive-control.svg)
+*   ![Geometric Fluidic Logic Performance Logs & Software-Free Handling Guide](./config/LOGIC.md)
+
+### 🔬 Machine-Readable Fluidic Logic Run Cards
+*   ![Bistable Deflection Angles and Hydraulic Response Latency Performance Hardware Cards](./config/hardware-bom.json)
+
+---
