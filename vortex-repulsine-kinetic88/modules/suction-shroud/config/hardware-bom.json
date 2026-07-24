@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-REPULSINE-SHROUD-BOM",
+  "parent_system": "PROJECT-REPULSINE-2P-CORE",
+  "module_layer": "suction-shroud",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "intake_plenum_and_shroud_geometries": {
+    "intake_shroud_type": "Dorsal Centripetal Passive Convergence Shroud",
+    "volumetric_compression_ratio": 5.0,
+    "shroud_throat_diameter_mm": 170.0,
+    "substrate_material_composition": "45% Fused-Quartz Silicon / 55% Crystalline Nanocellulose",
+    "internal_lining_substrate": "Atomic Layer CVD Graphene",
+    "friction_reduction_factor_pct": 98.0
+  },
+  "coaxial_starter_fan_specifications": {
+    "fan_configuration_type": "Zero-Contact Dual-Blade Coaxial Fan",
+    "primary_fan_hub_radius_meters": 0.085,
+    "blade_pitch_angle_degrees": 22.5,
+    "maximum_spool_duration_seconds": 15.0,
+    "graphene_ultracapacitor_discharge_voltage_v": 5000.0,
+    "maximum_allowable_ignition_current_amperes": 0.005
+  },
+  "aerodynamic_mass_flow_targets": {
+    "nominal_mass_flow_rate_kg_s": 14.2,
+    "maximum_laminar_airspeed_limit_kmh": 300.0,
+    "boundary_layer_friction_coefficient": 0.005
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_repulsine_registry": "vortex-repulsine-kinetic88/config/global-repulsine-card.json",
+      "shroud_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
