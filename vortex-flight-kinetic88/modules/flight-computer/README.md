@@ -6,6 +6,10 @@ The **Geometric Fluidic Logic AI Copilot Module (Project Aetheris-Computer)** ho
 
 This directory details a completely un-hackable, hardware-driven computation core. The copilot core consists of a solid, multi-axially etched block of high-purity Fused-Quartz Silicon located beneath the central cockpit dashboard. This processor completely rejects electricity and binary code, using continuous **Acoustic Carrier Wave Modulation** running through 2.2mm liquid water tracking lines lined with hydrophobic CVD Graphene. Sensor data from external Venturi ports natively shift internal wave phases, forcing the liquid water to detour itself down the path of least resistance at a rapid $3.82\text{ m/s}$ transit speed. The copilot automatically calculates flight stabilization adjustments and modulates the output nozzles of the Coandă vector skirts within a strict $\leq 1.5\text{ ms}$ latency window, securing an absolute 140 dB EMP isolation floor.
 
+# Geometric Fluidic Logic AI Copilot (Module: flight-computer)
+
+![Project AETHERIS 48-Junction Fused-Quartz Microfluidic Logic AI Copilot Core Blueprint](./media/grid88-flight-computer.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -21,3 +25,19 @@ vortex-flight-kinetic88/modules/flight-computer/
     ├── LOGIC.md              # Human-readable computational calculations, phase matrices, and delay logs
     └── COMPUTER_EXPLAINER.md # Plain-English Fluid Computer & Copilot Core Explainer
 ```    
+
+---
+
+## 🎨 Geometric Fluidic Logic AI Copilot Visual Showroom
+
+Review the verified 48-junction fused-quartz microfluidic computing tracks, acoustic carrier wave modulation channels, and hydrophobic CVD Graphene super-slip perimeters:
+
+### 📐 Computing Blueprints & Vector Layouts
+*   ![Project AETHERIS 48-Junction Fused-Quartz Microfluidic Logic AI Copilot Core Blueprint](./media/grid88-flight-computer.svg)
+*   ![Isothermal Hydro-Computing Logs & Wave Phase Matrices](./config/LOGIC.md)
+*   ![Plain-English Guide: How the Fluid Computer and Copilot Work Without Microchips](./config/COMPUTER_EXPLAINER.md)
+
+### 🔬 Machine-Readable Computational Run Cards
+*   ![Quartz Substrate Cross-Sectional Tolerances and Programmable Python Blueprint Automation Hardware Cards](./config/hardware-bom.json)
+
+---
