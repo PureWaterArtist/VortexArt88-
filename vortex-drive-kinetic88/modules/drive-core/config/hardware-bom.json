@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-DRIVE-CORE-BOM",
+  "parent_system": "PROJECT-AETHERIS-VEHICLE-v88-CORE",
+  "module_layer": "drive-core",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "hydraulic_propulsion_and_venturi_geometries": {
+    "total_closed_loop_water_capacity_liters": 180.0,
+    "water_capacity_per_wheel_hub_liters": 45.0,
+    "venturi_ram_intake_ports_count": 6,
+    "venturi_volumetric_compression_ratio": 5.0,
+    "concentric_flywheel_helical_radius_meters": 0.35,
+    "bistable_coanda_nozzle_angle_degrees": 30.0,
+    "fluid_track_nominal_depth_mm": 2.2
+  },
+  "flash_expansion_initiation_specifications": {
+    "graphene_ultracapacitor_discharge_voltage_v": 5000.0,
+    "maximum_ignition_current_amperes": 0.005,
+    "heating_grid_material_composition": "Platinum-Titanium Micro-Grids",
+    "volumetric_phase_expansion_ratio": 1600.0,
+    "steam_re_condensation_latency_ms": 2.0,
+    "vacuum_seal_pressure_rating_kpa": -101.3
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_drive_registry": "vortex-drive-kinetic88/config/global-drive-card.json",
+      "propulsion_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
