@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-FLIGHT-RECLAIM-BOM",
+  "parent_system": "PROJECT-AETHERIS-AVIATION-2P-CORE",
+  "module_layer": "flight-reclaim",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "hydro_acoustic_deceleration_specifications": {
+    "deceleration_valve_type": "Geometric Fluidic Diverter Valve",
+    "drivetrain_geometry_profile": "1.618 Golden Ratio Logarithmic Spiral Horn",
+    "maximum_hydraulic_braking_surge_kpa": 120.0,
+    "quartz_piezo_ribbon_thickness_microns": 250.0,
+    "crystal_deformation_response_latency_ms": 0.5,
+    "minimum_energy_recovery_floor_pct": 18.5
+  },
+  "electrical_feedback_loop_metrics": {
+    "wiring_bus_material": "Surface-Deposited PVD Gold Traces",
+    "nominal_load_matching_resistance_ohms": 0.05,
+    "auxiliary_feedback_routing": "Direct-to-Graphene-Ultracapacitor-Bank",
+    "dielectric_insulation_thickness_microns": 1.2,
+    "fluoropolymer_breakdown_threshold_v": 15.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_flight_registry": "vortex-flight-kinetic88/config/global-flight-card.json",
+      "reclaim_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
