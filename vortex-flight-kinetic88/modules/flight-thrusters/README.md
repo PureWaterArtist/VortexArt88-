@@ -8,6 +8,10 @@ Instead, the propulsion architecture relies on **Isothermal Implosion Geometry**
 
 The fluid channels track a perfect **1.618 Golden Ratio Logarithmic Spiral**. This specific shape forces the 80-liter distilled water loop into a self-sustaining centripetal vortex thread that pulls away from the track walls and compresses into a frictionless liquid rope down the center of the channel. The two concentric rings spin in absolute opposite directions to fully cancel out gyroscopic precession, creating an intense, low-pressure lift zone directly above the aircraft that generates clean vertical thrust via zero-contact hydraulic shear forces.
 
+# Counter-Rotating Toroidal Lift Rings (Module: flight-thrusters)
+
+![Project AETHERIS-AVIATION Concentric Toroidal Lift Rings & 5:1 Plenum Shroud Blueprint](./media/grid88-flight-thrusters.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -22,3 +26,19 @@ vortex-flight-kinetic88/modules/flight-thrusters/
     ├── hardware-bom.json     # Machine-readable fluid bounds, channel widths, and nozzle tolerances
     └── THRUST_LOGS.md        # Human-readable velocity scaling matrices, RPM milestones, and torque bounds
 ```    
+
+---
+
+## 🎨 Flight Propulsion Visual Showroom
+
+Review the verified concentric toroidal lift rings, 5:1 ratio compression plenums, and low-drain acoustic anti-freeze arrays:
+
+### 📐 Mechanical Layouts & Venturi Flow Paths
+*   ![Project AETHERIS-AVIATION Concentric Toroidal Lift Rings & 5:1 Plenum Shroud Blueprint](./media/grid88-flight-thrusters.svg)
+*   ![Isothermal Implosion Logs & Plain-English Propulsion Guide](./config/THRUST_EXPLAINER.md)
+
+### 🔬 Machine-Readable Tool Slicing & Calibration Run Cards
+*   ![Machine-Readable Pure Water Flight Capacities and Nozzle Geometry Hardware Cards](./config/hardware-bom.json)
+*   ![Human-Readable Symmetrical Takeoff Launches and Airspeed RPM Milestone Logs](./config/THRUST_LOGS.md)
+
+---
