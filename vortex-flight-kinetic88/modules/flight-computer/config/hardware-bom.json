@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-FLIGHT-COMPUTER-BOM",
+  "parent_system": "PROJECT-AETHERIS-AVIATION-2P-CORE",
+  "module_layer": "flight-computer",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "quartz_substrate_and_track_specifications": {
+    "computing_block_material": "High-Purity Fused-Quartz Silicon",
+    "microfluidic_junctions_count": 48,
+    "internal_logic_dimensions_mm": {
+      "nominal_track_width": 2.2,
+      "nominal_track_depth": 2.2,
+      "cross_sectional_aspect_ratio": "1:1"
+    },
+    "channel_lining_material": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "friction_reduction_factor_pct": 98.0
+  },
+  "acoustic_processing_and_tuning_metrics": {
+    "carrier_wave_type": "Continuous Symmetrical Sine Wave",
+    "nominal_carrier_frequency_hz": 2400.0,
+    "maximum_processing_throughput_states_per_sec": 1200,
+    "wave_phase_modulation_shift_degrees": 180.0,
+    "fluid_logic_transit_velocity_ms": 3.82,
+    "computational_latency_limit_ms": 1.5
+  },
+  "environmental_and_shielding_thresholds": {
+    "emp_isolation_attenuation_floor_db": 140.0,
+    "operating_temperature_range_celsius": {
+      "minimum_fluidity_limit": -40.0,
+      "maximum_thermal_ceiling": 65.0
+    },
+    "active_harmonic_anti_freeze_draw_watts": 42.5
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_flight_registry": "vortex-flight-kinetic88/config/global-flight-card.json",
+      "computer_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
