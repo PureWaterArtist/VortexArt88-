@@ -8,6 +8,9 @@ This directory serves as the centralized root configuration registry for the **P
 
 *   **`README.md`:** This file (Global Configuration Reference Manual).
 *   **`global-repulsine-card.json`:** Machine-readable parameter card detailing 2-passenger air density properties, 1:1.618 golden ratio spiral corrugations, atomic layer CVD graphene linings, and acoustic standing wave anti-freeze parameters.
+3. **File Path:** `./flight-manual.md`
+   * **Asset Class:** 2-Passenger Field Operations, Assembly, and Takeoff/Landing Handbook
+   * **User Target:** Enclave Builders, Cleanroom Technicians, & Sovereign Community Pilots
 
 ---
 
