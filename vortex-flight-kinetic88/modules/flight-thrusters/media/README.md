@@ -1,6 +1,7 @@
 # Project AETHERIS-AVIATION: Media, Concentric Lift Rings & Plenum Telemetry Index
 
 This directory serves as the centralized repository for all visual aerospace assets, holographic toroidal vortex renders, counter-rotating thrust stacking layouts, and empirical fluidic-lift tracking charts for the **Counter-Rotating Toroidal Lift Rings Module (Module: flight-thrusters)**.
+*   **`generate-blueprint.py`:** Standalone Python 3 asset script that programmatically compiles, verifies, and draws the uncompressed XML vector blueprint layout from scratch.
 
 ---
 
