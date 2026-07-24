@@ -11,6 +11,9 @@ This directory serves as the centralized root configuration registry for the **P
 7. **File Path:** `./submission-checklist.md`
    * **Asset Class:** Central Cleanroom Pre-Submission Readiness Checklist Ledger
    * **User Target:** Quality Inspectors, Foundry Managers, & Automated Pre-Quote Parsers
+8. **File Path:** `./flight-manual.md`
+   * **Asset Class:** 2-Passenger Field Operations, Assembly, and Staging Manual
+   * **User Target:** Enclave Builders, Field Mechanics, & Sovereign Community Pilots
 
 ---
 
