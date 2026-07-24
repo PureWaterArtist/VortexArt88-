@@ -53,3 +53,17 @@ vortex-drive-kinetic88/                # ROOT REPOSITORY HUB
 | **🛡️ Shield Chassis** | 🔗 [Phononic Frame Specs](modules/drive-chassis/README.md) | 🔗 [140 dB Shield Logs](modules/drive-chassis/config/CHASSIS.md) | 🔗 [SLA Printing Run Cards](modules/drive-chassis/config/hardware-bom.json) |
 | **♻️ Energy Reclaim** | 🔗 [Boundary Siphon Specs](modules/drive-reclaim/README.md) | 🔗 [PVDF Feedback Sheets](modules/drive-reclaim/config/RECLAIM.md) | 🔗 [Siphon Run Cards](modules/drive-reclaim/config/hardware-bom.json) |
 | **🎛️ Fluidic Logic** | 🔗 [Curie-Switch Specs](modules/drive-control/README.md) | 🔗 [Logic Gate Checklists](modules/drive-control/config/LOGIC.md) | 🔗 [Routing Run Cards](modules/drive-control/config/hardware-bom.json) |
+
+---
+
+## 🎨 Global Technical Specification & Manufacturing Showroom
+
+Review the programmatically verified mass bounds, geometric tolerances, and streamlined 4-day cleanroom assembly flowcharts:
+
+### 📐 Master Vehicle Dimensional Outlines
+*   ![Project AETHERIS Master Technical Specifications Infographic Sheet](../media/grid88-master-specs.png)
+
+### 🖨️ Streamlined Industrial Workflows
+*   ![Project AETHERIS 4-Day Cleanroom Production and Validation Flowchart](../media/grid88-manufacturing-flow.png)
+
+---
