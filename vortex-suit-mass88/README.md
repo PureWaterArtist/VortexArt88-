@@ -16,8 +16,12 @@ By charging the loops with a low-cost, pressure-reactive water-and-cellulose mix
 # 👑 PROJECT RESO-SUIT: Mass-Production Sovereign Citizen Protective Garment
 
 ![Project RESO-SUIT Standard 75mm Hexagonal Plating Arrangement Blueprint](./media/grid88-suit-specs.svg)
-
----
+-
+### 🔬 Workshop Component Templates & Full Suit Budgets
+*   ![Project RESO-SUIT Standardized 75mm Hexagonal Armor Component Scale Schematic Blueprint](./modules/production-coupon/media/grid88-coupon-specs.svg)
+*   ![Step-by-Step Desktop Printer Settings, Gasket Click-Snapping, and $214 Full Garment Assembly Protocols](./modules/production-coupon/config/STEP_BY_STEP.md)
+*   ![Machine-Readable Single Component Material Volume Constants and Full-Body Financial Ledgers Card](./modules/production-coupon/config/unit-bom.json)
+*   --
 
 ## 🗂 Symmetrical Repository Directory Map
 ```
