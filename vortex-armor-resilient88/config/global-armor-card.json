@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-RESO-ARMOR-CARD",
+  "module_layer": "reso-armor-plating-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "single_layer_dimensional_metrics": {
+    "tile_length_mm": 300.0,
+    "tile_width_mm": 300.0,
+    "tile_thickness_mm": 8.0,
+    "dry_chassis_mass_kg": 1.45,
+    "closed_loop_fluid_volume_ml": 350.0,
+    "total_operational_mass_kg": 1.80
+  },
+  "scale_invariant_interlocking_specs": {
+    "interlock_waveform_type": "Sinusoidal Ridge-and-Groove Progression",
+    "interlock_geometric_ratio": "1:1.618 Golden Ratio Alignment",
+    "vertical_ridge_height_mm": 1.5,
+    "double_layer_nested_thickness_mm": 14.5,
+    "triple_layer_nested_thickness_mm": 21.0
+  },
+  "vascular_bloodstream_fluidic_geometries": {
+    "healing_capillary_width_microns": 120.0,
+    "internal_lining_substrate": "Atomic Layer CVD Graphene",
+    "friction_suppression_factor_pct": 98.0,
+    "vertical_fluid_transfer_port_diameter_microns": 120.0,
+    "inter_layer_alignment_tolerance_microns": 5.0
+  },
+  "self_healing_and_auxetic_activation_bounds": {
+    "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
+    "poissons_ratio_state": "Negative Poisson's Ratio (Impact Thickening)",
+    "activation_pressure_drop_kpa": 15.0,
+    "solidification_clotting_latency_seconds": 3.2,
+    "bloodstream_composition": "Pure H2O with 1.5% Crystalline Nanocellulose"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_armor_mesh_compiler_script": "vortex-armor-resilient88/generate-armor-mesh.py",
+      "symmetrical_stack_parity_check": "MATCHED"
+    }
+  ]
+}
