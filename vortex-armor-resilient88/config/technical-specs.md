@@ -29,3 +29,14 @@ This document locks in the exact dimensions, weight profiles, and layer interloc
 *   **Internal Channel Hydrophobic Lining:** Atomic Layer CVD Graphene providing a 98% friction-erase super-slip floor profile.
 *   **Activation Pressure Differential Threshold:** $\Delta P \geq 15.0\text{ kPa}$ local pressure drop.
 *   **Solidification Clotting Latency:** Suspended CNC whiskers cross-link and solidify within $\leq 3.2\text{ seconds}$ of impact puncture.
+
+---
+
+## 💧 4. Vascular Fluid Hydrodynamic & Reynolds Flow Boundaries
+To guarantee the 1.5% crystalline nanocellulose (CNC) suspension fluid remains perfectly stable during standard field maneuvers, fluid movement inside the $120.0\text{ \mu m}$ micro-capillaries is strictly locked within the hyper-laminar regime:
+*   **Nominal Capillary Reynolds Number ($Re$):** 
+    $$Re = \frac{\rho \cdot v \cdot D}{\mu} \approx 0.05 \leq 1.0$$
+    (Deeply inside the ultra-laminar window. This prevents any localized fluidic friction shear, ensuring the fluid flows freely until a true structural fracture creates an emergency pressure drop).
+*   **Capillary Fluid Transit Speed Ceiling:** Hard-capped at $\leq 0.015\text{ m/s}$ under non-impact equilibrium.
+*   **Graphene Wall Surface Boundary Shear Rate:** $\tau_{\text{shear}} \leq 0.02\text{ Pa}$ across the internal channel surfaces.
+*   
