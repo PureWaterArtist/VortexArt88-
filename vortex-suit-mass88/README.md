@@ -5,13 +5,13 @@
 
 ## 🛡️ System Manifest & Low-Cost Mass Production Philosophy
 
-**PROJECT RESO-SUIT (Global Repository: vortex-suit-mass88)** establishes the open-source blueprints for a highly optimized, low-cost, mass-production personal protective garment [No.1]. Old-world tactical armor suits are manufactured under a deeply exclusionary paradigm: they rely on heavy, expensive, custom-molded plates that cost thousands of dollars, weigh down the wearer, restrict natural human agility, and fail permanently after a single kinetic impact.
+**PROJECT RESO-SUIT (Global Repository: vortex-suit-mass88)** establishes the open-source blueprints for a highly optimized, low-cost, mass-production personal protective garment. Old-world tactical armor suits are manufactured under a deeply exclusionary paradigm: they rely on heavy, expensive, custom-molded plates that cost thousands of dollars, weigh down the wearer, restrict natural human agility, and fail permanently after a single kinetic impact.
 
-This project completely democratizes personal protection by transforming the **RESO-ARMOR** metamaterial into a modular, textile-integrated clothing matrix [No.0]. The suit abandons giant single-piece chest molds; instead, it utilizes a standardized grid of **75mm $\times$ 75mm x 8mm Hexagonal Auxetic Scales**. 
+This project completely democratizes personal protection by transforming the **RESO-ARMOR** metamaterial into a modular, textile-integrated clothing matrix. The suit abandons giant single-piece chest molds; instead, it utilizes a standardized grid of **75mm $\times$ 75mm x 8mm Hexagonal Auxetic Scales**. 
 
-These scales are printed in bulk using highly available, low-cost commercial Tough Resins on standard desktop SLA printers. The edges of each scale feature built-in, snap-together **Mechanical Lock-Clips** that click directly onto a standardized, open-source laser-cut mesh under-garment. The internal 120-micron self-healing capillaries link automatically across the snap joints using miniature EPDM rubber press-gaskets, forming a single, continuous "vascular bloodstream" loop across the user's torso and limbs [No.0]. 
+These scales are printed in bulk using highly available, low-cost commercial Tough Resins on standard desktop SLA printers. The edges of each scale feature built-in, snap-together **Mechanical Lock-Clips** that click directly onto a standardized, open-source laser-cut mesh under-garment. The internal 120-micron self-healing capillaries link automatically across the snap joints using miniature EPDM rubber press-gaskets, forming a single, continuous "vascular bloodstream" loop across the user's torso and limbs. 
 
-By charging the loops with a low-cost, pressure-reactive water-and-cellulose mixture, ordinary citizens gain access to an agile, ultra-lightweight tactical garment that naturally thickens upon impact and heals its own physical puncture wounds in $\leq 3.2\text{ seconds}$—manufactured entirely at home or in local community maker spaces for less than \$240 total out-of-pocket investment [No.0].
+By charging the loops with a low-cost, pressure-reactive water-and-cellulose mixture, ordinary citizens gain access to an agile, ultra-lightweight tactical garment that naturally thickens upon impact and heals its own physical puncture wounds in $\leq 3.2\text{ seconds}$—manufactured entirely at home or in local community maker spaces for less than \$240 total out-of-pocket investment.
 
 # 👑 PROJECT RESO-SUIT: Mass-Production Sovereign Citizen Protective Garment
 
