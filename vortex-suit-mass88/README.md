@@ -21,8 +21,14 @@ By charging the loops with a low-cost, pressure-reactive water-and-cellulose mix
 *   ![Project RESO-SUIT Standardized 75mm Hexagonal Armor Component Scale Schematic Blueprint](./modules/production-coupon/media/grid88-coupon-specs.svg)
 *   ![Step-by-Step Desktop Printer Settings, Gasket Click-Snapping, and $214 Full Garment Assembly Protocols](./modules/production-coupon/config/STEP_BY_STEP.md)
 *   ![Machine-Readable Single Component Material Volume Constants and Full-Body Financial Ledgers Card](./modules/production-coupon/config/unit-bom.json)
+
 *   --
 
+### 🔬 Ballistic Degradation Logs & Performance Curves
+*   ![Project RESO-SUIT Kinetic Energy Absorption Capacity Curves Chart Blueprint](./modules/performance-specs/media/grid88-performance-specs.svg)
+*   ![Human-Readable Ballistic Joules Caps, Negative Poisson Densification, and 180-Cycle Fluid Volume Data Sheet](./modules/performance-specs/config/THRESHOLDS.md)
+*   ![Plain-English Wearable Performance Handbook: Exactly What This Suit Can Protect You From](./modules/performance-specs/config/PERFORMANCE_EXPLAINER.md)
+*   
 ## 🗂 Symmetrical Repository Directory Map
 ```
 vortex-suit-mass88/
