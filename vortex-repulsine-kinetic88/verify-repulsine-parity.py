@@ -21,6 +21,7 @@ def verify_repulsine_parity():
         "README.md", 
         "master-repulsine-twin.py", 
         "verify-repulsine-parity.py",
+        "generate-aircraft-mesh.py",
         "LICENSE_COVENANT.md",
         "config/README.md",
         "config/technical-specs.md",
