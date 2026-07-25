@@ -22,3 +22,6 @@ This directory serves as the centralized validation hub for the Conformal Nested
    * **Asset Class:** Plain-English Living Material Stacking Translation Guide
    * **User Target:** Enclave Builders, Workshop Mechanics, & Sovereign Pilots
    
+5. **File Path:** `./HARDWARE_BOM.md`
+   * **Asset Class:** Human-Readable Procurement Matrix Data Card & Bloodstream Compounding Protocol
+   * **User Target:** Component Buyers, Metamaterial Fabricators, & Workbench Staging Crews
