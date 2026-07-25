@@ -28,6 +28,7 @@ vortex-repulsine-kinetic88/modules/drone-scale/
     ├── DRONE.md              # Human-readable weight distributions, RPM milestones, and control logs
     └── DRONE_EXPLAINER.md    # Plain-English Benchtop RC Drone Explainer
 ```    
+
 ---
 
 ## 🎨 350mm Benchtop RC Drone Visual Showroom
@@ -38,8 +39,13 @@ Review the programmatically verified 350mm frame footprints, outrunner motor mou
 *   ![Project REPULSINE 350mm Desktop RC Drone Scale Blueprint](./media/grid88-drone-scale.svg)
 *   ![Plain-English Guide: How to Build the 350mm Working RC Drone Model](./config/DRONE_EXPLAINER.md)
 
-### 🔬 Machine-Readable Micro-Prototyping Run Cards
-*   ![Microfluidic Channel Tolerances and 1400KV Hobby Brushless Motor Hardware Cards](./config/hardware-bom.json)
-*   ![Human-Readable Drone Target Weights and Laminar Velocity Flow Control Logs](./config/DRONE.md)
+### 🚀 Benchtop RC Drone Local Concept Renders & EW Defenses
+*   ![Propulsion Systems: Legacy Multi-Rotors vs. Sealed Centripetal Implosion](./media/grid88-drone-propulsion-comparison.png)
+*   ![Onboard Flight Controllers: Silicon Autopilot vs. Microfluidic Logic Cards](./media/grid88-drone-avionics-comparison.png)
+*   ![Intake Aerodynamics: Deflective Drag vs. Passive Centripetal Funnels](./media/grid88-drone-intake-comparison.png)
+*   ![Flight Stability Dynamics: Algorithmic Drift vs. Passive Hydrodynamic Equilibrium](./media/grid88-drone-stability-comparison.png)
+*   ![Electronic Warfare Testing: Code Grid Monoculture Drop vs. EMP-Immune Swarm Dynamics](./media/grid88-drone-swarm-jamming-comparison.png)
+*   ![Hobby Workspace Assembly: Solder Clutter Matrix vs. Clean Desktop Resin Prototyping](./media/grid88-drone-workbench-comparison.png)
 
 ---
+
