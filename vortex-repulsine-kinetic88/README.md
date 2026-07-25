@@ -6,7 +6,8 @@
 
 **PROJECT REPULSINE (Repository Hub: vortex-repulsine-kinetic88)** is a global-scale, open-source aerospace transport architecture released entirely to the public domain under the CERN-OHL-S-2.0 license. This framework completely rejects the volatile, high-heat, and high-obsolescence paradigms of legacy combustion flight. There are no rotating composite propeller blades, no explosive jet turbine chambers, no heavy-metal gearboxes, and no toxic chemical battery packs.
 
-Instead, the aircraft achieves vertical liftoff, landing, and frictionless atmospheric cruise by utilizing **Isothermal Thermodynamic Implosion and Natural Vortex Dynamics**. Modeled directly after the foundational material science and physics protocols of Viktor Schauberger, the platform uses an input suction fan to draw ambient air into a pair of counter-rotating spin-discs precision-carved with a 1:1.618 Golden Ratio Logarithmic Spiral profile. By lining the tracks with an atomic layer of hydrophobic CVD Graphene, the air stream accelerates centripetally into a frictionless liquid-like rope, dropping internal temperatures down to the $4^\circ\text{C}$ density collapse threshold. This tears open an intense partial vacuum directly above the airframe, allowing ambient high-pressure atmospheric air beneath the hull to lift the 2-passenger craft cleanly into the air without a single line of digital software code, a single electronic microchip, or fossil fuel consumption.
+Instead, the aircraft achieves vertical liftoff, landing, and frictionless atmospheric cruise by utilizing **Isothermal Thermodynamic Implosion and Natural Vortex Dynamics**. Modeled directly after the foundational material science and physics protocols of Viktor Schauberger, the platform uses an input suction fan to draw ambient air into a pair of counter-rotating spin-discs precision-carved with a 1:1.618 Golden Ratio Logarithmic Spiral profile. 
+By lining the tracks with an atomic layer of hydrophobic CVD Graphene, the air stream accelerates centripetally into a frictionless liquid-like rope, dropping internal temperatures down to the $4^\circ\text{C}$ density collapse threshold. This tears open an intense partial vacuum directly above the airframe, allowing ambient high-pressure atmospheric air beneath the hull to lift the 2-passenger craft cleanly into the air without a single line of digital software code, a single electronic microchip, or fossil fuel consumption.
 
 ---
 
@@ -54,8 +55,6 @@ Review the uncompressed structural blueprints, metrology specification sheets, a
     ![Takeoff Mass Airflow Dynamics: Combustion Exhaust vs. Passive Atmospheric Siphon](./media/grid88-takeoff-flow-comparison.png)
 *   **High-Altitude Cruise Flight Envelope (Prompt 5 Visual):**
     ![High-Altitude Cruise Aerodynamics: Turbulent Headwind Drag vs. Isothermal Fluidic Cruise](./media/grid88-flight-cruise-comparison.png)
-*   **Swarm Jamming Defense Matrix (Prompt 6 Visual):**
-    ![Electronic Warfare Swarm Jamming Defense: Silicon Monoculture Drop vs. EMP-Immune Dynamics](./media/grid88-drone-swarm-jamming-comparison.png)
 
 ---
 
