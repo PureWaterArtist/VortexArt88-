@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-REPULSINE-DRONE-BOM",
+  "parent_system": "PROJECT-REPULSINE-2P-CORE",
+  "module_layer": "drone-scale",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "rc_drone_physical_footprint_metrics": {
+    "total_target_drone_mass_kg": 1.85,
+    "outer_disc_frame_diameter_mm": 350.0,
+    "closed_loop_fluid_volume_ml": 350.0,
+    "fluid_medium_composition": "Pure Liquid Distilled H2O"
+  },
+  "microfluidic_logic_track_geometries": {
+    "micro_channel_width_microns": 250.0,
+    "micro_channel_depth_microns": 250.0,
+    "cross_sectional_aspect_ratio": "1:1",
+    "fused_quartz_computer_matrix_mass_grams": 42.5,
+    "fluid_flow_regime_classification": "Ultra-Laminar Flow (Low Reynolds Number)"
+  },
+  "hobby_propulsion_and_battery_specs": {
+    "brushless_motor_type": "Outrunner 2212 1400KV",
+    "coaxial_hub_attachment": "Zero-Tool Mechanical Lock-Tabs",
+    "critical_vortex_ignition_velocity_rpm": 12500.0,
+    "battery_power_source": "4S 1300mAh High-Discharge LiPo",
+    "nominal_electronic_speed_controller_amperes": 30.0
+  },
+  "desktop_sla_printing_tolerances": {
+    "printer_technology": "Stereolithography (SLA) Resin Projection",
+    "xy_axis_pixel_resolution_microns": 35.0,
+    "z_axis_slicing_layer_depth_microns": 10.0,
+    "post_print_wash_medium": "High-Purity Isopropyl Alcohol"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_repulsine_registry": "vortex-repulsine-kinetic88/config/global-repulsine-card.json",
+      "drone_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
