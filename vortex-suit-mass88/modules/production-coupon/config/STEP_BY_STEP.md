@@ -12,10 +12,16 @@ This manual maps out the low-cost material pivots, desktop printer settings, and
 
 ---
 
-## 🧩 Step 2: Mesh Garment Clapping & O-Ring Interlocking
+## 🧩 Step 2a: Mesh Garment Clapping & O-Ring Interlocking
 1. **Base Mesh Preparation:** Lay your off-the-shelf mesh tactical vest and limb sleeves flat on an open workbench table.
 2. **EPDM Gasket Placement:** Insert a standard 1.2mm inner-diameter EPDM rubber O-ring into the precision shelf groove cut around the 120-micron fluid port of each scale component.
 3. **The Click-Interlock:** Position the scales side-by-side and snap their built-in mechanical edge clips together over the mesh fabric lines. The 0.5mm built-in clearance gap provides an airtight, press-fit alignment hold that automatically connects the 120-micron capillaries across the entire suit array, forming a single continuous vascular grid around your limbs and torso.
+
+## 🧩 Step 2b: Exoskeleton Sub-Frame Prep & Mesh Garment Clapping
+
+1. **Exoskeleton Sub-Frame Lamination:** Before mounting any scales, take the laser-cut semi-rigid TPU rib spines and lay them flat against the inside lining of your tactical Cordura mesh under-vest. Use a standard heat press or heavy-duty fabric adhesive to fuse the TPU sub-frame securely to the vest walls. This creates a solid weight-distribution frame that prevents the 6.144kg suit from sagging or bunching during motion.
+2. **EPDM Gasket Placement:** Insert a standard 1.2mm inner-diameter EPDM rubber O-ring into the precision shelf groove cut around the 120-micron fluid port of each scale component.
+3. **The Click-Interlock:** Position your 75mm hexagonal scales side-by-side on the outside of the vest and snap their built-in mechanical edge clips together tightly over the mesh fabric lines, locking them directly in alignment with the internal TPU skeleton. The 0.5mm clearance gap ensures an airtight, press-fit alignment that connects the capillaries safely without fabric distortion leaks.
 
 ---
 
