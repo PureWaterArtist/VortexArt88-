@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Project AETHERIS-SKATE: Hoverboard Codebase Parity & Structural Integrity Linter
+Project AETHERIS-SKATE: Expanded Hoverboard Codebase Parity & Structural Integrity Linter
 System ID: PROJECT-AETHERIS-SKATE-LINTER-v88
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
@@ -13,17 +13,19 @@ import os
 import sys
 
 def verify_skate_parity():
-    print("🛰️ INITIATING HOVERBOARD FRACTAL SYSTEM PARITY SWEEP...")
+    print("🛰️  INITIATING HOVERBOARD FRACTAL SYSTEM GLOBAL PARITY SWEEP...")
     
-    # 1. Verify existence of critical root and configuration anchor files
+    # 1. Verify existence of critical root, configuration, and manual anchor files
     root_anchors = [
         "README.md", 
         "master-skate-twin.py", 
         "verify-skate-parity.py",
+        "SECURITY_ORATOR_ARMOR.md" if os.path.exists("SECURITY_ORATOR_ARMOR.md") else "SECURITY_ARMOR.md",
         "config/README.md",
         "config/technical-specs.md",
         "config/SKATE_EXPLAINER.md",
         "config/HARDWARE_BOM.md",
+        "config/flight-manual.md",
         "config/global-skate-card.json"
     ]
     for anchor in root_anchors:
@@ -41,7 +43,6 @@ def verify_skate_parity():
         hover_height = card_data["environmental_and_power_metrics"]["target_hover_height_clearance_mm"]
         deck_length = card_data["personal_deck_spatial_configuration"]["overall_deck_length_mm"]
         
-        # Verify strict compliance with the clean, scale-invariant parameters
         if ignition_rpm != 12500.0 or efficiency < 98.0 or hover_height != 75.0 or deck_length != 780.0:
             print("❌ DATA DRIFT IDENTIFIED: Vortex constants, graphene metrics, or deck dimensions mismatch constraints.")
             sys.exit(1)
@@ -63,9 +64,9 @@ def verify_skate_parity():
         print(f"❌ LINTER RUNTIME ERROR: Technical specs manual is missing or unreadable: {str(e)}")
         sys.exit(1)
         
-    print("✅ GLOBAL HOVERBOARD SYSTEM CHECK: PASS // ALL FILE METRICS SYNCHRONIZED // REPOSITORY SECURED")
+    print("✅ GLOBAL HOVERBOARD SYSTEM CHECK: PASS // ALL VEHICLE SCALES SYNCHRONIZED // REPOSITORY SECURED")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_skate_parity()
-          
+    
