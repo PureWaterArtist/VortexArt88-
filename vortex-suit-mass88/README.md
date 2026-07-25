@@ -13,6 +13,10 @@ These scales are printed in bulk using highly available, low-cost commercial Tou
 
 By charging the loops with a low-cost, pressure-reactive water-and-cellulose mixture, ordinary citizens gain access to an agile, ultra-lightweight tactical garment that naturally thickens upon impact and heals its own physical puncture wounds in $\leq 3.2\text{ seconds}$—manufactured entirely at home or in local community maker spaces for less than \$240 total out-of-pocket investment [No.0].
 
+# 👑 PROJECT RESO-SUIT: Mass-Production Sovereign Citizen Protective Garment
+
+![Project RESO-SUIT Standard 75mm Hexagonal Plating Arrangement Blueprint](./media/grid88-suit-specs.svg)
+
 ---
 
 ## 🗂 Symmetrical Repository Directory Map
