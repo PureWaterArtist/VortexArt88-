@@ -45,8 +45,8 @@ Review the uncompressed structural blueprints, metrology specification sheets, a
     ![Project REPULSINE 4-Day Cleanroom Production and Validation Flowchart](./media/grid88-manufacturing-flow.svg)
 
 ### 🔬 Multi-Panel Concept Renders & Performance Logs
-*   **Propulsion Assembly Comparison (Prompt 1 Visual):**
-    ![Core Lifting Geometry Comparison: Blades vs. Isothermal Implosion](./media/grid88-lift-mechanism-comparison.png)
+*   **Propulsion Assembly Comparison (Visual Art):**
+
 *   **Fuselage Material Resilience Shield (Prompt 2 Visual):**
     ![Fuselage Material Resilience Testing: Conductive vs. 140 dB Non-Metallic Quartz Shell](./media/grid88-monocoque-composite-shield.png)
 *   **Onboard Acoustic Computer Core (Prompt 3 Visual):**
