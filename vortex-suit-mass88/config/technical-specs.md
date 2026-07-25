@@ -1,35 +1,30 @@
-# Module config: Technical Metrology Specifications & Mass Scaling Tolerances
+# Module config: Technical Specifications & Anisotropic Manufacturing Controls
 **Document Class:** System Production Authority Card (PROJECT RESO-SUIT)
-**Version:** 2.0.0 // Mass Production Focus // Standardized 75mm Hex Template
+**Version:** 3.0.0 // Anti-Flocculation Integration // Multi-Layer Timing Bounds
 
-This ledger locks in the precise physical dimensions, fluid thresholds, and clearance tolerances required to mass-produce the modular click-interlock protective suit on standard hobbyist or industrial hardware.
-
----
-
-## ⚖️ 1. Standardized Scale Component Mass Profiles
-*   **Single Hexagonal Scale Dry Mass:** 12.0 grams (Includes integrated 2.2mm side lock-clips and internal capillaries).
-*   **Fluid Working Volume Capacity:** Exactly 12.0 Milliliters of pressure-reactive bloodstream medium per scale.
-*   **Charged Scale Operational Mass:** 24.0 grams total per individual component.
-*   **Average Full-Body Garment Mass (1800mm Height Frame):**
-    *   *Torso Plate Grid (112 Scales Charged):* 2.688 kg
-    *   *Limb Array Grid (144 Scales Charged):* 3.456 kg
-    *   *Total Suit Armor Mass Overhead:* **6.144 kg** (Significantly lighter than old-world 15kg tactical steel kits).
+This specifications manual mandates the precise chemical suspension parameters, printer orientation controls, and multi-layer structural configurations required to eliminate mechanical failure modes.
 
 ---
 
-## 📐 2. Hexagonal Grid Footprint & Snap Clearances
-*   **Scale Form Factor:** Standard Regular Hexagon profile.
-*   **Scale Size Dimensions:** Exactly 75.0 mm point-to-point width across the widest vertex axis.
-*   **Scale Thickness Profile:** 8.0 mm low-profile depth thickness.
-*   **Interlock Clip Clearance Gap:** Exactly $0.50\text{ mm}$ expansion margin allowance (Ensures scales click together securely on standard 3D printer resolution profiles without binding friction).
-*   **Vascular Inter-Connect Micro-Ports:** $120.0\text{ \mu m}$ diameter vertical fluid-transfer ports, fitted with a 1.2mm outer shelf indentation to house mass-market EPDM rubber sealing rings.
+## 🧪 1. Stabilized Bloodstream Fluid Chemistry Recipe (Flaw 2 Resolution)
+To permanently eliminate crystalline nanocellulose flocculation, bacterial biofilm growth, and capillary clogging, all fluid carrier volume loops must be compounded according to this modified formula:
+*   **Primary Carrier Volume Base:** 98.45% Volumetric Ratio of Pure Deionized Distilled $H_2O$.
+*   **Active Clotting Agent Medium:** 1.50% Volumetric Ratio of High-Aspect-Ratio Crystalline Nanocellulose (CNC) whiskers.
+*   **Anti-Flocculation Stabilizer:** **0.05% Volumetric Ratio of Food-Grade Xanthan Gum** (Alters fluid viscosity into a non-settling thixotropic gel. The gel remains perfectly fluidic during movement but locks suspended fibers in place indefinitely during long storage periods to prevent settling).
+*   **Vascular Anti-Biofilm Biocide:** **0.05% Concentration of Pure Copper Sulfate ($CuSO_4$)** (Prevents organic bacterial biofilm growth inside the channels).
 
 ---
 
-## 🔬 3. Hydrodynamic & Slicing Manufacturing Bounds
-*   **SLA Desktop Layer Slicing Depth:** $25.0\text{ \mu m}$ to $50.0\text{ \mu m}$ (Optimized for rapid printing speed on basic consumer-grade MSLA monochrome LCD screens).
-*   **Channel Flow Regime Constraints:** Hyper-Laminar Capillary Flow.
-*   **Nominal Capillary Reynolds Number ($Re$):** $Re = 0.05 \leq 1.0$ (Erase all fluid internal shear friction).
-*   **Activation Pressure Drop Window:** $\Delta P \geq 15.0\text{ kPa}$ local drop.
-*   **Solidification Clotting Latency:** Suspended crystalline nanocellulose fibers cross-link within $\leq 3.2\text{ seconds}$ of impact casing fracture.
-  
+## 🖨️ 2. Anisotropic Printer Orientation Controls (Flaw 3 Resolution)
+*   **Slicer Bed Rotation Threshold:** Scales must never be printed flat against the build plate. All parts are hard-locked at a strict **45.0-degree incline rotation on the Y-axis** inside the slicing engine.
+*   **Structural Mechanics Result:** This position forces the 3D printer's layer lines to cross-hatched slice diagonally across the tile body. Point-blank kinetic forces strike perpendicular to this diagonal orientation, preventing horizontal splitting and delamination failures.
+*   **Slicing Layer Depth Resolution:** Hard-locked at $25.0\text{ \mu m}$ across micro-MSLA monochrome LCD light engines.
+
+---
+
+## ⚡ 3. Multi-Layer Stacking Timing Windows (Flaw 4 Resolution)
+*   **Vascular Clotting Latency Base:** $\leq 3.2\text{ seconds}$ automatic pressure-drop hold.
+*   **Automatic Rifle Burst Threat Window:** Multiple impacts occurring within a microsecond delta window.
+*   **Mandatory Multi-Tier Stacking Constraint:** To survive sustained automatic weapon burst fire, users must deploy a minimum **Tier 2 Conformal Double-Layer Plating Array (14.5mm total nested thickness)**. 
+*   **The Shock Absorption Sequence:** Outer Layer 2 acts as a sacrificial mechanical delay shield, swallowing the immediate kinetic blast and buying the inner vascular Layer 1 the mandatory 3.2-second timeline needed to fully cross-link and seal structural armor defenses.
+*   
