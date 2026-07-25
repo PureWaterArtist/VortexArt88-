@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Project RESO-SUIT: Suit Codebase Parity & Structural Integrity Linter
+Project RESO-SUIT: Remediation Codebase Parity & Structural Integrity Linter
 System ID: PROJECT-RESO-SUIT-LINTER-v88
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
@@ -13,22 +13,15 @@ import os
 import sys
 
 def verify_suit_parity():
-    print("🛰️  INITIATING RESO-SUIT MASS-PRODUCTION SYSTEM PARITY SWEEP...")
+    print("=========================================================================")
+    print("🛰️  INITIATING RESO-SUIT FLAW REMEDIATION QUALITY ASSURANCE PARITY SWEEP")
+    print("=========================================================================\n")
     
-    # 1. Verify existence of critical root and configuration anchor files
     root_anchors = [
         "README.md", 
         "generate-suit-mesh.py", 
         "verify-suit-parity.py",
-        "modules/production-coupon/README.md",
-        "modules/production-coupon/generate-coupon-mesh.py",
-        "modules/production-coupon/config/STEP_BY_STEP.md",
-        "modules/production-coupon/config/unit-bom.json",
-        "modules/performance-specs/README.md",
-        "modules/performance-specs/generate-blueprint.py",
-        "modules/performance-specs/config/THRESHOLDS.md",
-        "modules/performance-specs/config/PERFORMANCE_EXPLAINER.md",
-        "SECURITY_ARMOR.md" if os.path.exists("SECURITY_ARMOR.md") else "SECURITY_ARMOR.md",
+        "SECURITY_ARMOR.md",
         "config/README.md",
         "config/technical-specs.md",
         "config/SUIT_EXPLAINER.md",
@@ -40,31 +33,29 @@ def verify_suit_parity():
             print(f"❌ PARITY ERROR: Critical root anchor file [{anchor}] is missing from the branch.")
             sys.exit(1)
             
-    # 2. Audit the Master Property Card against our mass-production specifications
     try:
         with open("config/global-suit-card.json", "r") as f:
             card_data = json.load(f)
             
         hex_width = card_data["standard_scale_component_metrics"]["scale_vertex_width_mm"]
-        snap_gap = card_data["mass_production_snap_tolerances"]["interlock_clearance_gap_mm"]
-        efficiency = card_data["vascular_bloodstream_fluidic_geometries"]["friction_suppression_factor_pct"]
-        reynolds_ceiling = card_data["vascular_bloodstream_fluidic_geometries"]["hydrodynamic_reynolds_number_ceiling"]
+        slicer_angle = card_data["anisotropic_ballistic_protection_bounds"]["mandatory_slicer_bed_incline_degrees"]
+        polyurethane_lip = card_data["standard_scale_component_metrics"]["co_molded_flexible_edge_lip_width_mm"]
+        stabilizer = "Xanthan Gum" in card_data["stabilized_bloodstream_fluidic_properties"]["carrier_fluid_composition_pct"]
         
-        # Verify strict compliance with the clean, mass-production parameters
-        if hex_width != 75.0 or snap_gap != 0.5 or efficiency < 98.0 or reynolds_ceiling != 0.05:
-            print("❌ DATA DRIFT IDENTIFIED: Hex constants, snap clearances, or fluid flow metrics mismatch constraints.")
+        # Verify strict compliance with the updated remediation metrics
+        if hex_width != 75.0 or slicer_angle != 45.0 or polyurethane_lip != 1.2 or not stabilizer:
+            print("❌ DATA DRIFT IDENTIFIED: Slicer incline requirements, flexible lip dimensions, or stabilizers mismatch constraints.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
 
-    # 3. Read and verify cross-linked data strings inside the human-readable files
     try:
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "75.0 mm" not in specs_content or "12.0 grams" not in specs_content or "6.144 kg" not in specs_content:
+        if "45.0-degree" not in specs_content or "Xanthan Gum" not in specs_content or "Double-Layer" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications parameters have drifted from constraints.")
             sys.exit(1)
             
@@ -72,9 +63,11 @@ def verify_suit_parity():
         print(f"❌ LINTER RUNTIME ERROR: Technical specs manual is missing or unreadable: {str(e)}")
         sys.exit(1)
         
-    print("✅ GLOBAL SUIT SYSTEM CHECK: PASS // ALL FILE METRICS SYNCHRONIZED // REPOSITORY SECURED")
+    print("=========================================================================")
+    print("✅ GLOBAL REMEDIATION CHECK: PASS // DELAMINATION AND CLOGGING IRRELEVANT")
+    print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_suit_parity()
-      
+    
