@@ -20,6 +20,7 @@ def verify_skate_parity():
         "README.md", 
         "master-skate-twin.py", 
         "verify-skate-parity.py",
+        "generate-3d-mesh.py",
         "SECURITY_ORATOR_ARMOR.md" if os.path.exists("SECURITY_ORATOR_ARMOR.md") else "SECURITY_ARMOR.md",
         "config/README.md",
         "config/technical-specs.md",
