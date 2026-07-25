@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-RESO-ARMOR-COUPON-CARD",
+  "parent_system": "PROJECT-RESO-ARMOR-MAIN-MATRIX",
+  "module_layer": "testing-coupon",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "test_coupon_physical_footprint_metrics": {
+    "coupon_length_mm": 100.0,
+    "coupon_width_mm": 100.0,
+    "coupon_thickness_mm": 8.0,
+    "dry_chassis_mass_grams": 160.0,
+    "closed_loop_fluid_volume_ml": 35.0,
+    "estimated_commercial_printing_cost_usd": 65.0
+  },
+  "vascular_bloodstream_capillary_geometries": {
+    "healing_capillary_width_microns": 120.0,
+    "internal_lining_substrate": "Aerosolized Hydrophobic Fluoropolymer Coating",
+    "friction_suppression_factor_pct": 98.0,
+    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Capillary Flow",
+    "hydrodynamic_reynolds_number_ceiling": 0.05
+  },
+  "self_healing_activation_thresholds": {
+    "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
+    "activation_pressure_drop_kpa": 15.0,
+    "solidification_clotting_latency_seconds": 3.2,
+    "bloodstream_composition": "Pure H2O with 1.5% Crystalline Nanocellulose"
+  },
+  "industrial_sla_foundry_tolerances": {
+    "printer_technology": "High-Resolution Stereolithography (SLA) Clear Resin",
+    "xy_axis_pixel_resolution_microns": 35.0,
+    "z_axis_slicing_layer_depth_microns": 10.0,
+    "post_print_wash_medium": "99% Pure Ultrasonic Isopropyl Alcohol"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_armor_registry": "vortex-armor-resilient88/config/global-armor-card.json",
+      "coupon_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
