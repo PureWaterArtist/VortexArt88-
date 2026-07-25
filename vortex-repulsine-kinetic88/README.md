@@ -6,7 +6,7 @@
 
 **PROJECT REPULSINE (Repository Hub: vortex-repulsine-kinetic88)** is a global-scale, open-source aerospace transport architecture released entirely to the public domain under the CERN-OHL-S-2.0 license. This framework completely rejects the volatile, high-heat, and high-obsolescence paradigms of legacy combustion flight. There are no rotating composite propeller blades, no explosive jet turbine chambers, no heavy-metal gearboxes, and no toxic chemical battery packs.
 
-*   **Full-Scale Operational Blueprint (Prompt 7 Visual):**
+*   **Full-Scale Operational Blueprint (Visual Concept Art):**
     ![Project REPULSINE Full-Scale 2-Passenger Assembled Showcase on Landing Pad](./media/grid88-full-scale-assembled-showcase.png)
     
 Instead, the aircraft achieves vertical liftoff, landing, and frictionless atmospheric cruise by utilizing **Isothermal Thermodynamic Implosion and Natural Vortex Dynamics**. Modeled directly after the foundational material science and physics protocols of Viktor Schauberger, the platform uses an input suction fan to draw ambient air into a pair of counter-rotating spin-discs precision-carved with a 1:1.618 Golden Ratio Logarithmic Spiral profile. 
