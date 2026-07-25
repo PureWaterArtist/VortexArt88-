@@ -13,6 +13,36 @@ Furthermore, the internal **120-Micron Micro-Capillary Healing Tracks align perf
 
 ---
 
+## 🎨 Project RESO-ARMOR Technical Showcase & Ballistic Showroom
+
+Review the uncompressed structural blueprints, metrology scale vectors, and high-fidelity side-by-side presentation renders demonstrating how our scale-invariant fluid implosion physics replaces legacy sacrificial defenses:
+
+### 📐 Structural Blueprints & Metric Scale Vector Outlines
+*   **Master System Specifications Vector Chart:**
+    ![Project RESO-ARMOR 300mm x 300mm Personal Plating Metrology Blueprint](./media/grid88-armor-specs.svg)
+
+### 🔬 Multi-Panel Presentation Renders & Concept Showcases
+*   **Conformal Nested Stacking Profile (Prompt 1 Visual):**
+    ![Project RESO-ARMOR Conformal Stacking Puzzle Profile Chart](./media/grid88-armor-stacking-conformal.png)
+*   **Living Vascular Bloodstream Core (Prompt 2 Visual):**
+    ![Project RESO-ARMOR Living Vascular Bloodstream Core Cross-Section](./media/grid88-armor-bloodstream-vascular.png)
+*   **Auxetic Impact Thickening & Clotting (Prompt 3 Visual):**
+    ![Project RESO-ARMOR Auxetic Densification and Pressure-Driven Self-Healing Dynamics](./media/grid88-armor-auxetic-healing.png)
+
+### 🛡️ Real-World Ballistic & Wearable Showcases
+*   **Tactical Armor Suit Evaluation (Prompt 4 Visual):**
+    ![Project RESO-ARMOR Legacy Sacrificial Vests vs. Bio-Composite Unified Hardfacing Suit Chart](./media/grid88-armor-suit-comparison.png)
+*   **High-Power Ballistic Deflection Diagnostics (Prompt 5 Visual):**
+    ![Project RESO-ARMOR Point-Blank Ceramic Bullet Shatter vs. Auxetic Passive Hydraulic Clotting Test Showcase](./media/grid88-armor-ballistic-test-diagnostics.png)
+
+---
+
+# 👑 PROJECT RESO-ARMOR: Bio-Composite Self-Healing Armor Metamaterial Plating
+
+![Project AETHERIS-SKATE 780mm x 220mm Personal Deck Metrology Blueprint](./media/grid88-armor-specs.svg)
+
+---
+
 ## 🖨️ Automated Parametric Production Tools
 
 *   **`generate-armor-mesh.py`:** Standalone Python 3 asset script that programmatically computes, verifies, and draws the uncompressed ASCII STL 3D solid mesh layout for the scale-invariant interlocking tiles, Z-axis lock-waves, and vertical fluidic ports.
