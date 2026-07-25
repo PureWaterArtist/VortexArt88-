@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-RESO-ARMOR-MAIN-MATRIX",
   "module_layer": "mass-production-suit-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "standard_scale_component_metrics": {
     "scale_profile_form": "Anisotropic Regular Hexagon Tile",
     "scale_vertex_width_mm": 75.0,
@@ -16,7 +16,8 @@
   "mass_production_snap_tolerances": {
     "interlock_mechanism_type": "Modular Edge-Integrated Mechanical Click-Clips",
     "interlock_clearance_gap_mm": 0.5,
-    "kinetic_joint_isolation_seal": "Co-Molded Polyurethane Over-Layer Sleeve"
+    "kinetic_joint_isolation_seal": "Co-Molded Polyurethane Over-Layer Sleeve",
+    "load_bearing_chassis": "Internal Semi-Rigid TPU Exoskeleton Sub-Frame"
   },
   "stabilized_bloodstream_fluidic_properties": {
     "healing_capillary_width_microns": 120.0,
@@ -33,10 +34,18 @@
     "solidification_clotting_latency_seconds": 3.2,
     "automatic_weapon_mitigation_requirement": "Mandatory Tier-2 Conformal Double-Layer Plating Stack"
   },
+  "project_aetheris_deluxe_biomimetic_specifications": {
+    "piezo_harvesting_matrix": "PVDF Electroplax Crystal Joint Rib Bands",
+    "solid_state_storage_type": "Graphene Ultracapacitor Backplate Matrix",
+    "visual_cloaking_method": "Sub-Wavelength Parabolic Micro-Prism Lens Vertices",
+    "thermal_attenuation_agent": "MXene-Doped Aerogel Fluid Suspension Loop",
+    "aquatic_drag_reduction_texture": "Biomimetic Shark Placoid Riblet Shroud",
+    "vertical_climbing_interface": "Carbon Nanotube Van der Waals Setae Pads"
+  },
   "validation_sourcing_ledger": [
     {
       "root_suit_mesh_compiler_script": "vortex-suit-mass88/generate-suit-mesh.py",
-      "flaw_remediation_parity_check": "MATCHED"
+      "deluxe_upgrade_parity_check": "MATCHED"
     }
   ]
 }
