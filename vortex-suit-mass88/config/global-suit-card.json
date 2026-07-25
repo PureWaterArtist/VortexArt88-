@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-RESO-ARMOR-MAIN-MATRIX",
   "module_layer": "mass-production-suit-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "standard_scale_component_metrics": {
     "scale_profile_form": "Anisotropic Regular Hexagon Tile",
     "scale_vertex_width_mm": 75.0,
@@ -23,8 +23,8 @@
     "internal_lining_substrate": "Aerosolized Hydrophobic Fluoropolymer Non-Stick Spray",
     "friction_suppression_factor_pct": 98.0,
     "hydrodynamic_reynolds_number_ceiling": 0.05,
-    "carrier_fluid_composition_pct": "98.45% Deionized H2O / 1.5% CNC / 0.05% Xanthan Gum / 0.05% CuSO4",
-    "rheological_fluid_flow_state": "Thixotropic Non-Settling Gel Suspension"
+    "carrier_fluid_composition_pct": "93.45% H2O / 5.0% Propylene Glycol / 1.5% CNC / 0.05% Xanthan / 0.05% CuSO4",
+    "rheological_fluid_flow_state": "Thixotropic Non-Settling Non-Vaporizing Gel Suspension"
   },
   "anisotropic_ballistic_protection_bounds": {
     "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
