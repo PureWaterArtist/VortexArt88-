@@ -33,6 +33,8 @@ def verify_suit_parity():
         "modules/performance-specs/config/PERFORMANCE_EXPLAINER.md",
         "modules/grapple-core/generate-grapple-mesh.py",
         "modules/grapple-core/media/grid88-grapple-specs.svg",
+        "modules/vortex-crumple-zone88/generate-crumple-mesh.py",
+        "modules/vortex-crumple-zone88/media/grid88-crumple-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
         "config/SUIT_EXPLAINER.md",
@@ -115,6 +117,12 @@ def verify_suit_parity():
         print(f"❌ LINTER RUNTIME ERROR: Deluxe asset check encountered a failure: {str(e)}")
         sys.exit(1)
     print("✅ PHASE 05: AETHERIS-DELUXE BIOMIMETIC LOCOMOTION METADATA PASS.")
+    
+    # 6. Audit Mountain Survival Crumple-Zone Module Assets
+    if not os.path.exists("modules/vortex-crumple-zone88/generate-crumple-mesh.py"):
+        print("❌ CRUMPLE MODULE DRIFT: Standalone balsa honeycomb mesh compiler missing from tree.")
+        sys.exit(1)
+    print("✅ PHASE 06: PASSIVE EXOSKELETON CRUMPLE-ZONE FRAME PARITY MOUNTED.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL PLANETARY SYSTEM MATRIX SECURED // MASTER PARITY LEDGER GREEN")
@@ -123,4 +131,4 @@ def verify_suit_parity():
 
 if __name__ == "__main__":
     verify_suit_parity()
-              
+    
