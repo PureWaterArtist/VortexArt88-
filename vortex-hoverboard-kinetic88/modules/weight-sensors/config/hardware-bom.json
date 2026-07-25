@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-SKATE-SENSORS-BOM",
+  "parent_system": "PROJECT-AETHERIS-SKATE-2P-CORE",
+  "module_layer": "weight-sensors",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "piezoelectric_pvdf_carpet_specifications": {
+    "sensor_technology": "Quartz-Crystal Piezoelectric PVDF Film Matrix",
+    "total_active_sensor_thickness_microns": 250.0,
+    "sensor_zonal_layout": "Symmetrical Dual-Zone (Front Foot / Rear Foot)",
+    "minimum_activation_threshold_kg": 10.0,
+    "maximum_structural_load_limit_kg": 150.0,
+    "native_voltage_generation_range_v": "0.0 to 5.0 Analog Spectrum"
+  },
+  "micro_nozzle_linkage_actuation_metrics": {
+    "actuation_mechanism_type": "Spring-Loaded Mechanical Micro-Nozzle Array",
+    "total_independent_actuation_nodes": 8,
+    "capillary_signal_processing_lag_ms": 0.00,
+    "autonomous_balancing_latency_ms": 1.5,
+    "dielectric_insulation_material": "Amorphous Fluoropolymer Cytop Resin",
+    "dielectric_insulation_depth_microns": 1.2
+  },
+  "environmental_and_hardening_thresholds": {
+    "electromagnetic_pulse_isolation_db": 140.0,
+    "operating_signal_integrity_pct": 100.0,
+    "circuit_protection_seal": "Waterproof Bio-Rubber Siphon Coating"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_skate_registry": "vortex-hoverboard-kinetic88/config/global-skate-card.json",
+      "sensors_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
