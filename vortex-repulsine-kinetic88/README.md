@@ -30,3 +30,44 @@ vortex-repulsine-kinetic88/            # ROOT MACHINE REPOSITORY HUB
     ├── fluidic-copilot/           # 48-junction fused-quartz acoustic computer block
     └── vector-skirts/             # Coandă effect 3-axis thrust deflection tracks
 ```
+
+---
+
+## 🎨 Global Technical Specification & Aerospace Media Showroom
+
+Review the programmatically verified mass bounds, 2-passenger geometric tolerances, and streamlined 4-day cleanroom assembly flowcharts:
+
+### 📐 Compact Aircraft Dimensional Outlines
+*   ![Project REPULSINE 2-Passenger Master Metrology Specifications Infographic](../media/grid88-master-specs.svg)
+
+### 🖨️ Streamlined Aerospace Production Workflows
+*   ![Project REPULSINE 4-Day Cleanroom Production and Validation Flowchart](../media/grid88-manufacturing-flow.svg)
+
+### 🚀 Industrial Concept Renders & Flight Performance
+*   ![Project REPULSINE 4-Day Cleanroom SLA Print and Sputter Flowchart](../media/grid88-manufacturing-flow.png)
+*   ![Project REPULSINE Final Product Compact Core Dimensions Overview](../media/grid88-master-specs.png)
+
+---
+
+## 🎨 Implosion Stacking Plates Visual Showroom
+
+Review the programmatically verified 1:1.618 golden spiral wavy corrugations, central vacuum delta fields, and super-slip graphene perimeters:
+
+### 📐 Mechanical Layouts & Vector Flow Fields
+*   ![Project REPULSINE 1:1.618 Golden Ratio Logarithmic Spiral Centripetal Corrugated Lift Plates Blueprint](./media/grid88-implosion-discs.svg)
+*   ![Core Lifting Geometry Comparison: Traditional Blades vs. Isothermal Implosion](../../media/grid88-lift-mechanism-comparison.png)
+*   ![High-Altitude Cruise Comparison: Combustion Afterburners vs. Isothermal Self-Sustaining Cruise](../../media/grid88-flight-cruise-comparison.png)
+*   ![Plain-English Guide: How the Wavy Corrugated Discs Create Flight](./config/DISCS_EXPLAINER.md)
+
+### 🔬 Machine-Readable Material Composition Run Cards
+*   ![Counter-Rotating Radius Specs and CVD Graphene Friction Reduction Hardware Cards](./config/hardware-bom.json)
+*   ![Human-Readable Logarithmic Velocity Scaling and 4.0C Thermodynamic RPM Logs](./config/DISCS.md)
+
+---
+
+## 🎨 Passive Dorsal Suction Funnel Visual Showroom
+
+*   ![Project REPULSINE Dorsal Coaxial Suction Intake Fan & Tapering Venturi Shroud Blueprint](./media/grid88-suction-shroud.svg)
+*   ![Takeoff Flow Comparison: Combustion Exhaust vs. Passive Atmospheric Compression](../../media/grid88-takeoff-flow-comparison.png)
+
+---
