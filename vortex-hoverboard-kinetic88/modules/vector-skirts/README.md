@@ -24,3 +24,19 @@ vortex-hoverboard-kinetic88/modules/vector-skirts/
     ├── LOGIC.md              # Human-readable fluidic logic calculations, transit logs, and performance charts
     └── LOGIC_EXPLAINER.md    # Plain-English Corner Banking & Braking Explainer
 ```    
+
+---
+
+## 🎨 Geometric Fluidic Logic Flight Control Visual Showroom
+
+Review the verified 30-degree bistable jet Coandă deflection micro-channels, micro-nozzle valves, and atomic layer CVD graphene super-slip perimeters:
+
+### 📐 Control Blueprints & Vector Layouts
+*   ![Project AETHERIS-SKATE 30-Degree Bistable Jet Coandă Deflection Steering Blueprint](./media/grid88-flight-vector.svg)
+*   ![Geometric Fluidic Logic Performance Logs & 3-Axis Coandă Profiles](./config/LOGIC.md)
+*   ![Plain-English Guide: How the Aircraft Steers and Balances Without Software Code](./config/LOGIC_EXPLAINER.md)
+
+### 🔬 Machine-Readable Fluidic Logic Run Cards
+*   ![Bistable Deflection Angles and Programmable Python Blueprint Automation Hardware Cards](./config/hardware-bom.json)
+
+---
