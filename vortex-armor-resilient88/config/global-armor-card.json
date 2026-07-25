@@ -24,7 +24,9 @@
     "internal_lining_substrate": "Atomic Layer CVD Graphene",
     "friction_suppression_factor_pct": 98.0,
     "vertical_fluid_transfer_port_diameter_microns": 120.0,
-    "inter_layer_alignment_tolerance_microns": 5.0
+    "inter_layer_alignment_tolerance_microns": 5.0,
+    "hydrodynamic_reynolds_number_ceiling": 0.05,
+    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Capillary Flow"
   },
   "self_healing_and_auxetic_activation_bounds": {
     "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
