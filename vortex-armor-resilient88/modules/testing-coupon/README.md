@@ -24,3 +24,6 @@ vortex-armor-resilient88/modules/testing-coupon/
     ├── TEST_PROTOCOL.md      # Human-readable step-by-step benchtop fracture and clotting protocols
     └── HYDRODYNAMICS.md      # Human-readable hyper-laminar Reynolds flow constraints for the test fluid
 ```    
+
+*   **`generate-coupon-mesh.py`:** Standalone Python 3 asset script that programmatically computes, verifies, and draws the uncompressed 100mm ASCII STL solid 3D mesh block coordinates, center syringe ports, and auxetic structures.
+  
