@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-RESO-SUIT-UNIT-COUPON-CARD",
+  "parent_system": "PROJECT-RESO-SUIT-MASS-PRODUCTION",
+  "module_layer": "production-coupon",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "single_scale_unit_physical_metrics": {
+    "scale_profile_geometry": "Regular Hexagonal Boundary",
+    "scale_point_to_point_width_mm": 75.0,
+    "scale_thickness_depth_mm": 8.0,
+    "dry_chassis_mass_grams": 12.0,
+    "internal_fluid_capacity_ml": 12.0,
+    "raw_photopolymer_resin_volume_ml": 15.4,
+    "estimated_unit_printing_material_cost_usd": 0.54
+  },
+  "vascular_fluidic_interconnect_specs": {
+    "healing_capillary_width_microns": 120.0,
+    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Capillary Flow",
+    "hydrodynamic_reynolds_number_ceiling": 0.05,
+    "mechanical_click_snap_clearance_gap_mm": 0.5,
+    "joint_sealing_ring_gasket_type": "1.2mm ID EPDM Nitrile Rubber O-Ring"
+  },
+  "full_suit_mass_production_financial_ledger": {
+    "total_scales_to_print_count": 256,
+    "resin_material_cost_subtotal_usd": 105.0,
+    "mesh_tactical_undergarment_cost_usd": 45.0,
+    "graphene_friction_erase_sprays_cost_usd": 38.0,
+    "bloodstream_cnc_and_water_cost_usd": 20.0,
+    "epdm_nitrile_rubber_orings_cost_usd": 6.0,
+    "net_sovereign_citizen_suit_cost_usd": 214.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_suit_registry": "vortex-suit-mass88/config/global-suit-card.json",
+      "unit_coupon_parity_check": "MATCHED"
+    }
+  ]
+}
