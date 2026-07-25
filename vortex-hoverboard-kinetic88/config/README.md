@@ -25,7 +25,12 @@ This directory serves as the centralized root configuration registry for the **P
 5. **File Path:** `./HARDWARE_BOM.md`
    * **Asset Class:** Human-Readable Procurement Matrix Data Card
    * **User Target:** Component Buyers, Benchtop Prototypers, & Budget Auditing Systems
+
 6. **File Path:** `./flight-manual.md`
    * **Asset Class:** Personal Handbook for 24-Hour Prototyping, Launch Staging, and Riding Protocols
    * **User Target:** Workshop Builders, Desktop SLA Operators, & Sovereign Hoverboard Riders
-   *    
+
+7. **File Path:** `./procurement-guide.md`
+   * **Asset Class:** Commercial Sourcing, Prototyping, Costing, and Lead-Time Manual
+   * **User Target:** Budget Managers, Sourcing Agents, and Cleanroom Foundry Operators
+  
