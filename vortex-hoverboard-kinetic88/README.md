@@ -22,27 +22,26 @@ Review the uncompressed structural blueprints, metrology scale vectors, and high
     ![Project AETHERIS-SKATE 780mm x 220mm Personal Deck Metrology Blueprint](./media/grid88-hoverboard-specs.svg)
 
 ### 🔬 Multi-Panel Presentation Renders & Concept Showcases
-*   **Underside Lifter Ring Comparison (Prompt 1 Visual):**
+*   **Underside Lifter Ring Comparison (Visual Concept Art):**
     ![Propulsion Systems: Legacy Multirotor Wheels vs. Sealed Centripetal Implosion](./media/grid88-hoverboard-propulsion.png)
-*   **Onboard Balance Control Interface (Prompt 2 Visual):**
+*   **Onboard Balance Control Interface (Visual Concept Art):**
     ![Flight Controllers: Silicon Autopilot vs. Microfluidic Logic Stance Cards](./media/grid88-hoverboard-avionics.png)
-*   **Intake Aerodynamics & Funneling (Prompt 3 Visual):**
+*   **Intake Aerodynamics & Funneling (Visual Concept Art):**
     ![Intake Aerodynamics: Deflective Air Resistance vs. Passive Centripetal Funnels](./media/grid88-hoverboard-intake.png)
-*   **Speed Wobble Rejection Dynamics (Prompt 4 Visual):**
+*   **Speed Wobble Rejection Dynamics (Visual Concept Art):**
     ![Flight Stability Dynamics: Mechanical Instability vs. Hydrodynamic Equilibrium](./media/grid88-hoverboard-stability.png)
-*   **All-Terrain Flying Envelope Showcase (Prompt 5 Visual):**
+*   **All-Terrain Flying Envelope Showcase (Visual Concept Art):**
     ![All-Terrain Transit: Compacted Depletion vs. Ground-Effect Air Cushions](./media/grid88-hoverboard-allterrain.png)
-*   **24-Hour Home Workbench Production (Prompt 6 Visual):**
+*   **24-Hour Home Workbench Production (Visual Concept Art):**
     ![Hobby Workspace Assembly: Tool Clutter vs. Desktop SLA Resin Prototyping](./media/grid88-hoverboard-workbench.png)
 
 ### 🛹 Real-World Operational & Lifestyle Showcases
-*   **Full-Scale Operational Blueprint (Prompt 7 Visual):**
-    ![Project REPULSINE Full-Scale 2-Passenger Assembled Showcase on Landing Pad](./media/grid88-full-scale-assembled-showcase.png)
-*   **Urban Cruise & Skate Park Handling (Prompt 8 Visual):**
+
+*   **Urban Cruise & Skate Park Handling (Visual Concept Art):**
     ![Project AETHERIS-SKATE Urban Cruise and Skate Park Maneuvers Presentation Chart](./media/grid88-hoverboard-urban-skatepark-comparison.png)
-*   **All-Terrain Multi-Rider Coastal Envelope (Prompt 9 Visual):**
+*   **All-Terrain Multi-Rider Coastal Envelope (Visual Concept Art):**
     ![Project AETHERIS-SKATE Multi-Rider Coastal Beach and Ocean Wave Exploration Showcase](./media/grid88-hoverboard-coastal-beach-showcase.png)
-*   **First Prototype Launch & Showcase (Prompt 10 Visual):**
+*   **First Prototype Launch & Showcase (Visual Concept Art):**
     ![Project AETHERIS-SKATE Home Workspace Prototyping and First Launch Presentation Showcase](./media/grid88-hoverboard-first-launch-showcase.png)
 
 ---
