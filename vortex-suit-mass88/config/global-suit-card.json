@@ -4,40 +4,39 @@
   "parent_system": "PROJECT-RESO-ARMOR-MAIN-MATRIX",
   "module_layer": "mass-production-suit-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "standard_scale_component_metrics": {
-    "scale_profile_form": "Regular Hexagon Tile",
+    "scale_profile_form": "Anisotropic Regular Hexagon Tile",
     "scale_vertex_width_mm": 75.0,
     "scale_thickness_mm": 8.0,
     "dry_chassis_mass_grams": 12.0,
     "closed_loop_fluid_volume_ml": 12.0,
-    "charged_scale_operational_mass_grams": 24.0
+    "co_molded_flexible_edge_lip_width_mm": 1.2
   },
   "mass_production_snap_tolerances": {
     "interlock_mechanism_type": "Modular Edge-Integrated Mechanical Click-Clips",
     "interlock_clearance_gap_mm": 0.5,
-    "base_garment_substrate": "Heavy-Duty Cordura Mesh Tactical Under-Vest"
+    "kinetic_joint_isolation_seal": "Co-Molded Polyurethane Over-Layer Sleeve"
   },
-  "vascular_bloodstream_fluidic_geometries": {
+  "stabilized_bloodstream_fluidic_properties": {
     "healing_capillary_width_microns": 120.0,
     "internal_lining_substrate": "Aerosolized Hydrophobic Fluoropolymer Non-Stick Spray",
     "friction_suppression_factor_pct": 98.0,
-    "vertical_fluid_transfer_port_diameter_microns": 120.0,
-    "joint_sealing_ring_type": "1.2mm Inner-Diameter EPDM Nitrile Rubber O-Ring",
     "hydrodynamic_reynolds_number_ceiling": 0.05,
-    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Capillary Flow"
+    "carrier_fluid_composition_pct": "98.45% Deionized H2O / 1.5% CNC / 0.05% Xanthan Gum / 0.05% CuSO4",
+    "rheological_fluid_flow_state": "Thixotropic Non-Settling Gel Suspension"
   },
-  "self_healing_and_auxetic_activation_bounds": {
+  "anisotropic_ballistic_protection_bounds": {
     "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
-    "poissons_ratio_state": "Negative Poisson's Ratio (Impact Thickening)",
+    "mandatory_slicer_bed_incline_degrees": 45.0,
     "activation_pressure_drop_kpa": 15.0,
     "solidification_clotting_latency_seconds": 3.2,
-    "bloodstream_composition": "Pure H2O with 1.5% Crystalline Nanocellulose"
+    "automatic_weapon_mitigation_requirement": "Mandatory Tier-2 Conformal Double-Layer Plating Stack"
   },
   "validation_sourcing_ledger": [
     {
       "root_suit_mesh_compiler_script": "vortex-suit-mass88/generate-suit-mesh.py",
-      "mass_production_parity_check": "MATCHED"
+      "flaw_remediation_parity_check": "MATCHED"
     }
   ]
 }
