@@ -8,6 +8,10 @@ The **Stance Weight Sensors Module (Project Skate-Sensors)** houses the flexible
 
 This directory details the blueprints for a completely codeless, posture-driven flight control interface. The upper deck surface is integrated with a dual-zone **250-Micron Quartz-Crystal Piezoelectric PVDF Stance Carpet**. When the rider shifts their body weight—leaning forward to accelerate, backward to brake, or onto their toes/heels to bank into a carve—the pressure changes physically distort the crystal matrix. This native kinetic energy acts directly as a fluid pressure throttle, mechanically modulating zero-contact micro-nozzles at the primary fluid junctions. By bypassing silicon microchips and software, the deck self-balances and turns instantly through pure hydro-balance, ensuring a strict $\leq 1.5\text{ ms}$ processing latency window and a 140 dB EMP isolation floor.
 
+# Project AETHERIS-SKATE: Quartz Piezo Stance Carpets & Lean Steering (Module: weight-sensors)
+
+![Project AETHERIS-SKATE 250-Micron Piezo PVDF Foot Stance Control Sensor Blueprint](./media/grid88-weight-sensors.svg)
+
 ---
 
 ## 🗂 Sub-Module Symmetrical Directory Map
@@ -24,3 +28,19 @@ vortex-hoverboard-kinetic88/modules/weight-sensors/
     ├── SENSORS.md            # Human-readable mechanical tracking boundaries, stress caps, and lag logs
     └── SENSORS_EXPLAINER.md  # Plain-English Posture Sensing & Lean Steering Explainer
 ```    
+
+---
+
+## 🎨 Posture Sensing PVDF Stance Carpets Visual Showroom
+
+Review the programmatically verified 250-micron independent piezo grids, waterproof analog signal tracks, and zero-contact fluid micro-nozzle nodes:
+
+### 📐 Control Blueprints & Vector Layouts
+*   ![Project AETHERIS-SKATE 250-Micron Piezo PVDF Foot Stance Control Sensor Blueprint](./media/grid88-weight-sensors.svg)
+*   ![Plain-English Guide: How to Lean-to-Steer Without a Digital Remote Control](./config/SENSORS_EXPLAINER.md)
+
+### 🔬 Machine-Readable Fluidic Linkage Run Cards
+*   ![PVDF Carpet Sheet Tolerances and Analog Voltage Sourcing Hardware Cards](./config/hardware-bom.json)
+*   ![Human-Readable 150.0kg Maxposture Stress Limits and $\leq 1.5\text{ ms}$ Balanced Latency Logs](./config/SENSORS.md)
+
+---
