@@ -26,3 +26,7 @@ This directory serves as the centralized validation hub for the Modular Mass-Pro
    * **Asset Class:** Human-Readable Mass Procurement Card & Slicing Staging Protocols
    * **User Target:** Material Sourcing Crews, Workshop Operators, & Budget Trackers
      
+6. **File Path:** `./global-suit-card.json`
+   * **Asset Class:** Machine-Readable Configuration Card (AI Slicing Target)
+   * **User Target:** Desktop Slicing Engines, Automatic Slicers, & Parser Scripts
+   * 
