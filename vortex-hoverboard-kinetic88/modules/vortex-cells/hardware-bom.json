@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-SKATE-CELLS-BOM",
+  "parent_system": "PROJECT-AETHERIS-SKATE-2P-CORE",
+  "module_layer": "vortex-cells",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "counter_rotating_lift_ring_specifications": {
+    "total_hydro_lifting_cells": 2,
+    "rotational_regime": "Symmetrical Coaxial Counter-Rotating Plates",
+    "primary_lift_cell_radius_meters": 0.11,
+    "critical_vortex_ignition_rpm": 12500.0,
+    "maximum_operating_velocity_rpm": 16500.0,
+    "substrate_material_composition": "45% Fused-Quartz Silicon / 55% Crystalline Nanocellulose"
+  },
+  "wavy_corrugation_geometric_metrics": {
+    "groove_layout_profile": "1:1.618 Golden Ratio Logarithmic Spiral",
+    "groove_surface_form": "Symmetrical Concentric Ridges and Valleys",
+    "nominal_groove_width_mm": 2.2,
+    "nominal_groove_depth_mm": 2.2,
+    "groove_cross_sectional_aspect_ratio": "1:1"
+  },
+  "super_slip_boundary_layer_specs": {
+    "internal_groove_lining_material": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "friction_suppression_factor_pct": 98.0,
+    "maximum_allowable_boundary_layer_drag_factor": 0.02
+  },
+  "thermodynamic_implosion_targets": {
+    "core_vortex_maximum_vacuum_pressure_kpa": -94.27,
+    "total_effective_lifting_surface_area_m2": 0.123,
+    "target_hover_height_clearance_mm": 75.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_skate_registry": "vortex-hoverboard-kinetic88/config/global-skate-card.json",
+      "cells_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
