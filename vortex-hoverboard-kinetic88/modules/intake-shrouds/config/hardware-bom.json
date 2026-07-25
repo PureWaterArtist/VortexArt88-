@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "AETHERIS-SKATE-SHROUD-BOM",
+  "parent_system": "PROJECT-AETHERIS-SKATE-2P-CORE",
+  "module_layer": "intake-shrouds",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "2.0.0",
+  "perimeter_venturi_slot_geometries": {
+    "total_perimeter_slots_count": 24,
+    "volumetric_compression_ratio": 3.0,
+    "slot_entry_pitch_angle_degrees": 15.0,
+    "exterior_aperture_width_mm": 12.5,
+    "interior_manifold_gate_width_mm": 4.16,
+    "substrate_material_composition": "45% Fused-Quartz Silicon / 55% Crystalline Nanocellulose"
+  },
+  "super_slip_boundary_layer_specs": {
+    "internal_slot_lining_material": "Atomic Layer CVD Graphene",
+    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
+    "friction_suppression_factor_pct": 98.0,
+    "boundary_layer_friction_coefficient": 0.005
+  },
+  "aerodynamic_mass_flow_targets": {
+    "nominal_mass_flow_rate_kg_s": 2.8,
+    "maximum_stable_banking_angle_degrees": 45.0,
+    "laminar_flow_integrity_pct": 100.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "global_skate_registry": "vortex-hoverboard-kinetic88/config/global-skate-card.json",
+      "shroud_parameter_parity_check": "MATCHED"
+    }
+  ]
+}
