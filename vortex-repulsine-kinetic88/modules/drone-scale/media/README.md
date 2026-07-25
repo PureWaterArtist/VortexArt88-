@@ -1,21 +1,39 @@
-# Project REPULSINE: Media, 350mm Drone Footprint & Microfluidic Telemetry Index
+# Project REPULSINE: Local Drone Scale Media Asset Ledger
 
-This directory serves as the centralized repository for all visual assets, holographic frame layout renders, 250-micron track scaling diagrams, and outrunner motor integration charts for the **Scale-Invariant Benchtop RC Drone Module (Module: drone-scale)**.
-
----
-
-## 📂 Internal Directory Manifest
-
-*   **`README.md`:** This file (Drone Media Blueprint Index Manual).
-*   **`generate-blueprint.py`:** Standalone Python 3 asset script that programmatically compiles, verifies, and draws the uncompressed XML vector blueprint layout from scratch.
-*   **`grid88-drone-scale.svg`:** Native vector schematic blueprint mapping the 350mm outer frame footprint, 2212 brushless motor mount, and 250-micron card logic core.
+This directory serves as the centralized repository for all visual assets, frame layout renders, microfluidic scaling charts, and electronic warfare test records for the **Scale-Invariant Benchtop RC Drone Module (Module: drone-scale)**.
 
 ---
 
-## 📸 Technical Asset Verification & Cleanroom Camera Protocols
+## 📂 Local Visual Showroom Asset Ledger
 
-To maintain absolute data integrity and verifiable prior-art across all open-source submissions to the public ledger, all laser-interferometer snapshots, material line traces, or electrical feedback logs uploaded here by the community must strictly adhere to these formatting rules:
+All drone-specific image assets are uploaded and served natively from this local folder to ensure the module remains a standalone, modular package:
 
-1.  **High-Contrast Frame Renders:** All CAD or fluid logic state simulation exports must use a clean, dark-mode background profile to ensure that the 350mm component arrangement and micro-channels are perfectly visible on workshop monitors.
-2.  **Microfluidic Micro-Documentation:** High-resolution magnification photography demonstrating successful printing of the 250-micron channels in tough resin must be shot under macro edge focus to check for channel anomalies.
-3.  **Vortex Ignition Speed Logs:** Visual data overlays tracking the 12,500 RPM critical velocity and 4S LiPo power draw states must link directly back to the validation parameters calculated inside the root `master-repulsine-twin.py` digital twin script.
+1. **`README.md`**
+   * *Asset Class:* Drone Media Reference Index Manual
+2. **`grid88-drone-scale.svg`**
+   * *Asset Class:* Uncompressed Scale Drone Blueprint Vector
+   * ![Project REPULSINE 350mm Desktop RC Drone Scale Blueprint](./grid88-drone-scale.svg)
+3. **`grid88-drone-propulsion-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 1 Output)
+   * ![Propulsion Systems: Legacy Multi-Rotors vs. Sealed Centripetal Implosion](./grid88-drone-propulsion-comparison.png)
+4. **`grid88-drone-avionics-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 2 Output)
+   * ![Onboard Flight Controllers: Silicon Autopilot vs. Microfluidic Logic Cards](./grid88-drone-avionics-comparison.png)
+5. **`grid88-drone-intake-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 3 Output)
+   * ![Intake Aerodynamics: Deflective Drag vs. Passive Centripetal Funnels](./grid88-drone-intake-comparison.png)
+6. **`grid88-drone-stability-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 4 Output)
+   * ![Flight Stability Dynamics: Algorithmic Drift vs. Passive Hydrodynamic Equilibrium](./grid88-drone-stability-comparison.png)
+7. **`grid88-drone-swarm-jamming-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 5 Output)
+   * ![Electronic Warfare Testing: Code Grid Monoculture Drop vs. EMP-Immune Swarm Dynamics](./grid88-drone-swarm-jamming-comparison.png)
+8. **`grid88-drone-workbench-comparison.png`**
+   * *Asset Class:* High-End Concept Render (Prompt 6 Output)
+   * ![Hobby Workspace Assembly: Solder Clutter Matrix vs. Clean Desktop Resin Prototyping](./grid88-drone-workbench-comparison.png)
+
+---
+
+## 🖨️ Programmatic Compilation Tools
+
+*   **`generate-blueprint.py`:** Standalone Python script that programmatically compiles, verifies, and draws the uncompressed 350mm drone frame layout vector blueprint.
