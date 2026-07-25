@@ -25,6 +25,7 @@ def verify_skate_parity():
         "config/technical-specs.md",
         "config/SKATE_EXPLAINER.md",
         "config/HARDWARE_BOM.md",
+        "config/procurement-guide.md",
         "config/flight-manual.md",
         "config/global-skate-card.json"
     ]
