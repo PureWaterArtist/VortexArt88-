@@ -33,6 +33,48 @@ To ensure absolute prior-art and mathematical validation across all decentralize
 *   **Vector Layout Blueprint:** `../modules/vector-skirts/media/grid88-flight-vector.svg`
 *   **Programmatic Slicing Tool:** `../modules/vector-skirts/media/generate-blueprint.py`
 
+# Central Media Asset Repository: Project REPULSINE Main Gateway
+**Configuration:** Version 2.0.0 // 2-Passenger Compact Flight Platform
+
+This directory serves as the centralized visual showroom housing all global rendering outputs, uncompressed cleanroom blueprints, and programmatic vector generation scripts for **Project REPULSINE**.
+
+---
+
+## 📂 Core Visual Showroom Asset Ledger
+
+All master image assets are uploaded and served natively from this root directory to prevent path drift:
+
+1. **`README.md`** 
+   * *Asset Class:* Global Media Reference Index Manual
+2. **`grid88-master-specs.svg`** 
+   * *Asset Class:* Uncompressed Scale Metrology Blueprint Vector
+   * *Visual Target:* Length 3200mm x Width 1800mm footprints, 2-passenger cabin space dimensions, and 150L cargo hold limits.
+3. **`grid88-manufacturing-flow.svg`** 
+   * *Asset Class:* Uncompressed Production Roadmap Blueprint Vector
+   * *Visual Target:* 4-Day cleanroom print path, CVD graphene coating, and 12-hour vacuum leak decay hold.
+4. **`grid88-lift-mechanism-comparison.png`** 
+   * *Asset Class:* High-End Concept Render (Prompt 1 Output)
+   * *Visual Target:* Traditional open helicopter rotor blade hubs vs. our closed-loop 1:1.618 golden ratio centripetal vortex channels.
+5. **`grid88-monocoque-composite-shield.png`** 
+   * *Asset Class:* High-End Concept Render (Prompt 2 Output)
+   * *Visual Target:* Fracture-prone metal airframe skin under lightning stress vs. our 140 dB EMP non-metallic quartz-nanocellulose shell cell.
+6. **`grid88-fluidic-copilot-core.png`** 
+   * *Asset Class:* High-End Concept Render (Prompt 3 Output)
+   * *Visual Target:* Messy silicon circuit boards and tangled wires vs. our codeless 2400 Hz acoustic carrier wave glass computer block.
+7. **`grid88-takeoff-flow-comparison.png`** 
+   * *Asset Class:* High-End Concept Render (Prompt 4 Output)
+   * *Visual Target:* Exploding, high-pollution fossil fuel turbine exhausts vs. our clean 5:1 ratio passive atmospheric suction compression.
+8. **`grid88-flight-cruise-comparison.png`** 
+   * *Asset Class:* High-End Concept Render (Prompt 5 Output)
+   * *Visual Target:* Fighter jets battling turbulent headwind drag vs. our silent, self-contained isothermal liquid cruise envelope.
+
+---
+
+## 🖨️ Programmatic Compilation Tools
+
+*   **`generate-master-specs.py`:** Standalone Python script that programmatically compiles, verifies, and draws the uncompressed scale metrology blueprint from raw code commands.
+*   **`generate-manufacturing-flow.py`:** Standalone Python script that programmatically draws the uncompressed 4-day cleanroom prototyping roadmap vector grid.
+
 ---
 
 ## 📸 Automated Parity Validation Checklist
