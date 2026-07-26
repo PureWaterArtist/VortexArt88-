@@ -5,7 +5,7 @@
 
 ## 🌌 Project Overview & Frictionless Personal Mobility Philosophy
 
-**PROJECT AETHERIS-SKATE (Repository Hub: vortex-hoverboard-kinetic88)** is a breakthrough, decentralized personal mobility framework released entirely to the public trust [claim No.1]. This project completely rejects the traditional mechanical wheel, combustion bearings, or fragile electronic multi-rotor skateboard propellers that create extreme noise, mechanical drag, and rapid friction wear. 
+**PROJECT AETHERIS-SKATE (Repository Hub: vortex-hoverboard-kinetic88)** is a breakthrough, decentralized personal mobility framework released entirely to the public trust. This project completely rejects the traditional mechanical wheel, combustion bearings, or fragile electronic multi-rotor skateboard propellers that create extreme noise, mechanical drag, and rapid friction wear. 
 
 Instead, the platform scales down our scale-invariant fluid implosion physics into an ultra-lightweight, high-stiffness personal deck footprint. The underside of the board houses dual circular **Hydro-Resodynamic Lifting Cells** containing counter-rotating plates precision-carved with a **1:1.618 Golden Ratio Logarithmic Spiral profile**. 
 
