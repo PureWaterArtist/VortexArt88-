@@ -10,7 +10,7 @@ This data card documents the exact off-the-shelf electronic elements, ultrasonic
 | Item ID | Component Class | Sourcing Description & Material Specifications | Target Cost | Qty | Sourcing Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **SYNTH-BOM-01** | Chassis Core | High-Stiffness SLA Photopolymer Tough Resin Slurry Matrix ($\geq 2.5\text{ GPa}$ Flexural Modulus) | $35.00 / Liter | 5 | Mass Market Hobby Grade |
-| **SYNTH-BOM-02** | Coordinate Drive | Eutectic Gallium-Indium (EGaIn) Liquid Metal Alloy (MHD Induction Loop Driver Medium) | $120.00 | 1 | Advanced Material Lab |
+| **SYNTH-BOM-02** | Coordinate Drive | Low-Power 12V Miniature Silent Pneumatic Air Compressor Assembly | $45.00 | 1 | Off-The-Shelf Component |
 | **SYNTH-BOM-03** | Magnetic Shield | Boron Nitride Nanotubes (BNNT) Atomic Layer Thermal Insulation Liner Sheet | $85.00 | 1 | Specialized Chemical Store |
 | **SYNTH-BOM-04** | Cavitation Sinter | Industrial 40.0 kHz Ultrasonic Cavitation Piezoelectric Transducer Array Elements | $45.00 | 4 | Electronics Distributor |
 | **SYNTH-BOM-05** | Photonic Engine | 405nm High-Intensity Ultraviolet LED Chip Sub-Matrix Array Panel | $28.00 | 2 | Off-The-Shelf Component |
