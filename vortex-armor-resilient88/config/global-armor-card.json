@@ -3,7 +3,7 @@
   "component_id": "PROJECT-RESO-ARMOR-CARD",
   "module_layer": "reso-armor-plating-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
+  "version": "5.0.0",
   "single_layer_dimensional_metrics": {
     "tile_length_mm": 300.0,
     "tile_width_mm": 300.0,
@@ -19,12 +19,19 @@
     "double_layer_nested_thickness_mm": 14.5,
     "triple_layer_nested_thickness_mm": 21.0
   },
+  "pneumatic_inter_layer_barrier_specs": {
+    "interlock_cushion_medium": "Clean Pressurized Ambient Atmosphere (Air)",
+    "working_pressure_input_delta_kpa": 175.0,
+    "aerostatic_jacket_film_depth_microns": 15.0,
+    "inter_layer_alignment_tolerance_microns": 5.0,
+    "hydrodynamic_reynolds_number_ceiling": 0.05,
+    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Aerostatic Barrier Jacket"
+  },
   "vascular_bloodstream_fluidic_geometries": {
     "healing_capillary_width_microns": 120.0,
     "internal_lining_substrate": "Atomic Layer CVD Graphene",
     "friction_suppression_factor_pct": 98.0,
     "vertical_fluid_transfer_port_diameter_microns": 120.0,
-    "inter_layer_alignment_tolerance_microns": 5.0,
     "hydrodynamic_reynolds_number_ceiling": 0.05,
     "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Capillary Flow"
   },
@@ -33,12 +40,12 @@
     "poissons_ratio_state": "Negative Poisson's Ratio (Impact Thickening)",
     "activation_pressure_drop_kpa": 15.0,
     "solidification_clotting_latency_seconds": 3.2,
-    "bloodstream_composition": "Pure H2O with 1.5% Crystalline Nanocellulose"
+    "bloodstream_composition": "Pure H2O with 1.5% Crystalline Nanocellulose / 5.0% Propylene Glycol / 0.05% Xanthan / 0.05% CuSO4"
   },
   "validation_sourcing_ledger": [
     {
       "root_armor_mesh_compiler_script": "vortex-armor-resilient88/generate-armor-mesh.py",
-      "symmetrical_stack_parity_check": "MATCHED"
+      "pneumatic_jacket_parity_check": "MATCHED"
     }
   ]
 }
