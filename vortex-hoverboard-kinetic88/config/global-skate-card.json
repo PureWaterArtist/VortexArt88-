@@ -1,51 +1,36 @@
 {
   "$schema": "https://vortexart88.org",
-  "system_id": "PROJECT-AETHERIS-SKATE-CARD",
-  "system_layer": "hoverboard-deck-configuration-registry",
+  "component_id": "PROJECT-KINETIC-SKATE-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "personal-mobility-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
-  "fluidic_implosion_specs": {
-    "propulsion_working_medium": "Pure Liquid Distilled H2O",
-    "fluid_flow_regime": "Closed-Loop Isothermal Centripetal Vortex (Laminar)",
-    "nominal_fluid_mass_density_kg_m3": 1000.0,
-    "vortex_ignition_velocity_rpm": 12500.0,
-    "maximum_induced_internal_vacuum_kpa": -94.27,
-    "liquid_sonic_threshold_velocity_ms": 1482.0
+  "version": "5.0.0",
+  "deck_chassis_dimensional_metrics": {
+    "deck_length_mm": 780.0,
+    "deck_width_mm": 220.0,
+    "dry_chassis_mass_kg": 2.15,
+    "max_lift_clearance_mm": 110.0,
+    "vacuum_fan_velocity_rpm": 12500.0
   },
-  "lifting_cell_geometries": {
-    "lifting_cell_layout": "Symmetrical Dual Pad Configuration (Front/Rear)",
-    "total_hydro_lifting_cells": 2,
-    "primary_lift_cell_radius_meters": 0.11,
-    "groove_layout_profile": "1:1.618 Golden Ratio Logarithmic Spiral",
-    "groove_surface_form": "Symmetrical Concentric Ridges and Valleys",
-    "total_effective_lifting_surface_area_m2": 0.123
+  "pneumatic_coanda_logic_specs": {
+    "balancing_fluid_medium": "Clean Pressurized Ambient Atmosphere (Air)",
+    "working_pressure_input_kpa": 175.0,
+    "air_logic_capillary_width_microns": 120.0,
+    "switching_activation_pressure_drop_kpa": 15.0,
+    "hydrodynamic_reynolds_number_ceiling": 0.05,
+    "fluid_flow_regime_classification": "Microfluidic Hyper-Laminar Coandă Air-Logic"
   },
-  "super_slip_boundary_layer_specs": {
-    "internal_groove_lining_substrate": "Atomic Layer CVD Graphene",
-    "surface_boundary_condition": "Hydrophobic Non-Wetting Super-Slip Floor",
-    "micro_channel_track_width_mm": 2.2,
-    "micro_channel_track_depth_mm": 2.2,
-    "graphene_friction_reduction_factor_pct": 98.0,
-    "maximum_allowable_logic_capillary_lag_ms": 0.00
-  },
-  "environmental_and_power_metrics": {
-    "target_hover_height_clearance_mm": 75.0,
-    "anti_freeze_prevention_method": "Electro-Acoustic Standing Harmonic Ripple",
-    "excitation_transducer_frequency_hz": 2400.0,
-    "organic_monocoque_emp_isolation_floor_db": 140.0,
-    "primary_propulsion_drive": "Dual High-Torque Brushless Outrunner Motors"
-  },
-  "personal_deck_spatial_configuration": {
-    "maximum_rated_rider_payload_kg": 100.0,
-    "total_operational_deck_curb_mass_kg": 10.0,
-    "closed_loop_fluid_volume_capacity_ml": 450.0,
-    "overall_deck_length_mm": 780.0,
-    "overall_deck_width_mm": 220.0
+  "self_healing_and_auxetic_activation_bounds": {
+    "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
+    "poissons_ratio_state": "Negative Poisson's Ratio (Impact Thickening)",
+    "activation_pressure_drop_kpa": 15.0,
+    "solidification_clotting_latency_seconds": 3.2,
+    "bloodstream_composition": "Pure H2O with 1.5% CNC / 0.05% Xanthan / 0.05% CuSO4 / 5.0% Propylene Glycol"
   },
   "validation_sourcing_ledger": [
     {
-      "root_skate_twin_engine_file": "vortex-hoverboard-kinetic88/master-skate-twin.py",
-      "symmetrical_implosion_parity_check": "MATCHED"
+      "root_skate_simulation_script": "vortex-hoverboard-kinetic88/master-skate-twin.py",
+      "pneumatic_coanda_parity_check": "MATCHED"
     }
   ]
 }
