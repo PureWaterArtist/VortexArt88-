@@ -3,13 +3,13 @@
   "component_id": "PROJECT-METAMATRIX-GLOBAL-CARD",
   "module_layer": "synthesizer-coordinate-engine",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "4.1.0",
-  "mhd_propulsion_fluidic_coordinates": {
-    "driver_fluid_medium": "Eutectic Gallium-Indium (EGaIn) Liquid Metal",
+  "version": "5.0.0",
+  "pneumatic_propulsion_fluidic_coordinates": {
+    "driver_fluid_medium": "Clean Pressurized Ambient Atmosphere (Air)",
+    "working_pressure_delta_kpa": 175.0,
+    "aerostatic_levitation_cushion_microns": 15.0,
     "axis_positioning_resolution_microns": 1.0,
-    "max_fluid_velocity_meters_per_second": 1.2,
-    "hydrodynamic_reynolds_number_ceiling": 0.05,
-    "magnetic_saturation_insulation_liner": "Atomic Boron Nitride Nanotubes (BNNT)"
+    "hydrodynamic_reynolds_number_ceiling": 0.05
   },
   "multi_vascular_spinneret_deposition_specs": {
     "structural_nozzle_diameter_microns": 400.0,
@@ -28,17 +28,10 @@
     "nominal_operating_temperature_celsius": 22.5,
     "print_bed_substrate_type": "Thermal Shape-Memory Polymer Alloy Sheet"
   },
-    "open_source_input_material_feed_protocols": {
-    "primary_feed_medium_type": "Universal Liquid UV-Curable Photopolymer Monomer",
-    "secondary_recycler_input_type": "Standard Thermoplastic Filament Rolls / Polymer Trash Scrap",
-    "polymer_dissolution_chemical_solvent": "Organic d-Limonene / Acetone Slurry Matrix",
-    "structural_feed_delivery_delta_pressure_kpa": 2.5,
-    "capillary_bloodstream_feed_delivery_interface": "Standard Commercial Luer-Lock Fluid System"
-  },
   "validation_sourcing_ledger": [
     {
       "root_synthesizer_mesh_compiler_script": "vortex-synthesizer-mmx88/generate-synthesizer-mesh.py",
-      "real_world_remediation_parity_check": "MATCHED"
+      "pneumatic_levitation_parity_check": "MATCHED"
     }
   ]
 }
