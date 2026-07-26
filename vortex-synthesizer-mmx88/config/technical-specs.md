@@ -1,17 +1,18 @@
-# Module config: Technical Specifications & Biomimetic Manufacturing Controls
+# Module config: Technical Specifications & Pneumatic Manufacturing Controls
 **Document Class:** System Production Authority Card (PROJECT METAMATRIX)
-**Version:** 4.1.0 // Sfluidic Coordinate Slicing Focus // Ambient Cavitation
+**Version:** 5.0.0 // Pressurized Air Logic Focus // Aerostatic Cushion
 
-This ledger locks in the exact fluid velocities, positioning tolerances, chemical suspension ratios, and ultrasonic wave parameters required to operate the self-healing material synthesizer with absolute precision.
+This ledger locks in the exact air pressures, pneumatic positioning tolerances, chemical suspension ratios, and ultrasonic wave parameters required to operate the air-levitation material synthesizer in total equilibrium.
 
 ---
 
-## 📐 1. Magnetohydrodynamic (MHD) Propulsion Engine Metrics
-*   **Coordinate Drive Mechanism:** Frictionless Valveless Fluidic Electromagnetic Induction Loop.
-*   **Working Driver Fluid:** Eutectic Gallium-Indium (EGaIn) Liquid Metal Alloy.
+## 📐 1. Pneumatic Aerostatic Propulsion Engine Metrics
+*   **Coordinate Drive Mechanism:** Frictionless Valveless Pressurized Air-Cushion Levitation.
+*   **Working Driver Fluid:** Clean, Ambient Pressurized Atmosphere (Air).
+*   **Working Operational Pressure Delta:** Stable $150.0\text{ kPa}$ to $200.0\text{ kPa}$ input flow.
+*   **Levitation Cushion Depth Height:** Continuous $15.0\text{ \mu m}$ thin aerostatic air film shield.
 *   **Absolute Axis Positioning Resolution:** $\pm 1.0\text{ \mu m}$ across X, Y, and Z coordinate paths.
-*   **Maximum Peak Drive Fluid Velocity:** Hard-capped at $\leq 1.2\text{ m/s}$ under high-acceleration passes.
-*   **Hydrodynamic Flow Regime Boundary:** Strictly locked within the hyper-laminar regime ($Re \approx 0.05$). This keeps fluid friction near zero, eliminating coordinate positioning backlash or mechanical drift over centuries of operation.
+*   **Hydrodynamic Flow Regime Boundary:** Strictly locked within the hyper-laminar regime ($Re \approx 0.05$). This keeps internal fluid friction at absolute zero, completely eliminating liquid metal clogging, magnetic saturation loops, or mechanical backlash over centuries of operation.
 
 ---
 
