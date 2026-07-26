@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-PROJECT METAMATRIX: Synthesizer Codebase Parity & Structural Integrity Linter
-System ID: PROJECT-METAMATRIX-LINTER-GLOBAL-v88
+PROJECT METAMATRIX: Master Synthesizer Codebase Parity & Structural Integrity Linter
+Path: vortex-synthesizer-mmx88/verify-matrix-parity.py
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
-This script acts as the master quality gate for the synthesizer repository, auditing both the 
+This script acts as the supreme quality gate for the synthesizer repository, auditing both the 
 machine-readable schemas and human guides against the root physics to guarantee zero data drift.
 """
 
@@ -14,7 +14,7 @@ import sys
 
 def verify_matrix_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT METAMATRIX GLOBAL PLANETARY REBUILD PARITY SWEEP")
+    print("🛰️  INITIATING PROJECT METAMATRIX SUPREME REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
     # 1. Verify existence of critical root, configuration, and manual anchor files
@@ -28,6 +28,7 @@ def verify_matrix_parity():
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
+        "config/OPERATIONS_MANUAL.md",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -56,7 +57,7 @@ def verify_matrix_parity():
         sys.exit(1)
     print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
 
-    # 3. Read and verify cross-linked data strings inside the human-readable files
+    # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
@@ -70,7 +71,7 @@ def verify_matrix_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN-READABLE SPECIFICATION METROLOGY CODES SYNCHRONIZED.")
 
-    # 4. Verify procurement card contents against our $495 capital budget
+    # 4. Verify procurement card contents against our capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -83,6 +84,20 @@ def verify_matrix_parity():
         print(f"❌ LINTER RUNTIME ERROR: Hardware procurement BOM card is missing or unreadable: {str(e)}")
         sys.exit(1)
     print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
+    
+    # 5. Audit the Human-Readable Operations Handbook for troubleshooting thresholds
+    try:
+        with open("config/OPERATIONS_MANUAL.md", "r") as f:
+            ops_content = f.read()
+            
+        if "+2.5 kPa" not in ops_content or "45.0-degree" not in ops_content or "10.0\\text{ Pa}" not in ops_content:
+            print("❌ OPERATIONS DRIFT ERROR: Vacuum priming metrics or pressure delta troubleshooting limits mismatched.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Operations field manual is missing or unreadable: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 05: FIELD HANDBOOK AND STAGING DIAGNOSTICS SYNCHRONIZED.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL PLANETARY SYSTEM MATRIX SECURED // MASTER PARITY LEDGER GREEN")
@@ -91,4 +106,4 @@ def verify_matrix_parity():
 
 if __name__ == "__main__":
     verify_matrix_parity()
-        
+    
