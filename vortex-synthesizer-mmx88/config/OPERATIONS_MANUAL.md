@@ -1,5 +1,5 @@
 # Module config: Symmetrical Assembly, Operation, and Diagnostics Field Manual
-**Configuration:** Project METAMATRIX // 1.0μm MHD Axis Matrix // Ambient Photonic Cavitation Sintering
+**Configuration:** Project METAMATRIX // 1.0μm Pneumatic Axis Matrix // Ambient Photonic Cavitation Sintering
 **Licensing Framework:** CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 **Security Protocol:** Fully Hard-Locked via the Universal Non-Weaponization Civilizational Accord
 
@@ -11,15 +11,15 @@ This technical field manual locks down the absolute step-by-step physical calibr
 
 To successfully build the synthesizer cabinet and ensure that the non-electronic coordinate loops align cleanly within their $\pm 1.0\mu m$ positioning limits, execute these four deployment steps in a clean workspace area:
 
-### Step 1.1: Chassis Block Interlocking & Magnetic Liner Embedment
+### Step 1.1: Chassis Block Interlocking & Air Channel Prep
 1. Collect the five modular, 3D-printed balsa-core auxetic frame blocks (`reso-synthesizer-3d-mesh.stl`). 
-2. Line the interior walls of the horizontal magnetohydrodynamic (MHD) induction drive channels with the atomic-layer **Boron Nitride Nanotube (BNNT) insulation sheets**. Ensure the sheet lays perfectly flush against the resin walls to act as a permanent heat sink and prevent liquid-metal magnetic saturation loops.
+2. Verify that the internal horizontal air logic ducts are completely clean, hollow, and free of dust.
 3. Snap the five frame blocks together sequentially using their integrated structural interlocking tabs. Apply amorphous fluoropolymer Cytop resin across the structural perimeter lines to seal the block boundaries airtight.
 
 ### Step 1.2: Mag-Lev Rail Tuning & Carriage Attachment
 1. Mount the non-magnetic ceramic guide rails along the internal X and Y coordinate axes of the chassis frame.
 2. Slide the frictionless print head carriage onto the mag-lev guide paths. Verify by hand that the carriage slides smoothly with zero mechanical resistance or physical friction click points.
-3. Attach the permanent rare-earth neodymium magnet arrays to the base of the carriage, aligning them directly with the copper electromagnetic induction coils woven inside the MHD channel walls.
+3. Attach the carriage manifold face, aligning its micro-vent nozzles directly with the air jet ports cut inside the pneumatic coordinate walls.
 
 ### Step 1.3: Spinneret Die Head & Pressure Valve Integration
 1. Mount the stainless steel tri-chamber concentric co-extrusion spinneret die head onto the center mounting bracket of the carriage assembly.
@@ -35,12 +35,12 @@ To successfully build the synthesizer cabinet and ensure that the non-electronic
 
 ## 🔄 PHASE 2: INITIAL SYSTEM PRIMING & VACUUM DEGASSING
 
-To completely eliminate fluidic embolisms and air bubble cavitation before initializing your first print job, follow this strict closed-loop priming sequence:
+To completely eliminate fluidic embolisms and air bubble cavitation inside the self-healing capillaries before initializing your first print job, follow this strict closed-loop priming sequence:
 
 1. **The Vacuum Evacuation:** Securely connect your manual laboratory vacuum pump to the primary intake plumbing manifold. Pull an internal system vacuum down to **strictly $\leq 10.0\text{ Pa}$ absolute pressure**. 
-2. **The Air Extraction Hold:** Hold the negative pressure vacuum for exactly 10 minutes. Watch the clear tracking lines; this step fully extracts entrapped air bubbles and microfluidic pockets out of the tight 120-micron internal channels.
-3. **Fluid Siphon Charging:** Open the fluid inlet valves while remaining under vacuum. Siphon the liquid Eutectic Gallium-Indium (EGaIn) alloy into the drive channels, and pump your stabilized thixotropic gel bloodstream fluid into the chassis walls under continuous negative pressure. The fluids will fill the capillaries with 100% density, leaving zero gaps.
-4. **MHD Coordination Run:** Apply power to the copper induction coils. Run an automated 3-axis coordinate path script across the build envelope to verify that the print head tracks cleanly at its maximum $\leq 1.2\text{ m/s}$ velocity profile with absolute zero positioning backlash.
+2. **The Air Extraction Hold:** Hold the negative pressure vacuum for exactly 10 minutes. This step fully extracts entrapped air bubbles and microfluidic pockets out of the tight 120-micron internal self-healing channels.
+3. **Fluid Siphon Charging:** Open the fluid inlet valves while remaining under vacuum. Pump your stabilized thixotropic gel bloodstream fluid into the chassis walls under continuous negative pressure. The fluid will fill the capillaries with 100% density, leaving zero gaps.
+4. **Pneumatic Levitation Run:** Connect the low-power air compressor line to the drive channels. Ramp input pressure up to a stable **175 kPa**. Verify that the print head lifts and hovers silently on its thin **15-micron air film**, tracking across the build envelope with absolute zero positioning backlash.
 
 ---
 
@@ -61,7 +61,7 @@ Follow these instructions for every standard material synthesis print job to ens
 
 | Symptom / Failure Mode | Root Cause Analysis | Immediate Corrective Workbench Action |
 | :--- | :--- | :--- |
-| **Print Head Experiences Coordinate Backlash or Stuttering (\&gt; $\pm 1.0\mu m$ Drift)** | Fluidic Embolism: A trapped air bubble inside the closed-loop MHD ducts is compressing, breaking the magnetic induction pulse. | Immediately halt print script execution. Open the exit purge valve, attach the vacuum pump, pull the system down to $\leq 10.0\text{ Pa}$, and re-siphon the EGaIn liquid metal under negative pressure to clear out the vapor lock. |
+| **Print Head Drops or Experiences Drag/Friction During Coordinate Movement** | Pneumatic Pressure Drop: Compressor line pressure fell below the required 150 kPa threshold, collapsing the 15μm levitation air film. | Immediately halt print script execution. Check compressor line coupling links. Re-engage pressure regulators to line clamp a steady 175 kPa input flow stream to restore the aerostatic cushion. |
 | **Structural Resin Bleeds into and Clogs the 120μm Self-Healing Capillaries** | Pressure Delta Equalization: Canister 1 pressure dropped below the critical $+2.5\text{ kPa}$ hydraulic barrier threshold, allowing cross-contamination. | Abort the print job immediately. Submerge the spinneret head inside an ultrasonic isopropyl alcohol (IPA) bath. Attach your syringe to the center vertical port and manually push clean alcohol through to clear out uncured monomer before it bakes solid. Re-calibrate the pressure delta differential valves. |
 | **Vascular Bloodstream Liquid Settles, Separates, or Forms White Clumps in Storage** | Flocculation Error: Missing or degraded Xanthan Gum stabilizer suspension ceiling, causing gravity settling of crystalline nanocellulose whiskers. | Flush the entire chassis wall loop with clean distilled water. Re-compound a fresh bloodstream fluid batch inside an ultrasonic agitator bath, ensuring you verify the strict addition of exactly $0.05\%$ volumetric ratio of Xanthan Gum gel. |
 | **Printed Armor Scales Exhibit Face Cracking and Layer Line Delamination on Impact** | Slicer Error: Scales printed flat against the build bed, running the weak photopolymer layer lines completely horizontal. | Throw away the delaminated scrap tiles and drop them into the recycler hopper. Open your slicing software script, access the layer metadata, and rotate the component orientation to a strict **45.0-degree incline angle on the Y-axis** to cross-hatch layer bonds. |
