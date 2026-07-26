@@ -1,4 +1,4 @@
-* ⚠️**SOVEREIGN COMMUNITY EXPLAINER**⚠️ *
+* **SOVEREIGN COMMUNITY EXPLAINER** *
 
 # 🏡 Neighborhood Blueprint: An Everyday Guide to Our Self-Healing Protective Society
 
