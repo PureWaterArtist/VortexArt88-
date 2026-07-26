@@ -79,17 +79,17 @@ We use regular, cheap, off-the-shelf materials to achieve four incredible things
 
 ### 1. Brittle Single-Shatter Plates vs. Localized Decoupled Scales
 ![Side-by-Side Comparison of Traditional Ceramic Plate Shatter vs. Resilient Decoupled Hexagonal Scales Matrix](/media/grid88-comparative-shatter-vs-scale.png)
-Big corporations and defense contractors build body armor...
+Big corporations and defense contractors build body armor...and just about everything else we use...a very specific and certain way...
 
 ### 2. Fragile Digital Microchips vs. Autonomous Physical Fluid Logic
 ![Side-by-Side Comparison of Vulnerable Digital Silicon Circuitry vs. Un-Jammable Microfluidic Coandă Air-Logic Channels](/media/grid88-comparative-chips-vs-logic.png)
-They hide the blueprints inside proprietary "black boxes"...does that circuit board look like the typical city block from the sky maybe?
+They hide the blueprints inside proprietary "black boxes"...does that circuit board look like the typical city block from the sky maybe...?
 
-## 🛡️ How the Suit Works (In Plain English)
+## 🛡️ How the "Suit" Works (In Plain English)
 
 ### 3. Heavy Fabric Slump vs. Balanced Exoskeleton Weight Distribution
 ![Side-by-Side Comparison of Traditional Heavy Fabric Vest Stretches vs. Balanced TPU Backbone Weight Routing](/media/grid88-comparative-slump-vs-backbone.png)
-Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
+Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...kind of like one person being forced to work 256 different jobs to survive...
 
 ---
 
