@@ -7,6 +7,8 @@
 
 # 👑 PROJECT SOVEREIGN CORNERSTONE: The Sovereign Civilization Planetary Rebuild
 
+[Click here to open the Project Master Readme](./!READ-FIRST/README.md)
+
 ## 🌌 Master Gateway Manifest & Core Resodynamic Philosophy
 
 **PROJECT SOVEREIGN CORNERSTONE (System Hub: vortex-grid-matrix88)** serves as the absolute, centralized root repository and open-source blueprint for an un-killable, infinite-lifespan global infrastructure network. This architecture completely dismantles the fragile, centralized, and extractive utility designs of the old world—replacing vulnerable overhead copper lines, toxic chemical battery grids, and fragile microchips with solid-state geometry and natural resonance.
