@@ -14,6 +14,19 @@ Modern society is built on things that are designed to fail, rust, or lock you i
 
 **Our project breaks this corporate dependency by returning the manufacturing keys back to the neighborhood garage.**
 
+## 🛡️ How the Suit Works (In Plain English)
+
+### 1. The Move-With-You Shield (Auxetic Shapes)
+![The Auxetic Expansion Effect Diagram Mapping Material Densification](./media/grid88-explainer-auxetic-squeeze.png)
+Normal materials get thinner when you stretch them...
+
+### 2. The 3.2-Second Liquid Patch (The Bloodstream)
+![Micro-Capillary Vascular Fluid Network Instantly Sealing a Fracture Puncture](./media/grid88-explainer-fluid-clot.png)
+Every single scale contains an internal network of microscopic fluid channels...
+
+### 3. The Zero-Sag Exo-Frame (The Skeleton)
+![Internal Semi-Rigid TPU Backbone Frame Eliminating Fabric Sag and Plate Bunching](./media/grid88-explainer-tpu-spine.png)
+Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
 ---
 
 ## 🛡️ How the Suit Works (In Plain English)
