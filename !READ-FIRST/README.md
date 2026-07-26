@@ -1,7 +1,8 @@
-* **SOVEREIGN COMMUNITY EXPLAINER** *
+* ⚠️**SOVEREIGN COMMUNITY EXPLAINER**⚠️ *
 
-# 🏡 Neighborhood Blueprint: An Everyday Guide to Our Self-Healing Protective Suit
-**Project Phase:** Open-Source Public-Domain Infrastructure (PROJECT RESO-SUIT)
+# 🏡 Neighborhood Blueprint: An Everyday Guide to Our Self-Healing Protective Society
+
+**Project Phase:** Open-Source Public-Domain Infrastructure (PROJECT RESO-SUIT+)
 **Reading Time:** 5 Minutes // Written for Neighbors, Families, and Makers
 
 If you have ever watched a sci-fi movie where a suit of armor instantly repairs its own bullet holes, or a vehicle floats silently with zero mechanical parts, you probably thought it was impossible Hollywood magic. 
@@ -15,12 +16,12 @@ This document is here to prove that this technology is not science fiction. It i
 
 ## 🛑 The Problem: The "Black-Box" Convenience Trap
 
-Modern society is built on things that are designed to fail, rust, or lock you into a subscription loop. Big corporations and defense contractors build body armor, vehicles, and tools using massive, multi-million-dollar factory setups. They hide the blueprints inside proprietary "black boxes" so that regular people stay completely dependent on centralized supply lines. If a crisis hits, or a supply chain snaps, ordinary communities are left completely unprotected.
+**Modern society is built on things that are designed to fail, rust, or lock you into a subscription loop. Big corporations and defense contractors build body armor, vehicles, and tools using massive, multi-million-dollar factory setups. They hide the blueprints inside proprietary "black boxes" so that regular people stay completely dependent on centralized supply lines. If a crisis hits, or a supply chain snaps, ordinary communities are left completely unprotected.**
 
 **Our project breaks this corporate dependency by returning the manufacturing keys back to the neighborhood garage.**
 
 ### Reclaiming the Commons: Moving from Centralized Control to Localized Independence
-![Comparative Analysis Matrix outlining the structural shift from closed-source industrial monopolies to decentralized neighbor workshop enclaves](./media/grid88-system-paradigm-comparison.png)
+![Comparative Analysis Matrix outlining the structural shift from closed-source industrial monopolies to decentralized neighbor workshop enclaves](/media/grid88-system-paradigm-comparison.png)
 
 ### Neighborhood Abundance: Sourcing, Printing, and Building Together
 ![Visual representation of localized mass-production showing a community garage workshop collaborating over a material synthesizer node](/media/grid88-enclave-workshop-abundance.png)
