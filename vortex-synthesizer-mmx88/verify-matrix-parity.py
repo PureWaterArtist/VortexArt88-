@@ -22,6 +22,9 @@ def verify_matrix_parity():
         "README.md", 
         "generate-synthesizer-mesh.py", 
         "verify-matrix-parity.py",
+        "media/README.md",
+        "media/generate-blueprint.py",
+        "media/grid88-matrix-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
@@ -88,4 +91,4 @@ def verify_matrix_parity():
 
 if __name__ == "__main__":
     verify_matrix_parity()
-    
+        
