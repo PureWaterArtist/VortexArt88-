@@ -37,3 +37,18 @@ This ledger locks in the exact fluid velocities, positioning tolerances, chemica
 *   **Photonic Curing Wavelength Window:** Targeted $405\text{ nm}$ ultraviolet LED chip matrix array.
 *   **Operating Temperature Baseline:** $21.0^{\circ}\text{C}$ to $24.0^{\circ}\text{C}$ ambient space equilibrium (Completely drops energy-intensive melting pots or high-power thermal heaters).
   
+---
+
+## 🧪 5. Standardized Open-Source Input Material Feed Protocols (Module: feed-matrix88)
+To eliminate dependency on corporate filament wire rolls, the material synthesizer locks down a dual-mode open liquid fluid delivery matrix running at room-temperature ambient equilibrium:
+
+### A. Universal Liquid Monomer Canister Feed (Primary SLA Sintering Mode)
+*   **Compatible Feed Medium:** Standard mass-market commercial UV-curable liquid photopolymer resins (Tough Resins, Abs-like Resins, Elastomeric Resins).
+*   **Delivery Pressure Velocity:** +2.5 kPa continuous positive hydraulic pressure delta.
+*   **Vascular Capillary Carrier Capacity:** 100% compatible with off-the-shelf medical-grade Luer-Lock syringe feeds to charge the 120μm self-healing loops.
+
+### B. Centripetal Scrap Plastic Dissolver Hopper (Secondary Recycler Mode)
+*   **Compatible Input Medium:** Standard old-world thermoplastic filament spools (PLA, ABS, PETG), failed scrap prints, or industrial post-consumer polymer packaging trash.
+*   **Dissolution Agent Medium:** 95.0% Volumetric concentration of reusable d-Limonene or high-volatility organic acetone slurs.
+*   **Fluid Delivery Pipeline Routing:** Liquefies solid wire back into a low-viscosity printable slurry matrix, automatically siphoning the fluid into the 400μm structural spinneret ports via the core valveless MHD pumps.
+  
