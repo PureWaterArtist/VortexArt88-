@@ -4,6 +4,38 @@
 
 This document locks in the exact dimensions, weight profiles, and layer interlocking tolerances required to build a multi-tier conformal armor stack without causing capillary misalignment.
 
+# Module config: Technical Specifications & Pneumatic Inter-Layer Controls
+**Document Class:** System Production Authority Card (PROJECT RESO-ARMOR)
+**Version:** 5.0.0 // Pressurized Air Shield Focus // Modular Metamaterial
+
+This specifications ledger locks in the precise physical dimensions, fluid thresholds, and clearance tolerances required to operate the interlocking scale-invariant armor tile matrices without mechanical binding or chemical cross-contamination.
+
+---
+
+## 📐 1. Modular Tile Dimensional Footprints
+*   **Primary Tile Edge Length:** Exactly 300.0 mm.
+*   **Primary Tile Edge Width:** Exactly 300.0 mm standard modular footprint.
+*   **Single-Layer Chassis Base Thickness:** 8.0 mm ultra-thin profile depth.
+*   **Sinusoidal Wave Interlock Amplitude Profile:** 1.5 mm ridge-and-groove vertex.
+*   **Double-Layer Nested Profile Thickness:** Exactly $14.5\text{ mm}$ (Accounting for the $1.5\text{ mm}$ interlocking wave drop and the $15.0\text{ \mu m}$ air pressure gap).
+*   **Net Dry Structural Chassis Mass:** 1.45 kg per individual tile.
+
+---
+
+## 💨 2. Pneumatic Inter-Layer Aerostatic Barrier Jackets
+*   **Interlock Cushion Shield Medium:** Clean, Ambient Pressurized Atmosphere (Air).
+*   **Working Input Pneumatic Pressure:** Stable $175.0\text{ kPa}$ input flow stream.
+*   **Aerostatic Jacket Film Depth Thickness:** Exactly $15.0\text{ \mu m}$ thin air film separation barrier.
+*   **Hydrodynamic Flow Regime Boundary:** Strictly locked within the hyper-laminar regime ($Re \approx 0.05$). This keeps internal fluid friction at absolute zero, completely eliminating mechanical lock-wear and forming an unyielding pressurized wall that permanently prevents external dust from infiltrating the puzzle faces with zero chemical cross-contamination risk.
+
+---
+
+## 🫀 3. Integrated Microfluidic Vascular Self-Healing Networks
+*   **Defensive Capillary Width Track:** $120.0\text{ \mu m}$ embedded structural protection lines.
+*   **Vascular Stabilized Bloodstream Composition:** 93.45% H2O / 5.00% Propylene Glycol / 1.50% Crystalline Nanocellulose / 0.05% Xanthan Gum / 0.05% Copper Sulfate ($CuSO_4$).
+*   **Activation Pressure Drop Window:** $\Delta P \geq 15.0\text{ kPa}$ local drop.
+*   **Geopolymer Clotting Latency:** Suspended fibers cross-link and solidify into a glass-hard patch within $\leq 3.2\text{ seconds}$ of casing puncture, entirely software-free.
+
 ---
 
 ## ⚖️ 1. Multi-Tier Conformal Mass Metrics (Per 300mm x 300mm Tile)
