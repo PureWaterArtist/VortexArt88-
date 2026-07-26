@@ -42,20 +42,19 @@ def verify_matrix_parity():
         with open("config/global-matrix-card.json", "r") as f:
             card_data = json.load(f)
             
-        resolution = card_data["mhd_propulsion_fluidic_coordinates"]["axis_positioning_resolution_microns"]
-        capillary_port = card_data["multi_vascular_spinneret_deposition_specs"]["capillary_nozzle_diameter_microns"]
+        resolution = card_data["pneumatic_propulsion_fluidic_coordinates"]["axis_positioning_resolution_microns"]
+        levitation = card_data["pneumatic_propulsion_fluidic_coordinates"]["aerostatic_levitation_cushion_microns"]
         pressure_delta = card_data["multi_vascular_spinneret_deposition_specs"]["dynamic_separation_differential_pressure_kpa"]
-        insulation_liner = card_data["mhd_propulsion_fluidic_coordinates"]["magnetic_saturation_insulation_liner"]
         
         # Verify strict compliance with our real-world vulnerability remediations
-        if resolution != 1.0 or capillary_port != 120.0 or pressure_delta != 2.5 or "Boron Nitride" not in insulation_liner:
-            print("❌ DATA DRIFT ERROR: Positioning resolution, capillary port sizes, cross-bleed deltas, or magnetic liners mismatch.")
+        if resolution != 1.0 or levitation != 15.0 or pressure_delta != 2.5:
+            print("❌ DATA DRIFT ERROR: Positioning resolution, air cushion limits, or cross-bleed deltas mismatch.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID PNEUMATIC CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
