@@ -21,4 +21,8 @@ This directory serves as the centralized validation hub for the Biomimetic Mater
 4. **File Path:** `./HARDWARE_BOM.md`
    * **Asset Class:** Human-Readable Procurement Matrix Data Card & Assembly Protocols
    * **User Target:** Material Sourcing Crews, Workshop Operators, & Budget Trackers
-   
+
+5. **File Path:** `./OPERATIONS_MANUAL.md`
+   * **Asset Class:** Human-Readable Assembly Handbook, Priming Protocols, and Fluidic Troubleshooting Diagnostics Matrix
+   * **User Target:** Field Technicians, Workshop Mechanics, SLA Operators, and Sovereign Pilots
+     
