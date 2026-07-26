@@ -83,7 +83,7 @@ Big corporations and defense contractors build body armor...
 
 ### 2. Fragile Digital Microchips vs. Autonomous Physical Fluid Logic
 ![Side-by-Side Comparison of Vulnerable Digital Silicon Circuitry vs. Un-Jammable Microfluidic Coandă Air-Logic Channels](/media/grid88-comparative-chips-vs-logic.png)
-They hide the blueprints inside proprietary "black boxes"...
+They hide the blueprints inside proprietary "black boxes"...does that circuit board look like the typical city block from the sky maybe?
 
 ## 🛡️ How the Suit Works (In Plain English)
 
