@@ -41,3 +41,28 @@ To completely eliminate fluidic embolisms and air bubble cavitation before initi
 2. **The Air Extraction Hold:** Hold the negative pressure vacuum for exactly 10 minutes. Watch the clear tracking lines; this step fully extracts entrapped air bubbles and microfluidic pockets out of the tight 120-micron internal channels.
 3. **Fluid Siphon Charging:** Open the fluid inlet valves while remaining under vacuum. Siphon the liquid Eutectic Gallium-Indium (EGaIn) alloy into the drive channels, and pump your stabilized thixotropic gel bloodstream fluid into the chassis walls under continuous negative pressure. The fluids will fill the capillaries with 100% density, leaving zero gaps.
 4. **MHD Coordination Run:** Apply power to the copper induction coils. Run an automated 3-axis coordinate path script across the build envelope to verify that the print head tracks cleanly at its maximum $\leq 1.2\text{ m/s}$ velocity profile with absolute zero positioning backlash.
+
+---
+
+## 🖨️ PHASE 3: CHASSIS RUNTIME OPERATION STEPS
+
+Follow these instructions for every standard material synthesis print job to ensure perfect multi-material cross-linking with zero layer line defects:
+
+1. **Power Verification:** Ensure the solid-state graphene joint-piezo accumulator pack shows a stable voltage charge output of $\geq 12.8\text{V}$ before launching scripts.
+2. **Hopper Staging:** Fill Canister 1 with commercial UV-curable liquid photopolymer tough resin monomer. If recycling scrap thermoplastic wire (PLA/ABS) or clean plastic packaging trash, drop the fragments directly into the centripetal dissolver hopper, fill the solvent tank with organic d-Limonene or acetone slurries, and wait 8 minutes for the plastic to fully liquefy into a low-viscosity structural slurry.
+3. **Vascular Staging:** Charge the secondary fluid line with your freshly agitator-shaken thixotropic self-healing mixture fluid.
+4. **Pressure Delta Lock:** Initialize the flow control manifolds. Lock your differential pressure valves to a continuous **+2.5 kPa positive pressure delta** on the structural resin line relative to the capillary bloodstream line. This creates an unyielding hydraulic wall that permanently prevents resin from bleeding into your 120-micron self-healing paths during extrusion.
+5. **Acoustic Launch:** Trigger the 40.0 kHz ultrasonic cavitation piezo-transducers and turn on the 405nm UV LED panels. The machine will begin co-extruding the structural material and self-healing ports simultaneously at a constant room-temperature baseline ($22.5^{\circ}\text{C}$), flash-solidifying the liquid monomer instantly as it touches the shape-memory bed.
+6. **Part Release:** Once the print job finishes, pass a brief 12V electrical surge through the print bed terminal links. The shape-memory polymer sheet will change its micro-texture geometry, allowing you to lift your completed self-healing armor plate or suit scale cleanly off the bed with zero material tearing.
+
+---
+
+## 🛠️ PHASE 4: DIAGNOSTICS & FLUIDIC TROUBLESHOOTING
+
+| Symptom / Failure Mode | Root Cause Analysis | Immediate Corrective Workbench Action |
+| :--- | :--- | :--- |
+| **Print Head Experiences Coordinate Backlash or Stuttering (\&gt; $\pm 1.0\mu m$ Drift)** | Fluidic Embolism: A trapped air bubble inside the closed-loop MHD ducts is compressing, breaking the magnetic induction pulse. | Immediately halt print script execution. Open the exit purge valve, attach the vacuum pump, pull the system down to $\leq 10.0\text{ Pa}$, and re-siphon the EGaIn liquid metal under negative pressure to clear out the vapor lock. |
+| **Structural Resin Bleeds into and Clogs the 120μm Self-Healing Capillaries** | Pressure Delta Equalization: Canister 1 pressure dropped below the critical $+2.5\text{ kPa}$ hydraulic barrier threshold, allowing cross-contamination. | Abort the print job immediately. Submerge the spinneret head inside an ultrasonic isopropyl alcohol (IPA) bath. Attach your syringe to the center vertical port and manually push clean alcohol through to clear out uncured monomer before it bakes solid. Re-calibrate the pressure delta differential valves. |
+| **Vascular Bloodstream Liquid Settles, Separates, or Forms White Clumps in Storage** | Flocculation Error: Missing or degraded Xanthan Gum stabilizer suspension ceiling, causing gravity settling of crystalline nanocellulose whiskers. | Flush the entire chassis wall loop with clean distilled water. Re-compound a fresh bloodstream fluid batch inside an ultrasonic agitator bath, ensuring you verify the strict addition of exactly $0.05\%$ volumetric ratio of Xanthan Gum gel. |
+| **Printed Armor Scales Exhibit Face Cracking and Layer Line Delamination on Impact** | Slicer Error: Scales printed flat against the build bed, running the weak photopolymer layer lines completely horizontal. | Throw away the delaminated scrap tiles and drop them into the recycler hopper. Open your slicing software script, access the layer metadata, and rotate the component orientation to a strict **45.0-degree incline angle on the Y-axis** to cross-hatch layer bonds. |
+| **Green Algae or Biofilm Slime Obstructing Flow Inside Core Fluid Tracking Lines** | Biocide Starvation: Omission of the copper sulfate ($CuSO_4$) microbial suppression crystals during the compounding phase. | Flush the infected vascular loops with a 10% hydrogen peroxide solution to completely scrub out organic biofilms. Flush with clean water, then reload the lines with a fresh fluid mix containing the mandated trace $0.05\%$ copper sulfate biocide ceiling. |
