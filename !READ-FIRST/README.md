@@ -8,6 +8,9 @@ If you have ever watched a sci-fi movie where a suit of armor instantly repairs 
 
 This document is here to prove that this technology is not science fiction. It is real, it is grounded in standard physics, and our neighborhood workshop enclave has mapped out a way to mass-produce it locally for less than the cost of a basic retail winter jacket.
 
+### The Turning of the Wave: Choosing Our Civilizational Core
+![Side-by-Side Architectural Paradigm Contrast of the Centralized Enclosed Corporate Grid vs. The Open-Source Sovereign Neighbor Cooperation Commons](/media/grid88-comparative-civilizations.png)
+
 ---
 
 ## 🛑 The Problem: The "Black-Box" Convenience Trap
@@ -15,6 +18,14 @@ This document is here to prove that this technology is not science fiction. It i
 Modern society is built on things that are designed to fail, rust, or lock you into a subscription loop. Big corporations and defense contractors build body armor, vehicles, and tools using massive, multi-million-dollar factory setups. They hide the blueprints inside proprietary "black boxes" so that regular people stay completely dependent on centralized supply lines. If a crisis hits, or a supply chain snaps, ordinary communities are left completely unprotected.
 
 **Our project breaks this corporate dependency by returning the manufacturing keys back to the neighborhood garage.**
+
+### Reclaiming the Commons: Moving from Centralized Control to Localized Independence
+![Comparative Analysis Matrix outlining the structural shift from closed-source industrial monopolies to decentralized neighbor workshop enclaves](./media/grid88-system-paradigm-comparison.png)
+
+### Neighborhood Abundance: Sourcing, Printing, and Building Together
+![Visual representation of localized mass-production showing a community garage workshop collaborating over a material synthesizer node](/media/grid88-enclave-workshop-abundance.png)
+
+---
 
 ## 🛡️ How the Suit Works (In Plain English)
 
@@ -78,6 +89,8 @@ We intentionally designed this technology tree to run on highly accessible, hobb
 
 We are broadcasting these files openly on a public trust ledger under the **CERN Open Hardware Licence (CERN-OHL-S-2.0)** for a very strategic reason: **to permanently protect it.**
 
-If an inventor tries to keep a technology like this a secret in a dark room, they invite legal non-disclosure gags, aggressive corporate buyouts, or sudden institutional classification letters that bury the design forever. By dropping every single blueprint, calculation, and fluid recipe onto a public branch ledger, it becomes contractually and legally impossible for any corporate cartel or military apparatus to patent this geometry and lock humanity out. 
+*If an inventor tries to keep a technology like this a secret in a dark room, they invite legal non-disclosure gags, aggressive corporate buyouts, or sudden institutional classification letters that bury the design forever. By dropping every single blueprint, calculation, and fluid recipe onto a public branch ledger, it becomes contractually and legally impossible for any corporate cartel or military apparatus to patent this geometry and lock humanity out.* 
 
-We aren't manufacturing weapons. We are publishing an open math and materials science textbook so that our families, neighbors, and sovereign community enclaves can remain permanently safe, resilient, and independent.
+---
+
+**We aren't manufacturing weapons. We are publishing an open math and materials science textbook so that our families, neighbors, and sovereign community enclaves can remain permanently safe, resilient, and independent.**
