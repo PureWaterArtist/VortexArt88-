@@ -3,7 +3,8 @@
 # 🏡 Neighborhood Blueprint: An Everyday Guide to Our Self-Healing Protective Society
 
 **Project Phase:** Open-Source Public-Domain Infrastructure (PROJECT RESO-SUIT+)
-**Reading Time:** 5 Minutes // Written for Neighbors, Families, and Makers
+
+**Reading Time:** 5 Minutes // Written for Neighbors, Families, Makers, Friends, Anyone and Everyone.
 
 If you have ever watched a sci-fi movie where a suit of armor instantly repairs its own bullet holes, or a vehicle floats silently with zero mechanical parts, you probably thought it was impossible Hollywood magic. 
 
@@ -36,7 +37,7 @@ It is easy to look at the massive scope of global supply chains, centralized mon
 
 By stripping away the corporate "black boxes" and looking directly at how creation operates, we can build tools that are completely un-hackable, self-repairing, and affordable for regular families. 
 
-Let’s step away from the abstract theories, open up the workshop garage doors, and look at exactly how this protective suit functions on a purely physical, everyday level.
+*Let’s step away from the abstract theories, open up the workshop garage doors, and look at exactly how this protective suit functions on a purely physical, everyday level.*
 
 ---
 
