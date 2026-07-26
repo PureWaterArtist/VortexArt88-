@@ -1,3 +1,5 @@
+* **SOVEREIGN COMMUNITY EXPLAINER** *
+
 # 🏡 Neighborhood Blueprint: An Everyday Guide to Our Self-Healing Protective Suit
 **Project Phase:** Open-Source Public-Domain Infrastructure (PROJECT RESO-SUIT)
 **Reading Time:** 5 Minutes // Written for Neighbors, Families, and Makers
@@ -59,9 +61,9 @@ Hanging 256 individual armor scales over standard clothing would cause the fabri
 
 ---
 
-## 🛒 Sourcing & Cost: Built for $223 Total
+## 🛒 Sourcing & Cost: Built for ~250-300$ Total
 
-We intentionally designed this technology tree to run on highly accessible, hobby-grade hardware. A single full-body suit (calibrated for a standard 5'11" adult frame) costs **exactly $223.00 USD** in raw materials:
+We intentionally designed this technology tree to run on highly accessible, hobby-grade hardware. A single full-body suit (calibrated for a standard 5'11" adult frame) costs **approximately $250.00 USD** in raw materials:
 
 *   **$105.00** — 3 Liters of standard, hobby-grade 3D printer resin to bulk-print the scales.
 *   **$45.00** — An off-the-shelf, heavy-duty mesh tactical vest to snap the parts onto.
