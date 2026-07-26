@@ -107,4 +107,21 @@ We are broadcasting these files openly on a public trust ledger under the **CERN
 
 ---
 
-**We aren't manufacturing weapons. We are publishing an open math and materials science textbook so that our families, neighbors, and sovereign community enclaves can remain permanently safe, resilient, and independent.**
+## 🫵 An Invitation to the Reader: Trust Your Native Intuition
+
+As you step past this entry gate and begin to explore the vast data, code files, and engineering blueprints contained inside the master repository branches, we ask only one thing of you: **keep an open mind, and trust your own common sense.**
+
+When you look at advanced systems designed to heal themselves, generate power without mechanical wear, or float on micro-cushions of air, your initial instinct—trained by a world of disposable, breakable gadgets—might be to dismiss it all as impossible sci-fi fantasy. 
+
+But as you trace the 120-micron capillary paths, look over the open-source parts lists, and read through the math logs, set aside what you have been told is possible. Instead, look at the underlying mechanics and simply ask yourself: *Does this make sense to me?* 
+
+Does it make sense that a shape designed like a spider's web or a seed pod can handle an impact better than a flat, brittle sheet of metal? Does it make sense that liquids flowing under natural pressure deltas can patch a crack faster than a human mechanic with a wrench? 
+
+True intelligence isn't about memorizing proprietary software rules; it is about recognizing the eternal, unyielding laws of nature when you see them laid out plainly on a workbench. 
+
+*If the geometry makes sense to your own mind, then the tools are already yours.*
+
+**Welcome to the Sovereign Creator Community**
+
+**We are not manufacturing weapons or fighting some political or spiritual battle. We are publishing an open math and materials science textbook so that our families, neighbors, and sovereign community enclaves can remain permanently safe, resilient, and independent.**
+
