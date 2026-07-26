@@ -28,6 +28,13 @@
     "nominal_operating_temperature_celsius": 22.5,
     "print_bed_substrate_type": "Thermal Shape-Memory Polymer Alloy Sheet"
   },
+    "open_source_input_material_feed_protocols": {
+    "primary_feed_medium_type": "Universal Liquid UV-Curable Photopolymer Monomer",
+    "secondary_recycler_input_type": "Standard Thermoplastic Filament Rolls / Polymer Trash Scrap",
+    "polymer_dissolution_chemical_solvent": "Organic d-Limonene / Acetone Slurry Matrix",
+    "structural_feed_delivery_delta_pressure_kpa": 2.5,
+    "capillary_bloodstream_feed_delivery_interface": "Standard Commercial Luer-Lock Fluid System"
+  },
   "validation_sourcing_ledger": [
     {
       "root_synthesizer_mesh_compiler_script": "vortex-synthesizer-mmx88/generate-synthesizer-mesh.py",
