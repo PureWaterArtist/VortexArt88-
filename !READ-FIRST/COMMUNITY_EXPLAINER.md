@@ -40,6 +40,22 @@ We use regular, cheap, off-the-shelf materials to achieve four incredible things
 3. **The Zero-Sag Exo-Frame:** Hanging 256 individual armor scales over standard clothing would cause the fabric to sag and bunch up at your waist, leaving your chest and ribs wide open. To fix this, our suit includes an internal, lightweight, 3D-printed plastic "backbone" frame that clips inside a standard mesh vest, distributing the weight evenly across your shoulders and hips so you can run, jump, and climb with zero protection gaps.
 4. **The Silent Grappling Hook:** The forearm gauntlet houses a toolless, silent launch chamber. By tapping into the suit's fluid pressure lines, it launches a projectile hook completely silently with zero explosive noise or smoke. The rope is woven from a synthetic replica of mussel silk—a material that temporarily "unzips" its molecular bonds to cleanly absorb the shock of a sudden fall without snapping or pulling your shoulder out of its joint.
 
+## 🛑 The Problem: The "Black-Box" Convenience Trap
+
+### 1. Brittle Single-Shatter Plates vs. Localized Decoupled Scales
+![Side-by-Side Comparison of Traditional Ceramic Plate Shatter vs. Resilient Decoupled Hexagonal Scales Matrix](./media/grid88-comparative-shatter-vs-scales.png)
+Big corporations and defense contractors build body armor...
+
+### 2. Fragile Digital Microchips vs. Autonomous Physical Fluid Logic
+![Side-by-Side Comparison of Vulnerable Digital Silicon Circuitry vs. Un-Jammable Microfluidic Coandă Air-Logic Channels](./media/grid88-comparative-chips-vs-logic.png)
+They hide the blueprints inside proprietary "black boxes"...
+
+## 🛡️ How the Suit Works (In Plain English)
+
+### 3. Heavy Fabric Slump vs. Balanced Exoskeleton Weight Distribution
+![Side-by-Side Comparison of Traditional Heavy Fabric Vest Stretches vs. Balanced TPU Backbone Weight Routing](./media/grid88-comparative-slump-vs-backbone.png)
+Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
+
 ---
 
 ## 🛒 Sourcing & Cost: Built for $223 Total
