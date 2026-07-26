@@ -24,9 +24,11 @@ This data card documents the exact off-the-shelf electronic elements, ultrasonic
 
 ## 🔬 Calibration & Assembly Staging Protocol (The First Launch Setup)
 
-To execute the toolless alignment alignment sequence and successfully sinter your first anisotropic 75mm armor scale component, follow these step-by-step assembly phases on your workshop bench:
+To execute the toolless alignment sequence, eradicate fluidic embolisms, and successfully sinter your first anisotropic 75mm armor scale component, follow these step-by-step assembly phases on your workshop bench:
 
 1. **Exoskeleton Assembly:** Print the modular frame blocks flat using standard tough resin, then line the internal magnetohydrodynamic (MHD) induction channels with the atomic Boron Nitride Nanotube (BNNT) sheets to insulate against magnetic saturation.
 2. **Spinneret Alignment:** Mount the tri-chamber stainless steel concentric spinneret head directly onto the mag-lev carriage. Align the vertical port vectors with a high-resolution caliper to guarantee the maximum $\pm 5.0\mu m$ layer-to-layer port shift boundaries.
-3. **MHD Priming:** Inject the liquid Eutectic Gallium-Indium (EGaIn) alloy into the closed-loop drive ducts. Run an initial low-power calibration test sequence to confirm that the head moves with absolute micro-positioning precision ($\pm 1.0\mu m$) in total silence.
-4. **Vat Pressure Bleed:** Connect your pressurized liquid photopolymer resin canisters to the primary structural port. Set your differential valves to a continuous **+2.5 kPa positive pressure delta** relative to the capillary bloodstream line. This creates an unyielding hydraulic wall that permanently prevents liquid cross-contamination bleed inside the spinneret channels.
+3. **Vacuum Evacuation (Flaw 6 Resolution):** Before injecting any liquid drivers or gel bloodstreams, couple a standard manual laboratory vacuum pump to the intake plumbing manifold. Pull an internal system vacuum down to strictly $\leq 10.0\text{ Pa}$ absolute pressure. Hold for 10 minutes to completely evacuate entrapped air pockets from the 120-micron capillaries.
+4. **MHD Priming under Vacuum:** Siphon the liquid Eutectic Gallium-Indium (EGaIn) alloy into the evacuated drive ducts under negative pressure. Run an initial low-power calibration test sequence to confirm that the head moves with absolute micro-positioning precision ($\pm 1.0\mu m$) in total silence with zero bubble cavitation.
+5. **Vat Pressure Bleed:** Connect your pressurized liquid photopolymer resin canisters to the primary structural port. Set your differential valves to a continuous **+2.5 kPa positive pressure delta** relative to the capillary bloodstream line. This creates an unyielding hydraulic wall that permanently prevents liquid cross-contamination bleed inside the spinneret channels.
+
