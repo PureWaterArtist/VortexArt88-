@@ -17,16 +17,17 @@ Modern society is built on things that are designed to fail, rust, or lock you i
 ## 🛡️ How the Suit Works (In Plain English)
 
 ### 1. The Move-With-You Shield (Auxetic Shapes)
-![The Auxetic Expansion Effect Diagram Mapping Material Densification](./media/grid88-explainer-auxetic-squeeze.png)
+![The Auxetic Expansion Effect Diagram Mapping Material Densification](/media/grid88-explainer-auxetic-squeeze.png)
 Normal materials get thinner when you stretch them...
 
 ### 2. The 3.2-Second Liquid Patch (The Bloodstream)
-![Micro-Capillary Vascular Fluid Network Instantly Sealing a Fracture Puncture](./media/grid88-explainer-fluid-clot.png)
+![Micro-Capillary Vascular Fluid Network Instantly Sealing a Fracture Puncture](/media/grid88-explainer-fluid-clot.png)
 Every single scale contains an internal network of microscopic fluid channels...
 
 ### 3. The Zero-Sag Exo-Frame (The Skeleton)
 ![Internal Semi-Rigid TPU Backbone Frame Eliminating Fabric Sag and Plate Bunching](./media/grid88-explainer-tpu-spine.png)
 Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
+
 ---
 
 ## 🛡️ How the Suit Works (In Plain English)
@@ -43,17 +44,17 @@ We use regular, cheap, off-the-shelf materials to achieve four incredible things
 ## 🛑 The Problem: The "Black-Box" Convenience Trap
 
 ### 1. Brittle Single-Shatter Plates vs. Localized Decoupled Scales
-![Side-by-Side Comparison of Traditional Ceramic Plate Shatter vs. Resilient Decoupled Hexagonal Scales Matrix](./media/grid88-comparative-shatter-vs-scales.png)
+![Side-by-Side Comparison of Traditional Ceramic Plate Shatter vs. Resilient Decoupled Hexagonal Scales Matrix](/media/grid88-comparative-shatter-vs-scale.png)
 Big corporations and defense contractors build body armor...
 
 ### 2. Fragile Digital Microchips vs. Autonomous Physical Fluid Logic
-![Side-by-Side Comparison of Vulnerable Digital Silicon Circuitry vs. Un-Jammable Microfluidic Coandă Air-Logic Channels](./media/grid88-comparative-chips-vs-logic.png)
+![Side-by-Side Comparison of Vulnerable Digital Silicon Circuitry vs. Un-Jammable Microfluidic Coandă Air-Logic Channels](/media/grid88-comparative-chips-vs-logic.png)
 They hide the blueprints inside proprietary "black boxes"...
 
 ## 🛡️ How the Suit Works (In Plain English)
 
 ### 3. Heavy Fabric Slump vs. Balanced Exoskeleton Weight Distribution
-![Side-by-Side Comparison of Traditional Heavy Fabric Vest Stretches vs. Balanced TPU Backbone Weight Routing](./media/grid88-comparative-slump-vs-backbone.png)
+![Side-by-Side Comparison of Traditional Heavy Fabric Vest Stretches vs. Balanced TPU Backbone Weight Routing](/media/grid88-comparative-slump-vs-backbone.png)
 Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
 
 ---
