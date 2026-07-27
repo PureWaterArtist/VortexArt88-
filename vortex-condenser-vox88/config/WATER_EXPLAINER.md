@@ -16,6 +16,22 @@ If you have ever looked at a standard commercial atmospheric water generator or 
 
 ## 🌫️ How the Water Synthesizer Works (In Plain English)
 
+### The Complete Anatomy of the Eternal Well
+![Detailed Exploded Mechanical View Diagram Mapping Vortex Thermodynamic Separation and Graphene Purification Loops](./media/grid88-condenser-exploded-view.png)
+
+Instead of using power-hungry copper compressors...
+
+---
+
+## 🏡 Neighborhood Abundance: Active Sourcing and Autonomy
+
+### Harvesting the Atmosphere: Native Survival Abundance
+![Hyper Realistic Real-World Presentation View of the Solid-State Water Synthesizer Outputting Pure Water in a Desert Enclave Environment](./media/grid88-condenser-active-operation.png)
+
+Our project completely eliminates this dependency by using natural geometry...
+
+## 🌫️ How the Water Synthesizer Works (In Plain English)
+
 Instead of using power-hungry copper compressors or complex electronic sensors, this machine copies the exact survival blueprints that nature has successfully used for millions of years:
 
 1. **The Silent Ice-Cone (Vortex Stream Separation):** The heart of the machine is a 3D-printed, narrowing spiral cone. When ambient air is pushed into the cone by a tiny, silent 12V fan, it spins into a miniature tornado. Through pure fluid dynamics, the air splits itself by density: forcing hot air out the outer edge, while dropping **super-chilled air down the absolute center core line**. This drops the air temperature by -25°C, forcing the humidity to instantly cross its dew point and turn into liquid water software-free.
