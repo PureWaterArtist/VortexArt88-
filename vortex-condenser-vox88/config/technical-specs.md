@@ -35,3 +35,9 @@ To natively split incoming ambient air into hot exhaust streams and cold condens
 *   **Nanopore Filtration Substrate Matrix:** Multi-layered sheets of bulk-procured, chemical-free **Graphene-Oxide (GO) Nanopore Sieves** baked inside the resin capillary tracks.
 *   **Absolute Filtration Cut-Off Threshold:** Hard-locked at a strict **$0.02\text{ \mu m}$ ($20\text{ nanometers}$)** filtration ceiling. (Physically blocks 100% of microscopic micro-plastics, organic bacteria, airborne soot particles, and chemical heavy-metal complexes natively through geometry without chlorine or chemical sanitizers).
   
+### 3D PRINTING & PHYSICAL MANIFOLD SPECIFICATIONS
+*   **Solid Modeling Engine:** OpenSCAD / SolidPython Core V2
+*   **Manifold Wall Thickness:** 3.0mm (Minimum structural printable shell)
+*   **Radial Slice Resolution:** 72 segments (High-resolution smooth fluid flow geometry)
+*   **Watertight Integrity:** Enforced via Boolean Difference subtraction (Hull minus Void)
+  
