@@ -11,6 +11,20 @@ This project completely democratizes water security by mimicking the survival ge
 
 The collection array implements a **Biomimetic Namib-Beetle Scale Grid** that co-extrudes hydrophilic collection peaks right alongside **98% super-slip hydrophobic graphene valleys**, forcing condensed water to slide instantly into a **graphene-oxide microfluidic filtration sieve** [No.0]. Running entirely at ambient room-temperature equilibrium off low-power pneumatic pressure arrays, this machine functions as an immortal, independent water well capable of outputting pure, safe drinking water for any household enclave on Earth [No.0, No.1].
 
+
+## 🌫️ How the Water Synthesizer Works (In Plain English)
+
+### The Complete Anatomy of the Eternal Well
+![Detailed Exploded Mechanical View Diagram Mapping Vortex Thermodynamic Separation and Graphene Purification Loops](/media/grid88-condenser-exploded-view.png)
+
+Instead of using power-hungry copper compressors...
+
+---
+
+### Harvesting the Atmosphere: Native Survival Abundance
+![Hyper Realistic Real-World Presentation View of the Solid-State Water Synthesizer Outputting Pure Water in a Desert Enclave Environment](/media/grid88-condenser-active-operation.png)
+
+Our project completely eliminates this dependency by using natural geometry...
 # 👑 PROJECT VOX-VORTEX: Open-Source Solid-State Atmospheric Water Synthesizer
 
 ![Project VOX-VORTEX Atmospheric Water Synthesizer Mechanical Blueprint Layout](./media/grid88-condenser-specs.svg)
