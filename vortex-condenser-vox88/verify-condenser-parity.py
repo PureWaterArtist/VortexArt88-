@@ -14,10 +14,10 @@ import sys
 
 def verify_condenser_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME PLANETARY REBUILD PARITY SWEEP")
+    print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, staging, and media files
+    # 1. Verify existence of critical root, configuration, digital twin, and manual anchor files
     root_anchors = [
         "README.md", 
         "generate-condenser-mesh.py", 
@@ -30,6 +30,7 @@ def verify_condenser_parity():
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
+        "config/OPERATIONS_MANUAL.md",
         "config/WATER_EXPLAINER.md",
         "config/global-matrix-card.json"
     ]
@@ -58,7 +59,7 @@ def verify_condenser_parity():
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID PNEUMATIC CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -74,7 +75,7 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify procurement card contents against our capital budget
+    # 4. Verify procurement card contents against our $209.00 capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -88,7 +89,21 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
 
-    # 5. Audit the High-Density SEO Metadata Target Blocks
+    # 5. Audit the Human-Readable Operations Handbook for troubleshooting thresholds
+    try:
+        with open("config/OPERATIONS_MANUAL.md", "r") as f:
+            ops_content = f.read()
+            
+        if "18.5 Hz" not in ops_content or "15.0\\text{ Pa}" not in ops_content or "+2.5 kPa" not in ops_content:
+            print("❌ OPERATIONS DRIFT ERROR: Operations troubleshooting thresholds or vacuum values mismatched.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Operations field manual is missing or unreadable: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 05: RUNTIME FIELD MANUAL LOGS FULLY SYNCHRONIZED.")
+
+    # 6. Audit the High-Density SEO Metadata Target Blocks
     try:
         with open("config/WATER_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
@@ -100,13 +115,13 @@ def verify_condenser_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community water security explainer manual is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
+    print("✅ PHASE 06: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("✅ GLOBAL WATER SYNTHESIZER SECURED // PARITY MOAT LEDGER IS GREEN")
+    print("✅ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_condenser_parity()
-    
+        
