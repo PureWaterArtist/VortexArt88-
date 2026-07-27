@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-EARTH-MOVE-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-subterranean-transit-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "acoustic_cavitation_nose_metrics": {
+    "nose_cone_diameter_mm": 120.0,
+    "ultrasonic_resonance_frequency_khz": 40.0,
+    "acoustic_focal_distance_mm": 1.5
+  },
+  "radial_root_expansion_shell_specs": {
+    "expansion_shell_diameter_mm": 160.0,
+    "internal_capillary_width_microns": 120.0,
+    "working_input_pressure_kpa": 212.5,
+    "shell_poissons_ratio": -0.60
+  },
+  "peristaltic_earthworm_transport_metrics": {
+    "transport_tube_diameter_mm": 80.0,
+    "peristaltic_wave_frequency_hz": 2.5,
+    "hydrodynamic_reynolds_ceiling": 0.05
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_earthmover_mesh_compiler_script": "earth-move-matrix88/generate-earthmover-mesh.py",
+      "subterranean_parity_check": "MATCHED"
+    }
+  ]
+}
