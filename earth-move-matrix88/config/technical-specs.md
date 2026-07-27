@@ -1,30 +1,30 @@
 # Module config: Technical Specifications & Subterranean Actuation Controls
 **Document Class:** System Production Authority Card (PROJECT EARTH-MOVE)
-**Version:** 1.0.0 // Solid-State Earthmoving // Ultrasonic Cavitation Balance
+**Version:** 2.0.0 // Solid-State Earthmoving // Acoustic Disaggregation Balance
 
-This specifications ledger locks in the precise physical dimensions, fluid velocities, pressure deltas, and material strain thresholds required to operate the open-source biomimetic subterranean transit engine in total homeostatic equilibrium.
+This specifications ledger locks in the precise physical dimensions, fluid velocities, pressure deltas, and material stabilization thresholds required to operate the open-source biomimetic subterranean transit engine in total homeostatic equilibrium.
 
 ---
 
-## 📐 1. Acoustic Cavitation Core Metrics
-To flash-liquefy compacted soil matrices and shatter rock strata without brute mechanical friction or tool face dulling, the 3D-printed cutting head requires these strict boundaries:
+## 📐 1. Acoustic Disaggregation Nose Core Metrics
+To cleanly shatter cohesion bonds inside compacted soil matrices and un-consolidated clay strata without brute mechanical friction or tool face dulling, the 3D-printed cutting head requires these strict boundaries:
 *   **Primary Acoustic Nose Cone Diameter:** Exactly 120.0 mm point-to-point vertex.
 *   **Ultrasonic Transducer Resonance Frequency:** Hard-locked at $40.0\text{ kHz}$ baseline.
 *   **Acoustic Focal Distance Offset:** Focused exactly $1.5\text{ mm}$ directly ahead of the front face plane.
-*   **Slurry Viscosity Drop Floor:** Reduces local clay/rock shear thresholds to $\approx 0.0\text{ Pa}\cdot\text{s}$, establishing an absolute zero-friction operational pathway.
+*   **Soil Matrix Shear Cohesion Reduction:** Lowers un-consolidated substrate friction limits to near-zero states, creating a low-viscosity mud slurry for frictionless tool transit.
 
 ---
 
-## 🌲 2. Radial Root-Tip Expansion Shell Parameters
+## 🌲 2. Radial Root-Tip Expansion & Silicate Shoring Parameters
 *   **Expansion Cylinder Base Diameter:** Exactly 160.0 mm.
 *   **Internal Actuation Capillary Tracking Lines:** Exactly $120.0\text{ \mu m}$ microfluidic internal vascular tracks woven inside the outer shell.
 *   **Optimal Input Operating Pressure Delta:** Stable $175.0\text{ kPa}$ to $250.0\text{ kPa}$ compressed air stream.
-*   **Shell Structural Poisson's Ratio Baseline:** Exactly $-0.60$ under radial inflation tension, creating a uniform, self-supporting compacted tunnel wall natively without concrete shoring.
+*   **Active Silicate Shoring Injection Matrix:** Outer face injects a fine boundary mist of liquid silicate binder under active inflation pressure. This penetrates the compacted soil matrix to form an instant, permanent, self-supporting concrete wall profile natively without external timber bracing.
 
 ---
 
 ## 🪱 3. Peristaltic Earthworm Transport Core Metrics
 *   **Primary Transport Tube Inner Diameter:** Exactly 80.0 mm.
 *   **Peristaltic Squeeze Wave Frequency Window:** Continuous $1.5\text{ Hz}$ to $3.5\text{ Hz}$ sequential pneumatic pulse waves.
-*   **Hydrodynamic Flow Regime Boundary:** Slurry flow remains strictly locked within the microfluidic hyper-laminar regime ($Re \approx 0.05$), ensuring continuous high-volume material transit backward using nothing but air power.
+*   **Hydrodynamic Flow Regime Boundary:** Slurry flow remains strictly locked within the microfluidic hyper-laminar regime ($Re \approx 0.038$), ensuring continuous material transit backward using nothing but air power.
   
