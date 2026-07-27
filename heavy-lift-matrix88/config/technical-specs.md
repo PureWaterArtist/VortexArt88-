@@ -14,6 +14,7 @@ To natively flex, extend, and lock heavy physical masses without leak-prone hydr
 *   **Optimal Input Operating Pressure Delta:** Stable $175.0\text{ kPa}$ to $250.0\text{ kPa}$ compressed air stream.
 *   **Maximum Target Volumetric Flow Rate:** $\leq 45.0\text{ Liters / Second}$ during rapid extension maneuvers.
 *   **Hydrostatic Force Generation Constriction:** Selectively pressurizing specific capillary sectors creates a directional pressure drop delta ($\Delta P \geq 15.0\text{ kPa}$), yielding an unyielding mechanical lifting capacity of $\geq 2,500.0\text{ Newtons}$ baseline torque at Scale 1×.
+*   **Kangaroo Thermal Exudation Matrix:** Integrated one-way relief micro-valves woven into the outer skin layer, mimicking kangaroo perspiration cooling. At internal skin temperatures $\geq 48^{\circ}\text{C}$, the material geometry expands to bleed a micro-burst of compressed air, providing an instant $-15.0^{\circ}\text{C}$ evaporative flash-chill drop across the polymer walls to permanently prevent thermal friction burst failures under continuous max-load tension.
 
 ---
 
