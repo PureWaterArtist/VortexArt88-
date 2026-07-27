@@ -1,6 +1,6 @@
-=========================================================================
+===============================================
 🛰️  EXECUTING VOX-VORTEX REAL-WORLD METRIC PERFORMANCE SIMULATOR
-=========================================================================
+===============================================
 
 📋 REAL-WORLD PARAMETRIC FLUID DYNAMICS CALCULATIONS:
 
@@ -25,6 +25,5 @@
   * True Sovereign Day Harvest : 706.28 Gallons / Day
   * Flow Stability Window    : ✅ HYPER-LAMINAR STEADY STATE (Re <= 0.05)
 
-=========================================================================
-✅ GLOBAL SCALING INTEGRITY CONFIRMED // BLUEPRINT IS ALIGNED WITH REALITY
-=========================================================================
+===============================================
+✅ GLOBAL SCALING INTEGRITY CONFIRMED
