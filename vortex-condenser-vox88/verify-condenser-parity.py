@@ -17,7 +17,7 @@ def verify_condenser_parity():
     print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME PLANETARY REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, digital twin, and media files
+    # 1. Verify existence of critical root, configuration, digital twin, and manual anchor files
     root_anchors = [
         "README.md", 
         "generate-condenser-mesh.py", 
@@ -52,16 +52,17 @@ def verify_condenser_parity():
         peak_dia = card_data["biomimetic_namib_beetle_collection_specs"]["hydrophilic_apex_peak_diameter_microns"]
         noise_damp = card_data["vortex_separation_thermodynamic_metrics"]["acoustic_noise_suppression_type"]
         deice_freq = card_data["vortex_separation_thermodynamic_metrics"]["mechanical_pulse_frequency_hz"]
+        desktop_yield = card_data["real_world_multi_scale_performance_matrix"]["desktop_scale_hourly_yield_liters"]
         
         # Verify strict compliance with our real-world vulnerability remediations
-        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp or deice_freq != 18.5:
-            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or woodpecker de-ice limits mismatch.")
+        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp or deice_freq != 18.5 or desktop_yield != 0.33:
+            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or real-world yield limits mismatch.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID PNEUMATIC CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -77,7 +78,7 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify procurement card contents against our capital budget
+    # 4. Verify procurement card contents against our $209.00 capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -96,7 +97,7 @@ def verify_condenser_parity():
         with open("config/OPERATIONS_MANUAL.md", "r") as f:
             ops_content = f.read()
             
-        if "18.5 Hz" not in ops_content or "15.0\\text{ Pa}" not in ops_content or "+2.5 kPa" not in ops_content:
+        if "18.5 Hz" not in ops_content or "10.0\\text{ Pa}" not in ops_content or "+2.5 kPa" not in ops_content:
             print("❌ OPERATIONS DRIFT ERROR: Operations troubleshooting thresholds or vacuum values mismatched.")
             sys.exit(1)
             
@@ -110,14 +111,14 @@ def verify_condenser_parity():
         with open("config/SCALING_MATRIX.md", "r") as f:
             scale_content = f.read()
             
-        if "1.85\\text{ Liters / Hour}" not in scale_content or "14,800.00\\text{ Liters / Hour}" not in scale_content:
-            print("❌ SCALING MATRIX DRIFT: Volumetric yield scale parameters mismatch with root metrics.")
+        if "0.33\\text{ Liters / Hour}" not in scale_content or "111.45\\text{ Liters / Hour}" not in scale_content:
+            print("❌ SCALING MATRIX DRIFT: Volumetric yield scale parameters mismatch with real-world constraints.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Symmetrical scaling manual is missing or unreadable from the config: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 06: MULTI-SCALE ENVIRONMENT MATRIX INTEGRITY SECURED.")
+    print("✅ PHASE 06: MULTI-SCALE ENVIRONMENT REALITY MATRIX SECURED.")
 
     # 7. Audit the High-Density SEO Metadata Target Blocks
     try:
@@ -134,10 +135,10 @@ def verify_condenser_parity():
     print("✅ PHASE 07: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("✅ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
+    print("❌ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_condenser_parity()
-            
+        
