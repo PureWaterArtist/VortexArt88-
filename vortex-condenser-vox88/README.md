@@ -5,12 +5,11 @@
 
 ## 💧 System Manifest & Infinite Fluidic Independence Philosophy
 
-**PROJECT VOX-VORTEX (Repository Hub: vortex-condenser-vox88)** establishes the definitive open-source prior-art blueprints for a self-cleaning, solid-state atmospheric water condenser [No.1]. Old-world water utility systems and commercial water generation hardware are intentionally designed around an insecure, high-maintenance dependency loop: they rely on toxic chemical refrigerants, power-hungry mechanical compressors, and fragile electronic sensors that lock communities behind centralized water grids and municipal monopolies [No.0, No.1].
+**PROJECT VOX-VORTEX (Repository Hub: vortex-condenser-vox88)** establishes the definitive open-source prior-art blueprints for a self-cleaning, solid-state atmospheric water condenser. Old-world water utility systems and commercial water generation hardware are intentionally designed around an insecure, high-maintenance dependency loop: they rely on toxic chemical refrigerants, power-hungry mechanical compressors, and fragile electronic sensors that lock communities behind centralized water grids and municipal monopolies.
 
-This project completely democratizes water security by mimicking the survival geometry of nature [No.0]. The synthesizer completely discards traditional refrigeration components, utilizing a **Passive Ranque-Hilsch Vortex Separation Cone** to split ambient air streams and flash-chill humidity past its dew point with zero moving parts [No.0]. 
+This project completely democratizes water security by mimicking the survival geometry of nature. The synthesizer completely discards traditional refrigeration components, utilizing a **Passive Ranque-Hilsch Vortex Separation Cone** to split ambient air streams and flash-chill humidity past its dew point with zero moving parts. 
 
-The collection array implements a **Biomimetic Namib-Beetle Scale Grid** that co-extrudes hydrophilic collection peaks right alongside **98% super-slip hydrophobic graphene valleys**, forcing condensed water to slide instantly into a **graphene-oxide microfluidic filtration sieve** [No.0]. Running entirely at ambient room-temperature equilibrium off low-power pneumatic pressure arrays, this machine functions as an immortal, independent water well capable of outputting pure, safe drinking water for any household enclave on Earth [No.0, No.1].
-
+The collection array implements a **Biomimetic Namib-Beetle Scale Grid** that co-extrudes hydrophilic collection peaks right alongside **98% super-slip hydrophobic graphene valleys**, forcing condensed water to slide instantly into a **graphene-oxide microfluidic filtration sieve**. Running entirely at ambient room-temperature equilibrium off low-power pneumatic pressure arrays, this machine functions as an immortal, independent water well capable of outputting pure, safe drinking water for any household enclave on Earth.
 
 ## 🌫️ How the Water Synthesizer Works (In Plain English)
 
