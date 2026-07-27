@@ -14,10 +14,10 @@ import sys
 
 def verify_condenser_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT VOX-VORTEX AUTOMATED PARITY AUDIT GATES")
+    print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME PLANETARY REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, digital twin, and media files
+    # 1. Verify existence of critical root, configuration, staging, and media files
     root_anchors = [
         "README.md", 
         "generate-condenser-mesh.py", 
@@ -26,6 +26,7 @@ def verify_condenser_parity():
         "media/README.md",
         "media/generate-blueprint.py",
         "media/grid88-condenser-specs.svg",
+        "modules/production-staging/XOMETRY_RFQ.md",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
@@ -36,7 +37,7 @@ def verify_condenser_parity():
         if not os.path.exists(anchor):
             print(f"❌ PARITY ERROR: Critical root anchor file [{anchor}] is missing from the branch.")
             sys.exit(1)
-    print("✅ PHASE 01: HARD-LOCKED REPOSITORY DIRECTORY ARCS CONFIRMED SECURE.")
+    print("✅ PHASE 01: GLOBAL REPOSITORY ARCHITECTURE SHIELDS SECURED.")
             
     # 2. Audit the Master Property Card against our real-world specifications
     try:
@@ -57,7 +58,7 @@ def verify_condenser_parity():
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE MATRIX DATA CHECKS IN COMPLIANCE STATUS.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -108,4 +109,4 @@ def verify_condenser_parity():
 
 if __name__ == "__main__":
     verify_condenser_parity()
-        
+    
