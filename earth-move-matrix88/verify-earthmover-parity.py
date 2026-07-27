@@ -26,10 +26,12 @@ def verify_earthmover_parity():
         "media/README.md",
         "media/generate-blueprint.py",
         "media/grid88-earthmover-specs.svg",
+        "modules/production-staging/XOMETRY_RFQ.md",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
         "config/DIG_EXPLAINER.md",
+        "config/SCALING_MATRIX.md",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -86,7 +88,21 @@ def verify_earthmover_parity():
         sys.exit(1)
     print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
 
-    # 5. Audit the High-Density SEO Metadata Target Blocks
+    # 5. Audit the Scaling Matrix Bounds Ledger for real-world mass balance data
+    try:
+        with open("config/SCALING_MATRIX.md", "r") as f:
+            scale_content = f.read()
+            
+        if "9.0\\text{ meters / hour}" not in scale_content or "14,476.00\\text{ m}^3\\text{ / hour}" not in scale_content:
+            print("❌ SCALING MATRIX DRIFT: Linear advance speed or volumetric extraction metrics mismatch.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Symmetrical scaling manual is missing or unreadable from the config: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 05: MULTI-SCALE ENVIRONMENT REALITY MATRIX SECURED.")
+
+    # 6. Audit the High-Density SEO Metadata Target Blocks
     try:
         with open("config/DIG_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
@@ -98,7 +114,7 @@ def verify_earthmover_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community digging guide is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
+    print("✅ PHASE 06: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL EARTH-MOVE SYSTEM SECURED // MASTER PARITY LEDGER GREEN")
