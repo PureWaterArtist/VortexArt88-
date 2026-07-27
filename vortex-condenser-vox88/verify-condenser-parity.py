@@ -47,10 +47,11 @@ def verify_condenser_parity():
         cold_core = card_data["vortex_separation_thermodynamic_metrics"]["cold_orifice_core_diameter_mm"]
         peak_dia = card_data["biomimetic_namib_beetle_collection_specs"]["hydrophilic_apex_peak_diameter_microns"]
         noise_damp = card_data["vortex_separation_thermodynamic_metrics"]["acoustic_noise_suppression_type"]
+        deice_freq = card_data["vortex_separation_thermodynamic_metrics"]["mechanical_pulse_frequency_hz"]
         
-        # Verify strict compliance with the biomimetic parameters
-        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp:
-            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or owl acoustic buffers mismatch.")
+        # Verify strict compliance with our real-world vulnerability remediations
+        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp or deice_freq != 18.5:
+            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or woodpecker de-ice limits mismatch.")
             sys.exit(1)
             
     except Exception as e:
@@ -63,7 +64,7 @@ def verify_condenser_parity():
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "320.0 mm" not in specs_content or "6.5 mm" not in specs_content or "0.02\\text{ \\mu m}" not in specs_content or "Cicada Wing" not in specs_content:
+        if "320.0 mm" not in specs_content or "6.5 mm" not in specs_content or "0.02\\text{ \\mu m}" not in specs_content or "Woodpecker" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
@@ -72,7 +73,7 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify procurement card contents against our $209.00 capital budget
+    # 4. Verify procurement card contents against our capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -107,4 +108,4 @@ def verify_condenser_parity():
 
 if __name__ == "__main__":
     verify_condenser_parity()
-    
+        
