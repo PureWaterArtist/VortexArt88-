@@ -24,6 +24,16 @@
     "net_adhesion_anchor_force_newtons": 8500.0,
     "adhesion_interface_mechanism": "Carbon Nanotube Van der Waals Setae"
   },
+    "pneumatic_hydrostat_actuator_metrics": {
+    "arm_length_unextended_mm": 1500.0,
+    "base_cylinder_diameter_mm": 180.0,
+    "internal_capillary_width_microns": 120.0,
+    "working_input_pressure_kpa": 212.5,
+    "baseline_torque_output_newtons": 2500.0,
+    "passive_thermal_mitigation_type": "Kangaroo Exudation Micro-Valves",
+    "critical_temperature_threshold_celsius": 48.0,
+    "evaporative_cooling_drop_celsius": -15.0
+  },
   "validation_sourcing_ledger": [
     {
       "root_lifter_simulation_script": "heavy-lift-matrix88/simulate-lift-performance.py",
