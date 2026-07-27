@@ -4,25 +4,8 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "atmospheric-water-synthesis-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "vortex_separation_thermodynamic_metrics": {
-    "intake_cone_length_mm": 320.0,
-    "intake_base_diameter_mm": 45.0,
-    "cold_orifice_core_diameter_mm": 6.5,
-    "working_pneumatic_input_pressure_kpa": 187.5,
-    "target_temperature_depression_celsius": -25.0,
-    "acoustic_noise_suppression_type": "Owl Feather Micro-Serrations",
-    "inertial_pre_filtration_type": "Centrifugal Flamingo Lamellae Ridges"
-  },
-  "biomimetic_namib_beetle_collection_specs": {
-    "collection_tile_footprint_form": "75mm Regular Hexagonal Scale Matrix Grid",
-    "hydrophilic_apex_peak_diameter_microns": 350.0,
-    "antimicrobial_mechanical_shield": "200nm Spaced Cicada Wing Nano-Pillars",
-    "hydrophobic_valley_friction_suppression_pct": 98.0,
-    "passive_siphon_routing_geometry": "Texas Horned Lizard Micro-Groove Troughs",
-    "droplet_shedding_mass_threshold_grams": 0.05
-  },
-    "vortex_separation_thermodynamic_metrics": {
     "intake_cone_length_mm": 320.0,
     "intake_base_diameter_mm": 45.0,
     "cold_orifice_core_diameter_mm": 6.5,
@@ -33,6 +16,22 @@
     "passive_deicing_mechanism": "Woodpecker Micro-Vibration Flap Valve",
     "mechanical_pulse_frequency_hz": 18.5
   },
+  "real_world_multi_scale_performance_matrix": {
+    "environmental_test_baseline_temp_celsius": 25.0,
+    "environmental_test_baseline_humidity_pct": 60.0,
+    "measured_condensation_efficiency_ceiling_pct": 45.0,
+    "desktop_scale_hourly_yield_liters": 0.33,
+    "vehicle_scale_hourly_yield_liters": 5.57,
+    "civic_tower_scale_hourly_yield_liters": 111.45
+  },
+  "biomimetic_namib_beetle_collection_specs": {
+    "collection_tile_footprint_form": "75mm Regular Hexagonal Scale Matrix Grid",
+    "hydrophilic_apex_peak_diameter_microns": 350.0,
+    "antimicrobial_mechanical_shield": "200nm Spaced Cicada Wing Nano-Pillars",
+    "hydrophobic_valley_friction_suppression_pct": 98.0,
+    "passive_siphon_routing_geometry": "Texas Horned Lizard Micro-Groove Troughs",
+    "droplet_shedding_mass_threshold_grams": 0.05
+  },
   "multi_vascular_purification_geometries": {
     "filtration_capillary_width_microns": 120.0,
     "nominal_hydrostatic_gravity_pressure_kpa": 2.5,
@@ -42,7 +41,7 @@
   "validation_sourcing_ledger": [
     {
       "root_condenser_mesh_compiler_script": "vortex-condenser-vox88/generate-condenser-mesh.py",
-      "biomimetic_optimization_parity_check": "MATCHED"
+      "real_world_efficiency_parity_check": "MATCHED"
     }
   ]
 }
