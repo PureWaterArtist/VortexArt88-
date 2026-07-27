@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-VOX-VORTEX-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "atmospheric-water-synthesis-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "vortex_separation_thermodynamic_metrics": {
+    "intake_cone_length_mm": 320.0,
+    "intake_base_diameter_mm": 45.0,
+    "cold_orifice_core_diameter_mm": 6.5,
+    "working_pneumatic_input_pressure_kpa": 187.5,
+    "target_temperature_depression_celsius": -25.0
+  },
+  "biomimetic_namib_beetle_collection_specs": {
+    "collection_tile_footprint_form": "75mm Regular Hexagonal Scale Matrix Grid",
+    "hydrophilic_apex_peak_diameter_microns": 350.0,
+    "hydrophobic_valley_friction_suppression_pct": 98.0,
+    "droplet_shedding_mass_threshold_grams": 0.05
+  },
+  "multi_vascular_purification_geometries": {
+    "filtration_capillary_width_microns": 120.0,
+    "nominal_hydrostatic_gravity_pressure_kpa": 2.5,
+    "graphene_oxide_sieve_thickness_layers": 12.0,
+    "absolute_nanopore_filtration_ceiling_microns": 0.02
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_condenser_mesh_compiler_script": "vortex-condenser-vox88/generate-condenser-mesh.py",
+      "thermodynamic_parity_check": "MATCHED"
+    }
+  ]
+}
