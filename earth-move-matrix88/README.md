@@ -5,11 +5,11 @@
 
 ## 🦔 System Manifest & Frictionless Earthmoving Philosophy
 
-**PROJECT EARTH-MOVE (Repository Hub: earth-move-matrix88)** establishes the definitive open-source prior-art blueprints for a software-free, fluid-driven subterranean digging machine [No.1]. Old-world excavators, tunnel boring machines (TBMs), and industrial augers are intentionally designed around an exclusionary, high-cost framework: they rely on toxic petroleum hydraulic lines, brittle high-wear carbon-steel teeth, and massive diesel engines that tear up natural landscapes and lock infrastructure development behind centralized corporate monopolies [No.0, No.1].
+**PROJECT EARTH-MOVE (Repository Hub: earth-move-matrix88)** establishes the definitive open-source prior-art blueprints for a software-free, fluid-driven subterranean digging machine. Old-world excavators, tunnel boring machines (TBMs), and industrial augers are intentionally designed around an exclusionary, high-cost framework: they rely on toxic petroleum hydraulic lines, brittle high-wear carbon-steel teeth, and massive diesel engines that tear up natural landscapes and lock infrastructure development behind centralized corporate monopolies.
 
-This project completely democratizes localized trenching, soil management, and foundation building by mimicking the structural laws of nature [No.0]. The earthmover completely discards traditional mechanical buckets, utilizing a **40.0 kHz Acoustic Cavitation Core** to fluidize soil and rock into a zero-friction slurry natively [No.0]. 
+This project completely democratizes localized trenching, soil management, and foundation building by mimicking the structural laws of nature. The earthmover completely discards traditional mechanical buckets, utilizing a **40.0 kHz Acoustic Cavitation Core** to fluidize soil and rock into a zero-friction slurry natively. 
 
-The transit framework implements an **Elastomeric Peristaltic Earthworm Tube** that pumps material backward using low-power pneumatic pressure waves, routing forces into a **Radial Root-Tip Expansion Shell** that reinforces the excavation path without concrete shoring [No.0]. Running entirely off low-power pneumatic pressure accumulators, this machine functions as an immortal, independent civil engineering node capable of earthmoving entirely outside centralized industrial construction cartels [No.0, No.1].
+The transit framework implements an **Elastomeric Peristaltic Earthworm Tube** that pumps material backward using low-power pneumatic pressure waves, routing forces into a **Radial Root-Tip Expansion Shell** that reinforces the excavation path without concrete shoring. Running entirely off low-power pneumatic pressure accumulators, this machine functions as an immortal, independent civil engineering node capable of earthmoving entirely outside centralized industrial construction cartels.
 
 # 👑 PROJECT EARTH-MOVE: Open-Source Biomimetic Fluidic Subterranean Transit Engine
 
