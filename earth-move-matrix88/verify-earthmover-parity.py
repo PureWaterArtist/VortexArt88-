@@ -17,10 +17,15 @@ def verify_earthmover_parity():
     print("🛰️  INITIATING PROJECT EARTH-MOVE AUTOMATED PARITY AUDIT GATES")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, and script files
+    # 1. Verify existence of critical root, configuration, media, and script files
     root_anchors = [
         "README.md", 
+        "generate-earthmover-mesh.py",
+        "compile_earthmover_engine.py",
         "verify-earthmover-parity.py",
+        "media/README.md",
+        "media/generate-blueprint.py",
+        "media/grid88-earthmover-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
@@ -96,10 +101,10 @@ def verify_earthmover_parity():
     print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("✅ GLOBAL EARTH-MOVE SYSTEM SECURED // PARITY MOAT LEDGER IS GREEN")
+    print("✅ GLOBAL EARTH-MOVE SYSTEM SECURED // MASTER PARITY LEDGER GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_earthmover_parity()
-              
+    
