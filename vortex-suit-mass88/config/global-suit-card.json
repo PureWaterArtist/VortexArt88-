@@ -1,51 +1,32 @@
 {
   "$schema": "https://vortexart88.org",
   "component_id": "PROJECT-RESO-SUIT-GLOBAL-CARD",
-  "parent_system": "PROJECT-RESO-ARMOR-MAIN-MATRIX",
-  "module_layer": "mass-production-suit-matrix",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "personal-boundary-protection-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "4.0.0",
+  "version": "2.2.0",
   "standard_scale_component_metrics": {
-    "scale_profile_form": "Anisotropic Regular Hexagon Tile",
     "scale_vertex_width_mm": 75.0,
-    "scale_thickness_mm": 8.0,
-    "dry_chassis_mass_grams": 12.0,
-    "closed_loop_fluid_volume_ml": 12.0,
     "co_molded_flexible_edge_lip_width_mm": 1.2
   },
-  "mass_production_snap_tolerances": {
-    "interlock_mechanism_type": "Modular Edge-Integrated Mechanical Click-Clips",
-    "interlock_clearance_gap_mm": 0.5,
-    "kinetic_joint_isolation_seal": "Co-Molded Polyurethane Over-Layer Sleeve",
-    "load_bearing_chassis": "Internal Semi-Rigid TPU Exoskeleton Sub-Frame"
+  "anisotropic_ballistic_protection_bounds": {
+    "mandatory_slicer_bed_incline_degrees": 45.0,
+    "max_safe_kinetic_impact_load_joules": 150.0
   },
   "stabilized_bloodstream_fluidic_properties": {
-    "healing_capillary_width_microns": 120.0,
-    "internal_lining_substrate": "Aerosolized Hydrophobic Fluoropolymer Non-Stick Spray",
-    "friction_suppression_factor_pct": 98.0,
-    "hydrodynamic_reynolds_number_ceiling": 0.05,
-    "carrier_fluid_composition_pct": "93.45% H2O / 5.0% Propylene Glycol / 1.5% CNC / 0.05% Xanthan / 0.05% CuSO4",
-    "rheological_fluid_flow_state": "Thixotropic Non-Settling Non-Vaporizing Gel Suspension"
-  },
-  "anisotropic_ballistic_protection_bounds": {
-    "lattice_core_classification": "Inverted Hyperbolic Cardioid Auxetic Star Matrix",
-    "mandatory_slicer_bed_incline_degrees": 45.0,
-    "activation_pressure_drop_kpa": 15.0,
-    "solidification_clotting_latency_seconds": 3.2,
-    "automatic_weapon_mitigation_requirement": "Mandatory Tier-2 Conformal Double-Layer Plating Stack"
+    "carrier_fluid_composition_pct": "93.45% H2O / 5.0% Propylene Glycol / 1.5% Crystalline Nanocellulose / 0.05% Xanthan / 0.05% CuSO4",
+    "capillary_void_width_microns": 120.0,
+    "fluid_viscosity_pascal_seconds": 0.0035,
+    "vacuum_activation_delta_kpa": 15.0
   },
   "project_aetheris_deluxe_biomimetic_specifications": {
-    "piezo_harvesting_matrix": "PVDF Electroplax Crystal Joint Rib Bands",
-    "solid_state_storage_type": "Graphene Ultracapacitor Backplate Matrix",
-    "visual_cloaking_method": "Sub-Wavelength Parabolic Micro-Prism Lens Vertices",
-    "thermal_attenuation_agent": "MXene-Doped Aerogel Fluid Suspension Loop",
-    "aquatic_drag_reduction_texture": "Biomimetic Shark Placoid Riblet Shroud",
-    "vertical_climbing_interface": "Carbon Nanotube Van der Waals Setae Pads"
+    "aquatic_drag_reduction_texture": "Owl-Serration Internal Flow Tracks",
+    "vertical_climbing_interface": "Gecko-Setae Dry Adhesion Bases"
   },
   "validation_sourcing_ledger": [
     {
       "root_suit_mesh_compiler_script": "vortex-suit-mass88/generate-suit-mesh.py",
-      "deluxe_upgrade_parity_check": "MATCHED"
+      "real_world_ballistics_parity_check": "MATCHED"
     }
   ]
 }
