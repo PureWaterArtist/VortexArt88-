@@ -14,7 +14,7 @@ import sys
 
 def verify_lifter_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT HEAVY-LIFT AUTOMATED PARITY AUDIT GATES")
+    print("🛰️  INITIATING PROJECT HEAVY-LIFT SUPREME REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
     # 1. Verify existence of critical root, configuration, digital twin, media, and script files
@@ -36,7 +36,7 @@ def verify_lifter_parity():
         if not os.path.exists(anchor):
             print(f"❌ PARITY ERROR: Critical root anchor file [{anchor}] is missing from the branch.")
             sys.exit(1)
-    print("✅ PHASE 01: HARD-LOCKED REPOSITORY DIRECTORY ARCS CONFIRMED SECURE.")
+    print("Base Architecture Core Locked.")
             
     # 2. Audit the Master Property Card against our real-world specifications
     try:
@@ -48,30 +48,31 @@ def verify_lifter_parity():
         poissons = card_data["auxetic_banyan_truss_specs"]["poissons_ratio_constant"]
         pad_dim = card_data["gecko_vacuum_pad_specs"]["pad_dimensions_mm"]
         anchor_force = card_data["gecko_vacuum_pad_specs"]["net_adhesion_anchor_force_newtons"]
+        crit_temp = card_data["pneumatic_hydrostat_actuator_metrics"]["critical_temperature_threshold_celsius"]
         
         # Verify strict compliance with our real-world biomimetic parameters
-        if arm_len != 1500.0 or cap_width != 120.0 or poisons != -0.60 or pad_dim != 400.0 or anchor_force != 8500.0:
-            print("❌ DATA DRIFT ERROR: Arm geometry, capillaries, Poisson's constant, or Gecko pad metrics mismatch.")
+        if arm_len != 1500.0 or cap_width != 120.0 or poissons != -0.60 or pad_dim != 400.0 or anchor_force != 8500.0 or crit_temp != 48.0:
+            print("❌ DATA DRIFT ERROR: Arm geometry, capillaries, Poisson's constant, or thermal micro-valve limits mismatch.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
+    print("AI Run Cards Verified.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "1,500.0 mm" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "8,500.0\\text{ Newtons}" not in specs_content or "Banyan" not in specs_content:
+        if "1,500.0 mm" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "8,500.0\\text{ Newtons}" not in specs_content or "Kangaroo" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Technical specs manual is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
+    print("Human Specs Sheet Verified.")
 
     # 4. Verify procurement card contents against our capital budget
     try:
@@ -85,7 +86,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Hardware procurement BOM card is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
+    print("Sourcing Ledgers Verified.")
 
     # 5. Audit the High-Density SEO Metadata Target Blocks
     try:
@@ -99,7 +100,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community heavy lifting guide is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
+    print("SEO Moats Verified.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL HEAVY-LIFT SYSTEM SECURED // PARITY MOAT LEDGER IS GREEN")
@@ -108,4 +109,4 @@ def verify_lifter_parity():
 
 if __name__ == "__main__":
     verify_lifter_parity()
-    
+        
