@@ -17,10 +17,14 @@ def verify_sieve_parity():
     print("🛰️  INITIATING PROJECT CARBON-SIEVE AUTOMATED PARITY AUDIT GATES")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, and script files
+    # 1. Verify existence of critical root, configuration, media, and script files
     root_anchors = [
         "README.md", 
+        "compile_sieve_engine.py",
         "verify-sieve-parity.py",
+        "media/README.md",
+        "media/generate-blueprint.py",
+        "media/grid88-sieve-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
@@ -67,25 +71,39 @@ def verify_sieve_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify that the high-density SEO tags match our data targets
+    # 4. Verify procurement card contents against our capital budget
+    try:
+        with open("config/HARDWARE_BOM.md", "r") as f:
+            bom_content = f.read()
+            
+        if "$266.00" not in bom_content or "RuBisCO" not in bom_content or "EPDM" not in bom_content:
+            print("❌ PROCUREMENT DRIFT ERROR: Hardware BOM prices or fabrication classes have mismatched constraints.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Hardware procurement BOM card is missing or unreadable: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
+
+    # 5. Audit the High-Density SEO Metadata Target Blocks
     try:
         with open("config/CLEAN_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
             
-        if "DIY alternative carbon capture" not in explainer_content or "how to capture carbon at home" not in explainer_content:
-            print("❌ SEO EXPLAINER DRIFT ERROR: High-density remediation questions have drifted from constraints.")
+        if "DIY alternative carbon capture" not in explainer_content or "how to capture carbon at home" not in explainer_content or "exactly $266.00" not in explainer_content:
+            print("❌ SEO EXPLAINER DRIFT ERROR: High-density remediation questions or procurement numbers have drifted from constraints.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community clean air guide is missing or unreadable from the path: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 04: COMMUNITY REMEDIATION SEARCH-ENGINE MOATS VERIFIED GREEN.")
+    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("✅ GLOBAL MATERIAL-PURIFICATION SYSTEM SECURED // PARITY LEDGER GREEN")
+    print("✅ GLOBAL CO2 REMEDIATION SYSTEM SECURED // PARITY MOAT LEDGER IS GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_sieve_parity()
-      
+    
