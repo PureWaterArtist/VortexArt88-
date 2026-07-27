@@ -89,7 +89,7 @@ They hide the blueprints inside proprietary "black boxes"...does that circuit bo
 
 ### 3. Heavy Fabric Slump vs. Balanced Exoskeleton Weight Distribution
 ![Side-by-Side Comparison of Traditional Heavy Fabric Vest Stretches vs. Balanced TPU Backbone Weight Routing](/media/grid88-comparative-slump-vs-backbone.png)
-Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...kind of like one person being forced to work 256 different jobs to survive...
+Hanging 256 individual armor scales over standard clothing would cause the fabric to sag...
 
 ---
 
