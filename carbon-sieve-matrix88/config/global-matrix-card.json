@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-CARBON-SIEVE-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-atmospheric-remediation-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "passive_kelp_shroud_metrics": {
+    "corrugation_ridge_depth_mm": 4.5,
+    "minimum_capture_wind_speed_ms": 2.5,
+    "internal_capillary_width_microns": 120.0
+  },
+  "rubisco_conversion_core_specs": {
+    "enzymatic_catalyst_type": "Stabilized Synthetic RuBisCO Gel Slurry",
+    "solidification_latency_seconds": 3.2,
+    "hourly_carbon_capture_capacity_g_m2": 18.5
+  },
+  "mollusk_extraction_tray_geometries": {
+    "peristaltic_pulse_frequency_hz": 2.5,
+    "working_pneumatic_pressure_kpa": 200.0,
+    "carbonate_ejection_mass_grams": 0.05
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_sieve_mesh_compiler_script": "carbon-sieve-matrix88/compile_sieve_engine.py",
+      "remediation_parity_check": "MATCHED"
+    }
+  ]
+}
