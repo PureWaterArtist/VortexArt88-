@@ -25,3 +25,7 @@ This directory serves as the centralized validation hub for the Solid-State Atmo
 5. **File Path:** `./WATER_EXPLAINER.md`
    * **Asset Class:** Plain-English Community Water Security Guide & Search Target Handbook
    * **User Target:** Independent Families, Neighborhood Workshops, & Sovereign Enclaves
+5. **File Path:** `./OPERATIONS_MANUAL.md`
+   * **Asset Class:** Human-Readable Assembly Handbook, Priming Protocols, Preventative Care Logs, and Fluidic Troubleshooting Diagnostics Matrix
+   * **User Target:** Field Technicians, Workshop Mechanics, SLA Operators, and Sovereign Families
+   
