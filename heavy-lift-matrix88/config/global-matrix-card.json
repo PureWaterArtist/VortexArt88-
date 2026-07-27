@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-HEAVY-LIFT-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-mass-handling-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "pneumatic_hydrostat_actuator_metrics": {
+    "arm_length_unextended_mm": 1500.0,
+    "base_cylinder_diameter_mm": 180.0,
+    "internal_capillary_width_microns": 120.0,
+    "working_input_pressure_kpa": 212.5,
+    "baseline_torque_output_newtons": 2500.0
+  },
+  "auxetic_banyan_truss_specs": {
+    "lattice_classification": "Inverted Cardioid Auxetic Star Matrix",
+    "poissons_ratio_constant": -0.60,
+    "geometric_swelling_pct": 18.0,
+    "tendon_tensile_strength_gpa": 3.5
+  },
+  "gecko_vacuum_pad_specs": {
+    "pad_dimensions_mm": 400.0,
+    "required_differential_pressure_kpa": 2.5,
+    "net_adhesion_anchor_force_newtons": 8500.0,
+    "adhesion_interface_mechanism": "Carbon Nanotube Van der Waals Setae"
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_lifter_simulation_script": "heavy-lift-matrix88/simulate-lift-performance.py",
+      "hydrostat_parity_check": "MATCHED"
+    }
+  ]
+}
