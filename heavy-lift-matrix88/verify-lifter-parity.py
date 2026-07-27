@@ -17,11 +17,15 @@ def verify_lifter_parity():
     print("🛰️  INITIATING PROJECT HEAVY-LIFT AUTOMATED PARITY AUDIT GATES")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, digital twin, and manual anchor files
+    # 1. Verify existence of critical root, configuration, digital twin, media, and script files
     root_anchors = [
         "README.md", 
+        "generate-lifter-mesh.py",
         "verify-lifter-parity.py",
         "simulate-lift-performance.py",
+        "media/README.md",
+        "media/generate-blueprint.py",
+        "media/grid88-lifter-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
@@ -46,7 +50,7 @@ def verify_lifter_parity():
         anchor_force = card_data["gecko_vacuum_pad_specs"]["net_adhesion_anchor_force_newtons"]
         
         # Verify strict compliance with our real-world biomimetic parameters
-        if arm_len != 1500.0 or cap_width != 120.0 or poissons != -0.60 or pad_dim != 400.0 or anchor_force != 8500.0:
+        if arm_len != 1500.0 or cap_width != 120.0 or poisons != -0.60 or pad_dim != 400.0 or anchor_force != 8500.0:
             print("❌ DATA DRIFT ERROR: Arm geometry, capillaries, Poisson's constant, or Gecko pad metrics mismatch.")
             sys.exit(1)
             
@@ -69,7 +73,7 @@ def verify_lifter_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify procurement card contents against our $458.00 capital budget
+    # 4. Verify procurement card contents against our capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -104,4 +108,4 @@ def verify_lifter_parity():
 
 if __name__ == "__main__":
     verify_lifter_parity()
-          
+    
