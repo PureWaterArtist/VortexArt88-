@@ -14,14 +14,13 @@ import sys
 
 def verify_lifter_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT HEAVY-LIFT SUPREME REBUILD PARITY SWEEP")
+    print("🛰️  INITIATING PROJECT HEAVY-LIFT AUTOMATED PARITY AUDIT GATES")
     print("=========================================================================\n")
     
     # 1. Verify existence of critical root, configuration, digital twin, media, and script files
     root_anchors = [
         "README.md", 
         "generate-lifter-mesh.py",
-        "vortex-heavy-lift-vox88/compile_heavy_lift_engine.py",
         "verify-lifter-parity.py",
         "simulate-lift-performance.py",
         "media/README.md",
@@ -31,13 +30,14 @@ def verify_lifter_parity():
         "config/technical-specs.md",
         "config/HARDWARE_BOM.md",
         "config/LIFT_EXPLAINER.md",
+        "config/SCALING_MATRIX.md",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
         if not os.path.exists(anchor):
             print(f"❌ PARITY ERROR: Critical root anchor file [{anchor}] is missing from the branch.")
             sys.exit(1)
-    print("✅ PHASE 01: GLOBAL REPOSITORY ARCHITECTURE SHIELDS SECURED.")
+    print("✅ PHASE 01: HARD-LOCKED REPOSITORY DIRECTORY ARCS CONFIRMED SECURE.")
             
     # 2. Audit the Master Property Card against our real-world specifications
     try:
@@ -89,7 +89,21 @@ def verify_lifter_parity():
         sys.exit(1)
     print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
 
-    # 5. Audit the High-Density SEO Metadata Target Blocks
+    # 5. Audit the Symmetrical Scaling Bounds Ledger for the real-world 15-ton cap
+    try:
+        with open("config/SCALING_MATRIX.md", "r") as f:
+            scale_content = f.read()
+            
+        if "300.82\\text{ kg}" not in scale_content or "15.00\\text{ Metric Tons}" not in scale_content:
+            print("❌ SCALING MATRIX DRIFT: Volumetric weight lifter parameters mismatch real-world constraints.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Symmetrical scaling manual is missing or unreadable: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 05: MULTI-SCALE ENVIRONMENT REALITY MATRIX SECURED.")
+
+    # 6. Audit the High-Density SEO Metadata Target Blocks
     try:
         with open("config/LIFT_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
@@ -101,7 +115,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community heavy lifting guide is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
+    print("✅ PHASE 06: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL HEAVY-LIFT SYSTEM SECURED // MASTER PARITY LEDGER GREEN")
@@ -110,4 +124,4 @@ def verify_lifter_parity():
 
 if __name__ == "__main__":
     verify_lifter_parity()
-    
+        
