@@ -29,3 +29,7 @@ This directory serves as the centralized validation hub for the Solid-State Atmo
    * **Asset Class:** Human-Readable Assembly Handbook, Priming Protocols, Preventative Care Logs, and Fluidic Troubleshooting Diagnostics Matrix
    * **User Target:** Field Technicians, Workshop Mechanics, SLA Operators, and Sovereign Families
    
+6. **File Path:** `./SCALING_MATRIX.md`
+   * **Asset Class:** Human-Readable Symmetrical Scaling Bounds Guide & Volumetric Performance Ledger
+   * **User Target:** Civil Engineering Enclaves, Mobile Utility Crews, and Community Organizers
+   
