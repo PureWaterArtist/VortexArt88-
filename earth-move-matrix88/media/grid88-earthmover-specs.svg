@@ -1,0 +1,31 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Cleanroom Dark Bench Master Specifications Grid Base -->
+  <rect width="800" height="600" fill="#010204" />
+  <g stroke="#050a15" stroke-width="1" opacity="0.65">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550" />
+    <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
+  </g>
+
+  <!-- 120mm 40.0 kHz ULTRASONIC CAVITATION NOSE CONE -->
+  <path d="M 150,220 L 250,300 L 150,380 Z" fill="#1e293b" stroke="#e2e8f0" stroke-width="2" />
+  <circle cx="120" cy="300" r="10" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="2,2" opacity="0.8" />
+  <path d="M 120,280 A 20,20 0 0,0 120,320" fill="none" stroke="#22d3ee" stroke-width="3" opacity="0.8" />
+  <text x="180" y="270" fill="#22d3ee" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">40.0 kHz PIEZO HEAD</text>
+
+  <!-- 160mm RADIAL ROOT-TIP EXPANSION SHELL CYLINDER -->
+  <rect x="250" y="220" width="400" height="160" fill="#0f172a" stroke="#475569" stroke-width="3" />
+  <line x1="250" y1="225" x2="650" y2="225" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="250" y1="375" x2="650" y2="375" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="450" y="210" fill="#38bdf8" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">RADIAL EXPANSION SHELL // WALL PRESSURE: 212.5 kPa</text>
+
+  <!-- INTERNAL 80mm PERISTALTIC PUMPING TUBE (EARTHWORM CORE) -->
+  <rect x="250" y="260" width="400" height="80" fill="#020617" stroke="#f43f5e" stroke-width="2" />
+  <path d="M 300,260 V 340 M 350,260 V 340 M 400,260 V 340 M 450,260 V 340 M 500,260 V 340 M 550,260 V 340 M 600,260 V 340" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="450" y="305" fill="#f43f5e" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">PERISTALTIC EARTHWORM TUBE // INNER CORE: 80mm</text>
+
+  <!-- METROLOGICAL LABELS & COMPLIANCE TEXT OVERLAYS -->
+  <text x="400" y="55" fill="#34d399" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">PROJECT EARTH-MOVE SUBTERRANEAN TRANSIT MECHANICAL SPECIFICATIONS</text>
+  <text x="400" y="475" fill="#34d399" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">AUXETIC LATTICE STRUCTURE: POISSON'S RATIO = -0.60 // SELF-SUPPORTING REINFORCEMENT</text>
+  <text x="400" y="500" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">Chassis Sourcing Process: SLA Photopolymer Resin Slurry // Net Capital Sourcing Cost: $385.00</text>
+  <text x="400" y="565" fill="#475569" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT EARTH-MOVE // EXCAVATOR REFERENCE BLUEPRINT v1.0.0</text>
+</svg>
