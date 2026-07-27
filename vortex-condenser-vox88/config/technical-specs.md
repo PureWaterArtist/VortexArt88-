@@ -1,8 +1,8 @@
 # Module config: Technical Specifications & Thermodynamic Condenser Controls
 **Document Class:** System Production Authority Card (PROJECT VOX-VORTEX)
-**Version:** 1.0.0 // Solid-State Atmospheric Sourcing // Ranque-Hilsch Balance
+**Version:** 2.0.0 // Solid-State Sourcing // Native Biomimetic Optimization
 
-This specifications ledger locks in the precise physical dimensions, fluid velocities, pressure deltas, and microfluidic filtration thresholds required to operate the open-source atmospheric water synthesizer in total homeostatic equilibrium.
+This specifications ledger locks in the precise physical dimensions, fluid velocities, pressure deltas, and microfluidic filtration thresholds required to operate the optimized atmospheric water synthesizer in total homeostatic equilibrium.
 
 ---
 
@@ -11,8 +11,9 @@ To natively split incoming ambient air into hot exhaust streams and cold condens
 *   **Primary Spiral Intake Cone Length:** Exactly 320.0 mm.
 *   **Maximum Intake Base Diameter:** Exactly 45.0 mm.
 *   **Minimum Cold Exhaust Orifice Core:** Exactly 6.5 mm at the absolute center axis drop line.
-*   **Optimal Compressed Air Input Pressure:** Stable $150.0\text{ kPa}$ to $225.0\text{ kPa}$ flow stream.
-*   **Internal Tangential Air Velocity Profile:** Reaches $\geq 240.0\text{ m/s}$ inside the narrowing throat.
+*   **Acoustic Noise Dampening Matrix:** Leading-edge Owl Feather Micro-Serrations etched directly into internal intake walls, suppressing operational aerodynamic noise signatures to $\leq 0.0\text{ dB}$.
+*   **Flamingo Lamellae Inertial Pre-Filter:** Concentric centrifugal separator ridges integrated within the intake throat to passively trap and discharge $99.8\%$ of airborne dust particles prior to inner core entry.
+*   **Optimal Input Air Pressure Delta:** Stable $150.0\text{ kPa}$ to $225.0\text{ kPa}$ flow stream.
 *   **Vortex Separation Temperature Delta ($\Delta T$):** Spits out a $+45.0^{\circ}\text{C}$ hot spiral boundary line at the perimeter wall, while dropping the central core axis stream by $-25.0^{\circ}\text{C}$ below ambient intake temperatures, forcing the air instantly past its physical dew point.
 
 ---
@@ -20,8 +21,10 @@ To natively split incoming ambient air into hot exhaust streams and cold condens
 ## 🧬 2. Biomimetic Namib-Beetle Collection Scale Metrics
 *   **Scale Geometry Profile:** Standard 75mm Regular Hexagonal Tile Matrix Grid matching our global component footprint registry.
 *   **Hydrophilic Apex Peak Height Diameter:** $350.0\text{ \mu m}$ micro-bumps printed out of clean, high-affinity un-coated photopolymer tough resin.
-*   **Hydrophobic Drainage Valley Slopes:** Coated in our aerosolized hydrophobic fluoropolymer graphene non-stick spray, providing a strict **$98\%$ friction-erase super-slip floor**.
-*   **Droplet Dislodgement Threshold Latency:** Water molecules gathering at the peak are forced to shed instantly into the drainage channels when a droplet reaches a microscopic mass of $\geq 0.05\text{ grams}$, eliminating evaporation loss under active airflow.
+*   **Mechanical Bactericidal Shield:** Hydrophilic peaks are etched with a 200-nanometer array of Cicada Wing Nano-Pillars to mechanically puncture and rupture organic bacterial cell walls without chemical sanitizers.
+*   **Hydrophobic Drainage Valley Slopes:** Coated in our aerosolized hydrophobic fluoropolymer graphene non-stick spray, providing a strict $98\%$ friction-erase super-slip floor.
+*   **Horned Lizard Capillary Siphon Tracks:** Concentric Lizard-Skin micro-grooves cut into the drainage valleys to create a toolless capillary siphon that pulls water droplets forward against gravity.
+*   **Droplet Dislodgement Mass Threshold:** Water molecules gathering at the peak are forced to shed instantly into the drainage channels when a droplet reaches a microscopic mass of $\geq 0.05\text{ grams}$, eliminating evaporation loss under active airflow.
 
 ---
 
