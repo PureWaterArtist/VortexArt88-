@@ -11,6 +11,21 @@ This project completely democratizes localized environmental protection and neig
 
 The core implements a **Sunlight-Driven RuBisCO Vascular Network** that solidifies captured carbon into a stable bioplastic matrix within seconds using pure solar rays, routing materials into an **Elastomeric Mollusk Squeeze Tray** that collects the clean solids without high-heat ovens [No.0]. Running entirely at ambient room-temperature equilibrium off low-power pneumatic pressure arrays, this machine functions as an immortal, independent purification panel capable of cleaning the air for any household enclave on Earth [No.0, No.1].
 
+# 👑 PROJECT CARBON-SIEVE: Open-Source Biomimetic Solar-Driven Atmospheric Sieve Engine
+
+![Project CARBON-SIEVE Sieve Engine Mechanical Blueprint Layout](./media/grid88-sieve-specs.svg)
+
+---
+
+## 🎨 Project CARBON-SIEVE Digital Twin & Metrology Showroom
+
+*   **Master System Specifications Vector Drawing Asset:** 
+    `./media/grid88-sieve-specs.svg`
+*   **Programmatic Python 3 Graphic Vector Slicer Script:**
+    `./media/generate-blueprint.py`
+*   **Atmospheric Parametric OpenSCAD Solid Core Compiler Script:**
+    `./compile_sieve_engine.py`
+    
 ---
 
 ## 🗂 Symmetrical Repository Directory Map
