@@ -11,6 +11,21 @@ This project completely revolutionizes localized arboriculture, wood processing,
 
 The cutting edge implements a **Self-Sharpening Dual-Density Matrix** that uses ongoing wood friction to hone its own sub-micron edge, routing fluid barriers into a **Passive Wasps-Ovipositor Capillary Shield** that prevents sap adhesion without chemical oils [No.0]. Running entirely off low-power pneumatic pressure and piezo-accumulators, this machine functions as an immortal, independent wood-working node capable of material clearing entirely outside centralized forestry machinery cartels [No.0, No.1].
 
+# 👑 PROJECT SHEAR-CUT: Open-Source Biomimetic Solid-State Material-Cleaving Engine
+
+![Project SHEAR-CUT Cleaving Engine Mechanical Blueprint Layout](./media/grid88-cutter-specs.svg)
+
+---
+
+## 🎨 Project SHEAR-CUT Digital Twin & Metrology Showroom
+
+*   **Master System Specifications Vector Drawing Asset:** 
+    `./media/grid88-cutter-specs.svg`
+*   **Programmatic Python 3 Graphic Vector Slicer Script:**
+    `./media/generate-blueprint.py`
+*   **Arboreal Parametric OpenSCAD Solid Core Compiler Script:**
+    `./compile_cutter_engine.py`
+    
 ---
 
 ## 🗂 Symmetrical Repository Directory Map
