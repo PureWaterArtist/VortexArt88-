@@ -4,11 +4,18 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-subterranean-transit-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "acoustic_cavitation_nose_metrics": {
     "nose_cone_diameter_mm": 120.0,
     "ultrasonic_resonance_frequency_khz": 40.0,
-    "acoustic_focal_distance_mm": 1.5
+    "acoustic_focal_distance_mm": 1.5,
+    "optical_thermal_assistance_type": "450nm Blue Diode Laser Array",
+    "fluid_disruption_mechanism": "Laser-Assisted Resonant Hydro-Pulsing",
+    "nozzle_inward_convergence_degrees": 7.5,
+    "passive_valveless_pulsing_mechanism": "Coanda Fluidic Pulse Choppers",
+    "rock_fracture_resonance_frequency_khz": 26.5,
+    "hydro_jet_max_pressure_mpa": 220.0,
+    "fluid_delivery_capillary_microns": 120.0
   },
   "radial_root_expansion_shell_specs": {
     "expansion_shell_diameter_mm": 160.0,
@@ -24,7 +31,7 @@
   "validation_sourcing_ledger": [
     {
       "root_earthmover_mesh_compiler_script": "earth-move-matrix88/generate-earthmover-mesh.py",
-      "subterranean_parity_check": "MATCHED"
+      "hydro_cavitation_parity_check": "MATCHED"
     }
   ]
 }
