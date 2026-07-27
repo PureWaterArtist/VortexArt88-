@@ -11,6 +11,21 @@ This project completely democratizes localized trenching, soil management, and f
 
 The transit framework implements an **Elastomeric Peristaltic Earthworm Tube** that pumps material backward using low-power pneumatic pressure waves, routing forces into a **Radial Root-Tip Expansion Shell** that reinforces the excavation path without concrete shoring [No.0]. Running entirely off low-power pneumatic pressure accumulators, this machine functions as an immortal, independent civil engineering node capable of earthmoving entirely outside centralized industrial construction cartels [No.0, No.1].
 
+# 👑 PROJECT EARTH-MOVE: Open-Source Biomimetic Fluidic Subterranean Transit Engine
+
+![Project EARTH-MOVE Subterranean Transit Engine Mechanical Blueprint Layout](./media/grid88-earthmover-specs.svg)
+
+---
+
+## 🎨 Project EARTH-MOVE Digital Twin & Metrology Showroom
+
+*   **Master System Specifications Vector Drawing Asset:** 
+    `./media/grid88-earthmover-specs.svg`
+*   **Programmatic Python 3 Graphic Vector Slicer Script:**
+    `./media/generate-blueprint.py`
+*   **Subterranean Parametric OpenSCAD Solid Core Compiler Script:**
+    `./compile_earthmover_engine.py`
+    
 ---
 
 ## 🗂 Symmetrical Repository Directory Map
