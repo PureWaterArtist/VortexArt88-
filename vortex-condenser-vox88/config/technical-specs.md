@@ -15,6 +15,7 @@ To natively split incoming ambient air into hot exhaust streams and cold condens
 *   **Flamingo Lamellae Inertial Pre-Filter:** Concentric centrifugal separator ridges integrated within the intake throat to passively trap and discharge $99.8\%$ of airborne dust particles prior to inner core entry.
 *   **Optimal Input Air Pressure Delta:** Stable $150.0\text{ kPa}$ to $225.0\text{ kPa}$ flow stream.
 *   **Vortex Separation Temperature Delta ($\Delta T$):** Spits out a $+45.0^{\circ}\text{C}$ hot spiral boundary line at the perimeter wall, while dropping the central core axis stream by $-25.0^{\circ}\text{C}$ below ambient intake temperatures, forcing the air instantly past its physical dew point.
+*   **Automated Woodpecker De-Icing Loop:** An integrated pneumatic micro-flap valve tapping into the $+45.0^{\circ}\text{C}$ hot perimeter exhaust line, converting kinetic pressure drops into a continuous $15.0\text{ Hz}$ to $22.0\text{ Hz}$ structural micro-vibration across the 75mm scale base. This completely shatters ice crystal adhesion boundaries during sub-freezing local core states, preventing frost-choking failures without electrical energy draw.
 
 ---
 
