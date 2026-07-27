@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-SHEAR-CUT-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-material-cleaving-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "self_sharpening_blade_metrics": {
+    "tooth_pitch_mm": 8.5,
+    "leading_edge_hardness_shore_d": 88.0,
+    "trailing_edge_hardness_shore_d": 60.0,
+    "cutting_edge_vertex_ceiling_microns": 0.5
+  },
+  "piezoelectric_harmonic_actuator_specs": {
+    "stridulation_frequency_khz": 4.5,
+    "oscillation_amplitude_microns": 120.0,
+    "target_shear_stress_mpa": 45.0,
+    "noise_ceiling_db": 0.0
+  },
+  "wasp_ovipositor_sap_shield_metrics": {
+    "capillary_width_microns": 120.0,
+    "working_input_pressure_kpa": 200.0,
+    "friction_suppression_pct": 98.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_cutter_mesh_compiler_script": "shear-cut-matrix88/generate-cutter-mesh.py",
+      "cleaving_parity_check": "MATCHED"
+    }
+  ]
+}
