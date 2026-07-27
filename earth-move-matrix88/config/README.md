@@ -25,4 +25,7 @@ This directory serves as the centralized validation hub for the Biomimetic Subte
 5. **File Path:** `./DIG_EXPLAINER.md`
    * **Asset Class:** Plain-English Community Earthmoving Guide & Search Target Handbook
    * **User Target:** Independent Families, Neighborhood Workshops, & Sovereign Enclaves
-   
+ 6. **File Path:** `../modules/production-staging/XOMETRY_RFQ.md`
+   * **Asset Class:** Turnkey Industrial RFQ Staging Card & Foundry Hand-Off Submission Manifest
+   * **User Target:** Sourcing Managers, Procurement Crews, Commercial Machine Foundries, and Sovereign Families
+  
