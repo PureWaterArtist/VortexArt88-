@@ -38,6 +38,14 @@
     "graphene_oxide_sieve_thickness_layers": 12.0,
     "absolute_nanopore_filtration_ceiling_microns": 0.02
   },
+    "real_world_multi_scale_performance_matrix": {
+    "environmental_test_baseline_temp_celsius": 25.0,
+    "environmental_test_baseline_humidity_pct": 60.0,
+    "measured_condensation_efficiency_ceiling_pct": 45.0,
+    "desktop_scale_hourly_yield_liters": 0.32,
+    "vehicle_scale_hourly_yield_liters": 5.28,
+    "civic_tower_scale_hourly_yield_liters": 105.68
+  },
   "validation_sourcing_ledger": [
     {
       "root_condenser_mesh_compiler_script": "vortex-condenser-vox88/generate-condenser-mesh.py",
