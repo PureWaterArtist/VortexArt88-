@@ -22,6 +22,17 @@
     "passive_siphon_routing_geometry": "Texas Horned Lizard Micro-Groove Troughs",
     "droplet_shedding_mass_threshold_grams": 0.05
   },
+    "vortex_separation_thermodynamic_metrics": {
+    "intake_cone_length_mm": 320.0,
+    "intake_base_diameter_mm": 45.0,
+    "cold_orifice_core_diameter_mm": 6.5,
+    "working_pneumatic_input_pressure_kpa": 187.5,
+    "target_temperature_depression_celsius": -25.0,
+    "acoustic_noise_suppression_type": "Owl Feather Micro-Serrations",
+    "inertial_pre_filtration_type": "Centrifugal Flamingo Lamellae Ridges",
+    "passive_deicing_mechanism": "Woodpecker Micro-Vibration Flap Valve",
+    "mechanical_pulse_frequency_hz": 18.5
+  },
   "multi_vascular_purification_geometries": {
     "filtration_capillary_width_microns": 120.0,
     "nominal_hydrostatic_gravity_pressure_kpa": 2.5,
