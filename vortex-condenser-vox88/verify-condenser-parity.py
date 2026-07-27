@@ -54,15 +54,15 @@ def verify_condenser_parity():
         deice_freq = card_data["vortex_separation_thermodynamic_metrics"]["mechanical_pulse_frequency_hz"]
         desktop_yield = card_data["real_world_multi_scale_performance_matrix"]["desktop_scale_hourly_yield_liters"]
         
-        # Verify strict compliance with our real-world vulnerability remediations
-        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp or deice_freq != 18.5 or desktop_yield != 0.33:
-            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or real-world yield limits mismatch.")
+        # Verify strict compliance with our real-world psychrometric modifications
+        if cone_len != 320.0 or cold_core != 6.5 or peak_dia != 350.0 or "Owl Feather" not in noise_damp or deice_freq != 18.5 or desktop_yield != 0.32:
+            print("❌ DATA DRIFT ERROR: Funnel geometry, cold core drops, micro-bumps, or true yield limits mismatch.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID PNEUMATIC CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -106,12 +106,12 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 05: RUNTIME FIELD MANUAL LOGS FULLY SYNCHRONIZED.")
 
-    # 6. Audit the Scaling Matrix Bounds Ledger
+    # 6. Audit the Scaling Matrix Bounds Ledger for the new 0.32 L/hr baseline
     try:
         with open("config/SCALING_MATRIX.md", "r") as f:
             scale_content = f.read()
             
-        if "0.33\\text{ Liters / Hour}" not in scale_content or "111.45\\text{ Liters / Hour}" not in scale_content:
+        if "0.32\\text{ Liters / Hour}" not in scale_content or "105.68\\text{ Liters / Hour}" not in scale_content:
             print("❌ SCALING MATRIX DRIFT: Volumetric yield scale parameters mismatch with real-world constraints.")
             sys.exit(1)
             
@@ -135,10 +135,10 @@ def verify_condenser_parity():
     print("✅ PHASE 07: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("❌ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
+    print("✅ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_condenser_parity()
-        
+    
