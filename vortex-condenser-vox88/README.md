@@ -15,14 +15,14 @@ The collection array implements a **Biomimetic Namib-Beetle Scale Grid** that co
 ## 🌫️ How the Water Synthesizer Works (In Plain English)
 
 ### The Complete Anatomy of the Eternal Well
-![Detailed Exploded Mechanical View Diagram Mapping Vortex Thermodynamic Separation and Graphene Purification Loops](/media/grid88-condenser-exploded-view.png)
+![Detailed Exploded Mechanical View Diagram Mapping Vortex Thermodynamic Separation and Graphene Purification Loops](../media/grid88-condenser-exploded-view.png)
 
 Instead of using power-hungry copper compressors...
 
 ---
 
 ### Harvesting the Atmosphere: Native Survival Abundance
-![Hyper Realistic Real-World Presentation View of the Solid-State Water Synthesizer Outputting Pure Water in a Desert Enclave Environment](/media/grid88-condenser-active-operation.png)
+![Hyper Realistic Real-World Presentation View of the Solid-State Water Synthesizer Outputting Pure Water in a Desert Enclave Environment](../media/grid88-condenser-active-operation.png)
 
 Our project completely eliminates this dependency by using natural geometry...
 # 👑 PROJECT VOX-VORTEX: Open-Source Solid-State Atmospheric Water Synthesizer
