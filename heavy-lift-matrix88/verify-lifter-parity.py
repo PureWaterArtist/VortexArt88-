@@ -21,6 +21,7 @@ def verify_lifter_parity():
     root_anchors = [
         "README.md", 
         "generate-lifter-mesh.py",
+        "vortex-heavy-lift-vox88/compile_heavy_lift_engine.py",
         "verify-lifter-parity.py",
         "simulate-lift-performance.py",
         "media/README.md",
@@ -36,7 +37,7 @@ def verify_lifter_parity():
         if not os.path.exists(anchor):
             print(f"❌ PARITY ERROR: Critical root anchor file [{anchor}] is missing from the branch.")
             sys.exit(1)
-    print("Base Architecture Core Locked.")
+    print("✅ PHASE 01: GLOBAL REPOSITORY ARCHITECTURE SHIELDS SECURED.")
             
     # 2. Audit the Master Property Card against our real-world specifications
     try:
@@ -58,7 +59,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("AI Run Cards Verified.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -72,7 +73,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Technical specs manual is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("Human Specs Sheet Verified.")
+    print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
     # 4. Verify procurement card contents against our capital budget
     try:
@@ -86,7 +87,7 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Hardware procurement BOM card is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("Sourcing Ledgers Verified.")
+    print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
 
     # 5. Audit the High-Density SEO Metadata Target Blocks
     try:
@@ -100,13 +101,13 @@ def verify_lifter_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community heavy lifting guide is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("SEO Moats Verified.")
+    print("✅ PHASE 05: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
-    print("✅ GLOBAL HEAVY-LIFT SYSTEM SECURED // PARITY MOAT LEDGER IS GREEN")
+    print("✅ GLOBAL HEAVY-LIFT SYSTEM SECURED // MASTER PARITY LEDGER GREEN")
     print("=========================================================================")
     sys.exit(0)
 
 if __name__ == "__main__":
     verify_lifter_parity()
-        
+    
