@@ -14,14 +14,15 @@ import sys
 
 def verify_condenser_parity():
     print("=========================================================================")
-    print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME REBUILD PARITY SWEEP")
+    print("🛰️  INITIATING PROJECT VOX-VORTEX SUPREME PLANETARY REBUILD PARITY SWEEP")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, digital twin, and manual anchor files
+    # 1. Verify existence of critical root, configuration, digital twin, and media files
     root_anchors = [
         "README.md", 
         "generate-condenser-mesh.py", 
         "master-condenser-twin.py",
+        "simulate-scale-yields.py",
         "verify-condenser-parity.py",
         "media/README.md",
         "media/generate-blueprint.py",
@@ -32,6 +33,7 @@ def verify_condenser_parity():
         "config/HARDWARE_BOM.md",
         "config/OPERATIONS_MANUAL.md",
         "config/WATER_EXPLAINER.md",
+        "config/SCALING_MATRIX.md",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -59,7 +61,7 @@ def verify_condenser_parity():
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID PNEUMATIC CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND FLUID HYDRODYNAMICS CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
@@ -75,7 +77,7 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 03: HUMAN METROLOGY SPECS MANUAL SYNCHRONIZED TO PHYSICS CURVES.")
 
-    # 4. Verify procurement card contents against our $209.00 capital budget
+    # 4. Verify procurement card contents against our capital budget
     try:
         with open("config/HARDWARE_BOM.md", "r") as f:
             bom_content = f.read()
@@ -103,7 +105,21 @@ def verify_condenser_parity():
         sys.exit(1)
     print("✅ PHASE 05: RUNTIME FIELD MANUAL LOGS FULLY SYNCHRONIZED.")
 
-    # 6. Audit the High-Density SEO Metadata Target Blocks
+    # 6. Audit the Scaling Matrix Bounds Ledger
+    try:
+        with open("config/SCALING_MATRIX.md", "r") as f:
+            scale_content = f.read()
+            
+        if "1.85\\text{ Liters / Hour}" not in scale_content or "14,800.00\\text{ Liters / Hour}" not in scale_content:
+            print("❌ SCALING MATRIX DRIFT: Volumetric yield scale parameters mismatch with root metrics.")
+            sys.exit(1)
+            
+    except Exception as e:
+        print(f"❌ LINTER RUNTIME ERROR: Symmetrical scaling manual is missing or unreadable from the config: {str(e)}")
+        sys.exit(1)
+    print("✅ PHASE 06: MULTI-SCALE ENVIRONMENT MATRIX INTEGRITY SECURED.")
+
+    # 7. Audit the High-Density SEO Metadata Target Blocks
     try:
         with open("config/WATER_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
@@ -115,7 +131,7 @@ def verify_condenser_parity():
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Community water security explainer manual is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 06: EXPLAINER TEXT FIELD PARITY GREEN.")
+    print("✅ PHASE 07: EXPLAINER TEXT FIELD PARITY GREEN.")
         
     print("\n=========================================================================")
     print("✅ GLOBAL WATER SYNTHESIZER SECURED // MASTER PARITY LEDGER GREEN")
@@ -124,4 +140,4 @@ def verify_condenser_parity():
 
 if __name__ == "__main__":
     verify_condenser_parity()
-        
+            
