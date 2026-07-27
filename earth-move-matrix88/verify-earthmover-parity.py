@@ -65,7 +65,7 @@ def verify_earthmover_parity():
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "40.0\\text{ kHz}" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "80.0 mm" not in specs_content:
+        if "40.0\\text{ kHz}" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "80.0 mm" not in specs_content or "Silicate" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
@@ -88,7 +88,7 @@ def verify_earthmover_parity():
         sys.exit(1)
     print("✅ PHASE 04: WORKSHOP FABRICATION SOURCING LEDGER COMPLIANT.")
 
-    # 5. Audit the Scaling Matrix Bounds Ledger for real-world mass balance data
+    # 5. Audit the Symmetrical Scaling Bounds Ledger for real-world mass balance data
     try:
         with open("config/SCALING_MATRIX.md", "r") as f:
             scale_content = f.read()
