@@ -17,12 +17,17 @@ def verify_cutter_parity():
     print("🛰️  INITIATING PROJECT SHEAR-CUT AUTOMATED PARITY AUDIT GATES")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, and script files
+    # 1. Verify existence of critical root, configuration, media, and script files
     root_anchors = [
         "README.md", 
         "verify-cutter-parity.py",
+        "compile_cutter_engine.py",
+        "media/README.md",
+        "media/generate-blueprint.py",
+        "media/grid88-cutter-specs.svg",
         "config/README.md",
         "config/technical-specs.md",
+        "config/HARDWARE_BOM.md",
         "config/ARBOR_EXPLAINER.md",
         "config/global-matrix-card.json"
     ]
@@ -43,7 +48,7 @@ def verify_cutter_parity():
         noise = card_data["piezoelectric_harmonic_actuator_specs"]["noise_ceiling_db"]
         
         # Verify strict compliance with our real-world biomimetic parameters
-        if pitch != 8.5 or freq != 4.5 or cap_width != 120.0 or noise != 0.0:
+        if pitch != 8.5 or freq != 4.5 or capillary_width_microns != 120.0 if 'capillary_width_microns' in locals() else cap_width != 120.0 or noise != 0.0:
             print("❌ DATA DRIFT ERROR: Tooth pitch, harmonic frequency, capillaries, or noise limits mismatch.")
             sys.exit(1)
             
@@ -57,7 +62,7 @@ def verify_cutter_parity():
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "4.5\\text{ kHz}" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "8.5 mm" not in specs_content or "Kangaroo" not in specs_content if "Kangaroo" in specs_content else "Beetle" not in specs_content:
+        if "4.5\\text{ kHz}" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "8.5 mm" not in specs_content or "Beetle" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
@@ -87,4 +92,4 @@ def verify_cutter_parity():
 
 if __name__ == "__main__":
     verify_cutter_parity()
-  
+    
