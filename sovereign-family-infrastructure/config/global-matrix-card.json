@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-SOVEREIGN-INFRASTRUCTURE-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "closed-loop-family-infrastructure-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "sub_system_01_termite_gasifier": {
+    "nominal_pyrolysis_temperature_celsius": 750.0,
+    "minimum_vacuum_pressure_kpa": -5.0,
+    "syngas_yield_m3_per_kg": 0.85,
+    "stirling_conversion_efficiency": 0.28,
+    "biochar_byproduct_ratio": 0.115,
+    "internal_coanda_capillary_microns": 120.0
+  },
+  "sub_system_02_mangrove_sieve": {
+    "graphene_oxide_pore_size_nm": 20.0,
+    "volumetric_flux_recovery_pct": 94.0,
+    "pathogen_exclusion_floor_pct": 99.999,
+    "internal_air_logic_capillary_microns": 120.0,
+    "nominal_operating_pressure_kpa": 200.0
+  },
+  "sub_system_03_redwood_tower": {
+    "peristaltic_mist_pulse_frequency_hz": 2.5,
+    "water_consumption_reduction_pct": 95.0,
+    "baseline_monthly_yield_kg": 68.0,
+    "root_zone_biochar_loading_pct": 35.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_infrastructure_simulator_script": "sovereign-family-infrastructure/simulate_infrastructure_math.py",
+      "closed_loop_parity_check": "MATCHED"
+    }
+  ]
+}
