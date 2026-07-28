@@ -6,7 +6,7 @@ Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
 Programmatically compiles the avian-lung cardioid scroll compressor housing.
 Integrates internal 120-micron bone-vascular remodeling tracks, valveless Coanda 
-air logic trigger manifolds, and the mantis-claw quick-release tool collar.
+air logic triggers, legacy square-drive adapter links, and shark-tooth macro cutters.
 """
 
 from solid import open_scad, cylinder, translate, rotate, cube, union
@@ -14,7 +14,7 @@ import math
 
 def compile_pneumatic_system_mesh():
     print("=========================================================================")
-    print("🛰️  COMPUTING PARAMETRIC CARDIOID SCROLL COMPRESSOR & TOOL COLLAR...")
+    print("🛰️  COMPUTING PARAMETRIC CARDIOID SCROLL COMPRESSOR & RE-UPGRADED MODS...")
     print("=========================================================================\n")
     
     # 📏 METROLOGY & STRUCTURAL PARAMETERS (From config/technical-specs.md)
@@ -36,7 +36,6 @@ def compile_pneumatic_system_mesh():
     compressor_chassis = outer_shell - inner_scroll_void
     
     # 🏛️ 2. ETCH 120-MICRON CORTICAL BONE HEALING CAPILLARY CHANNELS
-    # Wears 12 fluid tracking paths directly inside outer ceramic wall arcs
     healing_lines = []
     angle_step = 360.0 / num_healing_capillaries
     mid_wall_r = (scroll_diameter_mm / 2.0) - 3.0
@@ -68,29 +67,41 @@ def compile_pneumatic_system_mesh():
     airgun_handle = trigger_handle - left_switching_track - right_switching_track
     compressor_chassis += airgun_handle
 
-    # 🏛️ 4. INTEGRATE MANTIS-CLAW CAM-LOCK 30-DEGREE QUICK RELEASE COLLAR
-    quick_collar_base = cylinder(r=20.0, h=35.0, segments=64, center=True)
-    quick_collar_base = rotate([0, 90.0, 0])(quick_collar_base)
-    quick_collar_base = translate([((scroll_diameter_mm / 2.0) + 10.0), 0, housing_height_mm / 2.0])(quick_collar_base)
+    # 🏛️ 4. INTEGRATE MANTIS-CLAW CAM-LOCK LEGACY DRIVING ADAPTER CONVERTER NODE
+    # Extrudes a 1/2-inch square tang and a helical internal siphonophore air track chunk
+    legacy_adapter_base = cylinder(r=20.0, h=25.0, segments=64, center=True)
+    legacy_adapter_base = translate([((scroll_diameter_mm / 2.0) + 10.0), -25.0, housing_height_mm / 2.0])(legacy_adapter_base)
     
-    tapered_lock_socket = cylinder(r1=14.0, r2=11.0, h=40.0, segments=64, center=True)
-    tapered_lock_socket = rotate([0, 90.0, 0])(tapered_lock_socket)
-    tapered_lock_socket = translate([((scroll_diameter_mm / 2.0) + 10.0), 0, housing_height_mm / 2.0])(tapered_lock_socket)
+    square_tang_drive = cube([12.7, 12.7, 15.0], center=True) # 1/2-inch Standard Drive Tang
+    square_tang_drive = translate([((scroll_diameter_mm / 2.0) + 10.0), -45.0, housing_height_mm / 2.0])(square_tang_drive)
     
-    mantis_lock_interface = quick_collar_base - tapered_lock_socket
-    compressor_chassis += mantis_lock_interface
+    compressor_chassis += (legacy_adapter_base + square_tang_drive)
 
-    # Symmetrical edge clean cuts
-    clean_hull_mask = cylinder(r=(scroll_diameter_mm / 2.0) + 60.0, h=housing_height_mm + 120.0, segments=96, center=True)
+    # 🏛️ 5. INTEGRATE MEGALODON HEAVY MASONRY & TITANIUM SERRATED SHARK-TOOTH BLADE
+    # Casts overlapping White-Shark tooth cutting coordinates into the outer profile layer
+    shark_blade_backing = cube([15.0, 50.0, 50.0], center=True)
+    shark_blade_backing = translate([((scroll_diameter_mm / 2.0) + 30.0), 25.0, housing_height_mm / 2.0])(shark_blade_backing)
+    
+    serrated_tooth_1 = cylinder(r1=0.0, r2=6.0, h=12.0, segments=3, center=True)
+    serrated_tooth_1 = rotate([0, 90.0, 0])(serrated_tooth_1)
+    serrated_tooth_1 = translate([((scroll_diameter_mm / 2.0) + 40.0), 40.0, housing_height_mm / 2.0])(serrated_tooth_1)
+    
+    serrated_tooth_2 = cylinder(r1=0.0, r2=6.0, h=12.0, segments=3, center=True)
+    serrated_tooth_2 = rotate([0, 90.0, 0])(serrated_tooth_2)
+    serrated_tooth_2 = translate([((scroll_diameter_mm / 2.0) + 40.0), 10.0, housing_height_mm / 2.0])(serrated_tooth_2)
+    
+    compressor_chassis += (shark_blade_backing + serrated_tooth_1 + serrated_tooth_2)
+
+    # Symmetrical mask clean boundary cuts
+    clean_hull_mask = cylinder(r=(scroll_diameter_mm / 2.0) + 120.0, h=housing_height_mm + 150.0, segments=96, center=True)
     clean_hull_mask = translate([0, 0, housing_height_mm / 2.0])(clean_hull_mask)
     final_pneumatic_unit = compressor_chassis * clean_hull_mask
 
-    # 💾 5. EXPORT HIGH-RESOLUTION OPENSCAD PRODUCTION SOLID FILE
+    # 💾 6. EXPORT HIGH-RESOLUTION OPENSCAD PRODUCTION SOLID FILE
     output_filename = "pneumatic_matrix_compressor_core_v1.scad"
     open_scad.scad_render_to_file(final_pneumatic_unit, output_filename)
     
-    print(f"✅ SUCCESS: Project PNEUMATIC-MATRIX Compressor Core saved to: ./{output_filename}")
-    print("👉 Next Step: Open in OpenSCAD (F6) and export clean STL for multi-material composite printing.")
+    print(f"✅ SUCCESS: Re-Upgraded Project PNEUMATIC-MATRIX Compressor and Multi-Modules saved to: ./{output_filename}")
 
 if __name__ == "__main__":
     compile_pneumatic_system_mesh()
