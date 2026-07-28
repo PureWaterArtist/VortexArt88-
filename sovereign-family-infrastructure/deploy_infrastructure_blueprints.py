@@ -20,6 +20,7 @@ def execute_automated_deployment():
     print("=========================================================================\n")
     
     # 🗂️ TARGET FILE PATROLLER MATRIX (Mapping all four parametric compiler scripts)
+        # 🗂️ TARGET FILE PATROLLER MATRIX (Mapping all five parametric compiler scripts)
     compilers_ledger = {
         "Sub-Module 01: Gasifier Core" : {
             "dir": "power-grid-matrix88",
@@ -40,6 +41,16 @@ def execute_automated_deployment():
             "dir": "solar-armor-matrix88",
             "script": "compile_solar_mesh.py",
             "output_scad": "solar_armor_hex_scale_v1.scad"
+        },
+        "Sub-Module 05: Power Storage"  : {
+            "dir": "lipo-matrix88",
+            "script": "compile_storage_mesh.py",
+            "output_scad": "lipo_matrix_storage_cell_v1.scad"
+        },
+        "Sub-Module 06: Shield Canopy"  : {
+            "dir": "shield-dome-matrix88",
+            "script": "compile_dome_mesh.py",
+            "output_scad": "shield_dome_canopy_panel_v1.scad"
         }
     }
     
