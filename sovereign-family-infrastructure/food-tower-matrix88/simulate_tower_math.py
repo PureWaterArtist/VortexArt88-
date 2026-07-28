@@ -46,9 +46,9 @@ def compute_aeroponic_yields():
         print("  * System Soil Dependency Floor : ✅ 100% AEROPONIC LAYERED GROW CYCLES SECURED\n")
 
     print("=========================================================================")
-    print("✅ INFRASTRUCTURE VIABILITY CONFIRMED // AGRARIAN MATH IS UNASSAILABLE")
+    print("✅ INFRASTRUCTURE VIABILITY CONFIRMED // SYSTEM POWER EQUATIONS COMPLIANT")
     print("=========================================================================")
 
 if __name__ == "__main__":
     compute_aeroponic_yields()
-  
+    
