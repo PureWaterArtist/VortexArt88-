@@ -4,28 +4,35 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-material-cleaving-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "4.0.0",
   "self_sharpening_blade_metrics": {
     "tooth_pitch_mm": 8.5,
     "leading_edge_hardness_shore_d": 88.0,
     "trailing_edge_hardness_shore_d": 60.0,
     "cutting_edge_vertex_ceiling_microns": 0.5
   },
+  "pneumatic_macro_drive_specs": {
+    "oscillator_classification": "Valveless Fluidic Bistable Handle Core",
+    "working_input_pressure_kpa": 200.0,
+    "linear_thrust_output_newtons": 450.0,
+    "macro_sawing_frequency_hz": 75.0
+  },
   "piezoelectric_harmonic_actuator_specs": {
     "stridulation_frequency_khz": 4.5,
     "oscillation_amplitude_microns": 120.0,
-    "target_shear_stress_mpa": 45.0,
+    "drive_configuration": "Dual-Blade Push-Pull Reciprocating Array",
+    "phase_offset_degrees": 180.0,
     "noise_ceiling_db": 0.0
   },
   "wasp_ovipositor_sap_shield_metrics": {
     "capillary_width_microns": 120.0,
-    "working_input_pressure_kpa": 200.0,
+    "chemical_softening_agent": "Cellulase Enzyme Gel Solution Blend",
     "friction_suppression_pct": 98.0
   },
   "validation_sourcing_ledger": [
     {
       "root_cutter_mesh_compiler_script": "shear-cut-matrix88/generate-cutter-mesh.py",
-      "cleaving_parity_check": "MATCHED"
+      "power_generation_parity_check": "MATCHED"
     }
   ]
 }
