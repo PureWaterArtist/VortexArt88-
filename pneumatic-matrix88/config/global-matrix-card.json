@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-pneumatic-tool-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "compressor_scroll_housing_metrics": {
     "airflow_architecture": "Avian-Lung Unidirectional Cardioid Scroll Flow",
     "friction_energy_recovery_pct": 42.5,
@@ -15,7 +15,7 @@
   },
   "mantis_claw_collar_and_trigger_specs": {
     "quick_release_interface": "Mantis-Claw Cam-Lock 30-Degree Reverse Taper",
-    "collar_lamination_pattern": "Abalone-Shell Concentric Sinusoidal Nacre",
+    "collar_lination_pattern": "Abalone-Shell Concentric Sinusoidal Nacre",
     "collar_sinusoidal_wave_pitch_mm": 4.5,
     "max_safe_impact_load_joules": 150.0,
     "trigger_valve_loop": "Valveless Pneumatic Bistable Coanda Fluidic Switch",
@@ -26,6 +26,20 @@
     "wear_rate_differential_ratio": "2.6:1",
     "leading_edge_flexural_modulus_gpa": 3.5,
     "cutting_vertex_edge_uniformity_microns": 0.5
+  },
+  "legacy_conversion_adapter_specs": {
+    "adapter_id": "PNE-LEGACY-CONVERTER-M88",
+    "input_stem_lock_angle_degrees": 30.0,
+    "output_interface_drive_inches": 0.5,
+    "air_thread_specification_npt": "1/4-inch female",
+    "fluid_flow_profile": "Siphonophore-Biomimetic Helical Non-Turbulent Path"
+  },
+  "macro_material_cutting_blade_metrics": {
+    "blade_id": "PNE-MEGALODON-SHARK-CUT-M88",
+    "tooth_geometry": "Serrated Carcharodon Overlapping Dental Matrix",
+    "material_composition": "Silicon-Carbide Cobalt-Steel Metal-Matrix Composite (MMC)",
+    "abrasive_crystal_weight_density_pct": 40.0,
+    "minimum_chip_clearance_velocity_ms": 180.0
   },
   "validation_sourcing_ledger": [
     {
