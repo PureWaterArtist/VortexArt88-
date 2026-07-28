@@ -26,3 +26,13 @@ To erase surface glare and maximize photon capture across low-angle winter horiz
 ## 🛡️ 3. Auxetic Interlocking Ballistic Protection Bounds
 *   **Structural Grid Mechanical Joint Sequence:** Inverted cardioid auxetic frame backing layer, exhibiting a negative Poisson's ratio of $-0.60$ under structural strain.
 *   **Max Safe Kinetic Impact Load Limit:** Safely absorbs up to **$150.0\text{ Joules}$** of point-impact force (large hailstorms or tool drops), localizing structural stress vectors to a single swappable scale vertex.
+
+---
+
+## 🌌 4. Nocturnal Radiative Cooling & Thermoelectric Specs
+To ensure continuous electricity generation across un-sunlit night horizons without chemical batteries or mechanical wind arrays, the panel utilizes deep-space thermal emission:
+*   **Night-Time Primary Emission Medium:** High-emissivity clear photopolymer top face tuned strictly to the $8.0\text{ \mu m}$ to $13.0\text{ \mu m}$ atmospheric optical transmission window.
+*   **Passive Surface Thermal Delta Drop:** Natively cools the scale face to a threshold $5.0^{\circ}\text{C}$ to $8.0^{\circ}\text{C}$ below ambient outdoor night air via direct radiative cooling to deep space.
+*   **Solid-State Energy Harvesting Module:** Embedded Seebeck-effect bismuth-telluride thermoelectric generator layer mapped beneath the photovoltaic plane.
+*   **Net Nocturnal Power Generation Capacity:** Continuous, safe steady-state output floor of $\geq 50.0\text{ mW/m}^2$ all night long, utilizing the temperature gradient between the cold radiative outer scales and the warm microfluidic capillary fluid loops.
+  
