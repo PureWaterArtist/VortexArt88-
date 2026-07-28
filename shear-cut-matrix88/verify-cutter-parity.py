@@ -47,10 +47,11 @@ def verify_cutter_parity():
         noise = card_data["piezoelectric_harmonic_actuator_specs"]["noise_ceiling_db"]
         phase = card_data["piezoelectric_harmonic_actuator_specs"]["phase_offset_degrees"]
         thrust = card_data["pneumatic_macro_drive_specs"]["linear_thrust_output_newtons"]
+        trigger_pulse = card_data["pneumatic_macro_drive_specs"]["initial_trigger_pulse_kpa"]
         
         # Verify strict compliance with our real-world biomimetic parameters
-        if pitch != 8.5 or freq != 4.5 or noise != 0.0 or phase != 180.0 or thrust != 450.0:
-            print("❌ DATA DRIFT ERROR: Tooth pitch, harmonic frequency, phase offset, or pneumatic thrust limits mismatch.")
+        if pitch != 8.5 or freq != 4.5 or noise != 0.0 or phase != 180.0 or thrust != 450.0 or trigger_pulse != 180.0:
+            print("❌ DATA DRIFT ERROR: Tooth pitch, harmonic frequency, phase offset, pneumatic thrust, or pull start metrics mismatch.")
             sys.exit(1)
             
     except Exception as e:
@@ -63,7 +64,7 @@ def verify_cutter_parity():
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "4.5\\text{ kHz}" not in specs_content or "450.0\\text{ Newtons}" not in specs_content or "8.5 mm" not in specs_content or "Enzymatic" not in specs_content:
+        if "4.5\\text{ kHz}" not in specs_content or "450.0\\text{ Newtons}" not in specs_content or "180.0\\text{ kPa}" not in specs_content or "8.5 mm" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
@@ -77,7 +78,7 @@ def verify_cutter_parity():
         with open("config/ARBOR_EXPLAINER.md", "r") as f:
             explainer_content = f.read()
             
-        if "DIY alternative chainsaw" not in explainer_content or "self sharpening chainsaw teeth" not in explainer_content:
+        if "DIY alternative chainsaw" not in explainer_content or "self sharpening chainsaw teeth" not in explainer_content or "recoil pull-start" not in explainer_content if "recoil pull-start" in explainer_content else "pull-string" not in explainer_content:
             print("❌ SEO EXPLAINER DRIFT ERROR: High-density cleaving questions have drifted from constraints.")
             sys.exit(1)
             
