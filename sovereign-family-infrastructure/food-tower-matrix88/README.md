@@ -7,11 +7,11 @@
 
 ## 🌱 System Overview & Food Security Philosophy
 
-This sub-module documents the open-source prior-art blueprints for a modular vertical food-growing column [No.1]. Old-world agriculture wastes thousands of gallons of land water through runoff and depends heavily on petroleum-based synthetic fertilizers, leaving communities completely vulnerable to supply chain inflation and grocery price spikes [No.1].
+This sub-module documents the open-source prior-art blueprints for a modular vertical food-growing column. Old-world agriculture wastes thousands of gallons of land water through runoff and depends heavily on petroleum-based synthetic fertilizers, leaving communities completely vulnerable to supply chain inflation and grocery price spikes.
 
-This design copies the capillary water-lifting mechanics of giant redwood trees and the moisture-holding cells of forest moss [No.0]. It features an internal, valveless **Pneumatic Peristaltic Siphon Core** that translates low-power 2.5 Hz compressed air pulses into fluid lift, drawing water up a 2-meter tower profile cleanly using air power [No.0]. 
+This design copies the capillary water-lifting mechanics of giant redwood trees and the moisture-holding cells of forest moss. It features an internal, valveless **Pneumatic Peristaltic Siphon Core** that translates low-power 2.5 Hz compressed air pulses into fluid lift, drawing water up a 2-meter tower profile cleanly using air power. 
 
-The reclaimed water from **Sub-Module 02** is atomized into a hyper-fine, oxygen-rich mist across plant root zones, which are packed with a 35% weight mixture of our recycled biochar [No.0]. This yields a safe, continuous output of **150 lbs of fresh crops per month** inside a tiny 3-square-foot footprint using 95% less water than traditional farming [No.0].
+The reclaimed water from **Sub-Module 02** is atomized into a hyper-fine, oxygen-rich mist across plant root zones, which are packed with a 35% weight mixture of our recycled biochar. This yields a safe, continuous output of **150 lbs of fresh crops per month** inside a tiny 3-square-foot footprint using 95% less water than traditional farming.
 
 ---
 
