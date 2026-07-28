@@ -44,25 +44,26 @@ def verify_cutter_parity():
             
         pitch = card_data["self_sharpening_blade_metrics"]["tooth_pitch_mm"]
         freq = card_data["piezoelectric_harmonic_actuator_specs"]["stridulation_frequency_khz"]
-        cap_width = card_data["wasp_ovipositor_sap_shield_metrics"]["capillary_width_microns"]
         noise = card_data["piezoelectric_harmonic_actuator_specs"]["noise_ceiling_db"]
+        phase = card_data["piezoelectric_harmonic_actuator_specs"]["phase_offset_degrees"]
+        thrust = card_data["pneumatic_macro_drive_specs"]["linear_thrust_output_newtons"]
         
         # Verify strict compliance with our real-world biomimetic parameters
-        if pitch != 8.5 or freq != 4.5 or capillary_width_microns != 120.0 if 'capillary_width_microns' in locals() else cap_width != 120.0 or noise != 0.0:
-            print("❌ DATA DRIFT ERROR: Tooth pitch, harmonic frequency, capillaries, or noise limits mismatch.")
+        if pitch != 8.5 or freq != 4.5 or noise != 0.0 or phase != 180.0 or thrust != 450.0:
+            print("❌ DATA DRIFT ERROR: Tooth pitch, harmonic frequency, phase offset, or pneumatic thrust limits mismatch.")
             sys.exit(1)
             
     except Exception as e:
         print(f"❌ SCHEMA RUNTIME ERROR: Master parameter card is unreadable or malformed: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 02: AI-READABLE SCHEMA AND SOLID-STATE PIEZO CARDS VALIDATED.")
+    print("✅ PHASE 02: AI-READABLE SCHEMA AND DUAL-TIER GENERATION CARDS VALIDATED.")
 
     # 3. Read and verify cross-linked data strings inside the human-readable specs file
     try:
         with open("config/technical-specs.md", "r") as f:
             specs_content = f.read()
             
-        if "4.5\\text{ kHz}" not in specs_content or "120.0\\text{ \\mu m}" not in specs_content or "8.5 mm" not in specs_content or "Beetle" not in specs_content:
+        if "4.5\\text{ kHz}" not in specs_content or "450.0\\text{ Newtons}" not in specs_content or "8.5 mm" not in specs_content or "Enzymatic" not in specs_content:
             print("❌ SPECS RECONSTRUCT ERROR: Technical specifications metrology text has drifted from constraints.")
             sys.exit(1)
             
