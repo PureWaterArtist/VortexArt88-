@@ -6,28 +6,30 @@
     <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
   </g>
 
-  <!-- 350mm × 85mm SOLID CHASSIS GUIDE BAR SHELL -->
-  <rect x="150" y="240" width="500" height="120" fill="#0f172a" stroke="#475569" stroke-width="3" rx="8" />
-  <text x="400" y="305" fill="#38bdf8" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">350mm GUIDE BAR // PASSIVE WASP-OVIPOSITOR AIR JACKET</text>
+  <!-- INTEGRATED GRIP WITH MANUAL RECOIL PULL-PRIMING BELLOWS -->
+  <rect x="50" y="260" width="100" height="80" fill="#020617" stroke="#fbbf24" stroke-width="2" rx="12" />
+  <circle cx="40" cy="300" r="15" fill="none" stroke="#fbbf24" stroke-width="3" />
+  <text x="100" y="305" fill="#fbbf24" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">PULL PRIMING // 180 kPa</text>
 
-  <!-- NATIVE 120μm MICROFLUIDIC INTERNAL CAPILLARY TRACKS -->
-  <line x1="160" y1="260" x2="640" y2="260" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" opacity="0.7" />
-  <line x1="160" y1="340" x2="640" y2="340" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,4" opacity="0.7" />
+  <!-- 350mm × 85mm TWIN PARALLEL INTERLOCKING BLADE HOUSING -->
+  <rect x="150" y="240" width="500" height="120" fill="#0f172a" stroke="#475569" stroke-width="3" rx="4" />
+  <text x="410" y="305" fill="#38bdf8" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">WASPWASP PUSH-PULL BLADES // FLUIDIC BISTABLE LOGIC (75 Hz)</text>
 
-  <!-- 8.5mm PITCH DUAL-DENSITY SELF-SHARPENING TEETH ARRAY -->
+  <!-- VALVELESS COANDA LOGIC FEEDBACK CAPILLARIES -->
+  <path d="M 160,280 C 180,250 200,250 220,280" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="3,3" />
+  <path d="M 160,320 C 180,350 200,350 220,320" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="210" y="235" fill="#a855f7" font-family="monospace" font-size="8" font-weight="bold">COANDA FEEDBACK LOOPS</text>
+
+  <!-- 8.5mm DUAL-DENSITY SELF-SHARPENING BEETLE TEETH ARRAY -->
   <g stroke="#e2e8f0" stroke-width="2" fill="none">
-    <path d="M 160,240 L 165,220 L 168.5,240 M 168.5,240 L 173.5,220 L 177,240 M 177,240 L 182,220 L 185.5,240 M 185.5,240 L 190.5,220 L 194,240" />
-    <path d="M 220,240 L 225,220 L 228.5,240 M 228.5,240 L 233.5,220 L 237,240" />
+    <path d="M 160,240 L 165,220 L 168.5,240 M 177,240 L 182,220 L 185.5,240 M 194,240 L 199,220 L 202.5,240" />
+    <path d="M 230,240 L 235,220 L 238.5,240 M 247,240 L 252,220 L 255.5,240" />
   </g>
-  <text x="180" y="205" fill="#e2e8f0" font-family="monospace" font-size="8" font-weight="bold">8.5mm BEETLE TOOTH MATRIX</text>
+  <text x="410" y="195" fill="#e2e8f0" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">8.5mm BEETLE TOOTH MATRIX // VERTEX CEILING: 0.5μm</text>
 
-  <!-- 4.5 kHz SOLID-STATE PIEZOELECTRIC ACTUATOR STRIDULATION SHIELD -->
-  <rect x="200" y="275" width="400" height="50" fill="#1e1b4b" stroke="#a855f7" stroke-width="2" rx="4" />
-  <text x="400" y="365" fill="#a855f7" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">LEAFCUTTER CORE HARMONIC OSCILLATION: 4.5 kHz // STROKE: ±120μm</text>
-
-  <!-- COMPLIANCE LABELS & TEXT MATRIX OVERLAYS -->
+  <!-- METROLOGICAL LABELS & COMPLIANCE TEXT OVERLAYS -->
   <text x="400" y="55" fill="#34d399" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">PROJECT SHEAR-CUT ARBOREAL MATERIAL-CLEAVING TOOL SPECIFICATIONS</text>
-  <text x="400" y="515" fill="#34d399" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">SELF-SHARPENING EDGE RATIO: 2.6:1 VORTEX COMPLIANT // NOISE SIGNATURE: 0.0 dB</text>
+  <text x="400" y="515" fill="#34d399" font-family="monospace" font-size="9" font-weight="bold" text-anchor="middle">PURE FLUID LOGIC ENGINE // PNEUMATIC THRUST: 450N // NOISE SIGNATURE: 0.0 dB</text>
   <text x="400" y="540" fill="#64748b" font-family="monospace" font-size="9" text-anchor="middle">Chassis Construction Process: SLA Dual-Density Co-Extrusion // Material Sourcing Budget: $261.00</text>
   <text x="400" y="575" fill="#475569" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">PROJECT SHEAR-CUT // ARBORIST RECLAIM REFERENCE BLUEPRINT v1.0.0</text>
 </svg>
