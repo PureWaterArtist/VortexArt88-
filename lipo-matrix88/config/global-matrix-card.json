@@ -4,18 +4,22 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-energy-storage-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "electrocyte_supercapacitor_metrics": {
     "scale_hex_width_mm": 75.0,
     "minimum_surface_area_m2_g": 2200.0,
     "max_charge_latency_seconds": 45.0,
-    "nominal_system_voltage_dc": 48.0
+    "nominal_system_voltage_dc": 48.0,
+    "dielectric_leakage_gate": "Mimosa-Pudica Turgor-Responsive Elastomer",
+    "max_weekly_self_discharge_pct": 0.01
   },
   "bone_trabeculae_chassis_specs": {
     "material_composition": "Silicon-Carbide Ceramic Matrix",
     "framework_architecture": "Open-Cell Trabeculae Micro-Truss",
     "backing_poissons_ratio": -0.60,
-    "max_safe_kinetic_impact_joules": 150.0
+    "max_safe_kinetic_impact_joules": 150.0,
+    "terminal_healing_matrix": "Starfish Mutable Collagen Conductive Gel",
+    "micro_crack_healing_latency_seconds": 1.2
   },
   "horned_lizard_cooling_loops": {
     "cooling_capillary_width_microns": 120.0,
