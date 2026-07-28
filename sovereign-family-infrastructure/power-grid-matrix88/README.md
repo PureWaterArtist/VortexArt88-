@@ -7,11 +7,11 @@
 
 ## 🌪️ System Overview & Energy Reclaim Philosophy
 
-This sub-module documents the open-source prior-art blueprints for a software-free, fuel-flexible thermal biomass reactor [No.1]. Legacy emergency generators rely on brittle, centralized fossil fuel supply chains, loud pistons, and high-maintenance electric starter systems [No.1]. 
+This sub-module documents the open-source prior-art blueprints for a software-free, fuel-flexible thermal biomass reactor. Legacy emergency generators rely on brittle, centralized fossil fuel supply chains, loud pistons, and high-maintenance electric starter systems. 
 
-This design breaks that dependency by mimicking the multi-walled digestion chambers of a termite hindgut [No.0]. It processes dry wood chips or cleaved timber biomass from **Project Shear-Cut** at a steady $750^{\circ}\text{C}$ in an airtight vacuum, generating an ultra-pure synthetic hydrogen gas (syngas) [No.0]. 
+This design breaks that dependency by mimicking the multi-walled digestion chambers of a termite hindgut. It processes dry wood chips or cleaved timber biomass from **Project Shear-Cut** at a steady $750^{\circ}\text{C}$ in an airtight vacuum, generating an ultra-pure synthetic hydrogen gas (syngas). 
 
-The gas is automatically directed through valveless Coanda-effect fluidic logic pathways straight into a silent mechanical Stirling engine, producing **250 Watts** of clean electrical and mechanical power 24/7 [No.0]. It co-produces porous activated carbon biochar to act as the primary filter media for the rest of your infrastructure loop [No.0].
+The gas is automatically directed through valveless Coanda-effect fluidic logic pathways straight into a silent mechanical Stirling engine, producing **250 Watts** of clean electrical and mechanical power 24/7. It co-produces porous activated carbon biochar to act as the primary filter media for the rest of your infrastructure loop.
 
 ---
 
