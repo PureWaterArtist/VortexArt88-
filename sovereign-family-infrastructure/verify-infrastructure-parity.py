@@ -17,11 +17,20 @@ def verify_infrastructure_matrix():
     print("🛰️  INITIATING SOVEREIGN INFRASTRUCTURE PARITY AUDIT GATES")
     print("=========================================================================\n")
     
-    # 1. Verify existence of critical root, configuration, and simulation anchor files
+    # 1. Verify existence of critical root, configuration, mesh, and simulation anchor files
     root_anchors = [
         "README.md", 
         "verify-infrastructure-parity.py",
         "simulate_infrastructure_math.py",
+        "power-grid-matrix88/compile_gasifier_engine.py",
+        "water-reclaim-matrix88/compile_filter_engine.py",
+        "food-tower-matrix88/compile_tower_engine.py",
+        "power-grid-matrix88/config/technical-specs.md",
+        "power-grid-matrix88/config/HARDWARE_BOM.md",
+        "water-reclaim-matrix88/config/technical-specs.md",
+        "water-reclaim-matrix88/config/HARDWARE_BOM.md",
+        "food-tower-matrix88/config/technical-specs.md",
+        "food-tower-matrix88/config/HARDWARE_BOM.md",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -57,4 +66,4 @@ def verify_infrastructure_matrix():
 
 if __name__ == "__main__":
     verify_infrastructure_matrix()
-  
+    
