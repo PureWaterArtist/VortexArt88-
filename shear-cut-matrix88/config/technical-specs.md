@@ -1,6 +1,6 @@
 # Module config: Technical Specifications & Harmonic Cleaving Controls
 **Document Class:** System Production Authority Card (PROJECT SHEAR-CUT)
-**Version:** 1.0.0 // Solid-State Arboreal Cleaving // Dual-Density Self-Sharpening Balance
+**Version:** 4.0.0 // Solid-State Arboreal Cleaving // Dual-Tier Power Generation Balance
 
 This specifications ledger locks in the precise physical dimensions, harmonic frequencies, fluid velocities, pressure deltas, and material hardness thresholds required to operate the open-source biomimetic material-cleaving engine in total homeostatic equilibrium.
 
@@ -15,16 +15,22 @@ To ensure the cutting teeth natively sharpen themselves using wood friction with
 
 ---
 
-## 🐜 2. Piezoelectric Harmonic Stridulation Core Parameters
-*   **Actuator Operational Center Frequency:** Hard-locked at $4.5\text{ kHz}$ baseline.
-*   **Target Mechanical Oscillation Amplitude:** $\pm 120.0\text{ \mu m}$ micro-stroke travel path.
-*   **Lignin Molecular Disruption Threshold:** Generates a localized high-shear stress field $\geq 45.0\text{ MPa}$, causing wood cell walls to cleanly separate natively via sound, dropping physical cutting resistance to zero.
-*   **Acoustic Noise Signature Ceiling:** Strictly suppressed to $\leq 0.0\text{ dB}$ via localized cancellation profiles, ensuring total workplace silence.
+## 🐜 2. Woodpecker Fluidic Bistable Actuator Parameters
+*   **Primary Mechanical Drive Mechanism:** Valveless Pneumatic Bistable Fluidic Oscillator embedded in handle core.
+*   **Nominal Operating Pressure Feed:** Stable $175.0\text{ kPa}$ to $225.0\text{ kPa}$ compressed air stream.
+*   **Linear Reciprocating Thrust Velocity Output:** Delivers a continuous $450.0\text{ Newtons}$ of raw linear cutting thrust per blade half.
+*   **Primary Sawing Macro-Frequency:** Operates at a geometric oscillation window of $75.0\text{ Hz}$.
 
 ---
 
-## 🪵 3. Passive Wasps-Ovipositor Capillary Shield Metrics
+## ⚡ 3. Piezoelectric Harmonic Friction-Reduction Core
+*   **Actuator Secondary Center Frequency:** Hard-locked at $4.5\text{ kHz}$ superimposed harmonic resonance.
+*   **Target Mechanical Oscillation Amplitude:** $\pm 120.0\text{ \mu m}$ micro-stroke mechanical travel path.
+*   **Friction Coefficient Suppression Ceiling:** Lowers active tool-to-fiber sliding resistance by $\geq 75\%$, completely eliminating traditional chainsaw-style kickback hazards, gyroscopic twisting torque, and hand-arm vibration syndromes.
+*   **Acoustic Noise Signature Ceiling:** Strictly suppressed to $\leq 0.0\text{ dB}$ via localized structural dampening, ensuring total workplace silence.
+
+---
+
+## 🪵 4. Passive Jewel-Beetle Enzymatic & Surfactant Shield Metrics
 *   **Sap-Repellent Capillary Width Track:** Exactly $120.0\text{ \mu m}$ integrated internal vascular lines.
-*   **Pneumatic Exudation Pressure Delta:** Stable $175.0\text{ kPa}$ to $225.0\text{ kPa}$ compressed air stream.
-*   **Friction Erase Boundary Layer:** Aerosolized hydrophobic fluoropolymer graphene inner track lining, providing a $98\%$ friction-erase floor that continuously forces sticky tree sap to blow away from the blade without petroleum bar oil.
-  
+*   **Dual-Chamber Micro-Mist Chemistry:** Micro-capillaries exhale a continuous mist combining bio-degradable vegetable soap surfactant with a localized cellulase enzyme gel. The surfactant breaks the surface tension of sticky tree sap, while the enzyme gel softens cross-linked cellulose fibers directly ahead of the tooth strike, dropping cutting resistance without petroleum bar oil.
