@@ -15,11 +15,12 @@ To ensure the cutting teeth natively sharpen themselves using wood friction with
 
 ---
 
-## 🐜 2. Woodpecker Fluidic Bistable Actuator Parameters
-*   **Primary Mechanical Drive Mechanism:** Valveless Pneumatic Bistable Fluidic Oscillator embedded in handle core.
+## 📐 2. Recoil Pull-Priming & Coanda Bistable Actuator Parameters
+*   **Initial System Activation Mechanism:** Self-contained manual recoil pull-cord connected to an integrated compression piston-bellows chamber, generating an instantaneous $180.0\text{ kPa}$ pneumatic trigger pulse to initialize the fluid logic loop without batteries or electrical starter motors.
+*   **Primary Mechanical Drive Engine:** Valveless Pneumatic Bistable Coanda-Effect Fluidic Amplifier embedded in handle core.
+*   **Control Infrastructure Framework:** Software-free, electronic-free internal feedback capillaries tracking fluidic wall attachment loops.
 *   **Nominal Operating Pressure Feed:** Stable $175.0\text{ kPa}$ to $225.0\text{ kPa}$ compressed air stream.
-*   **Linear Reciprocating Thrust Velocity Output:** Delivers a continuous $450.0\text{ Newtons}$ of raw linear cutting thrust per blade half.
-*   **Primary Sawing Macro-Frequency:** Operates at a geometric oscillation window of $75.0\text{ Hz}$.
+*   **Linear Reciprocating Thrust Velocity Output:** Delivers a continuous $450.0\text{ Newtons}$ of raw linear cutting thrust per blade half operating at a macro-sawing frequency of $75.0\text{ Hz}$.
 
 ---
 
