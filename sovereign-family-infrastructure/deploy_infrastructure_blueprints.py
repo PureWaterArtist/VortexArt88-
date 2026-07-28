@@ -19,8 +19,7 @@ def execute_automated_deployment():
     print("🛰️  INITIATING SOVEREIGN INFRASTRUCTURE AUTOMATED DEPLOYMENT SEED PIPELINE")
     print("=========================================================================\n")
     
-    # 🗂️ TARGET FILE PATROLLER MATRIX (Mapping all four parametric compiler scripts)
-        # 🗂️ TARGET FILE PATROLLER MATRIX (Mapping all five parametric compiler scripts)
+        # 🗂️ TARGET FILE PATROLLER MATRIX (Mapping all parametric compiler scripts)
     compilers_ledger = {
         "Sub-Module 01: Gasifier Core" : {
             "dir": "power-grid-matrix88",
@@ -51,6 +50,16 @@ def execute_automated_deployment():
             "dir": "shield-dome-matrix88",
             "script": "compile_dome_mesh.py",
             "output_scad": "shield_dome_canopy_panel_v1.scad"
+        },
+        "Sub-Module 07: Regen Shroud"  : {
+            "dir": "regen-shroud-matrix88",
+            "script": "compile_shroud_mesh.py",
+            "output_scad": "regen_shroud_stasis_scale_v1.scad"
+        },
+        "Sub-Module 08: Swimming Suite"  : {
+            "dir": "respirator-matrix88",
+            "script": "compile_rebreather_mesh.py",
+            "output_scad": "respirator_matrix_swimming_core_v1.scad"
         }
     }
     
