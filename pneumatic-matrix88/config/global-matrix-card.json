@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-PNEUMATIC-MATRIX-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-pneumatic-tool-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "compressor_scroll_housing_metrics": {
+    "airflow_architecture": "Avian-Lung Unidirectional Cardioid Scroll Flow",
+    "friction_energy_recovery_pct": 42.5,
+    "nominal_output_pressure_kpa": 300.0,
+    "chassis_self_grout_mechanism": "Cortical Bone Micro-Vascular Remodeling Grid",
+    "structural_re-grout_latency_seconds": 45.0,
+    "restored_tensile_strength_floor_pct": 98.5
+  },
+  "mantis_claw_collar_and_trigger_specs": {
+    "quick_release_interface": "Mantis-Claw Cam-Lock 30-Degree Reverse Taper",
+    "collar_lamination_pattern": "Abalone-Shell Concentric Sinusoidal Nacre",
+    "collar_sinusoidal_wave_pitch_mm": 4.5,
+    "max_safe_impact_load_joules": 150.0,
+    "trigger_valve_loop": "Valveless Pneumatic Bistable Coanda Fluidic Switch",
+    "switching_latency_seconds": 0.02
+  },
+  "consumable_blade_module_bounds": {
+    "cutting_edge_profile_matrix": "Beaver-Incisor Dual-Density Differential Wear",
+    "wear_rate_differential_ratio": "2.6:1",
+    "leading_edge_flexural_modulus_gpa": 3.5,
+    "cutting_vertex_edge_uniformity_microns": 0.5
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_pneumatic_mesh_compiler_script": "pneumatic-matrix88/compile_pneumatic_mesh.py",
+      "pneumatic_system_parity_check": "MATCHED"
+    }
+  ]
+}
