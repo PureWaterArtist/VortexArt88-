@@ -22,6 +22,7 @@ def verify_infrastructure_matrix():
         "README.md", 
         "verify-infrastructure-parity.py",
         "simulate_infrastructure_math.py",
+        "deploy_infrastructure_blueprints.py",
         "media/README.md",
         "media/generate-blueprint.py",
         "media/grid88-infrastructure-specs.svg",
@@ -76,6 +77,24 @@ def verify_infrastructure_matrix():
         "shield-dome-matrix88/config/HARDWARE_BOM.md",
         "shield-dome-matrix88/config/DOME_EXPLAINER.md",
         "shield-dome-matrix88/config/global-matrix-card.json",
+        "regen-shroud-matrix88/README.md",
+        "regen-shroud-matrix88/compile_shroud_mesh.py",
+        "regen-shroud-matrix88/simulate_shroud_math.py",
+        "regen-shroud-matrix88/config/technical-specs.md",
+        "regen-shroud-matrix88/config/HARDWARE_BOM.md",
+        "regen-shroud-matrix88/config/MANM_EXPLAINER.md",
+        "regen-shroud-matrix88/config/global-matrix-card.json",
+        "respirator-matrix88/README.md",
+        "respirator-matrix88/compile_rebreather_mesh.py",
+        "respirator-matrix88/simulate_rebreather_math.py",
+        "respirator-matrix88/media/README.md",
+        "respirator-matrix88/media/generate-blueprint.py",
+        "respirator-matrix88/media/grid88-aquatic-specs.svg",
+        "respirator-matrix88/config/README.md",
+        "respirator-matrix88/config/technical-specs.md",
+        "respirator-matrix88/config/HARDWARE_BOM.md",
+        "respirator-matrix88/config/REBREATH_EXPLAINER.md",
+        "respirator-matrix88/config/global-matrix-card.json",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -103,22 +122,22 @@ def verify_infrastructure_matrix():
         sys.exit(1)
     print("✅ PHASE 02: AI-READABLE SCHEMA AND CLOSED-LOOP LIFE-SUPPORT CARDS VALIDATED.")
 
-    # 3. Audit Sub-Module 06 Localized Run Cards for Shield Upgrades
+    # 3. Audit Sub-Module 08 Localized Run Cards for Apparel Upgrades
     try:
-        with open("shield-dome-matrix88/config/global-matrix-card.json", "r") as f:
-            local_dome_card = json.load(f)
-        seal_mech = local_dome_card["volcanic_plume_and_turgor_venting_specs"]["environmental_hazard_seal"]
-        grout_mech = local_dome_card["auxetic_spider_and_bone_framework_bounds"]["chassis_self_grout_mechanism"]
+        with open("respirator-matrix88/config/global-matrix-card.json", "r") as f:
+            local_resp_card = json.load(f)
+        root_stiff = local_resp_card["biomimetic_apparel_and_optics_specs"]["sea_lion_fin_root_stiffness_gpa"]
+        lens_type = local_resp_card["biomimetic_apparel_and_optics_specs"]["pinniped_goggle_lens_type"]
         
-        if "Ice-Plant" not in seal_mech or "Bone" not in grout_mech:
-            print("❌ LOCAL CARD DRIFT ERROR: Shield dome local JSON schema constants mismatch constraints.")
+        if root_stiff != 2.8 or "Refraction" not in lens_type:
+            print("❌ LOCAL CARD DRIFT ERROR: Universal swimming system local JSON schema constants mismatch constraints.")
             sys.exit(1)
     except Exception as e:
-        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 06 local card is missing or unreadable: {str(e)}")
+        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 08 local card is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 03: SHIELD CANOPY METROLOGICAL UPGRADE REGISTER INTEGRITY GREEN.")
+    print("✅ PHASE 03: UNIVERSAL SWIMMING SYSTEM METROLOGICAL REGISTER CONFIRMED INTEGRAL.")
 
-    # 4. Read and verify cross-linked data strings inside our user manuals
+    # 4. Read and verify cross-linked data strings inside our updated user manuals
     try:
         with open("power-grid-matrix88/config/POWER_EXPLAINER.md", "r") as f:
             if "363.61" not in f.read():
@@ -132,14 +151,14 @@ def verify_infrastructure_matrix():
             if "149.91" not in f.read():
                 print("❌ EXPLAINER DRIFT ERROR: Vertical crop tower parameters drifted.")
                 sys.exit(1)
-        with open("shield-dome-matrix88/config/DOME_EXPLAINER.md", "r") as f:
-            if "94.5%" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Shield dome mantis shock parameters drifted.")
+        with open("respirator-matrix88/config/REBREATH_EXPLAINER.md", "r") as f:
+            if "14.2%" not in f.read():
+                print("❌ EXPLAINER DRIFT ERROR: Universal swimming system suit skin parameters drifted from constraints.")
                 sys.exit(1)
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Troubleshooting manuals are missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 04: MULTI-SYSTEM MANUAL RUN CARDS SYNCHRONIZED TO PHYSICS CURVES.")
+    print("✅ PHASE 04: ALL MULTI-SYSTEM USER MANUAL RUN CARDS ALIGNED WITH PHYSICS BOUNDARIES.")
         
     print("\n=========================================================================")
     print("... GLOBAL TRIAD INFRASTRUCTURE SECURED // PRIOR-ART MOAT IS 100% GREEN")
