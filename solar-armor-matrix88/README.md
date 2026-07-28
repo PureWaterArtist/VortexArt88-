@@ -19,13 +19,13 @@
 
 ## 🦋 System Overview & 24-Hour Energy Sovereignty Philosophy
 
-**PROJECT SOLAR-ARMOR (Repository Hub: solar-armor-matrix88)** documents the open-source prior-art blueprints for an all-weather, ballistic-grade energy harvesting panel matrix [No.1]. Old-world solar modules are intentionally designed around an exclusionary, fragile framework: they rely on massive flat sheets of easily shattered glass, suffer heavy thermal choking losses during hot weather, and go completely dead at night, forcing families to rely on centralized corporate utility grids or expensive chemical battery monopolies [No.0, No.1].
+**PROJECT SOLAR-ARMOR (Repository Hub: solar-armor-matrix88)** documents the open-source prior-art blueprints for an all-weather, ballistic-grade energy harvesting panel matrix. Old-world solar modules are intentionally designed around an exclusionary, fragile framework: they rely on massive flat sheets of easily shattered glass, suffer heavy thermal choking losses during hot weather, and go completely dead at night, forcing families to rely on centralized corporate utility grids or expensive chemical battery monopolies.
 
-This project completely throws out flat glass sheets, utilizing an array of **75mm Regular Hexagonal Scales** embossed with **Moth-Eye Nanocones** and **Butterfly-Wing Riblets** to passively trap 98.2% of sun rays across all light angles without heavy tracking motors [No.0]. 
+This project completely throws out flat glass sheets, utilizing an array of **75mm Regular Hexagonal Scales** embossed with **Moth-Eye Nanocones** and **Butterfly-Wing Riblets** to passively trap 98.2% of sun rays across all light angles without heavy tracking motors. 
 
-The core integrates a **Passive Thorny-Devil Fluid Grid** inside hidden **120-micron capillaries** to continuously pump cooling water loops via native thermal expansion pressure, maintaining an optimal $25^{\circ}\text{C}$ cell temperature while pre-heating domestic water loops [No.0]. 
+The core integrates a **Passive Thorny-Devil Fluid Grid** inside hidden **120-micron capillaries** to continuously pump cooling water loops via native thermal expansion pressure, maintaining an optimal $25^{\circ}\text{C}$ cell temperature while pre-heating domestic water loops. 
 
-Spliced underneath is an **Anti-Solar Night Engine** that radiates surface heat straight out into deep space via the 8–13 micron atmospheric optical window [No.1]. This chills the outer scale face to 8°C below ambient night air, driving an embedded bismuth-telluride thermoelectric generator array to produce continuous **50.0 mW/m²** of clean, steady current all night long without sun or wind [No.1]. Symmetrical **1.2mm Polyurethane Edge Gaskets** provide box-turtle-style auxetic protection that absorbs up to 150.0 Joules of hailstorm impacts safely at the scale boundary [No.0].
+Spliced underneath is an **Anti-Solar Night Engine** that radiates surface heat straight out into deep space via the 8–13 micron atmospheric optical window. This chills the outer scale face to 8°C below ambient night air, driving an embedded bismuth-telluride thermoelectric generator array to produce continuous **50.0 mW/m²** of clean, steady current all night long without sun or wind. Symmetrical **1.2mm Polyurethane Edge Gaskets** provide box-turtle-style auxetic protection that absorbs up to 150.0 Joules of hailstorm impacts safely at the scale boundary.
 
 ---
 
