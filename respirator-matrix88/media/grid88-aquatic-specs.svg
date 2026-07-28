@@ -1,0 +1,46 @@
+<svg xmlns="http://w3.org" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Cleanroom Dark Bench Master Specifications Grid Base -->
+  <rect width="800" height="600" fill="#010204" />
+  <g stroke="#050a15" stroke-width="1" opacity="0.65">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250 M 0,300 L 800,300 M 0,350 L 800,350 M 0,400 L 800,400 M 0,450 L 800,450 M 0,500 L 800,500 M 0,550 L 800,550" />
+    <path d="M 50,0 L 50,600 M 100,0 L 100,600 M 150,0 L 150,600 M 200,0 L 200,600 M 250,0 L 250,600 M 300,0 L 300,600 M 350,0 L 350,600 M 400,0 L 400,600 M 450,0 L 450,600 M 500,0 L 500,600 M 550,0 L 550,600 M 600,0 L 600,600 M 650,0 L 650,600 M 700,0 L 700,600 M 750,0 L 750,600" />
+  </g>
+
+  <!-- BIOMIMETIC CLOSED-LOOP REBREATHER BACKPACK PACK SHROUD -->
+  <polygon points="400,120 490,175 490,285 400,340 310,285 310,175" fill="#090f19" stroke="#38bdf8" stroke-width="3" />
+  <text x="400" y="225" fill="#e5e7eb" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">HYDRO-GILL PACK CORE</text>
+  <text x="400" y="240" fill="#64748b" font-family="monospace" font-size="8" text-anchor="middle">120μm Lamellae // 20nm GO Sieve</text>
+
+  <!-- VALVELESS COANDA-EFFECT AIR LOGIC MOUTHPIECE MANIFOLD -->
+  <rect x="365" y="60" width="70" height="40" fill="#1e293b" stroke="#06b6d4" stroke-width="2" rx="4" />
+  <path d="M 380,100 L 360,135 M 420,100 L 440,135" stroke="#06b6d4" stroke-width="2" />
+  <text x="400" y="85" fill="#06b6d4" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">COANDA VALVE: 10 kPa</text>
+
+  <!-- MAKO SHARK STREAMLINING RIBLET GROOVES LABEL -->
+  <g stroke="#0284c7" stroke-width="1" opacity="0.6" fill="none">
+    <path d="M 330,190 Q 365,175 400,190 Q 435,175 470,190" />
+    <path d="M 330,270 Q 365,255 400,270 Q 435,255 470,270" />
+  </g>
+  <text x="400" y="155" fill="#0284c7" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">MAKO SHARK RIBLET SURFACE // DRAG FRICTION: -8.5%</text>
+
+  <!-- CONCENTRIC EPDM THERMAL RECLAIM JACKETS & ERYTHROCYTE SCRUB -->
+  <line x1="340" y1="250" x2="460" y2="250" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="400" y="325" fill="#f43f5e" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">CARBONIC ANHYDRASE SCRUB RESIN // BREATH RECLAIM INHALATION HEAT: 24°C</text>
+
+  <!-- INTERLOCKING GRADUATED PROPULSION FIN HUBS (SEA LION ANCHORS) -->
+  <path d="M 355,312 L 310,480 L 250,500 M 445,312 L 490,480 L 550,500" stroke="#10b981" stroke-width="3" fill="none" opacity="0.85" />
+  <text x="400" y="475" fill="#10b981" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">GRADUATED FIN ANCHORS // SEA-LION PROFILE: 2.8 GPa ROOT TO 0.4 GPa TIP</text>
+  <text x="400" y="495" fill="#059669" font-family="monospace" font-size="8" font-weight="bold" text-anchor="middle">GENTOO PENGUIN FLIPPER SPLIT LAYOUT // PROPULSION LIFT EFFICIENCY: 88.5%</text>
+
+  <!-- PINNIPED HARBOR-SEAL CORNEAL OPTICAL GOGGLES STAMP -->
+  <circle cx="250" cy="80" r="16" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <circle cx="550" cy="80" r="16" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+  <text x="250" y="115" fill="#a855f7" font-family="monospace" font-size="7" font-weight="bold" text-anchor="middle">SEAL-CORNEA EYE SHIELD</text>
+  <text x="550" y="115" fill="#a855f7" font-family="monospace" font-size="7" font-weight="bold" text-anchor="middle">DUAL-CURVATURE PLANES</text>
+
+  <!-- METROLOGICAL LABELS OVERLAYS DATA PANELS -->
+  <text x="400" y="30" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold" text-anchor="middle">PROJECT RESPIRATOR-MATRIX SWIMMING AND DIVING SYSTEM METROLOGY SYSTEM</text>
+  <text x="400" y="540" fill="#64748b" font-family="monospace" font-size="8" text-anchor="middle">Chassis Construction Process: SLA Multi-Material Polymer Prints // Net Sourcing Capital Budget: $225.00 Total Cost</text>
+  <text x="400" y="570" fill="#475569" font-family="monospace" font-size="13" text-anchor="middle" font-weight="bold">PROJECT RESPIRATOR-MATRIX // SUB-SURFACE SOVEREIGN AUTONOMY REFERENCE BLUEPRINT v1.0.0</text>
+</svg>
+    
