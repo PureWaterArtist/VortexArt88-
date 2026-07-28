@@ -29,6 +29,15 @@
     "chemical_softening_agent": "Cellulase Enzyme Gel Solution Blend",
     "friction_suppression_pct": 98.0
   },
+    "pneumatic_macro_drive_specs": {
+    "oscillator_classification": "Valveless Fluidic Bistable Handle Core",
+    "control_logic_type": "Coanda Effect Internal Feedback Capillaries",
+    "system_priming_mechanism": "Manual Recoil Pull-Cord Compression Bellows",
+    "initial_trigger_pulse_kpa": 180.0,
+    "working_input_pressure_kpa": 200.0,
+    "linear_thrust_output_newtons": 450.0,
+    "macro_sawing_frequency_hz": 75.0
+  },
   "validation_sourcing_ledger": [
     {
       "root_cutter_mesh_compiler_script": "shear-cut-matrix88/generate-cutter-mesh.py",
