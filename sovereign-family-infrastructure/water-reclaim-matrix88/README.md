@@ -7,11 +7,11 @@
 
 ## 💧 System Overview & Water Sovereignty Philosophy
 
-This sub-module documents the open-source prior-art blueprints for a zero-grid, gravity-fed graywater recycling filter stack [No.1]. Centralized municipal water grids rely on high-power electric pumps and toxic chemical treatments like chlorine, leaving households completely vulnerable during infrastructural line breaks [No.1].
+This sub-module documents the open-source prior-art blueprints for a zero-grid, gravity-fed graywater recycling filter stack. Centralized municipal water grids rely on high-power electric pumps and toxic chemical treatments like chlorine, leaving households completely vulnerable during infrastructural line breaks.
 
-This design copies the natural salt-filtering and water-purification membranes of coastal mangrove root systems [No.0]. Household sink and shower graywater drains downward purely via gravity through a compressed carbon bed packed with the activated biochar co-produced by **Sub-Module 01** [No.0]. 
+This design copies the natural salt-filtering and water-purification membranes of coastal mangrove root systems. Household sink and shower graywater drains downward purely via gravity through a compressed carbon bed packed with the activated biochar co-produced by **Sub-Module 01**. 
 
-The fluid then passes through a 20nm absolute graphene-oxide nanopore sieve array to block detergents and chemical residues [No.0]. A final parabolic solar ultraviolet (UV) reflector chute provides total pathogen disinfection using natural daylight, recovering 94% of graywater into pristine, hydro-mist grade water without an electric pump [No.0].
+The fluid then passes through a 20nm absolute graphene-oxide nanopore sieve array to block detergents and chemical residues. A final parabolic solar ultraviolet (UV) reflector chute provides total pathogen disinfection using natural daylight, recovering 94% of graywater into pristine, hydro-mist grade water without an electric pump.
 
 ---
 
