@@ -18,7 +18,7 @@ def compute_filtration_hydraulics():
     volumetric_flux_recovery_pct = 0.94
     pathogen_exclusion_floor = 0.99999
     max_uv_fluid_velocity_ms = 0.05
-    carbon_media_absorption_capacity_kg_l = 0.015 # 1.5% carbon loading ratio
+    carbon_media_absorption_capacity_kg_l = 0.012 # 1.2% carbon loading ratio
     
     # Flow Inflow Volumes (Scale 1x Single Family up to Village Grid)
     inflow_scenarios_liters = [150.0, 1500.0, 15000.0]
@@ -46,4 +46,4 @@ def compute_filtration_hydraulics():
 
 if __name__ == "__main__":
     compute_filtration_hydraulics()
-  
+    
