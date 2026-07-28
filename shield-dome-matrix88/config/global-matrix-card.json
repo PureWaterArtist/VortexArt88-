@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-SHIELD-DOME-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-protective-canopy-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "mantis_shrimp_dissipator_metrics": {
+    "scale_hex_width_mm": 120.0,
+    "sinusoidal_wave_pitch_mm": 4.5,
+    "helicoidal_layer_count": 12,
+    "kinetic_energy_dissipation_pct": 94.5
+  },
+  "volcanic_plume_venting_specs": {
+    "overpressure_vent_type": "Coanda Effect Valveless Fluidic Chutes",
+    "internal_capillary_width_microns": 120.0,
+    "activation_latency_seconds": 0.36,
+    "max_venting_velocity_mach": 0.85
+  },
+  "auxetic_spider_framework_bounds": {
+    "strut_architecture": "Inverted Cardioid Auxetic Lattice Matrix",
+    "backing_frame_poissons_ratio": -0.60,
+    "max_safe_structural_load_joules": 1850.0,
+    "interlocking_clearance_lip_mm": 2.4
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_dome_mesh_compiler_script": "shield-dome-matrix88/compile_dome_mesh.py",
+      "shockwave_dissipation_parity_check": "MATCHED"
+    }
+  ]
+}
