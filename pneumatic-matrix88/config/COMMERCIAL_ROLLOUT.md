@@ -16,12 +16,15 @@ This rollout card documents the exact batch-manufacturing settings, local market
 | **PNE-BOM-04** | Tooth Filament | Zinc-Infused Crystalline Co-Polymer Edge Filament Spool (1kg) | $38.00 | 1 | Advanced Material Lab |
 | **PNE-BOM-05** | Air Solenoid   | Compact 120μm Internal Vascular Air Logic Distribution Solenoid Block Ring | $12.00 | 1 | Industrial Automation |
 | **PNE-BOM-06** | Seam Gaskets   | 1.2mm High-Flexibility Nitrile EPDM Rubber Compression Gasket Rings | $6.00  | 1 | Bulk Hardware Pack |
-| **TOTAL** | **TOOL ecosystem**| **NET PNEUMATIC CORE MATRIX CAPITAL PROCUREMENT MATERIAL BUDGET** | **$225.00** | **-** | **COMPLETE COMPLIANCE** |
+| **TOTAL** | **TOOL ECOSYSTEM**| **NET PNEUMATIC CORE MATRIX CAPITAL PROCUREMENT MATERIAL BUDGET** | **$225.00** | **-** | **COMPLETE COMPLIANCE** |
 
 ---
 
-## 🔬 Calibration, Pricing, & Capital Reinvestment Blueprint
-*   **Raw Material Manufacturing Cost per Blade Set:** $\approx \$14.50\text{ USD}$ (PA-CF + Zinc composite spools consume factor).
+## 🔬 Calibration, Slicing Optimization, & Capital Reinvestment Blueprint
+To maximize your workshop output and guarantee that parts leave your bench with absolute structural perfection, use these slice and economic parameters:
+*   **Layer Orientation Profile:** Lay blades flat along the X-Y print bed axis to prevent structural shear failure across print layers.
+*   **Infill Strategy Matrix:** Solid $\geq 65\%$ gyroid configuration using dual-material co-extrusion boundaries.
+*   **Raw Material Manufacturing Cost per Blade Set:** $\approx \$14.50\text{ USD}$ (Consumable nylon + zinc filament projection calculation).
 *   **Target Retail Price per Interlocking Set:** $\$95.00\text{ USD}$ introductory neighborhood rate.
 *   **Net Profit Margin per High-Strength Set Sold:** **$\$80.50\text{ USD}$** clear cash return directly into the reinvestment fund.
 *   **Workshop Equipment Reinvestment Milestone Trigger:** Selling exactly $32\text{ Units}$ generates a net return of **$\$2,576.00\text{ cash}$**. This cash provides immediate funding to scale up your cleanroom bench with automated CoreXY multi-material desktop equipment, while leaving your target customers completely shocked by a plastic tool that simply refuses to snap or go blunt under severe field punishment.
