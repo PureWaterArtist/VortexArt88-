@@ -50,3 +50,27 @@ When manufactured using carbon-reinforced nylon and silicon-carbide ceramic hous
 | **Compressor fails to hold pressure or leaks air through housing seams.** | Microscopic mechanical fatigue stress fissure unzipping a scroll wall under continuous pressure load. | Natively let the system sit idle for 45.0 seconds. The localized tearing stress will automatically rupture an internal capillary, bleeding liquid epoxy into the crack to restore \(\geq 98.5\%\) of tensile strength software-free. |
 | **Air gun trigger hangs or fails to dump air pulse forward.** | Lint, dust, or moisture residue blocking the internal bistable Coanda fluidic logic paths. | Connect a manual pneumatic air line to the valveless disconnect couplers and blow a brief back-flush pulse directly through the handle manifold to clear the tracking lines. |
 | **Tool module base binds or refuses to lock inside the quick collar.** | Dirt, wood pitch, or sap deposits gumming up the 30-degree reverse-taper tracking rim. | Dip the coupler collar head straight into hot soapy water. Cycle the cam-lock collar back and forth manually twice to clear the tracking track, then wipe with a clean cloth. |
+
+---
+
+## 🔄 4. Operating the Legacy Bridging Link (The Old-School Adapter)
+To prevent throwing away your old-world tools, our **Deep-Sea Siphon Adapter** snaps straight into the new valveless airgun. It converts the 30-degree mantis-claw lock into a standard **1/2-inch square-drive tang** and a **1/4-inch female NPT air thread port**. 
+*   **How it Works:** The interior air line is etched with **Helical Siphonophore Swirl Paths**. Instead of choking or dropping line pressure across legacy joints, this geometry forces the air to spin smoothly, maintaining non-turbulent laminar speed straight into old-school impact sockets or classic air ratchets.
+*   **Maintenance:** Keep the square tang clean of metal burrs. Wipe the 30-degree reverse-taper stem down with a dry cloth before slotting it into the main tool collar.
+
+---
+
+## 🦈 5. Operating the Megalodon Macro-Cutter (Metal & Stone Blade)
+For heavy demolition, unzipping steel engine blocks, clearing reinforced concrete, or cutting structural quarry stone, snap on the **Megalodon Macro-Cutting Head**.
+*   **How it Works:** The blade edge uses an overlapping, razor-serrated layout that copies a **Great White Shark's Teeth**. 3D-printed from a **Cobalt-Steel Metal-Matrix Composite** packed with a 40% weight density of sub-micron silicon-carbide crystals, it grinds through stone and titanium without binding. 
+*   **Hydrodynamic Dust Clearance:** The blade face features angled venting slots. Passing air blasts through these slots at **180 m/s**, automatically throwing razor-sharp metallic swarf and masonry dust completely out of the cutting groove, keeping the blade cool and clear software-free.
+
+---
+
+## 📡 6. Updated Zero-Software Troubleshooting Matrix
+
+| Visual Failure Symptom | Identified Physical Root Cause | Target Correction Protocol (Toolless Field Action) |
+| :--- | :--- | :--- |
+| **Legacy sockets wiggle or lose drive torque at the adapter tip.** | Anodized spring-loaded lock detent ball gummed up with legacy oil residue. | Press the detent pin down manually three times while submersing the tip in hot soapy water to clear old grease clots. |
+| **The Megalodon blade binds or creates smoke when cutting solid stone.** | High-velocity dust clearance slots choked with damp mud or clay packed into the kerf. | Stop the cut. Run the airgun at full throttle in open air for 5 seconds to blast the high-velocity venting slots clean at 180 m/s. |
+| **Compressor fails to hold pressure or leaks air through housing seams.** | Microscopic mechanical fatigue stress fissure unzipping a scroll wall under continuous pressure load. | Natively let the system sit idle for 45.0 seconds. The localized tearing stress will automatically rupture an internal capillary, bleeding liquid epoxy into the crack to restore \(\geq 98.5\%\) of tensile strength software-free. |
