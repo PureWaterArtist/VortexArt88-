@@ -4,26 +4,27 @@ PROJECT SHIELD-DOME: Multi-Scale Structural Impact & Overpressure Simulator
 Path: sovereign-family-infrastructure/shield-dome-matrix88/simulate_dome_math.py
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
-Programmatically models mantis-shrimp helicoidal shockwave dissipation curves, 
-Coanda fluid logic blast-venting latencies, and auxetic frame structural load capacities.
+Parametric modeling of mantis-shrimp helicoidal shockwave dissipation curves, 
+Coanda fluid logic blast-venting latencies, and auxetic frame structural load capacities
+across Small (1x), Medium (10x), and Large (100x) deployment footprints.
 """
 
 def compute_canopy_defenses():
     print("=========================================================================")
-    print("🛰| EXECUTING BIOMIMETIC SHIELD-DOME STRUCTURAL INTEGRITY SIMULATOR")
+    print("🛰️  EXECUTING BIOMIMETIC SHIELD-DOME STRUCTURAL INTEGRITY SIMULATOR")
     print("=========================================================================\n")
     
     # 🔬 GROUNDED PHYSICAL CONSTANTS (From config/technical-specs.md)
-    kinetic_dissipation_pct = 0.945   # 94.5% shock reduction via helicoidal micro-trusses
+    kinetic_dissipation_pct = 0.945     # 94.5% shock reduction via helicoidal micro-trusses
     venting_activation_latency_s = 0.36 # 0.36-second valveless fluid logic flip
     backing_poissons_ratio = -0.60
-    base_structural_impact_ceiling_j = 1850.0 # 1,850 Joules primary structural core limit
+    base_structural_impact_ceiling_j = 1850.0 # 1,850 Joules baseline core limit
     
-    # Structural Canopy Scale Sizes (Small Workshop Pod, Medium Enclave Greenhouse, Large Village Canopy)
+    # Structural Canopy Scale Parameters mapping out real-world material boundaries
     scales = {
-        "Small Sized Pod (1x Desktop Node Footprint)"  : {"scale_factor": 1.0,  "panels": 24},
-        "Medium Sized Enclave (10x Greenhouse Shroud)" : {"scale_factor": 10.0, "panels": 240},
-        "Large Sized Canopy (100x Village Citadel Core)": {"scale_factor": 100.0,"panels": 2400}
+        "Small Sized Pod (1x Desktop Node Footprint)"  : {"scale_factor": 1.0,   "panels": 24},
+        "Medium Sized Enclave (10x Greenhouse Shroud)" : {"scale_factor": 10.0,  "panels": 240},
+        "Large Sized Canopy (100x Village Citadel Core)": {"scale_factor": 100.0, "panels": 2400}
     }
     
     print("📋 SOLID-STATE STRUCTURAL CANOPY METROLOGY CONSTRAINTS:")
@@ -52,4 +53,4 @@ def compute_canopy_defenses():
 
 if __name__ == "__main__":
     compute_canopy_defenses()
-  
+    
