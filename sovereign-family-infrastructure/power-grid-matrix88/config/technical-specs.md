@@ -1,6 +1,6 @@
 # Module config: Sub-Module 01 - Technical Specifications & Thermal Reactor Controls
 **Document Class:** System Production Authority Card (PROJECT POWER-GRID)
-**Version:** 1.0.0 // Solid-State Pyrolysis Gasifier // Termite-Hindgut Energy Balance
+**Version:** 2.0.0 // Solid-State Pyrolysis Gasifier // Termite-Hindgut Energy Balance
 
 This specifications ledger locks in the precise physical dimensions, operating temperatures, fluidic gas velocities, and pressure deltas required to operate the open-source biomimetic termite-hindgut biomass gasifier in total homeostatic equilibrium.
 
@@ -26,6 +26,6 @@ To execute high-efficiency wood-gasification and crack complex lignin chains int
 ## 📊 3. Symmetrical Real-World Energy Capacity Projections
 *   **Biomass Material Feedstock Density:** Optimized for dry hardwood chips, crop waste, or cleaved timber biomass from Project Shear-Cut.
 *   **Net Syngas Volumetric Generation Output:** Exactly $0.85\text{ m}^3\text{ / hour}$ of synthetic fuel gas feed.
-*   **Grounded Mechanical Power Conversion Capacity:** Continuous, safe steady-state generation of **$250.0\text{ Watts}$** ($\approx 0.33\text{ Horsepower}$) mechanical and thermal output.
+*   **Grounded Mechanical Power Conversion Capacity:** Continuous, safe steady-state generation of **$250.0\text{ Watts}$** mechanical and thermal output.
 *   **Solid Activated Carbon Biochar By-Product Yield:** Co-produces exactly $115.0\text{ grams}$ of pure activated carbon biochar matrix per kilogram of dry biomass fuel input, completely loop-locking fertilizer feedstocks.
   
