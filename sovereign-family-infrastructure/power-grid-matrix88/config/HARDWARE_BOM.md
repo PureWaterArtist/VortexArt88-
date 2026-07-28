@@ -1,7 +1,7 @@
 # Module config: Sub-Module 01 - Human-Readable Bill of Materials (BOM) & Component Sourcing Card
-**Configuration:** Version 1.0.0 // PROJECT POWER-GRID // Turnkey Procurement Ledger
+**Configuration:** Version 2.0.0 // PROJECT POWER-GRID // Turnkey Procurement Ledger
 
-This data card documents the exact off-the-shelf electronic-free elements, high-temperature materials, and fluidic logic hardware required for a localized enclave workshop to completely procure, construct, and calibrate a functional Biomimetic Termite-Hindgut Biomass Gasifier.
+This data card documents the exact off-the-shelf electronics-free elements, high-temperature materials, and fluidic logic hardware required for a localized enclave workshop to completely procure, construct, and calibrate a functional Biomimetic Termite-Hindgut Biomass Gasifier.
 
 ---
 
@@ -20,8 +20,6 @@ This data card documents the exact off-the-shelf electronic-free elements, high-
 ---
 
 ## 🔬 Calibration & Assembly Staging Protocol (The First Launch Setup)
-
-To execute the toolless alignment sequence, clear internal micro-capillaries, and successfully execute your first 250W syngas power run on your workshop bench, follow these step-by-step assembly phases:
 
 1. **Ceramic Core Sintering:** Cast or 3D-print the triple-walled inverted cardioid reactor core using silicon-carbide slurry. Slow-bake inside a workshop pottery kiln to lock the airtight vacuum seals.
 2. **Coanda Manifold Alignment:** Bolt the Coanda-effect fluidic logic manifold plate straight to the gas exit vents, ensuring the internal 120-micron tracking lines are fully open and clear of soot blocks.
