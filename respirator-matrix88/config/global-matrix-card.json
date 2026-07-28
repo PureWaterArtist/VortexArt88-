@@ -2,34 +2,39 @@
   "$schema": "https://vortexart88.org",
   "component_id": "PROJECT-RESPIRATOR-MATRIX-GLOBAL-CARD",
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
-  "module_layer": "biomimetic-life-support-matrix",
+  "module_layer": "biomimetic-aquatic-autonomy-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "teleostei_hydro_grid_metrics": {
     "scale_hex_width_mm": 75.0,
     "lamellae_groove_width_microns": 120.0,
     "gas_sieve_pore_size_nm": 20.0,
-    "min_fluid_velocity_ms": 0.5,
-    "max_fluid_velocity_ms": 4.0
+    "shark_skin_drag_reduction_pct": 8.5
   },
   "erythrocyte_and_coanda_gas_logic_specs": {
     "scrubbing_agent": "Zinc-Co-Catalyzed Carbonic Anhydrase Gel Matrix",
     "hydration_acceleration_multiplier": 1000000.0,
     "routing_mechanism": "Valveless Pneumatic Coanda Fluidic Manifold",
-    "switching_delta_pressure_kpa": 10.0
+    "switching_delta_pressure_kpa": 10.0,
+    "reclaimed_air_temp_celsius": 24.0
   },
-  "deep_sea_hydrostatic_and_myoglobin_bounds": {
+  "deep_sea_hydrostatic_and_skin_bounds": {
     "chassis_architecture": "Glass-Sponge Hierarchical Concentric Hex-Grid",
     "backing_poissons_ratio": -0.60,
-    "max_operating_depth_meters": 500.0,
     "max_hydrostatic_load_mpa": 5.0,
-    "gas_storage_medium": "Iron-Porphyrin Carbon Nanotube Matrix Slurry",
-    "volumetric_density_multiplier": 6.8
+    "gas_storage_volumetric_density_multiplier": 6.8,
+    "suit_skin_drag_suppression_pct": 14.2
+  },
+  "biomimetic_apparel_and_optics_specs": {
+    "sea_lion_fin_root_stiffness_gpa": 2.8,
+    "sea_lion_fin_tip_stiffness_gpa": 0.4,
+    "penguin_flipper_lift_efficiency_pct": 88.5,
+    "pinniped_goggle_lens_type": "Dual-Curvature Seal-Cornea Refraction Plane"
   },
   "validation_sourcing_ledger": [
     {
       "root_rebreather_mesh_compiler_script": "respirator-matrix88/compile_rebreather_mesh.py",
-      "life_support_parity_check": "MATCHED"
+      "aquatic_system_parity_check": "MATCHED"
     }
   ]
 }
