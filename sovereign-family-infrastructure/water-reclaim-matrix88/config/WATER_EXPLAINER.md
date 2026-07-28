@@ -8,9 +8,9 @@ SEO METADATA MATRIX:
 **Project Phase:** Open-Source Public-Domain Infrastructure (PROJECT WATER-RECLAIM)
 **Reading Time:** 5 Minutes // Written for Neighbors, Families, and Independent Makers
 
-If you look at old-world municipal water infrastructures, they are shockingly wasteful and fragile. High-maintenance treatment plants use heavy electric pumps, consume vast amounts of grid power, and dump gallons of toxic chemical chlorine or bleach into wastewater lines just to cycle sink and shower drainage. If a municipal utility line cracks or sewage pumps fail, independent families are instantly locked out of reliable, clean water loops [No.1].
+If you look at old-world municipal water infrastructures, they are shockingly wasteful and fragile. High-maintenance treatment plants use heavy electric pumps, consume vast amounts of grid power, and dump gallons of toxic chemical chlorine or bleach into wastewater lines just to cycle sink and shower drainage. If a municipal utility line cracks or sewage pumps fail, independent families are instantly locked out of reliable, clean water loops.
 
-**Our project completely shatters this dependency by using natural gravity, graphene membranes, and recycled biochar to passively purify 150 liters of household graywater every day for exactly $185.00 total material cost [No.0].**
+**Our project completely shatters this dependency by using natural gravity, graphene membranes, and recycled biochar to passively purify 150 liters of household graywater every day for exactly $185.00 total material cost.**
 
 ---
 
