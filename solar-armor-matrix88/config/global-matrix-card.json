@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-SOLAR-ARMOR-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-solar-harvesting-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "light_trapping_optics_metrics": {
+    "scale_hex_width_mm": 75.0,
+    "butterfly_riblet_spacing_microns": 120.0,
+    "moth_eye_nanocone_height_nm": 200.0,
+    "moth_eye_nanocone_spacing_nm": 150.0,
+    "net_surface_reflection_pct": 0.1
+  },
+  "leaf_vein_and_cooling_specs": {
+    "electrical_grid_layout": "Hierarchical Leaf-Vein Fractal Conductive Print",
+    "geometric_surface_aperture_openness_pct": 99.8,
+    "cooling_capillary_width_microns": 120.0,
+    "optimal_operating_temperature_celsius": 25.0
+  },
+  "auxetic_ballistic_protection_bounds": {
+    "backing_frame_poissons_ratio": -0.60,
+    "max_safe_kinetic_impact_joules": 150.0,
+    "flexible_edge_lip_clearance_mm": 1.2
+  },
+  "nocturnal_radiative_harvesting_specs": {
+    "nocturnal_energy_harvesting_mechanism": "Deep-Space Radiative Cooling Anti-Solar Matrix",
+    "atmospheric_optical_window_microns": "8.0 - 13.0",
+    "passive_surface_cooling_delta_celsius": 6.5,
+    "solid_state_harvesting_module_type": "Bismuth-Telluride Seebeck Thermoelectric Array",
+    "baseline_nocturnal_power_yield_mw_m2": 50.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_solar_mesh_compiler_script": "solar-armor-matrix88/compile_solar_mesh.py",
+      "energy_harvesting_parity_check": "MATCHED"
+    }
+  ]
+}
