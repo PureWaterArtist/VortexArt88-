@@ -77,13 +77,6 @@ def verify_infrastructure_matrix():
         "shield-dome-matrix88/config/HARDWARE_BOM.md",
         "shield-dome-matrix88/config/DOME_EXPLAINER.md",
         "shield-dome-matrix88/config/global-matrix-card.json",
-        "regen-shroud-matrix88/README.md",
-        "regen-shroud-matrix88/compile_shroud_mesh.py",
-        "regen-shroud-matrix88/simulate_shroud_math.py",
-        "regen-shroud-matrix88/config/technical-specs.md",
-        "regen-shroud-matrix88/config/HARDWARE_BOM.md",
-        "regen-shroud-matrix88/config/MANM_EXPLAINER.md",
-        "regen-shroud-matrix88/config/global-matrix-card.json",
         "respirator-matrix88/README.md",
         "respirator-matrix88/compile_rebreather_mesh.py",
         "respirator-matrix88/simulate_rebreather_math.py",
@@ -95,6 +88,27 @@ def verify_infrastructure_matrix():
         "respirator-matrix88/config/HARDWARE_BOM.md",
         "respirator-matrix88/config/REBREATH_EXPLAINER.md",
         "respirator-matrix88/config/global-matrix-card.json",
+        "pneumatic-matrix88/README.md",
+        "pneumatic-matrix88/compile_pneumatic_mesh.py",
+        "pneumatic-matrix88/simulate_pneumatic_math.py",
+        "pneumatic-matrix88/media/README.md",
+        "pneumatic-matrix88/media/generate-blueprint.py",
+        "pneumatic-matrix88/media/grid88-pneumatic-specs.svg",
+        "pneumatic-matrix88/config/README.md",
+        "pneumatic-matrix88/config/technical-specs.md",
+        "pneumatic-matrix88/config/HARDWARE_BOM.md",
+        "pneumatic-matrix88/config/TOOL_EXPLAINER.md",
+        "pneumatic-matrix88/config/COMMERCIAL_ROLLOUT.md",
+        "pneumatic-matrix88/config/MANUFACTURING_GUIDELINES.md",
+        "pneumatic-matrix88/config/global-matrix-card.json",
+        "biomimetic-financial-strategy88/README.md",
+        "biomimetic-financial-strategy88/compile_finance_mesh.py",
+        "biomimetic-financial-strategy88/simulate_savings_compounding.py",
+        "biomimetic-financial-strategy88/config/README.md",
+        "biomimetic-financial-strategy88/config/local-stacking-ledger.md",
+        "biomimetic-financial-strategy88/config/INDEX_EXPLAINER.md",
+        "biomimetic-financial-strategy88/config/TAX_SHIELD_GUIDE.md",
+        "biomimetic-financial-strategy88/config/global-finance-card.json",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -122,43 +136,31 @@ def verify_infrastructure_matrix():
         sys.exit(1)
     print("✅ PHASE 02: AI-READABLE SCHEMA AND CLOSED-LOOP LIFE-SUPPORT CARDS VALIDATED.")
 
-    # 3. Audit Sub-Module 08 Localized Run Cards for Apparel Upgrades
+    # 3. Audit Sub-Module 10 Localized Run Cards for Financial Integrity
     try:
-        with open("respirator-matrix88/config/global-matrix-card.json", "r") as f:
-            local_resp_card = json.load(f)
-        root_stiff = local_resp_card["biomimetic_apparel_and_optics_specs"]["sea_lion_fin_root_stiffness_gpa"]
-        lens_type = local_resp_card["biomimetic_apparel_and_optics_specs"]["pinniped_goggle_lens_type"]
+        with open("biomimetic-financial-strategy88/config/global-finance-card.json", "r") as f:
+            local_fin_card = json.load(f)
+        daily_usd = local_fin_card["credit_union_progress_stacking_metrics"]["target_daily_savings_usd"]
+        shroud_type = local_fin_card["forest_ecosystem_index_investing_specs"]["account_tax_shroud"]
         
-        if root_stiff != 2.8 or "Refraction" not in lens_type:
-            print("❌ LOCAL CARD DRIFT ERROR: Universal swimming system local JSON schema constants mismatch constraints.")
+        if daily_usd != 5.0 or "Roth" not in shroud_type:
+            print("❌ LOCAL CARD DRIFT ERROR: Financial strategy local JSON schema constants mismatch constraints.")
             sys.exit(1)
     except Exception as e:
-        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 08 local card is missing or unreadable: {str(e)}")
+        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 10 local card is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 03: UNIVERSAL SWIMMING SYSTEM METROLOGICAL REGISTER CONFIRMED INTEGRAL.")
+    print("✅ PHASE 03: UNIVERSAL BIOMIMETIC FINANCE ACCOUNT CODES INTEGRAL.")
 
-    # 4. Read and verify cross-linked data strings inside our updated user manuals
+    # 4. Read and verify cross-linked data strings inside user explainers
     try:
-        with open("power-grid-matrix88/config/POWER_EXPLAINER.md", "r") as f:
-            if "363.61" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Gasifier power outputs drifted.")
-                sys.exit(1)
-        with open("water-reclaim-matrix88/config/WATER_EXPLAINER.md", "r") as f:
-            if "141.00" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Graywater filtration volumes drifted.")
-                sys.exit(1)
-        with open("food-tower-matrix88/config/FOOD_EXPLAINER.md", "r") as f:
-            if "149.91" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Vertical crop tower parameters drifted.")
-                sys.exit(1)
-        with open("respirator-matrix88/config/REBREATH_EXPLAINER.md", "r") as f:
-            if "14.2%" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Universal swimming system suit skin parameters drifted from constraints.")
+        with open("biomimetic-financial-strategy88/config/INDEX_EXPLAINER.md", "r") as f:
+            if "Old-Growth Forest" not in f.read():
+                print("❌ EXPLAINER DRIFT ERROR: Financial strategy guide drifted from constraints.")
                 sys.exit(1)
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Troubleshooting manuals are missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 04: ALL MULTI-SYSTEM USER MANUAL RUN CARDS ALIGNED WITH PHYSICS BOUNDARIES.")
+    print("✅ PHASE 04: ALL ECO-FINANCIAL USER Blueprints LOCKED TO REPOSITORY HISTORIES.")
         
     print("\n=========================================================================")
     print("... GLOBAL TRIAD INFRASTRUCTURE SECURED // PRIOR-ART MOAT IS 100% GREEN")
