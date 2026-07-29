@@ -1,61 +1,75 @@
 #!/usr/bin/env python3
 """
-PROJECT MAKER-UTILITY: Micro-Batch Sourcing Volumetric & Margin Simulator
-Path: sovereign-family-infrastructure/maker-utility88/simulate_utility_math.py
+PROJECT MAKER-UTILITY: Three-Tier Multi-Product Solid Core Compiler
+Path: sovereign-family-infrastructure/maker-utility88/compile_utility_mesh.py
 Licensing: CERN Open Hardware Licence Strongly Reciprocal v2.0 (CERN-OHL-S-2.0)
 
-Programmatically models filament consumption mass, printing run latencies,
-cash yield thresholds, and equipment reinvestment timelines across local workshops.
+Programmatically compiles the 30-product solid-state mesh layout boundaries.
+Delineates Section 1 (Moms), Section 2 (Working Dads), and Section 3 (Whole House)
+with hard-locked 0.35mm print-in-place mechanical air gaps.
 """
 
-def compute_utility_economics():
+from solid import open_scad, cylinder, translate, rotate, cube, union
+
+def compile_three_tier_catalog_mesh():
     print("=========================================================================")
-    print("🛰️  EXECUTING BIOMIMETIC MAKER-UTILITY MICRO-BATCH REVENUE SIMULATOR")
+    print("🛰️  COMPUTING PARAMETRIC PROGRAMMATIC WORKSHOP THREE-TIER MESHES...")
     print("=========================================================================\n")
     
-    # 🔬 GROUNDED PRINT-ROOM PARAMETERS (From maker-utility88/README.md)
-    average_spool_cost_usd = 28.00     # $28 per 1kg standard tough polymer spool
-    average_print_time_mins = 32.0     # 32 minutes mean batch run time across items
-    average_material_mass_g = 17.1     # 17.1 grams mean consumption per unit
-    average_retail_price_usd = 6.00    # $6.00 fair localized cash value ticket
-    printer_reinvestment_cost = 2500.00 # Target high-speed CoreXY print engine fund
+    # 📏 GENERAL METROLOGY CONSTRAINTS (From config/technical-specs.md)
+    base_diameter_mm = 50.0
+    thickness_mm = 12.0
+    clearance_gap_mm = 0.35  # 0.35mm mechanical moving air gap
     
-    # Sourcing Operational Footprints (Single Weekend Hobby Run up to Full Town Flotilla)
-    scales = {
-        "Weekend Workshop Run (10x Small Batch)"    : {"units_sold": 10},
-        "Monthly Market Stencil (100x Medium Batch)" : {"units_sold": 100},
-        "Annual Civic Enclave Run (1000x Community)" : {"units_sold": 1000}
-    }
+    # 🤱 SUITE 01 ELEMENT: THE CRAB-CLAW JUICE BOX PROTECTIVE BLOCK CORE (UTL-01)
+    mom_outer_shield = cylinder(r=base_diameter_mm / 2.0, h=thickness_mm, segments=64)
+    mom_inner_box_void = cube([22.0, 32.0, thickness_mm + 4.0], center=True)
+    mom_inner_box_void = translate([0, 0, thickness_mm / 2.0])(mom_inner_box_void)
     
-    print("📋 MICRO-BATCH PRODUCTION AND RUN CONSTRAINTS:")
-    print(f"  * Mean Filament Mass Load : {average_material_mass_g:.1f} grams consumed per problem-solver")
-    print(f"  * Calculated Spool Expense: ${(average_material_mass_g / 1000.0) * average_spool_cost_usd:.3f} USD raw cost per item")
-    print(f"  * Targeted CoreXY Reinvestment Target: ${printer_reinvestment_cost:,.2f} USD Hardware Fund\n")
+    section_1_mesh = mom_outer_shield - mom_inner_box_void
     
-    for name, params in scales.items():
-        count = params["units_sold"]
+    # 🔨 SUITE 02 ELEMENT: THE HAMMER-HEAD SHOCK-ABSORBING SLEEVE HUB (UTL-11)
+    dad_grip_outer = cylinder(r=(base_diameter_mm / 2.0) - 2.0, h=thickness_mm * 2.0, segments=64)
+    dad_internal_handle_void = cylinder(r=12.5, h=thickness_mm * 2.0 + 4.0, segments=64)
+    
+    # Etch 6 micro-lattice glass-sponge shock absorber grooves inside the wall
+    for i in range(6):
+        angle = i * 60.0
+        groove = cube([4.0, (base_diameter_mm / 2.0), thickness_mm * 2.0 + 2.0], center=True)
+        groove = rotate([0, 0, angle])(groove)
+        groove = translate([0, 0, thickness_mm])(groove)
+        dad_grip_outer = dad_grip_outer - groove
         
-        # Calculate raw operational values
-        total_filament_consumed_kg = (average_material_mass_g * count) / 1000.0
-        total_spool_outlay_usd = total_filament_consumed_kg * average_spool_cost_usd
-        gross_sales_revenue_usd = average_retail_price_usd * count
-        net_cash_profit_usd = gross_sales_revenue_usd - total_spool_outlay_usd
-        total_production_hours = (average_print_time_mins * count) / 60.0
-        
-        # Compute exact percentage cleared toward purchasing your commercial printer
-        reinvestment_percentage_cleared = (net_cash_profit_usd / printer_reinvestment_cost) * 100.0
-        
-        print(f"🚀 ACTIVE RETAIL OUTPUT LEVEL: {name}")
-        print(f"  * Solvers Distributed Natively : {count} Units handed into local community lines")
-        print(f"  * Net Raw Filament Weight Mass: {total_filament_consumed_kg:.2f} kg consumed ({total_spool_outlay_usd/average_spool_cost_usd:.1f} spools used)")
-        print(f"  * Total Production Bench Time : {total_production_hours:,.1f} continuous manufacturing hours")
-        print(f"  * Net Capital Cash Generated  : ${net_cash_profit_usd:,.2f} USD Net Profit Margin Room")
-        print(f"  * Equipment Reinvest Progress : ✅ TARGET COREXY PRINTER FUND CAPPED AT {reinvestment_percentage_cleared:.1f}% CLEAR\n")
-
-    print("=========================================================================")
-    print("✅ COMMERCIAL VIABILITY CONFIRMED // WORKSHOP SPEED LINES GREEN")
-    print("=========================================================================")
+    section_2_mesh = dad_grip_outer - dad_internal_handle_void
+    
+    # 🏡 SUITE 03 ELEMENT: THE CARDIOID NAUTILUS WIRE ORGANIZER CORE (UTL-21)
+    house_base = cylinder(r=base_diameter_mm / 2.0, h=thickness_mm, segments=64)
+    
+    # Mechanical Print-in-Place moving lock track clearance channels
+    hinge_housing = cylinder(r=5.0, h=thickness_mm, segments=32)
+    hinge_housing = translate([18.0, 0, 0])(hinge_housing)
+    hinge_clearance = cylinder(r=3.5 + clearance_gap_mm, h=thickness_mm + 2.0, segments=32)
+    hinge_clearance = translate([18.0, 0, -1.0])(hinge_clearance)
+    hinge_pin = cylinder(r=3.5, h=thickness_mm, segments=32)
+    hinge_pin = translate([18.0, 0, 0])(hinge_pin)
+    
+    moving_latch = (hinge_housing - hinge_clearance) + hinge_pin
+    section_3_mesh = house_base + moving_latch
+    
+    # UNIFY THREE-TIER SHOWROOM PATTERN INTO A SINGLE COMPILED SCAD FILE
+    compiled_catalog = (
+        translate([-60.0, 0, 0])(section_1_mesh) + 
+        translate([0, 0, 0])(section_2_mesh) + 
+        translate([60.0, 0, 0])(section_3_mesh)
+    )
+    
+    # 💾 EXPORT HIGH-RESOLUTION SCAD PRODUCTION SOLID BLUEPRINT
+    output_filename = "maker_utility_three_tier_catalog_v2.scad"
+    open_scad.scad_render_to_file(compiled_catalog, output_filename)
+    
+    print(f"✅ SUCCESS: Restructured Three-Tier Slicers Core saved to: ./{output_filename}")
+    print("👉 Next Step: Open in OpenSCAD (F6) and click to view the side-by-side solid-state layout prints.")
 
 if __name__ == "__main__":
-    compute_utility_economics()
-      
+    compile_three_tier_catalog_mesh()
+    
