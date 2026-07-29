@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-ALCHEMIST-MATRIX-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "biomimetic-manufacturing-autonomy-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "abalone_shell_electrostatic_grid_metrics": {
+    "deposition_plane_geometry": "Trabeculae Open-Hexagonal Lattice Matrix",
+    "base_scale_hex_width_mm": 75.0,
+    "electrostatic_pull_field_v_mm": 1500.0,
+    "molecular_alignment_pass_window_pct": 98.5
+  },
+  "volcanic_venturi_resonant_core_specs": {
+    "nozzle_profile": "Fluidic Bistable Cardioid Acoustic Cavitation Chamber",
+    "required_input_air_charge_kpa": 300.0,
+    "ultrasonic_resonance_frequency_khz": 42.5,
+    "chemical_bond_restructuring_latency_s": 0.02
+  },
+  "spider_gland_capillary_delivery_bounds": {
+    "gland_capillary_width_microns": 120.0,
+    "slurry_viscosity_operating_ceiling_pa_s": 4.5,
+    "hydrostatic_siphon_pressure_kpa": 200.0,
+    "material_sourcing_net_budget_usd": 225.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_synthesizer_mesh_compiler_script": "alchemist-matrix88/compile_synthesizer_mesh.py",
+      "synthesis_matrix_parity_check": "MATCHED"
+    }
+  ]
+}
