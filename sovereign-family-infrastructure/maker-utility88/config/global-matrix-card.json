@@ -2,21 +2,33 @@
   "$schema": "https://vortexart88.org",
   "component_id": "PROJECT-MAKER-UTILITY-GLOBAL-CARD",
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
-  "module_layer": "micro-batch-manufacturing-utility-matrix",
+  "module_layer": "three-tier-micro-batch-utility-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "1.0.0",
-  "geometric_tolerance_and_clearance_metrics": {
+  "version": "2.0.0",
+  "global_tolerance_and_clearance_metrics": {
     "print_in_place_clearance_mm": 0.35,
     "first_layer_line_width_pct": 120.0,
     "primary_layer_height_mm": 0.20,
     "nozzle_diameter_profile_mm": 0.40,
     "perimeter_fusion_density_floor_pct": 98.5
   },
-  "material_compounding_and_slicer_overrides": {
+  "section_1_mom_and_toddler_slicer_bounds": {
+    "material_feedstock_class": "High-Impact Food-Safe Polyethylene Co-Polymer",
     "minimum_gyroid_infill_density_pct": 35.0,
-    "outer_perimeter_wall_count": 4,
-    "solid_surface_shell_layers": 5,
-    "net_hardware_sourcing_budget_usd": 225.0
+    "outer_perimeter_wall_shells": 4,
+    "solid_surface_skin_layers": 5
+  },
+  "section_2_working_dad_slicer_bounds": {
+    "material_feedstock_class": "Industrial Carbon-Fiber Reinforced Nylon (PA-CF)",
+    "minimum_honeycomb_infill_density_pct": 55.0,
+    "outer_perimeter_wall_shells": 6,
+    "nozzle_temperature_ceiling_celsius": 300.0
+  },
+  "section_3_whole_household_slicer_bounds": {
+    "material_feedstock_class": "Tough PETG Glycol-Modified Composite",
+    "minimum_gyroid_infill_density_pct": 40.0,
+    "outer_perimeter_wall_shells": 4,
+    "initial_zero_cooling_layers": 3
   },
   "validation_sourcing_ledger": [
     {
