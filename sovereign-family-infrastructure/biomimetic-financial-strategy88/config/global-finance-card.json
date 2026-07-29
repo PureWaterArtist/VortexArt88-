@@ -4,7 +4,7 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-financial-autonomy-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "credit_union_progress_stacking_metrics": {
     "target_daily_savings_usd": 5.0,
     "weekly_transfer_rate_usd": 35.0,
@@ -28,6 +28,11 @@
     "raw_filament_unit_cost_usd": 14.50,
     "premium_local_retail_price_usd": 95.00,
     "net_cash_profit_margin_usd": 80.50
+  },
+  "symbiotic_nitrogen_and_coral_exchange_nodes": {
+    "max_allowed_phantom_subscription_overhead_usd": 0.0,
+    "barter_exchange_profile": "Coral-Reef Localized Non-Monetary Value Swapping",
+    "minimum_barter_value_multiplier_floor": 6.55
   },
   "validation_sourcing_ledger": [
     {
