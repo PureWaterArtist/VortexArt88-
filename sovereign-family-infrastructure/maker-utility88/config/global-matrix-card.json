@@ -2,9 +2,9 @@
   "$schema": "https://vortexart88.org",
   "component_id": "PROJECT-MAKER-UTILITY-GLOBAL-CARD",
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
-  "module_layer": "three-tier-micro-batch-utility-matrix",
+  "module_layer": "expanded-60-product-micro-batch-utility-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "global_tolerance_and_clearance_metrics": {
     "print_in_place_clearance_mm": 0.35,
     "first_layer_line_width_pct": 120.0,
@@ -16,19 +16,22 @@
     "material_feedstock_class": "High-Impact Food-Safe Polyethylene Co-Polymer",
     "minimum_gyroid_infill_density_pct": 35.0,
     "outer_perimeter_wall_shells": 4,
-    "solid_surface_skin_layers": 5
+    "solid_surface_skin_layers": 5,
+    "total_tier_products_registered": 20
   },
   "section_2_working_dad_slicer_bounds": {
     "material_feedstock_class": "Industrial Carbon-Fiber Reinforced Nylon (PA-CF)",
     "minimum_honeycomb_infill_density_pct": 55.0,
     "outer_perimeter_wall_shells": 6,
-    "nozzle_temperature_ceiling_celsius": 300.0
+    "nozzle_temperature_ceiling_celsius": 300.0,
+    "total_tier_products_registered": 20
   },
   "section_3_whole_household_slicer_bounds": {
     "material_feedstock_class": "Tough PETG Glycol-Modified Composite",
     "minimum_gyroid_infill_density_pct": 40.0,
     "outer_perimeter_wall_shells": 4,
-    "initial_zero_cooling_layers": 3
+    "initial_zero_cooling_layers": 3,
+    "total_tier_products_registered": 20
   },
   "validation_sourcing_ledger": [
     {
