@@ -1,6 +1,6 @@
 # 👑 PROJECT ALCHEMY-STARTUP: Symmetrical Closed-Loop Biomimetic Manufacturing Business Plan
 **Document Class:** Turnkey Commercial Funding Proposal // Seed Stage Capital Access
-**Company Identity:** Matrix Biomimetic Utilities (Operating from Westland, MI)
+**Company Identity:** Matrix Biomimetic Utilities (Operating from Michigan)
 **Target Funding Allocation:** $2,500.00 USD (High-Speed Automated Multi-Material CoreXY Printer + Initial Feedstock Spools)
 
 ---
@@ -32,9 +32,9 @@ We mechanically shred the returned polymer scrap onsite, pass it through an un-p
 
 ---
 
-## 📊 3. Market Analysis & Target Customer Personas (Westland, MI Region)
+## 📊 3. Market Analysis & Target Customer Personas (MI Region)
 
-To capture immediate local cash flow and ensure rapid capital rotation, our marketing layout targets three high-density consumer demographics within a 15-mile radius of our Westland workshop hub:
+To capture immediate local cash flow and ensure rapid capital rotation, our marketing layout targets three high-density consumer demographics within a 15-mile radius of our workshop hub:
 
 ### Persona A: "The Overwhelmed Modern Mom"
 *   **Demographic Group:** Suburban mothers with 1 to 3 children under the age of 8.
@@ -44,7 +44,7 @@ To capture immediate local cash flow and ensure rapid capital rotation, our mark
 ### Persona B: "The Independent Trade Craftsman (Working Dads)"
 *   **Demographic Group:** Local general contractors, field mechanics, residential arborists, and electricians operating throughout Wayne County.
 *   **The Specific Pain Point:** Lost operational hours and hidden tool belt overheads caused by dropping expensive tool bits down engine bays, shattered plastic tape measure cases, and toolbelt storage failures.
-*   **Our Market Ingress:** Direct on-site workbench marketing. We hand-deliver our high-tensile carbon-fiber nylon "Working Dad Suite" items directly to job sites, executing a live 10-second "Slam Cut" demonstration to visually prove structural durability over mass-market retail plastics.
+*   **Our Market Ingress:** Direct on-site workbench marketing. We hand-deliver our high-tensile carbon-fiber nylon "Working Dad Suite" items directly to job sites, executing a live 10-second "Live Use" demonstration to visually prove structural durability over mass-market retail plastics.
 
 ### Persona C: "The Conscious Closed-Loop Household"
 *   **Demographic Group:** Homeowners, urban gardeners, and rental tenants looking to optimize their fixed utilities and eliminate structural interior leaks.
@@ -94,7 +94,7 @@ To launch this exact closed-loop loop without taking out toxic, high-interest co
 
 ## 🔄 5. The Circular Closed-Loop Upcycling Protocol & Lifecycle Warranty
 
-To ensure our manufacturing moat is completely immune to macro-economic raw polymer supply spikes while building an unbreakable relationship with our local Westland consumer community, the workshop enforces this strict, 4-step material recovery loop:
+To ensure our manufacturing moat is completely immune to macro-economic raw polymer supply spikes while building an unbreakable relationship with our local consumer community, the workshop enforces this strict, 4-step material recovery loop:
 
 ### Step A: The Lifecycle Exchange Interface (The Reclaim Hook)
 *   Every single biomimetic gadget leaving our cleanroom bench is stamped with a permanent, debossed geometric mark reading `MATRIX-RECLAIM-88`. 
@@ -126,11 +126,11 @@ To transform our home workshop from a local micro-batch setup into a permanent, 
 
 ### Stage Two: The Automated Cleanroom Expansion (Years 1–3)
 *   **The Blueprint:** We take $10,000.00 of our Year One cash profits and purchase a bank of 8 additional high-speed CoreXY print engines, fully insulating our cleanroom bench with dedicated fume ventilation hoods and multi-layer HEPA air filtration networks. 
-*   **The Tax-Shield Integration:** To permanently shield this expanding revenue from predatory capital gains and corporate corporate income taxation, the workshop owner establishes a **Self-Directed Roth IRA Account Shield** [No.0]. By routing our micro-batch retail profits legally through this investment perimeter, the entire compound interest growth curve expands in total darkness from tax collectors, allowing **100% tax-free multi-generational wealth generation and equipment reinvestment** [No.0].
+*   **The Tax-Shield Integration:** To permanently shield this expanding revenue from predatory capital gains and corporate corporate income taxation, the workshop owner establishes a **Self-Directed Roth IRA Account Shield**. By routing our micro-batch retail profits legally through this investment perimeter, the entire compound interest growth curve expands in total darkness from tax collectors, allowing **100% tax-free multi-generational wealth generation and equipment reinvestment**.
 
 ### Stage Three: The Decentralized Township Foundry Network (Years 3–5)
-*   **The Blueprint:** Scale our micro-batch volume up to Level 3, distributing 6,000 units per year to capture an unassailable gross enterprise revenue baseline ceiling of **$39,000.00 USD per year** [No.0].
-*   **The Civil Defense Handover:** We open-source our local `maker-utility88/` parametric cad files and deployment roadmaps to surrounding neighborhood enclaves, allowing adjacent towns to replicate our closed-loop manufacturing templates. The core business assets are transitioned straight inside an **Irrevocable Sequoia Family Trust Envelope**, completely bypassing state probate court legal fees and inheritance taxes, legally cementing an unbreakable, waste-free manufacturing citadel for the future map [No.0].
+*   **The Blueprint:** Scale our micro-batch volume up to Level 3, distributing 6,000 units per year to capture an unassailable gross enterprise revenue baseline ceiling of **$39,000.00 USD per year**.
+*   **The Civil Defense Handover:** We open-source our local `maker-utility88/` parametric cad files and deployment roadmaps to surrounding neighborhood enclaves, allowing adjacent towns to replicate our closed-loop manufacturing templates. The core business assets are transitioned straight inside an **Irrevocable Sequoia Family Trust Envelope**, completely bypassing state probate court legal fees and inheritance taxes, legally cementing an unbreakable, waste-free manufacturing citadel for the future map.
   
 ---
 
@@ -151,6 +151,6 @@ To ensure absolute operational compliance with Michigan small business regulatio
 *   **Our Symmetrical Compliance Layout:** Because our **Project Alchemist-Matrix** and CoreXY print engines operate on solid-state fluidic and electrostatic logic, our total noise profile drops to a near-silent **$\leq 28.0\text{ dB}$ at a 3-meter boundary distance**, mimicking ambient refrigerator acoustics. Our un-powered, hand-cranked shredder consumes 0% grid electricity and produces zero dust, fully complying with local municipal zoning sheets.
 
 ### D. The Local Barter Ledger & Non-Monetary Revenue Tracking
-*   **The Compliance Standard:** Direct peer-to-peer barter trading (swapping your printed $95.00 tool modules for automotive labor or agricultural soils) is a massive tool for shielding capital margins from paper currency inflation [No.0]. However, to maintain clean commercial books under active accounting audits, all non-monetary trades must track cleanly.
+*   **The Compliance Standard:** Direct peer-to-peer barter trading (swapping your printed $95.00 tool modules for automotive labor or agricultural soils) is a massive tool for shielding capital margins from paper currency inflation. However, to maintain clean commercial books under active accounting audits, all non-monetary trades must track cleanly.
 *   **The Logistics Layout:** The workshop maintains a physical **Closed-Loop Barter Log** on the bench shelf. Every direct trade is recorded down to the exact gram weight mass of polymer exchanged, matching the exact value benchmarks set in our machine-readable JSON data card. This guarantees a clean, un-assailable paper trail that protects your home enterprise under any local state or federal evaluation.
-*   
+
