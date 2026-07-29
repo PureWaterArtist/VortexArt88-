@@ -4,28 +4,30 @@
   "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
   "module_layer": "biomimetic-financial-autonomy-matrix",
   "licensing": "CERN-OHL-S-2.0",
-  "version": "5.0.0",
+  "version": "3.0.0",
   "credit_union_progress_stacking_metrics": {
     "target_daily_savings_usd": 5.0,
     "weekly_transfer_rate_usd": 35.0,
     "money_market_baseline_apy_pct": 2.0,
     "share_certificate_promo_apy_pct": 4.5,
-    "certificate_milestone_lock_usd": 500.0
+    "certificate_milestone_lock_usd": 500.0,
+    "mushroom_web_auto_sweep_status": "ENABLED"
   },
   "forest_ecosystem_index_investing_specs": {
     "primary_passive_vehicle": "Broad-Market S&P 500 Index Fund / ETF",
     "historical_average_return_apy_pct": 9.0,
-    "maximum_safe_expense_ratio_pct": 0.05,
+    "honeycomb_max_expense_ratio_pct": 0.03,
     "automation_frequency": "Unidirectional Monthly Pull Script",
     "asset_management_tax_shroud": "Self-Directed Roth IRA Shell",
     "tax_liability_withdrawal_pct": 0.0
   },
-  "symbiotic_side_income_manufacturing_bounds": {
+  "beaver_dam_and_symbiotic_side_bounds": {
+    "beaver_emergency_buffer_months": 6.0,
+    "buffer_pool_liquidity_status": "HIGHLY-FLUID",
     "consumable_hardware_attachment": "Project Shock-Locking Arborist Blade Matrix",
     "raw_filament_unit_cost_usd": 14.50,
     "premium_local_retail_price_usd": 95.00,
-    "net_cash_profit_margin_usd": 80.50,
-    "target_micro_batch_sales_monthly": 4.0
+    "net_cash_profit_margin_usd": 80.50
   },
   "validation_sourcing_ledger": [
     {
