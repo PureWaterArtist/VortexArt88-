@@ -5,9 +5,9 @@
 
 ## 🖨️ Workshop Commercialization & Sourcing Metrics
 
-This restructured catalog documents 30 simple, easy-to-print mechanical and biomimetic designs engineered to erase everyday household, workplace, and parenting frustrations [No.0]. Old-world mass manufacturing completely ignores these minor, hyper-specific pain points because they prefer built-in shelf obsolescence that forces consumers to buy cheap, breakable plastic accessories repeatedly [No.1].
+This restructured catalog documents 60 simple, easy-to-print mechanical and biomimetic designs engineered to erase everyday household, workplace, and parenting frustrations. Old-world mass manufacturing completely ignores these minor, hyper-specific pain points because they prefer built-in shelf obsolescence that forces consumers to buy cheap, breakable plastic accessories repeatedly.
 
-Our workshop completely destroys this cycle by printing high-strength, single-piece, electronics-free utility items out of standard tough polymers, creating an immediate cash-flow reinvestment loop for your cleanroom bench to fund your next industrial equipment upgrades [No.0].
+Our workshop completely destroys this cycle by printing high-strength, single-piece, electronics-free utility items out of standard tough polymers, creating an immediate cash-flow reinvestment loop for your cleanroom bench to fund your next industrial equipment upgrades.
 
 ---
 
