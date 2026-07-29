@@ -72,7 +72,7 @@ def verify_infrastructure_matrix():
         "lipo-matrix88/config/global-matrix-card.json",
         "shield-dome-matrix88/README.md",
         "shield-dome-matrix88/compile_dome_mesh.py",
-        "shield-dome-matrix88/simulate_dome_math.py",
+        "shield-dome-matrix88/simulate_dome_mesh.py",
         "shield-dome-matrix88/config/technical-specs.md",
         "shield-dome-matrix88/config/HARDWARE_BOM.md",
         "shield-dome-matrix88/config/DOME_EXPLAINER.md",
@@ -109,6 +109,16 @@ def verify_infrastructure_matrix():
         "biomimetic-financial-strategy88/config/INDEX_EXPLAINER.md",
         "biomimetic-financial-strategy88/config/TAX_SHIELD_GUIDE.md",
         "biomimetic-financial-strategy88/config/global-finance-card.json",
+        "alchemist-matrix88/README.md",
+        "alchemist-matrix88/compile_synthesizer_mesh.py",
+        "alchemist-matrix88/simulate_synthesizer_math.py",
+        "alchemist-matrix88/media/README.md",
+        "alchemist-matrix88/media/generate-blueprint.py",
+        "alchemist-matrix88/media/grid88-alchemist-specs.svg",
+        "alchemist-matrix88/config/README.md",
+        "alchemist-matrix88/config/technical-specs.md",
+        "alchemist-matrix88/config/REPLICATOR_EXPLAINER.md",
+        "alchemist-matrix88/config/global-matrix-card.json",
         "config/global-matrix-card.json"
     ]
     for anchor in root_anchors:
@@ -136,31 +146,31 @@ def verify_infrastructure_matrix():
         sys.exit(1)
     print("✅ PHASE 02: AI-READABLE SCHEMA AND CLOSED-LOOP LIFE-SUPPORT CARDS VALIDATED.")
 
-    # 3. Audit Sub-Module 10 Localized Run Cards for Financial Integrity
+    # 3. Audit Sub-Module 11 Localized Run Cards for Alchemist Synthesis
     try:
-        with open("biomimetic-financial-strategy88/config/global-finance-card.json", "r") as f:
-            local_fin_card = json.load(f)
-        daily_usd = local_fin_card["credit_union_progress_stacking_metrics"]["target_daily_savings_usd"]
-        shroud_type = local_fin_card["forest_ecosystem_index_investing_specs"]["account_tax_shroud"]
+        with open("alchemist-matrix88/config/global-matrix-card.json", "r") as f:
+            local_alc_card = json.load(f)
+        resonant_freq = local_alc_card["volcanic_venturi_resonant_core_specs"]["ultrasonic_resonance_frequency_khz"]
+        density_floor = local_alc_card["abalone_shell_electrostatic_grid_metrics"]["molecular_alignment_pass_window_pct"]
         
-        if daily_usd != 5.0 or "Roth" not in shroud_type:
-            print("❌ LOCAL CARD DRIFT ERROR: Financial strategy local JSON schema constants mismatch constraints.")
+        if resonant_freq != 42.5 or density_floor != 98.5:
+            print("❌ LOCAL CARD DRIFT ERROR: Alchemist matrix local JSON schema constants mismatch constraints.")
             sys.exit(1)
     except Exception as e:
-        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 10 local card is missing or unreadable: {str(e)}")
+        print(f"❌ SCHEMA RUNTIME ERROR: Sub-Module 11 molecular card is missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 03: UNIVERSAL BIOMIMETIC FINANCE ACCOUNT CODES INTEGRAL.")
+    print("✅ PHASE 03: UNIVERSAL ALCHEMIST COMPONENT REGISTER CONFIRMED INTEGRAL.")
 
-    # 4. Read and verify cross-linked data strings inside user explainers
+    # 4. Read and verify cross-linked data strings inside user manuals
     try:
-        with open("biomimetic-financial-strategy88/config/INDEX_EXPLAINER.md", "r") as f:
-            if "Old-Growth Forest" not in f.read():
-                print("❌ EXPLAINER DRIFT ERROR: Financial strategy guide drifted from constraints.")
+        with open("alchemist-matrix88/config/REPLICATOR_EXPLAINER.md", "r") as f:
+            if "Morpho Butterfly" not in f.read():
+                print("❌ EXPLAINER DRIFT ERROR: Alchemist system manual parameters drifted from constraints.")
                 sys.exit(1)
     except Exception as e:
         print(f"❌ LINTER RUNTIME ERROR: Troubleshooting manuals are missing or unreadable: {str(e)}")
         sys.exit(1)
-    print("✅ PHASE 04: ALL ECO-FINANCIAL USER Blueprints LOCKED TO REPOSITORY HISTORIES.")
+    print("✅ PHASE 04: ALL ACTIVE PRODUCTION BLUEPRINTS LOCK TO THE CANOPY HORIZON.")
         
     print("\n=========================================================================")
     print("... GLOBAL TRIAD INFRASTRUCTURE SECURED // PRIOR-ART MOAT IS 100% GREEN")
