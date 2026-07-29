@@ -1,0 +1,27 @@
+{
+  "$schema": "https://vortexart88.org",
+  "component_id": "PROJECT-MAKER-UTILITY-GLOBAL-CARD",
+  "parent_system": "PROJECT-SOVEREIGN-CORNERSTONE-INDEX",
+  "module_layer": "micro-batch-manufacturing-utility-matrix",
+  "licensing": "CERN-OHL-S-2.0",
+  "version": "1.0.0",
+  "geometric_tolerance_and_clearance_metrics": {
+    "print_in_place_clearance_mm": 0.35,
+    "first_layer_line_width_pct": 120.0,
+    "primary_layer_height_mm": 0.20,
+    "nozzle_diameter_profile_mm": 0.40,
+    "perimeter_fusion_density_floor_pct": 98.5
+  },
+  "material_compounding_and_slicer_overrides": {
+    "minimum_gyroid_infill_density_pct": 35.0,
+    "outer_perimeter_wall_count": 4,
+    "solid_surface_shell_layers": 5,
+    "net_hardware_sourcing_budget_usd": 225.0
+  },
+  "validation_sourcing_ledger": [
+    {
+      "root_utility_mesh_compiler_script": "maker-utility88/compile_utility_mesh.py",
+      "micro_batch_parity_check": "MATCHED"
+    }
+  ]
+}
