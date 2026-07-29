@@ -10,8 +10,8 @@ This specifications ledger locks in the precise daily savings bounds, transfer l
 To execute hands-free, software-free capital stacking and prevent your daily earnings from evaporating into casual consumer spending traps, the banking track enforces these exact boundaries:
 *   **Daily Seed Capital Deposit Requirement:** Hard-locked at a minimum floor of exactly **$5.00 USD / Day**.
 *   **Automated Weekly Consolidation Wave:** Scheduled recurring transfer of **$35.00 USD** executing every single Monday morning.
-*   **Fluid Input Buffer Reservoir:** Linked directly to your Community Choice Credit Union Money Market Account ($\geq 2.0\%$ APY baseline) located on Wayne Road in Westland, MI [No.1].
-*   **The Milestone Ice-Lock Gate:** The exact millisecond your money market reservoir balance hits **$500.00 USD** (occurs every 15 weeks), the cash is moved via the app store to open a promotional **Share Certificate Block** to lock down an un-drifting ceiling return of $\geq 4.5\%$ APY [No.1].
+*   **Fluid Input Buffer Reservoir:** Linked directly to your Community Choice Credit Union Money Market Account ($\geq 2.0\%$ APY baseline).
+*   **The Milestone Ice-Lock Gate:** The exact millisecond your money market reservoir balance hits **$500.00 USD** (occurs every 15 weeks), the cash is moved via the app store to open a promotional **Share Certificate Block** to lock down an un-drifting ceiling return of $\geq 4.5\%$ APY.
 
 ---
 
