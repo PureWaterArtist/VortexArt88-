@@ -1,0 +1,26 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
+    "material_profiles": {
+      "industrial_hydraulic_asa_petg": {
+        "layer_height": "0.28mm",
+        "wall_loops": 6,
+        "top_solid_layers": 7,
+        "bottom_solid_layers": 7,
+        "infill_density": "20%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "260C",
+        "bed_temperature": "95C",
+        "enclosure_temperature_target": "45C",
+        "max_volumetric_speed": "10.0mm3/s",
+        "extrusion_multiplier_flow": "1.04",
+        "auxiliary_fan_speed": "10%",
+        "retraction_length": "0.8mm",
+        "retraction_speed": "35mm/s",
+        "bridge_flow_ratio": "0.95",
+        "structural_purpose": "Heavy-duty hydraulic plumbing utility. Thick 0.28mm layer heights drastically reduce the total number of horizontal toolpath boundaries. The strict 6-wall outer shell thickness and 4% flow over-extrusion fuse the internal logarithmic sediment gutters into an entirely non-porous mass, ensuring long-term watertight durability under domestic gravity drain pressures."
+      }
+    }
+  }
+}
