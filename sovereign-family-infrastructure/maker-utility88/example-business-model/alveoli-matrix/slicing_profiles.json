@@ -1,0 +1,38 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
+    
+    "subsystem_chassis_matte_asa": {
+      "layer_height": "0.24mm",
+      "wall_loops": 4,
+      "top_solid_layers": 5,
+      "bottom_solid_layers": 5,
+      "infill_density": "15%",
+      "infill_pattern": "gyroid",
+      "nozzle_temperature": "265C",
+      "bed_temperature": "100C",
+      "enclosure_temperature_target": "50C",
+      "max_volumetric_speed": "12mm3/s",
+      "auxiliary_fan_speed": "15%",
+      "structural_purpose": "Tapered protective exoskeleton shell. Employs uniform thermal management parameters to prevent internal print warping and boundary splitting across sharp outer profiles."
+    },
+    
+    "subsystem_core_conductive_cf_petg": {
+      "layer_height": "0.20mm",
+      "wall_loops": 2,
+      "top_solid_layers": 0,
+      "bottom_solid_layers": 0,
+      "infill_density": "0%",
+      "infill_pattern": "none",
+      "nozzle_temperature": "250C",
+      "bed_temperature": "65C",
+      "max_volumetric_speed": "5.5mm3/s",
+      "extrusion_multiplier_flow": "1.02",
+      "cooling_fan_speed": "25%",
+      "retraction_length": "0.6mm",
+      "retraction_speed": "30mm/s",
+      "structural_purpose": "Washable electrostatic core mesh matrix. Bypasses standard internal infills to rely entirely on parametric 45-degree supportless alveolar geometry. Slower print speeds maximize long-chain carbon paths for uniform, edge-to-edge electricity distribution."
+    }
+  }
+}
