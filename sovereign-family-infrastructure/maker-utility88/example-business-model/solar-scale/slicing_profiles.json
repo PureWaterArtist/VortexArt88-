@@ -1,0 +1,48 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
+    
+    "subsystem_base_chassis_weatherproof_asa": {
+      "layer_height": "0.24mm",
+      "wall_loops": 5,
+      "top_solid_layers": 4,
+      "bottom_solid_layers": 4,
+      "infill_density": "15%",
+      "infill_pattern": "gyroid",
+      "nozzle_temperature": "265C",
+      "bed_temperature": "100C",
+      "enclosure_temperature_target": "50C",
+      "max_volumetric_speed": "12mm3/s",
+      "structural_purpose": "Hexagonal structural base carrier enclosure. Employs thick perimeters to housing the concentric connection pathways and hollow internal elephant-ear cooling flutes securely."
+    },
+    
+    "subsystem_armor_layer_clear_tpu": {
+      "layer_height": "0.20mm",
+      "wall_loops": 3,
+      "top_solid_layers": 0,
+      "bottom_solid_layers": 0,
+      "infill_density": "0%",
+      "infill_pattern": "none",
+      "nozzle_temperature": "235C",
+      "bed_temperature": "50C",
+      "max_volumetric_speed": "3.5mm3/s",
+      "extrusion_multiplier_flow": "1.02",
+      "structural_purpose": "Sub-surface auxetic impact protection shield. Relies completely on parametric negative Poisson re-entrant geometric webs. Printed slowly with zero infill to allow the internal cell hinges to compress and flex naturally under impact stress loads."
+    },
+
+    "subsystem_optical_skin_transparent_pc": {
+      "layer_height": "0.16mm",
+      "wall_loops": 2,
+      "top_solid_layers": 4,
+      "bottom_solid_layers": 2,
+      "infill_density": "100%",
+      "infill_pattern": "aligned_rectilinear",
+      "nozzle_temperature": "285C",
+      "bed_temperature": "110C",
+      "cooling_fan_speed": "0%",
+      "extrusion_multiplier_flow": "1.05",
+      "structural_purpose": "Angle-invariant micro-prism optical capture face. Printed completely solid at extreme high heat with zero cooling fans to melt individual toolpath lines into a perfectly glassy, clear structure, maximizing light transmission and internal total reflection trapping."
+    }
+  }
+}
