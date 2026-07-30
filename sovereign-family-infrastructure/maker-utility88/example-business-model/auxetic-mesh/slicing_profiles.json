@@ -1,0 +1,25 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
+    "material_profiles": {
+      "flexible_high_rebound_tpu": {
+        "layer_height": "0.20mm",
+        "wall_loops": 5,
+        "top_solid_layers": 5,
+        "bottom_solid_layers": 5,
+        "infill_density": "0%",
+        "infill_pattern": "none",
+        "nozzle_temperature": "240C",
+        "bed_temperature": "50C",
+        "max_volumetric_speed": "3.2mm3/s",
+        "extrusion_multiplier_flow": "1.03",
+        "cooling_fan_speed": "80%",
+        "retraction_length": "1.2mm",
+        "retraction_speed": "25mm/s",
+        "travel_speed": "250mm/s",
+        "structural_purpose": "High-elasticity urban mobility infrastructure. Flexible elastomer filaments demand precise, slower print speeds and low volumetric feed rates to prevent flexible filament bunching inside the direct-drive extruder gears. The solid 5-wall shell perimeter and 3% intentional flow over-extrusion fuse the negative Poisson's ratio internal structural nodes into a cohesive metamaterial framework, delivering maximum impact absorption and tire bead resistance without tearing."
+      }
+    }
+  }
+}
