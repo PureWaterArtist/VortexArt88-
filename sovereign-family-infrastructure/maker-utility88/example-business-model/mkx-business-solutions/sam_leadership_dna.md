@@ -21,5 +21,5 @@ Analyzing this trajectory maps out a clear framework of the businessman himself,
 This exact corporate DNA is why our **Phase 1 Operational Alignment Playbook** (`commercial_alignment_playbook.md`) is so compelling to him. We do not pitch him text-heavy theories; we target his highest, most painful corporate cost centers with clear, machine-precise metrics:
 
 1.  **The Slicing-Locked Display Trays (`/mkx-synergy/`):** Directly slashes retail point-of-sale procurement overhead by **41%**, replacing brittle acrylic blocks with 100% recyclable cored ASA and quick-swap PMMA branding badging systems.
-2.  **The Seep-Insulated Vape Enclosures (`/mkx-vape-core/`):** Completely eliminates his **$41,550.00 monthly automated line scrap oil losses** via an airtight, 2.4mm flow-insulated, glue-free split retention snap gasket layout [1.1, 1.2].
+2.  **The Seep-Insulated Vape Enclosures (`/mkx-vape-core/`):** Potentially eliminates his **$41,550.00 monthly automated line scrap oil losses** via an airtight, 2.4mm flow-insulated, glue-free split retention snap gasket layout.
 3.  **The Polypropylene Facility Components (`/mkx-facility-core/`):** Permanently removes his processing facility's single biggest vulnerability by providing **3-hour on-demand parts manufacturing** at a massive **98.8% gross operating margin** to bypass single-source vendor shutdowns completely.
