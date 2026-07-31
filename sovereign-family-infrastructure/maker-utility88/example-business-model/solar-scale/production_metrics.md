@@ -1,5 +1,5 @@
 # 📊 Solar-Scale Engine — Production Throughput & Farm Operations
-**System Version:** 1.0.0-Grid Freedom Matrix  
+**System Version:** 1.1.0-Grid Freedom Matrix  
 **Operational Cadence:** Continuous Additive Core Allocation Metrics  
 
 ---
