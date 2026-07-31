@@ -1,26 +1,13 @@
-# 🔧 Reclaimable Vape Enclosure — Operational SOP & METRC Compliance
-**System Version:** 2.0.0-Audited Core  
-**Operational Target:** High-Velocity Cleanroom Reclamation Framework  
+# 🔧 Reclaimable Vape Enclosure — Operational SOP & Quality Control
+**System Version:** 2.3.0-Audited Core  
+**Operational Target:** High-Velocity Biomimetic Validation Framework  
 
 ---
 
-## 🛠️ SECTION 1: THE 60-SECOND RECLAIM STANDARD OPERATING PROCEDURE
+## 📊 SECTION 2: EXPERT CHEMICAL AND POROSITY SEEP TESTS
 
-If a pre-market hardware prototype, localized limited-edition device, or laboratory testing model fails an automated circuit test or logs an aesthetic enclosure defect, technicians must execute this reclamation sequence:
+Every production micro-batch must clear this aggressive chemical test to confirm the Z-axis layer welds are completely solid before units leave the foundry:
 
-1.  **METRC Log Initialization:** Prior to physical part separation, scan the unit's barcode. Log the device under the facility's active **METRC Rework, Reclamation, and R&D Testing** inventory manifest. All operations must occur directly within view of active facility surveillance tracking cameras.
-2.  **Insert the Extraction Pin:** Slide a standard 4mm mechanical extraction pin into the **Quick-Release Component Extraction Window** (Layer 5 cutout node inside `vape_shell.scad`).
-3.  **Depress the Retention Collar:** Apply steady downward vertical pressure. This compresses the internal flexible TPU **Snap_Lock_Retention_Ring**, disengaging the mechanical interference lock holding the inner core bay.
-4.  **Component Separation:** Slide the completely undamaged, pre-filled \$12.00 oil reservoir and intact lithium micro-cell clean out of the top of the chassis. 
-5.  **Assembly Line Recirculation:** Route the pristine oil reservoir and battery module back to the front of the R&D verification track for immediate nesting into a fresh outer shell. **Component material waste factor matches 0%.**
-6.  **Foundry Ingestion:** Route the scratched or rejected plastic outer shell straight to your **Polystruder GR PRO Motorized Shredder**. Melt and re-extrude the ASA resin into high-grade filament spools for under 5 cents in electricity, completely erasing hardware scrap liabilities.
-
----
-
-## 📊 SECTION 2: INDUSTRIAL FLUID AND THERMAL SHOCK QA VALIDATION
-
-Every production micro-batch must clear this automated environmental stress verification before being stamped for limited distribution:
-
-### The High-Pressure Thermal Leak Test
-*   **SOP:** Load the completed vape enclosure module with an active diagnostic heater core. Submerge the entire assembly inside a pressurized water chamber calibrated to **0.5 Bar (approx. 5 meters depth equivalent)** for 15 consecutive minutes while cycling internal hardware temperatures up to **55°C (131°F)**.
-*   **Failure Metrics:** The interior battery chamber must remain 100% dry, and the mechanical split snap tabs must maintain an absolute airtight interference seal. Any tracking of moisture bubbles, layer-line splitting, or structural material warping constitutes a complete batch **FAILURE**, and the entire run is sent straight to the foundry shredder to be completely reprocessed.
+### The High-Pressure Terpene Surfactant Bake Test
+*   **SOP:** Inject 1.5mL of pure, un-cut high-potency cannabis terpene solution directly inside the upper cartridge chamber. Seal the extraction window using a secondary mechanical plug layer, and place the filled module inside a laboratory oven calibrated to a continuous **60°C (140°F)** environment for 72 consecutive hours.
+*   **Failure Metrics:** The elevated temperature thins the terpene oils, causing them to hunt for any micro-gaps along the Z-axis layer welds [1.1]. Remove the unit from the oven and wipe the exterior matte black ASA shell with a dry piece of lens paper. The paper must remain **100% dry and free of greasy tracking**. Any signs of oil seeping, layer lines sweating, or polymer swelling constitutes a complete batch **FAILURE**, sending the entire run straight back to the shredder matrix to be re-processed.
