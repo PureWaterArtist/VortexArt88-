@@ -1,0 +1,23 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "facility_nozzle_fluoropolymer_pvdf": {
+        "layer_height": "0.12mm",
+        "wall_loops": 5,
+        "top_solid_layers": 5,
+        "bottom_solid_layers": 5,
+        "infill_density": "100%",
+        "infill_pattern": "concentric",
+        "nozzle_temperature": "260C",
+        "bed_temperature": "90C",
+        "max_volumetric_speed": "4.5mm3/s",
+        "extrusion_multiplier_flow": "1.04",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "High-pressure, solvent-resistant industrial fluid sorting nozzle. Sliced at a dense 0.12mm boundary layer with 100% solid concentric fills. This completely fuses the fluoropolymer strands, creating an airtight, non-porous structure that is impervious to ethanol, CO2, and acidic terpene exposure."
+      }
+    }
+  }
+}
