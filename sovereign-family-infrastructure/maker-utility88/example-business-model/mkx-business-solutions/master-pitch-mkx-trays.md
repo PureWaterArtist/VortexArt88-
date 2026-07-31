@@ -24,8 +24,8 @@ The visual branding on a retail dispensary counter is under constant pressure. T
 Instead of brittle, throwaway acrylic blocks, I engineered a modular, hollow-shell 3x4 cartridge inventory and display tray optimized through vertical webbed trusses printed out of rugged, chemical-resistant recycled ASA polymer. 
 
 *   **Tessellating Magnetic Coupling:** The side walls feature built-in, press-fit rare-earth Neodymium magnets. Budtenders can slide and snap 10, 20, or 50 of these trays together instantly on a showroom counter. They snap together flawlessly to form a single, massive, perfectly uniform inventory grid that aligns thousands of carts effortlessly, preventing product tipping and speeding up fast-paced shift inventory counts.
-*   **The 95% Lifetime Re-Branding Shield:** When you launch a new product line or change colorways, we do not discard the trays. The front of each chassis features a built-in keyway track. We simply print quick-swap, multi-color **PETG Graphic Badges** containing your new embossed logos for pennies, sliding them into place to completely update your showroom aesthetic across hundreds of provisioning centers instantly.
-*   **Vascular Concentrate Drainage Channels:** The base of each cartridge slot features integrated micro-ventilation holes. If a display unit suffers an accidental sticky concentrate leak, the fluid drains cleanly out of the bottom of the tray instead of pooling inside the pocket, allowing for rapid cleaning without pulling the display off the floor.
+*   **The 95% Lifetime Re-Branding Shield:** When you launch a new product line or change colorways, we do not discard the trays. The front of each chassis features a built-in keyway track. We simply print quick-swap, multi-color **PMMA Acrylic Graphic Badges** containing your new embossed logos for pennies, sliding them into place to completely update your showroom aesthetic across hundreds of provisioning centers instantly.
+*   **Vascular Concentrate Drainage Channels:** The base of each cartridge slot features integrated micro-ventilation holes. If a display unit suffers an accidental sticky concentrate leak, the fluid drains cleanly out of the bottom of the tray instead of pooling inside the pocket, allowing for rapid cleaning without pulling the display off the sales floor.
 
 ---
 
@@ -39,25 +39,25 @@ The cannabis retail environment faces continuous scrutiny for plastic waste. By 
 ```
 
 ### The Closed-Loop Sustainability Moat:
-*   **100% Recyclable Framework:** When a tray layout is eventually retired after years of intense retail abuse, dispensaries pack them into our corrugated boxes and ship them back to our Westland shop for a flat rate of \$3.95.
-*   **Zero-Waste Foundry Ingestion:** We drop the entire plastic body straight into our **Polystruder GR PRO Motorized Shredder**, re-compound the resin, and re-extrude it back into clean production-grade filament for about **15 cents** in local electrical utility costs. Your raw material replacement cost drops to a flat **\$4.10 USD**, allowing us to remanufacture your retail grid infinitely.
+*   **100% Recyclable Framework:** When a tray layout is eventually retired after years of retail abuse, dispensaries pack them into our boxes and ship them back to our Westland shop for a flat rate of \$3.95.
+*   **Zero-Waste Foundry Ingestion:** We drop the entire plastic body straight into our **Polystruder GR PRO Motorized Shredder**, re-compound the resin, and re-extrude it back into clean production-grade filament for about **15 cents** in local electrical utility overhead. Your raw material replacement cost drops to a flat **\$4.10 USD**, allowing us to remanufacture your retail grid infinitely.
 
 ---
 
 ## 🖨️ 3. REALISTIC PRODUCTION METRICS & FARM CAPACITY
 
-Let's look at the cold mechanical limits of our starting **3-printer Bambu Lab P1S print farm cell** so you know exactly what our manufacturing turnaround looks like. To optimize print speeds, the internal chassis design utilizes shelled wall trusses to minimize mass while matching structural impact limits:
+Let's look at the cold mechanical limits of our starting **3-printer Bambu Lab P1S print farm cell** so you know exactly what our manufacturing turnaround looks like. To optimize print speeds and eliminate shrinkage errors, the internal chassis design utilizes shelled wall trusses to minimize mass while matching structural impact limits:
 
-*   **The Slicing & Speed Metrics:** By coring out internal dead spaces, a single module profile has its active structural mass reduced to an ultra-light **85 grams**. Running at a standard material volumetric flow cap of \(12\text{ mm}^3/\text{s}\), a single module prints cleanly in a **1.9-Hour execution window**.
+*   **The Slicing & Speed Metrics:** By coring out internal dead spaces, a single module profile has its active structural mass reduced to an ultra-light **85 grams**. Running at a standard material volumetric flow cap of 12 mm³/s with cooling fans hard-locked at 0% to prevent thermal warping, a single module prints cleanly in a **1.9-Hour execution window**. The solid 50-gram PMMA solvent-proof badge prints in **12 minutes**, locking total modular print runtime to **2.1 hours**.
 *   **The 3-Printer Output Ceiling:** Slicing our farm at a highly realistic, sustainable **68% active operating duty cycle** (allowing for material swaps, bed clearing, and toolhead checks), our 3-printer foundry outputs an exact, verified **25 completed display modules per 24-hour cycle**. 
 *   **The Phase 1 Monthly Volume:** This scales to a clear production baseline of **750 completed retail modules per month** across our starting farm configuration.
 
 ```text
        [ INDIVIDUAL MATRIX TRAY CALCULUS ]
        ├── Material Production Cost : \$ 1.50 USD (Shelled Recycled ASA Layout)
-       ├── Graphic Branding Badge   : \$ 1.20 USD (High-Clarity Metallic PETG)
+       ├── Graphic Branding Badge   : \$ 1.20 USD (Solvent-Proof PMMA Acrylic)
        ├── Coupling Magnet Pair Sets: \$ 0.40 USD (4x Neodymium Discs)
-       ├── TOTAL PRODUCTION COST    : \$ 2.10 USD
+       ├── TOTAL PRODUCTION COST    : \$ 3.10 USD
        └── TARGET B2B TICKET PRICE  : \$35.00 USD (Per Retail Module)
 ```
 
@@ -67,7 +67,7 @@ Releasing this product triggers **Zero METRC regulatory risk**, uses **Zero comp
 Fulfilling an initial baseline pilot order of 500 custom trays to outfit your premier dispensary networks across Detroit and Ann Arbor yields immediate, predictable numbers:
 
 $$\text{Gross Revenue Yield} = 500 \text{ units} \times \$35.00 = \mathbf{\$17,500.00\text{ USD}}$$
-$$\text{Net Foundry Operating Profit} = \$17,500.00 - (500 \times \$2.10 \text{ Production BOM}) = \mathbf{\$16,450.00\text{ USD}}$$
+$$\text{Net Foundry Operating Profit} = \$17,500.00 - (500 \times \$3.10 \text{ Production BOM}) = \mathbf{\$15,950.00\text{ USD}}$$
 
 The exact minute your retail contract is completed, those same three machines can be instantly repurposed via digital commands—with zero downtime or factory re-tooling fees—to expand into your other commercial channels:
 1.  **The Reclaimable Vape Enclosure Core (`/mkx-vape-core/`):** Glue-free, snap-fit disposable vape housings that eliminate high-volume product development scrap oil losses, generating 2,000 units a month at a 58.4% operating margin.
@@ -81,4 +81,3 @@ The exact minute your retail contract is completed, those same three machines ca
 
 Under our **8% Revenue-Share Royalty Note** structure, you take a direct cut of our balanced multi-product monthly portfolio revenue (\$5,570.00 baseline across our complete catalog loops), returning **\$445.60 USD every month** directly back into your private equity account until your principal is cleared with an agreed 1.5x multiplier. After that, your principal is recovered, you retain a permanent 0% equity drain on my parent company, and MKX stays locked in as our primary, high-volume B2B contract client as we scale our capacity to 100+ machines to tackle your statewide commercial runs.
 
-You've seen how I work. You know I build things to last, and I don't leave details to chance. The blueprints are verified, the repository is private, the OSHWA certification is locked, and the math is completely watertight. Let’s sign the MNDA, open the repository, and execute."
