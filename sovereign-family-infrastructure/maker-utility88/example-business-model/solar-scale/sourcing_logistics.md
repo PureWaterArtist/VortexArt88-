@@ -1,8 +1,8 @@
 # 📦 Master Component Sourcing & Procurement Registry
-**System Version:** 1.0.0-Grid Freedom Matrix  
+**System Version:** 1.1.0-Grid Freedom Matrix (PMMA / Acrylic Optimized)  
 **Supply Chain Strategy:** Low-Cost Off-The-Shelf Subassembly Component Ingestion  
 
-To achieve the locked-in production unit economics of **$26.60 USD per scale** (`bank_pitch.md`), raw material filaments, monocrystalline silicon cores, and thermoelectric junction blocks must be sourced from these certified commercial distribution channels in bulk lot quantities.
+To achieve the locked-in production unit economics of **$26.60 USD per scale**, raw material filaments, monocrystalline silicon cores, and thermoelectric junction blocks must be sourced from these certified commercial distribution channels in bulk lot quantities.
 
 ---
 
@@ -10,7 +10,7 @@ To achieve the locked-in production unit economics of **$26.60 USD per scale** (
 
 | Layer Reference | Specific Plastic Compound Type | Material Specification Metric | Verified Commercial Sourcing Channels | Target Bulk Cost (USD) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Layer 1 & 2** | Optical-Grade Transparent Polycarbonate (PC) | 1.75mm Diameter, High UV-Clarity, Zero-Warp formulation | Polymaker PolyLite PC / Prusament Polycarbonate | \$38.00 / kg |
+| **Layer 1, 2, & 5** | Sustainable Optical-Grade PMMA (Acrylic) | 1.75mm Diameter, High UV-Clarity, BPA-Free formulation | Specialized Eco-Polymers / Prusament Acrylic / Custom Compounders | \$34.00 / kg |
 | **Layer 3** | High-Rebound Transparent Polyurethane (TPU) | 1.75mm, Shore Hardness 95A, Extreme Tear Resistance | NinjaTek NinjaFlex / PolyFlex TPU95 | \$32.00 / kg |
 | **Layer 4** | Piezoelectric Polyvinylidene Fluoride (PVDF) | 1.75mm Homopolymer, High Ferroelectric Crystallinity | Specialized Engineering Polymers (Solvay Solef / Arkema Kynar distribution) | \$85.00 / kg |
 | **Layer 9** | Weather-Proof Matte Acrylonitrile Styrene Acrylate (ASA) | 1.75mm, UV-Stabilized, High Heat Distortion Ceiling | Polymaker PolyLite ASA / Filament PM ASA | \$26.00 / kg |
@@ -30,10 +30,10 @@ To achieve the locked-in production unit economics of **$26.60 USD per scale** (
 *   **Bulk Target Price (Lots of 100+):** **$2.10 USD / unit**
 
 ### C. Active Power Management & Network Grid IC Components
-*   **Microcontroller Units:** RP2040 Zero or ATtiny85 Micro-Surface Mount Boards (Form factor length boundary \(\le 25\text{mm}\)).
+*   **Microcontroller Units:** RP2040 Zero or ATtiny85 Micro-Surface Mount Boards (Form factor length boundary <= 25mm).
     *   *Source:* DigiKey / Mouser Electronics / Seeed Studio Depot.
     *   *Bulk Target Price:* **$1.65 USD / unit**
-*   **Bypass Ideals Diodes & FET Isolation Network Blocks:** TP4056 charge controllers paired with ultra-low forward-voltage drop Schottky bypass diodes and logic-level N-Channel MOSFET switches (e.g., IRLZ44N).
+*   **Bypass Ideal Diodes & FET Isolation Network Blocks:** TP4056 charge controllers paired with ultra-low forward-voltage drop Schottky bypass diodes and logic-level N-Channel MOSFET switches (e.g., IRLZ44N).
     *   *Source:* Mouser Electronics Corporation / Arrow Electronics.
     *   *Bulk Target Price:* **$1.45 USD / unit combined board network**
 
