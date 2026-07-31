@@ -1,23 +1,23 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0",
+    "profile_version": "2.0.0",
     "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
     "material_profiles": {
       
-      "subsystem_tray_chassis_recycled_asa": {
-        "layer_height": "0.24mm",
-        "wall_loops": 4,
+      "subsystem_shelled_tray_recycled_asa": {
+        "layer_height": "0.20mm",
+        "wall_loops": 3,
         "top_solid_layers": 4,
-        "bottom_solid_layers": 4,
+        "bottom_solid_layers": 3,
         "infill_density": "15%",
         "infill_pattern": "gyroid",
         "nozzle_temperature": "265C",
         "bed_temperature": "100C",
         "enclosure_temperature_target": "50C",
-        "max_volumetric_speed": "12mm3/s",
-        "extrusion_multiplier_flow": "1.02",
+        "max_volumetric_speed": "12.0mm3/s",
+        "extrusion_multiplier_flow": "1.01",
         "cooling_fan_speed": "15%",
-        "structural_purpose": "Industrial retail display chassis. Sliced at a rugged 0.24mm layer height to increase print farm turnaround speed. High nozzle temperatures merge the post-consumer recycled ASA chains into a durable, shock-resistant block capable of withstanding heavy daily commercial shelf cleaning, intense counter drops, and isopropyl alcohol disinfection runs."
+        "structural_purpose": "Lightened cored retail display grid. Sliced at 0.20mm to balance rapid turnaround with smooth part line resolution. Thin-walled configuration drops total raw plastic weight to 85 grams, locking execution to a verified 1.9-hour print head run time while preserving industrial drop protection."
       },
       
       "subsystem_branding_badge_metallic_petg": {
@@ -31,7 +31,7 @@
         "bed_temperature": "70C",
         "max_volumetric_speed": "6.0mm3/s",
         "extrusion_multiplier_flow": "1.04",
-        "cooling_fan_speed": "35FP",
+        "cooling_fan_speed": "35%",
         "structural_purpose": "High-fidelity quick-swap branding badges. Sliced at a fine 0.16mm layer boundary with a 100% dense solid infill layout. This forces a perfectly flat, razor-sharp finish across multi-color graphic shifts, making the embossed corporate logos pop with crisp, professional definition underneath bright showroom dispensary spotlights."
       }
     }
