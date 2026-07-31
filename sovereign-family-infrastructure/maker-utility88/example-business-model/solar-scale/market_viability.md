@@ -1,16 +1,16 @@
 # 📈 Solar-Scale Engine — Market Viability & Commercial Traction Strategy
-**System Version:** 1.0.0-Grid Freedom Matrix  
+**System Version:** 1.1.0-Grid Freedom Matrix  
 **Target Demographics:** Modular Residential B2C, Commercial Last-Mile B2B Logistics Fleets  
 
 ---
 
 ## 🏛️ 1. DISRUPTING TRADITIONAL PHOTOVOLTAIC FRICTION POINTS
 
-Traditional consumer and commercial solar setups face steep, systemic customer friction points: thousands of dollars in upfront structural installation labor, rigid glass panels that crack from hail, and complete energy generation drop-off during the 12 hours of night. By directly targeting these vulnerabilities through multi-layered metamaterial physics, this product unlocks an unassailable market edge.
+Traditional consumer and commercial solar setups face steep, systemic customer friction points: thousands of dollars in upfront structural installation labor, rigid glass panels that crack from hail, and complete energy generation drop-off during the 12 hours of night. By directly targeting these vulnerabilities through multi-layered metamaterial physics, this product unlocks an unassailable market edge without relying on glass sheets.
 
 ### A. The B2C Retail Disruption: Modular Scaling & Total Portability
 *   **The Traditional Barrier:** Homeowners rarely invest in solar panels if they plan to move within a 5-year window because standard solar installations are permanently anchored to the roof infrastructure, meaning they cannot take their investment with them.
-*   **The Solar-Scale Solution:** Because each individual 150mm hexagon acts as a fully self-contained smart power node, consumers can scale their array dynamically based on their budget. A family can start by purchasing a small 10-tile pack for **$990.00 USD** to mount directly to an outdoor patio deck, garage roof, or camping vehicle. 
+*   **The Solar-Scale Solution:** Because each individual 150mm hexagon acts as a fully self-contained smart power node, consumers can scale their array dynamically based on their budget. A family can start by purchasing a small 10-pack of tiles for **$990.00 USD** to mount directly to an outdoor patio deck, garage roof, or camping vehicle. 
 *   **The Portability Edge:** If they move apartments or sell their house, the toolless hexagonal snap-fit joints allow them to completely disassemble the array in 15 minutes, pack it into a shipping box, and set it up at their next property. This expands your customer market from wealthy, permanent homeowners to **renters, urban apartments, and mobile families**.
 
 ### B. The B2B Commercial Edge: Zero-Downtime Fleet Logistics
@@ -24,4 +24,4 @@ Traditional consumer and commercial solar setups face steep, systemic customer f
 
 *   **The String Circuit Vulnerability:** Standard solar arrays suffer from string-circuit dependencies; if a single cell is covered by a falling leaf, gets dirty, or suffers a physical crack from a rock, the voltage across the entire string drops significantly.
 *   **The Solar-Scale Solution:** Our automated ideal-diode bypass firmware (`firmware.ino`) creates an incredibly robust, self-healing grid network. If an outdoor scale is completely smashed or heavily shaded, its internal logic grounds its loop out within milliseconds, routing the combined current cleanly around the broken unit. The remaining 99% of the array continues to pipe power down to the building at maximum capacity.
-*   **The 24-Hour Reality:** By layering a Bismuth Telluride Seebeck harvester and a tympanal PVDF acoustic layer directly inside the shell, you solve solar energy's biggest aesthetic flaw: downtime. This product generates clean power from direct sunlight by day, thermal deltas by night, and kinetic wind/rain vibrations continuously. You are selling an **all-weather, 24-hour infrastructure asset**, not a basic solar panel.
+*   **The 24-Hour Reality:** By layering a Bismuth Telluride Seebeck harvester and a tympanal PVDF acoustic layer directly inside the shell, you solve solar energy's biggest aesthetic flaw: downtime. This product generates clean power from direct sunlight by day, thermal deltas by night, and kinetic wind/rain vibrations continuously. You are selling an **all-weather, 24-hour infrastructure asset**, not a basic solar panel wrapped in a sustainable, BPA-free PMMA Acrylic shell.
