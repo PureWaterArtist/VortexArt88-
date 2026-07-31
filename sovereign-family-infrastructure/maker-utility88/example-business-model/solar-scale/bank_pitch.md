@@ -1,4 +1,4 @@
-# 📑 INSTUTIONAL FINANCING PITCH & DEBT JUSTIFICATION
+# 📑 INSTITUTIONAL FINANCING PITCH & DEBT JUSTIFICATION
 
 **Applicant Entity:** Matrix Biomimetic Utilities, LLC  
 **Zoning Status:** Westland, MI Registered Single-Member LLC (Residential Home Occupation Compliant)  
@@ -24,9 +24,9 @@ Lenders do not fund ideas; they fund asset acquisitions that guarantee predictab
 Our micro-foundry completely bypasses traditional manufacturing overheads (such as multi-thousand dollar injection molding tooling dies and middleman retail distribution loops). This protection delivers massive margins that are immune to global supply chain shocks.
 
 ### Pure Material Margin Engineering (Solar-Scale Component Example)
-*   **Virgin Production Cost:** A single modular 150mm scale consumes 500 grams of UV-stabilized ASA plastic. Sourcing virgin resin at bulk commercial rates ($28.00/kg) yields an itemized base material cost of **$14.00 USD**. Combined with sub-assembly electronics (Seebeck arrays, silicon cell blocks, and ideal diode logic boards costing **$12.60 USD**), the total virgin production cost equals exactly **$26.60 USD**. 
+*   **Virgin Production Cost:** A single modular 150mm scale consumes 500 grams of material. Sourcing your layout (weather-proof ASA, clear flexible TPU, piezoelectric PVDF, and optical-grade sustainable PMMA Acrylic) yields an items-matched bulk filament deployment of **$14.00 USD**. Combined with sub-assembly electronics (Seebeck arrays, silicon cell blocks, and ideal diode logic boards costing **$12.60 USD**), the total virgin production cost equals exactly **$26.60 USD**. 
 *   **The Monetization:** Retailing at a fixed consumer price point of **$99.00 USD**, the tile yields an outstanding **73.1% Gross Profit Margin**.
-*   **The Closed-Loop Reclaim Advantage:** When a customer utilizes the Lifetime Circular Warranty to exchange a weather-worn or outgrown scale, Matrix Biomimetic Utilities funds a flat-rate **$3.95 USD USPS prepaid return label**. Grinding and re-extruding the unit into clean production filament costs **$0.15 USD** in local electrical utility overhead. This drops our raw material replacement cost down to a flat **$4.10 USD**, driving profit margins on recycled units up to **95.8%**.
+*   **The Closed-Loop Reclaim Advantage:** When a customer utilizes the Lifetime Circular Warranty to exchange a weather-worn or outgrown scale, Matrix Biomimetic Utilities funds a flat-rate **$3.95 USD USPS prepaid return label**. Grinding and re-extruding the sustainable PMMA Acrylic and ASA structural core costs **$0.15 USD** in local electrical utility overhead. This drops our raw material replacement cost down to a flat **$4.10 USD**, driving profit margins on recycled units up to **95.8%**.
 
 ---
 
