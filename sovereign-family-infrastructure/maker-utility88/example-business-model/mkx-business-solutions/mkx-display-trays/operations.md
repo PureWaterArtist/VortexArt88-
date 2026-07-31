@@ -1,24 +1,21 @@
 # 🔧 Shelled MKX Synergy Display Tray — Production & QA Framework
-**System Version:** 2.1.0-Audited Core  
-**Operational Target:** High-Velocity Supportless Component Output  
+**System Version:** 2.2.0-Production Core  
+**Operational Target:** Zero-Defect Showroom Matrix Execution  
 
 ---
 
 ## 🛠️ SECTION 1: THE RE-ENGINEERED ASSEMBLY PROTOCOL
 
-Because the internal cavity beneath the tray floor is entirely hollowed out to meet the **85-gram production limit**, assembly actions must utilize targeted, localized insertion pressure to prevent chassis flexing:
+Because the chassis incorporates **anti-flyout retention lips** and **2-piece logo badge tracks**, assembly must follow this sequence exactly:
 
-1.  **Chassis Extraction:** Peel the cooled 85g ASA chassis plate off the spring-steel build sheet once bed temperatures drop below 35°C to avoid geometric bending.
-2.  **Magnetic Alignment Check:** Orient your Neodymium magnets. Ensure the left mating face presents absolute **North polarity outward**, and the reciprocating right face presents **South polarity outward**.
-3.  **Localized Press-Fit:** Support the cored side tabs from underneath using an assembly block. Use your manual arbor press to drive the 6mm x 2mm discs flush into their retention slots. The widened 3.25mm parametric pocket clearance completely prevents chassis splits.
-4.  **Badge Ingestion:** Slide the 100% dense PMMA Acrylic brand badge down into the front keyway track until it clicks into its base lock position.
+1.  **Chassis Extraction:** Remove the cooled 85g ASA chassis base off the spring-steel sheet. Inspect the bottom surface to verify that the outgas grooves cleared all expanding styrene pockets flatly.
+2.  **Bottom-Up Magnetic Packing:** Invert the tray housing. Slide your 6mm x 2mm Neodymium magnets up from the hidden lower channel into the edge tabs. Press them upward until they snap tight against the **0.4mm physical retention lip overhang**. Apply an industrial resin sealant to close the bottom entry port permanently. The magnets are now mechanically trapped and cannot rip loose under lateral snap loads.
+3.  **2-Piece Logo Badging:** Take your high-fidelity, solvent-proof gold PMMA embossed letters and press them directly into the recessed alignment slots on your black PMMA faceplate. Slide the completed, flush badge assembly straight down into the front keyway track until it locks.
 
 ---
 
-## 📊 SECTION 2: CHEMICAL & DESTRUCTION TESTING METHOD
+## 📊 SECTION 2: EXPERT FIELD DIAGNOSTIC & STICKY TEXTURE TESTING
 
-Every production run must clear this dual chemical-impact check before being cleared for retail distribution:
-
-### The 99% Isopropyl Alcohol Surface Swab Check
-*   **SOP:** Saturate a laboratory cleaning pad in 99% high-purity Isopropyl Alcohol (IPA). Apply continuous downward force and vigorously swab both the matte black ASA chassis body and the embossed PMMA Acrylic branding badges for 60 consecutive seconds.
-*   **Failure Metrics:** The entire assembly must maintain complete colorfastness, structural rigidity, and pristine surface gloss. Any signs of polymer bleeding, text cloudiness, chemical softening, or micro-crack stress lines on the branding badge constitutes an immediate **FAILURE**, sending the unit straight back to the shredder matrix.
+### The High-Vacuum Concentrate Extraction Test
+*   **SOP:** Saturate the inside walls of all 12 cartridge slots with 0.5mL of organic cannabis concentrate oil residue to simulate a worst-case showroom leakage environment. Insert 12 dummy glass cartridge weights. Let the fully loaded display unit sit under an intense 55°C (131°F) solar lamp for 4 hours to let the oil bake and turn sticky.
+*   **Evaluation Parameters:** Grab a single cartridge barrel using two fingers and draw it straight upward out of the slot. The internal **biomimetic scalloped fluting ridges** must restrict contact area boundaries, breaking the vacuum seal instantly. The cartridge must slide out smoothly with **zero dragging, sticking, or vertical tray lifting friction**. Any binding or slot locking triggers an automatic batch **FAILURE**.
