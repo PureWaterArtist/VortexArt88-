@@ -1,22 +1,36 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0",
+    "profile_version": "2.0.0",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
-      "packaging_shield_recycled_pp": {
-        "layer_height": "0.16mm",
+      "packaging_shield_recycled_matte_asa": {
+        "layer_height": "0.20mm",
         "wall_loops": 3,
         "top_solid_layers": 4,
         "bottom_solid_layers": 4,
         "infill_density": "15%",
         "infill_pattern": "gyroid",
-        "nozzle_temperature": "238C",
-        "bed_temperature": "85C",
-        "max_volumetric_speed": "7.0mm3/s",
-        "extrusion_multiplier_flow": "1.04",
+        "nozzle_temperature": "265C",
+        "bed_temperature": "100C",
+        "enclosure_temperature_target": "50C",
+        "max_volumetric_speed": "12.0mm3/s",
+        "extrusion_multiplier_flow": "1.01",
         "cooling_fan_speed": "0%",
-        "structural_purpose": "Indestructible closed-loop transit packaging shield. Sliced using Polypropylene (PP) with 0% cooling fans to eliminate internal layer shrinkage stress vectors. High-density layer fusion creates a durable, non-porous skin that survives hundreds of hot industrial wash cycles and fulfillment line distribution runs without degrading or structural deformation."
+        "structural_purpose": "Indestructible outer transit exoskeleton. Sliced at 0.20mm with 0% cooling fan curves to eliminate internal contraction stress across the 100mm height layout, ensuring the interlocking side ribs remain perfectly vertical and parallel without warping."
+      },
+      
+      "retention_core_high_rebound_tpu": {
+        "layer_height": "0.20mm",
+        "wall_loops": 2,
+        "top_solid_layers": 0,
+        "bottom_solid_layers": 0,
+        "infill_density": "0%",
+        "infill_pattern": "none",
+        "nozzle_temperature": "235C",
+        "bed_temperature": "50C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "structural_purpose": "Internal structural spring core insert. Printed out of high-rebound flexible TPU with thin perimeters to maximize mechanical elasticity, allowing the internal fingers to grip varied product cartridge diameters without cracking."
       }
     }
   }
