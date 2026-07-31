@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
     
     "subsystem_base_chassis_weatherproof_asa": {
@@ -14,7 +14,7 @@
       "bed_temperature": "100C",
       "enclosure_temperature_target": "50C",
       "max_volumetric_speed": "12mm3/s",
-      "structural_purpose": "Hexagonal structural base carrier enclosure. Employs thick perimeters to housing the concentric connection pathways and hollow internal elephant-ear cooling flutes securely."
+      "structural_purpose": "Hexagonal structural base carrier enclosure. Employs thick perimeters to house the concentric connection pathways and hollow internal elephant-ear cooling flutes securely."
     },
     
     "subsystem_armor_layer_clear_tpu": {
@@ -31,18 +31,18 @@
       "structural_purpose": "Sub-surface auxetic impact protection shield. Relies completely on parametric negative Poisson re-entrant geometric webs. Printed slowly with zero infill to allow the internal cell hinges to compress and flex naturally under impact stress loads."
     },
 
-    "subsystem_optical_skin_transparent_pc": {
-      "layer_height": "0.16mm",
+    "subsystem_optical_skin_transparent_pmma": {
+      "layer_height": "0.14mm",
       "wall_loops": 2,
       "top_solid_layers": 4,
       "bottom_solid_layers": 2,
       "infill_density": "100%",
       "infill_pattern": "aligned_rectilinear",
-      "nozzle_temperature": "285C",
-      "bed_temperature": "110C",
+      "nozzle_temperature": "245C",
+      "bed_temperature": "80C",
       "cooling_fan_speed": "0%",
-      "extrusion_multiplier_flow": "1.05",
-      "structural_purpose": "Angle-invariant micro-prism optical capture face. Printed completely solid at extreme high heat with zero cooling fans to melt individual toolpath lines into a perfectly glassy, clear structure, maximizing light transmission and internal total reflection trapping."
+      "extrusion_multiplier_flow": "1.04",
+      "structural_purpose": "Angle-invariant micro-prism optical capture face optimized for PMMA (Acrylic). Printed solid with fine layer spacing at steady heat with cooling fans disabled to allow the toolpath tracks to melt together into a perfectly glassy, clear structure. This maximizes light transmission, enables total internal reflection trapping, and preserves ideal thermal depolymerization recycling purity."
     }
   }
 }
