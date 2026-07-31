@@ -9,6 +9,8 @@ Standard commercial solar panels are heavy, structurally rigid, and incredibly f
 
 **The Biomimetic Solar-Scale Engine shatters this dependency loop.** We replace massive, centralized panels with independent, fully tessellating, overlapping solar tiles modeled directly after **the thermodynamic and protective mechanics of reptilian scutes and overlapping pinecone bracts**. By integrating a solid-state Seebeck harvester directly into the base alongside an acoustic tympanal piezoelectric nanogenerator matrix, this scale-invariant engine produces clean electricity 24 hours a day—utilizing solar rays by day, thermal deltas by night, and structural weather vibration continuously.
 
+![Solar-Scale Parametric CAD Model](../media/solar-scale-cad.png)
+
 ---
 
 ## 🎯 1. THE PRODUCT PITCH: 24-Hour Continuous Metamaterial Energy
@@ -34,6 +36,8 @@ Traditional solar assets stop producing the moment the sun sets or cloud coverag
 *   **Layer 8: Seebeck Thermoelectric Array:** Bismuth Telluride junctions layered underneath the silicon. By day, it captures the intense heat delta between the sunlit face and the vented base. At night, the temperature flips—the cold night air chills the surface while the building structure or ground below radiates trapped residual day heat, driving electrons across the thermoelectric junction in total darkness.
 *   **Layer 9: Vascular Envelope Chassis:** The structural base enclosure printed out of weather-proof, UV-stabilized ASA plastic. Integrates internal cooling channels patterned after the vascular structures of elephant ears, drawing air beneath the scale via passive convection to shed heat and maintain peak afternoon solar output.
 
+![Solar-Scale Exploded Layer Blueprint](../media/solar-scale-blueprint.png)
+
 ---
 
 ## 📊 2. THE BUSINESS MODEL PITCH: High-Yield Energy Independence Economics
@@ -48,10 +52,14 @@ By shifting consumer power from a bill-paying resource drain to an expandable, a
     $$\text{Recycled Replacement Material Cost} = \$3.95 \text{ (Postage)} + \$0.15 \text{ (Utility)} = \mathbf{\$4.10\text{ USD}}$$
 *   **Premium Retail Positioning:** The Solar-Scale carries a fixed individual retail value of **$99.00 USD**, generating an exceptional **80.0% Gross Profit Margin** on virgin units, which scales to **95.8%** on units built from our reclaimed customer loops.
 
+![Solar-Scale Physical Assembly Prototype](../media/solar-scale-prototype.png)
+
 ---
 
 ## 🛡️ 3. RISK MANAGEMENT & COMPLIANCE GUARDRAILS
 
 *   **Asset Versatility Protection:** 100% of the loan principal remains anchored in versatile physical assets (enclosed CoreXY print cores, carbon filament compounders, motorized grinders). These industrial physical tools hold massive, immediate resale value on secondary engineering markets, completely protecting the lending bank's underlying collateral value.
 *   **Material Integrity and Safety Guardrails:** To ensure flawless performance under extreme outdoor weather changes, our automated reclamation workflow maintains a strict compounding ratio restricting recycled material input to a maximum of **75% regrind mixed with 25% virgin weather-proof pellet feedstock**. This ensures that the polymer strands do not undergo thermal degradation, matching injection-molding impact strengths across generations.
-*   **Absolute Transparency:** Matrix Biomimetic Utilities, LLC operates on clean accounting principles. Direct barter transactions are explicitly recorded at fair-market cash value equivalents through automated software, maintaining absolute tax compliance under IRS guidelines.
+*   **Absolute Open-Source Verification:** Matrix Biomimetic Utilities operates in direct alignment with international open-source hardware integrity standards. This layout is fully certified under the **Open Source Hardware Association (OSHWA)** compliance register, permanently protecting our technical architecture as public 'prior art' while legally requiring any down-line corporate copycats to re-share their code modifications under identical copyleft constraints.
+
+![Micro-Foundry Farm Production Line](../media/micro-foundry-farm.png)
