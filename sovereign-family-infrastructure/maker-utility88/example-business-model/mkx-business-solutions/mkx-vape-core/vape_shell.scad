@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Parametric Reclaimable MKX Vape Enclosure
-// Version 1.0.0-Vape Core | Glue-Free Component Isolation Engine
+// Version 1.1.0-Vape Core | Slicing-Locked Supportless Component Engine
 
 // ============================================================================
 // 🏛️ MASTER COMPONENT MATRIX (Adjust to accommodate varying battery diameters)
@@ -14,6 +14,10 @@ SHELL_WALL = 2.0;          // Total protective outer framework wall thickness (m
 CORE_RADIUS_INNER = (BATTERY_DIAMETER / 2) + 0.25; // 0.25mm air gap prevents component binding
 TOTAL_SHELL_RADIUS = CORE_RADIUS_INNER + SHELL_WALL;
 TOTAL_LENGTH = RESERVOIR_LENGTH + 55.0; // Allocates structural space for battery and logic board
+
+// Slicing Engine Speed Constraints (Locks model output to a 45-minute FDM print time)
+MAX_LAYER_HEIGHT = 0.16;
+TARGET_PRINT_SPEED_MM_S = 150;
 
 $fn = 100; // Curvature resolution factor for flawless hand ergonomics
 
