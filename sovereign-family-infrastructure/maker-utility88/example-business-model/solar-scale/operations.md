@@ -1,5 +1,5 @@
 # 🔧 Solar-Scale Harvesting Engine — Production & QA Framework
-**System Version:** 1.0.0-Grid Freedom Matrix  
+**System Version:** 1.1.0-Grid Freedom Matrix  
 **Operational Scope:** Slicer Parameter Arrays, Hardware Insertion, and Multimeter QA Validation  
 
 ---
@@ -10,7 +10,7 @@
 *   **Action:** Open `solar_scale.scad`. Adjust the horizontal layout footprint via the `TILE_WIDTH` parameter. Standard tessellating roof/deck configurations operate cleanly at a master scale of `150.0mm`.
 
 ### Step 2: Mesh Generation
-*   **Action:** Compile and render the full multi-material mesh grid (**F6**). This manages the scale-invariant snap joints, internal vascular siphons, and the 45-degree angle-invariant surface prism texturing. Export the project as a clean `.3MF` multi-plate bundle.
+*   **Action:** Compile and render the full multi-material mesh grid (**F6**). This manages the scale-invariant snap joints, internal vascular siphons, and the 42.3-degree angle-invariant surface prism texturing optimized for PMMA Acrylic. Export the project as a clean `.3MF` multi-plate bundle.
 
 ### Step 3: OrcaSlicer Multi-Material Plate Layout
 *   **Action:** Import your `.3MF` files into OrcaSlicer or Bambu Studio. Arrange the structural layers flat on the build sheet. This geometry is designed to print completely flat with **zero internal support structures**.
@@ -21,19 +21,19 @@
 ### Step 5: Elastic Armor Layer Slicing
 *   **Action:** Assign the sub-surface auxetic impact protection shield to a clear, high-rebound TPU filament. Set parameters to `3 Wall Loops` and `0% Infill` to allow the negative Poisson re-entrant bow-tie cells to flex naturally under hail impacts.
 
-### Step 6: Optical Skin & Lens Processing
-*   **Action:** Map the micro-prism optical face and nano-textured skin to an optical-grade Polycarbonate (PC) filament. Configure this layer with a fine `0.16mm Layer Height` and `100% Solid Aligned Rectilinear Infill`.
+### Step 6: Optical Acrylic Skin & Lens Processing
+*   **Action:** Map the micro-prism optical face and nano-textured skin to an optical-grade PMMA (Acrylic) filament. Configure this layer with a fine `0.14mm Layer Height` and `100% Solid Aligned Rectilinear Infill`.
 
 ### Step 7: Extreme Thermal Extrusion Profiles
 *   **Base Chassis (ASA):** Nozzle at `265°C`, Heated Bed at `100°C`.
 *   **Armor Layer (TPU):** Nozzle at `235°C`, Heated Bed at `50°C`.
-*   **Optical Skin (PC):** Nozzle at `285°C`, Heated Bed at `110°C`. Keep cooling fans at a strict `0%` during the optical phase to melt toolpath lines into a perfectly clear, glassy light trap.
+*   **Optical Skin (PMMA):** Nozzle at `245°C`, Heated Bed at `80°C`. Keep cooling fans at a strict `0%` during the optical phase to melt toolpath lines into a perfectly clear, glassy light trap without cloudiness.
 
 ### Step 8: Wireless Print-Farm Allocation
 *   **Action:** Compile the toolpaths into layered G-code data lines. Distribute the file across your secure workshop network directly to an open, enclosed **Bambu Lab P1S execution core**.
 
 ### Step 9: Material Vault Moisture Check
-*   **Action:** Verify that your printer's input lines are drawing cleanly from your active, dry material vaults. Optical Polycarbonate and flexible TPU will blister if exposed to humidity, ruining the transparency of your lenses.
+*   **Action:** Verify that your printer's input lines are drawing cleanly from your active, dry material vaults. Optical PMMA and flexible TPU will blister if exposed to humidity, ruining the transparency of your lenses.
 
 ### Step 10: Metamaterial Tile Extraction
 *   **Action:** Once printing resolves, wait for the bed to cool to room temperature. Remove the flexible print sheet, bend the plate slightly, and peel off the completed, highly dense multi-layered energy matrix tile.
@@ -58,7 +58,7 @@
                ▼
   [ WATERPROOF CONNECTION COMPRESSION ] 
                │
-               └──► Seat Concentric Copper Contact Tracks into Hexagonal Puzzle Puzzle Tabs
+               └──► Seat Concentric Copper Contact Tracks into Hexagonal Puzzle Tabs
                └──► Compress Optical Skin and Auxetic Shield Caps over Silicon Core face
                └──► Snap Interlocking Scales together to form a Parallel Self-Healing Grid Array
 ```
