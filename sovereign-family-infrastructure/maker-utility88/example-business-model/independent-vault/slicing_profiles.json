@@ -1,0 +1,38 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "4.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "casing_airframe_high_rebound_tpu": {
+        "layer_height": "0.16mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "20%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "235C",
+        "bed_temperature": "50C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "extrusion_multiplier_flow": "1.02",
+        "cooling_fan_speed": "20%",
+        "structural_purpose": "Flexible protective auxetic airframe body. Sliced at a dense 0.16mm layer boundary track to maximize elastic toolpath welding density, entirely avoiding FDM micro-gaps."
+      },
+      
+      "snap_rails_carbon_fiber_nylon": {
+        "layer_height": "0.12mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "concentric",
+        "nozzle_temperature": "285C",
+        "bed_temperature": "80C",
+        "max_volumetric_speed": "6.0mm3/s",
+        "extrusion_multiplier_flow": "1.00",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Pre-tensioned anti-creep internal rail structures. Sliced in Carbon-Fiber Nylon (PA-CF) at 100% solid concentric density to mirror the near-perfect 97% elastic recovery rating of flea resilin rubber, pulling the outer TPU frame back to factory specifications instantly when a device is extracted."
+      }
+    }
+  }
+}
