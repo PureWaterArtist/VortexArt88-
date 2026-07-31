@@ -1,23 +1,23 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "2.0.0",
+    "profile_version": "2.3.0",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
       "vape_chassis_recycled_matte_asa": {
-        "layer_height": "0.16mm",
-        "wall_loops": 3,
-        "top_solid_layers": 4,
-        "bottom_solid_layers": 4,
-        "infill_density": "15%",
+        "layer_height": "0.12mm",
+        "wall_loops": 4,
+        "top_solid_layers": 5,
+        "bottom_solid_layers": 5,
+        "infill_density": "25%",
         "infill_pattern": "gyroid",
-        "nozzle_temperature": "265C",
+        "nozzle_temperature": "268C",
         "bed_temperature": "95C",
         "enclosure_temperature_target": "45C",
-        "max_volumetric_speed": "10.0mm3/s",
-        "extrusion_multiplier_flow": "1.01",
+        "max_volumetric_speed": "8.5mm3/s",
+        "extrusion_multiplier_flow": "1.04",
         "cooling_fan_speed": "0%",
-        "structural_purpose": "Sleek exterior electronic device housing. Fixed 0% fan curves eliminate contraction stress vectors across layers, preventing internal warping while ensuring an injection-molded matte consumer hand feel right off the build sheet."
+        "structural_purpose": "Sleek, seep-proof exterior electronic enclosure. Throttled layer heights to 0.12mm paired with an elevated 1.04 flow multiplier explicitly increases toolpath welding density [1.1]. This fuses the polymer chains into a solid layer matrix, fully blocking viscous terpene oils from seeping through the Z-axis walls."
       },
       
       "retention_gasket_high_rebound_tpu": {
