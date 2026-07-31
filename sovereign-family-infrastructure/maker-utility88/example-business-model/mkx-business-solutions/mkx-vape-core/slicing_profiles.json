@@ -1,9 +1,13 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
+    "farm_limits": {
+      "target_monthly_volume": 2000,
+      "operating_duty_cycle": "68%",
+      "print_time_per_unit_minutes": 45
+    },
     "material_profiles": {
-      
       "vape_chassis_recycled_matte_asa": {
         "layer_height": "0.16mm",
         "wall_loops": 3,
@@ -14,10 +18,11 @@
         "nozzle_temperature": "260C",
         "bed_temperature": "95C",
         "enclosure_temperature_target": "45C",
+        "outer_wall_speed": "120mm/s",
+        "inner_wall_speed": "150mm/s",
         "max_volumetric_speed": "10mm3/s",
-        "structural_purpose": "Tactile, sleek exterior electronic enclosure. Sliced at a fine 0.16mm step profile to deliver a smooth, high-end consumer hand feel that matches standard high-end consumer vaporizers without requiring secondary vapor chemical smoothing."
+        "structural_purpose": "Tactile, sleek exterior electronic enclosure. Fixed outer wall speeds of 120mm/s ensure clean layer-to-layer weld line integration. This delivers a premium consumer finish right off the print bed, completely eliminating labor-intensive chemical smoothing steps."
       },
-      
       "retention_ring_flexible_high_rebound_tpu": {
         "layer_height": "0.20mm",
         "wall_loops": 4,
@@ -28,7 +33,7 @@
         "nozzle_temperature": "235C",
         "bed_temperature": "50C",
         "max_volumetric_speed": "3.5mm3/s",
-        "structural_purpose": "Glue-free mechanical snap retention gasket. Printed out of pure TPU with thick solid perimeters to maximize elastic structural retention memory, enabling the internal snap lock to expand under battery insertion force and clip shut without fracturing."
+        "structural_purpose": "Glue-free mechanical snap retention gasket. Printed out of high-rebound TPU with a slow volumetric feed rate to allow the internal cell hinges to compress and snap lock repeatedly without fracturing or loss of tension."
       }
     }
   }
