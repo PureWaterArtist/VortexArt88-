@@ -1,18 +1,20 @@
 # 🔧 Reclaimable Vape Enclosure — Operational SOP & Facility Reclaim QA
-**System Version:** 1.0.0-Vape Core  
-**Operational Target:** Zero-Waste Factory QA Ingestion Protocols  
+**System Version:** 1.1.0-Pilot Framework  
+**Operational Target:** High-Integrity R&D Prototype & Limited-Edition Hardware Validation  
+**Compliance Standard:** State of Michigan METRC Ingestion Integration  
 
 ---
 
 ## 🛠️ SECTION 1: THE 60-SECOND COMPONENT RECLAIM STEPS
 
-If an assembled vape unit fails an automated diagnostic circuit sweep, a charging continuity check, or suffers an aesthetic housing scratch on the high-speed conveyor lines, technicians must execute these extraction paths:
+If an assembled prototype testing unit fails a circuit sweep, charging continuity check, or suffers cosmetic surface scuffs during pre-market product development, technicians must execute this recovery path:
 
-1.  **Insert the Extraction Key:** Slide a standard 5mm mechanical tool pins into the **Quick-Release Component Extraction Window** (Layer 5 cutout node inside `vape_shell.scad`).
-2.  **Depress the Retention Snap:** Apply uniform downward pressure to compress the internal flexible TPU **Snap_Lock_Retention_Ring**. This releases the interference mechanical lock holding the core internal bay.
-3.  **Extract the Internal Core:** Slide the undamaged lithium battery cell and the intact 510-threaded concentrate reservoir clean out of the top of the chassis. 
-4.  **Instant Re-Run Optimization:** Route the pristine, expensive oil reservoir and active battery straight back to the front of the assembly line to be nested into a fresh chassis. **Component loss factor drops to 0%.**
-5.  **Foundry Ingestion:** Take the scratched or defective plastic outer shell, drop it directly into the **Polystruder GR PRO Motorized Shredder**, re-extrude the material, and run it right back through your Bambu Lab P1S print farm to generate fresh, retail-ready enclosures.
+1.  **METRC Log Initialization:** Before disassembling the unit, log the hardware device's serial number under the facility's METRC 'Rework and R&D Testing' inventory track.
+2.  **Insert the Extraction Key:** Slide a standard 5mm mechanical tool pin into the **Quick-Release Component Extraction Window** (Layer 5 cutout node inside `vape_shell.scad`).
+3.  **Depress the Retention Snap:** Apply uniform downward pressure to compress the internal flexible TPU **Snap_Lock_Retention_Ring**. This releases the tight friction mechanical interference lock holding the core internal bay.
+4.  **Extract the Internal Core:** Slide the undamaged lithium battery cell and the intact 510-threaded concentrate reservoir clean out of the top of the chassis. 
+5.  **Instant Re-Run Optimization:** Route the pristine, expensive oil reservoir and active battery straight back to the front of the R&D testing line to be nested into a fresh chassis. **Component loss factor drops to 0%.**
+6.  **Foundry Ingestion:** Take the scratched or defective plastic outer shell, drop it directly into the **Polystruder GR PRO Motorized Shredder**, re-extrude the material, and run it right back through your Bambu Lab P1S print farm to generate fresh, retail-ready enclosures.
 
 ---
 
