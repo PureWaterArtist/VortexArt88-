@@ -1,29 +1,26 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.1.0",
-    "target_hardware": "Bambu_Lab_P1S_0.4_Nozzle",
-    "farm_limits": {
-      "target_monthly_volume": 2000,
-      "operating_duty_cycle": "68%",
-      "print_time_per_unit_minutes": 45
-    },
+    "profile_version": "2.0.0",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
+      
       "vape_chassis_recycled_matte_asa": {
         "layer_height": "0.16mm",
         "wall_loops": 3,
         "top_solid_layers": 4,
         "bottom_solid_layers": 4,
-        "infill_density": "20%",
+        "infill_density": "15%",
         "infill_pattern": "gyroid",
-        "nozzle_temperature": "260C",
+        "nozzle_temperature": "265C",
         "bed_temperature": "95C",
         "enclosure_temperature_target": "45C",
-        "outer_wall_speed": "120mm/s",
-        "inner_wall_speed": "150mm/s",
-        "max_volumetric_speed": "10mm3/s",
-        "structural_purpose": "Tactile, sleek exterior electronic enclosure. Fixed outer wall speeds of 120mm/s ensure clean layer-to-layer weld line integration. This delivers a premium consumer finish right off the print bed, completely eliminating labor-intensive chemical smoothing steps."
+        "max_volumetric_speed": "10.0mm3/s",
+        "extrusion_multiplier_flow": "1.01",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Sleek exterior electronic device housing. Fixed 0% fan curves eliminate contraction stress vectors across layers, preventing internal warping while ensuring an injection-molded matte consumer hand feel right off the build sheet."
       },
-      "retention_ring_flexible_high_rebound_tpu": {
+      
+      "retention_gasket_high_rebound_tpu": {
         "layer_height": "0.20mm",
         "wall_loops": 4,
         "top_solid_layers": 0,
@@ -33,7 +30,7 @@
         "nozzle_temperature": "235C",
         "bed_temperature": "50C",
         "max_volumetric_speed": "3.5mm3/s",
-        "structural_purpose": "Glue-free mechanical snap retention gasket. Printed out of high-rebound TPU with a slow volumetric feed rate to allow the internal cell hinges to compress and snap lock repeatedly without fracturing or loss of tension."
+        "structural_purpose": "Glue-free internal mechanical interference snap lock. Sliced with thick solid walls to maximize structural elasticity, allowing the locking collar to flex repeatedly during reclaim cycles without splitting."
       }
     }
   }
