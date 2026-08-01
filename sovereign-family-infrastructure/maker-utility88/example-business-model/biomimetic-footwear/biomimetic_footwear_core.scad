@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Universal Circular Footwear Core Array
-// Version 5.2.0-Consumer Master | Longitudinal Splines & Transverse Heel-Lock
+// Version 5.3.0-Consumer Master | Debris Relief Wells & Overlocking Toe Hood
 
 // ============================================================================
 // 🏛️ UNIVERSAL SIZING MATRIX (Parametric Scaling Boundaries)
@@ -40,18 +40,16 @@ module Footwear_Trabecular_Upper() {
             scale([1, 1, 0.45]) sphere(d=INT_L);
             
             // LONGITUDINAL MALE DOVETAIL SPLINES
-            // Lengthwise rails eliminate walking shear while allowing a 5-second slide teardown
             for (x_rail = [-20, 0, 20]) {
                 translate([x_rail, 0, -SOLE_THICKNESS*0.35]) {
                     cube([3.0, INT_L * 0.7, 4.0], center=true); 
-                    translate([0, 0, -2.0]) rotate([0, 90, 0]) cube([4.0, INT_L * 0.7, 4.0], center=true); 
+                    translate([0, 0, -2.0]) rotate() cube([4.0, INT_L * 0.7, 4.0], center=true); 
                 }
             }
             
             // TRANSVERSE HEEL SAFETY LOCK PIN CYLINDER
-            // Mechanical anchor stops backward sliding slide-creep forces during hard runs
             translate([-INT_L * 0.44, 0, -SOLE_THICKNESS * 0.35]) {
-                rotate([90, 0, 0])
+                rotate()
                     cylinder(h=14.0, r=3.0, center=true);
             }
         }
@@ -68,7 +66,7 @@ module Footwear_Trabecular_Upper() {
         // ASYMMETRICAL HYDROPHOBIC TESLA-VALVE WEAVE
         for (y_valve = [-INT_L*0.25 : 20 : INT_L*0.25]) {
             for (x_valve = [-INT_W*0.25 : 15 : INT_W*0.25]) {
-                translate([x_valve, y_valve, 10.0]) rotate([45, 0, 0]) {
+                translate([x_valve, y_valve, 10.0]) rotate() {
                     cylinder(h=10.0, r1=1.5, r2=0.5, center=true);
                     translate([0, 2.0, 0]) cylinder(h=10.0, r1=0.5, r2=1.5, center=true);
                 }
@@ -79,11 +77,22 @@ module Footwear_Trabecular_Upper() {
 
 module Footwear_Cushion_Sole() {
     difference() {
-        // ELEPHANT-PAD MIDSOLE STRUCTURAL SHELL
-        scale([1, 0.98, 1]) {
-            hull() {
-                translate([-INT_L*0.25, 0, 0]) cylinder(h=SOLE_THICKNESS, r=INT_W*0.48, center=true);
-                translate([INT_L*0.25, 0, -2.0]) cylinder(h=SOLE_THICKNESS-4.0, r=INT_W*0.4, center=true);
+        union() {
+            // ELEPHANT-PAD MIDSOLE STRUCTURAL SHELL
+            scale([1, 0.98, 1]) {
+                hull() {
+                    translate([-INT_L*0.25, 0, 0]) cylinder(h=SOLE_THICKNESS, r=INT_W*0.48, center=true);
+                    translate([INT_L*0.25, 0, -2.0]) cylinder(h=SOLE_THICKNESS-4.0, r=INT_W*0.4, center=true);
+                }
+            }
+            
+            // 🛠️ BUGFIX 2: OVERLOCKING CROCODILE HOOD POCKET
+            // Rigid 15mm hood overhang traps the front toe upper to completely stop nose lift and delamination
+            translate([INT_L*0.45, 0, SOLE_THICKNESS*0.2]) {
+                difference() {
+                    cube([22.0, INT_W*0.5, 10.0], center=true);
+                    translate([-4.0, 0, -4.0]) cube([20.0, INT_W*0.6, 8.0], center=true); // Internal cavity
+                }
             }
         }
         
@@ -94,14 +103,22 @@ module Footwear_Cushion_Sole() {
         for (x_rail = [-20, 0, 20]) {
             translate([x_rail, 0, SOLE_THICKNESS*0.32]) {
                 cube([3.3, INT_L * 0.75, 4.5], center=true);
-                translate([0, 0, -2.0]) rotate([0, 90, 0]) cube([4.3, INT_L * 0.75, 4.3], center=true);
+                translate([0, 0, -2.0]) rotate() cube([4.3, INT_L * 0.75, 4.3], center=true);
+            }
+        }
+        
+        // 🛠️ BUGFIX 1: DEBRIS EVACUATION RELIEF WELLS
+        // Alternating cutouts along the channel floors drop grit out through the outsole treads
+        for (x_rail = [-20, 0, 20]) {
+            for (y_well = [-INT_L*0.3 : 25 : INT_L*0.3]) {
+                translate([x_rail, y_well, SOLE_THICKNESS*0.1])
+                    cube([4.5, 6.0, 15.0], center=true);
             }
         }
         
         // VERTICAL HEEL SNAP-LATCH TRANSVERSE PIN SOCKET
-        // Traps the upper rear pin cylinder with a sharp click to secure alignment
         translate([-INT_L * 0.44, 0, SOLE_THICKNESS * 0.32]) {
-            rotate([90, 0, 0])
+            rotate()
                 cylinder(h=14.3, r=3.15, center=true);
         }
         
