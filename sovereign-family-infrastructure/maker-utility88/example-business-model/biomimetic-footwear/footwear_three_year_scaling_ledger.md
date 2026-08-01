@@ -2,9 +2,10 @@
 **System Core:** Debt-Free Automated Compounding, Multi-Engine Fleets, and Liquidity Expansion  
 **Parent Entity:** Matrix Biomimetic Utilities, LLC  
 **Hardware Scaling Targets:** 
-Year 1: 3 Engines ──► Year 2: 
-6 Engines ──► Year 3: 
-12 Engines  
+
+Year 1: 3 Engines ──► 
+Year 2: 6 Engines ──► 
+Year 3: 12 Engines+ 
 **Retained Cash Allocation Strategy:** 70% Family Treasury Cash-Out / 30% In-Engine Re-Investment  
 
 ---
