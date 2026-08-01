@@ -1,0 +1,37 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0-RC-Hobby",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "rc_exoskeleton_high_rebound_tpu": {
+        "layer_height": "0.20mm",
+        "wall_loops": 6,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "30%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "238C",
+        "bed_temperature": "55C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "extrusion_multiplier_flow": "1.03",
+        "cooling_fan_speed": "20%",
+        "structural_purpose": "Indestructible flexible RC kinetic shock bumper airframe. Enhanced to 6 wall loops to handle brutal friction scrapes against concrete curbs, ensuring the built-in grasshopper suspension loops maintain perfect spring rebound velocity."
+      },
+      
+      "rc_spine_carbon_fiber_nylon": {
+        "layer_height": "0.16mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "concentric",
+        "nozzle_temperature": "285C",
+        "bed_temperature": "80C",
+        "max_volumetric_speed": "6.0mm3/s",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Rigid internal electronics and motor mount platform. Sliced at 100% solid concentric density in PA-CF to completely eliminate flex torsion along the drivetrain, keeping the motor gear mesh locked solid under high battery acceleration bursts."
+      }
+    }
+  }
+}
