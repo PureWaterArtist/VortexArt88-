@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Circular Footwear Style Extensions Matrix
-// Version 1.0.0-Styles Core | Urban Hex Mesh, Tactical Boot, and Runner Slide
+// Version 1.1.0-Styles Master | Debris Relief Wells & Overlocking Toe Hood Integration
 
 // ============================================================================
 // 🏛️ UNIVERSAL SIZING MATRIX REFERENCE
@@ -33,7 +33,7 @@ module Style_Urban_Hex_Clog() {
     difference() {
         union() {
             scale([1, 1, 0.45]) sphere(d=INT_L);
-            // Continuous longitudinal dovetail male splines molded supportless to base
+            // Inherits the 3 longitudinal male splines and rear locking pin
             Footwear_Base_Dovetail_Rails();
         }
         
@@ -49,7 +49,7 @@ module Style_Urban_Hex_Clog() {
             for (x_hex = [-INT_W*0.3 : 14 : INT_W*0.3]) {
                 translate([x_hex, y_hex + (x_hex % 28 == 0 ? 7 : 0), 12.0])
                     rotate([0, 0, 30])
-                        cylinder(h=20.0, r=3.5, $fn=6, center=true); // Sharp geometric hex cells
+                        cylinder(h=20.0, r=3.5, $fn=6, center=true); 
             }
         }
     }
@@ -114,7 +114,7 @@ module Footwear_Base_Dovetail_Rails() {
     for (x_rail = [-20, 0, 20]) {
         translate([x_rail, 0, -SOLE_THICKNESS*0.35]) {
             cube([3.0, INT_L * 0.7, 4.0], center=true); 
-            translate([0, 0, -2.0]) rotate([0, 0, 45]) cube([4.0, INT_L * 0.7, 4.0], center=true); 
+            translate([0, 0, -2.0]) rotate([0, 90, 0]) cube([4.0, INT_L * 0.7, 4.0], center=true); 
         }
     }
     // Rear safety locking transverse pin cylinder
