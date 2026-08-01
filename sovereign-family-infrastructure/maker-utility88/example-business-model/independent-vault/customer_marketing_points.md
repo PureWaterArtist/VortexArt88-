@@ -22,6 +22,6 @@
 *   **📐 UNIVERSAL SCALE-INVARIANT INTERLOCKS**  
     Say goodbye to loose, saggy plastic phone wraps. By integrating pre-tensioned carbon-fiber internal spring tendons modeled after the hyper-elastic movement protein of jumping insects, the case airframe dynamically stretches and self-adjusts to maintain a rattle-free friction grip. The exterior sides incorporate mechanical armadillo dovetail slots to seamlessly snap on modular accessories without heavy, heat-sensitive magnets.
 
-*   **🌿 REWARDED \$15.00 LIFETIME WARRANTY RETURN LOOP**  
-    We protect our planet while defending your smartphone infrastructure. Every case is backed by a lifetime circular material warranty. When you upgrade your phone model down the line, simply scan the interior QR code to print a pre-paid shipping label. Drop your retired case in any mailbox; the moment it lands back at our workshop for recycling, a **$15.00 Core-Credit Discount Voucher** is instantly dropped to your account for your next upgrade.
+*   **🌿 REWARDED $15.00 DIRECT-TO-FOUNDRY RETURN LOOP**  
+    We protect our planet while defending your smartphone infrastructure. Every case is backed by a lifetime circular material warranty. When you upgrade your phone model down the line, simply scan the interior QR code to print a pre-paid shipping label to return your device directly to our workshop for recycling (advanced metamaterials cannot be processed by standard city blue bins). The moment your package lands back at our facility, an automated **$15.00 Core-Credit Discount Voucher** is instantly dropped to your account to back your next-generation hardware upgrade.
     
