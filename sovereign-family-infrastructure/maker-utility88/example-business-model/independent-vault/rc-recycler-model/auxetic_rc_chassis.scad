@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Universal Indestructible 1:16 RC Vehicle Engine
-// Version 3.0.0-Hobby Master | Cranial Skull Sutures & Vine Helical Couplers
+// Version 4.0.0-Hobby Master | Cranial Skull Sutures & Telescoping Slider Axles
 
 // ============================================================================
 // 🏛️ MASTER CAR BOUNDARY MATRIX (Parametric 1:16 Scale Allocations)
@@ -7,13 +7,13 @@
 CHASSIS_W = 85.0;          // Total structural outer bumper width (mm)
 CHASSIS_L = 160.0;         // Total front-to-back chassis footprint length (mm)
 BATTERY_BAY_W = 35.5;      // Precision compartment slot width for 2S LiPo batteries (mm)
-
-// 📐 SHALED MATRIX RECONCILIATION
 SHELL_WALL = 3.0;          // Reinforced 3mm perimeter barrier armor
+
 $fn = 60;                  // High-fidelity curvature tracking resolution
 
 // 🖨️ FABRICATION ROUTER SELECTOR
-// PART_SELECTOR: 0 = Unified Visual Assembly, 1 = Flexible TPU Outer Bumper, 2 = Rigid Nylon Motor Spine
+// PART_SELECTOR: 0 = Unified Visual Assembly, 1 = Flexible TPU Outer Bumper, 
+//                 2 = Rigid Nylon Motor Spine, 3 = Female Axle Cup, 4 = Male Axle Shaft
 PART_SELECTOR = 0;
 
 if (PART_SELECTOR == 0) {
@@ -23,6 +23,10 @@ if (PART_SELECTOR == 0) {
     RC_Beetle_Exoskeleton_Hull();
 } else if (PART_SELECTOR == 2) {
     Gazelle_Heatsink_Motor_Spine();
+} else if (PART_SELECTOR == 3) {
+    RC_Drive_Axle_Outer_Female();
+} else if (PART_SELECTOR == 4) {
+    RC_Drive_Axle_Inner_Male();
 }
 
 // ============================================================================
@@ -47,14 +51,11 @@ module RC_Beetle_Exoskeleton_Hull() {
             }
         }
         
-        // 🛠️ BIOMIMETIC PATCH 1: MAMMALIAN CRANIUM SKULL SUTURES
-        // Replaces straight pin slots with an alternating puzzle-piece zig-zag seam.
-        // This spreads extreme crash impacts across the entire mating surface to block shear stress.
-        translate([0, 0, 0]) {
-            for (y_suture = [-CHASSIS_L*0.35 : 10 : CHASSIS_L*0.35]) {
-                translate([sin(y_suture*15)*2.5, y_suture, 0])
-                    cube([BATTERY_BAY_W + 8.4, 4.0, 30.0], center=true);
-            }
+        // BIOMIMETIC CRANIAL SKULL SUTURES
+        // Alternating wavy zig-zag seam spreads crash loads across the full mating edge face
+        for (y_suture = [-CHASSIS_L*0.35 : 10 : CHASSIS_L*0.35]) {
+            translate([sin(y_suture*15)*2.5, y_suture, 0])
+                cube([BATTERY_BAY_W + 8.4, 4.0, 30.0], center=true);
         }
         
         // THE FRONT-IMPACT AUXETIC ARROWHEAD MESH MOAT
@@ -76,10 +77,9 @@ module Gazelle_Heatsink_Motor_Spine() {
     // LAYER 1-2 CORE: Rigid internal motor and battery cradle frame printed in PA-CF Nylon
     difference() {
         union() {
-            // Main spine foundation plate
             cube([BATTERY_BAY_W + 7.6, CHASSIS_L - 20.4, 12.0], center=true);
             
-            // 🛠️ BIOMIMETIC PATCH 3: DESERT GAZELLE CONVECTIVE MICRO-HEATSINKS
+            // DESERT GAZELLE CONVECTIVE MICRO-HEATSINKS
             // Upper deck ventilation chimney grid draws motor heat loops straight out through ram air channels
             translate([0, -CHASSIS_L * 0.1, 8.0]) {
                 for (chimney = [-15 : 6 : 15]) {
@@ -95,26 +95,35 @@ module Gazelle_Heatsink_Motor_Spine() {
             
         // Standard 390-Brushed Motor Keyway Alignment Cradle Tunnel
         translate([0, CHASSIS_L * 0.28, 0])
-            rotate([90, 0, 0])
-                cylinder(h=32.0, r=14.1, center=true); // Precision 390 diameter clearance
+            rotate([0, 0, 0])
+                cylinder(h=32.0, r=14.1, center=true); 
     }
 }
 
-module Passiflora_Vine_Helical_Coupler() {
-    // 🛠️ BIOMIMETIC PATCH 2: PASSIFLORA VINE SOLID-STATE DRIVE AXLE
-    // hollow single-tube construction printed in ductile Polypropylene (PP) with a 360° cut spiral track.
-    // Transmits raw torque and steering deflection with zero friction faces to generate heat or melt.
+module RC_Drive_Axle_Outer_Female() {
+    // Printed in rigid Carbon-Fiber Nylon for absolute torque handling
     difference() {
-        cylinder(h=45.0, r=4.0, center=true);
-        cylinder(h=47.0, r=2.5, center=true); // Hollow internal core
+        cylinder(h=22.0, r=4.5, center=true);
         
-        // Helical torsion spring spiral channel track cutter
-        translate([0, 0, 0]) {
-            linear_extrude(height=35.0, center=true, twist=360, slices=60) {
-                translate([2.5, 0, 0])
-                    circle(r=0.8, $fn=12);
-            }
-        }
+        // Internal 3.2mm square keyway channel allows the male shaft to slide smoothly
+        translate([0, 0, 2.0])
+            cube([3.2, 3.2, 20.0], center=true); 
+            
+        // Standard differential output pin mount socket hole
+        translate([0, 0, -10.0])
+            cylinder(h=4.0, r=2.1, center=true);
+    }
+}
+
+module RC_Drive_Axle_Inner_Male() {
+    // Printed in ductile, high-flex Polypropylene (PP) to absorb rotational road shock [1.1]
+    union() {
+        cylinder(h=25.0, r=2.0, center=true);
+        
+        // Matching 3.0mm solid square slider block tip (+0.2mm clearance air gap)
+        // Slides effortlessly inside the female cup to handle suspension length shifts on the fly [1.1, 1.2]
+        translate([0, 0, 12.5])
+            cube([3.0, 3.0, 12.0], center=true);
     }
 }
 
