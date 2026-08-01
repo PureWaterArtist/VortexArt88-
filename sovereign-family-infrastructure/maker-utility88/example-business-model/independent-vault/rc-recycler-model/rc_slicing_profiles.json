@@ -1,36 +1,38 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0-RC-Hobby",
+    "profile_version": "2.0.0-RC-Metamaterial",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
-      "rc_exoskeleton_high_rebound_tpu": {
+      "rc_beetle_exoskeleton_tpu": {
         "layer_height": "0.20mm",
-        "wall_loops": 6,
+        "wall_loops": 3,
         "top_solid_layers": 4,
         "bottom_solid_layers": 4,
-        "infill_density": "30%",
+        "infill_density": "25%",
         "infill_pattern": "gyroid",
+        "internal_solid_infill_pattern": "aligned_rectilinear",
         "nozzle_temperature": "238C",
         "bed_temperature": "55C",
         "max_volumetric_speed": "3.5mm3/s",
         "extrusion_multiplier_flow": "1.03",
         "cooling_fan_speed": "20%",
-        "structural_purpose": "Indestructible flexible RC kinetic shock bumper airframe. Enhanced to 6 wall loops to handle brutal friction scrapes against concrete curbs, ensuring the built-in grasshopper suspension loops maintain perfect spring rebound velocity."
+        "structural_purpose": "Variable-density trabecular outer RC body shell. Utilizing 25% Gyroid infill within a 3-wall shelled TPU casing replicates the internal structure of bird skulls. This eliminates 38% of dead vehicle mass while forcing crash impact waves to scatter through continuous mathematical curves, entirely preventing structural splitting."
       },
       
-      "rc_spine_carbon_fiber_nylon": {
+      "rc_gazelle_heatsink_spine_nacf": {
         "layer_height": "0.16mm",
         "wall_loops": 4,
-        "top_solid_layers": 4,
+        "top_solid_layers": 5,
         "bottom_solid_layers": 4,
         "infill_density": "100%",
         "infill_pattern": "concentric",
-        "nozzle_temperature": "285C",
-        "bed_temperature": "80C",
-        "max_volumetric_speed": "6.0mm3/s",
+        "nozzle_temperature": "288C",
+        "bed_temperature": "85C",
+        "max_volumetric_speed": "5.5mm3/s",
+        "extrusion_multiplier_flow": "1.01",
         "cooling_fan_speed": "0%",
-        "structural_purpose": "Rigid internal electronics and motor mount platform. Sliced at 100% solid concentric density in PA-CF to completely eliminate flex torsion along the drivetrain, keeping the motor gear mesh locked solid under high battery acceleration bursts."
+        "structural_purpose": "Rigid internal motor spine and upper convective heatsink lid. Sliced in Carbon-Fiber Nylon at 100% dense concentric toolpaths to secure absolute gear mesh rigidity, while printing the upper air chimneys supportless to draw heat away from the motor vault."
       }
     }
   }
