@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "5.2.0-Footwear-Master",
+    "profile_version": "5.3.0-Footwear-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -15,12 +15,12 @@
         "max_volumetric_speed": "2.8mm3/s",
         "extrusion_multiplier_flow": "1.04",
         "cooling_fan_speed": "30%",
-        "structural_purpose": "Flexible protective upper foot airframe. Sliced in soft 85A TPU with a 3-wall loop shell to conform to foot variables, ensuring the transverse rear pin holds high elastic spring density."
+        "structural_purpose": "Flexible protective upper foot airframe. Sliced in soft 85A TPU with a 3-wall loop shell to conform to foot variables, ensuring the continuous lengthwise male rails print completely supportless and smooth."
       },
       
       "layer_2_sole_dense_tpu_95a": {
         "layer_height": "0.24mm",
-        "wall_loops": 4,
+        "wall_loops": 5,
         "top_solid_layers": 4,
         "bottom_solid_layers": 5,
         "infill_density": "30%",
@@ -30,7 +30,7 @@
         "max_volumetric_speed": "4.2mm3/s",
         "extrusion_multiplier_flow": "1.02",
         "cooling_fan_speed": "15%",
-        "structural_purpose": "Variable-density elephant-pad structural sole midsole. Sliced in high-durability 95A TPU utilizing a 30% Gyroid infill pattern to absorb heel strikes, keeping the sliding slot tracks rigid so they never bow or tear."
+        "structural_purpose": "Variable-density elephant-pad structural sole midsole. Sliced in high-durability 95A TPU. Perimeters bumped to 5 wall loops specifically around the internal Debris Evacuation Relief Wells to seal the cored subsurface gyroid cavity watertight, while printing the Overlocking Crocodile Hood Pocket supportless."
       },
       
       "layer_3_insole_velvet_tpu_80a": {
