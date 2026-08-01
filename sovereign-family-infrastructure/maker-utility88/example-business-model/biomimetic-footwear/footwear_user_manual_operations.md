@@ -1,5 +1,5 @@
 # 🔧 Circular Footwear — Assembly SOP & Field Diagnostic Manual
-**System Version:** 5.2.0-Consumer Master  
+**System Version:** 5.3.0-Consumer Master  
 **Operational Target:** Zero-Fastener Closed-Loop Footwear Matrix  
 **Safety Threshold:** IP68 Absolute Waterproof Insulation Covenants  
 
@@ -11,7 +11,8 @@ Because this footwear architecture utilizes a modular, 3-piece toolless configur
 
 ### 1. Longitudinal Dovetail Slide Insertion & Rear Heel-Lock
 *   **Action:** Take your printed soft 85A TPU upper shell and your thick 95A TPU cushion sole base. Align the three solid T-shaped male splines on the bottom of the upper shell with the three female keyway tracks on the heel of the sole.
-*   **The Sliding Action:** Slide the upper shell forward lengthwise into the sole tracks until the toe box hits the front stop wall. At that exact micro-second, the rear transverse cylinder pin will slide into the vertical heel pocket of the sole, snapping shut with a sharp, mechanical click. This heel-lock blocks the upper from sliding backward under heavy running loads.
+*   **The Sliding Action:** Slide the upper shell forward lengthwise into the sole tracks. Drive the nose of the upper straight underneath the rigid **Overlocking Crocodile Hood Pocket** on the front toe rim. At that exact micro-second, the rear transverse cylinder pin will click straight down into the vertical heel pocket socket of the sole. 
+*   **The De-Bugged Advantages:** The front crocodile hood completely locks the toe perimeter from ever lifting or peeling upward during high-flexion sprinting or hill climbing. While walking through backyard dirt or mud, any grit that drops into the tracks is automatically forced out through the **Debris Evacuation Relief Wells** on the channel floors, keeping the rails 100% clear of friction jams.
 *   **The Toolless Teardown:** To extract for recycling, use your thumb to slightly flex the rear vertical snap-flap outward by 2mm to clear the pin lock. Slide the upper shell backward lengthwise out of the sole channels with flat-zero resistance or material tearing.
 
 ### 2. Velvet Comfort Insert Infiltration
