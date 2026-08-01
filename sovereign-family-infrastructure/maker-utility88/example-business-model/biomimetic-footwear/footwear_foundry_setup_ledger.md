@@ -85,3 +85,15 @@ $$\text{TOTAL DEBT-FREE STARTUP SETUP OVERHEADBASE} = \$4,481.00 + \$568.00 + \$
 By covering this single $5,253.00 USD setup cost entirely out of pocket, you launch your company with flat-zero bank leverage or exterior investor pressure. 
 
 Fulfilling that first pilot batch of 100 pairs at your target $49.00 retail ticket price immediately pulls **$4,900.00 USD in gross cash flow** straight back across your counter, instantly paying back **93.2% of your entire factory's machinery and facility infrastructure overhead** inside your very first weekend launch window.
+
+---
+
+## 🔬 5. WORKSHOP CALIBRATION AND EXTRUSION PURGE THRESHOLDS
+
+To guarantee a flawless, zero-defect first batch output of 100 completed pairs without running thin on raw polymer stocks due to initial machine setups, operations must adhere to this exact calibration protocol:
+
+### 1. The Anisotropic Clearance Swatch Run
+Prior to initiating full-scale multi-plate production runs, Printer Alpha must execute a single 15-gram independent tolerance swatch to validate that the horizontal -0.15mm sliding clearances align with factory-spec toolhead velocities. 
+
+### 2. Closed-Loop Setup Scrap Reclamation
+All extrusion purge lines, layer-change filament tracking strings, and bed adhesion skirts generated during the initial machine leveling loops must be collected inside the designated color-coded workspace recycling bins. This initial calibration scrap must be processed through the motorized granulator shredder and twin-screw extruder line to re-compound the resin on-site. This completely replaces your setup polymer losses for an electrical utility surcharge of less than $0.05 USD, preserving your virgin material inventory to guarantee a full 100-pair direct retail launch output down to the last single unit.
