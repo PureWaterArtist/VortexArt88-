@@ -1,0 +1,52 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "5.1.0-Footwear-Master",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "layer_1_upper_soft_tpu_85a": {
+        "layer_height": "0.20mm",
+        "wall_loops": 3,
+        "top_solid_layers": 3,
+        "bottom_solid_layers": 0,
+        "infill_density": "0%",
+        "nozzle_temperature": "232C",
+        "bed_temperature": "45C",
+        "max_volumetric_speed": "2.8mm3/s",
+        "extrusion_multiplier_flow": "1.04",
+        "cooling_fan_speed": "30%",
+        "structural_purpose": "Flexible protective upper foot airframe. Sliced in ultra-soft 85A TPU with a 3-wall loop shell to conform dynamically to varying foot widths, while ensuring the Tesla-Valve fluid channels print completely supportless."
+      },
+      
+      "layer_2_sole_dense_tpu_95a": {
+        "layer_height": "0.24mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 5,
+        "infill_density": "30%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "238C",
+        "bed_temperature": "55C",
+        "max_volumetric_speed": "4.2mm3/s",
+        "extrusion_multiplier_flow": "1.02",
+        "cooling_fan_speed": "15%",
+        "structural_purpose": "Variable-density elephant-pad structural sole midsole. Sliced in high-durability 95A TPU utilizing a 30% Gyroid infill pattern to absorb heavy heel strikes, entirely enclosing the lattice sub-surface away from the footbed to prevent skin friction wear."
+      },
+      
+      "layer_3_insole_velvet_tpu_80a": {
+        "layer_height": "0.12mm",
+        "wall_loops": 2,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "aligned_rectilinear",
+        "nozzle_temperature": "230C",
+        "bed_temperature": "40C",
+        "max_volumetric_speed": "2.5mm3/s",
+        "extrusion_multiplier_flow": "1.01",
+        "cooling_fan_speed": "40%",
+        "structural_purpose": "Removable zero-friction internal comfort insert liner. Sliced at an ultra-fine 0.12mm track out of highly elastic 80A TPU to provide a completely smooth, velvet-matte plane that eliminates heat spots and blister formation completely."
+      }
+    }
+  }
+}
