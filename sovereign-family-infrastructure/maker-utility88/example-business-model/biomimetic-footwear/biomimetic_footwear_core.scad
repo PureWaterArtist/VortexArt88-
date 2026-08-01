@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Universal Circular Footwear Core Array
-// Version 5.1.0-Consumer Master | Longitudinal Dovetail Keyways & Tesla-Valves
+// Version 5.2.0-Consumer Master | Longitudinal Splines & Transverse Heel-Lock
 
 // ============================================================================
 // 🏛️ UNIVERSAL SIZING MATRIX (Parametric Scaling Boundaries)
@@ -39,13 +39,20 @@ module Footwear_Trabecular_Upper() {
             // Main anatomical outer skin profile wrap
             scale([1, 1, 0.45]) sphere(d=INT_L);
             
-            // 🛠️ GEOMETRIC PATCH: THREE LONGITUDINAL MALE DOVETAIL SPLINES
+            // LONGITUDINAL MALE DOVETAIL SPLINES
             // Lengthwise rails eliminate walking shear while allowing a 5-second slide teardown
             for (x_rail = [-20, 0, 20]) {
                 translate([x_rail, 0, -SOLE_THICKNESS*0.35]) {
-                    cube([3.0, INT_L * 0.7, 4.0], center=true); // Base post
-                    translate([0, 0, -2.0]) rotate([0, 45, 0]) cube([4.0, INT_L * 0.7, 4.0], center=true); // Dovetail lock head
+                    cube([3.0, INT_L * 0.7, 4.0], center=true); 
+                    translate([0, 0, -2.0]) rotate([0, 90, 0]) cube([4.0, INT_L * 0.7, 4.0], center=true); 
                 }
+            }
+            
+            // TRANSVERSE HEEL SAFETY LOCK PIN CYLINDER
+            // Mechanical anchor stops backward sliding slide-creep forces during hard runs
+            translate([-INT_L * 0.44, 0, -SOLE_THICKNESS * 0.35]) {
+                rotate([90, 0, 0])
+                    cylinder(h=14.0, r=3.0, center=true);
             }
         }
         
@@ -61,7 +68,7 @@ module Footwear_Trabecular_Upper() {
         // ASYMMETRICAL HYDROPHOBIC TESLA-VALVE WEAVE
         for (y_valve = [-INT_L*0.25 : 20 : INT_L*0.25]) {
             for (x_valve = [-INT_W*0.25 : 15 : INT_W*0.25]) {
-                translate([x_valve, y_valve, 10.0]) rotate([0, 45, 0]) {
+                translate([x_valve, y_valve, 10.0]) rotate([45, 0, 0]) {
                     cylinder(h=10.0, r1=1.5, r2=0.5, center=true);
                     translate([0, 2.0, 0]) cylinder(h=10.0, r1=0.5, r2=1.5, center=true);
                 }
@@ -83,13 +90,19 @@ module Footwear_Cushion_Sole() {
         // Anatomical Footbed Contouring Sink
         translate([0, 0, SOLE_THICKNESS*0.35]) scale([0.97, 0.93, 0.3]) sphere(d=INT_L);
                 
-        // 🛠️ THREE LONGITUDINAL FEMALE DOVETAIL TRACK CUTTERS (+0.15mm Clearance)
-        // Friction-captures the upper male splines securely with zero vertical unzipping risk
+        // THREE LONGITUDINAL FEMALE DOVETAIL TRACK CUTTERS (+0.15mm Clearance)
         for (x_rail = [-20, 0, 20]) {
             translate([x_rail, 0, SOLE_THICKNESS*0.32]) {
                 cube([3.3, INT_L * 0.75, 4.5], center=true);
-                translate([0, 0, -2.0]) rotate([0, 45, 0]) cube([4.3, INT_L * 0.75, 4.3], center=true);
+                translate([0, 0, -2.0]) rotate([0, 90, 0]) cube([4.3, INT_L * 0.75, 4.3], center=true);
             }
+        }
+        
+        // VERTICAL HEEL SNAP-LATCH TRANSVERSE PIN SOCKET
+        // Traps the upper rear pin cylinder with a sharp click to secure alignment
+        translate([-INT_L * 0.44, 0, SOLE_THICKNESS * 0.32]) {
+            rotate([90, 0, 0])
+                cylinder(h=14.3, r=3.15, center=true);
         }
         
         // MOUNTAIN-GOAT TRACTION OUTSOLE TREAD GROOVES
