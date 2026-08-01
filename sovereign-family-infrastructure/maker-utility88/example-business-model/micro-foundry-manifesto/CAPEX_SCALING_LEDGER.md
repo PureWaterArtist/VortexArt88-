@@ -17,7 +17,7 @@ Traditional industrial manufacturing scales through intense capital dilution. To
 
 ### 🔹 Phase 1: The Local Workshop Cell (The Baseline Core)
 *   **Hardware Allocation:** 3x Enclosed CoreXY High-Velocity Print Engines (Bambu Lab P1S equivalent) + 1x Polystruder GR PRO Motorized Shredder + 1x Twin-Screw Compound Filament Extruder line.
-*   **Total Initial Setup CapEx Overhead:** **$15,000.00 USD** (Fully covered by Sam's private equity seed placement).
+*   **Total Initial Setup CapEx Overhead:** **$15,000.00 USD** (Fully covered by local private equity seed placement).
 *   **Physical Footprint Required:** 150 Square Feet (Fits comfortably inside a standard residential garage, basement, or workshop utility bench footprint).
 *   **Maximum Production Throughput Floor:** Generates up to **750 completed consumer smart units** or **2,000 localized industrial components** per 30-day cycle. 
 *   **The Cash Velocity Window:** Clears an average of **$5,570.00 to $17,325.00 USD in clean monthly net profits**, providing the direct financial foundation to self-fund Phase 2 without outside debt.
