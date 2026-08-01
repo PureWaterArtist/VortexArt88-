@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "2.0.0-RC-Metamaterial",
+    "profile_version": "3.0.0-RC-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -11,28 +11,42 @@
         "bottom_solid_layers": 4,
         "infill_density": "25%",
         "infill_pattern": "gyroid",
-        "internal_solid_infill_pattern": "aligned_rectilinear",
         "nozzle_temperature": "238C",
         "bed_temperature": "55C",
         "max_volumetric_speed": "3.5mm3/s",
-        "extrusion_multiplier_flow": "1.03",
+        "extrusion_multiplier_flow": "1.02",
         "cooling_fan_speed": "20%",
-        "structural_purpose": "Variable-density trabecular outer RC body shell. Utilizing 25% Gyroid infill within a 3-wall shelled TPU casing replicates the internal structure of bird skulls. This eliminates 38% of dead vehicle mass while forcing crash impact waves to scatter through continuous mathematical curves, entirely preventing structural splitting."
+        "structural_purpose": "Variable-density trabecular outer RC shell bumper [1.1]. Executed with 25% Gyroid infill within a 3-wall skinned TPU chassis to damp concrete drop shock forces across internal math curves without splitting [1.1]."
       },
       
-      "rc_gazelle_heatsink_spine_nacf": {
-        "layer_height": "0.16mm",
-        "wall_loops": 4,
-        "top_solid_layers": 5,
+      "rc_rigid_spine_and_cups_nacf": {
+        "layer_height": "0.12mm",
+        "wall_loops": 5,
+        "top_solid_layers": 4,
         "bottom_solid_layers": 4,
         "infill_density": "100%",
         "infill_pattern": "concentric",
-        "nozzle_temperature": "288C",
-        "bed_temperature": "85C",
+        "nozzle_temperature": "285C",
+        "bed_temperature": "80C",
         "max_volumetric_speed": "5.5mm3/s",
-        "extrusion_multiplier_flow": "1.01",
+        "extrusion_multiplier_flow": "1.00",
         "cooling_fan_speed": "0%",
-        "structural_purpose": "Rigid internal motor spine and upper convective heatsink lid. Sliced in Carbon-Fiber Nylon at 100% dense concentric toolpaths to secure absolute gear mesh rigidity, while printing the upper air chimneys supportless to draw heat away from the motor vault."
+        "structural_purpose": "Rigid internal motor spine and outer female axle slider cups [1.1]. Hard-coded to a fine 0.12mm height and 100% solid concentric toolpaths in Carbon-Fiber Nylon to guarantee the internal 3.2mm square keyways hold absolute flat walls that never strip under motor torque [1.1, 1.2]."
+      },
+      
+      "rc_telescoping_shafts_pp": {
+        "layer_height": "0.16mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "aligned_rectilinear",
+        "nozzle_temperature": "240C",
+        "bed_temperature": "85C",
+        "max_volumetric_speed": "7.0mm3/s",
+        "extrusion_multiplier_flow": "1.03",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Ductile inner male sliding axle shafts. Sliced in chemical-resistant Polypropylene (PP) to absorb sudden rotational gear shock during jump landings while sliding freely inside the female keyways [1.1, 1.2]."
       }
     }
   }
