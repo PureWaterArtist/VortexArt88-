@@ -16,8 +16,8 @@
 *   **📐 ONE-SIZE-FITS-MANY AUXETIC AIRFRAME HULL**  
     Your feet naturally expand and lengthen uniformly with every stride you take. Traditional shoes pin and squeeze your bones, causing hot spots and blisters. By integrating a specialized Re-Entrant Auxetic Mesh Ring into the heel and sidewall parameters, the material dynamically stretches and self-adjusts uniformly across three full shoe sizes to maintain a soft, rattle-free custom friction fit.
 
-*   **🐐 MOUNTAIN-GOAT TRACTION OUTSOLE TREADS**  
-    The underside outsole incorporates deep, split-cleat tread patterns modeled after the dual-hoof mechanics of mountain goats. The outer rim holds a dense, rigid alignment on concrete, while the interior cleat channels flex to multiply their surface area over wet tile, mud, or loose dirt, providing exceptional slip resistance completely supportless right off the print bed.
+*   **🔒 SLIDE-LOCK SPLINES WITH REAR HEEL-TOGGLE**  
+    Built for maximum stability without high-cost glue lines. The upper shell slides forward into continuous T-shaped female tracks in the sole, instantly blocking vertical pulling and twisting walking shear. The moment it bottoms out, a built-in rear transverse pin cylinder locks flat into a flexible vertical heel pocket with a sharp mechanical click, ensuring the sole can never back-slip or eject during hard runs.
 
 *   **🌿 REWARDED \$15.00 LIFETIME WARRANTY RETURN LOOP**  
     This product is 100% recyclable exclusively through our Direct-to-Foundry Mail-In Retrieval Program, as standard municipal city recycling bins cannot process engineering-grade advanced elastomers. When you are ready to upgrade your universal pair, simply scan the internal QR matrix to print a pre-paid return label. The moment it lands back at our Westland workshop, an automated **$15.00 Core-Credit Discount Voucher** is dropped to your account for your next asset.
