@@ -41,10 +41,8 @@ Every standalone workshop run must clear this dual mechanical-electrical audit b
 
 ---
 
-## 🌿 SECTION 3: THE LIFETIME sovereign CIRCULAR WARRANTY LOOP
+## 🌿 SECTION 3: THE LIFETIME SOVEREIGN CIRCULAR WARRANTY LOOP
 
-We build systems to last, and we protect our ecosystem. Every Matrix Smart Case is fully backed by a lifetime circular material warranty. 
+We protect our planet while defending your smartphone infrastructure. Every Matrix Smart Case is fully backed by a lifetime circular material warranty, **sustainable exclusively through our dedicated, proprietary Direct-to-Foundry Mail-In Retrieval Program.**
 
-When you are ready to upgrade your smartphone model or change your device footprint, do not discard your hardware shell into a municipal waste stream. Scan the OSHWA-certified QR emblem matrix located inside the core chassis bay to instantly generate a pre-paid return shipping label. 
-
-Pack your retired case shield into any standard envelope and drop it into a USPS mailbox. The exact moment our local micro-foundry node registers your package's postal tracking barcode scan, an automated **$15.00 USD Core-Credit Discount Voucher** will be delivered straight to your account to back your next-generation hardware upgrade. We turn yesterday's protection armor into tomorrow's sovereign infrastructure assets.
+When you are ready to upgrade your smartphone model or change your device footprint, do not discard your hardware shell into a municipal public waste stream, as standard city recycling facilities lack the specialized infrastructure to process advanced metamaterials. Scan the OSHWA-certified QR emblem matrix located inside your core chassis bay to instantly generate a pre-paid return shipping label. Pack your retired case shield into any standard envelope and drop it into a USPS mailbox. The exact moment our local micro-foundry node registers your package's postal tracking barcode scan, an automated **$15.00 USD Core-Credit Discount Voucher** will be delivered straight to your account, applicable exclusively toward your next-generation hardware upgrade.
