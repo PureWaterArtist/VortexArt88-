@@ -3,6 +3,20 @@
 **Target Resource Draw:** Less than 30 Minutes of Manual Workbench Interaction Per Day  
 **Operational Posture:** 100% Hands-Off Autonomy / Zero-Babysitting Processing Loops  
 
+```
+  [ THE 24-HOUR CONTINUOUS RUNWAY ]
+                 │
+  ┌──────────────┴──────────────┐
+  ▼                             ▼
+[ 07:00 AM INTAKE ]          [ 09:30 PM DISPATCH ]
+- 15 Mins: Stripping beds    - 15 Mins: Quick-clean plates
+- Snap-lock parts together   - Hit print on overnight runs
+- Package & label drop-offs  - Walk away into deep sleep
+  ▲                             │
+  └─────────────────────────────┘
+  ( 23.5 Hours of Complete Machine Autonomy )
+```  
+
 ---
 
 ## 📈 1. THE TWICE-DAILY FULFILLMENT CADENCE
