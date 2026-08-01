@@ -1,7 +1,9 @@
 # 🏛️ Circular Footwear — Turnkey Commercial Brand Manifest
-**System Version:** 5.2.0-Consumer Master  
+**System Version:** 5.3.0-Consumer Master  
 **Distribution Channel Strategy:** Direct-to-Consumer (DTC) Online Flash Drops / Sovereign Micro-Foundry  
 **BOM Sourcing Baseline:** $5.04 USD Turnkey Lot Cost / $49.00 DTC Ticket Price  
+
+This document codifies the strategic branding framework, retail tier configurations, monthly cash velocity models, and intellectual property protective boundaries required to launch this footwear architecture as a self-contained local business loop.
 
 ---
 
@@ -10,7 +12,8 @@
 | Distribution Sales Channel | Front-Facing Retail Price | Raw Manufacturing Cost Base | Net Cash Flow Profit Retained | Gross Operating Profit Margin |
 | :--- | :--- | :--- | :--- | :--- |
 | **Turnkey Matrix Clog** | $49.00 USD / Pair | $5.04 USD (Virgin Spools) | **$43.96 USD** | **89.7% Gross Margin** |
-| **Recycled Core-Run** | $49.00 USD / Pair | $0.18 USD (Workshop Util) | **$48.82 USD** | **99.6% Gross Margin** |
+| **Recycled Core-Run** | $34.00 USD / Pair | $0.18 USD (Workshop Util) | **$33.82 USD** | **99.4% Gross Margin** |
+| **Bulk Retail Wholesale (B2B)** | $25.00 USD / Pair | $5.04 USD (Virgin Spools) | **$19.96 USD** | **79.8% Gross Margin** |
 
 ---
 
@@ -32,5 +35,5 @@ By running your 3-printer Bambu Lab P1S farm cell at an easy, part-time fulfillm
 
 ## 🛡️ 3. INTELLECTUAL PROPERTY & DEFENSIBLE MONOPOLY
 
-*   **OSHWA Copyleft Prior-Art Shield:** By logging your parametric `.scad` model file layout and toolpath profiles with the Open Source Hardware Association under a secure copyleft framework, you establish an official, time-stamped legal paper trail of prior art. If a corporate competitor tries to steal your rear-latch pin layout or longitudinal slide splines, the copyleft license legally forces them to release all of their software updates publicly—blocking them from ever patenting your invention.
+*   **OSHWA Copyleft Prior-Art Shield:** By logging your parametric `.scad` model file layout and toolpath profiles with the Open Source Hardware Association under a secure copyleft framework, you establish an official, time-stamped legal paper trail of prior art. If a corporate competitor tries to steal your Debris Evacuation Relief Wells or the Overlocking Crocodile Hood Pocket, the copyleft license legally forces them to release all of their software updates publicly—blocking them from ever patenting your invention.
 *   **The Proprietary Slicing Key:** While the main chassis is public, the precise horizontal tolerance offset compensation indices and custom retraction fan slicing parameters inside `footwear_slicing_profiles.json` remain locked in your private vault. A competitor downloading the raw mesh will print a warped, permanently welded block of plastic, making your private workshop the only entity on Earth that can cleanly manufacture the functional, toolless telescoping footwear drivetrain.
