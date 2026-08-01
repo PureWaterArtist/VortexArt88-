@@ -1,9 +1,10 @@
 # 📊 Footwear Variant — Retail Sourcing & Monetization Matrix
-**System Version:** 5.2.0-Consumer Master  
+**System Version:** 5.3.0-Consumer Master  
 **Verified Bulk BOM Cost Base:** $5.04 USD per Turnkey Pair  
 **Target Consumer Price:** $49.00 USD (DTC Retail Standard Baseline)  
+**Engineering Fix Integration:** Debris Evacuation Relief Wells & Overlocking Crocodile Hood
 
-This document codifies the precise retail pricing targets, wholesale tier channels, and projected monthly cash flow velocities for the standalone footwear product line.
+This document codifies the precise retail pricing targets, wholesale tier channels, and projected monthly cash flow velocities for the un-jammable, anti-peeling footwear product line.
 
 ---
 
