@@ -1,0 +1,38 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0-Tablet",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "tablet_bumper_high_rebound_tpu": {
+        "layer_height": "0.20mm",
+        "wall_loops": 5,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "25%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "238C",
+        "bed_temperature": "55C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "extrusion_multiplier_flow": "1.02",
+        "cooling_fan_speed": "20%",
+        "structural_purpose": "Heavy-duty flexible tablet auxetic bumper frame. Bumped to 5 wall loops to handle increased tablet drop momentum, ensuring the outer interlocking dovetails hold maximum shear strength."
+      },
+      
+      "tablet_rails_carbon_fiber_nylon": {
+        "layer_height": "0.16mm",
+        "wall_loops": 5,
+        "top_solid_layers": 5,
+        "bottom_solid_layers": 5,
+        "infill_density": "100%",
+        "infill_pattern": "concentric",
+        "nozzle_temperature": "288C",
+        "bed_temperature": "85C",
+        "max_volumetric_speed": "5.5mm3/s",
+        "extrusion_multiplier_flow": "1.01",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "High-stiffness rigid inner framework. Sliced at 100% solid concentric fill in PA-CF to bridge the wide 247mm tablet span without flexing or bowing, keeping the integrated 1.5mm wire gutters aligned perfectly."
+      }
+    }
+  }
+}
