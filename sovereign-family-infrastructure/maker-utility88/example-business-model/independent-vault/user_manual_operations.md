@@ -38,3 +38,13 @@ Every standalone workshop run must clear this dual mechanical-electrical audit b
 ### Test 2: The Armadillo Dovetail Mechanical Wear Test
 *   **SOP:** Mount a modular battery accessory module into the case's exterior **T-Slot Dovetail Interlocking puzzle tracks**. Secure the assembly inside a mechanical stress-testing rig that subjects the dovetail joint to 1,000 continuous slide-and-snap cycles under a 2.0 kg tensile load weight.
 *   **Evaluation Parameters:** The mechanical armadillo dovetail nodes must completely retain their structural locking geometry. The slide tracking must show **zero polymer peeling, zero structural rounding, and zero structural creep elongation** across the alignment boundaries. This confirms that eliminating expensive, thermal-sensitive Neodymium magnets has successfully preserved the case’s lifetime mechanical wear rating.
+
+---
+
+## 🌿 SECTION 3: THE LIFETIME sovereign CIRCULAR WARRANTY LOOP
+
+We build systems to last, and we protect our ecosystem. Every Matrix Smart Case is fully backed by a lifetime circular material warranty. 
+
+When you are ready to upgrade your smartphone model or change your device footprint, do not discard your hardware shell into a municipal waste stream. Scan the OSHWA-certified QR emblem matrix located inside the core chassis bay to instantly generate a pre-paid return shipping label. 
+
+Pack your retired case shield into any standard envelope and drop it into a USPS mailbox. The exact moment our local micro-foundry node registers your package's postal tracking barcode scan, an automated **$15.00 USD Core-Credit Discount Voucher** will be delivered straight to your account to back your next-generation hardware upgrade. We turn yesterday's protection armor into tomorrow's sovereign infrastructure assets.
