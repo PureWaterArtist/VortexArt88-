@@ -1,0 +1,53 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.0.0-Upgrades-Master",
+    "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
+    "material_profiles": {
+      
+      "sharkskin_wing_carbon_fiber_nylon": {
+        "layer_height": "0.12mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "concentric",
+        "nozzle_temperature": "285C",
+        "bed_temperature": "80C",
+        "max_volumetric_speed": "5.5mm3/s",
+        "extrusion_multiplier_flow": "1.00",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Rigid high-speed aerodynamic wing. Sliced at a fine 0.12mm layer height with 100% solid concentric toolpaths to ensure the 42.3-degree sharkskin micro-grooves are crisply defined on the build sheet face, while keeping the female dovetail bracket perfectly stiff so it never strips or shears under high-speed downforce wind loads."
+      },
+      
+      "bear_ski_high_flex_polypropylene": {
+        "layer_height": "0.16mm",
+        "wall_loops": 5,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "infill_pattern": "aligned_rectilinear",
+        "nozzle_temperature": "240C",
+        "bed_temperature": "85C",
+        "max_volumetric_speed": "7.0mm3/s",
+        "extrusion_multiplier_flow": "1.03",
+        "cooling_fan_speed": "0%",
+        "structural_purpose": "Ductile snow and mud sled ski pack. Sliced in chemical-resistant Polypropylene with 5 wall loops and 0% cooling fan curves to guarantee absolute impact ductility. The high perimeter wall loop count ensures that the underside paw papillae bumps glide smoothly across ice, sand, and rough terrain without fracturing or delaminating the print layers."
+      },
+      
+      "firefly_bumper_high_impact_tpu": {
+        "layer_height": "0.20mm",
+        "wall_loops": 4,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "30%",
+        "infill_pattern": "gyroid",
+        "nozzle_temperature": "238C",
+        "bed_temperature": "55C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "extrusion_multiplier_flow": "1.02",
+        "cooling_fan_speed": "20%",
+        "structural_purpose": "Energy-dissipating front LED bumper shield. Sliced at 30% Gyroid infill within a 4-wall flexible TPU skin to act as a localized mechanical wave-breaker. This forces front-on wall slam shock energies to scatter through continuous mathematical curves, protecting your 5mm hobby LED bulbs from smashing upon impact."
+      }
+    }
+  }
+}
