@@ -7,7 +7,7 @@
 
 ## 📈 1. ITEM-BY-ITEM INDEPENDENT MATERIAL MASS TRACKING
 
-All material costs are anchored directly to your wholesale volume procurement tiers (\$28.00/kg for soft 85A/90A TPU, \$26.00/kg for dense 95A TPU, and \$24.00/kg for pure bulk Polypropylene spools).
+All material costs are anchored directly to your wholesale volume procurement tiers ($28.00/kg for soft 85A/90A TPU, $26.00/kg for dense 95A TPU, and $24.00/kg for pure bulk Polypropylene spools).
 
 *   **Item 1: Sunflower Mount (82g Dense 95A TPU) ────────►** $2.13 USD Material Base
 *   **Item 2: Water-Lily Dish Rack (210g Food-Safe PP) ────►** $5.04 USD Material Base
@@ -20,7 +20,7 @@ All material costs are anchored directly to your wholesale volume procurement ti
 *   **Item 9: Rose-Thorn Hooks (4x Hooks = 18g 95A TPU) ────►** $0.47 USD Material Base
 *   **Item 10: Passion-Flower Keys (6x Keys = 6g 95A TPU) ──►** $0.16 USD Material Base
 *   **Total Local Farm Electrical Surcharge (12.4 Machine Hours):** $0.94 USD Utility Base
-*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** \(\mathbf{$21.80\text{ USD Combined Out-of-Pocket}}\)
+*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** **$21.80 USD Combined Out-of-Pocket**
 
 ---
 
@@ -34,7 +34,7 @@ Because this collection is marketed as an integrated, interchangeable designer b
 *   **The Gross Margin Index:** An unprecedented **83.1% clear net profit retained** straight into the family ledger.
 
 ### 🛡️ The 3-Printer Monthly Capacity Ledger (Fulfillment Rhythm)
-By dedicating your 3-printer fleet part-time to execute just **two full box set runs per machine loop a week**, your monthly revenue curves track across these exact milestones:
+By dedicating your 3-printer fleet part-time to execute just two full box set runs per machine loop a week, your monthly revenue curves track across these exact milestones:
 
 $$\text{Fulfillment Cadence} = 6 \text{ Box Sets Per Week} \times 4 \text{ Weeks} = \mathbf{24\text{ Finished Sets / Month}}$$
 $$\text{Total Monthly Gross Revenue Pool} = 24 \text{ Sets} \times \$129.00 = \mathbf{\$3,096.00\text{ USD / Month}}$$
