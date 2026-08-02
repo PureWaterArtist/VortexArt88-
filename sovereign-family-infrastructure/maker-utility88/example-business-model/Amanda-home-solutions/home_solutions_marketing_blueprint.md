@@ -1,7 +1,7 @@
 # 🏛️ Matrix Floral Home Solutions — Retail Customer Blueprint
 **Brand Identity Profile:** Elevated Functional Interior Architecture  
 **Target Retail Sizing Box Set Ticket Price:** $129.00 USD Complete  
-**Core Value Proposition:** Un-Jammable Air-Bleed Architecture Meets True Direct-to-Foundry Circular Recycling  
+**Core Value Proposition:** Un-Jammable Fluid-Draining Architecture Meets True Circular Recycling  
 
 ---
 
@@ -16,9 +16,9 @@
 *   **🌷 THE TULIP TP HOLDER WITH SPRINGLESS MEMORY**  
     Say goodbye to cheap, annoying paper towel and toilet paper stands that fly out of your hands or slide loose across the floor. The Tulip Core features four flexible, leaf-shaped splines that curve upward into a closed flower bud. Sliding a fresh paper roll down over the top naturally expands the rubber leaves, which instantly snap back open under natural structural memory to trap the roll securely without a single metal spring to rust or break.
 
-*   **🔒 PASSION-FLOWER CONNECTOR WITH ANTI-PRESSURE AIR VENTS**  
-    True interchangeable modular layout freedom without messy glues or tools. Every single piece in this floral collection snaps lock seamlessly over a central hexagon wall plate using our Passion-Flower spline key. The sockets feature a built-in micro air-bleed vent hole that instantly exhausts air pressure during insertion, eliminating pneumatic resistance completely to ensure a fluid, rock-solid 90-degree lock that supports over 25 pounds of weight.
+*   **🔒 PASSION-FLOWER MASTER LOCK WITH FLUID-DRAINAGE GUTTERS**  
+    True interchangeable modular layout freedom without messy glues, screws, or tape. Every single piece in this floral collection snaps lock seamlessly over our central hexagon wall keys using the Passion-Flower spline turn-dial. The mounting sockets feature an integrated grid of four cross-hatched fluid drainage gutters and a deep center core air vent, instantly flashing out trapped wash-water and air pressure to guarantee a smooth, wiggle-free 90-degree lock that supports 25 pounds of weight even in wet bathrooms.
 
 *   **🌿 REWARDED \$25.00 LIFETIME WARRANTY RETURN LOOP**  
-    This product is 100% recyclable exclusively through our Direct-to-Foundry Mail-In Retrieval Program, as standard municipal city recycling bins cannot process engineering-grade advanced elastomers. When you are ready to upgrade your universal pair, simply scan the central QR code emblem located on the base of your product box to print a pre-paid return label. The moment it lands back at our Westland workshop, an automated **$25.00 Box-Set Core-Credit Voucher** is dropped to your account for your next asset.
+    This product is 100% recyclable exclusively through our Direct-to-Foundry Mail-In Retrieval Program, as standard municipal city recycling bins cannot process engineering-grade advanced elastomers or specialized polyolefins. When you are ready to upgrade your universal home collection, simply scan the central QR code emblem located on the base of your product box to print a pre-paid return shipping label. Slide the pieces apart toollessly, drop them into an envelope, and mail them back to our workshop. The exact micro-second our local micro-foundry registers your package's tracking scan, an automated **$25.00 Box-Set Core-Credit Voucher** will be delivered to your account to back your next style upgrade.
     
