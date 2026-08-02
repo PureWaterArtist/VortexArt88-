@@ -1,6 +1,6 @@
 // Matrix Biomimetic Utilities - Resonant-Class Biomimetic Hard Hat
-// Version 1.2.0-Helmet Core | Helicoid Mantis Spline & Lotus Deflector Skin
-// System Core: Helicoid Energy-Scattering Carapace + Superhydrophobic Micro-Papillae
+// Version 1.3.0-Helmet Core | Swept-Fillet Helicoid Mantis & Lotus Matrix
+// System Core: Continuous Filleted Micro-Papillae + Sinusoidal Ridgeways
 
 // ============================================================================
 // 🏛️ GLOBAL PARAMETRIC VARIABLES & HELMET GEOMETRIES
@@ -48,22 +48,20 @@ module Full_Biomimetic_Hard_Hat() {
                     cylinder(h=MAG_THICKNESS + 0.2, r=(MAG_DIAMETER - FIT_TOLERANCE)*0.5, center=true, $fn=40);
             }
             
-            // 🦈 MANTIS SHRIMP HELICOID SHOCK RIDGEWAY ARRAY
-            // Extrudes a sinusoidal sweeping wave rib structure across the exterior dome
-            // to scatter linear impact waves and force energy along a twisting deflection loop.
+            // MANTIS SHRIMP HELICOID SHOCK RIDGEWAY ARRAY
             for (rib_arc = [-60 : 30 : 60]) {
                 rotate([rib_arc, 0, 0])
                     difference() {
-                        // Twisting sinusoidal wave modifier calculation loop
                         scale([1, 1 + 0.08*sin(rib_arc*3), 1])
                             torus(r1=HELMET_DIAMETER*0.5 + SHELL_THICKNESS*0.5, r2=1.6);
                         translate([0, 0, -TOTAL_DEPTH*0.5]) cube([HELMET_DIAMETER*2, HELMET_DIAMETER*2, TOTAL_DEPTH], center=true);
                     }
             }
             
-            // 🌿 LOTUS-EFFECT SUPERHYDROPHOBIC MICRO-PAPILLAE SKIN
-            // Tiles hundreds of sub-millimeter parametric cones to trap an air envelope,
-            // forcing industrial chemical spills and mud to bead up and roll off instantly.
+            // 🌿 🛠️ BUGFIX: LOTUS-EFFECT SWEPT-FILLET MICRO-PAPILLAE SKIN
+            // Replaces standalone cones with continuous hull fillet blends.
+            // Distributes high-velocity side-impact shear loads down the wide base curves,
+            // preventing the papillae from cracking or shattering under tool strikes.
             intersection() {
                 difference() {
                     sphere(d=HELMET_DIAMETER + SHELL_THICKNESS*2 + 0.6, $fn=100);
@@ -75,7 +73,12 @@ module Full_Biomimetic_Hard_Hat() {
                         for (theta = [0 : 15 : 359]) {
                             rotate([0, phi, theta])
                                 translate([0, 0, HELMET_DIAMETER*0.5 + SHELL_THICKNESS])
-                                    cylinder(h=PAPILLAE_SIZE, r1=PAPILLAE_SIZE*0.5, r2=0.05, center=false, $fn=10);
+                                    // 🛠️ Continuous Flare-Base Cone Modification
+                                    hull() {
+                                        cylinder(h=PAPILLAE_SIZE*0.3, r1=PAPILLAE_SIZE*0.9, r2=PAPILLAE_SIZE*0.4, center=false, $fn=10);
+                                        translate([0, 0, PAPILLAE_SIZE*0.3])
+                                            cylinder(h=PAPILLAE_SIZE*0.7, r1=PAPILLAE_SIZE*0.4, r2=0.05, center=false, $fn=10);
+                                    }
                         }
                     }
                 }
@@ -83,7 +86,6 @@ module Full_Biomimetic_Hard_Hat() {
         }
         
         // LAYER 2: RE-ENTRANT AUXETIC SHOCK COMPACTION LATTICE
-        // Co-extruded via high-rebound 95A TPU to permanently absorb rotational torque
         color([0.4, 0.4, 0.4, 0.6]) {
             translate([0, 0, -0.2]) {
                 intersection() {
@@ -121,7 +123,7 @@ module ReEntrant_Auxetic_BowTie_Cell() {
         translate([0, -AUX_H*0.5, 0]) cube([AUX_L, wall_w, AUX_H], center=true);
         
         translate([AUX_L*0.25, 0, 0]) rotate() cube([wall_w, AUX_H*1.1, AUX_H], center=true);
-        translate([-AUX_L*0.25, 0, 0]) rotate([0, 0, -32]) cube([wall_w, AUX_H*1.1, AUX_H], center=true);
+        translate([-AUX_L*0.25, 0, 0]) rotate([0, 0, -30]) cube([wall_w, AUX_H*1.1, AUX_H], center=true);
         
         cube([AUX_W, wall_w, AUX_H], center=true);
     }
