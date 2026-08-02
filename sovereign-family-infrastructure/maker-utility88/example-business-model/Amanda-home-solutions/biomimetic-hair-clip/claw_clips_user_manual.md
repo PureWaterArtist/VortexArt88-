@@ -1,5 +1,5 @@
 # 🔧 Biomimetic Claw Clips — User Operation Manual & Shop SOP
-**System Version:** 1.4.0-Claw Core Master  
+**System Version:** 1.5.0-Claw Core Master  
 **Operational Target:** 100% Solid-State Springless Hair Tension  
 **Zoning Authority:** FTC Green Guides Compliance Code (16 CFR Part 260 Insulation)  
 
@@ -12,8 +12,9 @@ Because these single-piece claw clips are manufactured utilizing a print-in-plac
 ### 1. The Sub-35°C Plate Cool-Down Track
 *   **Action:** Never attempt to yank or rip fresh clips off the heated print sheet the moment a production run concludes. Allow the Bambu Lab P1S print chamber and the spring steel PEI plate to naturally cool below 35°C. This allows the 95A TPU or Polypropylene polymer chain links to fully stabilize to their hard-coded dimensions, completely preventing stretching or channel warping defects.
 
-### 2. The First-Bed Flex Release
-*   **Action:** Grab the cooled spring steel PEI sheet with both hands. Apply a slight, 5-degree twisting motion to the steel sheet. The 16 tiled claw clips will instantly and cleanly click-release from the textured bed face with flat-zero scraping tools or support material scars.
+### 2. The Segmented Quadrant Harvest Press
+*   **Action:** Take the cooled build sheet out of the print core. Place your thumbs directly on the 15mm wide clear cross runways running down the center axes of the plate. Apply flat, downward thumb pressure to the center of the sheet.
+*   **The Release Mechanics:** The spring steel plate will flex locally inside its independent quadrants. One isolated 4-clip neighborhood will instantly click and pop off the bed face, completely eliminating cross-plate rubber tooth tension or structural bending warp. Repeat the press across the other three quadrants to harvest all 16 clips straight and perfectly spec-aligned with zero toolpath damage.
 
 ### 3. The Structural Hinge Breakout Snap
 *   **Action:** Take an individual clip from the collection bin. Hold the left and right claw jaw wings firmly in each hand. Apply flat, symmetric squeezing pressure to the outer thumb handles. 
