@@ -1,5 +1,5 @@
 # 🔧 Biomimetic Claw Clips — User Operation Manual & Shop SOP
-**System Version:** 1.2.0-Claw Core Master  
+**System Version:** 1.4.0-Claw Core Master  
 **Operational Target:** 100% Solid-State Springless Hair Tension  
 **Zoning Authority:** FTC Green Guides Compliance Code (16 CFR Part 260 Insulation)  
 
@@ -30,7 +30,7 @@ Provide these exact, plain-English instructions on your digital Shopify storefro
 
 ### 2. The Self-Adjusting Hair Anchor
 *   **Action:** Gather your hair bundle into a twist and place the open clip directly over the core of the hair column. Release your grip. 
-*   **The Physics Grip:** The central Chevron Living Spring will instantly engage, delivering a constant, uniform, rustproof closing force that never pinches or pulls single strands. The internal logarithmic curved "Cat's Claw" teeth will automatically glide through your hair fibers, flexing elastically inward to distribute torsion weight across the 3D gyroid web. The clip will lock your style perfectly in place for an 8-hour shift without sliding down or causing head hot-spots.
+*   **The Physics Grip:** The central Chevron Living Spring will instantly engage, delivering a constant, uniform, rustproof closing force that never pinches or pulls single strands. The internal 120-degree asymmetrical herringbone grip ribs will automatically lock into your hair fibers. When the weight of the hair pushes outward, the herringbone grooves naturally spread open laterally like an expanding accordion fan, widening the surface contact area directly inside the hair matrix to guarantee an un-shakable all-day hold without standard pin fatigue or head hot-spots.
 
 ---
 
