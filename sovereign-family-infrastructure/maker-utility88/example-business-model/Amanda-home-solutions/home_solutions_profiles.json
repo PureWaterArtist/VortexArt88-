@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.1.0-Home-Solutions-Master",
+    "profile_version": "1.2.0-Home-Solutions-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -13,12 +13,14 @@
         "infill_pattern": "gyroid",
         "nozzle_temperature": "238C",
         "bed_temperature": "55C",
-        "max_volumetric_speed": "4.2mm3/s",
+        "max_volumetric_speed": "3.5mm3/s",
         "extrusion_multiplier_flow": "1.02",
         "cooling_fan_speed": "15%",
+        "prime_tower_enable": true,
+        "prime_tower_width": "15.0mm",
         "xy_hole_compensation": "0.30mm",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Heavy-duty structural elements including Sunflower mounts, Tulip terminals, Orchid caddies, and Rose-Thorn hooks. Wall loops bumped to 5 specifically around the Universal Interface Keyway air-bleed tubes to maintain clean, watertight channel seals under high torque."
+        "structural_purpose": "Structural elements (Plate 1). Capped at 3.5mm3/s volumetric flow speed backed by a 15mm prime pillar loop to maintain stable nozzle pressure across varying geometries, preventing spline under-extrusion errors."
       },
       
       "sanitary_pouches_soft_tpu_85a": {
@@ -34,7 +36,7 @@
         "extrusion_multiplier_flow": "1.04",
         "cooling_fan_speed": "30%",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Flexible wall storage units like the Succulent Wall Pods. Sliced in soft-touch 85A TPU with an independent air-bleed escape bore to ensure easy, vacuum-free wall mount attachment."
+        "structural_purpose": "Flexible wall storage units (Plate 3). Sliced in soft 85A TPU over the textured PEI sheet to lock in a suede-like satin finish that matches premium ceramics."
       },
       
       "meal_prep_containers_food_safe_pp": {
@@ -52,7 +54,8 @@
         "brim_type": "outer_only",
         "brim_width": "10.0mm",
         "brim_object_gap": "0.00mm",
-        "structural_purpose": "Hydrophobic food-contact elements including Water-Lily dish racks and Peony school meal containers. Sliced in high-shrinkage Polypropylene (PP). Enforces a mandatory 10.0mm solid brim at a perfect zero-gap offset combined with 0% cooling fan speeds to lock the plastic down flat, entirely eliminating edge-curling or bed warping bed delamination."
+        "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
+        "structural_purpose": "Food-contact elements (Plate 2). Incorporates a specialized thermal quenching end-script that triggers internal auxiliary room fans at 100% speed while dropping bed heaters to zero instantly. This rapid cooling freezes the Polypropylene strands into a non-crystalline, flexible state to prevent living hinge cracks."
       }
     }
   }
