@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.5.0-Home-Solutions-Final",
+    "profile_version": "1.6.0-Home-Solutions-Final",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -20,7 +20,7 @@
         "prime_tower_width": "15.0mm",
         "xy_hole_compensation": "0.30mm",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Heavy-duty structural elements including Sunflower mounts, Tulip terminals, and Rose-Thorn hooks (Plate 1). Capped at a strict 3.5mm3/s volumetric flow speed backed by a 15mm prime pillar loop to maintain perfectly uniform internal nozzle pressure across varying geometries, entirely preventing spline under-extrusion or structural tooth brittleness."
+        "structural_purpose": "Heavy-duty structural elements including Sunflower mounts, Tulip terminals, and Rose-Thorn hooks (Plate 1). Capped at a strict 3.5mm3/s flow velocity with an active 15mm prime tower to guarantee perfectly uniform internal nozzle pressure across varying geometries, entirely preventing spline under-extrusion or structural tooth brittleness."
       },
       
       "sanitary_pouches_soft_tpu_85a": {
@@ -36,7 +36,7 @@
         "extrusion_multiplier_flow": "1.04",
         "cooling_fan_speed": "30%",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Flexible wall storage units and flat-printed caddy grip sleeve bands (Plate 3). Sliced in soft 85A TPU with an expanded -0.30mm horizontal contour clearance override to completely neutralize rubber thermal die-swell, ensuring the male T-splines slide into the rigid organizer channels smoothly without sticking friction."
+        "structural_purpose": "Flexible wall storage units and flat-printable caddy grip sleeve bands (Plate 3). Sliced in soft 85A TPU with an expanded -0.30mm horizontal contour clearance override to completely neutralize rubber thermal die-swell, ensuring the tapered male T-splines slide into the rigid organizer channels smoothly without sticking friction."
       },
       
       "meal_prep_containers_food_safe_pp": {
@@ -56,7 +56,7 @@
         "brim_object_gap": "0.00mm",
         "xy_hole_compensation": "0.12mm",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "Hydrophobic food-contact elements and rigid organizer frames (Plate 2). Sliced in high-shrinkage Polypropylene (PP). Enforces a 10mm solid brim at a perfect zero-gap offset combined with 0% print fan cooling to lock the base down flat against plate warping. Applies a +0.12mm hole compensation override to neutralize PP's 2% crystallization shrinkage, keeping internal female T-slots perfectly spec-aligned to receive the separate TPU grip linings. Appends a high-velocity auxiliary fan end-script to rapidly flash-cool living hinges into a permanently flexible, non-brittle state."
+        "structural_purpose": "Hydrophobic food-contact elements, nested containers, and rigid organizer frames (Plate 2). Sliced in high-shrinkage Polypropylene (PP). Enforces a 10mm solid brim at a perfect zero-gap offset combined with 0% print fan cooling to lock the base down flat against plate warping. Applies a +0.12mm hole compensation override to neutralize PP's 2% crystallization shrinkage, keeping internal female T-slots perfectly spec-aligned to receive the separate TPU grip linings. Appends a high-velocity auxiliary fan end-script to rapidly flash-cool living hinges into a permanently flexible, non-brittle state."
       }
     }
   }
