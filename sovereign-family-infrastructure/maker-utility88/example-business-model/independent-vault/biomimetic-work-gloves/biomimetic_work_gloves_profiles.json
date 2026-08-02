@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0-Glove-Core-Final",
+    "profile_version": "1.2.0-Glove-Core-Final",
     "target_hardware": "Bambu_Lab_P1S_Custom_Acoustic_Nozzle_Engine",
     "material_profiles": {
       
@@ -18,7 +18,7 @@
         "retraction_speed_limit": "25.0mm/s",
         "z_hop_lift_height": "0.00mm",
         "cooling_fan_speed": "40%",
-        "structural_purpose": "High-dexterity non-slip shop gloves (85A Matte TPU). Sliced at a dense 0.12mm layer height to sharply capture the swept-back V-shaped geometry of the dermal placoid scales. Implements a hardcoded 1.20mm extra retraction distance paired with a flat 0.00mm Z-hop lift and a slow 14.5 mm/s travel cap over the texture zones. This entirely counters nozzle pressure lag, preventing fuzzy stringing and securing clean fluid-channeling pathways."
+        "structural_purpose": "High-dexterity non-slip shop gloves (85A Matte TPU). Sliced at a dense 0.12mm layer height to capture the thinned 1.40mm walls and 8mm magnet press-fit pocket walls. Hardcodes a flat 0.00mm Z-hop lift and a slow 14.5 mm/s travel cap over the texture zones to eliminate retraction pressure lag, securing sharp 0.20mm compression-fit reduction borders around the Neodymium disc cavities."
       },
       
       "impact_armor_tpu_95a_dense": {
@@ -34,7 +34,7 @@
         "retraction_length_override": "0.80mm",
         "z_hop_lift_height": "0.00mm",
         "cooling_fan_speed": "25%",
-        "structural_purpose": "Heavy-duty impact protection gloves (95A Dense TPU). Sliced at a 0.16mm layer height to maximize structural wall interlocking around the auxetic dragonfly-wing knuckle cells. Holds zero Z-hop lift to prevent material peeling, ensuring maximum shock-dampening strength against sudden wrench slips or wrench-handling mechanical strikes."
+        "structural_purpose": "Heavy-duty impact protection gloves (95A Dense TPU). Sliced at a 0.16mm layer height to maximize structural wall interlocking around the auxetic dragonfly-wing knuckle cells and the interior 0.4mm asymmetrical leaf membrane flaps, completely neutralizing high-speed capillary micro-suction oil leaks during flexion."
       }
     }
   }
