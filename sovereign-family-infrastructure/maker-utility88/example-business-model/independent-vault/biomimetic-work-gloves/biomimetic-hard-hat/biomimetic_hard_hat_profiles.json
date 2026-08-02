@@ -1,0 +1,32 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.1.0-Helmet-Auxetic-Master",
+    "target_hardware": "Bambu_Lab_P1S_Multi_Material_System",
+    "material_profiles": {
+      
+      "outer_carapace_asa_structural": {
+        "layer_height": "0.20mm",
+        "wall_loops": 5,
+        "nozzle_temperature": "260C",
+        "bed_temperature": "95C",
+        "cooling_fan_speed": "10%",
+        "infill_density": "100%",
+        "structural_purpose": "Woodpecker energy-diverting outer shell (Matte ASA). Sliced with 5 heavy wall loops at high heat to ensure maximum impact shatter resistance and complete UV weatherproofing. Retains absolute circular geometry to cleanly receive the internal auxetic structure."
+      },
+      
+      "internal_crumple_web_tpu_95a": {
+        "layer_height": "0.16mm",
+        "wall_loops": 2,
+        "top_solid_layers": 0,
+        "bottom_solid_layers": 0,
+        "infill_density": "100%",
+        "nozzle_temperature": "238C",
+        "bed_temperature": "55C",
+        "cooling_fan_speed": "35%",
+        "travel_speed_over_texture": "18.0mm/s",
+        "z_hop_lift_height": "0.00mm",
+        "structural_purpose": "3D Re-entrant auxetic honeycomb shock web (95A Dense TPU). Sliced with top and bottom layers dropped to 0 to keep the bow-tie honeycomb channels hollow and wide-open for sweat-vapor ventilation. Enforces a flat 0.00mm Z-hop lift and a strict 18.0mm/s speed cap around the angled re-entrant struts to eliminate retraction stringing, ensuring the material can compress and expand auxetically with zero physical obstructions."
+      }
+    }
+  }
+}
