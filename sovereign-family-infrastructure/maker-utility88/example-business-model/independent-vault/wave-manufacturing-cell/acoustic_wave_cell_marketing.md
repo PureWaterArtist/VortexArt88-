@@ -16,8 +16,8 @@
 *   **📐 THE HUMAN COCHLEA PARABOLIC RESONATOR RING**  
     Standard acoustic transducers blast wave energy in all directions, wasting power as destructive vibration heat that threatens sensitive electronics. Our engine incorporates micro-parabolic acoustic mirrors modeled after the spiral anatomy of the human cochlea inner ear. These curved backplates focus 100% of the backward-radiating sound energy and bounce it directly inward toward the material core, acting as a physical acoustic lens that magnifies wave power while keeping the exterior housing walls completely cold and silent.
 
-*   **⚡ MULTI-AXIS KINETIC TORSION COUPLING**  
-    Traditional automated manufacturing suffers from severe structural weakness between printed layers. Our hardware cell couples the non-contact nozzle with a heavy-duty 120 Hz horizontal bed vibration oscillator. This low-frequency mechanical sweep forces long polymer chains to settle and cross-hatch uniformly across all three structural axes before cooling, permanently scattering stress waves along organic geometric arches to deliver lifetime structural resilience.
+*   **⚡ RESONANT VOLUMETRIC PRECISION CONTROL**  
+    Built to handle high-velocity extrusion without the destructive material tearing or micro-cavitation sputtering common in basic acoustic experiments. Our platform maintains a strict, hardcoded material residence window (10.5 mm³/s for elastomers, 14.2 mm³/s for polyolefins). This matches the exact shear-thinning frequency limits of the polymers, delivering uniform density and perfectly smooth, high-flex boundaries across every single output block.
 
 *   **🛠️ ANTI-FATIGUE GEOMETRIC ASSET LOCK**  
     Built to survive high-volume, 24-hour industrial manufacturing runs without hardware failure. The entire cell chassis completely discards sharp 90-degree internal joints. Every mounting tab and hardware interface incorporates wide, flared geometric fillet loops that smoothly guide vibration energy straight into heavy mass iron damping beds, guaranteeing infinite mechanical lifespan with flat-zero structural hairline shear cracking.
