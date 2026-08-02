@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.2.0-Home-Solutions-Master",
+    "profile_version": "1.3.0-Home-Solutions-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -20,7 +20,7 @@
         "prime_tower_width": "15.0mm",
         "xy_hole_compensation": "0.30mm",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Structural elements (Plate 1). Capped at 3.5mm3/s volumetric flow speed backed by a 15mm prime pillar loop to maintain stable nozzle pressure across varying geometries, preventing spline under-extrusion errors."
+        "structural_purpose": "Heavy-duty structural elements (Plate 1). Capped at 3.5mm3/s volumetric flow speed backed by a 15mm prime pillar loop to maintain stable nozzle pressure across varying geometries, preventing spline under-extrusion errors."
       },
       
       "sanitary_pouches_soft_tpu_85a": {
@@ -54,8 +54,9 @@
         "brim_type": "outer_only",
         "brim_width": "10.0mm",
         "brim_object_gap": "0.00mm",
+        "xy_hole_compensation": "0.12mm",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "Food-contact elements (Plate 2). Incorporates a specialized thermal quenching end-script that triggers internal auxiliary room fans at 100% speed while dropping bed heaters to zero instantly. This rapid cooling freezes the Polypropylene strands into a non-crystalline, flexible state to prevent living hinge cracks."
+        "structural_purpose": "Food-contact elements (Plate 2). Applies an automatic +0.12mm X/Y hole compensation override to the internal hexagonal caddy keyways to neutralize Polypropylene's post-print shrinkage, guaranteeing a perfectly flush, un-jammed mechanical alignment with the 95A TPU locking pins."
       }
     }
   }
