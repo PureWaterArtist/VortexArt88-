@@ -1,5 +1,5 @@
 # 📊 Biomimetic Claw Clips — Production Calculus & Margin Matrix
-**System Version:** 1.2.0-Claw Clip Master  
+**System Version:** 1.4.0-Claw Clip Master  
 **Average Part Mass Overhead:** 11 Grams Combined Polymers Per Completed Unit (Optimized Gyroid Weight)  
 **Target Consumer Price:** $18.00 USD (Minimalist Luxury Standard Baseline)  
 
@@ -17,7 +17,7 @@ All calculations are anchored directly to your wholesale lot procurement pricing
 *   **DTC Retail Front-Facing Ticket Price:** **$18.00 USD / Clip**
 *   **Net Retained Cash Profit Per Clip Sale:**
     $$\text{Net Profit} = \$18.00 - \$0.32 = \mathbf{\$17.68\text{ USD Clear Profit Per Unit}}$$
-*   **Operating Efficiency Index:** An exceptional **98.2% clear net profit margin** retained straight into the family treasury.
+*   **Operating Efficiency Index:** An exceptional **18.2% clear net profit margin** retained straight into the family treasury.
 
 ---
 
