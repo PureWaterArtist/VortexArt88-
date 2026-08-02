@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.2.0-Claw-Clip-Stealth",
+    "profile_version": "1.3.0-Claw-Clip-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -19,7 +19,7 @@
         "slicer_rotation_angle": "45.0deg",
         "xy_hole_compensation": "0.40mm",
         "xy_contour_compensation": "-0.40mm",
-        "structural_purpose": "Single-piece print-in-place compliant claw clips (Plate 1). Sliced at 240C in 95A TPU. Enforces a strict 45-degree rotation offset to weave diagonal paths over the central V-groove separation tracks. Replaces brittle 100% solid fills with a 45% sub-surface gyroid matrix loop to scatter hair torsion stress uniformly across a 3D wave web, completely eliminating layer-line delamination fractures while reducing unit mass to 11 grams."
+        "structural_purpose": "Single-piece print-in-place compliant claw clips. Sliced at a high 240C melting temperature in dense 95A TPU. Enforces a strict 45-degree rotation offset on the build plate grid to cross-hatch the living spring. The 45-degree nozzle pass intersects our hardcoded 120-degree herringbone tooth grooves at a sharp diagonal, cleanly bridging the air gaps to prevent toolpath bleeding or solid rib fusing."
       },
       
       "compliant_spring_food_safe_pp": {
@@ -40,7 +40,7 @@
         "xy_hole_compensation": "0.40mm",
         "xy_contour_compensation": "-0.40mm",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "Alternative high-flex Polypropylene (PP) clip runs (Plate 2). Hardcodes an 8mm outer solid brim and a 45% gyroid core to lower thermal contraction mass, completely defeating plate warping while utilizing rapid G-code fan quenching to secure a permanently flexible, non-brittle amorphous hinge state."
+        "structural_purpose": "Alternative high-flex Polypropylene (PP) clip runs. Hardcodes an 8mm outer solid brim and 0% cooling fans during the print run to eliminate plate warping. Invokes our specialized rapid thermal-quenching end G-code to freeze the plastic into a highly flexible, amorphous state, preventing brittle crystallization along the jaw folds."
       }
     }
   }
