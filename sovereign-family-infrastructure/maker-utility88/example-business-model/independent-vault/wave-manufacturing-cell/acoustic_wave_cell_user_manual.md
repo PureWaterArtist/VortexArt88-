@@ -1,6 +1,6 @@
-# 🔧 Acoustic Rayleigh-Wave Cell — Prototype Operation SOP & Manual
-**System Version:** 1.3.0-Acoustic Core Master  
-**Operational Target:** Non-Contact Wave Boundary Material Processing (Biomimetic Matrix)  
+# 🔧 Acoustic Rayleigh-Wave Cell — Nozzle Platform Operation SOP & Manual
+**System Version:** 1.4.0-Acoustic Core Master  
+**Operational Target:** Non-Contact Wave Boundary Material Processing (Universal Platform)  
 **Zoning Authority:** OSHA Industrial Sound Attenuation Compliance Enforced  
 
 ---
@@ -29,3 +29,15 @@ Our advanced fluid delivery block incorporates optimized natural geometries mode
 
 ### 2. The Cochlear Parabolic Acoustic Calibration
 *   **The Physics Action:** The metal backing chambers behind the 40 kHz piezoelectric crystals are sculpted into micro-parabolic acoustic mirrors. When the crystals shake, these cochlear-shaped shrouds automatically catch the backward-radiating sound energy, focus it, and bounce it straight inward toward the moving material core. This acts as a physical acoustic lens, magnifying the power of the surface-bounded Rayleigh waves on the outer skin of the plastic while keeping the exterior housing walls completely cold, silent, and vibration-isolated from your electronic mainboards.
+
+---
+
+## ⚡ SECTION 3: THE MOLECULAR RESIDENCE FLOW SPECS (FLUID STABILITY CAP)
+
+When utilizing our advanced **Acoustic Rayleigh-Wave Manifold Head**, the operational volumetric flow velocity must be mechanically throttled based on the polymer lot mass to prevent high-speed cavitation tearing and ensure pristine line density:
+
+### 1. The 10.5 mm³/s Elastomer Stability Cap
+*   **The Action:** For advanced flexible materials (85A/95A TPU), the maximum volumetric flow rate must be capped inside the slice engine profile at exactly **10.5 mm³/s**. This limits internal polymer chain friction and prevents sound absorption heat from scorching the core lines.
+
+### 2. The 14.2 mm³/s Polypropylene Velocity Lock
+*   **The Action:** For semi-crystalline polyolefins (PP), the flow rate must be limited to a strict maximum of **14.2 mm³/s**. This guarantees the molten plastic maintains a minimum **0.06-second residence time** inside the 40 kHz acoustic ring. This allows the Rayleigh surface waves to smoothly wrap and compress the outer plastic skin, completely eliminating the high-speed sputtering and internal aeration bubbles that compromise living hinge flexibility.
