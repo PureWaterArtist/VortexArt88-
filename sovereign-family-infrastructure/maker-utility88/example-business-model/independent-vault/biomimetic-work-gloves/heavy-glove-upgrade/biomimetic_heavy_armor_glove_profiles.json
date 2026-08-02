@@ -1,0 +1,38 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "2.0.0-Heavy-Thermal-Master",
+    "target_hardware": "Bambu_Lab_P1S_Custom_Acoustic_Nozzle_Engine",
+    "material_profiles": {
+      
+      "inner_thermal_liner_tpu_85a": {
+        "layer_height": "0.12mm",
+        "wall_loops": 3,
+        "top_solid_layers": 3,
+        "bottom_solid_layers": 3,
+        "infill_density": "100%",
+        "nozzle_temperature": "232C",
+        "bed_temperature": "50C",
+        "max_volumetric_speed": "3.5mm3/s",
+        "retraction_length_override": "1.20mm",
+        "z_hop_lift_height": "0.00mm",
+        "cooling_fan_speed": "40%",
+        "structural_purpose": "High-tactility thermal-insulating inner glove liner (85A TPU). Sliced at a dense 0.12mm layer step-down to sharply capture the microscopic, three-sided Desert Silver Ant dead-air wells and convective cooling siphons. Enforces a flat 0.00mm Z-hop to maintain absolute physical dimensional accuracy around the protruding male snap-anchor alignment posts."
+      },
+      
+      "heavy_carapace_tpu_95a_glass_reinforced": {
+        "layer_height": "0.16mm",
+        "wall_loops": 5,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
+        "infill_density": "100%",
+        "nozzle_temperature": "242C",
+        "bed_temperature": "55C",
+        "max_volumetric_speed": "4.8mm3/s",
+        "retraction_length_override": "1.00mm",
+        "z_hop_lift_height": "0.00mm",
+        "cooling_fan_speed": "20%",
+        "structural_purpose": "Modular snap-on heavy impact armor carapace (Glass-Sphere Particle Compounded 95A TPU). Requires a micro-step nozzle temperature bump to 242C to smoothly flow the 35% glass-sphere reinforcement matrix. Hardcodes a dense 5-wall loop boundary layer around the female snap-capture recesses to suppress thermal expansion mismatches, locking the internal locking ridges dead-flat under 220C hot-pipe exposure."
+      }
+    }
+  }
+}
