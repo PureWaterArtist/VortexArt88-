@@ -1,9 +1,9 @@
-# 📊 Acoustic Rayleigh-Wave Cell — Prototype Sourcing & Investment Calculus
-**System Version:** 1.3.0-Acoustic Core Master  
+# 📊 Acoustic Rayleigh-Wave Cell — Nozzle Platform Investment Calculus
+**System Version:** 1.4.0-Acoustic Core Master  
 **Target Hardware Footprint:** Custom Coaxial Machined Manifold + Dual-Driver Transducer Rings  
 **Allocation Target:** 100% Out-of-Pocket Debt-Free Laboratory Prototyping  
 
-This document itemizes the precise physical components, commercial procurement sourcing paths, and custom lot costs to construct your first operational boundary-free fluid-shaking nozzle cell.
+This document itemizes the precise physical components, commercial procurement sourcing paths, and custom lot costs to construct your first operational boundary-free fluid-shaking nozzle cell platform.
 
 ---
 
@@ -27,20 +27,3 @@ All components are current, standardized industrial lots sourced through direct 
     *   *Sourcing Spec:* SMC Pneumatics 0.5 to 7.0 Bar Precision Air Pressure Regulator (Model: IR1020) hooked straight to your garage shop air compressor to feed the coaxial scrubber jacket.
     *   *Extended Cost:* **$112.00 USD**
 *   **TOTAL COMBINED NOZZLE PROTOTYPE DEVELOPMENT OVERHEAD:** **$849.00 USD Out-of-Pocket**
-
----
-
-## 💰 2. TURNKEY RETAIL MANUFACTURING ECONOMICS
-
-Once this acoustic cell is fully validated on the bench and deployed across your 3-printer fleet, the manufacturing yield velocity scales dramatically. Because the boundary-free air shield drops nozzle friction to absolute zero, **you can print material layers at twice the volumetric velocity of a standard printer while reducing material mass waste to flatly zero**:
-
-*   **Raw Sliced Material Cost (11g Gyroid Hair Clip Base):** $0.29 USD
-*   **Total Local Farm Utility & Acoustic Power Surcharge (24-min print):** $0.05 USD
-*   **Premium Kraft Core Presentation Cushion Box Mailer:** $0.38 USD
-*   **TOTAL TURNKEY RETAIL PACKAGE COST:** **$0.72 USD Sunk Cost / Unit**
-
-### 🏁 Cash Flow Retained on First 100-Unit Runway Run:
-*   **Direct-to-Consumer Ticket Sizing:** **$18.00 USD / Clip**
-*   **Net Independent Operating Profit Pool:** 
-    $$\$18.00 \text{ (Retail Ticket)} - \$0.72 \text{ (Total Package Cost)} = \mathbf{\$17.28\text{ USD Clear Profit Per Unit}}$$
-*   **The Retained Efficiency Index:** A vertical **96.0% clear net profit margin** deposited straight into your family treasury on every single wave-shaped product shipped across the counter. Fulfilling just one single overnight plate batch across your 3 machines prints 48 clips, bringing in **$829.44 in clear household savings in a single 6-hour cycle**.
