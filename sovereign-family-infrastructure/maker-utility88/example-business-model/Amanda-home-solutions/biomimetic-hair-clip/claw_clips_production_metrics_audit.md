@@ -1,8 +1,8 @@
 # 🏛️ Biomimetic Claw Clips — Production Metrics & Capacity Audit
-**System Version:** 1.3.0-Claw Production Master  
+**System Version:** 1.4.0-Claw Production Master  
 **Slicing Protocol:** 45-Degree Diagonal Bed-Hatch cross-stitching with 45% Gyroid Infill Matrix  
 **Hardware Fleet Load:** 3x Active Bambu Lab P1S Cores (Part-Time Volume Track)  
-**Status:** 100% De-Bugged / 45% Gyroid Shear Insulated / Real-World Flawless  
+**Status:** 100% De-Bugged / Segmented Quadrant Release Enforced / Real-World Flawless  
 
 ---
 
@@ -24,7 +24,7 @@ To maintain your stress-free 30-minute daily workshop rhythm, your three print e
 [ 07:00 AM COLD-BED INTAKE ] ──► 48 Complete Turnkey Clips popped off in 15 minutes.
 ```
 
-*   **Multi-Tile Batch Setup:** Every individual 256x256mm PEI spring steel build plate is tiled with exactly 16 completed claw clips (arranged in alternating row grids to maximize bed thermal uniformity).
+*   **Segmented 4-Zone Matrix Setup:** Every individual 256x256mm build plate tiles exactly 16 completed claw clips segregated into four distinct quadrants of four clips each, separated by a wide, 15mm clear safety runway running down the center axes of the plate. This prevents cross-plate rubber tooth tension during harvest loops.
 *   **The 3-Printer Output Track:**
     $$\text{3 Active Engines} \times 16 \text{ Clips / Sheet} = \mathbf{48\text{ Turnkey Clips Per Overnight Run}}$$
 *   **The Slicer Override Fix:** Enforce an explicit **0.40mm Horizontal Clearance Hinge Shield** parameter curve within the X/Y contour settings to entirely block plastic bleeding, combined with **45% Gyroid Infill** to replace brittle solid layers with a resilient 3D wave stress web.
