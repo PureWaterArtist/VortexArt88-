@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.3.0-Claw-Clip-Master",
+    "profile_version": "1.4.0-Claw-Clip-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -19,7 +19,9 @@
         "slicer_rotation_angle": "45.0deg",
         "xy_hole_compensation": "0.40mm",
         "xy_contour_compensation": "-0.40mm",
-        "structural_purpose": "Single-piece print-in-place compliant claw clips. Sliced at a high 240C melting temperature in dense 95A TPU. Enforces a strict 45-degree rotation offset on the build plate grid to cross-hatch the living spring. The 45-degree nozzle pass intersects our hardcoded 120-degree herringbone tooth grooves at a sharp diagonal, cleanly bridging the air gaps to prevent toolpath bleeding or solid rib fusing."
+        "plate_arrangement_grid": "segmented_4_quadrant",
+        "quadrant_safety_runway_width": "15.0mm",
+        "structural_purpose": "Single-piece print-in-place compliant claw clips (Plate 1). Sliced in dense 95A TPU at a 45-degree toolpath angle with a 45% gyroid infill web to absorb hair torsion stress. Enforces a strict 4-quadrant segmented layout separated by a 15mm clear cross runway. This prevents cross-plate rubber tooth tension during harvest, letting the operator flex independent 4-clip zones locally to achieve warp-free bed release."
       },
       
       "compliant_spring_food_safe_pp": {
@@ -39,8 +41,10 @@
         "slicer_rotation_angle": "45.0deg",
         "xy_hole_compensation": "0.40mm",
         "xy_contour_compensation": "-0.40mm",
+        "plate_arrangement_grid": "segmented_4_quadrant",
+        "quadrant_safety_runway_width": "15.0mm",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "Alternative high-flex Polypropylene (PP) clip runs. Hardcodes an 8mm outer solid brim and 0% cooling fans during the print run to eliminate plate warping. Invokes our specialized rapid thermal-quenching end G-code to freeze the plastic into a highly flexible, amorphous state, preventing brittle crystallization along the jaw folds."
+        "structural_purpose": "Alternative high-flex Polypropylene (PP) clip runs (Plate 2). Hardcodes an 8mm outer solid brim and a 45% gyroid core inside a 4-quadrant layout to distribute thermal mass uniformly. Utilizes rapid thermal quenching to freeze the plastic into a highly flexible, amorphous state, preventing brittle crystallization along the folds."
       }
     }
   }
