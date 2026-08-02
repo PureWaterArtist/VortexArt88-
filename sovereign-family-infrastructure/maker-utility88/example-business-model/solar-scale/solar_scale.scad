@@ -1,5 +1,5 @@
 // Matrix Biomimetic Utilities - Parametric Solar-Scale Harvesting Engine
-// Version 2.1.0-Acrylic Core | Pure Scale-Invariant Mechanical CAD (PMMA Optimized)
+// Version 2.2.0-Acrylic Core | Pure Scale-Invariant Mechanical CAD (PMMA Optimized)
 
 // ============================================================================
 // 🏛️ MASTER SCALE PARAMETERS (Adjust to scale individual tile footprint)
@@ -13,7 +13,7 @@ TOTAL_STACK_H = 18.0;      // Complete multi-layer vertical thickness profile (m
 WALL_THICKNESS = max(2.0, TILE_WIDTH * 0.015);
 
 // Tessellating Mechanical Constraints
-SNAP_RADIUS = TILE_WIDTH * 0.08;
+SNAP_RADIUS = TILE_WIDTH * 0.04; // 🛠️ PATCHED: Balanced radius to prevent male snapping
 SNAP_DEPTH = TOTAL_STACK_H * 0.4;
 
 // PMMA Optical Refractive Trapping Vector Calculations (Index n = 1.49)
@@ -59,17 +59,19 @@ module Full_Solar_Scale_Matrix() {
                     Optical_Acrylic_Prism_Skin(TOTAL_STACK_H * 0.20);
                     
             // TESSELLATING INTERLOCKING SNAP CONNECTORS (Male Contacts)
-            for (face =) {
+            // 🛠️ PATCHED: Hardcoded index array limits to complete the open loops
+            for (face = [0 : 120 : 359]) {
                 rotate([0, 0, face])
-                    translate([TILE_WIDTH * 0.5, 0, 0])
+                    translate([TILE_WIDTH * 0.505, 0, 0])
                         Male_Interlock_Pin();
             }
         }
         
         // TESSELLATING RECIPROCATING SNAP SLOTS (Female Keyways)
-        for (face =) {
+        // 🛠️ PATCHED: Hardcoded offset index array limits to build alternating slots
+        for (face = [60 : 120 : 359]) {
             rotate([0, 0, face])
-                translate([TILE_WIDTH * 0.5, 0, 0])
+                translate([TILE_WIDTH * 0.505, 0, 0])
                     Female_Keyway_Slot();
         }
     }
@@ -132,9 +134,9 @@ module Optical_Acrylic_Prism_Skin(h_skin) {
             for (x = [-TILE_WIDTH : PRISM_SIZE : TILE_WIDTH]) {
                 for (y = [-TILE_WIDTH : PRISM_SIZE : TILE_WIDTH]) {
                     translate([x, y, 0])
-                        // Parametric pyramids optimized to a 42.3-degree refraction angle mask
+                        // 🛠️ PATCHED: Extruded point names aligned cleanly to block mid-air float
                         polyhedron(
-                            points=[[0,0,PRISM_SIZE*tan(PRISM_ANGLE)], [PRISM_SIZE/2,PRISM_SIZE/2,0], [PRION_SIZE/2,-PRISM_SIZE/2,0], [-PRISM_SIZE/2,-PRISM_SIZE/2,0], [-PRISM_SIZE/2,PRISM_SIZE/2,0]],
+                            points=[[0,0,PRISM_SIZE*tan(PRISM_ANGLE)], [PRISM_SIZE/2,PRISM_SIZE/2,0], [PRISM_SIZE/2,-PRISM_SIZE/2,0], [-PRISM_SIZE/2,-PRISM_SIZE/2,0], [-PRISM_SIZE/2,PRISM_SIZE/2,0]],
                             faces=[[0,1,2], [0,2,3], [0,3,4], [0,4,1], [1,4,3,2]]
                         );
                 }
@@ -144,18 +146,18 @@ module Optical_Acrylic_Prism_Skin(h_skin) {
 }
 
 module Male_Interlock_Pin() {
-    translate([0, 0, SNAP_DEPTH/2]) {
-        cylinder(h=SNAP_DEPTH, r=SNAP_RADIUS, center=true);
-        translate([0, 0, SNAP_DEPTH*0.2])
-            torus(SNAP_RADIUS, 1.0);
+    translate([0, 0, 0]) { // 🛠️ PATCHED: Base reference aligned flat to bed loop
+        cylinder(h=SNAP_DEPTH, r=SNAP_RADIUS, center=false);
+        translate([0, 0, SNAP_DEPTH*0.7])
+            torus(SNAP_RADIUS, 0.8);
     }
 }
 
 module Female_Keyway_Slot() {
-    translate([0, 0, SNAP_DEPTH/2 - 0.1]) {
-        cylinder(h=SNAP_DEPTH + 0.4, r=SNAP_RADIUS + 0.15, center=true);
-        translate([0, 0, SNAP_DEPTH*0.2])
-            torus(SNAP_RADIUS + 0.15, 1.2);
+    translate([0, 0, -0.1]) {
+        cylinder(h=SNAP_DEPTH + 0.4, r=SNAP_RADIUS + 0.15, center=false);
+        translate([0, 0, SNAP_DEPTH*0.7])
+            torus(SNAP_RADIUS + 0.15, 1.0);
     }
 }
 
