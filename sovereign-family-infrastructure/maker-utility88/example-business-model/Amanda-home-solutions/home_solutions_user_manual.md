@@ -1,5 +1,5 @@
 # 🔧 Floral Home Solutions — Interlocking Assembly SOP & Manual
-**System Version:** 1.4.0-Home Master  
+**System Version:** 1.5.0-Home Master  
 **Operational Target:** Zero-Fastener Interchangeable Modular Organizer Grid  
 **Zoning Authority:** FTC Green Guides Compliance (16 CFR Part 260 Shield)  
 
@@ -9,8 +9,9 @@
 
 Every product in the Floral Biomimetic collection incorporates a standardized, central hexagonal female connector keyway. This allows your family to configure, stack, and interchange the modules toollessly using our 3-step manual process:
 
-### 1. Asymmetrical Fluid-Drainage Gutter Slide
-*   **Action:** Take the central star-shaped Passion-Flower Universal Key Spline. Align the male hexagonal output post directly over the rear female keyway socket. Push the post straight into the core. If the shoe caddy or wall pod is wet from washing, the trapped fluid and air are instantly and silently flashed out sideways through the hard-coded 1.0mm V-shaped drainage gutters on the socket floor, completely eliminating hydrostatic back-pressure wall ballooning.
+### 1. Multi-Material Tolerance Slide
+*   **Action:** Take the central star-shaped Passion-Flower Universal Key Spline. Align the male hexagonal output post directly over the rear female keyway socket. Push the post straight into the core. 
+*   **The Slicing Fix Clearance:** Because our manufacturing server applies an explicit +0.12mm XY Hole Compensation Modifier to the Polypropylene dish racks and caddies, the rubber TPU keys slide into the plastic pockets smoothly without binding or tight material jam constraints. Trapped fluid or air flashes out sideways through the hard-coded 1.0mm V-groove drainage gutters on the socket floor.
 
 ### 2. The 90-Degree Expansion T-Lock
 *   **Action:** Rotate the central turn-dial clockwise exactly 90 degrees by hand. The male splines expand smoothly against the interior walls of the rubber cavity, forming an ironclad, rattle-free friction-lock that can support over 25 pounds of heavy vertical weight load without a single metal screw or strip of tape.
