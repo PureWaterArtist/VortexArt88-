@@ -1,5 +1,5 @@
-// Matrix Biomimetic Utilities - Floral Home Solutions Master File (Complete)
-// Version 1.3.0-Home Master | Supportless Parametric Floral Geometry Matrix
+// Matrix Biomimetic Utilities - Floral Home Solutions Master File (Complete Master)
+// Version 1.4.0-Home Master | Supportless Parametric Floral Geometry Matrix
 
 // ============================================================================
 // 🏛️ GLOBAL SYSTEM VARIABLES & PARAMETRIC SCALE BOUNDARIES
@@ -81,7 +81,7 @@ module Item_Calla_Lily_Spire() {
     difference() {
         union() {
             cylinder(h=160.0, r1=18.0, r2=12.0, center=true, $fn=60);
-            translate([0, 0, -10.0]) rotate([0, 0, 30])
+            translate([0, 0, -10.0]) rotate()
                 difference() {
                     cylinder(h=140.0, r1=45.0, r2=55.0, center=true, $fn=60);
                     cylinder(h=142.0, r1=45.0-WALL_THICKNESS, r2=55.0-WALL_THICKNESS, center=true, $fn=60);
@@ -93,13 +93,18 @@ module Item_Calla_Lily_Spire() {
 }
 
 module Universal_Interface_Keyway() {
-    // 🛠️ INTEGRATED PATCH: ANTI-PNEUMATIC AIR-BLEED VENT
-    // Micro 0.8mm escape channel exhausts compressed air traps completely to stop keyway binding.
-    union() {
+    // 🛠️ INTEGRATED PATCH: HYDROSTATIC DRAINAGE GUTTER MATRIX
+    // Features 4 radiating 1.0mm V-grooves on the back wall to prevent incompressible fluid blocks,
+    // combined with a deep 0.8mm core vent to dump pneumatic air trap resistance.
+    difference() {
         cylinder(h=16.0, r=9.6, center=true, $fn=6); 
-        translate([0, 0, -8.0])
-            cylinder(h=6.0, r=0.8, center=true, $fn=20);
+        for (gutter = [0 : 90 : 270]) {
+            rotate([0, 0, gutter])
+                translate([4.0, 0, -8.0])
+                    cube([12.0, 1.0, 1.2], center=true);
+        }
     }
+    translate([0, 0, -8.0]) cylinder(h=6.0, r=0.8, center=true, $fn=20);
 }
 
 // ============================================================================
@@ -111,10 +116,10 @@ module Item_Orchid_Caddy() {
         union() {
             cube([BASE_RADIUS*1.6, BASE_RADIUS*1.2, 50.0], center=true);
             translate([BASE_RADIUS*0.8, 0, 0])
-                rotate([0, 0, 0]) cube([6.0, 6.0, 46.0], center=true);
+                rotate() cube([6.0, 6.0, 46.0], center=true);
         }
         translate([-BASE_RADIUS*0.8, 0, 0])
-            rotate([0, 0, 0]) cube([6.0 + CLEARANCE_OFFSET, 6.0 + CLEARANCE_OFFSET, 52.0], center=true);
+            rotate() cube([6.0 + CLEARANCE_OFFSET, 6.0 + CLEARANCE_OFFSET, 52.0], center=true);
         for (x_pock = [-30, 30]) {
             for (y_pock = [-20, 20]) {
                 translate([x_pock, y_pock, 4.0])
@@ -149,7 +154,7 @@ module Item_Succulent_Pod() {
         }
         scale([0.92, 1.22, 0.92]) sphere(r=BASE_RADIUS*0.4, $fn=6);
         translate([0, 0, BASE_RADIUS*0.4]) cube([100.0, 100.0, BASE_RADIUS*0.4], center=true);
-        translate([0, -BASE_RADIUS*0.35, 0]) rotate([90, 0, 0]) Universal_Interface_Keyway();
+        translate([0, -BASE_RADIUS*0.35, 0]) rotate() Universal_Interface_Keyway();
     }
 }
 
@@ -172,7 +177,7 @@ module Item_Carnation_Snap_Wrap() {
         cube([BASE_RADIUS*1.3, 16.0, 8.0], center=true);
         cube([BASE_RADIUS*1.0, 2.0, 12.0], center=true);
         for (teeth = [-BASE_RADIUS*0.4 : 6.0 : BASE_RADIUS*0.4]) {
-            translate([teeth, 0, 0]) rotate([0, 0, 45]) cube([4.0, 4.0, 10.0], center=true);
+            translate([teeth, 0, 0]) rotate() cube([4.0, 4.0, 10.0], center=true);
         }
     }
 }
@@ -196,23 +201,3 @@ module Item_Passion_Flower_Spline() {
         translate([0, 0, 6.0]) cylinder(h=8.0, r=9.5 - CLEARANCE_OFFSET, center=true, $fn=6); 
     }
 }
-l rose thorn hook profile
-            hull() {
-                translate([0, 6.0, 0]) cube([12.0, 10.0, 12.0], center=true);
-                translate([0, 35.0, -25.0]) sphere(r=2.0); // Concentrated hook tip anchor point
-            }
-        }
-        // Back slot cutter to snap lock straight over the global hexagon wall nodes
-        Universal_Interface_Keyway();
-    }
-}
-
-module Item_Passion_Flower_Spline() {
-    // ITEM 10: THE PASSION-FLOWER UNIVERSAL INTERFACE NODE (The Symmetrical Master Lock Key)
-    // Slipped straight into the back profiles of the entire collection to enable interchangeable alignment
-    union() {
-        cylinder(h=6.0, r=14.0, center=true, $fn=6); // Center locking turn dial head
-        translate([0, 0, 6.0]) cylinder(h=8.0, r=9.5 - CLEARANCE_OFFSET, center=true, $fn=6); // Male anchor spline
-    }
-}
-
