@@ -39,3 +39,26 @@ Any use, copying, or manufacturing that does not strictly comply with the recipr
 
 ### 6. Disclaimer of Warranty
 THE SOURCE CODE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO FITNESS FOR A PARTICULAR PURPOSE, STRUCTURAL PRESSURES, OR MECHANICAL LIFESPAN. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF MANUFACTURED PRODUCTS IS ENTIRELY WITH YOU.
+
+# 🏛️ CERN Open Hardware Licence v2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+**System Version:** 2.0.0-Root Repository Master  
+**Sovereign Authority:** Matrix Biomimetic Utilities, LLC  
+**Scope of Coverage:** Global Umbrella Protection (Footwear Core, Home Inventions, and Nozzle Engines)  
+
+---
+
+## ⚖️ PREAMBLE & UNIVERSAL MATERIAL PROTECTION
+
+This Licence governs the use, copying, modification, and distribution of all Hardware Designs, CAD engines, slicing profiles, and documentation stored within this repository tree. By exploiting, manufacturing, or copying any file inside this library, you legally agree to follow all reciprocal open-source conditions itemized herein.
+
+### 1. DEFINITIONS & COVERAGE TRACKS
+*   **"Hardware"** means any physical object manufactured, assembled, or processed directly utilizing any file, script, profile, or mechanical blueprint stored within this root directory or its sub-folders.
+*   **"Source Files"** means all parametric scripts, JSON firmware recipes, assembly manuals, and system metadata that define our entire multi-market consumer invention array.
+
+### 2. THE STRONG RECIPROCAL DISPATCH COVENANT
+*   **Downstream Share-Alike Enforcement:** You may copy, modify, and distribute the Source Files in this repository for any purpose, commercial or private. However, if you distribute modified Source Files, or distribute physical Hardware manufactured from these scripts, **you are legally bound to license all modifications and downstream physical design iterations under this exact same CERN-OHL-S-2.0 Licence.**
+*   **Anti-Patent Trolling Barrier:** You may not manufacture or distribute this Hardware if doing so requires you to enforce separate proprietary utility patents that restrict other open-source founders from freely fabricating, modifying, or operating any design in this database.
+
+### 3. TOTAL DISCLAIMER OF WARRANTY & LIABILITY SHIELD
+*   This entire Hardware Design suite is provided flatly "AS IS" and without any express or implied warranties—including but not limited to the implied warranties of merchantability, fluid-flow throughput rates, or structural footwear load tolerances. The developers carry zero structural liability for hardware operation, residential garage utility modifications, or non-compliant environmental enclosure setups.
+  
