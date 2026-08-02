@@ -74,3 +74,15 @@ G1 X0 Y250 F3000 ; Present the cold bed forward to maximize high-velocity air co
 ; This thermal quenching script forces the amorphous Polypropylene
 ; chains to freeze instantly, entirely skipping brittle crystallization rows.
 ```
+
+---
+
+## 🔬 4. MULTI-MATERIAL CHEMICAL ADHESION MITIGATION (THE MECHANICAL T-SLOT UPGRADE)
+
+To entirely circumvent the absolute zero-bond chemical incompatibility between polar Thermoplastic Polyurethane (TPU) and non-polar semi-crystalline Polypropylene (PP), operations must strictly prohibit over-molded toolpaths. All dual-material friction surfaces must execute via strict mechanical interlocks:
+
+### 1. The T-Spline Liner Configuration
+The soft 85A TPU grip pads inside the Orchid Under-Sink Caddy must be processed on Plate 3 as independent, flat, flexible sleeve bands featuring three vertical T-shaped male rail splines molded supportless along their rear faces.
+
+### 2. The Vertical Keyway Ingestion Loop
+The rigid Polypropylene caddy body on Plate 2 incorporates three corresponding vertical female T-slot channels carved straight into the internal cylinder walls with a hard-coded +0.15mm tolerance offset buffer. During the toolless morning bench assembly line, the operator rolls the flexible TPU sleeve by hand and slides the male splines down into the rigid slots. This completely replaces chemical over-molding with pure mechanical cross-sectional retention, guaranteeing a lifelong grip that cannot peel, delaminate, or fail under heavy industrial chemical bottle strikes.
