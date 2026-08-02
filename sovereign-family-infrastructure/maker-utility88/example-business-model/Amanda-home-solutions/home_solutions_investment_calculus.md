@@ -1,6 +1,6 @@
 # 📊 Floral Home Solutions — Box Set Production Calculus & Valuation
-**System Version:** 1.4.0-Home Master  
-**Total Production Mass Target:* 852 Grams Combined Resins Per Finished Box Set (Includes Brims + Prime Towers)  
+**System Version:** 1.5.0-Home Master  
+**Total Production Mass Target:** 852 Grams Combined Resins Per Finished Box Set (Includes Brims + Prime Towers)  
 **Target Consumer Ticket Price:** $129.00 USD (Turnkey Premium Box Set Standard)  
 
 ---
@@ -19,6 +19,7 @@ All material costs are anchored directly to your wholesale volume procurement ti
 *   **Item 8: Carnation Bag Wraps (2x Clips = 16g PP) ─────►** $0.38 USD Material Base
 *   **Item 9: Rose-Thorn Hooks (4x Hooks = 18g 95A TPU) ────►** $0.47 USD Material Base
 *   **Item 10: Passion-Flower Keys (6x Keys = 6g 95A TPU) ──►** $0.16 USD Material Base
+*   **Item 11: Orchid Caddy T-Spline Grip Sleeves (16g TPU) ─►** $0.45 USD Material Base
 *   **Plate 1 Volumetric Pressure Prime Towers (14g TPU) ──►** $0.36 USD Sacrificial Base
 *   **Plate 2 Mandatory 10mm PP Anti-Warp Solid Brims (14g) ─►** $0.33 USD Sacrificial Base
 *   **Total Local Farm Electrical Surcharge (12.4 Machine Hours):** $0.94 USD Utility Base
