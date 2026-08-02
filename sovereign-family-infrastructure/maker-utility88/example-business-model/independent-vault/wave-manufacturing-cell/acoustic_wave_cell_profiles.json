@@ -1,12 +1,12 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.0.0-Acoustic-Wave-Cell",
+    "profile_version": "1.1.0-Acoustic-Biomimetic-Final",
     "target_hardware": "Bambu_Lab_P1S_Custom_Acoustic_Nozzle_Engine",
     "material_profiles": {
       
       "acoustic_rayleigh_tpu_95a": {
-        "layer_height": "0.20mm",
-        "wall_loops": 4,
+        "layer_height": "0.16mm",
+        "wall_loops": 5,
         "top_solid_layers": 4,
         "bottom_solid_layers": 4,
         "infill_density": "45%",
@@ -19,12 +19,12 @@
         "piezo_frequency_mode": "40kHz_low_ultrasonic",
         "auxiliary_air_purge_pressure": "2.0bar",
         "kinetic_torsion_frequency": "120Hz",
-        "structural_purpose": "High-velocity non-contact boundary extrusion of dense 95A TPU (Plate 1). Sliced with an automated 2.0 Bar continuous compressed-air cooling purge routed directly into the internal coaxial scrubber jacket to lock crystal temperatures below 65C. The 40 kHz surface array glides Rayleigh waves along the external skin of the molten plastic to shape its boundary supportless, while the bed executes a 120 Hz horizontal vibration loop to settle internal density uniformly without molecular scorching."
+        "structural_purpose": "High-velocity non-contact boundary extrusion of dense 95A TPU (Plate 1). Sliced at a fine 0.16mm layer height with wall loops bumped to 5 to guarantee flawless, smooth toolpath tracking around the curved human-cochlea parabolic acoustic mirrors. Maintains a steady 2.0 Bar continuous compressed-air purge through the internal scrubber jacket to shield the crystals from thermal depolarization."
       },
       
       "acoustic_rayleigh_food_safe_pp": {
-        "layer_height": "0.20mm",
-        "wall_loops": 4,
+        "layer_height": "0.16mm",
+        "wall_loops": 5,
         "top_solid_layers": 5,
         "bottom_solid_layers": 5,
         "infill_density": "45%",
@@ -40,7 +40,7 @@
         "auxiliary_air_purge_pressure": "2.2bar",
         "kinetic_torsion_frequency": "120Hz",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "High-velocity boundary extrusion of semi-crystalline Polypropylene (Plate 2). Drives a 2.2 Bar air shield to stabilize the outer PP skin layer while running the 120 Hz torsional bed sweep to fully skip brittle crystallization rows across the living hinges, backed by high-velocity auxiliary fan end-quenching."
+        "structural_purpose": "High-velocity boundary extrusion of semi-crystalline Polypropylene (Plate 2). Optimized with a fine layer step-down to capture the smooth, expanding geometric contours of the internal chambered-nautilus logarithmic entry throat, completely wiping out entry fluid drag while running the 120 Hz torsional bed sweep to skip brittle crystallization rows across living hinges."
       }
     }
   }
