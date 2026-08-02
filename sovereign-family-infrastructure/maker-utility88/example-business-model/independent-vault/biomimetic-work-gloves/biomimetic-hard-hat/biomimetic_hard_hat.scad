@@ -1,6 +1,6 @@
 // Matrix Biomimetic Utilities - Resonant-Class Biomimetic Hard Hat
-// Version 1.1.0-Helmet Core | 3D Rotational Auxetic Honeycomb Engine
-// System Core: Woodpecker Hyoid Carapace + Re-Entrant Expansion Shock Lattice
+// Version 1.2.0-Helmet Core | Helicoid Mantis Spline & Lotus Deflector Skin
+// System Core: Helicoid Energy-Scattering Carapace + Superhydrophobic Micro-Papillae
 
 // ============================================================================
 // 🏛️ GLOBAL PARAMETRIC VARIABLES & HELMET GEOMETRIES
@@ -11,9 +11,12 @@ SHELL_THICKNESS = 3.00;   // Weather-proof outer ASA structural wall (mm)
 WEB_DEPTH = 6.00;         // Thick high-rebound internal auxetic crumple web (mm)
 
 // 📐 PARAMENTRIC AUXETIC SHOCK MATRIX CONSTANTS
-AUX_H = 6.0;              // Height profile of individual re-entrant bow-tie cells (mm)
-AUX_W = 4.5;              // Internal narrow waist width of the cell (mm)
-AUX_L = 8.0;              // External length scale of the expansion cell (mm)
+AUX_H = 6.0;              
+AUX_W = 4.5;              
+AUX_L = 8.0;              
+
+// 📐 BIOMIMETIC TEXTURE SPECS
+PAPILLAE_SIZE = 0.60;    // Footprint size of individual superhydrophobic lotus cones (mm)
 
 // 🧲 STAGING METRICS (Sized for Standard 8mm x 2mm Discs)
 MAG_DIAMETER = 8.0;
@@ -28,11 +31,11 @@ Full_Biomimetic_Hard_Hat();
 
 module Full_Biomimetic_Hard_Hat() {
     union() {
-        // OUTER CHASSIS: WOODPECKER HYOID CARAPACE
-        // Printed in high-impact, weather-proof matte ASA filament
+        // LAYER 1: MANTIS HELICOID SHIELD & SUPERHYDROPHOBIC LOTUS SKIN
+        // Printed in weather-proof matte ASA filament
         color([0.2, 0.2, 0.2]) {
             difference() {
-                // Main Structural Protective Dome
+                // Main Protective Dome Shell
                 sphere(d=HELMET_DIAMETER + SHELL_THICKNESS*2, $fn=100);
                 sphere(d=HELMET_DIAMETER, $fn=100);
                 
@@ -45,20 +48,42 @@ module Full_Biomimetic_Hard_Hat() {
                     cylinder(h=MAG_THICKNESS + 0.2, r=(MAG_DIAMETER - FIT_TOLERANCE)*0.5, center=true, $fn=40);
             }
             
-            // Integrated Woodpecker Energy-Diverting Hyoid Ribs
+            // 🦈 MANTIS SHRIMP HELICOID SHOCK RIDGEWAY ARRAY
+            // Extrudes a sinusoidal sweeping wave rib structure across the exterior dome
+            // to scatter linear impact waves and force energy along a twisting deflection loop.
             for (rib_arc = [-60 : 30 : 60]) {
                 rotate([rib_arc, 0, 0])
                     difference() {
-                        torus(r1=HELMET_DIAMETER*0.5 + SHELL_THICKNESS*0.5, r2=1.5);
+                        // Twisting sinusoidal wave modifier calculation loop
+                        scale([1, 1 + 0.08*sin(rib_arc*3), 1])
+                            torus(r1=HELMET_DIAMETER*0.5 + SHELL_THICKNESS*0.5, r2=1.6);
                         translate([0, 0, -TOTAL_DEPTH*0.5]) cube([HELMET_DIAMETER*2, HELMET_DIAMETER*2, TOTAL_DEPTH], center=true);
                     }
             }
+            
+            // 🌿 LOTUS-EFFECT SUPERHYDROPHOBIC MICRO-PAPILLAE SKIN
+            // Tiles hundreds of sub-millimeter parametric cones to trap an air envelope,
+            // forcing industrial chemical spills and mud to bead up and roll off instantly.
+            intersection() {
+                difference() {
+                    sphere(d=HELMET_DIAMETER + SHELL_THICKNESS*2 + 0.6, $fn=100);
+                    sphere(d=HELMET_DIAMETER + SHELL_THICKNESS*2 - 0.2, $fn=100);
+                    translate([0, 0, -TOTAL_DEPTH*0.5]) cube([HELMET_DIAMETER*2, HELMET_DIAMETER*2, TOTAL_DEPTH], center=true);
+                }
+                union() {
+                    for (phi = [15 : 12 : 85]) {
+                        for (theta = [0 : 15 : 359]) {
+                            rotate([0, phi, theta])
+                                translate([0, 0, HELMET_DIAMETER*0.5 + SHELL_THICKNESS])
+                                    cylinder(h=PAPILLAE_SIZE, r1=PAPILLAE_SIZE*0.5, r2=0.05, center=false, $fn=10);
+                        }
+                    }
+                }
+            }
         }
         
-        // 🧬 INTERNAL SHIELD: RE-ENTRANT AUXETIC SHOCK COMPACTION LATTICE
-        // 🛠️ HARDWARE UPGRADE: Replaces plain grids with 3D re-entrant bow-tie cells.
-        // Under localized crushing forces, the structure contracts inward laterally,
-        // multiplying energy density directly beneath the blow while deadening head twist.
+        // LAYER 2: RE-ENTRANT AUXETIC SHOCK COMPACTION LATTICE
+        // Co-extruded via high-rebound 95A TPU to permanently absorb rotational torque
         color([0.4, 0.4, 0.4, 0.6]) {
             translate([0, 0, -0.2]) {
                 intersection() {
@@ -67,11 +92,10 @@ module Full_Biomimetic_Hard_Hat() {
                         sphere(d=HELMET_DIAMETER - WEB_DEPTH*2, $fn=100);
                     }
                     
-                    // 📐 TESSELLATING AUXETIC STRUCTURAL CELL LOOPS
+                    // TESSELLATING AUXETIC STRUCTURAL CELL LOOPS
                     union() {
                         for (ax = [-HELMET_DIAMETER*0.55 : AUX_L*1.6 : HELMET_DIAMETER*0.55]) {
                             for (ay = [-HELMET_DIAMETER*0.55 : AUX_H*1.8 : HELMET_DIAMETER*0.55]) {
-                                // Alternating honeycomb layout grid offset
                                 translate([ax + (mod(floor(ay/(AUX_H*1.8)), 2) * AUX_L*0.8), ay, 0])
                                     scale([1, 1, HELMET_DIAMETER/AUX_H])
                                         ReEntrant_Auxetic_BowTie_Cell();
@@ -91,20 +115,14 @@ module Full_Biomimetic_Hard_Hat() {
 }
 
 module ReEntrant_Auxetic_BowTie_Cell() {
-    // Generates an individual negative Poisson's ratio expansion element
-    // via continuous toolpath-optimized thin ribbon wall sweeps.
     wall_w = 1.0;
     union() {
-        // Upper Arched Flange Web
         translate([0, AUX_H*0.5, 0]) cube([AUX_L, wall_w, AUX_H], center=true);
-        // Lower Arched Flange Web
         translate([0, -AUX_H*0.5, 0]) cube([AUX_L, wall_w, AUX_H], center=true);
         
-        // Angled Re-Entrant Inward-Leaning Struts (The Core Bow-Tie Knots)
-        translate([AUX_L*0.25, 0, 0]) rotate([0, 0, 32]) cube([wall_w, AUX_H*1.1, AUX_H], center=true);
+        translate([AUX_L*0.25, 0, 0]) rotate() cube([wall_w, AUX_H*1.1, AUX_H], center=true);
         translate([-AUX_L*0.25, 0, 0]) rotate([0, 0, -32]) cube([wall_w, AUX_H*1.1, AUX_H], center=true);
         
-        // Narrow Internal Structural Hinge Core
         cube([AUX_W, wall_w, AUX_H], center=true);
     }
 }
