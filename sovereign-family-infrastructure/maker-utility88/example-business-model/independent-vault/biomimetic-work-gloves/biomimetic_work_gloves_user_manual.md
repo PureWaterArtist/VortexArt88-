@@ -1,6 +1,6 @@
 # 🔧 Biomimetic Work Gloves — User Operation Manual & Shop SOP
-**System Version:** 1.0.0-Glove Core Master  
-**Operational Target:** High-Dexterity Hand Protection (Shark-Skin Placement Code)  
+**System Version:** 1.3.0-Glove Core Master  
+**Operational Target:** High-Dexterity Hand Protection (Magnetic Staging Upgrades)  
 **Zoning Authority:** OSHA Hand Protection and Structural Tactility Enforcement Aligned  
 
 ---
@@ -13,11 +13,14 @@ Because these high-dexterity work gloves are manufactured flat as a single, prin
 *   **Action:** Never attempt to yank, pull, or scrape a fresh glove template off the print plate the exact second the multi-layer cycle finishes. Allow the print chamber and the spring steel PEI sheet to naturally cool completely below 35°C. This allows the dense elastomeric polymer chains to fully stabilize to their hardcoded geometric limits, preventing stretching or scale-edge warping.
 
 ### 2. The Flat Runway Local-Flex Harvest
-*   **Action:** Pull the cooled spring steel sheet off the magnetic bed. Place your thumbs directly on the flat outer border safety lines surrounding the glove profile. Flex the spring steel sheet downward locally away from the edges. The glove template will instantly click and pop off the bed face with zero scraping tools, ensuring the delicate points of the shark-skin denticles remain sharp and completely undamaged.
+*   **Action:** Pull the cooled spring steel sheet off the magnetic bed. Flex the spring steel sheet downward locally away from the edges. The glove template will instantly click and pop off the bed face with zero scraping tools, ensuring the delicate points of the fluid-channeling chevron ribs remain sharp and completely undamaged.
 
-### 3. The Auxetic Joint & Wrist Strap Breakout Line
-*   **Action:** Take the harvested glove template. Hold the wrist section firmly in one hand and carefully slip your other hand inside the open cuff. Slowly clench your fist inward to curl the fingers. 
-*   **The Clearance Breakout:** Push firmly until you hear a clean, cascade of microscopic pops along the finger joints and wrist bands. This action cleanly shears the microscopic 0.40mm clearance boundaries, completely unlocking the internal movement of the auxetic dragonfly-wing diamond expansion cells and freeing the wrap-around herringbone wrist strap. Squeeze and flex your hand five times to polish the non-fusing separation tracks. The glove is now fully initialized, articulated, and ready for immediate shop deployment.
+### 3. The Hardware Magnet Press-Fit Insertion
+*   **Action:** Sourcing standard, high-strength **8mm x 2mm N52 Neodymium ($NdFeB$) disc magnets**. Before sliding the glove onto your hand, place the nozzle template flat against a clean wooden workbench block with the back face facing upward. 
+*   **The Insertion Lock:** Take an individual magnet disc, align it directly over the compression slot on the index finger pad or the back-of-hand landing zones, and press down firmly using flat thumb pressure. Because the flexible TPU compartment is hardcoded with a precise **0.20mm tolerance compression reduction ring**, the rubber walls will stretch open locally, snap completely over the chamfered rim of the magnet, and lock it into place with an airtight, permanent physical collar. No messy shop epoxies, instant glues, or metallic clips are required.
+
+### 4. The Auxetic Joint & Wrist Strap Breakout Line
+*   **Action:** Take the harvested glove template. Hold the wrist section firmly in one hand and carefully slip your other hand inside the open cuff. Slowly clench your fist inward to curl the fingers until you hear a clean cascade of microscopic pops along the finger joints and wrist bands, fully unlocking the internal movement of the auxetic dragonfly-wing cell matrices. Squeeze and flex your hand five times to polish the tracks. The glove is now fully initialized, magnetic staging fields are active, and the platform is ready for immediate shop deployment.
 
 ---
 
