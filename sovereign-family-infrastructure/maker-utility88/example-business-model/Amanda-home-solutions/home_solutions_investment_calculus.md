@@ -1,5 +1,5 @@
 # 📊 Floral Home Solutions — Box Set Production Calculus & Valuation
-**System Version:** 1.5.0-Home Master  
+**System Version:** 1.6.0-Home Master  
 **Total Production Mass Target:** 852 Grams Combined Resins Per Finished Box Set (Includes Brims + Prime Towers)  
 **Target Consumer Ticket Price:** $129.00 USD (Turnkey Premium Box Set Standard)  
 
@@ -23,7 +23,7 @@ All material costs are anchored directly to your wholesale volume procurement ti
 *   **Plate 1 Volumetric Pressure Prime Towers (14g TPU) ──►** $0.36 USD Sacrificial Base
 *   **Plate 2 Mandatory 10mm PP Anti-Warp Solid Brims (14g) ─►** $0.33 USD Sacrificial Base
 *   **Total Local Farm Electrical Surcharge (12.4 Machine Hours):** $0.94 USD Utility Base
-*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** **$22.49 USD Combined Out-of-Pocket**
+*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** \(\mathbf{$22.49\text{ USD Combined Out-of-Pocket}}\)
 
 ---
 
