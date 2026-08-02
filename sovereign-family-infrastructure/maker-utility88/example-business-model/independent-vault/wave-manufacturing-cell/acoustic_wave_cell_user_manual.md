@@ -1,6 +1,6 @@
 # 🔧 Acoustic Rayleigh-Wave Cell — Prototype Operation SOP & Manual
-**System Version:** 1.2.0-Acoustic Core Master  
-**Operational Target:** Non-Contact Wave Boundary Material Processing  
+**System Version:** 1.3.0-Acoustic Core Master  
+**Operational Target:** Non-Contact Wave Boundary Material Processing (Biomimetic Matrix)  
 **Zoning Authority:** OSHA Industrial Sound Attenuation Compliance Enforced  
 
 ---
@@ -20,12 +20,12 @@ Because the PZT-4 piezoelectric ceramic crystals generate extreme internal frict
 
 ---
 
-## 🔬 SECTION 2: THE KINETIC TORSION BED INITIALIZATION CALIBRATION
+## 🔬 SECTION 2: THE BIOMIMETIC MECHANICAL MANIFOLD CALIBRATION
 
-The mechanical linear shaker exciter bolted underneath your PEI spring steel plates executes intense 120 Hz horizontal mechanical vibrations to settle polymer chains uniformly. Follow these steps to calibrate the bed assembly right on the workbench:
+Our advanced fluid delivery block incorporates optimized natural geometries modeled directly after the Chambered Nautilus and the Human Cochlea. Follow these steps to calibrate the manifold assembly right on the workbench:
 
-### 1. Anti-Fatigue Bolt Torque Lock
-*   **Action:** Take three M6 high-tensile steel structural bolts. Thread them straight through the flared anti-fatigue mounting tabs into the heavy mass iron damping bed. Torque each bolt down uniformly using a hand wrench to exactly **6.8 Nm of torque**. The flared geometric fillet loops completely scatter cyclic fatigue stress waves, ensuring the plastic flanges can handle infinite vibration cycles without ever parking stress fractures.
+### 1. The Logarithmic Nautilus Vortex Alignment
+*   **The Physics Action:** The internal entry throat is machined with a smooth, expanding logarithmic spiral curvature. As molten polymer enters the cell under high intake pressure, this spiral forces the liquid to naturally rotate and curl into a self-stabilizing vortex. This entirely replaces sharp entry corners, dropping material boundary friction to absolute zero and expanding your stable volumetric flow rate limits without requiring higher pump torque.
 
-### 2. The 120 Hz Resonant Frequency Sweep
-*   **Action:** Turn on the digital ultrasonic driver board and trigger the low-frequency audio amplifier line. Run a baseline 10-second frequency sweep at a flat **120 Hz**. Place your hand flat against the center face of the PEI spring steel sheet. You should feel a completely uniform, intense, horizontal mechanical vibration buzz across the entire surface area of the plate, with zero rattling or clicking noises at the tab joints. The bed is now fully initialized, balanced, and ready for high-velocity zero-friction extrusion.
+### 2. The Cochlear Parabolic Acoustic Calibration
+*   **The Physics Action:** The metal backing chambers behind the 40 kHz piezoelectric crystals are sculpted into micro-parabolic acoustic mirrors. When the crystals shake, these cochlear-shaped shrouds automatically catch the backward-radiating sound energy, focus it, and bounce it straight inward toward the moving material core. This acts as a physical acoustic lens, magnifying the power of the surface-bounded Rayleigh waves on the outer skin of the plastic while keeping the exterior housing walls completely cold, silent, and vibration-isolated from your electronic mainboards.
