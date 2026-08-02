@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.3.0-Home-Solutions-Master",
+    "profile_version": "1.4.0-Home-Solutions-Master",
     "target_hardware": "Bambu_Lab_P1S_0.4_Hardened_Steel_Nozzle",
     "material_profiles": {
       
@@ -20,7 +20,7 @@
         "prime_tower_width": "15.0mm",
         "xy_hole_compensation": "0.30mm",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Heavy-duty structural elements (Plate 1). Capped at 3.5mm3/s volumetric flow speed backed by a 15mm prime pillar loop to maintain stable nozzle pressure across varying geometries, preventing spline under-extrusion errors."
+        "structural_purpose": "Heavy-duty structural elements including Sunflower mounts, Tulip terminals, and Rose-Thorn hooks. Sliced at 3.5mm3/s backed by a 15mm prime tower loop to prevent extrusion variance."
       },
       
       "sanitary_pouches_soft_tpu_85a": {
@@ -36,7 +36,7 @@
         "extrusion_multiplier_flow": "1.04",
         "cooling_fan_speed": "30%",
         "xy_contour_compensation": "-0.30mm",
-        "structural_purpose": "Flexible wall storage units (Plate 3). Sliced in soft 85A TPU over the textured PEI sheet to lock in a suede-like satin finish that matches premium ceramics."
+        "structural_purpose": "Flexible wall units and caddy grip sleeve bands (Plate 3). Sliced flat in soft-touch 85A TPU with an independent horizontal clearance buffer to ensure the male T-splines slide smoothly into the rigid Polypropylene caddy channels without sticking friction."
       },
       
       "meal_prep_containers_food_safe_pp": {
@@ -56,7 +56,7 @@
         "brim_object_gap": "0.00mm",
         "xy_hole_compensation": "0.12mm",
         "end_gcode_override": "M104 S0\nM140 S0\nM106 S255\nM107 P1 S255\nG1 X0 Y250 F3000",
-        "structural_purpose": "Food-contact elements (Plate 2). Applies an automatic +0.12mm X/Y hole compensation override to the internal hexagonal caddy keyways to neutralize Polypropylene's post-print shrinkage, guaranteeing a perfectly flush, un-jammed mechanical alignment with the 95A TPU locking pins."
+        "structural_purpose": "Hydrophobic food-contact elements and rigid caddy structures (Plate 2). Sliced with an automatic +0.12mm hole override to neutralize Polypropylene shrinkage, ensuring the female T-slot keyways remain perfectly spec-aligned to receive the separate TPU grip linings."
       }
     }
   }
