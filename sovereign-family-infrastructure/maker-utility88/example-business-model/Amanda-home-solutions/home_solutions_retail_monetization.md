@@ -1,9 +1,9 @@
 # 📊 Home Solutions Variant — Sourcing & Monetization Matrix
-**System Version:** 1.4.0-Home Master  
+**System Version:** 1.5.0-Home Master  
 **Verified Bulk BOM Cost Base:** $22.49 USD per Complete Box Set  
 **Target Consumer Price:** $129.00 USD (DTC Retail Standard Baseline)  
 
-This document codifies the precise retail pricing targets, wholesale tier channels, and projected monthly cash flow velocities for the standalone interchangeable home solution product line.
+This document codifies the precise retail pricing targets, wholesale tier channels, and projected monthly cash flow velocities for the standalone interchangeable mechanical T-slot home solution product line.
 
 ---
 
