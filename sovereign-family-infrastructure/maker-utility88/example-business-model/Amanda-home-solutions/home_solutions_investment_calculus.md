@@ -1,6 +1,6 @@
 # 📊 Floral Home Solutions — Box Set Production Calculus & Valuation
-**System Version:** 1.0.0-Home Master  
-**Total Production Mass Target:** 824 Grams Combined Resins Per Finished Box Set  
+**System Version:** 1.3.0-Home Master  
+**Total Production Mass Target:** 838 Grams Combined Resins Per Finished Box Set (Includes 14g Brim Scraps)  
 **Target Consumer Ticket Price:** $129.00 USD (Turnkey Premium Box Set Standard)  
 
 ---
@@ -19,23 +19,15 @@ All material costs are anchored directly to your wholesale volume procurement ti
 *   **Item 8: Carnation Bag Wraps (2x Clips = 16g PP) ─────►** $0.38 USD Material Base
 *   **Item 9: Rose-Thorn Hooks (4x Hooks = 18g 95A TPU) ────►** $0.47 USD Material Base
 *   **Item 10: Passion-Flower Keys (6x Keys = 6g 95A TPU) ──►** $0.16 USD Material Base
+*   **Plate 2 Mandatory 10mm PP Anti-Warp Solid Brims (14g) ─►** $0.33 USD Sacrificial Base
 *   **Total Local Farm Electrical Surcharge (12.4 Machine Hours):** $0.94 USD Utility Base
-*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** **$21.80 USD Combined Out-of-Pocket**
+*   **TOTAL COMBINED FACTORY BOX-SET PRODUCTION OVERHEAD:** \(\mathbf{$22.13\text{ USD Combined Out-of-Pocket}}\)
 
 ---
 
 ## 💰 2. RETAIL MONETIZATION & CASH FLOW ACCELERATION
 
-Because this collection is marketed as an integrated, interchangeable designer box set rather than standalone loose widgets, it commands an elite luxury price point that completely scales your garage cash flow velocity:
-
 *   **Premium Box Set Retail Ticket Price:** **$129.00 USD / Set**
 *   **Net Independent Operating Profit Margin (Virgin Run):**
-    \[\text{Net Profit Margin Per Box Set} = \$129.00 - \$21.80 = \mathbf{\$107.20\text{ USD Clear Profit}}\]
-*   **The Gross Margin Index:** An unprecedented **83.1% clear net profit retained** straight into the family ledger.
-
-### 🛡️ The 3-Printer Monthly Capacity Ledger (Fulfillment Rhythm)
-By dedicating your 3-printer fleet part-time to execute just two full box set runs per machine loop a week, your monthly revenue curves track across these exact milestones:
-
-$$\text{Fulfillment Cadence} = 6 \text{ Box Sets Per Week} \times 4 \text{ Weeks} = \mathbf{24\text{ Finished Sets / Month}}$$
-$$\text{Total Monthly Gross Revenue Pool} = 24 \text{ Sets} \times \$129.00 = \mathbf{\$3,096.00\text{ USD / Month}}$$
-$$\text{TOTAL MONTHLY NET CASH PROFIT RETAINED:} = 24 \text{ Sets} \times \$107.20 = \mathbf{\$2,572.80\text{ USD Pure Family Savings}}$$
+    \[\text{Net Profit Margin Per Box Set} = \$129.00 - \$22.13 = \mathbf{\$106.87\text{ USD Clear Profit}}\]
+*   **The Gross Margin Index:** An unprecedented **82.8% clear net profit retained** straight into the family ledger.
