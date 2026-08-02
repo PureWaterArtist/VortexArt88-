@@ -1,17 +1,34 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.1.0-Helmet-Auxetic-Master",
+    "profile_version": "1.2.0-Helmet-Advanced-Final",
     "target_hardware": "Bambu_Lab_P1S_Multi_Material_System",
     "material_profiles": {
       
       "outer_carapace_asa_structural": {
         "layer_height": "0.20mm",
         "wall_loops": 5,
+        "top_solid_layers": 4,
+        "bottom_solid_layers": 4,
         "nozzle_temperature": "260C",
         "bed_temperature": "95C",
         "cooling_fan_speed": "10%",
         "infill_density": "100%",
-        "structural_purpose": "Woodpecker energy-diverting outer shell (Matte ASA). Sliced with 5 heavy wall loops at high heat to ensure maximum impact shatter resistance and complete UV weatherproofing. Retains absolute circular geometry to cleanly receive the internal auxetic structure."
+        "structural_purpose": "Mantis helicoid energy-scattering outer shell (Matte ASA). Sliced with 5 heavy wall loops at high heat to ensure maximum impact shatter resistance and complete UV weatherproofing. Retains absolute continuous line vectors around the twisting sinusoidal wave tracks to prevent internal structural stress weak points."
+      },
+      
+      "lotus_effect_skin_papillae": {
+        "layer_height": "0.12mm",
+        "wall_loops": 1,
+        "top_solid_layers": 0,
+        "bottom_solid_layers": 0,
+        "infill_density": "100%",
+        "nozzle_temperature": "252C",
+        "bed_temperature": "95C",
+        "cooling_fan_speed": "40%",
+        "travel_speed_over_texture": "16.0mm/s",
+        "retraction_length_override": "1.40mm",
+        "z_hop_lift_height": "0.00mm",
+        "structural_purpose": "Superhydrophobic lotus leaf micro-papillae skin (Matte ASA). Sliced at a dense 0.12mm layer height with a 1.40mm extra retraction override to cleanly freeze tip pressure. Forces a slow 16.0 mm/s travel speed cap over the cone grid array to completely eliminate oozing or thin stringing, guaranteeing each 0.60mm cone tip remains perfectly sharp to trap the protective surface air envelope."
       },
       
       "internal_crumple_web_tpu_95a": {
