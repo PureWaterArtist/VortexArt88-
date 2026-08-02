@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.2.0-Helmet-Advanced-Final",
+    "profile_version": "1.3.0-Helmet-Advanced-Final",
     "target_hardware": "Bambu_Lab_P1S_Multi_Material_System",
     "material_profiles": {
       
@@ -24,11 +24,12 @@
         "infill_density": "100%",
         "nozzle_temperature": "252C",
         "bed_temperature": "95C",
-        "cooling_fan_speed": "40%",
+        "cooling_fan_speed": "45%",
         "travel_speed_over_texture": "16.0mm/s",
         "retraction_length_override": "1.40mm",
+        "wipe_distance_override": "0.15mm",
         "z_hop_lift_height": "0.00mm",
-        "structural_purpose": "Superhydrophobic lotus leaf micro-papillae skin (Matte ASA). Sliced at a dense 0.12mm layer height with a 1.40mm extra retraction override to cleanly freeze tip pressure. Forces a slow 16.0 mm/s travel speed cap over the cone grid array to completely eliminate oozing or thin stringing, guaranteeing each 0.60mm cone tip remains perfectly sharp to trap the protective surface air envelope."
+        "structural_purpose": "Superhydrophobic lotus leaf micro-papillae skin (Matte ASA). Sliced at a dense 0.12mm layer height to capture the swept flared base fillets. Hardcodes an active 45% fan speed boost combined with a 0.15mm wipe-while-retracting distance override. This freezes the hot ASA right at the tip mouth and cuts off micro-oozing, completely eliminating plastic hair webbing to ensure the fluid-deflection channels stay perfectly hollow and open."
       },
       
       "internal_crumple_web_tpu_95a": {
@@ -42,7 +43,7 @@
         "cooling_fan_speed": "35%",
         "travel_speed_over_texture": "18.0mm/s",
         "z_hop_lift_height": "0.00mm",
-        "structural_purpose": "3D Re-entrant auxetic honeycomb shock web (95A Dense TPU). Sliced with top and bottom layers dropped to 0 to keep the bow-tie honeycomb channels hollow and wide-open for sweat-vapor ventilation. Enforces a flat 0.00mm Z-hop lift and a strict 18.0mm/s speed cap around the angled re-entrant struts to eliminate retraction stringing, ensuring the material can compress and expand auxetically with zero physical obstructions."
+        "structural_purpose": "3D Re-entrant auxetic honeycomb shock web (95A Dense TPU). Sliced with top and bottom layers dropped to 0 to keep the bow-tie honeycomb channels hollow and wide-open for sweat-vapor ventilation. Enforces a flat 0.00mm Z-hop lift and a strict 18.0mm/s speed cap around the angled re-entrant struts to eliminate retraction stringing, ensuring the material can compress and expand auxetically with zero physical openings."
       }
     }
   }
