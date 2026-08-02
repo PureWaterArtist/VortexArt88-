@@ -1,6 +1,6 @@
 # 📊 Biomimetic Claw Clips — Production Calculus & Margin Matrix
-**System Version:** 1.0.0-Claw Clip Master  
-**Average Part Mass Overhead:** 18 Grams Combined Polymers Per Completed Unit  
+**System Version:** 1.2.0-Claw Clip Master  
+**Average Part Mass Overhead:** 11 Grams Combined Polymers Per Completed Unit (Optimized Gyroid Weight)  
 **Target Consumer Price:** $18.00 USD (Minimalist Luxury Standard Baseline)  
 
 ---
@@ -9,15 +9,15 @@
 
 All calculations are anchored directly to your wholesale lot procurement pricing tiers ($26.00/kg for dense 95A TPU and $24.00/kg for pure bulk Polypropylene spools).
 
-*   **Raw Polymer Material Allocation (18g Mass):** $0.45 USD Material Base
+*   **Raw Polymer Material Allocation (11g Mass):** $0.29 USD Material Base
 *   **Total Local Garage Electrical Utility Surcharge (24-Minute Print):** $0.03 USD Power Base
-*   **TOTAL COMBINED FACTORY UNIT OVERHEAD:** **$0.48 USD Total Sunk Cost**
+*   **TOTAL COMBINED FACTORY UNIT OVERHEAD:** **$0.32 USD Total Sunk Cost**
 
 ### 💰 Direct Monetization Matrix:
 *   **DTC Retail Front-Facing Ticket Price:** **$18.00 USD / Clip**
 *   **Net Retained Cash Profit Per Clip Sale:**
-    $$\text{Net Profit} = \$18.00 - \$0.48 = \mathbf{\$17.52\text{ USD Clear Profit Per Unit}}$$
-*   **Operating Efficiency Index:** An exceptional **97.3% clear net profit margin** retained straight into the family treasury.
+    $$\text{Net Profit} = \$18.00 - \$0.32 = \mathbf{\$17.68\text{ USD Clear Profit Per Unit}}$$
+*   **Operating Efficiency Index:** An exceptional **98.2% clear net profit margin** retained straight into the family treasury.
 
 ---
 
@@ -36,4 +36,4 @@ If you run just **one single multi-tile plate across your fleet a week** (produc
 
 *   **Total Monthly Production Output:** **192 Finished Luxury Clips / Month**
 *   **Total Monthly Gross Revenue Pool:** 192 Clips × \$18.00 Retail Ticket = **$3,456.00 USD / Month**
-*   **TOTAL MONTHLY NET CASH PROFIT RETAINED:** 192 Clips × \$17.52 Margin = **$3,363.84 USD Pure Profit / Month**
+*   **TOTAL MONTHLY NET CASH PROFIT RETAINED:** 192 Clips × \$17.68 Margin = **$3,394.56 USD Pure Profit / Month**
