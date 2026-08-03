@@ -1,0 +1,29 @@
+{
+  "matrix_biomimetic_foundry_profiles": {
+    "profile_version": "1.1.0-Decal-Flag-Master",
+    "target_hardware": "Bambu_Lab_P1S_Multi_Material_System",
+    "material_profiles": {
+      
+      "tree_frog_base_tpu_95a": {
+        "layer_height": "0.16mm",
+        "wall_loops": 3,
+        "nozzle_temperature": "236C",
+        "bed_temperature": "55C",
+        "cooling_fan_speed": "25%",
+        "infill_density": "100%",
+        "structural_purpose": "Flexible anti-scratch suction base (95A Black TPU). Sliced at 100% density with top solid infill layers forced flat to form an airtight sealing perimeter gasket, ensuring creeping road dust and harsh winter moisture are locked away from the vehicle paint."
+      },
+      
+      "national_flag_strata_asa": {
+        "layer_height": "0.12mm",
+        "wall_loops": 3,
+        "nozzle_temperature": "258C",
+        "bed_temperature": "90C",
+        "cooling_fan_speed": "15%",
+        "max_volumetric_speed": "4.2mm3/s",
+        "interfacial_tie_layer_gap": "0.15mm",
+        "structural_purpose": "UV-stabilized national color strata skin (Matte Colored ASA). Hardcodes an explicit 0.15mm interfacial co-polymer compression overlap where the colored flag layers anchor directly into the active TPU jigsaw pins, maximizing melt-welding cross-adhesion to prevent highway delamination while completely eliminating color fade."
+      }
+    }
+  }
+}
