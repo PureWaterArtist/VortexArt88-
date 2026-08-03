@@ -1,6 +1,6 @@
 {
   "matrix_biomimetic_foundry_profiles": {
-    "profile_version": "1.1.0-Decal-Flag-Master",
+    "profile_version": "1.2.0-Decal-Flag-Master",
     "target_hardware": "Bambu_Lab_P1S_Multi_Material_System",
     "material_profiles": {
       
@@ -22,7 +22,7 @@
         "cooling_fan_speed": "15%",
         "max_volumetric_speed": "4.2mm3/s",
         "interfacial_tie_layer_gap": "0.15mm",
-        "structural_purpose": "UV-stabilized national color strata skin (Matte Colored ASA). Hardcodes an explicit 0.15mm interfacial co-polymer compression overlap where the colored flag layers anchor directly into the active TPU jigsaw pins, maximizing melt-welding cross-adhesion to prevent highway delamination while completely eliminating color fade."
+        "structural_purpose": "UV-stabilized national color strata skin (Matte Colored ASA). Hardcodes an explicit 0.15mm interfacial co-polymer compression overlap where the colored flag layers anchor directly into the active TPU jigsaw pins, maximizing melt-welding cross-adhesion to prevent highway delamination while completely maintaining a locked 0.15mm SUTURE_GAP boundary regardless of dimensional changes."
       }
     }
   }
