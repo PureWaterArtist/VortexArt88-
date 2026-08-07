@@ -1,3 +1,5 @@
+EMAIL: katie@engineventures.com
+
 Subject: Parametric Biomimetic Engine for 100% Closed-Loop Manufacturing
 --------------------------------------------------------------------------------
 
