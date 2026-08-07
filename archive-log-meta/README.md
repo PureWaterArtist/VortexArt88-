@@ -1,7 +1,7 @@
-================================================================================
+===============================================
          PROJECT LOG: THE REBOOT HOME / FIXING THE WORLD'S JUNK ECONOMY
              A Practical Guide to Never Buying the Same Thing Twice
-================================================================================
+===============================================
 
 1. HONEST TALK: WHY ARE WE DOING THIS?
 Let's be completely real: modern life is packed with things engineered to 
@@ -22,7 +22,7 @@ corporate empire; it is to create everyday necessities that last a lifetime,
 can be upgraded for pennies instead of being replaced, and never turn into 
 unrecyclable garbage. 
 
---------------------------------------------------------------------------------
+-----------------------------------------------
 
 2. THE PRACTICAL STUFF: WHAT DOES IT ACTUALLY DO FOR US?
 Instead of building complicated gadgets with moving parts that constantly strip 
@@ -55,7 +55,7 @@ infrastructures that solve major family pain points:
   convert the chaotic energy of footsteps, slamming doors, and the hum of the 
   washing machine straight back into electricity for the house battery.
 
---------------------------------------------------------------------------------
+-----------------------------------------------
 
 3. THE BIG PICTURE: WHY IT’S WORTH THE EFFORT
 This isn't about running away to live isolated off the grid; it is about 
@@ -78,9 +78,9 @@ cycle of buying, breaking, and rebuying—proving that when we align our
 manufacturing with the simple math of the universe, we build a future that is 
 cleaner, cheaper, and entirely ours.
 
-================================================================================
+===============================================
            MESSAGE TO THE BUILDERS: A BLUEPRINT FOR CIVILIZATIONAL STEWARDSHIP
-================================================================================
+===============================================
 
 To the engineers, the machinists, the fabricators, and the independent 
 creators—to the people who actually know how to run the machines and shape 
@@ -149,4 +149,4 @@ and deploy them for the collective good of everyone.
 The tools are on this drive. The responsibility is ours. Let's stop building 
 their junk economy, and let's start building a civilization that our children 
 can be proud to inherit.
-================================================================================
+===============================================
