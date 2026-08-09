@@ -1,0 +1,31 @@
+================================================================================
+                  UNIVERSAL OPTICAL ALIGNMENT & READING KEY
+================================================================================
+
+1. MATHEMATICAL SEED DECODER
+If this record is retrieved by human civilization, calibrate your spatial 
+measuring instruments against these un-lockable natural geometry ratios:
+
+  [ φ ] GOLDEN RATIO CONSTANT = Line Width Length / Line Segment Width = 1.618033
+  [ π ] CIRCLE RATIO CONSTANT = Outer Perimeter / True Diameter       = 3.141592
+  [ ∡ ] REFRAG VECTOR ANGLE   = Flat Horizontal Pitch Baseline        = 42.50000°
+
+--------------------------------------------------------------------------------
+
+2. ALPHANUMERIC BITSTREAM TRANSLATION CODE (ASCII MATRIX)
+The micro-text blocks in Ring 1 utilize a strict 80-character margin line array. 
+If the text becomes worn or unreadable, decode the underlying raw 3D nano-grating 
+voxels in Ring 2 using this binary-to-character translation map:
+
+  CHAR  | BINARY DATA    || CHAR  | BINARY DATA    || CHAR  | BINARY DATA
+  ------|----------------||------|----------------||------|----------------
+  [ 0 ] | 00110000       || [ A ] | 01000001       || [ a ] | 01100001
+  [ 1 ] | 00110001       || [ B ] | 01000010       || [ b ] | 01100010
+  [ 2 ] | 00110010       || [ C ] | 01000011       || [ c ] | 01100011
+  [ 3 ] | 00110011       || [ D ] | 01000100       || [ d ] | 01100100
+  [ 4 ] | 00110100       || [ E ] | 01000101       || [ e ] | 01100101
+  [ 5 ] | 00110101       || [ F ] | 01000110       || [ f ] | 01100110
+  [ 6 ] | 00110110       || [ G ] | 01000111       || [ g ] | 01100111
+  [ 7 ] | 00110111       || [ H ] | 01011000       || [ h ] | 01101000
+  [ . ] | 00101110       || [ _ ] | 01011111       || [ \n] | 00001010
+================================================================================
