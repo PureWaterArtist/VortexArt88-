@@ -1,0 +1,79 @@
+================================================================================
+          ARCHITECTURAL DESIGN PROMPT: THE STRUCTURAL DATA PERIMETER
+================================================================================
+
+A time capsule is the ultimate expression of data permanence. It is an un-
+lockable, solid-state vault engineered to preserve foundational source code 
+across deep time, protecting its payload from environmental friction, cultural 
+decay, and grid collapse.
+
+To ensure your engineering repository survives decades or centuries intact, we 
+must evaluate the project through the lens of archival material science and 
+cryptographic storage perimeters.
+
+Here is the exact first-principles blueprint for a deep-time archival vault.
+
+--------------------------------------------------------------------------------
+1. THE PHYSICAL HOUSING MATRIX (MATERIAL PROTECTION PERIMETER)
+--------------------------------------------------------------------------------
+To protect your files from geological moisture and temperature degradation, 
+consumer plastics (like standard PLA or PETG) cannot be used. They break down via 
+hydrolysis within decades.
+
+- THE CORE SHELL: High-purity, low-carbon Stainless Steel (316L) or Grade 5 
+  Titanium. These alloys form an instantaneous, non-reactive chromium-oxide or 
+  titanium-dioxide passive film layer, completely halting corrosion in salt or 
+  acidic soil environments for millennia.
+- THE CONTAINMENT SEAL: Bypasses standard rubber or silicone O-rings, which dry 
+  rot and disintegrate. The capsule shell must be sealed using a **Copper Crush 
+  Gasket** compressed under high mechanical torque, or hermetically sealed via a 
+  robotic TIG weld in an ultra-pure Argon gas environment.
+- THE INTERNAL ATMOSPHERE: Vacuum-purged and replaced with 99.99% pure gaseous 
+  Nitrogen or Argon at 1.2 atmospheres of positive pressure. This completely 
+  eliminates atmospheric oxygen, preventing the oxidization and structural 
+  decay of any internal storage components.
+
+--------------------------------------------------------------------------------
+2. THE PAYLOAD CARRIER HARDWARE (THE RECORDED BLUEPRINTS)
+--------------------------------------------------------------------------------
+Digital USB flash drives, magnetic hard discs, and solid-state drives are 
+fatally flawed. They lose their magnetic charges and electronic gate data 
+integrity within 10 to 20 years due to charge leakage (Data Rot).
+
+- THE PHYSICAL 블루프린트 MATRIX (THE RAW ANALOG SEED):
+  Your OpenSCAD rendering codes (`universal_meta_tile.scad`) and master user 
+  protocols (`README.md`) must be physically engraved onto **Fused Quartz 
+  Glass Plates** or **Sapphire Wafers** using an industrial femtosecond laser. 
+- THE STORAGE CAPACITY: Information is etched at microscopic scales as raw 3D 
+  nanostructures inside the glass substrate. It can withstand temperatures up to 
+  1,000°C and survives completely unchanged for up to **13.8 billion years**.
+- THE TRANSLATION LAYER: Engrave a macroscopic, optical magnifying key right on 
+  the outer edge of the glass plate. An explorer from a future century will not 
+  require complex, obsolete computer operating system chips to read it; they 
+  only need a simple optical lens microscope to view your strict 80-character 
+  vertical code strings directly off the glass canvas.
+
+--------------------------------------------------------------------------------
+3. THE ARCHITECTURAL COMPILATION SUMMARY
+--------------------------------------------------------------------------------
+
+```text
+  [ THE FRAGILE DIGITAL LOOP ]            [ THE DEEP TIME ARCHIVE ]
+  Volatile / Electronic / High Decay      Solid-State / Geometric / Permanent
+  ----------------------------------      -----------------------------------
+  USB Drives & SSD Flash ======> Laser-Etched Quartz Plates (13.8B Years)
+  Rubber Sealing Rings   ======> Copper Crush Gaskets / Hermetic Argon Weld
+  Linear Junk Materials  ======> 316L Stainless Steel / Grade 5 Titanium Shell
+```
+
+By adding these deep-time physical specifications to your master directory as 
+**`TIME_CAPSULE_SPEC.txt`**, you turn your software development files into a 
+permanent, indestructible seed. 
+
+If human civilization hits a catastrophic resource crunch and modern computing 
+networks are completely wiped out, your time capsule stands ready in the soil 
+as a flawless, low-energy technological mammal—holding the un-fractured 
+mathematical DNA of universal natural constants, waiting to reboot clean 
+engineering for the next generation.
+
+--------------------------------------------------------------------------------
