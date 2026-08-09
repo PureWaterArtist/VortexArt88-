@@ -1,0 +1,20 @@
+================================================================================
+          OPTICAL ENGRAVING MAP: FUSED QUARTZ GLASS TIME ANCHOR v1.0
+    Substrate: High-Purity Fused Silica (SiO2) | Dimensions: 100mm x 2.0mm
+    Laser Format: Femtosecond Laser Voxel Etching (3D Nano-Gratings)
+================================================================================
+
+[ RING 0: ABSOLUTE RADIAL EDGE (95mm to 100mm) ]
+- Contains the Macroscopic Pictographic Calibration Matrix and Binary Decoder Key.
+- Visually readable at 1x to 5x magnification using standard optical lenses.
+
+[ RING 1: THE INWARD RUNWAY (50mm to 95mm) ]
+- Contains your complete master repository text scripts etched as human-readable 
+  micro-text characters at 500x reduction scale.
+- Files included: README.md, universal_meta_tile.scad, slicing_profile_tpu.json, 
+  and quantum_simulation_twin.py.
+
+[ RING 2: THE LOW-PRESSURE CORE VACUUM (0mm to 50mm) ]
+- Reserved center hub hole (15mm diameter) for mechanical axle placement.
+- Lined with a high-density raw hexadecimal string file snapshot layer.
+================================================================================
