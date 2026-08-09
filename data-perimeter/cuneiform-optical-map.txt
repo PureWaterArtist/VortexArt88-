@@ -1,0 +1,59 @@
+================================================================================
+          CUNEIFORM OPTICAL CHARACTER MAP: GLASS CAPSULE FIELD v1.0
+    Substrate Zone: Ring 0 Peripheral Alignment Interface (90mm to 95mm)
+    Encoding Target: Universal Phonetic-to-Geometric Character Map
+================================================================================
+
+To ensure an observer from a future era can decode your deep-time quartz plate 
+without needing electronic software engines, this map pairs basic alphanumeric 
+keyboard symbols with standard, classical Sumerian cuneiform ciphers. 
+
+The signs are drawn using basic typographic vertical lines (|), horizontal 
+dashes (-), and triangular wedges (<) to show the laser engraving system exactly 
+how to burn the physical voxels into the glass canvas.
+
+--------------------------------------------------------------------------------
+
+1. THE GEOMETRIC CIPHER DIRECTORY
+
+  [ SIGN 1: "AN" ]  ===> Represents: Sky / Deity / High Order
+  Wedge Layout:       \  |  /
+                    -----*-----  (Four crossing lines forming a star)
+                      /  |  \
+
+  [ SIGN 2: "KI" ]  ===> Represents: Earth / Land / Physical Foundation
+  Wedge Layout:     |----|----|  (Two horizontal lines cut by three vertical 
+
+                    |----|----|   wedges, forming an interlocking grid)
+
+  [ SIGN 3: "A" ]   ===> Represents: Water / Fluid Flow / Momentum Vector
+  Wedge Layout:     \  \  \      (Two short vertical stamps placed side by
+
+                     |  |  |      side, followed by three cascading waves)
+                    /  /  /
+
+  [ SIGN 4: "E2" ]  ===> Represents: House / Containment Shell / Chassis
+  Wedge Layout:     |--------|   (A large outer box outline containing two
+
+                    |  |--|  |   smaller interior chambers, modeling your 
+                    |--------|   vacuum-sealed time capsule housing)
+
+--------------------------------------------------------------------------------
+
+2. THE ALPHANUMERIC-TO-CUNEIFORM SEED DECODER MATRIX
+This lookup block allows a future explorer to translate modern alphabet codes 
+directly into ancient, solid-state geometric word-signs:
+
+  MODERN INPUT | PHONETIC SYLLABLE | CUNEIFORM LASER ENGRAVING TOOLPATH
+  -------------|-------------------|------------------------------------
+  [ 0 ]        | min               | ||                         (Two Bars)
+  [ 1 ]        | esh               | |||                      (Three Bars)
+  [ A ]        | am                | ------->◀     (Horizontal Line to Wedge)
+  [ B ]        | ba                | ◀-------     (Wedge to Horizontal Line)
+  [ C ]        | ku                | ◀◀◀             (Three Corner Wedges)
+  [ E ]        | en                | |----◀       (Vertical, Horizontal, Wedge)
+  [ G ]        | gal               | ◀====|==       (Wedge, Parallel, Vertical)
+  [ L ]        | lugal             | ◀===|===◀  (Double Wedge Perimeter Lock)
+  [ R ]        | ru                | --|--◀     (Crossed Lines to Corner Wedge)
+  [ S ]        | sar               | |==|==|      (Interlocking Pillar Columns)
+================================================================================
